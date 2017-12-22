@@ -67,11 +67,6 @@ hdf5:
   - 1.10               # [not ppc64le]
 icu:
   - 58                 # [not ppc64le]
-ipython:
-  - 5.4                # [not ppc64le]
-  - 5.3                    # [ppc64le]
-  - 6.1
-  - 6.1
 jpeg:
   - 9
 json_c:
@@ -200,7 +195,6 @@ zip_keys:
     - qt
   -
     - python
-    - ipython
     - vc                        # [win]
     - c_compiler                # [win]
     - cxx_compiler              # [win]
