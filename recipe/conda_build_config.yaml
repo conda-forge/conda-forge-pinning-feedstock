@@ -5,7 +5,7 @@ blas_impl:
 arpack:
   - 3.5
 boost:
-  - 1.65
+  - 1.65.1
 bzip2:
   - 1.0
 cairo:
@@ -67,11 +67,6 @@ hdf5:
   - 1.10               # [not ppc64le]
 icu:
   - 58                 # [not ppc64le]
-ipython:
-  - 5.4                # [not ppc64le]
-  - 5.3                    # [ppc64le]
-  - 6.1
-  - 6.1
 jpeg:
   - 9
 json_c:
@@ -194,16 +189,12 @@ zeromq:
   - 4.2
 zlib:
   - 1.2
-pin_run_as_build:
-  libboost:
-    max_pin: x.x
 zip_keys:
   -
     - pyqt
     - qt
   -
     - python
-    - ipython
     - vc                        # [win]
     - c_compiler                # [win]
     - cxx_compiler              # [win]
