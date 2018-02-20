@@ -2,14 +2,6 @@ blas_impl:
   # mkl-devel packages are available, and conda-forge could enable them if they'd like
   # - mkl                        # [x86 or x86_64]
   - openblas
-arpack:
-  - 3.5
-boost:
-  - 1.65.1
-bzip2:
-  - 1.0
-cairo:
-  - 1.14
 # This differs from target_platform in that it determines what subdir the compiler
 #    will target, not what subdir the compiler package will be itself.
 #    For example, we need a win-64 vs2008_win-32 package, so that we compile win-32
@@ -17,8 +9,6 @@ cairo:
 cross_compiler_target_platform:  # [win]
   - win-32                     # [win]
   - win-64                     # [win]
-curl:
-  - 7.54
 c_compiler:                    # [win]
   - vs2008                     # [win]
   - vs2015                     # [win]
@@ -29,10 +19,46 @@ cxx_compiler:                  # [win]
   - vs2015                     # [win]
 CONDA_BUILD_SYSROOT:           # [osx]
   - /opt/MacOSX10.9.sdk        # [osx]
+macos_min_version:
+  - 10.9
+macos_machine:
+  - x86_64-apple-darwin13.4.0
+MACOSX_DEPLOYMENT_TARGET:
+  - 10.9
+target_platform:
+  - win-64                     # [win]
+  - win-32                     # [win]
 VERBOSE_AT:
   - V=1
 VERBOSE_CM:
   - VERBOSE=1
+zip_keys:
+  -
+    - pyqt
+    - qt
+  -
+    - python
+    - vc                        # [win]
+    - c_compiler                # [win]
+    - cxx_compiler              # [win]
+
+# pin_run_as_build for packages from defaults
+pin_run_as_build:
+  numpy:
+    max_pin: x
+    min_pin: x.x
+
+# Pinning packages
+arpack:
+  - 3.5
+boost:
+  - 1.65.1
+bzip2:
+  - 1.0
+cairo:
+  - 1.14
+curl:
+  - 7.54
 dbus:
   - 1
 expat:
@@ -107,12 +133,6 @@ libxml2:
   - 2.9
 lzo:
   - 2
-macos_min_version:
-  - 10.9
-macos_machine:
-  - x86_64-apple-darwin13.4.0
-MACOSX_DEPLOYMENT_TARGET:
-  - 10.9
 metis:
   - 5.1
 mkl:
@@ -170,9 +190,6 @@ sqlite:
   - 3
 sundials:
   - 2.7
-target_platform:
-  - win-64                     # [win]
-  - win-32                     # [win]
 tk:
   - 8.6                # [not ppc64le]
 vc:
@@ -189,12 +206,3 @@ zeromq:
   - 4.2
 zlib:
   - 1.2
-zip_keys:
-  -
-    - pyqt
-    - qt
-  -
-    - python
-    - vc                        # [win]
-    - c_compiler                # [win]
-    - cxx_compiler              # [win]
