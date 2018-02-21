@@ -180,7 +180,7 @@ qt:
   - 5.6
 readline:
   - 7
-r-base:
+r_base:
   - 3.3.2
   - 3.4.1
 scipy:
