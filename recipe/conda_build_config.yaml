@@ -88,7 +88,7 @@ glib:
 glpk:
   - 4.61
 gmp:
-  - 6.1
+  - 6
 harfbuzz:
   - 1.7
 hdf4:
