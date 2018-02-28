@@ -52,13 +52,15 @@ pin_run_as_build:
 arpack:
   - 3.5
 boost:
-  - 1.65.1
+  - 1.66.0
+boost_cpp:
+  - 1.66.0
 bzip2:
   - 1.0
 cairo:
   - 1.14
 curl:
-  - 7.54
+  - 7.44
 dbus:
   - 1
 expat:
@@ -70,19 +72,21 @@ flann:
 fontconfig:
   - 2.12
 freetype:
-  - 2.8                # [not ppc64le]
+  - 2.8.1              # [not ppc64le]
 gstreamer:
   - 1.12
 gst_plugins_base:
   - 1.12
+gdal:
+  - 2.2.*
 geos:
   - 3.6.2
 giflib:
   - 5.1
 glib:
-  - 2.53
+  - 2.55
 glpk:
-  - 4.62
+  - 4.61
 gmp:
   - 6
 harfbuzz:
@@ -90,7 +94,7 @@ harfbuzz:
 hdf4:
   - 4.2
 hdf5:
-  - 1.10               # [not ppc64le]
+  - 1.10.1             # [not ppc64le]
 icu:
   - 58                 # [not ppc64le]
 jpeg:
@@ -117,16 +121,18 @@ libmatio:
   - 1.5
 libnetcdf:
   - 4.4
+libpcap:
+  - 1.8
 libpng:
-  - 1.6
+  - 1.6.32
 librdkafka:
-  - 0.9.5
+  - 0.9.4
 libssh2:
   - 1.8
 libsvm:
   - 3.21
 libtiff:
-  - 4
+  - 4.0.8
 libwebp:
   - 0.5
 libxml2:
@@ -167,7 +173,7 @@ pixman:
 poppler:
   - 0.61
 proj4:
-  - 4
+  - 4.9.3
 protobuf:
   - 3.4
 python:
@@ -179,18 +185,18 @@ pyqt:
 qt:
   - 5.6
 readline:
-  - 7
+  - 7.0
 r_base:
   - 3.3.2
   - 3.4.1
 scipy:
   - 0.19
 snappy:
-  - 1
+  - 1.1.6
 sox:
-  - 14.4
+  - 14.4.2
 sqlite:
-  - 3
+  - 3.20
 sundials:
   - 2.7
 tk:
@@ -200,12 +206,12 @@ vc:
   - 14
   - 14
 vlfeat:
-  - 0.9
+  - 0.9.20
 xerces_c:
-  - 3
+  - 3.2.0
 xz:
-  - 5
+  - 5.2
 zeromq:
-  - 4.2
+  - 4.2.1  # should be 4.2.*, but ABI is incorrectly tagged
 zlib:
-  - 1.2
+  - 1.2.11
