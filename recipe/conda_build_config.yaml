@@ -213,3 +213,5 @@ zeromq:
   - 4.2.1  # should be 4.2.*, but ABI is incorrectly tagged
 zlib:
   - 1.2.11
+zstd:
+  - 1.3.3
