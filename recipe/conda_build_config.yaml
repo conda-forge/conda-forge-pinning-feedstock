@@ -123,6 +123,8 @@ libpcap:
   - 1.8
 libpng:
   - 1.6.32
+libprotobuf:
+  - 3.5
 librdkafka:
   - 0.9.4
 libssh2:
@@ -172,8 +174,6 @@ poppler:
   - 0.61
 proj4:
   - 4.9.3
-protobuf:
-  - 3.4
 python:
   - 2.7
   - 3.5
