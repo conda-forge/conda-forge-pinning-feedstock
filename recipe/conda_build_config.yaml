@@ -194,7 +194,7 @@ r_base:
 scipy:
   - 0.19
 snappy:
-  - 1.1.6
+  - 1.1.7
 sox:
   - 14.4.2
 sqlite:
