@@ -139,7 +139,7 @@ libwebp:
   - 0.5
 libxml2:
   - 2.9
-lz4-c:
+lz4_c:
   - 1.8.1
 lzo:
   - 2
