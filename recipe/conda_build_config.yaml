@@ -86,7 +86,7 @@ giflib:
 glib:
   - 2.55
 glpk:
-  - 4.61
+  - 4.65
 gmp:
   - 6
 harfbuzz:
