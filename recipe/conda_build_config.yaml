@@ -71,6 +71,8 @@ fontconfig:
   - 2.12
 freetype:
   - 2.8.1              # [not ppc64le]
+gsl:
+  - 2.2
 gstreamer:
   - 1.12
 gst_plugins_base:
