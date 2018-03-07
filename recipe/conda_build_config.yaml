@@ -189,7 +189,6 @@ qt:
 readline:
   - 7.0
 r_base:
-  - 3.3.2
   - 3.4.1
 scipy:
   - 0.19
