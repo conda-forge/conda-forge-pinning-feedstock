@@ -97,6 +97,8 @@ hdf5:
   - 1.10.1             # [not ppc64le]
 icu:
   - 58                 # [not ppc64le]
+isl:
+  - 0.19
 jpeg:
   - 9
 json_c:
