@@ -199,7 +199,7 @@ snappy:
 sox:
   - 14.4.2
 sqlite:
-  - 3.20
+  - 3
 sundials:
   - 2.7
 tk:
