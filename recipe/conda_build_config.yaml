@@ -202,10 +202,10 @@ sundials:
   - 2.7
 tk:
   - 8.6                # [not ppc64le]
-vc:
-  - 9
-  - 14
-  - 14
+vc:                    # [win]
+  - 9                  # [win]
+  - 14                 # [win]
+  - 14                 # [win]
 vlfeat:
   - 0.9.20
 xerces_c:
