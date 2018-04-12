@@ -1,4 +1,4 @@
-{% set version = "2018.03.18" %}
+{% set version = datetime.datetime.today().strftime('%Y.%m.%d') %}
 
 package:
   name: conda-forge-pinning
