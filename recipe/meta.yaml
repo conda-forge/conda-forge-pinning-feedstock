@@ -14,6 +14,10 @@ build:
     - cp conda_build_config.yaml $PREFIX      # [unix]
     - copy conda_build_config.yaml %PREFIX%   # [win]
 
+requirements:
+  run_constrained:
+    - conda-build >=3.8.1,<4
+
 test:
   commands:
     - test -f $PREFIX/conda_build_config.yaml
