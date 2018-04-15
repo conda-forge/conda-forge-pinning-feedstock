@@ -7,7 +7,6 @@ blas_impl:
 #    For example, we need a win-64 vs2008_win-32 package, so that we compile win-32
 #    code on win-64 miniconda.
 cross_compiler_target_platform:  # [win]
-  - win-32                     # [win]
   - win-64                     # [win]
 c_compiler:                    # [win]
   - vs2008                     # [win]
@@ -25,7 +24,6 @@ MACOSX_DEPLOYMENT_TARGET:      # [osx]
   - 10.9                       # [osx]
 target_platform:
   - win-64                     # [win]
-  - win-32                     # [win]
 VERBOSE_AT:
   - V=1
 VERBOSE_CM:
@@ -97,6 +95,8 @@ hdf5:
   - 1.10.1             # [not ppc64le]
 icu:
   - 58                 # [not ppc64le]
+isl:
+  - 0.19
 jpeg:
   - 9
 json_c:
@@ -189,7 +189,6 @@ qt:
 readline:
   - 7.0
 r_base:
-  - 3.3.2
   - 3.4.1
 scipy:
   - 0.19
@@ -203,10 +202,10 @@ sundials:
   - 2.7
 tk:
   - 8.6                # [not ppc64le]
-vc:
-  - 9
-  - 14
-  - 14
+vc:                    # [win]
+  - 9                  # [win]
+  - 14                 # [win]
+  - 14                 # [win]
 vlfeat:
   - 0.9.20
 xerces_c:
