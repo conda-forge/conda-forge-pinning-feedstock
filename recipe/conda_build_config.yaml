@@ -38,12 +38,6 @@ zip_keys:
     - c_compiler                # [win]
     - cxx_compiler              # [win]
 
-# pin_run_as_build for packages from defaults
-pin_run_as_build:
-  numpy:
-    max_pin: x
-    min_pin: x.x
-
 # Pinning packages
 arpack:
   - 3.5
