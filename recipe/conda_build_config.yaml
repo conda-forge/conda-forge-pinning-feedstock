@@ -38,6 +38,166 @@ zip_keys:
     - c_compiler                # [win]
     - cxx_compiler              # [win]
 
+# TODO: remove these when run_exports are added to the packages.
+pin_run_as_build:
+  arpack:
+    max_pin: x.x
+  bzip2:
+    max_pin: x.x
+  cairo:
+    max_pin: x.x
+  curl:
+    max_pin: x.x
+  dbus:
+    max_pin: x
+  expat:
+    max_pin: x.x
+  ffmpeg:
+    max_pin: x.x.x
+  flann:
+    max_pin: x.x.x
+  fontconfig:
+    max_pin: x.x
+  freetype:
+    max_pin: x.x.x
+  gsl:
+    max_pin: x.x
+  gstreamer:
+    max_pin: x.x
+  gst_plugins_base:
+    max_pin: x.x
+  gdal:
+    max_pin: x.x
+  geos:
+    max_pin: x.x.x
+  giflib:
+    max_pin: x.x
+  glib:
+    max_pin: x.x
+  glpk:
+    max_pin: x.x
+  gmp:
+    max_pin: x
+  harfbuzz:
+    max_pin: x.x
+  hdf4:
+    max_pin: x.x
+  hdf5:
+    max_pin: x.x.x
+  icu:
+    max_pin: x
+  isl:
+    max_pin: x.x
+  jpeg:
+    max_pin: x
+  json_c:
+    max_pin: x.x
+  krb5:
+    max_pin: x.x
+  libblitz:
+    max_pin: x.x
+  libdap4:
+    max_pin: x.x
+  libevent:
+    max_pin: x.x.x
+  libffi:
+    max_pin: x.x
+  libgdal:
+    max_pin: x.x
+  libiconv:
+    max_pin: x.x
+  libkml:
+    max_pin: x.x
+  libmatio:
+    max_pin: x.x
+  libnetcdf:
+    max_pin: x.x
+  libpcap:
+    max_pin: x.x
+  libpng:
+    max_pin: x.x.x
+  libprotobuf:
+    max_pin: x.x
+  librdkafka:
+    max_pin: x.x.x
+  libssh2:
+    max_pin: x.x
+  libsvm:
+    max_pin: x.x
+  libtiff:
+    max_pin: x.x.x
+  libwebp:
+    max_pin: x.x
+  libxml2:
+    max_pin: x.x
+  lz4_c:
+    max_pin: x.x.x
+  lzo:
+    max_pin: x
+  metis:
+    max_pin: x.x
+  mkl:
+    max_pin: x
+  mpfr:
+    max_pin: x
+  ncurses:
+    max_pin: x.x
+  netcdf_cxx4:
+    max_pin: x.x
+  netcdf_fortran:
+    max_pin: x.x
+  nettle:
+    max_pin: x.x
+  openblas:
+    max_pin: x.x.x
+  openjpeg:
+    max_pin: x.x
+  openssl:
+    max_pin: x.x.x
+  pango:
+    max_pin: x.x
+  perl:
+    max_pin: x.x
+  pixman:
+    max_pin: x.x
+  poppler:
+    max_pin: x.x
+  proj4:
+    max_pin: x.x.x
+  pyqt:
+    max_pin: x.x
+  qt:
+    max_pin: x.x
+  readline:
+    max_pin: x.x
+  r_base:
+    max_pin: x.x.x
+  snappy:
+    max_pin: x.x.x
+  sox:
+    max_pin: x.x.x
+  sqlite:
+    max_pin: x
+  sundials:
+    max_pin: x.x
+  tk:
+    max_pin: x.x
+  vc:
+    max_pin: x
+  vlfeat:
+    max_pin: x.x.x
+  xerces_c:
+    max_pin: x.x.x
+  xz:
+    max_pin: x.x
+  zeromq:
+    max_pin: x.x.x
+  zlib:
+    max_pin: x.x
+  zstd:
+    max_pin: x.x.x
+
+
 # Pinning packages
 arpack:
   - 3.5
@@ -70,7 +230,7 @@ gstreamer:
 gst_plugins_base:
   - 1.12
 gdal:
-  - 2.2.*
+  - 2.2
 geos:
   - 3.6.2
 giflib:
@@ -184,8 +344,6 @@ readline:
   - 7.0
 r_base:
   - 3.4.1
-scipy:
-  - 0.19
 snappy:
   - 1.1.7
 sox:
