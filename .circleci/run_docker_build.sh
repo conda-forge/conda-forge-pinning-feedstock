@@ -17,7 +17,7 @@ channels:
  - defaults
 
 conda-build:
- root-dir: /feedstock_root/build_artefacts
+ root-dir: /home/conda/feedstock_root/build_artifacts
 
 show_channel_urls: true
 
@@ -34,11 +34,12 @@ if hash docker-machine 2> /dev/null && docker-machine active > /dev/null; then
     HOST_USER_ID=$(docker-machine ssh $(docker-machine active) id -u)
 fi
 
-rm -f "$FEEDSTOCK_ROOT/build_artefacts/conda-forge-build-done"
+rm -f "$FEEDSTOCK_ROOT/build_artifacts/conda-forge-build-done"
 
 cat << EOF | docker run -i \
-                        -v "${RECIPE_ROOT}":/recipe_root \
-                        -v "${FEEDSTOCK_ROOT}":/feedstock_root \
+                        -v "${RECIPE_ROOT}":/home/conda/recipe_root \
+                        -v "${FEEDSTOCK_ROOT}":/home/conda/feedstock_root \
+                        -e CONFIG="$CONFIG" \
                         -e HOST_USER_ID="${HOST_USER_ID}" \
                         -a stdin -a stdout -a stderr \
                         condaforge/linux-anvil \
@@ -51,20 +52,21 @@ set -x
 export PYTHONUNBUFFERED=1
 
 echo "$config" > ~/.condarc
-# A lock sometimes occurs with incomplete builds. The lock file is stored in build_artefacts.
+# A lock sometimes occurs with incomplete builds. The lock file is stored in build_artifacts.
 conda clean --lock
 
-conda install --yes --quiet conda-forge-build-setup
+# Make sure we pull in the latest conda-build version too
+conda install --yes --quiet conda-forge-ci-setup=1 conda-build
 source run_conda_forge_build_setup
 
-conda build /recipe_root --quiet || exit 1
-upload_or_check_non_existence /recipe_root conda-forge --channel=main || exit 1
+conda build /home/conda/recipe_root -m /home/conda/feedstock_root/.ci_support/${CONFIG}.yaml --quiet || exit 1
+upload_or_check_non_existence /home/conda/recipe_root conda-forge --channel=main -m /home/conda/feedstock_root/.ci_support/${CONFIG}.yaml || exit 1
 
-touch /feedstock_root/build_artefacts/conda-forge-build-done
+touch /home/conda/feedstock_root/build_artifacts/conda-forge-build-done
 EOF
 
 # double-check that the build got to the end
 # see https://github.com/conda-forge/conda-smithy/pull/337
 # for a possible fix
 set -x
-test -f "$FEEDSTOCK_ROOT/build_artefacts/conda-forge-build-done" || exit 1
+test -f "$FEEDSTOCK_ROOT/build_artifacts/conda-forge-build-done" || exit 1
