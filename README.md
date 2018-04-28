@@ -14,12 +14,15 @@ Summary: The baseline versions of software for the conda-forge ecosystem
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/conda-forge-pinning-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/conda-forge-pinning-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/conda-forge-pinning-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/conda-forge-pinning-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-forge-pinning/badges/version.svg)](https://anaconda.org/conda-forge/conda-forge-pinning)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/conda-forge-pinning/badges/downloads.svg)](https://anaconda.org/conda-forge/conda-forge-pinning)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-conda--forge--pinning-green.svg)](https://anaconda.org/conda-forge/conda-forge-pinning) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/conda-forge-pinning.svg)](https://anaconda.org/conda-forge/conda-forge-pinning) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/conda-forge-pinning.svg)](https://anaconda.org/conda-forge/conda-forge-pinning) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/conda-forge-pinning.svg)](https://anaconda.org/conda-forge/conda-forge-pinning) |
 
 Installing conda-forge-pinning
 ==============================
