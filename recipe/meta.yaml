@@ -1,4 +1,4 @@
-{% set version = "2018.04.28" %}
+{% set version = "2018.05.07" %}
 
 package:
   name: conda-forge-pinning
