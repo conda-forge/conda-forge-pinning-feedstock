@@ -51,7 +51,7 @@ pin_run_as_build:
   cairo:
     max_pin: x.x
   curl:
-    max_pin: x.x
+    max_pin: x
   dbus:
     max_pin: x
   expat:
@@ -214,7 +214,7 @@ bzip2:
 cairo:
   - 1.14
 curl:
-  - 7.44
+  - 7.59
 dbus:
   - 1
 expat:
