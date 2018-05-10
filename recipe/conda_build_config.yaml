@@ -46,6 +46,10 @@ zip_keys:
 pin_run_as_build:
   arpack:
     max_pin: x.x
+  boost:
+    max_pin: x.x.x
+  boost_cpp:
+    max_pin: x.x.x
   bzip2:
     max_pin: x.x
   cairo:
