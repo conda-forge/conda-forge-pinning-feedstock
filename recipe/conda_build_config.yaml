@@ -128,6 +128,8 @@ pin_run_as_build:
     max_pin: x.x
   libsvm:
     max_pin: x.x
+  libunwind:
+    max_pin: x.x
   libtiff:
     max_pin: x.x.x
   libwebp:
@@ -293,6 +295,8 @@ libsvm:
   - 3.21
 libtiff:
   - 4.0.8
+libunwind:
+  - 1.2
 libwebp:
   - 0.5
 libxml2:
