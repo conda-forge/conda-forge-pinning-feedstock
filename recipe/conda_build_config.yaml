@@ -220,7 +220,7 @@ bzip2:
 cairo:
   - 1.14
 curl:
-  - 7.59
+  - 7
 dbus:
   - 1
 expat:
