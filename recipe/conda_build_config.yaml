@@ -46,6 +46,10 @@ zip_keys:
 pin_run_as_build:
   arpack:
     max_pin: x.x
+  boost:
+    max_pin: x.x.x
+  boost-cpp:
+    max_pin: x.x.x
   bzip2:
     max_pin: x.x
   cairo:
@@ -68,7 +72,7 @@ pin_run_as_build:
     max_pin: x.x
   gstreamer:
     max_pin: x.x
-  gst_plugins_base:
+  gst-plugins-base:
     max_pin: x.x
   gdal:
     max_pin: x.x
@@ -94,7 +98,7 @@ pin_run_as_build:
     max_pin: x.x
   jpeg:
     max_pin: x
-  json_c:
+  json-c:
     max_pin: x.x
   krb5:
     max_pin: x.x
@@ -136,7 +140,7 @@ pin_run_as_build:
     max_pin: x.x
   libxml2:
     max_pin: x.x
-  lz4_c:
+  lz4-c:
     max_pin: x.x.x
   lzo:
     max_pin: x
@@ -148,9 +152,9 @@ pin_run_as_build:
     max_pin: x
   ncurses:
     max_pin: x.x
-  netcdf_cxx4:
+  netcdf-cxx4:
     max_pin: x.x
-  netcdf_fortran:
+  netcdf-fortran:
     max_pin: x.x
   nettle:
     max_pin: x.x
@@ -176,7 +180,7 @@ pin_run_as_build:
     max_pin: x.x
   readline:
     max_pin: x.x
-  r_base:
+  r-base:
     max_pin: x.x.x
   snappy:
     max_pin: x.x.x
@@ -192,7 +196,7 @@ pin_run_as_build:
     max_pin: x
   vlfeat:
     max_pin: x.x.x
-  xerces_c:
+  xerces-c:
     max_pin: x.x.x
   xz:
     max_pin: x.x
