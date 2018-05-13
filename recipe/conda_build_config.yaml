@@ -100,6 +100,8 @@ pin_run_as_build:
     max_pin: x
   json-c:
     max_pin: x.x
+  jsoncpp:
+    max_pin: x.x.x
   krb5:
     max_pin: x.x
   libblitz:
@@ -265,6 +267,8 @@ jpeg:
   - 9
 json_c:
   - 0.12
+jsoncpp:
+  - 1.8.1
 krb5:
   - 1.14
 libblitz:
