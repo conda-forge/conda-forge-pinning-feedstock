@@ -80,6 +80,8 @@ pin_run_as_build:
     max_pin: x.x.x
   giflib:
     max_pin: x.x
+  glew:
+    max_pin: x.x
   glib:
     max_pin: x.x
   glpk:
@@ -247,6 +249,8 @@ geos:
   - 3.6.2
 giflib:
   - 5.1
+glew:
+  - 2.0.0
 glib:
   - 2.55
 glpk:
