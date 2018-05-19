@@ -226,13 +226,13 @@ dbus:
 expat:
   - 2.2
 ffmpeg:
-  - 3.2
+  - 4.0
 flann:
   - 1.9.1
 fontconfig:
-  - 2
+  - 2.13
 freetype:
-  - 2.8
+  - 2.8.1
 gsl:
   - 2.2
 gstreamer:
@@ -288,7 +288,7 @@ libnetcdf:
 libpcap:
   - 1.8
 libpng:
-  - 1.6
+  - 1.6.34
 libprotobuf:
   - 3.5
 librdkafka:
@@ -306,7 +306,7 @@ libwebp:
 libxml2:
   - 2.9
 lz4_c:
-  - 1.8
+  - 1.8.1
 lzo:
   - 2
 metis:
