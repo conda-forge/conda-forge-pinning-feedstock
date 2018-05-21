@@ -298,7 +298,7 @@ libssh2:
 libsvm:
   - 3.21
 libtiff:
-  - 4
+  - 4.0.9
 libunwind:
   - 1.2
 libwebp:
