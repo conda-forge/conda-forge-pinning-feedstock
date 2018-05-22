@@ -1,7 +1,7 @@
 About conda-forge-pinning
 =========================
 
-Home: https://github.com/conda-forge/staged-recipes/wiki/Pinned-dependencies
+Home: https://conda-forge.org/docs/meta.html#pinning-packages
 
 Package license: BSD 3-Clause
 
