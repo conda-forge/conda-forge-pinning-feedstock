@@ -80,6 +80,8 @@ pin_run_as_build:
     max_pin: x.x.x
   giflib:
     max_pin: x.x
+  glew:
+    max_pin: x.x
   glib:
     max_pin: x.x
   glpk:
@@ -100,6 +102,8 @@ pin_run_as_build:
     max_pin: x
   json-c:
     max_pin: x.x
+  jsoncpp:
+    max_pin: x.x.x
   krb5:
     max_pin: x.x
   libblitz:
@@ -245,6 +249,8 @@ geos:
   - 3.6.2
 giflib:
   - 5.1
+glew:
+  - 2.0.0
 glib:
   - 2.55
 glpk:
@@ -256,7 +262,7 @@ harfbuzz:
 hdf4:
   - 4.2
 hdf5:
-  - 1.10.1
+  - 1.10.2
 icu:
   - 58
 isl:
@@ -265,6 +271,8 @@ jpeg:
   - 9
 json_c:
   - 0.12
+jsoncpp:
+  - 1.8.1
 krb5:
   - 1.14
 libblitz:
