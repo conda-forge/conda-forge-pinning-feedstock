@@ -262,7 +262,7 @@ harfbuzz:
 hdf4:
   - 4.2
 hdf5:
-  - 1.10.1             # [not ppc64le]
+  - 1.10.2             # [not ppc64le]
 icu:
   - 58                 # [not ppc64le]
 isl:
