@@ -22,7 +22,7 @@ about:
   summary: The baseline versions of software for the conda-forge ecosystem
   license: BSD 3-Clause
   license_family: BSD
-  home: https://github.com/conda-forge/staged-recipes/wiki/Pinned-dependencies
+  home: https://conda-forge.org/docs/meta.html#pinning-packages
 
 extra:
   recipe-maintainers:
