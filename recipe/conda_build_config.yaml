@@ -51,7 +51,7 @@ pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
   bzip2:
-    max_pin: x.x
+    max_pin: x
   cairo:
     max_pin: x.x
   curl:
@@ -61,13 +61,13 @@ pin_run_as_build:
   expat:
     max_pin: x.x
   ffmpeg:
-    max_pin: x.x.x
+    max_pin: x.x
   flann:
     max_pin: x.x.x
   fontconfig:
-    max_pin: x.x
+    max_pin: x
   freetype:
-    max_pin: x.x.x
+    max_pin: x.x
   gsl:
     max_pin: x.x
   gstreamer:
@@ -127,7 +127,7 @@ pin_run_as_build:
   libpcap:
     max_pin: x.x
   libpng:
-    max_pin: x.x.x
+    max_pin: x.x
   libprotobuf:
     max_pin: x.x
   librdkafka:
@@ -139,7 +139,7 @@ pin_run_as_build:
   libunwind:
     max_pin: x.x
   libtiff:
-    max_pin: x.x.x
+    max_pin: x
   libwebp:
     max_pin: x.x
   libxml2:
@@ -220,7 +220,7 @@ boost:
 boost_cpp:
   - 1.66.0
 bzip2:
-  - 1.0
+  - 1
 cairo:
   - 1.14
 curl:
@@ -228,15 +228,15 @@ curl:
 dbus:
   - 1
 expat:
-  - 2.2                # [not ppc64le]
+  - 2.2
 ffmpeg:
-  - 3.2.3
+  - 4.0
 flann:
   - 1.9.1
 fontconfig:
-  - 2.12
+  - 2.13
 freetype:
-  - 2.8.1              # [not ppc64le]
+  - 2.8.1
 gsl:
   - 2.2
 gstreamer:
@@ -262,9 +262,9 @@ harfbuzz:
 hdf4:
   - 4.2
 hdf5:
-  - 1.10.2             # [not ppc64le]
+  - 1.10.2
 icu:
-  - 58                 # [not ppc64le]
+  - 58
 isl:
   - 0.19
 jpeg:
@@ -296,7 +296,7 @@ libnetcdf:
 libpcap:
   - 1.8
 libpng:
-  - 1.6.32
+  - 1.6.34
 libprotobuf:
   - 3.5
 librdkafka:
@@ -306,7 +306,7 @@ libssh2:
 libsvm:
   - 3.21
 libtiff:
-  - 4.0.8
+  - 4.0.9
 libunwind:
   - 1.2
 libwebp:
