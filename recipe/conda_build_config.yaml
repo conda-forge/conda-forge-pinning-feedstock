@@ -183,7 +183,7 @@ pin_run_as_build:
   qt:
     max_pin: x.x
   readline:
-    max_pin: x.x
+    max_pin: x
   r-base:
     max_pin: x.x.x
   snappy:
@@ -324,7 +324,7 @@ mkl:
 mpfr:
   - 4
 ncurses:
-  - 5.9
+  - 6.1
 netcdf_cxx4:
   - 4.3
 netcdf_fortran:
