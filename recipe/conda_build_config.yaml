@@ -322,7 +322,7 @@ metis:
 mkl:
   - 2018
 mpfr:
-  - 3
+  - 4
 ncurses:
   - 5.9
 netcdf_cxx4:
