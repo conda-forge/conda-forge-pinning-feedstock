@@ -155,7 +155,7 @@ pin_run_as_build:
   mpfr:
     max_pin: x
   ncurses:
-    max_pin: x.x
+    max_pin: x
   netcdf-cxx4:
     max_pin: x.x
   netcdf-fortran:
