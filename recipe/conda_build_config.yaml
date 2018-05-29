@@ -331,6 +331,8 @@ netcdf_fortran:
   - 4.4
 nettle:
   - 3.3
+ntl:
+  - 10.3.0
 # we build for an old version of numpy for forward compatibility
 #    1.11 seems to be the oldest on win that works with scipy 0.19.  Compiler errors otherwise.
 numpy:
