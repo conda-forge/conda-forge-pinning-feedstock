@@ -242,9 +242,11 @@ gf2x:
 gsl:
   - 2.2
 gstreamer:
-  - 1.12
+  - 1.12  # [linux]
+  - 1.14.0  # [osx]
 gst_plugins_base:
-  - 1.12
+  - 1.12  # [linux]
+  - 1.14.0  # [osx]
 gdal:
   - 2.2
 geos:
