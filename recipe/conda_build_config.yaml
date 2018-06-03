@@ -274,7 +274,8 @@ isl:
 jpeg:
   - 9
 json_c:
-  - 0.12
+  - 0.12  # [not win]
+  - 0.13  # [win]
 jsoncpp:
   - 1.8.1
 krb5:
