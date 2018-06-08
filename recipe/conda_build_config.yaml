@@ -9,17 +9,27 @@ blas_impl:
 cross_compiler_target_platform:  # [win]
   - win-64                     # [win]
 c_compiler:
-  - toolchain_c                # [unix]
+  - toolchain_c                # [unix and not ppc64le]
+  - gcc                        # [ppc64le]
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
 cxx_compiler:
-  - toolchain_cxx              # [unix]
+  - toolchain_cxx              # [unix and not ppc64le]
+  - gxx                        # [ppc64le]
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
-fortran_compiler:              # [unix]
-  - toolchain_fort             # [unix]
+fortran_compiler:              # [unix or win64]
+  - toolchain_fort             # [unix and not ppc64le]
+  - gfortran                   # [ppc64le]
+  - flang                      # [win64]
+m2w64_c_compiler:
+  - m2w64-toolchain
+m2w64_cxx_compiler:
+  - m2w64-toolchain
+m2w64_fortran_compiler:
+  - m2w64-toolchain
 macos_min_version:             # [osx]
   - 10.9                       # [osx]
 macos_machine:                 # [osx]
