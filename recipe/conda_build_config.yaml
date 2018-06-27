@@ -172,6 +172,8 @@ pin_run_as_build:
     max_pin: x.x
   nettle:
     max_pin: x.x
+  occt:
+    max_pin: x.x
   openblas:
     max_pin: x.x.x
   openjpeg:
@@ -209,6 +211,8 @@ pin_run_as_build:
   vc:
     max_pin: x
   vlfeat:
+    max_pin: x.x.x
+  vtk:
     max_pin: x.x.x
   xerces-c:
     max_pin: x.x.x
@@ -353,6 +357,8 @@ ntl:
 numpy:
   - 1.9   # [unix]
   - 1.11   # [win]
+occt:
+  - 7.2
 openblas:
   - 0.2.20
 openjpeg:
@@ -397,6 +403,8 @@ vc:                    # [win]
   - 14                 # [win]
 vlfeat:
   - 0.9.20
+vtk:
+  - 8.1.1
 xerces_c:
   - 3.2.0
 xz:
