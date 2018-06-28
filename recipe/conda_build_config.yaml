@@ -307,7 +307,7 @@ libkml:
 libmatio:
   - 1.5
 libnetcdf:
-  - 4.5
+  - 4.6
 libpcap:
   - 1.8
 libpng:
