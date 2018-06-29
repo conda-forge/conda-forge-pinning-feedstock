@@ -114,6 +114,8 @@ pin_run_as_build:
     max_pin: x.x
   jsoncpp:
     max_pin: x.x.x
+  kealib:
+    max_pin: x.x
   krb5:
     max_pin: x.x
   libblitz:
@@ -288,6 +290,8 @@ json_c:
   - 0.13  # [win]
 jsoncpp:
   - 1.8.1
+kealib:
+  - 1.4.9
 krb5:
   - 1.14
 libblitz:
