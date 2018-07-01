@@ -217,7 +217,7 @@ pin_run_as_build:
   xz:
     max_pin: x.x
   zeromq:
-    max_pin: x.x.x
+    max_pin: x.x
   zlib:
     max_pin: x.x
   zstd:
@@ -406,7 +406,7 @@ xerces_c:
 xz:
   - 5.2
 zeromq:
-  - 4.2.1  # should be 4.2.*, but ABI is incorrectly tagged
+  - 4.2.5
 zlib:
   - 1.2
 zstd:
