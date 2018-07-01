@@ -217,7 +217,7 @@ pin_run_as_build:
   xz:
     max_pin: x.x
   zeromq:
-    max_pin: x.x.x
+    max_pin: x.x
   zlib:
     max_pin: x.x
   zstd:
