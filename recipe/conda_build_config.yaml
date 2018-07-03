@@ -98,6 +98,8 @@ pin_run_as_build:
     max_pin: x.x
   gmp:
     max_pin: x
+  graphviz:
+    max_pin: x
   harfbuzz:
     max_pin: x.x
   hdf4:
@@ -273,6 +275,8 @@ glpk:
   - 4.65
 gmp:
   - 6
+graphviz:
+  - 2.38.0
 harfbuzz:
   - 1.7
 hdf4:
