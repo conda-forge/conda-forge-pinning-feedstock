@@ -335,6 +335,8 @@ libprotobuf:
   - 3.5
 librdkafka:
   - 0.9.4
+libsecret:
+  - 0.18
 libssh2:
   - 1.8
 libsvm:
