@@ -373,6 +373,8 @@ openjpeg:
   - 2.3
 openssl:
   - 1.0.2
+openturns:
+  - 1.11
 pango:
   - 1.40
 perl:
