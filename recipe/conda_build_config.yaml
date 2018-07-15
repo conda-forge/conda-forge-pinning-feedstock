@@ -31,19 +31,17 @@ cxx_compiler:
   - vs2015                     # [win]
   - vs2015                     # [win]
 
+# these need to be split later
 channel_sources:
-  -
-    - 'conda-forge'
-    - 'defaults'
-  -
-    - 'conda-forge/label/new'
-    - 'conda-forge'
-    - 'defaults'
+  - conda-forge,defaults
+  - conda-forge/label/new,conda-forge,defaults
+
+#extend_keys:
+#  - channel_sources
+
 channel_targets:
-  -
-    - 'conda-forge'
-  -
-    - 'conda-forge/label/new'
+  - conda-forge main
+  - conda-forge new
 
 fortran_compiler:              # [unix or win64]
   - toolchain_fort             # [unix and not ppc64le]
