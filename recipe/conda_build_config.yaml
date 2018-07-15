@@ -30,6 +30,8 @@ m2w64_cxx_compiler:            # [win]
   - m2w64-toolchain            # [win]
 m2w64_fortran_compiler:        # [win]
   - m2w64-toolchain            # [win]
+go_compiler:
+  - go
 macos_min_version:             # [osx]
   - 10.9                       # [osx]
 macos_machine:                 # [osx]
