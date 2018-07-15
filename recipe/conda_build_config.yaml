@@ -19,6 +19,7 @@ c_compiler:
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
+  - vs2015                     # [win]
 cxx_compiler:
   - toolchain_cxx              # [linux or osx]
   # new compilers
@@ -30,7 +31,7 @@ cxx_compiler:
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
-
+  - vs2015                     # [win]
 fortran_compiler:              # [unix or win64]
   - toolchain_fort             # [unix and not ppc64le]
   - gfortran                   # [(linux or osx)                      and (environ.get('CF_COMPILER_STACK') == 'comp7')]
@@ -447,6 +448,7 @@ proj4:
   - 4.9.3
 python:
   - 2.7
+  - 3.5
   - 3.6
   - 3.7
 pyqt:
@@ -469,6 +471,7 @@ tk:
   - 8.6                # [not ppc64le]
 vc:                    # [win]
   - 9                  # [win]
+  - 14                 # [win]
   - 14                 # [win]
   - 14                 # [win]
 vlfeat:
