@@ -34,14 +34,11 @@ cxx_compiler:
 # these need to be split later
 channel_sources:
   - conda-forge,defaults
-  - conda-forge/label/new,conda-forge,defaults
-
-#extend_keys:
-#  - channel_sources
+  - conda-forge/label/new,conda-forge,defaults  # [linux or osx]
 
 channel_targets:
   - conda-forge main
-  - conda-forge new
+  - conda-forge new                             # [linux or osx]
 
 fortran_compiler:              # [unix or win64]
   - toolchain_fort             # [unix and not ppc64le]
