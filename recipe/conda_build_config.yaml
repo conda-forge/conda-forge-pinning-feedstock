@@ -185,6 +185,8 @@ pin_run_as_build:
     max_pin: x.x
   openblas:
     max_pin: x.x.x
+  openturns:
+    max_pin: x.x
   openjpeg:
     max_pin: x.x
   openssl:
@@ -378,6 +380,8 @@ openjpeg:
   - 2.3
 openssl:
   - 1.0.2
+openturns:
+  - 1.11
 pango:
   - 1.40
 perl:
