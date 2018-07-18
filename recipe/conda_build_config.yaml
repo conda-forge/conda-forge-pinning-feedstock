@@ -31,25 +31,10 @@ cxx_compiler:
   - vs2015                     # [win]
   - vs2015                     # [win]
 
-# these need to be split later
-channel_sources:
-  - conda-forge,defaults
-  - conda-forge/label/new,defaults  # [linux or osx]
-
-channel_targets:
-  - conda-forge main
-  - conda-forge new                             # [linux or osx]
-docker_image:                                   # [linux or ppc64le]
-  - condaforge/linux-anvil                      # [linux]
-  - conda/c3i-linux64                           # [linux]
-  - condaforge/ppc-anvil                        # [ppc64le]
-
-build_number_increment:                         # [linux or osx]
-  - 0                                           # [linux or osx]
-  - 1000                                        # [linux or osx]
-
 fortran_compiler:              # [unix or win64]
   - toolchain_fort             # [unix and not ppc64le]
+  - gfortran                   # [linux or osx
+
   - gfortran                   # [ppc64le]
   - flang                      # [win64]
 m2w64_c_compiler:              # [win]
@@ -75,6 +60,25 @@ VERBOSE_AT:
   - V=1
 VERBOSE_CM:
   - VERBOSE=1
+
+# dual build configuration
+channel_sources:
+  - conda-forge,defaults
+  - conda-forge/label/new,defaults  # [linux or osx]
+
+channel_targets:
+  - conda-forge main
+  - conda-forge new                             # [linux or osx]
+
+docker_image:                                   # [linux or ppc64le]
+  - condaforge/linux-anvil                      # [linux]
+  - conda/c3i-linux64                           # [linux]
+  - condaforge/ppc-anvil                        # [ppc64le]
+
+build_number_increment:                         # [linux or osx]
+  - 0                                           # [linux or osx]
+  - 1000                                        # [linux or osx]
+
 zip_keys:
   -
     - pyqt
@@ -87,9 +91,10 @@ zip_keys:
   -
     - c_compiler                # [linux or osx]
     - cxx_compiler              # [linux or osx]
+    - fortran_compiler          # [linux or osx
     - channel_sources           # [linux or osx]
     - channel_targets           # [linux or osx]
-    - docker_image              # [linux or osx]
+    - docker_image              # [linux]
     - build_number_increment    # [linux or osx]
 
 # TODO: remove these when run_exports are added to the packages.
