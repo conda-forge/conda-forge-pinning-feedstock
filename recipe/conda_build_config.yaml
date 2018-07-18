@@ -64,15 +64,15 @@ VERBOSE_CM:
 # dual build configuration
 channel_sources:
   - conda-forge,defaults
-  - conda-forge/label/new,defaults  # [linux or osx]
+  - conda-forge/label/gcc7,defaults  # [linux or osx]
 
 channel_targets:
   - conda-forge main
-  - conda-forge new                             # [linux or osx]
+  - conda-forge gcc7                            # [linux or osx]
 
 docker_image:                                   # [linux or ppc64le]
   - condaforge/linux-anvil                      # [linux]
-  - conda/c3i-linux64                           # [linux]
+  - conda/c3i-linux-64                          # [linux]
   - condaforge/ppc-anvil                        # [ppc64le]
 
 build_number_increment:                         # [linux or osx]
