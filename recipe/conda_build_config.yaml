@@ -194,7 +194,7 @@ pin_run_as_build:
   pango:
     max_pin: x.x
   perl:
-    max_pin: x.x
+    max_pin: x.x.x
   pixman:
     max_pin: x.x
   poppler:
