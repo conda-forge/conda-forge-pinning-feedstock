@@ -34,11 +34,19 @@ cxx_compiler:
 # these need to be split later
 channel_sources:
   - conda-forge,defaults
-  - conda-forge/label/new,conda-forge,defaults  # [linux or osx]
+  - conda-forge/label/new,defaults  # [linux or osx]
 
 channel_targets:
   - conda-forge main
   - conda-forge new                             # [linux or osx]
+docker_image:                                   # [linux or ppc64le]
+  - condaforge/linux-anvil                      # [linux]
+  - conda/c3i-linux64                           # [linux]
+  - condaforge/ppc-anvil                        # [ppc64le]
+
+build_number_increment:                         # [linux or osx]
+  - 0                                           # [linux or osx]
+  - 1000                                        # [linux or osx]
 
 fortran_compiler:              # [unix or win64]
   - toolchain_fort             # [unix and not ppc64le]
@@ -77,10 +85,12 @@ zip_keys:
     - c_compiler                # [win]
     - cxx_compiler              # [win]
   -
-    - c_compiler       # [linux or osx]
-    - cxx_compiler     # [linux or osx]
-    - channel_sources  # [linux or osx]
-    - channel_targets  # [linux or osx]
+    - c_compiler                # [linux or osx]
+    - cxx_compiler              # [linux or osx]
+    - channel_sources           # [linux or osx]
+    - channel_targets           # [linux or osx]
+    - docker_image              # [linux or osx]
+    - build_number_increment    # [linux or osx]
 
 # TODO: remove these when run_exports are added to the packages.
 pin_run_as_build:
