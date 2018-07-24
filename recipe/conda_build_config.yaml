@@ -116,7 +116,7 @@ pin_run_as_build:
   isl:
     max_pin: x.x
   jasper:
-    max_pin: x.x.x
+    max_pin: x
   jpeg:
     max_pin: x
   json-c:
