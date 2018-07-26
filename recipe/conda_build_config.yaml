@@ -115,6 +115,8 @@ pin_run_as_build:
     max_pin: x
   isl:
     max_pin: x.x
+  jasper:
+    max_pin: x
   jpeg:
     max_pin: x
   json-c:
@@ -298,6 +300,8 @@ icu:
   - 58
 isl:
   - 0.19
+jasper:
+  - 1.900.1
 jpeg:
   - 9
 json_c:
