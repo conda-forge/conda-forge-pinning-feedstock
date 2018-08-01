@@ -263,7 +263,7 @@ flann:
 fontconfig:
   - 2.13
 freetype:
-  - 2.8.1
+  - 2.9.1
 gf2x:
   - 1.2
 gsl:
