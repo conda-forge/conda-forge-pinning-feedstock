@@ -82,7 +82,7 @@ pin_run_as_build:
   fontconfig:
     max_pin: x
   freetype:
-    max_pin: x.x
+    max_pin: x
   gsl:
     max_pin: x.x
   gstreamer:
@@ -263,7 +263,7 @@ flann:
 fontconfig:
   - 2.13
 freetype:
-  - 2.8.1
+  - 2.9.1
 gf2x:
   - 1.2
 gsl:
