@@ -82,7 +82,7 @@ pin_run_as_build:
   fontconfig:
     max_pin: x
   freetype:
-    max_pin: x.x
+    max_pin: x
   gsl:
     max_pin: x.x
   gstreamer:
