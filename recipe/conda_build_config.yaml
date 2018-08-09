@@ -399,7 +399,7 @@ perl:
 pixman:
   - 0.34
 poppler:
-  - 0.61
+  - 0.67
 proj4:
   - 4.9.3
 python:
