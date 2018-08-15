@@ -19,6 +19,7 @@ c_compiler:
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
+  - vs2015                     # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
 cxx_compiler:
   - toolchain_cxx              # [linux or osx]
   # new compilers
@@ -30,7 +31,7 @@ cxx_compiler:
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
-
+  - vs2015                     # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
 fortran_compiler:              # [unix or win64]
   - toolchain_fort             # [unix and not ppc64le]
   - gfortran                   # [(linux or osx)                      and (environ.get('CF_COMPILER_STACK') == 'comp7')]
@@ -447,8 +448,9 @@ proj4:
   - 4.9.3
 python:
   - 2.7
+  - 3.5
   - 3.6
-  - 3.7
+  - 3.7  # [(environ.get('CF_MAX_PY_VER', '') >= '37')]
 pyqt:
   - 5.6
 qt:
@@ -471,6 +473,7 @@ vc:                    # [win]
   - 9                  # [win]
   - 14                 # [win]
   - 14                 # [win]
+  - 14                 # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
 vlfeat:
   - 0.9.20
 vtk:
