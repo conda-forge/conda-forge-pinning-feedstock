@@ -24,7 +24,7 @@ cxx_compiler:
   - toolchain_cxx              # [linux or osx]
   # new compilers
   - gxx                        # [linux                               and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-  - clanggxx                   # [osx                                 and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - clangxx                    # [osx                                 and (environ.get('CF_COMPILER_STACK') == 'comp7')]
 
   - gxx                        # [ppc64le]
 
