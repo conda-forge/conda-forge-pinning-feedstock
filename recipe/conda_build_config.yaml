@@ -445,7 +445,7 @@ pixman:
 poppler:
   - 0.67
 proj4:
-  - 5.1.0
+  - 4.9.3
 python:
   - 2.7
   - 3.5
