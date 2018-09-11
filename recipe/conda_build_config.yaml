@@ -329,7 +329,7 @@ giflib:
 glew:
   - 2.0.0
 glib:
-  - 2.55
+  - 2.56
 glpk:
   - 4.65
 gmp:
