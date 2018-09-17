@@ -358,7 +358,7 @@ jsoncpp:
 kealib:
   - 1.4.9
 krb5:
-  - 1.14
+  - 1.16
 libblitz:
   - 0.10
 libdap4:
