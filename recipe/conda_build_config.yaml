@@ -358,7 +358,7 @@ numpy:
   - 1.9   # [unix]
   - 1.11   # [win]
 openblas:
-  - 0.3.2
+  - 0.3.3
 openjpeg:
   - 2.3
 openssl:
