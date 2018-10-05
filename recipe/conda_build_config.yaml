@@ -433,7 +433,7 @@ openjpeg:
 openssl:
   - 1.0.2
 openturns:
-  - 1.11
+  - 1.12*
 pango:
   - 1.40
 perl:
