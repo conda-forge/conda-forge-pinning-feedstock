@@ -227,6 +227,8 @@ pin_run_as_build:
     max_pin: x.x
   nettle:
     max_pin: x.x
+  nlopt:
+    max_pin: x.x.x
   occt:
     max_pin: x.x
   openblas:
@@ -417,6 +419,8 @@ netcdf_fortran:
   - 4.4
 nettle:
   - 3.3
+nlopt:
+  - 2.5.*
 ntl:
   - 10.3.0
 # we build for an old version of numpy for forward compatibility
