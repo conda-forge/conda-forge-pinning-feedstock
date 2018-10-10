@@ -384,7 +384,7 @@ libpng:
 libprotobuf:
   - 3.5
 librdkafka:
-  - 0.9.4
+  - 0.11.5
 libsecret:
   - 0.18
 libssh2:
