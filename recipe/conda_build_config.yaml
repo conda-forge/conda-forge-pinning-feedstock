@@ -431,7 +431,7 @@ numpy:
 occt:
   - 7.3
 openblas:
-  - 0.2.20
+  - 0.3.3
 openjpeg:
   - 2.3
 openssl:
