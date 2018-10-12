@@ -191,6 +191,8 @@ pin_run_as_build:
     max_pin: x.x
   libpng:
     max_pin: x.x
+  libpq:
+    max_pin: x.x
   libprotobuf:
     max_pin: x.x
   librdkafka:
@@ -381,6 +383,8 @@ libpcap:
   - 1.8
 libpng:
   - 1.6.34
+libpq:
+  - 10.5
 libprotobuf:
   - 3.5
 librdkafka:
