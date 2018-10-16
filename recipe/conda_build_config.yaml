@@ -396,7 +396,7 @@ libtiff:
 libunwind:
   - 1.2
 libwebp:
-  - 0.5
+  - 1.0.0
 libxml2:
   - 2.9
 libuuid:
