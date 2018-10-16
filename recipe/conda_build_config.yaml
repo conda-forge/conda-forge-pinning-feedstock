@@ -71,7 +71,7 @@ channel_targets:
 
 docker_image:                                   # [linux or ppc64le]
   - condaforge/linux-anvil                      # [linux]
-  - conda/c3i-linux-64                          # [linux              and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - condaforge/linux-anvil-comp7                # [linux              and (environ.get('CF_COMPILER_STACK') == 'comp7')]
 
   - condaforge/ppc-anvil                        # [ppc64le]
 
