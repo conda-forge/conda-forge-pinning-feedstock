@@ -287,7 +287,7 @@ pin_run_as_build:
 
 # Pinning packages
 arpack:
-  - 3.5
+  - 3.6
 boost:
   - 1.68.0
 boost_cpp:
