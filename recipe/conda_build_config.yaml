@@ -102,7 +102,7 @@ zip_keys:
 # TODO: remove these when run_exports are added to the packages.
 pin_run_as_build:
   arpack:
-    max_pin: x.x
+    max_pin: x.x.x
   boost:
     max_pin: x.x.x
   boost-cpp:
@@ -287,7 +287,7 @@ pin_run_as_build:
 
 # Pinning packages
 arpack:
-  - 3.6
+  - 3.6.3
 boost:
   - 1.68.0
 boost_cpp:
