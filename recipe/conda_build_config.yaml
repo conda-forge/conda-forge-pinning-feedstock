@@ -418,7 +418,7 @@ netcdf_cxx4:
 netcdf_fortran:
   - 4.4
 nettle:
-  - 3.3
+  - 3.4
 nlopt:
   - 2.5.*
 ntl:
