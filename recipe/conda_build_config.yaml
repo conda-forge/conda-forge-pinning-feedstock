@@ -161,6 +161,8 @@ pin_run_as_build:
     max_pin: x
   jpeg:
     max_pin: x
+  libjpeg-turbo:
+    max_pin: x
   json-c:
     max_pin: x.x
   jsoncpp:
@@ -350,6 +352,8 @@ jasper:
   - 1.900.1
 jpeg:
   - 9
+libjpeg-turbo:
+  - 2
 json_c:
   - 0.12  # [not win]
   - 0.13  # [win]
