@@ -263,8 +263,6 @@ pin_run_as_build:
     max_pin: x.x.x
   sqlite:
     max_pin: x
-  sundials:
-    max_pin: x.x
   tk:
     max_pin: x.x
   vc:
@@ -467,8 +465,6 @@ sox:
   - 14.4.2
 sqlite:
   - 3
-sundials:
-  - 2.7
 tk:
   - 8.6                # [not ppc64le]
 vc:                    # [win]
