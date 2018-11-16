@@ -351,7 +351,7 @@ json_c:
 jsoncpp:
   - 1.8.1
 kealib:
-  - 1.4.9
+  - 1.4.10
 krb5:
   - 1.16
 libblitz:
@@ -440,7 +440,7 @@ perl:
 pixman:
   - 0.34
 poppler:
-  - 0.67
+  - 0.71.0
 proj4:
   - 4.9.3
 python:
