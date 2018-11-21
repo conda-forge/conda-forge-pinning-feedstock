@@ -148,8 +148,6 @@ pin_run_as_build:
     max_pin: x
   hdf4:
     max_pin: x.x
-  hdf5:
-    max_pin: x.x.x
   icu:
     max_pin: x
   isl:
