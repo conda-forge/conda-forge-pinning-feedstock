@@ -438,7 +438,7 @@ perl:
 pixman:
   - 0.34
 poppler:
-  - 0.71.0
+  - 0.67.0
 proj4:
   - 5.2.0
 python:
