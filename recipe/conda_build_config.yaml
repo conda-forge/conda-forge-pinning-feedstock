@@ -347,7 +347,7 @@ json_c:
   - 0.12  # [not win]
   - 0.13  # [win]
 jsoncpp:
-  - 1.8.1
+  - 1.8.4
 kealib:
   - 1.4.10
 krb5:
