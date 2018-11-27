@@ -318,7 +318,7 @@ gst_plugins_base:
 gdal:
   - 2.3
 geos:
-  - 3.6.2
+  - 3.7.0
 giflib:
   - 5.1
 glew:
@@ -348,8 +348,7 @@ jpeg:
 libjpeg_turbo:
   - 2
 json_c:
-  - 0.12  # [not win]
-  - 0.13  # [win]
+  - 0.13
 jsoncpp:
   - 1.8.4
 kealib:
@@ -476,7 +475,7 @@ vtk:
 x264:
   - 1!152.*
 xerces_c:
-  - 3.2.0
+  - 3.2.2
 xz:
   - 5.2
 zeromq:
