@@ -156,6 +156,8 @@ pin_run_as_build:
     max_pin: x
   jpeg:
     max_pin: x
+  libjpeg_turbo:
+    max_pin: x
   json-c:
     max_pin: x.x
   jsoncpp:
@@ -316,7 +318,7 @@ gst_plugins_base:
 gdal:
   - 2.3
 geos:
-  - 3.6.2
+  - 3.7.0
 giflib:
   - 5.1
 glew:
@@ -343,9 +345,10 @@ jasper:
   - 1.900.1
 jpeg:
   - 9
+libjpeg_turbo:
+  - 2
 json_c:
-  - 0.12  # [not win]
-  - 0.13  # [win]
+  - 0.13
 jsoncpp:
   - 1.8.4
 kealib:
@@ -472,7 +475,7 @@ vtk:
 x264:
   - 1!152.*
 xerces_c:
-  - 3.2.0
+  - 3.2.2
 xz:
   - 5.2
 zeromq:
