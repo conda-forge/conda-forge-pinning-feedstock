@@ -316,9 +316,11 @@ gst_plugins_base:
   - 1.12  # [linux]
   - 1.14.0  # [osx]
 gdal:
-  - 2.3
+  - 2.3  # [not (win and vc==9)]
+  - 2.2.4  # [win and vc==9]
 geos:
-  - 3.7.0
+  - 3.7.0  # [not (win and vc==9)]
+  - 3.6.2  # [win and vc==9]
 giflib:
   - 5.1
 glew:
@@ -336,7 +338,8 @@ harfbuzz:
 hdf4:
   - 4.2
 hdf5:
-  - 1.10.4
+  - 1.10.4  # [not (win and vc==9)]
+  - 1.10.2  # [win and vc==9]
 icu:
   - 58
 isl:
@@ -364,7 +367,8 @@ libevent:
 libffi:
   - 3.2
 libgdal:
-  - 2.3
+  - 2.3  # [not (win and vc==9)]
+  - 2.2.4  # [win and vc==9]
 libiconv:
   - 1.15
 libkml:
@@ -372,7 +376,8 @@ libkml:
 libmatio:
   - 1.5
 libnetcdf:
-  - 4.6
+  - 4.6  # [not (win and vc==9)]
+  - 4.4.1.1  # [win and vc==9]
 libpcap:
   - 1.8
 libpng:
@@ -443,7 +448,8 @@ pixman:
 poppler:
   - 0.67.0
 proj4:
-  - 5.2.0
+  - 5.2.0  # [not (win and vc==9)]
+  - 4.9.3  # [win and vc==9]
 python:
   - 2.7
   - 3.6
