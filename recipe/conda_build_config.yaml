@@ -448,7 +448,8 @@ pixman:
 poppler:
   - 0.67.0
 proj4:
-  - 5.2.0
+  - 5.2.0  # [not (win and vc9)]
+  - 4.9.3  # [win and vc9]
 python:
   - 2.7
   - 3.6
