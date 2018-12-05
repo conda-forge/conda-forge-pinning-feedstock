@@ -91,6 +91,7 @@ zip_keys:
     - hdf5                      # [win]
     - libgdal                   # [win]
     - libnetcdf                 # [win]
+    - kealib                   # [win]
   # Dual compiler zip
   -                             # [                                       (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - c_compiler                # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
@@ -366,7 +367,10 @@ json_c:
 jsoncpp:
   - 1.8.4
 kealib:
-  - 1.4.10
+  - 1.4.7  # [win]
+  - 1.4.10  # [win]
+  - 1.4.10  # [win]
+  - 1.4.10  # [not win]
 krb5:
   - 1.16
 libblitz:
