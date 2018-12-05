@@ -85,7 +85,12 @@ zip_keys:
     - vc                        # [win]
     - c_compiler                # [win]
     - cxx_compiler              # [win]
-
+    - gdal                      # [win]
+    - geos                      # [win]
+    - proj4                     # [win]
+    - hdf5                      # [win]
+    - libgdal                   # [win]
+    - libnetcdf                 # [win]
   # Dual compiler zip
   -                             # [                                       (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - c_compiler                # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
@@ -316,11 +321,15 @@ gst_plugins_base:
   - 1.12  # [linux]
   - 1.14.0  # [osx]
 gdal:
-  - 2.3  # [not (win and vc<14)]
-  - 2.2.4  # [win and vc<14]
+  - 2.2.4  # [win]
+  - 2.3  # [win]
+  - 2.3  # [win]
+  - 2.3  # [not win]
 geos:
-  - 3.7.0  # [not (win and vc<14)]
-  - 3.6.2  # [win and vc<14]
+  - 3.6.2  # [win]
+  - 3.7.0  # [win]
+  - 3.7.0  # [win]
+  - 3.7.0  # [not win]
 giflib:
   - 5.1
 glew:
@@ -338,8 +347,10 @@ harfbuzz:
 hdf4:
   - 4.2
 hdf5:
-  - 1.10.4  # [not (win and vc<14)]
-  - 1.10.2  # [win and vc<14]
+  - 1.10.2  # [win]
+  - 1.10.4  # [win]
+  - 1.10.4  # [win]
+  - 1.10.4  # [not win]
 icu:
   - 58
 isl:
@@ -367,8 +378,10 @@ libevent:
 libffi:
   - 3.2
 libgdal:
-  - 2.3  # [not (win and vc<14)]
-  - 2.2.4  # [win and vc<14]
+  - 2.2.4  # [win]
+  - 2.3  # [win]
+  - 2.3  # [win]
+  - 2.3  # [not win]
 libiconv:
   - 1.15
 libkml:
@@ -376,8 +389,10 @@ libkml:
 libmatio:
   - 1.5
 libnetcdf:
-  - 4.6  # [not (win and vc<14)]
-  - 4.4.1.1  # [win and vc<14]
+  - 4.4.1.1  # [win]
+  - 4.6  # [win]
+  - 4.6  # [win]
+  - 4.6  # [not win]
 libpcap:
   - 1.8
 libpng:
@@ -448,8 +463,10 @@ pixman:
 poppler:
   - 0.67.0
 proj4:
-  - 5.2.0  # [not (win and vc<14)]
-  - 4.9.3  # [win and vc<14]
+  - 4.9.3  # [win]
+  - 5.2.0  # [win]
+  - 5.2.0  # [win]
+  - 5.2.0  # [not win]
 python:
   - 2.7
   - 3.6
