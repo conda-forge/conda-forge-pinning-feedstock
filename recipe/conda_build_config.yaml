@@ -324,12 +324,12 @@ gst_plugins_base:
 gdal:
   - 2.2.4  # [win]
   - 2.3  # [win]
-  - 2.3  # [win]
+  - 2.3  # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
   - 2.3  # [not win]
 geos:
   - 3.6.2  # [win]
   - 3.7.0  # [win]
-  - 3.7.0  # [win]
+  - 3.7.0  # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
   - 3.7.0  # [not win]
 giflib:
   - 5.1
@@ -350,7 +350,7 @@ hdf4:
 hdf5:
   - 1.10.2  # [win]
   - 1.10.4  # [win]
-  - 1.10.4  # [win]
+  - 1.10.4  # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
   - 1.10.4  # [not win]
 icu:
   - 58
@@ -369,7 +369,7 @@ jsoncpp:
 kealib:
   - 1.4.7  # [win]
   - 1.4.10  # [win]
-  - 1.4.10  # [win]
+  - 1.4.10  # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
   - 1.4.10  # [not win]
 krb5:
   - 1.16
@@ -384,7 +384,7 @@ libffi:
 libgdal:
   - 2.2.4  # [win]
   - 2.3  # [win]
-  - 2.3  # [win]
+  - 2.3  # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
   - 2.3  # [not win]
 libiconv:
   - 1.15
@@ -395,7 +395,7 @@ libmatio:
 libnetcdf:
   - 4.4.1.1  # [win]
   - 4.6  # [win]
-  - 4.6  # [win]
+  - 4.6  # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
   - 4.6  # [not win]
 libpcap:
   - 1.8
@@ -469,7 +469,7 @@ poppler:
 proj4:
   - 4.9.3  # [win]
   - 5.2.0  # [win]
-  - 5.2.0  # [win]
+  - 5.2.0  # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
   - 5.2.0  # [not win]
 python:
   - 2.7
