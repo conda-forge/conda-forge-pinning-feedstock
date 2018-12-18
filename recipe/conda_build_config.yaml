@@ -132,6 +132,8 @@ pin_run_as_build:
     max_pin: x.x
   geos:
     max_pin: x.x.x
+  geotiff:
+    max_pin: x.x
   giflib:
     max_pin: x.x
   glew:
@@ -319,6 +321,8 @@ gdal:
   - 2.3
 geos:
   - 3.7.0
+geotiff:
+  - 1.4.2
 giflib:
   - 5.1
 glew:
