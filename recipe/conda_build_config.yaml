@@ -65,8 +65,8 @@ channel_sources:
   - archiarm,defaults                           # [aarch64]
 
 channel_targets:
-  - conda-forge main
-  - conda-forge gcc7                            # [(linux or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - conda-forge main                            # [not aarch64]
+  - conda-forge gcc7                            # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
   - archiarm main                               # [aarch64]
 
 docker_image:                                   # [linux64 or ppc64le]
@@ -94,7 +94,7 @@ zip_keys:
     - c_compiler                # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - cxx_compiler              # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - fortran_compiler          # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-    - channel_sources           # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+    - channel_sources           # [(linux64 or osx)                   and (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - channel_targets           # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - docker_image              # [linux64                            and (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - build_number_decrement    # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
