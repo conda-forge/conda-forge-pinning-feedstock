@@ -61,13 +61,10 @@ VERBOSE_CM:
 channel_sources:
   - conda-forge,defaults
   - conda-forge/label/gcc7,defaults             # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-  - jjhelmus/label/aarch64_bootstrap,defaults   # [aarch64]
-  - archiarm,defaults                           # [aarch64]
 
 channel_targets:
   - conda-forge main                            # [not aarch64]
   - conda-forge gcc7                            # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-  - archiarm main                               # [aarch64]
 
 docker_image:                                   # [linux64 or ppc64le]
   - condaforge/linux-anvil                      # [linux64]
@@ -75,9 +72,9 @@ docker_image:                                   # [linux64 or ppc64le]
 
   - condaforge/ppc-anvil                        # [ppc64le]
 
-build_number_decrement:                         # [(linux   or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+build_number_decrement:                         # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
   - 1000                                        # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-  - 0                                           # [(linux   or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - 0                                           # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
 
 zip_keys:
   -
