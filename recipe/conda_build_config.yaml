@@ -9,7 +9,7 @@ blas_impl:
 cross_compiler_target_platform:  # [win]
   - win-64                     # [win]
 c_compiler:
-  - toolchain_c                # [linux or osx]
+  - toolchain_c                # [linux64 or osx]
   # new compilers
   - gcc                        # [linux                               and (environ.get('CF_COMPILER_STACK') == 'comp7')]
   - clang                      # [osx                                 and (environ.get('CF_COMPILER_STACK') == 'comp7')]
@@ -20,7 +20,7 @@ c_compiler:
   - vs2015                     # [win]
   - vs2015                     # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
 cxx_compiler:
-  - toolchain_cxx              # [linux or osx]
+  - toolchain_cxx              # [linux64 or osx]
   # new compilers
   - gxx                        # [linux                               and (environ.get('CF_COMPILER_STACK') == 'comp7')]
   - clangxx                    # [osx                                 and (environ.get('CF_COMPILER_STACK') == 'comp7')]
@@ -31,7 +31,7 @@ cxx_compiler:
   - vs2015                     # [win]
   - vs2015                     # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
 fortran_compiler:              # [unix or win64]
-  - toolchain_fort             # [unix and not ppc64le]
+  - toolchain_fort             # [(linux64 or osx) and not ppc64le]
   - gfortran                   # [(linux or osx)                      and (environ.get('CF_COMPILER_STACK') == 'comp7')]
 
   - gfortran                   # [ppc64le]
@@ -60,21 +60,24 @@ VERBOSE_CM:
 # dual build configuration
 channel_sources:
   - conda-forge,defaults
-  - conda-forge/label/gcc7,defaults             # [(linux or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - conda-forge/label/gcc7,defaults             # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - jjhelmus/label/aarch64_bootstrap,defaults   # [aarch64]
+  - archiarm,defaults                           # [aarch64]
 
 channel_targets:
   - conda-forge main
   - conda-forge gcc7                            # [(linux or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - archiarm main                               # [aarch64]
 
-docker_image:                                   # [linux or ppc64le]
-  - condaforge/linux-anvil                      # [linux]
-  - condaforge/linux-anvil-comp7                # [linux              and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+docker_image:                                   # [linux64 or ppc64le]
+  - condaforge/linux-anvil                      # [linux64]
+  - condaforge/linux-anvil-comp7                # [linux64              and (environ.get('CF_COMPILER_STACK') == 'comp7')]
 
   - condaforge/ppc-anvil                        # [ppc64le]
 
-build_number_decrement:                         # [(linux or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-  - 1000                                        # [(linux or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-  - 0                                           # [(linux or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+build_number_decrement:                         # [(linux   or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - 1000                                        # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - 0                                           # [(linux   or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
 
 zip_keys:
   -
@@ -93,7 +96,7 @@ zip_keys:
     - fortran_compiler          # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - channel_sources           # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - channel_targets           # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-    - docker_image              # [linux                              and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+    - docker_image              # [linux64                            and (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - build_number_decrement    # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
 
 # TODO: remove these when run_exports are added to the packages.
