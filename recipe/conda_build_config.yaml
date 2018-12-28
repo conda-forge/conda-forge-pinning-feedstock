@@ -86,18 +86,18 @@ zip_keys:
   -
     - python
     - vc                        # [win]
-    - c_compiler                # [win]
-    - cxx_compiler              # [win]
+    - c_compiler                # [not (linux64 or osx)]
+    - cxx_compiler              # [not (linux64 or osx)]
 
   # Dual compiler zip
-  -                             # [                                       (environ.get('CF_COMPILER_STACK') == 'comp7')]
-    - c_compiler                # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-    - cxx_compiler              # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-    - fortran_compiler          # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  -                             # [(linux64 or osx)                   and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+    - c_compiler                # [(linux64 or osx)                   and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+    - cxx_compiler              # [(linux64 or osx)                   and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+    - fortran_compiler          # [(linux64 or osx)                   and (environ.get('CF_COMPILER_STACK') == 'comp7')]
     - channel_sources           # [(linux64 or osx)                   and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-    - channel_targets           # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-    - docker_image              # [linux64                            and (environ.get('CF_COMPILER_STACK') == 'comp7')]
-    - build_number_decrement    # [(linux or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+    - channel_targets           # [(linux64 or osx)                   and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+    - docker_image              # [ linux64                           and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+    - build_number_decrement    # [(linux64 or osx)                   and (environ.get('CF_COMPILER_STACK') == 'comp7')]
 
 # TODO: remove these when run_exports are added to the packages.
 pin_run_as_build:
