@@ -83,8 +83,8 @@ zip_keys:
   -
     - python
     - vc                        # [win]
-    - c_compiler                # [not (linux64 or osx)]
-    - cxx_compiler              # [not (linux64 or osx)]
+    - c_compiler                # [win]
+    - cxx_compiler              # [win]
 
   # Dual compiler zip
   -                             # [(linux64 or osx)                   and (environ.get('CF_COMPILER_STACK') == 'comp7')]
