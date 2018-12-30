@@ -228,6 +228,8 @@ pin_run_as_build:
     max_pin: x.x
   nlopt:
     max_pin: x.x.x
+  nss:
+    max_pin: x
   occt:
     max_pin: x.x
   openblas:
@@ -419,6 +421,8 @@ netcdf_fortran:
   - 4.4
 nettle:
   - 3.4
+nss:
+  - 3.39
 nlopt:
   - 2.5.*
 ntl:
