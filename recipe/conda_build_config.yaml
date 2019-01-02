@@ -46,6 +46,13 @@ go_compiler:
   - go-nocgo
 cgo_compiler:
   - go-cgo
+target_goos:
+  - linux                      # [linux]
+  - darwin                     # [osx]
+  - windows                    # [win]
+target_goarch:
+  - 386                        # [x86]
+  - amd64                      # [x86_64]
 macos_min_version:             # [osx]
   - 10.9                       # [osx]
 macos_machine:                 # [osx]
