@@ -42,10 +42,25 @@ m2w64_cxx_compiler:            # [win]
   - m2w64-toolchain            # [win]
 m2w64_fortran_compiler:        # [win]
   - m2w64-toolchain            # [win]
+#
+# Go Compiler Options
+#
+
+# The basic go-compiler with CGO disabled,
+# It generates fat binaries without libc dependencies
+# The activation scripts will set your CC,CXX and related flags
+# to invalid values.
 go_compiler:
   - go-nocgo
+# The go compiler build with CGO enabled.
+# It can generate fat binaries that depend on conda's libc.
+# You should use this compiler if the underlying
+# program needs to link against other C libraries, in which
+# case make sure to add  'c,cpp,fortran_compiler' for unix
+# and the m2w64 equivalent for windows.
 cgo_compiler:
   - go-cgo
+# The following are helpful variables to simplify go meta.yaml files.
 target_goos:
   - linux                      # [linux]
   - darwin                     # [osx]
@@ -53,6 +68,13 @@ target_goos:
 target_goarch:
   - 386                        # [x86]
   - amd64                      # [x86_64]
+target_goexe:
+  -                            # [unix]
+  - .exe                       # [win]
+target_gobin:
+  - '${PREFIX}/bin/'           # [unix]
+  - '%PREFIX%\bin\'            # [win]
+
 macos_min_version:             # [osx]
   - 10.9                       # [osx]
 macos_machine:                 # [osx]
