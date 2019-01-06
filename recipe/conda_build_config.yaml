@@ -292,7 +292,7 @@ boost_cpp:
 bzip2:
   - 1
 cairo:
-  - 1.14
+  - 1.16
 curl:
   - 7.59
 dbus:
