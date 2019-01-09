@@ -230,6 +230,8 @@ pin_run_as_build:
     max_pin: x.x.x
   nss:
     max_pin: x
+  nspr:
+    max_pin: x
   occt:
     max_pin: x.x
   openblas:
@@ -294,7 +296,7 @@ boost_cpp:
 bzip2:
   - 1
 cairo:
-  - 1.14
+  - 1.16
 curl:
   - 7.59
 dbus:
@@ -423,6 +425,8 @@ nettle:
   - 3.4
 nss:
   - 3.39
+nspr:
+  - 4.20
 nlopt:
   - 2.5.*
 ntl:
