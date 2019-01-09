@@ -386,7 +386,7 @@ libpcap:
 libpng:
   - 1.6.35
 libprotobuf:
-  - 3.5
+  - 3.6
 librdkafka:
   - 0.11.5
 libsecret:
