@@ -32,7 +32,7 @@ cxx_compiler:
   - vs2015                     # [win and (environ.get('CF_MAX_PY_VER', '') >= '37')]
 fortran_compiler:              # [unix or win64]
   - toolchain_fort             # [unix and not ppc64le]
-  - gfortran                   # [(linux or osx)                      and (environ.get('CF_COMPILER_STACK') == 'comp7')]
+  - gfortran 4.*               # [(linux or osx)                      and (environ.get('CF_COMPILER_STACK') == 'comp7')]
 
   - gfortran                   # [ppc64le]
   - flang                      # [win64]
