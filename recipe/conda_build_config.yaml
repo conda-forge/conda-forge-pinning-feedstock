@@ -10,7 +10,7 @@ cross_compiler_target_platform:  # [win]
   - win-64                     # [win]
 c_compiler:
   # legacy compilers for things that refuse to move
-  - toolchain_c                # [linux64 or osx and (environ.get('CF_COMPILER_STACK') == 'comp4')]
+  - toolchain_c                # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
   # modern compilers
   - gcc                        # [linux64]
   - clang                      # [osx]
@@ -23,7 +23,7 @@ c_compiler:
   - vs2015                     # [win]
 cxx_compiler:
   # legacy compilers for things that refuse to move
-  - toolchain_cxx              # [linux64 or osx and (environ.get('CF_COMPILER_STACK') == 'comp4')]
+  - toolchain_cxx              # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
   # modern compilers
   - gxx                        # [linux64]
   - clangxx                    # [osx]
@@ -35,7 +35,7 @@ cxx_compiler:
   - vs2015                     # [win]
   - vs2015                     # [win]
 fortran_compiler:              # [unix or win64]
-  - toolchain_fort             # [linux64 or osx and (environ.get('CF_COMPILER_STACK') == 'comp4')]
+  - toolchain_fort             # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
   - gfortran                   # [(linux64 or osx)]
 
   - gfortran                   # [aarch64]
