@@ -347,7 +347,7 @@ gmp:
 graphviz:
   - 2.38.0
 harfbuzz:
-  - 1
+  - 2
 hdf4:
   - 4.2
 hdf5:
