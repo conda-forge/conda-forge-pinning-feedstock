@@ -329,7 +329,7 @@ gst_plugins_base:
   - 1.12  # [linux]
   - 1.14.0  # [osx]
 gdal:
-  - 2.3
+  - 2.4
 geos:
   - 3.7.1
 geotiff:
@@ -379,7 +379,7 @@ libevent:
 libffi:
   - 3.2
 libgdal:
-  - 2.3
+  - 2.4
 libiconv:
   - 1.15
 libkml:
