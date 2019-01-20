@@ -17,7 +17,7 @@ c_compiler:
   # non-standard arches get built with gcc
   - gcc                        # [aarch64]
   - gcc                        # [ppc64le]
-  
+
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
@@ -103,6 +103,13 @@ zip_keys:
     - channel_targets           # [(linux64 or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
     - docker_image              # [linux64                              and (environ.get('CF_COMPILER_STACK') == 'comp4')]
     - build_number_decrement    # [(linux64 or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
+
+# aarch64 specifics because conda-build sets many things to centos 6
+# this can probably be removed when conda-build gets updated defaults
+# for aarch64
+cdt_arch: aarch64                       # [aarch64]
+cdt_name: cos7                          # [aarch64]
+BUILD: aarch64-conda_cos7-linux-gnu     # [aarch64]
 
 # TODO: remove these when run_exports are added to the packages.
 pin_run_as_build:
