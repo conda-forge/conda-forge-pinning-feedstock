@@ -5,4 +5,4 @@ channel_sources:
 channel_targets:
 - conda-forge main
 docker_image:
-- condaforge/linux-anvil
+- condaforge/linux-anvil-comp7
