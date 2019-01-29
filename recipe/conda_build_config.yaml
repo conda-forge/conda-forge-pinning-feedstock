@@ -141,10 +141,6 @@ pin_run_as_build:
     max_pin: x
   gsl:
     max_pin: x.x
-  gstreamer:
-    max_pin: x.x
-  gst-plugins-base:
-    max_pin: x.x
   gdal:
     max_pin: x.x
   geos:
@@ -154,8 +150,6 @@ pin_run_as_build:
   giflib:
     max_pin: x.x
   glew:
-    max_pin: x.x
-  glib:
     max_pin: x.x
   glpk:
     max_pin: x.x
@@ -332,11 +326,9 @@ gf2x:
 gsl:
   - 2.4
 gstreamer:
-  - 1.12  # [linux]
-  - 1.14.0  # [osx]
+  - 1.14.4
 gst_plugins_base:
-  - 1.12  # [linux]
-  - 1.14.0  # [osx]
+  - 1.14.4
 gdal:
   - 2.4
 geos:
