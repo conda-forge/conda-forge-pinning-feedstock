@@ -144,7 +144,7 @@ pin_run_as_build:
   gdal:
     max_pin: x.x
   gdk_pixbuf:
-    max_bin: x.x
+    max_pin: x.x
   geos:
     max_pin: x.x.x
   geotiff:
