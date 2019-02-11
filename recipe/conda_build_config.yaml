@@ -143,6 +143,8 @@ pin_run_as_build:
     max_pin: x.x
   gdal:
     max_pin: x.x
+  gdk_pixbuf:
+    max_bin: x.x
   geos:
     max_pin: x.x.x
   geotiff:
@@ -327,6 +329,8 @@ freetype:
   - 2.9.1
 gf2x:
   - 1.2
+gdk_pixbuf:
+  - 2.36.12
 gsl:
   - 2.4
 gstreamer:
