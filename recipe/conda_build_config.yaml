@@ -205,6 +205,8 @@ pin_run_as_build:
     max_pin: x.x
   librdkafka:
     max_pin: x.x.x
+  librsvg:
+    max_pin: x.x
   libssh2:
     max_pin: x.x
   libsvm:
@@ -399,6 +401,8 @@ libprotobuf:
   - 3.6
 librdkafka:
   - 0.11.5
+librsvg:
+  - 2.44.3
 libsecret:
   - 0.18
 libssh2:
