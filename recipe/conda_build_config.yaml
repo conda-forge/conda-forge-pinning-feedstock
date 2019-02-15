@@ -467,7 +467,7 @@ openblas:
 openjpeg:
   - 2.3
 openssl:
-  - 1.0.2
+  - 1.1.1a
 openturns:
   - 1.12*
 pango:
