@@ -481,8 +481,8 @@ poppler:
 proj4:
   - 5.2.0
 python:
-  - 2.7
-  - 3.6
+  - 2.7      # [not (aarch64 or ppc64le)]
+  - 3.6      # [not (aarch64 or ppc64le)]
   - 3.7
 pyqt:
   - 5.6
