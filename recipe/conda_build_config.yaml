@@ -183,6 +183,8 @@ pin_run_as_build:
     max_pin: x.x
   libblitz:
     max_pin: x.x
+  libcurl:
+    max_pin: x
   libdap4:
     max_pin: x.x
   libevent:
@@ -314,7 +316,7 @@ bzip2:
 cairo:
   - 1.16
 curl:
-  - 7.59
+  - 7.64
 dbus:
   - 1
 expat:
@@ -382,6 +384,8 @@ krb5:
   - 1.16
 libblitz:
   - 0.10
+libcurl:
+  - 7.64
 libdap4:
   - 3.19
 libevent:
