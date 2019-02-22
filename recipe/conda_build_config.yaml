@@ -493,7 +493,7 @@ pyqt:
 qt:
   - 5.6
 readline:
-  - 7.0
+  - 8.0
 r_base:
   - 3.5.1
 snappy:
