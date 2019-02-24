@@ -405,8 +405,8 @@ libnetcdf:
 libpcap:
   - 1.8
 libpng:
-  - 1.6.35   # [not aarch64]
-  - 1.6.36   # [aarch64]
+  - 1.6.35   # [not (aarch64 or ppc64le)]
+  - 1.6.36   # [aarch64 or ppc64le]
 libprotobuf:
   - 3.6
 librdkafka:
@@ -420,8 +420,8 @@ libssh2:
 libsvm:
   - 3.21
 libtiff:
-  - 4.0.9    # [not aarch64]
-  - 4.0.10   # [aarch64]
+  - 4.0.9    # [not (aarch64 or ppc64le)]
+  - 4.0.10   # [aarch64 or ppc64le]
 libunwind:
   - 1.2
 libwebp:
@@ -431,8 +431,8 @@ libxml2:
 libuuid:
   - 2.32.1
 lz4_c:
-  - 1.8.1    # [not aarch64]
-  - 1.8.3    # [aarch64]
+  - 1.8.1    # [not (aarch64 or ppc64le)]
+  - 1.8.3    # [aarch64 or ppc64le]
 lzo:
   - 2
 metis:
@@ -460,14 +460,14 @@ ntl:
 # we build for an old version of numpy for forward compatibility
 #    1.11 seems to be the oldest on win that works with scipy 0.19.  Compiler errors otherwise.
 numpy:
-  - 1.9    # [unix and not aarch64]
-  - 1.11   # [aarch64]
+  - 1.9    # [linux64 or osx]
+  - 1.11   # [aarch64 or ppc64le]
   - 1.11   # [win]
 occt:
   - 7.3
 openblas:
-  - 0.3.3      # [not aarch64]
-  - 0.3.5      # [aarch64]
+  - 0.3.3      # [not (aarch64 or ppc64le)]
+  - 0.3.5      # [aarch64 or ppc64le]
 openjpeg:
   - 2.3
 openssl:
@@ -526,5 +526,5 @@ zeromq:
 zlib:
   - 1.2
 zstd:
-  - 1.3.3  # [not aarch64]
-  - 1.3.7  # [aarch64]
+  - 1.3.3  # [not (aarch64 or ppc64le)]
+  - 1.3.7  # [aarch64 or ppc64le]
