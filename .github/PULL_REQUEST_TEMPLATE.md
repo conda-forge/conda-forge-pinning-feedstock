@@ -9,8 +9,10 @@ Checklist
 * [ ] [Re-rendered]( https://conda-forge.org/docs/conda_smithy.html#how-to-re-render ) with the latest `conda-smithy` (Use the phrase <code>@<space/>conda-forge-admin, please rerender</code> in a comment in this PR for automated rerendering)
 * [ ] Ensured the license file is being packaged.
 
-
+# Migration
+<!--
 If this is an ABI incompatible change which requries a migration, please note it and ping ``@conda-forge/bot``.
+-->
 
 <!--
 Please note any issues this fixes using [closing keywords]( https://help.github.com/articles/closing-issues-using-keywords/ ):
