@@ -3,7 +3,7 @@
 # -*- mode: yaml -*-
 
 jobs:
-- job: linux_64
+- job: linux
   pool:
     vmImage: ubuntu-16.04
   timeoutInMinutes: 240
@@ -29,3 +29,5 @@ jobs:
 
   - script: .azure-pipelines/run_docker_build.sh
     displayName: Run docker build
+    env:
+      BINSTAR_TOKEN: $(BINSTAR_TOKEN)

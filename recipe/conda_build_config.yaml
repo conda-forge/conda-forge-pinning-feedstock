@@ -89,7 +89,7 @@ macos_machine:                 # [osx]
   - x86_64-apple-darwin13.4.0  # [osx]
 MACOSX_DEPLOYMENT_TARGET:      # [osx]
   - 10.9                       # [osx]
-target_platform:
+target_platform:               # [win]
   - win-64                     # [win]
 VERBOSE_AT:
   - V=1
@@ -172,12 +172,10 @@ pin_run_as_build:
     max_pin: x
   gsl:
     max_pin: x.x
-  gstreamer:
-    max_pin: x.x
-  gst-plugins-base:
-    max_pin: x.x
   gdal:
     max_pin: x.x
+  gdk_pixbuf:
+    max_pin: x.x.x
   geos:
     max_pin: x.x.x
   geotiff:
@@ -185,8 +183,6 @@ pin_run_as_build:
   giflib:
     max_pin: x.x
   glew:
-    max_pin: x.x
-  glib:
     max_pin: x.x
   glpk:
     max_pin: x.x
@@ -218,6 +214,8 @@ pin_run_as_build:
     max_pin: x.x
   libblitz:
     max_pin: x.x
+  libcurl:
+    max_pin: x
   libdap4:
     max_pin: x.x
   libevent:
@@ -242,6 +240,8 @@ pin_run_as_build:
     max_pin: x.x
   librdkafka:
     max_pin: x.x.x
+  librsvg:
+    max_pin: x.x
   libssh2:
     max_pin: x.x
   libsvm:
@@ -314,6 +314,8 @@ pin_run_as_build:
     max_pin: x.x.x
   sqlite:
     max_pin: x
+  sundials:
+    max_pin: x.x
   tk:
     max_pin: x.x
   vc:
@@ -345,7 +347,7 @@ bzip2:
 cairo:
   - 1.16
 curl:
-  - 7.59
+  - 7.64
 dbus:
   - 1
 expat:
@@ -360,14 +362,14 @@ freetype:
   - 2.9.1
 gf2x:
   - 1.2
+gdk_pixbuf:
+  - 2.36.12
 gsl:
   - 2.4
 gstreamer:
-  - 1.12  # [linux]
-  - 1.14.0  # [osx]
+  - 1.14.4
 gst_plugins_base:
-  - 1.12  # [linux]
-  - 1.14.0  # [osx]
+  - 1.14.4
 gdal:
   - 2.4
 geos:
@@ -413,6 +415,8 @@ krb5:
   - 1.16
 libblitz:
   - 0.10
+libcurl:
+  - 7.64
 libdap4:
   - 3.19
 libevent:
@@ -432,12 +436,14 @@ libnetcdf:
 libpcap:
   - 1.8
 libpng:
-  - 1.6.35   # [not aarch64]
-  - 1.6.36   # [aarch64]
+  - 1.6.35   # [not (aarch64 or ppc64le)]
+  - 1.6.36   # [aarch64 or ppc64le]
 libprotobuf:
   - 3.6
 librdkafka:
   - 0.11.5
+librsvg:
+  - 2.44.3
 libsecret:
   - 0.18
 libssh2:
@@ -445,8 +451,8 @@ libssh2:
 libsvm:
   - 3.21
 libtiff:
-  - 4.0.9    # [not aarch64]
-  - 4.0.10   # [aarch64]
+  - 4.0.9    # [not (aarch64 or ppc64le)]
+  - 4.0.10   # [aarch64 or ppc64le]
 libunwind:
   - 1.2
 libwebp:
@@ -456,8 +462,8 @@ libxml2:
 libuuid:
   - 2.32.1
 lz4_c:
-  - 1.8.1    # [not aarch64]
-  - 1.8.3    # [aarch64]
+  - 1.8.1    # [not (aarch64 or ppc64le)]
+  - 1.8.3    # [aarch64 or ppc64le]
 lzo:
   - 2
 metis:
@@ -485,18 +491,18 @@ ntl:
 # we build for an old version of numpy for forward compatibility
 #    1.11 seems to be the oldest on win that works with scipy 0.19.  Compiler errors otherwise.
 numpy:
-  - 1.9    # [unix]
-  - 1.11   # [aarch64]
+  - 1.9    # [linux64 or osx]
+  - 1.11   # [aarch64 or ppc64le]
   - 1.11   # [win]
 occt:
   - 7.3
 openblas:
-  - 0.3.3      # [not aarch64]
-  - 0.3.5      # [aarch64]
+  - 0.3.3      # [not (aarch64 or ppc64le)]
+  - 0.3.5      # [aarch64 or ppc64le]
 openjpeg:
   - 2.3
 openssl:
-  - 1.0.2
+  - 1.1.1a
 openturns:
   - 1.12*
 pango:
@@ -527,6 +533,8 @@ sox:
   - 14.4.2
 sqlite:
   - 3
+sundials:
+  - 3.2 
 tk:
   - 8.6                # [not ppc64le]
 vc:                    # [win]
@@ -544,9 +552,10 @@ xerces_c:
 xz:
   - 5.2
 zeromq:
-  - 4.2.5
+  - 4.2.5  # [not (aarch64 or ppc64le)]
+  - 4.3.1  # [aarch64 or ppc64le]
 zlib:
   - 1.2
 zstd:
-  - 1.3.3  # [not aarch64]
-  - 1.3.7  # [aarch64]
+  - 1.3.3  # [not (aarch64 or ppc64le)]
+  - 1.3.7  # [aarch64 or ppc64le]
