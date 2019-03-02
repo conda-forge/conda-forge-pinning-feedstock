@@ -74,7 +74,6 @@ target_goos:
   - darwin                     # [osx]
   - windows                    # [win]
 target_goarch:
-  - 386                        # [x86]
   - amd64                      # [x86_64]
 target_goexe:
   -                            # [unix]
