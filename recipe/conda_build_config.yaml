@@ -314,7 +314,7 @@ liblapacke:
 blas_impl:
   - openblas
   - mkl          # [x86 or x86_64]
-  - blis
+  - blis         # [x86 or x86_64]
 
 arpack:
   - 3.6.3
