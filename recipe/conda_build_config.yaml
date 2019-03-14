@@ -460,7 +460,7 @@ libpng:
   - 1.6.35   # [not (aarch64 or ppc64le)]
   - 1.6.36   # [aarch64 or ppc64le]
 libprotobuf:
-  - 3.6
+  - 3.7
 librdkafka:
   - 0.11.5
 librsvg:
