@@ -187,7 +187,7 @@ pin_run_as_build:
   geotiff:
     max_pin: x.x
   giflib:
-    max_pin: x.x
+    max_pin: x.x.x
   glew:
     max_pin: x.x
   glpk:
@@ -398,7 +398,7 @@ geos:
 geotiff:
   - 1.4.2
 giflib:
-  - 5.1
+  - 5.1.7
 glew:
   - 2.0.0
 glib:
