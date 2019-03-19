@@ -557,7 +557,7 @@ sox:
 sqlite:
   - 3
 sundials:
-  - 3.2 
+  - 3.2.*
 tk:
   - 8.6                # [not ppc64le]
 vc:                    # [win]
