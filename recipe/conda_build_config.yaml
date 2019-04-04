@@ -175,7 +175,7 @@ pin_run_as_build:
   fontconfig:
     max_pin: x
   freetype:
-    max_pin: x
+    max_pin: x.x
   gsl:
     max_pin: x.x
   gdal:
@@ -557,7 +557,7 @@ sox:
 sqlite:
   - 3
 sundials:
-  - 3.2 
+  - 3.2
 tk:
   - 8.6                # [not ppc64le]
 vc:                    # [win]
