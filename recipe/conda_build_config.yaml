@@ -574,8 +574,7 @@ xerces_c:
 xz:
   - 5.2
 zeromq:
-  - 4.2.5  # [not (aarch64 or ppc64le)]
-  - 4.3.1  # [aarch64 or ppc64le]
+  - 4.3.1
 zlib:
   - 1.2
 zstd:
