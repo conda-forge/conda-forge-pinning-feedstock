@@ -1,4 +1,4 @@
-{% set version = "2019.04.24" %}
+{% set version = "2019.04.25" %}
 
 package:
   name: conda-forge-pinning
@@ -20,7 +20,7 @@ test:
 
 about:
   summary: The baseline versions of software for the conda-forge ecosystem
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   home: https://conda-forge.org/docs/meta.html#pinning-packages
 
