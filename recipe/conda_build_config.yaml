@@ -528,7 +528,7 @@ openjpeg:
 openssl:
   - 1.1.1a
 openturns:
-  - 1.12*
+  - 1.13*
 pango:
   - 1.40
 perl:
