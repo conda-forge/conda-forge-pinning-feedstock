@@ -543,6 +543,9 @@ python:
   - 2.7
   - 3.6
   - 3.7
+  # pypy only supports win32 so far
+  - pypy.3.6.7.1  # [unix or win32]
+  - pypy.2.7.7.1  # [unix or win32]
 pyqt:
   - 5.9
 qt:
