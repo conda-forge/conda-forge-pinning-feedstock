@@ -509,7 +509,7 @@ nss:
 nspr:
   - 4.20
 nlopt:
-  - 2.5.*
+  - 2.6.*
 ntl:
   - 11.3.1
 # we build for an old version of numpy for forward compatibility
