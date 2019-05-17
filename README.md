@@ -5,7 +5,7 @@
 About conda-forge-pinning
 =========================
 
-Home: https://conda-forge.org/docs/meta.html#pinning-packages
+Home: https://conda-forge.org/docs/maintainer/pinning_deps.html
 
 Package license: BSD 3-Clause
 
