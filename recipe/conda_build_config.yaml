@@ -516,7 +516,8 @@ ntl:
   - 11.3.1
 # we build for the oldest version possible of numpy for forward compatibility
 numpy:
-  - 1.14
+  - 1.14       # [not (aarch64 or ppc64le)]
+  - 1.16       # [aarch64 or ppc64le]
 occt:
   - 7.3
 openblas:
