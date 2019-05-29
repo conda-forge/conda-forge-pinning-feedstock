@@ -362,9 +362,9 @@ blas_impl:
 arpack:
   - 3.6.3
 boost:
-  - 1.68.0
+  - 1.70.0
 boost_cpp:
-  - 1.68.0
+  - 1.70.0
 bzip2:
   - 1
 cairo:
