@@ -5,26 +5,20 @@
 version: 2
 
 jobs:
-  build_linux_:
+  build:
     working_directory: ~/test
     machine: true
-    environment:
-      - CONFIG: "linux_"
     steps:
-      - checkout
       - run:
-          name: Fast finish outdated PRs and merge PRs
-          command: |
-            ./.circleci/fast_finish_ci_pr_build.sh
-            ./.circleci/checkout_merge_commit.sh
-      - run:
-          command: docker pull condaforge/linux-anvil-comp7
-      - run:
-          # Run, test and (if we have a BINSTAR_TOKEN) upload the distributions.
-          command: ./.circleci/run_docker_build.sh
+          # The Circle-CI build should not be active, but if this is not true for some reason, do a fast finish.
+          command: exit 0
 
 workflows:
   version: 2
   build_and_test:
     jobs:
-      - build_linux_
+      - build:
+          filters:
+            branches:
+              ignore:
+                - /.*/
