@@ -127,7 +127,6 @@ build_number_decrement:                         # [(linux64 or osx)     and (env
 
 zip_keys:
   -
-    - pyqt
     - qt
   -
     - python
@@ -308,8 +307,6 @@ pin_run_as_build:
     max_pin: x.x
   proj4:
     max_pin: x.x.x
-  pyqt:
-    max_pin: x.x
   qt:
     max_pin: x.x
   readline:
@@ -543,8 +540,6 @@ python:
   - 2.7
   - 3.6
   - 3.7
-pyqt:
-  - 5.9
 qt:
   - 5.9
 readline:
