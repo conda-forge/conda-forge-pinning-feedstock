@@ -531,8 +531,7 @@ pango:
 perl:
   - 5.26
 pixman:
-  - 0.34  # [not (aarch64 or ppc64le)]
-  - 0.38  # [aarch64 or ppc64le]
+  - 0.38
 poppler:
   - 0.67.0
 proj4:
