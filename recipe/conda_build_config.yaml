@@ -531,7 +531,7 @@ pango:
 perl:
   - 5.26
 pixman:
-  - 0.34
+  - 0.38
 poppler:
   - 0.67.0
 proj4:
