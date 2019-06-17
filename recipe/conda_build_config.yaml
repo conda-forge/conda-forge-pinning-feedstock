@@ -442,7 +442,7 @@ libcurl:
 libdap4:
   - 3.19
 libevent:
-  - 2.0.22
+  - 2.1.10
 libffi:
   - 3.2
 libgdal:
