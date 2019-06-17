@@ -442,7 +442,8 @@ libcurl:
 libdap4:
   - 3.19
 libevent:
-  - 2.0.22
+  - 2.0.22   # [not (aarch64 or ppc64le)]
+  - 2.1.10   # [aarch64 or ppc64le]
 libffi:
   - 3.2
 libgdal:
