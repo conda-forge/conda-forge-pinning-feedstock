@@ -546,6 +546,8 @@ readline:
   - 7.0
 r_base:
   - 3.5.1
+singular:
+  - 4.1.2
 snappy:
   - 1.1.7
 sox:
