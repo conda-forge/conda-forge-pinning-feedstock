@@ -177,8 +177,6 @@ pin_run_as_build:
     max_pin: x
   freetype:
     max_pin: x
-  gsl:
-    max_pin: x.x
   gdal:
     max_pin: x.x
   gdk_pixbuf:
@@ -385,7 +383,7 @@ gf2x:
 gdk_pixbuf:
   - 2.36.12
 gsl:
-  - 2.4
+  - 2.5
 gstreamer:
   - 1.14.4
 gst_plugins_base:
