@@ -526,6 +526,8 @@ openturns:
   - 1.13*
 pango:
   - 1.40
+pari:
+  - 2.11
 perl:
   - 5.26
 pixman:
