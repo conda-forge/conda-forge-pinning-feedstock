@@ -542,7 +542,7 @@ python:
 qt:
   - 5.9
 readline:
-  - 7.0
+  - 8.0
 r_base:
   - 3.5.1
 singular:
