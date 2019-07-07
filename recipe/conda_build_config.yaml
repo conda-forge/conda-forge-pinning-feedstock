@@ -181,8 +181,6 @@ pin_run_as_build:
     max_pin: x.x
   gdk_pixbuf:
     max_pin: x.x.x
-  geos:
-    max_pin: x.x.x
   geotiff:
     max_pin: x.x.x
   glew:
@@ -391,7 +389,7 @@ gst_plugins_base:
 gdal:
   - 2.4
 geos:
-  - 3.7.1
+  - 3.7.2
 geotiff:
   - 1.5.1
 giflib:
