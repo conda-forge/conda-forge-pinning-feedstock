@@ -51,8 +51,10 @@ fi
 mkdir -p "$ARTIFACTS"
 DONE_CANARY="$ARTIFACTS/conda-forge-build-done-${CONFIG}"
 rm -f "$DONE_CANARY"
-# Not all providers run with a real tty.  Disable using one
-DOCKER_RUN_ARGS=" "
+
+if [ -z "${CI}" ]; then
+    DOCKER_RUN_ARGS="-it "
+fi
 
 export UPLOAD_PACKAGES="${UPLOAD_PACKAGES:-True}"
 docker run ${DOCKER_RUN_ARGS} \
@@ -62,6 +64,7 @@ docker run ${DOCKER_RUN_ARGS} \
            -e BINSTAR_TOKEN \
            -e HOST_USER_ID \
            -e UPLOAD_PACKAGES \
+           -e CI \
            $DOCKER_IMAGE \
            bash \
            /home/conda/feedstock_root/${PROVIDER_DIR}/build_steps.sh

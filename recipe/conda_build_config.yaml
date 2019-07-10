@@ -363,6 +363,8 @@ bzip2:
   - 1
 cairo:
   - 1.16
+cfitsio:
+  - 3.470
 curl:
   - 7.64
 dbus:
