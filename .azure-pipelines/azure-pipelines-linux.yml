@@ -13,12 +13,8 @@ jobs:
       linux_:
         CONFIG: linux_
         UPLOAD_PACKAGES: True
+        DOCKER_IMAGE: condaforge/linux-anvil-comp7
   steps:
-  - script: |
-      sudo pip install --upgrade pip
-      sudo pip install setuptools shyaml
-    displayName: Install dependencies
-
   # configure qemu binfmt-misc running.  This allows us to run docker containers
   # embedded qemu-static
   - script: |
@@ -27,7 +23,9 @@ jobs:
     condition: not(startsWith(variables['CONFIG'], 'linux_64'))
     displayName: Configure binfmt_misc
 
-  - script: .azure-pipelines/run_docker_build.sh
+  - script: |
+        export CI=azure
+        .azure-pipelines/run_docker_build.sh
     displayName: Run docker build
     env:
       BINSTAR_TOKEN: $(BINSTAR_TOKEN)
