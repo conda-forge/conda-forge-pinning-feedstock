@@ -525,7 +525,7 @@ openssl:
 openturns:
   - 1.13*
 pango:
-  - 1.40
+  - 1.42
 pari:
   - 2.11
 perl:
