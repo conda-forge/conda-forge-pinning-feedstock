@@ -308,7 +308,8 @@ pin_run_as_build:
   readline:
     max_pin: x
   r-base:
-    max_pin: x.x.x
+    max_pin: x.x
+    min_pin: x.x
   snappy:
     max_pin: x.x.x
   sox:
@@ -525,7 +526,7 @@ openssl:
 openturns:
   - 1.13*
 pango:
-  - 1.40
+  - 1.42
 pari:
   - 2.11
 perl:
@@ -546,6 +547,7 @@ readline:
   - 8.0
 r_base:
   - 3.5.1
+  - 3.6
 singular:
   - 4.1.2
 snappy:
