@@ -1,4 +1,4 @@
-{% set version = "2019.07.19" %}
+{% set version = "2019.07.20" %}
 
 
 package:
@@ -9,7 +9,7 @@ source:
   path: .
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   script:
     - cp conda_build_config.yaml $PREFIX      # [unix]

@@ -217,8 +217,6 @@ pin_run_as_build:
     max_pin: x.x
   libcurl:
     max_pin: x
-  libdap4:
-    max_pin: x.x
   libevent:
     max_pin: x.x.x
   libffi:
@@ -439,7 +437,7 @@ libblitz:
 libcurl:
   - 7.64
 libdap4:
-  - 3.19
+  - 3.20.2
 libevent:
   - 2.1.10
 libffi:
@@ -474,8 +472,7 @@ libssh2:
 libsvm:
   - 3.21
 libtiff:
-  - 4.0.9    # [not (aarch64 or ppc64le)]
-  - 4.0.10   # [aarch64 or ppc64le]
+  - 4.0.10
 libunwind:
   - 1.2
 libwebp:
