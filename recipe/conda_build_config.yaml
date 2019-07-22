@@ -462,7 +462,7 @@ libprotobuf:
 librdkafka:
   - 0.11.5
 librsvg:
-  - 2.44.3
+  - 2.44.14
 libsecret:
   - 0.18
 libspatialindex:
