@@ -478,7 +478,7 @@ libunwind:
 libwebp:
   - 1.0.0
 libxml2:
-  - 2.9
+  - 2.9.*
 libuuid:
   - 2.32.1
 lz4_c:
