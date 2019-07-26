@@ -1,4 +1,4 @@
-{% set version = "2019.07.23" %}
+{% set version = "2019.07.26" %}
 
 
 package:

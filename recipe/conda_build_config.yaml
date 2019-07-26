@@ -418,7 +418,7 @@ glpk:
 gmp:
   - 6
 graphviz:
-  - 2.38.0
+  - 2.40
 harfbuzz:
   - 2
 hdf4:
