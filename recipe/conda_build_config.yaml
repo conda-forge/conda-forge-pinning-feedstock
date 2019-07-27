@@ -13,6 +13,7 @@ c_compiler:
   # non-standard arches get built with gcc
   - gcc                        # [aarch64]
   - gcc                        # [ppc64le]
+  - gcc                        # [armv7l]
 
   - vs2008                     # [win]
   - vs2015                     # [win]
@@ -21,7 +22,7 @@ c_compiler_version:            # [unix]
   - 2                          # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
   - 4                          # [osx]
   - 7                          # [linux64 or aarch64]
-  - 8                          # [ppc64le]
+  - 8                          # [ppc64le or armv7l]
 cxx_compiler:
   # legacy compilers for things that refuse to move
   - toolchain_cxx              # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
@@ -31,6 +32,7 @@ cxx_compiler:
 
   - gxx                        # [aarch64]
   - gxx                        # [ppc64le]
+  - gxx                        # [armv7l]
 
   - vs2008                     # [win]
   - vs2015                     # [win]
@@ -39,16 +41,16 @@ cxx_compiler_version:          # [unix]
   - 2                          # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
   - 4                          # [osx]
   - 7                          # [linux64 or aarch64]
-  - 8                          # [ppc64le]
+  - 8                          # [ppc64le or armv7l]
 fortran_compiler:              # [unix or win64]
   - toolchain_fort             # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
   - gfortran                   # [(linux64 or osx)]
-  - gfortran                   # [aarch64 or ppc64le]
+  - gfortran                   # [aarch64 or ppc64le or armv7l]
   - flang                      # [win64]
 fortran_compiler_version:      # [unix or win64]
   - 2                          # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
   - 7                          # [linux64 or osx or aarch64]
-  - 8                          # [ppc64le]
+  - 8                          # [ppc64le or armv7l]
   - 5                          # [win64]
 m2w64_c_compiler:              # [win]
   - m2w64-toolchain            # [win]
@@ -105,8 +107,9 @@ VERBOSE_CM:
 
 # dual build configuration
 channel_sources:
-  - conda-forge,defaults                        # [not aarch64]
+  - conda-forge,defaults                        # [not (aarch64 or armv7l)]
   - conda-forge,c4aarch64,defaults              # [aarch64]
+  - conda-forge,c4armv7l,defaults               # [armv7l]
   - conda-forge/label/cf201901,defaults         # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
 
 channel_targets:
@@ -119,6 +122,7 @@ docker_image:                                   # [linux]
 
   - condaforge/linux-anvil-aarch64              # [aarch64]
   - condaforge/linux-anvil-ppc64le              # [ppc64le]
+  - condaforge/linux-anvil-armv7l               # [armv7l]
 
 build_number_decrement:                         # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
   - 1000                                        # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
@@ -149,6 +153,13 @@ zip_keys:
 cdt_arch: aarch64                       # [aarch64]
 cdt_name: cos7                          # [aarch64]
 BUILD: aarch64-conda_cos7-linux-gnu     # [aarch64]
+
+# armv7l specifics because conda-build sets many things to centos 6
+# this can probably be removed when conda-build gets updated defaults
+# for aarch64
+cdt_arch: armv7l                          # [armv7l]
+cdt_name: cos7                            # [armv7l]
+BUILD: armv7-conda_cos7-linux-gnueabihf   # [armv7l]
 
 # TODO: remove these when run_exports are added to the packages.
 pin_run_as_build:
@@ -216,8 +227,6 @@ pin_run_as_build:
     max_pin: x.x
   libcurl:
     max_pin: x
-  libdap4:
-    max_pin: x.x
   libevent:
     max_pin: x.x.x
   libffi:
@@ -241,7 +250,7 @@ pin_run_as_build:
   librdkafka:
     max_pin: x.x.x
   librsvg:
-    max_pin: x.x
+    max_pin: x
   libspatialindex:
     max_pin: x.x
   libssh2:
@@ -330,7 +339,8 @@ pin_run_as_build:
   xz:
     max_pin: x.x
   zeromq:
-    max_pin: x.x
+    max_pin: x.x  # [not win]
+    max_pin: x.x.x  # [win]
   zlib:
     max_pin: x.x
   zstd:
@@ -407,7 +417,7 @@ glpk:
 gmp:
   - 6
 graphviz:
-  - 2.38.0
+  - 2.40
 harfbuzz:
   - 2
 hdf4:
@@ -415,8 +425,7 @@ hdf4:
 hdf5:
   - 1.10.5
 icu:
-  - 58   # [not aarch64]
-  - 60   # [aarch64]
+  - 64.2
 isl:
   - 0.19
 jasper:
@@ -438,7 +447,7 @@ libblitz:
 libcurl:
   - 7.64
 libdap4:
-  - 3.19
+  - 3.20.2
 libevent:
   - 2.1.10
 libffi:
@@ -463,7 +472,7 @@ libprotobuf:
 librdkafka:
   - 0.11.5
 librsvg:
-  - 2.44.3
+  - 2
 libsecret:
   - 0.18
 libspatialindex:
@@ -473,8 +482,7 @@ libssh2:
 libsvm:
   - 3.21
 libtiff:
-  - 4.0.9    # [not (aarch64 or ppc64le)]
-  - 4.0.10   # [aarch64 or ppc64le]
+  - 4.0.10
 libunwind:
   - 1.2
 libwebp:
@@ -528,7 +536,7 @@ pango:
 pari:
   - 2.11
 perl:
-  - 5.26
+  - 5.26.2
 pixman:
   - 0.38
 poppler:
@@ -573,7 +581,7 @@ xerces_c:
 xz:
   - 5.2
 zeromq:
-  - 4.3.1
+  - 4.3.2
 zlib:
   - 1.2
 zstd:
