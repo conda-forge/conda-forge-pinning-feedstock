@@ -549,7 +549,7 @@ python:
   - 3.6
   - 3.7
 qt:
-  - 5.9
+  - 5.12
 readline:
   - 8.0
 r_base:
