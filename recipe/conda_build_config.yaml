@@ -466,8 +466,7 @@ libnetcdf:
 libpcap:
   - 1.8
 libpng:
-  - 1.6.35   # [not (aarch64 or ppc64le)]
-  - 1.6.36   # [aarch64 or ppc64le]
+  - 1.6
 libprotobuf:
   - 3.8
 librdkafka:
