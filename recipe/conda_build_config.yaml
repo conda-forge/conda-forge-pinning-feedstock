@@ -400,7 +400,7 @@ gstreamer:
 gst_plugins_base:
   - 1.14.4
 gdal:
-  - 2.4
+  - 3.0
 geos:
   - 3.7.2
 geotiff:
@@ -454,7 +454,7 @@ libevent:
 libffi:
   - 3.2
 libgdal:
-  - 2.4
+  - 3.0
 libiconv:
   - 1.15
 libkml:
