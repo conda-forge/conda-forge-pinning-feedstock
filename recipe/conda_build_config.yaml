@@ -329,6 +329,8 @@ pin_run_as_build:
     max_pin: x.x
   tk:
     max_pin: x.x
+  tiledb:
+    max_pin: x.x.x
   vc:
     max_pin: x
   vlfeat:
@@ -566,6 +568,8 @@ sundials:
   - 3.2 
 tk:
   - 8.6                # [not ppc64le]
+tiledb:
+  - 1.6.0
 vc:                    # [win]
   - 9                  # [win]
   - 14                 # [win]
