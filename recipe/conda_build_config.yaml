@@ -20,7 +20,7 @@ c_compiler:
   - vs2015                     # [win]
 c_compiler_version:            # [unix]
   - 2                          # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-  - 4                          # [osx]
+  - 8                          # [osx]
   - 7                          # [linux64 or aarch64]
   - 8                          # [ppc64le or armv7l]
 cxx_compiler:
@@ -39,7 +39,7 @@ cxx_compiler:
   - vs2015                     # [win]
 cxx_compiler_version:          # [unix]
   - 2                          # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-  - 4                          # [osx]
+  - 8                          # [osx]
   - 7                          # [linux64 or aarch64]
   - 8                          # [ppc64le or armv7l]
 fortran_compiler:              # [unix or win64]
@@ -108,7 +108,8 @@ VERBOSE_CM:
 
 # dual build configuration
 channel_sources:
-  - conda-forge,defaults                        # [not (aarch64 or armv7l)]
+  - conda-forge,defaults                        # [not (aarch64 or armv7l or osx)]
+  - conda-forge                                 # [osx]
   - conda-forge,c4aarch64,defaults              # [aarch64]
   - conda-forge,c4armv7l,defaults               # [armv7l]
   - conda-forge/label/cf201901,defaults         # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
