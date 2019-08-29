@@ -228,8 +228,6 @@ pin_run_as_build:
     max_pin: x.x
   libcurl:
     max_pin: x
-  libdeflate:
-    max_pin: x.x
   libevent:
     max_pin: x.x.x
   libffi:
@@ -270,8 +268,6 @@ pin_run_as_build:
     max_pin: x.x
   libuuid:
     max_pin: x
-  libxsmm:
-    max_pin: x.x
   lz4-c:
     max_pin: x.x.x
   lzo:
