@@ -228,6 +228,8 @@ pin_run_as_build:
     max_pin: x.x
   libcurl:
     max_pin: x
+  libdeflate:
+    max_pin: x.x
   libevent:
     max_pin: x.x.x
   libffi:
@@ -451,6 +453,8 @@ libcurl:
   - 7.64
 libdap4:
   - 3.20.2
+libdeflate:
+  - 1.3
 libevent:
   - 2.1.10
 libffi:
