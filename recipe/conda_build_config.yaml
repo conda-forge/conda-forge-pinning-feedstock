@@ -270,6 +270,8 @@ pin_run_as_build:
     max_pin: x.x
   libuuid:
     max_pin: x
+  libxsmm:
+    max_pin: x.x
   lz4-c:
     max_pin: x.x.x
   lzo:
@@ -497,6 +499,8 @@ libxml2:
   - 2.9
 libuuid:
   - 2.32.1
+libxsmm:
+  - 1.13
 lz4_c:
   - 1.8.3
 lzo:
