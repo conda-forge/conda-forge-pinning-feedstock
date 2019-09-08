@@ -501,8 +501,14 @@ metis:
   - 5.1
 mkl:
   - 2019
+mpich:
+  - 3.3
 mpfr:
   - 4
+mumps_mpi:
+  - 5.1
+mumps_seq:
+  - 5.1
 ncurses:
   - 6.1
 netcdf_cxx4:
@@ -529,6 +535,8 @@ openblas:
   - 0.3.6
 openjpeg:
   - 2.3
+openmpi:
+  - 4.0
 openssl:
   - 1.1.1a
 openturns:
@@ -539,6 +547,14 @@ pari:
   - 2.11
 perl:
   - 5.26.2
+petsc:
+  - 3.11
+petsc4py:
+  - 3.11
+slepc:
+  - 3.11
+slepc4py:
+  - 3.11
 pixman:
   - 0.38
 poppler:
@@ -559,6 +575,10 @@ ruby:
 r_base:
   - 3.5.1
   - 3.6
+scotch:
+  - 6.0.8
+ptscotch:
+  - 6.0.8
 singular:
   - 4.1.2
 snappy:
@@ -568,7 +588,7 @@ sox:
 sqlite:
   - 3
 sundials:
-  - 3.2 
+  - 3.2
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
