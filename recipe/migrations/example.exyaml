@@ -1,3 +1,4 @@
+migrator_ts: 0
 __migrator: kind: version
 python:
   - 3.6
