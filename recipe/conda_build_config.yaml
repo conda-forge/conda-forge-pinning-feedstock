@@ -506,9 +506,9 @@ mpich:
 mpfr:
   - 4
 mumps_mpi:
-  - 5.2
+  - 5.1
 mumps_seq:
-  - 5.2
+  - 5.1
 ncurses:
   - 6.1
 netcdf_cxx4:
