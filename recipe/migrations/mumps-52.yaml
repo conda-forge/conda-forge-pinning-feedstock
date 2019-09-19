@@ -1,5 +1,7 @@
 migrator_ts: 1568898453  # The timestamp of when the migration was made
-__migrator: kind: version
+__migrator: 
+  kind: 
+    version
 mumps_mpi:
   - 5.2
 mumps_seq:
