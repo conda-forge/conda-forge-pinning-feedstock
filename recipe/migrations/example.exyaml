@@ -1,0 +1,5 @@
+migrator_ts: 0  # The timestamp of when the migration was made
+__migrator: kind: version
+python:
+  - 3.6
+  - 3.8a1
