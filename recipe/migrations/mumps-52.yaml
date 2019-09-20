@@ -3,7 +3,7 @@ __migrator:
   kind: 
     version
   migration_number:
-    5
+    6
 mumps_mpi:
   - 5.2
 mumps_seq:
