@@ -310,8 +310,6 @@ pin_run_as_build:
     max_pin: x.x
   poppler:
     max_pin: x.x
-  proj4:
-    max_pin: x.x.x
   qt:
     max_pin: x.x
   readline:
@@ -561,6 +559,8 @@ poppler:
   - 0.67.0
 proj4:
   - 6.1.1
+proj:
+  - 6.2.0
 python:
   - 2.7
   - 3.6
