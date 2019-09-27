@@ -26,9 +26,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - isuruf
-    - jakirkham
-    - msarahan
-    - ocefpaf
-    - pelson
-    - CJ-Wright
+    - conda-forge/Core
