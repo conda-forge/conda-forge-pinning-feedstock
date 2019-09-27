@@ -5,36 +5,23 @@
 cross_compiler_target_platform:  # [win]
   - win-64                     # [win]
 c_compiler:
-  # legacy compilers for things that refuse to move
-  # modern compilers
-  - gcc                        # [linux64]
+  - gcc                        # [linux]
   - clang                      # [osx]
-  # non-standard arches get built with gcc
-  - gcc                        # [aarch64]
-  - gcc                        # [ppc64le]
-  - gcc                        # [armv7l]
-
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
 c_compiler_version:            # [unix]
-  - 4                          # [osx]
+  - 9                          # [osx]
   - 7                          # [linux64 or aarch64]
   - 8                          # [ppc64le or armv7l]
 cxx_compiler:
-  # modern compilers
-  - gxx                        # [linux64]
+  - gxx                        # [linux]
   - clangxx                    # [osx]
-
-  - gxx                        # [aarch64]
-  - gxx                        # [ppc64le]
-  - gxx                        # [armv7l]
-
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
 cxx_compiler_version:          # [unix]
-  - 4                          # [osx]
+  - 9                          # [osx]
   - 7                          # [linux64 or aarch64]
   - 8                          # [ppc64le or armv7l]
 fortran_compiler:              # [unix or win64]
@@ -42,7 +29,6 @@ fortran_compiler:              # [unix or win64]
   - gfortran                   # [aarch64 or ppc64le or armv7l]
   - flang                      # [win64]
 fortran_compiler_version:      # [unix or win64]
-  - 4                          # [osx]
   - 7                          # [linux64 or osx or aarch64]
   - 8                          # [ppc64le or armv7l]
   - 5                          # [win64]
