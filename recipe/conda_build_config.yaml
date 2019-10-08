@@ -5,51 +5,30 @@
 cross_compiler_target_platform:  # [win]
   - win-64                     # [win]
 c_compiler:
-  # legacy compilers for things that refuse to move
-  - toolchain_c                # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-  # modern compilers
-  - gcc                        # [linux64]
+  - gcc                        # [linux]
   - clang                      # [osx]
-  # non-standard arches get built with gcc
-  - gcc                        # [aarch64]
-  - gcc                        # [ppc64le]
-  - gcc                        # [armv7l]
-
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
 c_compiler_version:            # [unix]
-  - 2                          # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-  - 4                          # [osx]
+  - 9                          # [osx]
   - 7                          # [linux64 or aarch64]
   - 8                          # [ppc64le or armv7l]
 cxx_compiler:
-  # legacy compilers for things that refuse to move
-  - toolchain_cxx              # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-  # modern compilers
-  - gxx                        # [linux64]
+  - gxx                        # [linux]
   - clangxx                    # [osx]
-
-  - gxx                        # [aarch64]
-  - gxx                        # [ppc64le]
-  - gxx                        # [armv7l]
-
   - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
 cxx_compiler_version:          # [unix]
-  - 2                          # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-  - 4                          # [osx]
+  - 9                          # [osx]
   - 7                          # [linux64 or aarch64]
   - 8                          # [ppc64le or armv7l]
 fortran_compiler:              # [unix or win64]
-  - toolchain_fort             # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
   - gfortran                   # [(linux64 or osx)]
   - gfortran                   # [aarch64 or ppc64le or armv7l]
   - flang                      # [win64]
 fortran_compiler_version:      # [unix or win64]
-  - 2                          # [(linux64 or osx) and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-  - 4                          # [osx]
   - 7                          # [linux64 or osx or aarch64]
   - 8                          # [ppc64le or armv7l]
   - 5                          # [win64]
@@ -111,23 +90,16 @@ channel_sources:
   - conda-forge,defaults                        # [not (aarch64 or armv7l)]
   - conda-forge,c4aarch64,defaults              # [aarch64]
   - conda-forge,c4armv7l,defaults               # [armv7l]
-  - conda-forge/label/cf201901,defaults         # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
 
 channel_targets:
   - conda-forge main
-  - conda-forge cf201901                        # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
 
 docker_image:                                   # [linux]
   - condaforge/linux-anvil-comp7                # [linux64]
-  - condaforge/linux-anvil                      # [linux64              and (environ.get('CF_COMPILER_STACK') == 'comp4')]
 
   - condaforge/linux-anvil-aarch64              # [aarch64]
   - condaforge/linux-anvil-ppc64le              # [ppc64le]
   - condaforge/linux-anvil-armv7l               # [armv7l]
-
-build_number_decrement:                         # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-  - 1000                                        # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-  - 0                                           # [(linux64 or osx)     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
 
 zip_keys:
   -
@@ -137,16 +109,6 @@ zip_keys:
     - vc                        # [win]
     - c_compiler                # [win]
     - cxx_compiler              # [win]
-
-  # Dual compiler zip
-  -                             # [                                         (environ.get('CF_COMPILER_STACK') == 'comp4')]
-    - c_compiler                # [(linux64 or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-    - cxx_compiler              # [(linux64 or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-    - fortran_compiler          # [(linux64 or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-    - channel_sources           # [(linux64 or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-    - channel_targets           # [(linux64 or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-    - docker_image              # [linux64                              and (environ.get('CF_COMPILER_STACK') == 'comp4')]
-    - build_number_decrement    # [(linux64 or osx)                     and (environ.get('CF_COMPILER_STACK') == 'comp4')]
 
 # aarch64 specifics because conda-build sets many things to centos 6
 # this can probably be removed when conda-build gets updated defaults
@@ -312,8 +274,6 @@ pin_run_as_build:
     max_pin: x.x
   poppler:
     max_pin: x.x
-  proj4:
-    max_pin: x.x.x
   qt:
     max_pin: x.x
   readline:
@@ -510,9 +470,9 @@ mpich:
 mpfr:
   - 4
 mumps_mpi:
-  - 5.1
+  - 5.2
 mumps_seq:
-  - 5.1
+  - 5.2
 ncurses:
   - 6.1
 netcdf_cxx4:
@@ -565,6 +525,8 @@ poppler:
   - 0.67.0
 proj4:
   - 6.1.1
+proj:
+  - 6.2.0
 python:
   - 2.7
   - 3.6

@@ -116,10 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@CJ-Wright](https://github.com/CJ-Wright/)
-* [@isuruf](https://github.com/isuruf/)
-* [@jakirkham](https://github.com/jakirkham/)
-* [@msarahan](https://github.com/msarahan/)
-* [@ocefpaf](https://github.com/ocefpaf/)
-* [@pelson](https://github.com/pelson/)
+* [@conda-forge/Core](https://github.com/conda-forge/Core/)
 
