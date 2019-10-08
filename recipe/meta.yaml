@@ -1,4 +1,4 @@
-{% set version = "2019.10.8" %}
+{% set version = "2019.10.08" %}
 
 package:
   name: conda-forge-pinning
@@ -26,9 +26,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - isuruf
-    - jakirkham
-    - msarahan
-    - ocefpaf
-    - pelson
-    - CJ-Wright
+    - conda-forge/Core
