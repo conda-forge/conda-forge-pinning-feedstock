@@ -40,6 +40,15 @@ m2w64_fortran_compiler:        # [win]
   - m2w64-toolchain            # [win]
 CMAKE_GENERATOR:               # [win]
   - NMake Makefiles            # [win]
+
+cuda_compiler:                 # [linux64]
+  - nvcc                       # [linux64]
+cuda_compiler_version:         # [linux64]
+  - None                       # [linux64]
+  - 9.2                        # [linux64]
+  - 10.0                       # [linux64]
+  - 10.1                       # [linux64]
+
 #
 # Go Compiler Options
 #
@@ -96,6 +105,9 @@ channel_targets:
 
 docker_image:                                   # [linux]
   - condaforge/linux-anvil-comp7                # [linux64]
+  - condaforge/linux-anvil-cuda:9.2             # [linux64]
+  - condaforge/linux-anvil-cuda:10.0            # [linux64]
+  - condaforge/linux-anvil-cuda:10.1            # [linux64]
 
   - condaforge/linux-anvil-aarch64              # [aarch64]
   - condaforge/linux-anvil-ppc64le              # [ppc64le]
@@ -109,6 +121,9 @@ zip_keys:
     - vc                        # [win]
     - c_compiler                # [win]
     - cxx_compiler              # [win]
+  -                             # [linux64]
+    - cuda_compiler_version     # [linux64]
+    - docker_image              # [linux64]
 
 # aarch64 specifics because conda-build sets many things to centos 6
 # this can probably be removed when conda-build gets updated defaults
