@@ -12,5 +12,5 @@ __migrator:
 
 # The name of the feedstock you wish to migrate
 python:
-  - 3.6    # old version
-  - 3.8a1  # new version
+  - 3.6    # list of new versions
+  - 3.8a1  # potentially more than one
