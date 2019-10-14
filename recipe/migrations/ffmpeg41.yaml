@@ -1,0 +1,8 @@
+migrator_ts: 1570998998  # The timestamp of when the migration was made
+__migrator: 
+  kind: 
+    version
+  migration_number:  # Only use this if the bot messes up, putting this in will cause a complete rerun of the migration
+    1 
+ffmpeg:
+  - 4.1
