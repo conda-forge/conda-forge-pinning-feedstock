@@ -13,6 +13,5 @@ __migrator:
     1
 
 # The name of the feedstock you wish to migrate
-python:
-  - 3.6    # list of versions to build against
-  - 3.8a1  # potentially more than one
+boost_cpp:
+  - 1.71    # new version to build against
