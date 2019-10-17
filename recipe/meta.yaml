@@ -1,18 +1,18 @@
-{% set version = "2019.10.11" %}
+{% set version = "2019.10.17" %}
 
 package:
   name: conda-forge-pinning
   version: {{ version }}
 
 source:
-  path: .
+  path: ../
 
 build:
   number: 0
   noarch: generic
   script:
-    - cp conda_build_config.yaml $PREFIX      # [unix]
-    - copy conda_build_config.yaml %PREFIX%   # [win]
+    - cp recipe/conda_build_config.yaml $PREFIX      # [unix]
+    - copy recipe/conda_build_config.yaml %PREFIX%   # [win]
 
 test:
   commands:
@@ -22,6 +22,7 @@ about:
   summary: The baseline versions of software for the conda-forge ecosystem
   license: BSD-3-Clause
   license_family: BSD
+  license_file: LICENSE.txt
   home: https://conda-forge.org/docs/maintainer/infrastructure.html#conda-forge-pinning
 
 extra:
