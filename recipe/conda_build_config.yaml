@@ -159,6 +159,8 @@ pin_run_as_build:
     max_pin: x.x
   ffmpeg:
     max_pin: x.x
+  fftw:
+    max_pin: x
   flann:
     max_pin: x.x.x
   fontconfig:
@@ -362,6 +364,8 @@ expat:
   - 2.2
 ffmpeg:
   - 4.0
+fftw:
+  - 3
 flann:
   - 1.9.1
 fontconfig:
