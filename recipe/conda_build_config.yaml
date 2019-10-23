@@ -363,7 +363,7 @@ dbus:
 expat:
   - 2.2
 ffmpeg:
-  - 4.0
+  - 4.1
 fftw:
   - 3
 flann:
@@ -597,4 +597,4 @@ zeromq:
 zlib:
   - 1.2
 zstd:
-  - 1.4.0
+  - 1.4.3
