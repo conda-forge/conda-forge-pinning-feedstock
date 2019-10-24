@@ -151,6 +151,9 @@ pin_run_as_build:
     max_pin: x
   cairo:
     max_pin: x.x
+  cudnn:
+    max_pin: x
+    min_pin: x.x
   curl:
     max_pin: x
   dbus:
@@ -356,6 +359,8 @@ cairo:
   - 1.16
 cfitsio:
   - 3.470
+cudnn:
+  - 7
 curl:
   - 7.64
 dbus:
