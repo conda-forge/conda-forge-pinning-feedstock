@@ -1,8 +1,0 @@
-migrator_ts: 1571940392
-__migrator:
-  kind:
-    version
-# This is a new pin but it has run_exports to "x.x"
-
-arrow-cpp:
-  - 0.15
