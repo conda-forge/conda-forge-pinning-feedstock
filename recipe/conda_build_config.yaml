@@ -151,6 +151,9 @@ pin_run_as_build:
     max_pin: x
   cairo:
     max_pin: x.x
+  cudnn:
+    max_pin: x
+    min_pin: x.x
   curl:
     max_pin: x
   dbus:
@@ -346,6 +349,8 @@ blas_impl:
 
 arpack:
   - 3.6.3
+arrow_cpp:
+  - 0.15.0
 boost:
   - 1.70.0
 boost_cpp:
@@ -356,6 +361,8 @@ cairo:
   - 1.16
 cfitsio:
   - 3.470
+cudnn:
+  - 7
 curl:
   - 7.64
 dbus:
@@ -363,7 +370,7 @@ dbus:
 expat:
   - 2.2
 ffmpeg:
-  - 4.0
+  - 4.1
 fftw:
   - 3
 flann:
@@ -492,6 +499,8 @@ mumps_mpi:
   - 5.2
 mumps_seq:
   - 5.2
+nccl:
+  - 2.4.6.1
 ncurses:
   - 6.1
 netcdf_cxx4:
@@ -597,4 +606,4 @@ zeromq:
 zlib:
   - 1.2
 zstd:
-  - 1.4.0
+  - 1.4.3
