@@ -532,7 +532,7 @@ openmpi:
 openssl:
   - 1.1.1a
 openturns:
-  - 1.13*
+  - 1.14*
 pango:
   - 1.42
 pari:
