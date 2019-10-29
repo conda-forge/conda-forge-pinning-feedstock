@@ -236,8 +236,6 @@ pin_run_as_build:
     max_pin: x.x.x
   librsvg:
     max_pin: x
-  libspatialindex:
-    max_pin: x.x
   libssh2:
     max_pin: x.x
   libsvm:
