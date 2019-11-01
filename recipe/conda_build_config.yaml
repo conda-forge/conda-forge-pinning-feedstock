@@ -452,7 +452,7 @@ libkml:
 libmatio:
   - 1.5
 libnetcdf:
-  - 4.6.2
+  - 4.7.1
 libpcap:
   - 1.8
 libpng:
@@ -466,7 +466,7 @@ librsvg:
 libsecret:
   - 0.18
 libspatialindex:
-  - 1.9
+  - 1.9.3
 libssh2:
   - 1.8
 libsvm:
