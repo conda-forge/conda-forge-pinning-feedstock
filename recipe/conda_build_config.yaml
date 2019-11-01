@@ -433,6 +433,8 @@ kealib:
   - 1.4.10
 krb5:
   - 1.16
+libarchive:
+  - 3.3
 libblitz:
   - 0.10
 libcurl:
