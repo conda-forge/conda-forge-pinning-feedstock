@@ -11,6 +11,10 @@ __migrator:
   # changing this will cause a complete rerun of the migration
   migration_number:
     1
+  # Change this to zero if the new pin increases the number of 
+  # builds
+  build_number:
+    1
 
 # The name of the feedstock you wish to migrate
 boost_cpp:
