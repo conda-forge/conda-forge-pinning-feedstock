@@ -11,8 +11,9 @@ __migrator:
   # changing this will cause a complete rerun of the migration
   migration_number:
     1
-  # Change this to zero if the new pin increases the number of 
-  # builds
+  # This determines the increment to the build number when the 
+  # migration runs. 
+  # Change this to zero if the new pin increases the number of builds
   build_number:
     1
 
