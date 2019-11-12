@@ -586,7 +586,7 @@ sundials:
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
-  - 1.6.2
+  - 1.6.3
 vc:                    # [win]
   - 9                  # [win]
   - 14                 # [win]
