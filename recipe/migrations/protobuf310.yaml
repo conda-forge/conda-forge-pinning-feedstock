@@ -11,7 +11,8 @@ __migrator:
   # changing this will cause a complete rerun of the migration
   migration_number:
     1
-
+  build_number:
+    1
 # The name of the feedstock you wish to migrate
 libprotobuf::
   - 3.10
