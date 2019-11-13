@@ -1,0 +1,9 @@
+migrator_ts: 1573229130
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+
+occt:
+  - 7.4    # new version to build against
