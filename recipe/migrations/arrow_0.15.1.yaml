@@ -1,0 +1,9 @@
+migrator_ts: 1573578499
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+
+arrow_cpp:
+  - 0.15.1
