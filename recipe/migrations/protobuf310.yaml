@@ -14,5 +14,5 @@ __migrator:
   build_number:
     1
 # The name of the feedstock you wish to migrate
-libprotobuf::
+libprotobuf:
   - 3.10
