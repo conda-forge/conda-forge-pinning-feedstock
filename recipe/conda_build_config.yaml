@@ -406,7 +406,7 @@ gmp:
 graphviz:
   - 2.40
 grpc_cpp:
-  - 1.23
+  - 1.25
 harfbuzz:
   - 2
 hdf4:
@@ -538,13 +538,13 @@ pari:
 perl:
   - 5.26.2
 petsc:
-  - 3.11
+  - 3.12
 petsc4py:
-  - 3.11
+  - 3.12
 slepc:
-  - 3.11
+  - 3.12
 slepc4py:
-  - 3.11
+  - 3.12
 pixman:
   - 0.38
 poppler:
@@ -585,7 +585,7 @@ sundials:
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
-  - 1.6.2
+  - 1.7.0
 vc:                    # [win]
   - 9                  # [win]
   - 14                 # [win]
