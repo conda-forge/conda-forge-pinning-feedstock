@@ -7,5 +7,5 @@ __migrator:
   build_number:
     1
 
-netcdf-fortran:
+netcdf_fortran:
   - 4.5
