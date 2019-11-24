@@ -17,6 +17,7 @@ __migrator:
   build_number:
     1
 
-# The name of the feedstock you wish to migrate
+# The name of the feedstock you wish to migrate with dashes replaced by
+# underscores
 boost_cpp:
   - 1.71    # new version to build against
