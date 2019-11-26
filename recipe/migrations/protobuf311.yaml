@@ -3,7 +3,7 @@
 # The timestamp of when the migration was made
 # Can be obtained by copying the output of
 # python -c "import time; print(f'{time.time():.0f}')"
-migrator_ts: 1572797096
+migrator_ts: 1574770367
 __migrator:
   kind:
     version
@@ -15,4 +15,4 @@ __migrator:
     1
 # The name of the feedstock you wish to migrate
 libprotobuf:
-  - 3.10
+  - 3.11
