@@ -7,9 +7,9 @@ cross_compiler_target_platform:  # [win]
 c_compiler:
   - gcc                        # [linux]
   - clang                      # [osx]
+  - vs2015                     # [win]
+  - vs2015                     # [win]
   - vs2008                     # [win]
-  - vs2015                     # [win]
-  - vs2015                     # [win]
 c_compiler_version:            # [unix]
   - 9                          # [osx]
   - 7                          # [linux64 or aarch64]
@@ -17,9 +17,9 @@ c_compiler_version:            # [unix]
 cxx_compiler:
   - gxx                        # [linux]
   - clangxx                    # [osx]
+  - vs2015                     # [win]
+  - vs2015                     # [win]
   - vs2008                     # [win]
-  - vs2015                     # [win]
-  - vs2015                     # [win]
 cxx_compiler_version:          # [unix]
   - 9                          # [osx]
   - 7                          # [linux64 or aarch64]
@@ -555,9 +555,9 @@ proj4:
 proj:
   - 6.2.1
 python:
-  - 2.7  # [not (aarch64 or ppc64le)]
-  - 3.6
   - 3.7
+  - 3.6
+  - 2.7  # [not (aarch64 or ppc64le)]
 qt:
   - 5.12
 readline:
@@ -587,9 +587,9 @@ tk:
 tiledb:
   - 1.7.0
 vc:                    # [win]
+  - 14                 # [win]
+  - 14                 # [win]
   - 9                  # [win]
-  - 14                 # [win]
-  - 14                 # [win]
 vlfeat:
   - 0.9.20
 vtk:
