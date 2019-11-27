@@ -22,7 +22,7 @@ about:
   summary: The baseline versions of software for the conda-forge ecosystem
   license: BSD-3-Clause
   license_family: BSD
-  license_file: ../LICENSE.txt
+  license_file: LICENSE.txt
   home: https://conda-forge.org/docs/maintainer/infrastructure.html#conda-forge-pinning
 
 extra:
