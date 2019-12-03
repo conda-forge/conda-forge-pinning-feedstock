@@ -3,7 +3,7 @@
 # The timestamp of when the migration was made
 # Can be obtained by copying the output of
 # python -c "import time; print(f'{time.time():.0f}')"
-migrator_ts: 1574159508
+migrator_ts: 1574175506
 __migrator:
   kind:
     version
@@ -19,4 +19,4 @@ __migrator:
 
 # The name of the feedstock you wish to migrate
 suitesparse:
-  - 5.4    # new version to build against
+  - 5.6    # new version to build against
