@@ -116,5 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/Core](https://github.com/conda-forge/Core/)
+* [@conda-forge/core](https://github.com/conda-forge/core/)
 

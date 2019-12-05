@@ -3,7 +3,7 @@
 # The timestamp of when the migration was made
 # Can be obtained by copying the output of
 # python -c "import time; print(f'{time.time():.0f}')"
-migrator_ts: 0
+migrator_ts: 1574770367
 __migrator:
   kind:
     version
@@ -11,13 +11,8 @@ __migrator:
   # changing this will cause a complete rerun of the migration
   migration_number:
     1
-  # This determines the increment to the build number when the 
-  # migration runs. 
-  # Change this to zero if the new pin increases the number of builds
   build_number:
     1
-
-# The name of the feedstock you wish to migrate with dashes replaced by
-# underscores
-boost_cpp:
-  - 1.71    # new version to build against
+# The name of the feedstock you wish to migrate
+libprotobuf:
+  - 3.11

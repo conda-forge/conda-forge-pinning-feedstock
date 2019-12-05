@@ -228,8 +228,6 @@ pin_run_as_build:
     max_pin: x.x
   libpng:
     max_pin: x.x
-  libprotobuf:
-    max_pin: x.x
   librdkafka:
     max_pin: x.x.x
   librsvg:
@@ -346,7 +344,7 @@ blas_impl:
 arpack:
   - 3.6.3
 arrow_cpp:
-  - 0.15.0
+  - 0.15.1
 boost:
   - 1.70.0
 boost_cpp:
@@ -388,7 +386,7 @@ gst_plugins_base:
 gdal:
   - 3.0
 geos:
-  - 3.7.2
+  - 3.8.0
 geotiff:
   - 1.5.1
 giflib:
@@ -406,7 +404,7 @@ gmp:
 graphviz:
   - 2.40
 grpc_cpp:
-  - 1.23
+  - 1.25
 harfbuzz:
   - 2
 hdf4:
@@ -458,7 +456,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 3.8
+  - 3.10
 librdkafka:
   - 0.11.5
 librsvg:
@@ -472,7 +470,7 @@ libssh2:
 libsvm:
   - 3.21
 libtiff:
-  - 4.0.10
+  - 4.1.0
 libunwind:
   - 1.2
 libwebp:
@@ -504,7 +502,7 @@ ncurses:
 netcdf_cxx4:
   - 4.3
 netcdf_fortran:
-  - 4.4
+  - 4.5
 nettle:
   - 3.4
 nss:
@@ -538,21 +536,22 @@ pari:
 perl:
   - 5.26.2
 petsc:
-  - 3.11
+  - 3.12
 petsc4py:
-  - 3.11
+  - 3.12
 slepc:
-  - 3.11
+  - 3.12
 slepc4py:
-  - 3.11
+  - 3.12
 pixman:
   - 0.38
 poppler:
   - 0.67.0
+# once everything moves to the new name, proj, we can remove proj4
 proj4:
   - 6.1.1
 proj:
-  - 6.2.0
+  - 6.2.1
 python:
   - 2.7  # [not (aarch64 or ppc64le)]
   - 3.6
@@ -584,7 +583,7 @@ sundials:
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
-  - 1.6.2
+  - 1.7.0
 vc:                    # [win]
   - 9                  # [win]
   - 14                 # [win]
@@ -604,4 +603,4 @@ zeromq:
 zlib:
   - 1.2
 zstd:
-  - 1.4.3
+  - 1.4.4
