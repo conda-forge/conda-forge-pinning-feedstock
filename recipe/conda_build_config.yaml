@@ -224,8 +224,6 @@ pin_run_as_build:
     max_pin: x.x
   libmatio:
     max_pin: x.x
-  libnetcdf:
-    max_pin: x.x.x
   libpcap:
     max_pin: x.x
   libpng:
@@ -452,7 +450,7 @@ libkml:
 libmatio:
   - 1.5
 libnetcdf:
-  - 4.7.1
+  - 4.7.3
 libpcap:
   - 1.8
 libpng:
