@@ -560,6 +560,12 @@ qt:
   - 5.12
 readline:
   - 8.0
+root:
+  - 6.18.02
+root_base:
+  - 6.18.02
+root-binaries:
+  - 6.18.02
 ruby:
   - 2.5
   - 2.6
@@ -598,6 +604,8 @@ x264:
   - 1!152.*
 xerces_c:
   - 3.2.2
+xrootd:
+  - 4.11.0
 xz:
   - 5.2
 zeromq:
