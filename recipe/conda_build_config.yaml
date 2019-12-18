@@ -564,7 +564,7 @@ root:
   - 6.18.02
 root_base:
   - 6.18.02
-root-binaries:
+root_binaries:
   - 6.18.02
 ruby:
   - 2.5
