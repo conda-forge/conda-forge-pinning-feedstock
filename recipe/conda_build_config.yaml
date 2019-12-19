@@ -356,7 +356,7 @@ cairo:
 cfitsio:
   - 3.470
 cudnn:
-  - 7
+  - 7.6.4
 curl:
   - 7.64
 dbus:
