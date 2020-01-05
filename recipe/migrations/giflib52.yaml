@@ -1,0 +1,9 @@
+migrator_ts: 1578194041
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+
+giflib:
+  - 5.2
