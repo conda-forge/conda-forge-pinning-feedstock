@@ -81,6 +81,14 @@ target_gobin:
   - '${PREFIX}/bin/'           # [unix]
   - '%PREFIX%\bin\'            # [win]
 
+# Rust Compiler Options
+rust_compiler:
+  - rust
+  - rust-gnu                   # [win]
+rust_compiler_version:
+  - 1.40.0
+
+
 macos_min_version:             # [osx]
   - 10.9                       # [osx]
 macos_machine:                 # [osx]
