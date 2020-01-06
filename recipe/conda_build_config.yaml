@@ -526,7 +526,7 @@ numpy:
   - 1.14       # [not (aarch64 or ppc64le)]
   - 1.16       # [aarch64 or ppc64le]
 occt:
-  - 7.3
+  - 7.4
 openblas:
   - 0.3.6
 openjpeg:
