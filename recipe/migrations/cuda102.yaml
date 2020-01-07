@@ -24,3 +24,5 @@ docker_image:                                   # [linux]
   - condaforge/linux-anvil-aarch64              # [aarch64]
   - condaforge/linux-anvil-ppc64le              # [ppc64le]
   - condaforge/linux-anvil-armv7l               # [armv7l]
+
+cuda_compiler_stub: none
