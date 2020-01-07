@@ -62,3 +62,7 @@ dask
 jsoncpp
 pocl
 shap
+nano
+python-symengine
+file
+hub
