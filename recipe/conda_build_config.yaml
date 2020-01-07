@@ -49,6 +49,8 @@ cuda_compiler_version:         # [linux64]
   - 10.0                       # [linux64]
   - 10.1                       # [linux64]
 
+_libgcc_mutex:
+  - 0.1 conda_forge
 #
 # Go Compiler Options
 #
