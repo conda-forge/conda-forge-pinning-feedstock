@@ -49,6 +49,8 @@ cuda_compiler_version:         # [linux64]
   - 10.0                       # [linux64]
   - 10.1                       # [linux64]
 
+_libgcc_mutex:
+  - 0.1 conda_forge
 #
 # Go Compiler Options
 #
@@ -80,6 +82,14 @@ target_goexe:
 target_gobin:
   - '${PREFIX}/bin/'           # [unix]
   - '%PREFIX%\bin\'            # [win]
+
+# Rust Compiler Options
+rust_compiler:
+  - rust
+  - rust-gnu                   # [win]
+rust_compiler_version:
+  - 1.40.0
+
 
 macos_min_version:             # [osx]
   - 10.9                       # [osx]
@@ -224,8 +234,6 @@ pin_run_as_build:
     max_pin: x.x
   libmatio:
     max_pin: x.x
-  libnetcdf:
-    max_pin: x.x.x
   libpcap:
     max_pin: x.x
   libpng:
@@ -358,7 +366,7 @@ cairo:
 cfitsio:
   - 3.470
 cudnn:
-  - 7
+  - 7.6.4
 curl:
   - 7.64
 dbus:
@@ -452,7 +460,7 @@ libkml:
 libmatio:
   - 1.5
 libnetcdf:
-  - 4.7.1
+  - 4.7.3
 libpcap:
   - 1.8
 libpng:
@@ -520,7 +528,7 @@ numpy:
   - 1.14       # [not (aarch64 or ppc64le)]
   - 1.16       # [aarch64 or ppc64le]
 occt:
-  - 7.3
+  - 7.4
 openblas:
   - 0.3.6
 openjpeg:
@@ -549,11 +557,8 @@ pixman:
   - 0.38
 poppler:
   - 0.67.0
-# once everything moves to the new name, proj, we can remove proj4
-proj4:
-  - 6.1.1
 proj:
-  - 6.2.1
+  - 6.3.0
 python:
   - 2.7  # [not (aarch64 or ppc64le)]
   - 3.6
@@ -562,6 +567,12 @@ qt:
   - 5.12
 readline:
   - 8.0
+root:
+  - 6.18.04
+root_base:
+  - 6.18.04
+root_binaries:
+  - 6.18.04
 ruby:
   - 2.5
   - 2.6
@@ -582,6 +593,8 @@ sqlite:
   - 3
 sundials:
   - 3.2
+suitesparse:
+  - 5.6
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
@@ -598,6 +611,8 @@ x264:
   - 1!152.*
 xerces_c:
   - 3.2.2
+xrootd:
+  - 4.11.0
 xz:
   - 5.2
 zeromq:
