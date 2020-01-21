@@ -313,8 +313,6 @@ pin_run_as_build:
     max_pin: x.x.x
   sqlite:
     max_pin: x
-  sundials:
-    max_pin: x.x
   tk:
     max_pin: x.x
   tiledb:
@@ -593,8 +591,6 @@ sox:
   - 14.4.2
 sqlite:
   - 3
-sundials:
-  - 3.2
 suitesparse:
   - 5.6
 tk:
