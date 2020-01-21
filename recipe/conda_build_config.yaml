@@ -400,7 +400,7 @@ geos:
 geotiff:
   - 1.5.1
 giflib:
-  - 5.1.7
+  - 5.2
 glew:
   - 2.0.0
 glib:
