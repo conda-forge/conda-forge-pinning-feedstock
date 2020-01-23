@@ -67,3 +67,11 @@ python-symengine
 file
 hub
 httplib2
+wurlitzer
+xdg
+python-language-server
+pylint
+keyring
+spyder-kernels
+pyvisa-py
+opcua
