@@ -75,3 +75,4 @@ keyring
 spyder-kernels
 pyvisa-py
 opcua
+ipykernel
