@@ -76,3 +76,4 @@ spyder-kernels
 pyvisa-py
 opcua
 ipykernel
+astroid
