@@ -6,20 +6,16 @@ jobs:
 - job: linux
   pool:
     vmImage: ubuntu-16.04
-  timeoutInMinutes: 240
+  timeoutInMinutes: 360
   strategy:
     maxParallel: 8
     matrix:
       linux_:
         CONFIG: linux_
-        UPLOAD_PACKAGES: False
+        UPLOAD_PACKAGES: True
+        DOCKER_IMAGE: condaforge/linux-anvil-comp7
   steps:
-  - script: |
-      sudo pip install --upgrade pip
-      sudo pip install setuptools shyaml
-    displayName: Install dependencies
-
-  # configure qemu binfmt-misc running.  This allows us to run docker containers 
+  # configure qemu binfmt-misc running.  This allows us to run docker containers
   # embedded qemu-static
   - script: |
       docker run --rm --privileged multiarch/qemu-user-static:register --reset --credential yes
@@ -27,7 +23,10 @@ jobs:
     condition: not(startsWith(variables['CONFIG'], 'linux_64'))
     displayName: Configure binfmt_misc
 
-  - script: .azure-pipelines/run_docker_build.sh
+  - script: |
+        export CI=azure
+        export GIT_BRANCH=$BUILD_SOURCEBRANCHNAME
+        .scripts/run_docker_build.sh
     displayName: Run docker build
     env:
       BINSTAR_TOKEN: $(BINSTAR_TOKEN)
