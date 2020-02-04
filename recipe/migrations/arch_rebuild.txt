@@ -79,3 +79,5 @@ ipykernel
 pivy
 configurable-http-proxy
 jupyterhub
+pypy2.7
+pypy3.6
