@@ -78,4 +78,4 @@ opcua
 ipykernel
 pivy
 configurable-http-proxy
-jupyter-hub
+jupyterhub
