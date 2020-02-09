@@ -82,3 +82,4 @@ jupyterhub
 pypy2.7
 pypy3.6
 abseil-cpp
+zaber-motion
