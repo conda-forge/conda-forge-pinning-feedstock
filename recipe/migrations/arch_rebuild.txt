@@ -86,3 +86,4 @@ zaber-motion
 astropy
 photutils
 ccdproc
+yt
