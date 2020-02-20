@@ -48,6 +48,7 @@ cuda_compiler_version:         # [linux64]
   - 9.2                        # [linux64]
   - 10.0                       # [linux64]
   - 10.1                       # [linux64]
+  - 10.2                       # [linux64]
 
 _libgcc_mutex:
   - 0.1 conda_forge
@@ -107,7 +108,7 @@ VERBOSE_CM:
 # dual build configuration
 channel_sources:
   - conda-forge,defaults                        # [not (aarch64 or armv7l)]
-  - conda-forge,c4aarch64,defaults              # [aarch64]
+  - conda-forge                                 # [aarch64]
   - conda-forge,c4armv7l,defaults               # [armv7l]
 
 channel_targets:
@@ -118,6 +119,7 @@ docker_image:                                   # [linux]
   - condaforge/linux-anvil-cuda:9.2             # [linux64]
   - condaforge/linux-anvil-cuda:10.0            # [linux64]
   - condaforge/linux-anvil-cuda:10.1            # [linux64]
+  - condaforge/linux-anvil-cuda:10.2            # [linux64]
 
   - condaforge/linux-anvil-aarch64              # [aarch64]
   - condaforge/linux-anvil-ppc64le              # [ppc64le]
@@ -305,14 +307,10 @@ pin_run_as_build:
   r-base:
     max_pin: x.x
     min_pin: x.x
-  snappy:
-    max_pin: x.x.x
   sox:
     max_pin: x.x.x
   sqlite:
     max_pin: x
-  sundials:
-    max_pin: x.x
   tk:
     max_pin: x.x
   tiledb:
@@ -351,6 +349,8 @@ blas_impl:
   - mkl          # [x86 or x86_64]
   - blis         # [x86 or x86_64]
 
+arb:
+  - 2.17
 arpack:
   - 3.6.3
 arrow_cpp:
@@ -366,7 +366,7 @@ cairo:
 cfitsio:
   - 3.470
 cudnn:
-  - 7.6.4
+  - 7.6.5
 curl:
   - 7.64
 dbus:
@@ -388,7 +388,7 @@ gf2x:
 gdk_pixbuf:
   - 2.36.12
 gsl:
-  - 2.5
+  - 2.6
 gstreamer:
   - 1.14.4
 gst_plugins_base:
@@ -400,7 +400,7 @@ geos:
 geotiff:
   - 1.5.1
 giflib:
-  - 5.1.7
+  - 5.2
 glew:
   - 2.0.0
 glib:
@@ -466,7 +466,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 3.10
+  - 3.11
 librdkafka:
   - 0.11.5
 librsvg:
@@ -557,11 +557,8 @@ pixman:
   - 0.38
 poppler:
   - 0.67.0
-# once everything moves to the new name, proj, we can remove proj4
-proj4:
-  - 6.1.1
 proj:
-  - 6.2.1
+  - 6.3.0
 python:
   - 2.7  # [not (aarch64 or ppc64le)]
   - 3.6
@@ -589,13 +586,11 @@ ptscotch:
 singular:
   - 4.1.2
 snappy:
-  - 1.1.7
+  - 1
 sox:
   - 14.4.2
 sqlite:
   - 3
-sundials:
-  - 3.2
 suitesparse:
   - 5.6
 tk:
