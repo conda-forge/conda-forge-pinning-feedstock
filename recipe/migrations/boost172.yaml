@@ -1,0 +1,11 @@
+migrator_ts: 1582183745
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+boost_cpp:
+  - 1.72
+
