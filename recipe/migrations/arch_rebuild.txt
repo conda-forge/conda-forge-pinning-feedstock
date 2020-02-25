@@ -88,3 +88,4 @@ photutils
 ccdproc
 yt
 libaec
+xeus-python
