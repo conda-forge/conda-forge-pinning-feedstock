@@ -89,3 +89,4 @@ ccdproc
 yt
 libaec
 xeus-python
+zopfli
