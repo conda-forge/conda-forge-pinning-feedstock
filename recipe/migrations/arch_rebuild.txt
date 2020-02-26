@@ -1,4 +1,5 @@
 occt
+pythonocc-core
 conda-package-handling
 numpy
 tornado
