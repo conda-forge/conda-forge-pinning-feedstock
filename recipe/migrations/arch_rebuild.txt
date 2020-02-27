@@ -91,3 +91,4 @@ yt
 libaec
 xeus-python
 zopfli
+jxrlib
