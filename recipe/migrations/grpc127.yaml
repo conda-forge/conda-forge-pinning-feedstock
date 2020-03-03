@@ -7,5 +7,5 @@ __migrator:
   build_number:
     1
 grpc_cpp:
-  - 1.72
+  - 1.27
 
