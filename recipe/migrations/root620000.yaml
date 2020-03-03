@@ -7,9 +7,5 @@ __migrator:
   build_number:
     1
 
-root:
-  - 6.20.0
 root_base:
-  - 6.20.0
-root_binaries:
   - 6.20.0
