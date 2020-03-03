@@ -92,3 +92,4 @@ libaec
 xeus-python
 zopfli
 jxrlib
+lld
