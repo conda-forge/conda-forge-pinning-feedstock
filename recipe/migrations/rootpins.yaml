@@ -1,0 +1,18 @@
+# To learn more about migrations read CFEP-09
+# https://github.com/conda-forge/conda-forge-enhancement-proposals/blob/master/cfep-09.md
+# The timestamp of when the migration was made
+# Can be obtained by copying the output of
+# python -c "import time; print(f'{time.time():.0f}')"
+migrator_ts: 1583247202
+__migrator:
+  kind:
+    deletion
+  migration_number:
+    1
+  build_number:
+    1
+
+root:
+  - 6.18.04
+root_binaries:
+  - 6.18.04
