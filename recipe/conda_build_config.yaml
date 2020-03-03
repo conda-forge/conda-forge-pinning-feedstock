@@ -571,7 +571,7 @@ root:
   - 6.18.04
 root_base:
   - 6.18.04
-root_binaries:
+root-binaries:
   - 6.18.04
 ruby:
   - 2.5
