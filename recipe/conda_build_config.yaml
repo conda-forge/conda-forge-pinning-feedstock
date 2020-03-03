@@ -567,11 +567,7 @@ qt:
   - 5.12
 readline:
   - 8.0
-root:
-  - 6.18.04
 root_base:
-  - 6.18.04
-root_binaries:
   - 6.18.04
 ruby:
   - 2.5
