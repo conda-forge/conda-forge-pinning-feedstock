@@ -93,3 +93,4 @@ xeus-python
 zopfli
 jxrlib
 lld
+radical.utils
