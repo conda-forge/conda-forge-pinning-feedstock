@@ -1,0 +1,11 @@
+migrator_ts: 1583150223
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+
+root_base:
+  - 6.20.0
