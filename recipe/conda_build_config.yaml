@@ -560,9 +560,9 @@ poppler:
 proj:
   - 6.3.1
 python:
-  - 2.7.* *_cpython  # [not (aarch64 or ppc64le)]
-  - 3.6.* *_cpython
-  - 3.7.* *_cpython
+  - 2.7  # [not (aarch64 or ppc64le)]
+  - 3.6
+  - 3.7
 qt:
   - 5.12
 readline:
