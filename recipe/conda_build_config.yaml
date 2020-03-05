@@ -414,7 +414,7 @@ gmp:
 graphviz:
   - 2.40
 grpc_cpp:
-  - 1.25
+  - 1.27
 harfbuzz:
   - 2
 hdf4:
