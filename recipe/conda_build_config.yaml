@@ -351,7 +351,7 @@ blas_impl:
   - mkl          # [x86 or x86_64]
   - blis         # [x86 or x86_64]
 
-abseil-cpp:
+abseil_cpp:
   - 20190808.0
 arb:
   - 2.17
