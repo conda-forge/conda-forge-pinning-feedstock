@@ -572,7 +572,7 @@ qt:
 readline:
   - 8.0
 root_base:
-  - 6.18.04
+  - 6.20.0
 ruby:
   - 2.5
   - 2.6
