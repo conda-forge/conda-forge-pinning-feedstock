@@ -1,4 +1,5 @@
 occt
+pythonocc-core
 conda-package-handling
 numpy
 tornado
@@ -83,3 +84,13 @@ pypy2.7
 pypy3.6
 abseil-cpp
 zaber-motion
+astropy
+photutils
+ccdproc
+yt
+libaec
+xeus-python
+zopfli
+jxrlib
+lld
+radical.utils
