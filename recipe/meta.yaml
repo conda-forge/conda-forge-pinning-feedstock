@@ -15,7 +15,8 @@ build:
     - mkdir -p $PREFIX/share/conda-forge/migrations            # [unix]
     - cp migrations/* $PREFIX/share/conda-forge/migrations/    # [unix]
     - rm $PREFIX/share/conda-forge/migrations/example.exyaml   # [unix]
-    - copy conda_build_config.yaml %PREFIX%   # [win]
+    - echo "This package can't be built on windows"            # [win]
+    - exit 1                                                   # [win]
 
 test:
   commands:
