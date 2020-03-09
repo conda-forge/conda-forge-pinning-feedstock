@@ -14,13 +14,13 @@ build:
     - cp conda_build_config.yaml $PREFIX                       # [unix]
     - mkdir -p $PREFIX/share/conda-forge/migrations            # [unix]
     - cp migrations/* $PREFIX/share/conda-forge/migrations/    # [unix]
-    - rm $PREFIX/share/conda-forge/migrations/example.exyaml   # [unix]
     - echo "This package can't be built on windows"            # [win]
     - exit 1                                                   # [win]
 
 test:
   commands:
-    - test -f $PREFIX/conda_build_config.yaml
+    - test -f $PREFIX/conda_build_config.yaml                       # [unix]
+    - test -f $PREFIX/share/conda-forge/migrations/example.exyaml   # [unix]
 
 about:
   summary: The baseline versions of software for the conda-forge ecosystem
