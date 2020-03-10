@@ -1,0 +1,15 @@
+migrator_ts: 1580746218   # The timestamp of when the migration was made
+__migrator:
+  kind:
+    version
+  migration_number:  # Only use this if the bot messes up, putting this in will cause a complete rerun of the migration
+    1
+  bump_number: 1   # Hashes changed for cpython, so it's better to bump build numbers.
+  pr_limit: 1      # Limit 1 PR per hour
+
+python:
+  - 2.7.* *_cpython   # [not (aarch64 or ppc64le)]
+  - 3.6.* *_cpython
+  - 3.7.* *_cpython
+  - 3.8.* *_cpython
+  - 3.6.* *_73_pypy   # [not win64]
