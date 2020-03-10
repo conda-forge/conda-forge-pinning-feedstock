@@ -4,7 +4,7 @@ __migrator:
     version
   migration_number:  # Only use this if the bot messes up, putting this in will cause a complete rerun of the migration
     1
-  bump_number: 0
+  bump_number: 1   # Hashes changed for cpython, so it's better to bump build numbers.
 
 python:
   - 2.7.* *_cpython   # [not (aarch64 or ppc64le)]
