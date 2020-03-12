@@ -5,7 +5,6 @@ __migrator:
   migration_number:  # Only use this if the bot messes up, putting this in will cause a complete rerun of the migration
     1
   bump_number: 1   # Hashes changed for cpython, so it's better to bump build numbers.
-  pr_limit: 1      # Limit 1 PR per hour
 
 python:
   - 2.7.* *_cpython   # [not (aarch64 or ppc64le)]
