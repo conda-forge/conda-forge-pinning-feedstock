@@ -26,7 +26,6 @@ numpy:
   - 1.16       # [aarch64 or ppc64le]
   - 1.16       # [aarch64 or ppc64le]
   - 1.16       # [aarch64 or ppc64le]
-  - 1.16       # [aarch64 or ppc64le]
 
 python_impl:
   - cpython    # [not (aarch64 or ppc64le)]
