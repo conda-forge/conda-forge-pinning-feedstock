@@ -128,8 +128,6 @@ docker_image:                                   # [linux]
 zip_keys:
   -
     - python
-    - numpy
-    - python_impl
     - vc                        # [win]
     - c_compiler                # [win]
     - cxx_compiler              # [win]
@@ -530,10 +528,6 @@ ntl:
 # we build for the oldest version possible of numpy for forward compatibility
 numpy:
   - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.16       # [aarch64 or ppc64le]
-  - 1.16       # [aarch64 or ppc64le]
   - 1.16       # [aarch64 or ppc64le]
 occt:
   - 7.4
@@ -572,8 +566,6 @@ python:
   - 3.6.* *_cpython
   - 3.7.* *_cpython
 python_impl:
-  - cpython          # [not (aarch64 or ppc64le)]
-  - cpython
   - cpython
 qt:
   - 5.12

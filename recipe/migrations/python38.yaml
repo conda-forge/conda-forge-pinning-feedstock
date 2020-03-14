@@ -6,8 +6,6 @@ __migrator:
     - c_compiler
     - vc
     - cxx_compiler
-    - cuda_compiler_version
-    - docker_image
   migration_number:  # Only use this if the bot messes up, putting this in will cause a complete rerun of the migration
     1 
   bump_number: 0
@@ -17,21 +15,6 @@ python:
   - 3.6.* *_cpython
   - 3.7.* *_cpython
   - 3.8.* *_cpython
-
-numpy:
-  - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.16       # [aarch64 or ppc64le]
-  - 1.16       # [aarch64 or ppc64le]
-  - 1.16       # [aarch64 or ppc64le]
-
-python_impl:
-  - cpython    # [not (aarch64 or ppc64le)]
-  - cpython
-  - cpython
-  - cpython
 
 c_compiler:                    # [win]
   - vs2008                     # [win]
@@ -51,14 +34,3 @@ vc:                    # [win]
   - 14                 # [win]
   - 14                 # [win]
 
-zip_keys:
-  -
-    - python
-    - numpy
-    - python_impl
-    - vc                        # [win]
-    - c_compiler                # [win]
-    - cxx_compiler              # [win]
-  -                             # [linux64]
-    - cuda_compiler_version     # [linux64]
-    - docker_image              # [linux64]
