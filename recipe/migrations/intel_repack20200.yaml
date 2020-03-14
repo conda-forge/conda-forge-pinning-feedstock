@@ -4,4 +4,4 @@ __migrator:
   migration_number: 1
 intel_repack:
 - '2020.0'
-migrator_ts: '1584154228'
+migrator_ts: '1584157609'
