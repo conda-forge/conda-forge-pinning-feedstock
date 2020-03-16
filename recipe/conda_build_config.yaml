@@ -151,8 +151,6 @@ BUILD: armv7-conda_cos7-linux-gnueabihf   # [armv7l]
 
 # TODO: remove these when run_exports are added to the packages.
 pin_run_as_build:
-  abseil-cpp:
-    max_pin: x.x
   arpack:
     max_pin: x.x.x
   boost:
@@ -350,7 +348,7 @@ blas_impl:
   - blis         # [x86 or x86_64]
 
 abseil_cpp:
-  - 20190808.0
+  - 20200225.1
 arb:
   - 2.17
 arpack:
