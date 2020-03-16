@@ -7,7 +7,6 @@ cross_compiler_target_platform:  # [win]
 c_compiler:
   - gcc                        # [linux]
   - clang                      # [osx]
-  - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
 c_compiler_version:            # [unix]
@@ -17,7 +16,6 @@ c_compiler_version:            # [unix]
 cxx_compiler:
   - gxx                        # [linux]
   - clangxx                    # [osx]
-  - vs2008                     # [win]
   - vs2015                     # [win]
   - vs2015                     # [win]
 cxx_compiler_version:          # [unix]
@@ -562,7 +560,6 @@ poppler:
 proj:
   - 6.3.1
 python:
-  - 2.7.* *_cpython  # [not (aarch64 or ppc64le)]
   - 3.6.* *_cpython
   - 3.7.* *_cpython
 python_impl:
@@ -598,7 +595,6 @@ tk:
 tiledb:
   - 1.7.0
 vc:                    # [win]
-  - 9                  # [win]
   - 14                 # [win]
   - 14                 # [win]
 vlfeat:
