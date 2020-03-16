@@ -39,9 +39,6 @@ zip_keys:
     - python
     - numpy
     - python_impl
-    - vc                        # [win]
-    - c_compiler                # [win]
-    - cxx_compiler              # [win]
   -                             # [linux64]
     - cuda_compiler_version     # [linux64]
     - docker_image              # [linux64]
