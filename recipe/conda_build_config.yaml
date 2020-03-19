@@ -396,7 +396,7 @@ gst_plugins_base:
 gdal:
   - 3.0
 geos:
-  - 3.8.0
+  - 3.8.1
 geotiff:
   - 1.5.1
 giflib:
