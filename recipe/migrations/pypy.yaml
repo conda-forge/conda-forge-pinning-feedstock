@@ -13,7 +13,6 @@ __migrator:
   bump_number: 1   # Hashes changed for cpython, so it's better to bump build numbers.
 
 python:
-  - 2.7.* *_cpython   # [not (aarch64 or ppc64le)]
   - 3.6.* *_cpython
   - 3.7.* *_cpython
   - 3.8.* *_cpython
@@ -23,14 +22,12 @@ numpy:
   - 1.14       # [not (aarch64 or ppc64le)]
   - 1.14       # [not (aarch64 or ppc64le)]
   - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.14       # [not (aarch64 or ppc64le)]
   - 1.16       # [aarch64 or ppc64le]
   - 1.16       # [aarch64 or ppc64le]
   - 1.16       # [aarch64 or ppc64le]
   - 1.18       # [not win64]
 
 python_impl:
-  - cpython    # [not (aarch64 or ppc64le)]
   - cpython
   - cpython
   - cpython
@@ -42,9 +39,6 @@ zip_keys:
     - python
     - numpy
     - python_impl
-    - vc                        # [win]
-    - c_compiler                # [win]
-    - cxx_compiler              # [win]
   -                             # [linux64]
     - cuda_compiler_version     # [linux64]
     - docker_image              # [linux64]

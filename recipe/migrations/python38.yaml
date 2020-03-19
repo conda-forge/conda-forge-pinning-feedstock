@@ -1,35 +1,16 @@
 migrator_ts: 1569538102   # The timestamp of when the migration was made
-__migrator: 
-  kind: 
+__migrator:
+  kind:
     version
   exclude:
     - c_compiler
     - vc
     - cxx_compiler
   migration_number:  # Only use this if the bot messes up, putting this in will cause a complete rerun of the migration
-    1 
+    1
   bump_number: 0
 
 python:
-  - 2.7.* *_cpython   # [not (aarch64 or ppc64le)]
   - 3.6.* *_cpython
   - 3.7.* *_cpython
   - 3.8.* *_cpython
-
-c_compiler:                    # [win]
-  - vs2008                     # [win]
-  - vs2015                     # [win]
-  - vs2015                     # [win]
-  - vs2015                     # [win]
-
-cxx_compiler:                  # [win]
-  - vs2008                     # [win]
-  - vs2015                     # [win]
-  - vs2015                     # [win]
-  - vs2015                     # [win]
-
-vc:                    # [win]
-  - 9                  # [win]
-  - 14                 # [win]
-  - 14                 # [win]
-  - 14                 # [win]
