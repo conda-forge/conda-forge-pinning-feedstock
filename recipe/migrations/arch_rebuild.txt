@@ -94,3 +94,8 @@ zopfli
 jxrlib
 lld
 radical.utils
+python-annoy
+xorg-damageproto
+xorg-xf86vidmodeproto
+pycparser
+ujson
