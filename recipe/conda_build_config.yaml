@@ -7,8 +7,6 @@ cross_compiler_target_platform:  # [win]
 c_compiler:
   - gcc                        # [linux]
   - clang                      # [osx]
-  - vs2008                     # [win]
-  - vs2015                     # [win]
   - vs2015                     # [win]
 c_compiler_version:            # [unix]
   - 9                          # [osx]
@@ -17,8 +15,6 @@ c_compiler_version:            # [unix]
 cxx_compiler:
   - gxx                        # [linux]
   - clangxx                    # [osx]
-  - vs2008                     # [win]
-  - vs2015                     # [win]
   - vs2015                     # [win]
 cxx_compiler_version:          # [unix]
   - 9                          # [osx]
@@ -127,12 +123,7 @@ docker_image:                                   # [linux]
 
 zip_keys:
   -
-    - qt
-  -
     - python
-    - vc                        # [win]
-    - c_compiler                # [win]
-    - cxx_compiler              # [win]
   -                             # [linux64]
     - cuda_compiler_version     # [linux64]
     - docker_image              # [linux64]
@@ -153,8 +144,6 @@ BUILD: armv7-conda_cos7-linux-gnueabihf   # [armv7l]
 
 # TODO: remove these when run_exports are added to the packages.
 pin_run_as_build:
-  abseil-cpp:
-    max_pin: x.x
   arpack:
     max_pin: x.x.x
   boost:
@@ -352,7 +341,7 @@ blas_impl:
   - blis         # [x86 or x86_64]
 
 abseil_cpp:
-  - 20190808.0
+  - 20200225.1
 arb:
   - 2.17
 arpack:
@@ -400,7 +389,7 @@ gst_plugins_base:
 gdal:
   - 3.0
 geos:
-  - 3.8.0
+  - 3.8.1
 geotiff:
   - 1.5.1
 giflib:
@@ -564,9 +553,10 @@ poppler:
 proj:
   - 6.3.1
 python:
-  - 2.7.* *_cpython  # [not (aarch64 or ppc64le)]
   - 3.6.* *_cpython
   - 3.7.* *_cpython
+python_impl:
+  - cpython
 qt:
   - 5.12
 readline:
@@ -598,8 +588,6 @@ tk:
 tiledb:
   - 1.7.0
 vc:                    # [win]
-  - 9                  # [win]
-  - 14                 # [win]
   - 14                 # [win]
 vlfeat:
   - 0.9.20
