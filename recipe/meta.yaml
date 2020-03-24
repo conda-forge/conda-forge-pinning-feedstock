@@ -1,4 +1,4 @@
-{% set version = "2020.03.23" %}
+{% set version = datetime.datetime.utcnow().strftime('%Y.%m.%d.%H.%M.%S') %}
 
 package:
   name: conda-forge-pinning
