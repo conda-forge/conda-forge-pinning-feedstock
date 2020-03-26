@@ -100,3 +100,4 @@ xorg-xf86vidmodeproto
 pycparser
 ujson
 nbgrader
+allennlp
