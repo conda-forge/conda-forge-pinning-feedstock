@@ -169,6 +169,8 @@ pin_run_as_build:
     max_pin: x
   flann:
     max_pin: x.x.x
+  fmt:
+    max_pin: x
   fontconfig:
     max_pin: x
   freetype:
@@ -372,6 +374,8 @@ fftw:
   - 3
 flann:
   - 1.9.1
+fmt:
+  - 6
 fontconfig:
   - 2.13
 freetype:
