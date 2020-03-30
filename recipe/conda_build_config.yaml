@@ -306,8 +306,6 @@ pin_run_as_build:
     max_pin: x.x
   tiledb:
     max_pin: x.x.x
-  vc:
-    max_pin: x
   vlfeat:
     max_pin: x.x.x
   vtk:
