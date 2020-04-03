@@ -395,7 +395,7 @@ geotiff:
 giflib:
   - 5.2
 glew:
-  - 2.0.0
+  - 2.1.0
 glib:
   - 2.58
 glog:
