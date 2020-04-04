@@ -435,7 +435,7 @@ json_c:
 jsoncpp:
   - 1.8.4
 kealib:
-  - 1.4.10
+  - 1.4.13
 krb5:
   - 1.16
 libarchive:
