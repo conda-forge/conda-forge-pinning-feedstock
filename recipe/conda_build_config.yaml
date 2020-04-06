@@ -187,8 +187,6 @@ pin_run_as_build:
     max_pin: x
   graphviz:
     max_pin: x
-  grpc-cpp:
-    max_pin: x.x
   harfbuzz:
     max_pin: x
   hdf4:
@@ -413,7 +411,7 @@ googleapis_cpp:
 graphviz:
   - 2.40
 grpc_cpp:
-  - 1.28.0
+  - 1.28
 harfbuzz:
   - 2
 hdf4:
