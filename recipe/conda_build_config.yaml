@@ -187,8 +187,6 @@ pin_run_as_build:
     max_pin: x
   graphviz:
     max_pin: x
-  grpc-cpp:
-    max_pin: x.x
   harfbuzz:
     max_pin: x
   hdf4:
@@ -402,10 +400,16 @@ glpk:
   - 4.65
 gmp:
   - 6
+google_cloud_cpp:
+  - 0.21
+google_cloud_cpp_common:
+  - 0.25.0
+googleapis_cpp:
+  - 0.7
 graphviz:
   - 2.40
 grpc_cpp:
-  - 1.27
+  - 1.28
 harfbuzz:
   - 2
 hdf4:
@@ -427,7 +431,7 @@ json_c:
 jsoncpp:
   - 1.8.4
 kealib:
-  - 1.4.10
+  - 1.4
 krb5:
   - 1.16
 libarchive:
@@ -436,6 +440,8 @@ libblitz:
   - 0.10
 libcurl:
   - 7.64
+libcrc32c:
+  - 1.1
 libdap4:
   - 3.20.2
 libevent:
@@ -451,7 +457,7 @@ libkml:
 libmatio:
   - 1.5
 libnetcdf:
-  - 4.7.3
+  - 4.7.4
 libpcap:
   - 1.8
 libpng:
@@ -565,7 +571,7 @@ ruby:
   - 2.5
   - 2.6
 r_base:
-  - 3.5.1
+  - 3.5.1             # [not (aarch64 or ppc64le)]
   - 3.6
 scotch:
   - 6.0.8
