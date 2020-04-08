@@ -585,8 +585,8 @@ sox:
   - 14.4.2
 sqlite:
   - 3
-suitesparse:
-  - 5.6
+suitesparse:           # [not win]
+  - 5.6                # [not win]
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
