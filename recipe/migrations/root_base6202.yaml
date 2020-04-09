@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  kind: version
+  exclude:
+    - root
+  migration_number: 1
+migrator_ts: 1584431816.6031702
+root_base:
+- 6.20.2

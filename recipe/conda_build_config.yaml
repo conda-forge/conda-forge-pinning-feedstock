@@ -7,9 +7,7 @@ cross_compiler_target_platform:  # [win]
 c_compiler:
   - gcc                        # [linux]
   - clang                      # [osx]
-  - vs2008                     # [win]
-  - vs2015                     # [win]
-  - vs2015                     # [win]
+  - vs2017                     # [win]
 c_compiler_version:            # [unix]
   - 9                          # [osx]
   - 7                          # [linux64 or aarch64]
@@ -17,9 +15,7 @@ c_compiler_version:            # [unix]
 cxx_compiler:
   - gxx                        # [linux]
   - clangxx                    # [osx]
-  - vs2008                     # [win]
-  - vs2015                     # [win]
-  - vs2015                     # [win]
+  - vs2017                     # [win]
 cxx_compiler_version:          # [unix]
   - 9                          # [osx]
   - 7                          # [linux64 or aarch64]
@@ -127,12 +123,7 @@ docker_image:                                   # [linux]
 
 zip_keys:
   -
-    - qt
-  -
     - python
-    - vc                        # [win]
-    - c_compiler                # [win]
-    - cxx_compiler              # [win]
   -                             # [linux64]
     - cuda_compiler_version     # [linux64]
     - docker_image              # [linux64]
@@ -153,8 +144,6 @@ BUILD: armv7-conda_cos7-linux-gnueabihf   # [armv7l]
 
 # TODO: remove these when run_exports are added to the packages.
 pin_run_as_build:
-  abseil-cpp:
-    max_pin: x.x
   arpack:
     max_pin: x.x.x
   boost:
@@ -198,8 +187,6 @@ pin_run_as_build:
     max_pin: x
   graphviz:
     max_pin: x
-  grpc-cpp:
-    max_pin: x.x
   harfbuzz:
     max_pin: x
   hdf4:
@@ -317,8 +304,6 @@ pin_run_as_build:
     max_pin: x.x
   tiledb:
     max_pin: x.x.x
-  vc:
-    max_pin: x
   vlfeat:
     max_pin: x.x.x
   vtk:
@@ -352,7 +337,7 @@ blas_impl:
   - blis         # [x86 or x86_64]
 
 abseil_cpp:
-  - 20190808.0
+  - 20200225.1
 arb:
   - 2.17
 arpack:
@@ -400,7 +385,7 @@ gst_plugins_base:
 gdal:
   - 3.0
 geos:
-  - 3.8.0
+  - 3.8.1
 geotiff:
   - 1.5.1
 giflib:
@@ -415,10 +400,16 @@ glpk:
   - 4.65
 gmp:
   - 6
+google_cloud_cpp:
+  - 0.21
+google_cloud_cpp_common:
+  - 0.25.0
+googleapis_cpp:
+  - 0.7
 graphviz:
   - 2.40
 grpc_cpp:
-  - 1.27
+  - 1.28
 harfbuzz:
   - 2
 hdf4:
@@ -440,7 +431,7 @@ json_c:
 jsoncpp:
   - 1.8.4
 kealib:
-  - 1.4.10
+  - 1.4
 krb5:
   - 1.16
 libarchive:
@@ -449,6 +440,8 @@ libblitz:
   - 0.10
 libcurl:
   - 7.64
+libcrc32c:
+  - 1.1
 libdap4:
   - 3.20.2
 libevent:
@@ -464,7 +457,7 @@ libkml:
 libmatio:
   - 1.5
 libnetcdf:
-  - 4.7.3
+  - 4.7.4
 libpcap:
   - 1.8
 libpng:
@@ -564,9 +557,10 @@ poppler:
 proj:
   - 6.3.1
 python:
-  - 2.7.* *_cpython  # [not (aarch64 or ppc64le)]
   - 3.6.* *_cpython
   - 3.7.* *_cpython
+python_impl:
+  - cpython
 qt:
   - 5.12
 readline:
@@ -577,7 +571,7 @@ ruby:
   - 2.5
   - 2.6
 r_base:
-  - 3.5.1
+  - 3.5.1             # [not (aarch64 or ppc64le)]
   - 3.6
 scotch:
   - 6.0.8
@@ -598,8 +592,6 @@ tk:
 tiledb:
   - 1.7.0
 vc:                    # [win]
-  - 9                  # [win]
-  - 14                 # [win]
   - 14                 # [win]
 vlfeat:
   - 0.9.20
