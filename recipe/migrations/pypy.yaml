@@ -42,3 +42,9 @@ zip_keys:
   -                             # [linux64]
     - cuda_compiler_version     # [linux64]
     - docker_image              # [linux64]
+  -
+    - petsc
+    - slepc
+  -
+    - boost
+    - boost_cpp
