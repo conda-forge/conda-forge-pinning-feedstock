@@ -303,7 +303,7 @@ pin_run_as_build:
   tk:
     max_pin: x.x
   tiledb:
-    max_pin: x.x
+    max_pin: x.x.x
   vlfeat:
     max_pin: x.x.x
   vtk:
@@ -590,7 +590,7 @@ suitesparse:
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
-  - 1.7
+  - 1.7.0
 vc:                    # [win]
   - 14                 # [win]
 vlfeat:
