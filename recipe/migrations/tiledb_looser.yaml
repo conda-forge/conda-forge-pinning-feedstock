@@ -23,4 +23,4 @@ pin_run_as_build:
   max_pin:
     tiledb: x.x
 tiledb:
-  - 1.70    # new version to build against
+  - 1.7    # new version to build against
