@@ -102,3 +102,4 @@ ujson
 nbgrader
 allennlp
 urwid
+qutip
