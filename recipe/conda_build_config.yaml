@@ -586,7 +586,8 @@ sox:
 sqlite:
   - 3
 suitesparse:
-  - 5.6
+  - 5.6                # [not win]
+  - 5.1                # [win]
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
