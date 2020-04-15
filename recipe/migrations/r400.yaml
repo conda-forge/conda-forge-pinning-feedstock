@@ -19,6 +19,6 @@ __migrator:
 
 # The name of the feedstock you wish to migrate with dashes replaced by
 # underscores
-r-base:
+r_base:
   - 3.6
   - 4.0
