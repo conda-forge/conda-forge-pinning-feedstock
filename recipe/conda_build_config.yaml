@@ -241,8 +241,6 @@ pin_run_as_build:
     max_pin: x.x
   libtiff:
     max_pin: x
-  libwebp:
-    max_pin: x.x
   libxml2:
     max_pin: x.x
   libuuid:
@@ -480,7 +478,7 @@ libtiff:
   - 4.1.0
 libunwind:
   - 1.2
-libwebp:
+libwebp_base:
   - 1.0
 libxml2:
   - 2.9
