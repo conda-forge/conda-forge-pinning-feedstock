@@ -478,6 +478,8 @@ libtiff:
   - 4.1.0
 libunwind:
   - 1.2
+libwebp:
+  - 1.0
 libwebp_base:
   - 1.0
 libxml2:
