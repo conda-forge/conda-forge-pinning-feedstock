@@ -388,6 +388,8 @@ geos:
   - 3.8.1
 geotiff:
   - 1.5.1
+gflags:
+  - 2.2
 giflib:
   - 5.2
 glew:
