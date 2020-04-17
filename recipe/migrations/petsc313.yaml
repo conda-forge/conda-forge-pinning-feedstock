@@ -5,3 +5,5 @@ __migrator:
 migrator_ts: 1586307225.5951562
 petsc:
 - '3.13'
+slepc:
+- '3.13'
