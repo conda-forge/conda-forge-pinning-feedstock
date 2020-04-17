@@ -20,4 +20,4 @@ __migrator:
 # The name of the feedstock you wish to migrate with dashes replaced by
 # underscores
 gflags:
-  - 2.2.2    # new version to build against
+  - 2.2    # new version to build against
