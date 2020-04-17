@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-ffmpeg:
-- '4.2'
-migrator_ts: 1586558963.2189014
