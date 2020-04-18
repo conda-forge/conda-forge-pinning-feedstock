@@ -589,7 +589,7 @@ sqlite:
   - 3
 suitesparse:
   - 5.6                # [not win]
-  - 5.1                # [win]
+  - 5.4                # [win]
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
