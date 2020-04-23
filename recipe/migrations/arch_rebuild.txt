@@ -126,3 +126,4 @@ r-mitools
 r-survival
 r-essentials
 r-recommended
+pcre2
