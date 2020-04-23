@@ -166,3 +166,4 @@ r-fracdiff
 r-rodbc
 r-rjson
 r-sp
+r-reticulate
