@@ -20,7 +20,7 @@ __migrator:
 # The name of the feedstock you wish to migrate with dashes replaced by
 # underscores
 pin_run_as_build:
-  max_pin:
-    tiledb: x.x
+  tiledb: 
+    max_pin: x.x
 tiledb:
   - 1.7    # new version to build against
