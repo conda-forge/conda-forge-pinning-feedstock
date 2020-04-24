@@ -20,4 +20,4 @@ __migrator:
 # The name of the feedstock you wish to migrate with dashes replaced by
 # underscores
 pcre2:
-  - 10.34    # new version to build against
+  - 10.34
