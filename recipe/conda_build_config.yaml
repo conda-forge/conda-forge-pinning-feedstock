@@ -459,7 +459,7 @@ libmatio:
 libnetcdf:
   - 4.7.4
 libpcap:
-  - 1.8
+  - '1.9'
 libpng:
   - 1.6
 libprotobuf:
