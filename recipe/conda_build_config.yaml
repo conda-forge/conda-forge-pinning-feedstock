@@ -521,7 +521,7 @@ nspr:
 nlopt:
   - 2.6.*
 ntl:
-  - 11.3.2
+  - '11.4.3'
 # we build for the oldest version possible of numpy for forward compatibility
 numpy:
   - 1.14       # [not (aarch64 or ppc64le)]
