@@ -11,11 +11,11 @@ build:
   number: 0
   noarch: generic
   script:
-    - cp conda_build_config.yaml $PREFIX                       # [unix]
-    - mkdir -p $PREFIX/share/conda-forge/migrations            # [unix]
-    - cp migrations/* $PREFIX/share/conda-forge/migrations/    # [unix]
-    - echo "This package can't be built on windows"            # [win]
-    - exit 1                                                   # [win]
+    - cp conda_build_config.yaml $PREFIX                            # [unix]
+    - mkdir -p $PREFIX/share/conda-forge/migrations                 # [unix]
+    - cp migrations/*.yaml $PREFIX/share/conda-forge/migrations/    # [unix]
+    - echo "This package can't be built on windows"                 # [win]
+    - exit 1                                                        # [win]
 
 test:
   commands:
