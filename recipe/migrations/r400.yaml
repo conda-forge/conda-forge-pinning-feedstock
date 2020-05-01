@@ -18,6 +18,10 @@ __migrator:
     1
   automerge: true
 
+  # use azure since things are failing on travis (2020/05/01)
+  conda_forge_yml_patches:
+    provider.linux_ppc64le: azure
+
 # The name of the feedstock you wish to migrate with dashes replaced by
 # underscores
 r_base:
