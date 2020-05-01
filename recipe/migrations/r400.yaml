@@ -24,6 +24,9 @@ __migrator:
 
   # open it up a bit
   pr_limit: 20
+  
+  # include noarch packages
+  include_noarch: True
 
 # The name of the feedstock you wish to migrate with dashes replaced by
 # underscores
