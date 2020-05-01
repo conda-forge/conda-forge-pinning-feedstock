@@ -385,7 +385,7 @@ gdal:
 geos:
   - 3.8.1
 geotiff:
-  - 1.5.1
+  - '1.6'
 gflags:
   - 2.2
 giflib:
