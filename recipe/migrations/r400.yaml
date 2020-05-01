@@ -22,6 +22,9 @@ __migrator:
   conda_forge_yml_patches:
     provider.linux_ppc64le: azure
 
+  # open it up a bit
+  pr_limit: 20
+
 # The name of the feedstock you wish to migrate with dashes replaced by
 # underscores
 r_base:
