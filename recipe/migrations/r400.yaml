@@ -23,10 +23,7 @@ __migrator:
     provider.linux_ppc64le: azure
 
   # open it up a bit
-  pr_limit: 5
-
-  # pause it
-  paused: true
+  pr_limit: 10
 
   # include noarch packages
   include_noarch: True
