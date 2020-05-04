@@ -5,3 +5,5 @@ __migrator:
 migrator_ts: 1584168513.5428863
 scotch:
 - 6.0.9
+ptscotch:
+- 6.0.9
