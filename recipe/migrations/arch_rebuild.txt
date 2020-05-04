@@ -167,3 +167,10 @@ r-rodbc
 r-rjson
 r-sp
 r-reticulate
+flask-rdf
+pylibdmtx
+pyzbar
+stop-words
+zbar-py
+rapids
+pyjarowinkler
