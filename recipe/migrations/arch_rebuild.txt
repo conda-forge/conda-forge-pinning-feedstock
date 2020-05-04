@@ -185,3 +185,4 @@ r-rconv
 r-bbmisc
 r-spdep
 ibm-db
+pycocotools
