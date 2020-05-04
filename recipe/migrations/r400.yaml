@@ -22,8 +22,7 @@ __migrator:
   conda_forge_yml_patches:
     provider.linux_ppc64le: azure
 
-  # open it up a bit
-  pr_limit: 40
+  pr_limit: 50
 
   # include noarch packages
   include_noarch: True
