@@ -557,7 +557,7 @@ pixman:
 poppler:
   - 0.67.0
 proj:
-  - 6.3.1
+  - 7.0.0
 python:
   - 3.6.* *_cpython
   - 3.7.* *_cpython
