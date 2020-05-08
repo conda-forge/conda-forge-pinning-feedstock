@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+migrator_ts: 1588934091.2028575
+xrootd:
+- '4.12'
