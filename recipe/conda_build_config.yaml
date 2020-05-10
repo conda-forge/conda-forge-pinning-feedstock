@@ -366,6 +366,8 @@ fftw:
   - 3
 flann:
   - 1.9.1
+fmt:
+  - 6
 fontconfig:
   - 2.13
 freetype:
