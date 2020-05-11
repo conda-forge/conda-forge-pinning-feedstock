@@ -184,5 +184,10 @@ r-multicool
 r-rconv
 r-bbmisc
 r-spdep
-ibm-db
+ibm_db
 pycocotools
+r-jsonify
+r-som
+hdbscan
+vowpalwabbit
+xlwings
