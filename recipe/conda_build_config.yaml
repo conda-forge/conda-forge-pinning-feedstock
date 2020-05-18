@@ -339,7 +339,7 @@ arb:
 arpack:
   - 3.6.3
 arrow_cpp:
-  - 0.16.0
+  - 0.17.0
 boost:
   - 1.70.0
 boost_cpp:
