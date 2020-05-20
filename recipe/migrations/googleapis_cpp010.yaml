@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-googleapis_cpp:
-- '0.10'
-migrator_ts: 1589816924.4408915
