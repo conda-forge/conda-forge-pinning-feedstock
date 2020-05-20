@@ -19,7 +19,8 @@ constructor
 cvxpy
 hepmc3
 conda-smithy
-scikit-imagesu-exec
+scikit-image
+su-exec
 uproot
 zeromq
 libarchive
