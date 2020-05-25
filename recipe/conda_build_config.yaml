@@ -373,7 +373,8 @@ freetype:
 gf2x:
   - 1.2
 gdk_pixbuf:
-  - 2.36.12
+  - 2.36.12  # [not win]
+  - 2.38.2   # [win]
 gsl:
   - 2.6
 gstreamer:
