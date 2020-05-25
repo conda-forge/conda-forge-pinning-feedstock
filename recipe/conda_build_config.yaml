@@ -356,6 +356,8 @@ curl:
   - 7
 dbus:
   - 1
+exiv2:
+  - 0.27.2
 expat:
   - 2.2
 ffmpeg:
