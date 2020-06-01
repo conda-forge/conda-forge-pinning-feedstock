@@ -192,3 +192,5 @@ r-som
 hdbscan
 vowpalwabbit
 xlwings
+libsolv
+mamba
