@@ -92,6 +92,7 @@ yt
 libaec
 xeus-python
 zopfli
+libzopfli
 jxrlib
 lld
 radical.utils
@@ -194,3 +195,4 @@ vowpalwabbit
 xlwings
 libsolv
 mamba
+charls
