@@ -572,7 +572,7 @@ re2:
 readline:
   - 8.0
 root_base:
-  - 6.20.2
+  - "6.20"
 ruby:
   - 2.5
   - 2.6
