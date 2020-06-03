@@ -494,6 +494,8 @@ lzo:
   - 2
 metis:
   - 5.1
+mimalloc:
+  - 1.6.3
 mkl:
   - 2019
 mpich:
