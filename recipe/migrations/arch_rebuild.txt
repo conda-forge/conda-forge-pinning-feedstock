@@ -196,3 +196,5 @@ xlwings
 libsolv
 mamba
 charls
+numexpr
+statsmodels
