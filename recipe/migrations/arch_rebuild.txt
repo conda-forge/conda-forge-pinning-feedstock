@@ -198,3 +198,4 @@ mamba
 charls
 numexpr
 statsmodels
+imagecodecs
