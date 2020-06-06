@@ -46,6 +46,7 @@ pythia8
 flask
 matplotlib
 pyopencl
+islpy
 protobuf
 krb5
 conda-build
