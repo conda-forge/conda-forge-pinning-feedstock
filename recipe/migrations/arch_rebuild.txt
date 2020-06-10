@@ -202,3 +202,5 @@ libcap
 numexpr
 statsmodels
 imagecodecs
+tomopy
+scikit-build
