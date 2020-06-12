@@ -1,0 +1,11 @@
+migrator_ts: 1591953722
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+
+rocksdb:
+  - "6.10"

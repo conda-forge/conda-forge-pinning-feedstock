@@ -571,6 +571,8 @@ re2:
   - 2020.06.01
 readline:
   - 8.0
+rocksdb:
+  - "6.10"
 root_base:
   - "6.20"
 ruby:
