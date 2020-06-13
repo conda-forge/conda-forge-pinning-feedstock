@@ -602,6 +602,8 @@ tk:
   - 8.6                # [not ppc64le]
 tiledb:
   - 1.7
+uhd:
+  - 3.15.0
 vc:                    # [win]
   - 14                 # [win]
 vlfeat:
