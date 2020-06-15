@@ -591,6 +591,8 @@ singular:
   - 4.1.2
 snappy:
   - 1
+soapysdr:
+  - 0.7
 sox:
   - 14.4.2
 sqlite:
