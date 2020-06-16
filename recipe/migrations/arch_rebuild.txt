@@ -204,3 +204,4 @@ statsmodels
 imagecodecs
 tomopy
 scikit-build
+treelite
