@@ -535,7 +535,7 @@ occt:
 openblas:
   - 0.3.6
 openexr:
-  - 2.4
+  - 2.5
 openjpeg:
   - 2.3
 openmpi:
