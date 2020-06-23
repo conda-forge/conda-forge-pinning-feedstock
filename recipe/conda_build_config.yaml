@@ -411,7 +411,7 @@ googleapis_cpp:
 graphviz:
   - 2.40
 grpc_cpp:
-  - '1.29'
+  - '1.30'
 harfbuzz:
   - 2
 hdf4:
