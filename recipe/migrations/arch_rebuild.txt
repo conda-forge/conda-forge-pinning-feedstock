@@ -205,3 +205,4 @@ imagecodecs
 tomopy
 scikit-build
 treelite
+micromamba
