@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+fmt:
+- '7'
+migrator_ts: 1594047766.9845057
