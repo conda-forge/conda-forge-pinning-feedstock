@@ -572,7 +572,7 @@ python_impl:
 qt:
   - 5.12
 re2:
-  - 2020.07.01
+  - 2020.07.06
 readline:
   - 8.0
 rocksdb:
