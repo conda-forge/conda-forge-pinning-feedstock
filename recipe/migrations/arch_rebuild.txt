@@ -208,3 +208,4 @@ treelite
 micromamba
 pytables
 r-rsqlite
+pandoc
