@@ -583,8 +583,8 @@ ruby:
   - 2.5
   - 2.6
 r_base:
-  - 3.5.1             # [not (aarch64 or ppc64le)]
   - 3.6
+  - 4.0
 scotch:
   - 6.0.8
 ptscotch:
