@@ -207,3 +207,4 @@ scikit-build
 treelite
 micromamba
 pytables
+r-rsqlite
