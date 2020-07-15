@@ -514,7 +514,7 @@ mumps_seq:
 nccl:
   - 2.4.6.1
 ncurses:
-  - 6.1
+  - 6.2
 netcdf_cxx4:
   - 4.3
 netcdf_fortran:
