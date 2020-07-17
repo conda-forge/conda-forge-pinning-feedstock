@@ -313,8 +313,6 @@ pin_run_as_build:
     max_pin: x.x.x  # [win]
   zlib:
     max_pin: x.x
-  zstd:
-    max_pin: x.x
 
 # Pinning packages
 
