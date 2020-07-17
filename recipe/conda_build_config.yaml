@@ -314,7 +314,7 @@ pin_run_as_build:
   zlib:
     max_pin: x.x
   zstd:
-    max_pin: x.x.x
+    max_pin: x.x
 
 # Pinning packages
 
@@ -628,4 +628,4 @@ zeromq:
 zlib:
   - 1.2
 zstd:
-  - 1.4.4
+  - 1.4
