@@ -304,8 +304,6 @@ pin_run_as_build:
     max_pin: x.x.x
   vtk:
     max_pin: x.x.x
-  xerces-c:
-    max_pin: x.x.x
   xz:
     max_pin: x.x
   zeromq:
@@ -616,7 +614,7 @@ vtk:
 x264:
   - 1!152.*
 xerces_c:
-  - 3.2.2
+  - 3.2
 xrootd:
   - '4.12'
 xz:
