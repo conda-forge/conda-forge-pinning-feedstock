@@ -269,8 +269,6 @@ pin_run_as_build:
     max_pin: x
   occt:
     max_pin: x.x
-  openblas:
-    max_pin: x.x.x
   openturns:
     max_pin: x.x
   openjpeg:
@@ -533,7 +531,7 @@ numpy:
 occt:
   - 7.4
 openblas:
-  - 0.3.6
+  - 0.3.*
 openjpeg:
   - 2.3
 openmpi:
