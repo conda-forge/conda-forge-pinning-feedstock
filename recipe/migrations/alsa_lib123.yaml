@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-alsa_lib:
-- 1.2.3
-migrator_ts: 1591968158.9480896
