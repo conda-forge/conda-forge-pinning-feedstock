@@ -209,3 +209,4 @@ micromamba
 pytables
 r-rsqlite
 pandoc
+nghttp2
