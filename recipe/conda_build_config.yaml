@@ -480,7 +480,7 @@ libtiff:
 libunwind:
   - 1.2
 libv8:
-  - 7.5.288
+  - 8.4.371
 libwebp:
   - 1.1
 libwebp_base:
