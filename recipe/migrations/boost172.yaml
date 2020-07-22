@@ -4,7 +4,7 @@ __migrator:
     version
   migration_number:
     2
-  build_num2er:
+  build_number:
     1
   paused: true
 boost:
