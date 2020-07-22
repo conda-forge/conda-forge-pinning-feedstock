@@ -3,11 +3,12 @@ __migrator:
   kind:
     version
   migration_number:
-    2
+    3
   build_number:
     1
 boost:
+  - 1.70
   - 1.72
 boost_cpp:
+  - 1.70
   - 1.72
-
