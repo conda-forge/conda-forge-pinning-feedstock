@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+arrow_cpp:
+- 1.0.0
+migrator_ts: 1595605733.7487276
