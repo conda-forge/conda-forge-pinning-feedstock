@@ -213,3 +213,4 @@ nghttp2
 cctools
 howardhinnant_date
 spdlog
+py-spy
