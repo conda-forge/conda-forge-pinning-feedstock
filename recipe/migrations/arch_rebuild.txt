@@ -214,3 +214,4 @@ cctools
 howardhinnant_date
 spdlog
 py-spy
+argon2-cffi
