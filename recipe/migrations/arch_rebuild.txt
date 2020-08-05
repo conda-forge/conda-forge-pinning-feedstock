@@ -216,3 +216,4 @@ spdlog
 py-spy
 argon2_cffi
 ghc
+catch2
