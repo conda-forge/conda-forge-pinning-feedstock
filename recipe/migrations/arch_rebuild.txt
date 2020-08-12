@@ -31,6 +31,7 @@ openmpi
 typing
 sqlalchemy
 root_pandas
+bliss
 scipy
 ipython
 scikit-learn
