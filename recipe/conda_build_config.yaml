@@ -456,7 +456,7 @@ libffi:
 libgdal:
   - 3.0
 libiconv:
-  - 1.15
+  - 1.16
 libkml:
   - 1.3
 libmatio:
