@@ -11,6 +11,6 @@ __migrator:
   bump_number: 0
 
 python:
-  - 3.6.* *_cpython
-  - 3.7.* *_cpython
+  - 3.6.* *_cpython    # [not (osx and arm64)]
+  - 3.7.* *_cpython    # [not (osx and arm64)]
   - 3.8.* *_cpython
