@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-gnuradio_core:
-- 3.8.2
-migrator_ts: 1598302795.1889331
