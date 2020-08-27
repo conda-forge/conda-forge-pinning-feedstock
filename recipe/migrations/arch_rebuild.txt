@@ -219,3 +219,4 @@ argon2_cffi
 ghc
 catch2
 poco
+cpp-filesystem
