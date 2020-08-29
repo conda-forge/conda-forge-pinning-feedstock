@@ -524,9 +524,9 @@ netcdf_fortran:
 nettle:
   - 3.4
 nss:
-  - 3.39
+  - 3
 nspr:
-  - 4.20
+  - 4
 nlopt:
   - 2.6.*
 ntl:
