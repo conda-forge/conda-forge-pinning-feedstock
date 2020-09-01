@@ -221,3 +221,4 @@ catch2
 poco
 cpp-filesystem
 web3
+conda-suggest-conda-forge
