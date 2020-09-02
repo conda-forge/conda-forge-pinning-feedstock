@@ -622,7 +622,7 @@ x264:
 xerces_c:
   - 3.2
 xrootd:
-  - '4.12'
+  - '5'
 xz:
   - 5.2
 zeromq:
