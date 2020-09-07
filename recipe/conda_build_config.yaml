@@ -567,6 +567,8 @@ slepc4py:
   - 3.12
 pixman:
   - 0.38
+poco:
+  - 1.10.1
 poppler:
   - 0.67.0
 proj:
