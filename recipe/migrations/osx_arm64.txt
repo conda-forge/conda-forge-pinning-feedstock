@@ -5,3 +5,4 @@ gmp
 mpfr
 mpc
 isl
+pyarrow
