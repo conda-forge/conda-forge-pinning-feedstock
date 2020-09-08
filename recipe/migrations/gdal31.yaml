@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+gdal:
+- '3.1'
+libgdal:
+- '3.1'
+migrator_ts: 1589741512.6218328
