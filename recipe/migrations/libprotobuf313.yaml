@@ -3,5 +3,5 @@ __migrator:
   kind: version
   migration_number: 1
 libprotobuf:
-- '3.12'
-migrator_ts: 1590512843.0185797
+- '3.13'
+migrator_ts: 1597781230.3843527

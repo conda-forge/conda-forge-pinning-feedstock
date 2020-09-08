@@ -471,7 +471,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 3.11
+  - 3.12
 librdkafka:
   - 0.11.5
 librsvg:
