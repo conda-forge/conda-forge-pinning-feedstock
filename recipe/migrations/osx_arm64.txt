@@ -1,0 +1,8 @@
+python
+micromamba
+conda-build
+gmp
+mpfr
+mpc
+isl
+pyarrow

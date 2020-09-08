@@ -7,3 +7,7 @@ petsc:
 - '3.13'
 slepc:
 - '3.13'
+petsc4py:
+- '3.13'
+slepc4py:
+- '3.13'
