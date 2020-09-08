@@ -5,7 +5,7 @@ Home: https://conda-forge.org/docs/maintainer/infrastructure.html#conda-forge-pi
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: The baseline versions of software for the conda-forge ecosystem
 
@@ -116,5 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/core](https://github.com/conda-forge/core/)
+* [@conda-forge/Core](https://github.com/conda-forge/Core/)
 

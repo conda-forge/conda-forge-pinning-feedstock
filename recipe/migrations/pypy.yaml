@@ -15,25 +15,22 @@ __migrator:
   check_solvable: false
 
 python:
-  - 3.6.* *_cpython
-  - 3.7.* *_cpython
+  - 3.6.* *_cpython   # [not (osx and arm64)]
+  - 3.7.* *_cpython   # [not (osx and arm64)]
   - 3.8.* *_cpython
-  - 3.6.* *_73_pypy   # [not win64]
+  - 3.6.* *_73_pypy   # [not (win64 or (osx and arm64))]
 
 numpy:
-  - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.14       # [not (aarch64 or ppc64le)]
-  - 1.16       # [aarch64 or ppc64le]
-  - 1.16       # [aarch64 or ppc64le]
-  - 1.16       # [aarch64 or ppc64le]
-  - 1.18       # [not win64]
+  - 1.16       # [not (osx and arm64)]
+  - 1.16       # [not (osx and arm64)]
+  - 1.16
+  - 1.18       # [not (win64 or (osx and arm64))]
 
 python_impl:
+  - cpython    # [not (osx and arm64)]
+  - cpython    # [not (osx and arm64)]
   - cpython
-  - cpython
-  - cpython
-  - pypy       # [not win64]
+  - pypy       # [not (win64 or (osx and arm64))]
 
 
 zip_keys:
