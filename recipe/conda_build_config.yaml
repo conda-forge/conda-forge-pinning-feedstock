@@ -540,7 +540,7 @@ numpy:
 occt:
   - 7.4
 openblas:
-  - 0.3.6
+  - 0.3.*
 openexr:
   - 2.5
 openjpeg:
