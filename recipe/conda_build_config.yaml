@@ -376,7 +376,7 @@ freetype:
 gf2x:
   - 1.2
 gdk_pixbuf:
-  - 3
+  - 2
 gnuradio_core:
   - 3.8.2
 gsl:
