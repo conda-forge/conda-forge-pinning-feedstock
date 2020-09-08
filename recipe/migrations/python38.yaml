@@ -1,0 +1,16 @@
+migrator_ts: 1569538102   # The timestamp of when the migration was made
+__migrator:
+  kind:
+    version
+  exclude:
+    - c_compiler
+    - vc
+    - cxx_compiler
+  migration_number:  # Only use this if the bot messes up, putting this in will cause a complete rerun of the migration
+    1
+  bump_number: 0
+
+python:
+  - 3.6.* *_cpython    # [not (osx and arm64)]
+  - 3.7.* *_cpython    # [not (osx and arm64)]
+  - 3.8.* *_cpython

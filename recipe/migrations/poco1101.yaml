@@ -1,0 +1,11 @@
+migrator_ts: 1599488137
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+
+poco:
+  - 1.10.1
