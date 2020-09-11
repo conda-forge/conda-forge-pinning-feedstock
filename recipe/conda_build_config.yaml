@@ -346,9 +346,11 @@ arpack:
 arrow_cpp:
   - 0.17.1
 boost:
-  - 1.70.0
+  - 1.70.0  # [not (osx and arm64)]
+  - 1.74.0  # [osx and arm64]
 boost_cpp:
-  - 1.70.0
+  - 1.70.0  # [not (osx and arm64)]
+  - 1.74.0  # [osx and arm64]
 bzip2:
   - 1
 cairo:
