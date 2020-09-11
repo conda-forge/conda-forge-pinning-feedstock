@@ -346,9 +346,9 @@ arpack:
 arrow_cpp:
   - 0.17.1
 boost:
-  - 1.70.0
+  - 1.72.0
 boost_cpp:
-  - 1.70.0
+  - 1.72.0
 bzip2:
   - 1
 cairo:
