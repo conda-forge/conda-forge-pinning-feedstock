@@ -1,0 +1,11 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+boost_cpp:
+- 1.74.0
+- 1.72.0   # [not (osx and arm64)]
+boost:
+- 1.74.0
+- 1.72.0   # [not (osx and arm64)]
+migrator_ts: 1599847606.929981
