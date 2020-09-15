@@ -1,0 +1,11 @@
+migrator_ts: 1600145529
+__migrator:
+  kind: version
+  migration_number: 1
+  build_number: 1
+
+gdk_pixbuf:
+  - 2
+pin_run_as_build:
+  gdk_pixbuf:
+    - max_pin: x
