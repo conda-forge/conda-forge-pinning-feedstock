@@ -6,3 +6,4 @@ mpfr
 mpc
 isl
 pyarrow
+yaml-cpp
