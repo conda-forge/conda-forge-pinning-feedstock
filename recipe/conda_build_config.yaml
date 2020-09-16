@@ -543,6 +543,10 @@ occt:
   - 7.4
 openblas:
   - 0.3.*
+# Future versions of openexr should be able to pin to minor versions only
+# Between 2.5.0 and 2.5.1 there was an SONAME change
+openexr:
+  - 2.5.1
 openjpeg:
   - 2.3
 openmpi:
