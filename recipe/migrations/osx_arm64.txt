@@ -7,3 +7,5 @@ mpc
 isl
 pyarrow
 yaml-cpp
+cffi
+pycparser
