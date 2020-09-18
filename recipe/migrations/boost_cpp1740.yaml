@@ -8,4 +8,7 @@ boost_cpp:
 boost:
 - 1.74.0
 - 1.72.0   # [not (osx and arm64)]
+zip_keys:
+ - - boost_cpp
+   - boost
 migrator_ts: 1599847606.929981
