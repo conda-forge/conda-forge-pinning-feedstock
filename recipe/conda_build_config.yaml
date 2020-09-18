@@ -345,6 +345,12 @@ arpack:
   - 3.6.3
 arrow_cpp:
   - 0.17.1
+aws_c_common:
+  - 0.4.57
+aws_c_event_stream:
+  - 0.1.6
+aws_sdk_cpp:
+  - 1.7.164
 boost:
   - 1.72.0  # [not (osx and arm64)]
   - 1.74.0  # [osx and arm64]
