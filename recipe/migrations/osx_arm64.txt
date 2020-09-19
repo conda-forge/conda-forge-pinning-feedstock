@@ -10,3 +10,5 @@ yaml-cpp
 cffi
 pycparser
 constructor
+lapack
+openblas
