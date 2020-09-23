@@ -224,3 +224,4 @@ web3
 conda-suggest-conda-forge
 htop
 pygit2
+rhumba
