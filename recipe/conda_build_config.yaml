@@ -14,7 +14,7 @@ c_compiler_version:            # [unix]
   - 7                          # [linux64]
   - 7.5                        # [aarch64]
   - 8                          # [ppc64le]
-  - 8.3                        # [armv7l]
+  - 8.3                        # [armv7l
 cxx_compiler:
   - gxx                        # [linux]
   - clangxx                    # [osx]
@@ -113,9 +113,9 @@ VERBOSE_CM:
 
 # dual build configuration
 channel_sources:
-  - conda-forge,defaults                        # [not (aarch64 or armv7l or (osx and arm64))]
+  - conda-forge,defaults                        # [not (aarch64 or armv7l or osx)]
   - conda-forge/label/llvm_rc,conda-forge,https://conda-web.anaconda.org/conda-forge    # [osx and arm64]
-  - conda-forge                                 # [aarch64]
+  - conda-forge                                 # [aarch64 or (osx and x86_64)]
   - conda-forge,c4armv7l,defaults               # [armv7l]
 
 channel_targets:
