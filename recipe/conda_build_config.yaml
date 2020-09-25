@@ -374,7 +374,7 @@ dbus:
 expat:
   - 2.2
 ffmpeg:
-  - '4.2'
+  - '4.3'
 fftw:
   - 3
 flann:
