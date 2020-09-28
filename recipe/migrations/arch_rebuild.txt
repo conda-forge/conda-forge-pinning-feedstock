@@ -225,3 +225,11 @@ conda-suggest-conda-forge
 htop
 pygit2
 rhumba
+console_bridge
+poco
+tinyxml2
+tinyxml
+rosdep
+rosdistro
+apr
+log4cxx
