@@ -233,4 +233,13 @@ rosdep
 rosdistro
 apr
 log4cxx
-libapr
+ogre
+gpgme
+cppcheck
+assimp
+sdl_image
+sdl
+cppunit
+fcl
+orocos-kdl
+python-orocos-kdl
