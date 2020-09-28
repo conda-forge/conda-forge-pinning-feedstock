@@ -206,6 +206,8 @@ imagecodecs
 tomopy
 scikit-build
 treelite
+nvtx-c
+nvtx
 micromamba
 pytables
 r-rsqlite
