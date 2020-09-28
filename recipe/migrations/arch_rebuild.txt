@@ -233,3 +233,4 @@ rosdep
 rosdistro
 apr
 log4cxx
+libapr
