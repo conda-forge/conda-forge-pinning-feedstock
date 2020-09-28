@@ -243,3 +243,4 @@ cppunit
 fcl
 orocos-kdl
 python-orocos-kdl
+proj
