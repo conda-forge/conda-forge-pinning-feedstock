@@ -250,3 +250,4 @@ lbdevtools
 lbenv
 awkward1
 uproot4
+glimpse
