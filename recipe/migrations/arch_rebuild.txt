@@ -252,3 +252,4 @@ awkward1
 uproot4
 glimpse
 pycryptodomex
+pynacl
