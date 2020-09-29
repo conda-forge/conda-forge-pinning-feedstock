@@ -352,7 +352,7 @@ aws_c_event_stream:
 aws_checksums:
   - 0.1.9
 aws_sdk_cpp:
-  - 1.8.54
+  - 1.8.56
 boost:
   - 1.72.0  # [not (osx and arm64)]
   - 1.74.0  # [osx and arm64]
