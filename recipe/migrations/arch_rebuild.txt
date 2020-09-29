@@ -253,3 +253,4 @@ uproot4
 glimpse
 pycryptodomex
 pynacl
+bullet
