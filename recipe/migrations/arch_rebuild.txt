@@ -254,3 +254,8 @@ glimpse
 pycryptodomex
 pynacl
 bullet
+urdfdom
+urdfdom_headers
+pygraphviz
+qhull
+lcov
