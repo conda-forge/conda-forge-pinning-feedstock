@@ -259,3 +259,4 @@ urdfdom_headers
 pygraphviz
 qhull
 lcov
+lua
