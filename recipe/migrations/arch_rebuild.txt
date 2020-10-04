@@ -260,3 +260,4 @@ pygraphviz
 qhull
 lcov
 lua
+python-blosc
