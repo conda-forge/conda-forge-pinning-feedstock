@@ -261,3 +261,4 @@ qhull
 lcov
 lua
 python-blosc
+libdrm
