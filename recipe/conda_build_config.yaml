@@ -93,10 +93,6 @@ target_gobin:
 # Rust Compiler Options
 rust_compiler:
   - rust
-  - rust-gnu                   # [win]
-rust_compiler_version:
-  - 1.40.0
-
 
 macos_machine:                 # [osx]
   - x86_64-apple-darwin13.4.0  # [osx and x86_64]
