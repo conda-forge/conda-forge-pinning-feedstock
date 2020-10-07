@@ -268,3 +268,4 @@ gfal2-util
 singularity
 nordugrid-arc
 openssh
+dataclasses
