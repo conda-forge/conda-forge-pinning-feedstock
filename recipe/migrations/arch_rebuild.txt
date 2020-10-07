@@ -269,3 +269,4 @@ singularity
 nordugrid-arc
 openssh
 dataclasses
+rich
