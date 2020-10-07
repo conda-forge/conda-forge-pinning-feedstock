@@ -18,8 +18,9 @@ cxx_compiler_version:          # [unix]
   - 10                         # [osx and x86_64]
   - 9                          # [linux64 or aarch64 or ppc64le]
 
-
 fortran_compiler_version:      # [unix or win64]
   - 11                         # [osx and arm64]
   - 9                          # [(osx and x86_64) or linux64 or aarch64 or ppc64le]
+  # we are keeping both for a while - we need to remove 7 when the migration is done
+  - 7                          # [(osx and x86_64) or linux64 or aarch64]
   - 5                          # [win64]
