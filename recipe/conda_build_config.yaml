@@ -202,8 +202,6 @@ pin_run_as_build:
     max_pin: x
   hdf4:
     max_pin: x.x
-  icu:
-    max_pin: x
   isl:
     max_pin: x.x
   jasper:
@@ -435,7 +433,7 @@ hdf4:
 hdf5:
   - 1.10.5
 icu:
-  - 64.2
+  - 67
 isl:
   - '0.22'
 jasper:
