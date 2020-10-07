@@ -1,3 +1,4 @@
+migrator_ts: 1602104489
 __migrator:
     operation: key_add
     primary_key: python
