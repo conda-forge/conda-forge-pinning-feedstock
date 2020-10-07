@@ -270,3 +270,4 @@ nordugrid-arc
 openssh
 dataclasses
 rich
+cctbx-base
