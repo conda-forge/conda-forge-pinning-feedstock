@@ -262,3 +262,9 @@ lcov
 lua
 python-blosc
 libdrm
+myproxy
+rrdtool
+gfal2-util
+singularity
+nordugrid-arc
+openssh
