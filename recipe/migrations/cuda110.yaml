@@ -9,8 +9,8 @@ __migrator:
   override_cbc_keys:
     - cuda_compiler_stub
 
-cuda_compiler_version:         # [linux64]
-  - None                       # [linux64]
+cuda_compiler_version:
+  - None
   - 9.2                        # [linux64]
   - 10.0                       # [linux64]
   - 10.1                       # [linux64]
