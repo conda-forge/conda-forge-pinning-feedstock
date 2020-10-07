@@ -14,7 +14,6 @@ c_compiler_version:            # [unix]
   - 9.3.0                      # [linux64]
   - 9.3.0                      # [aarch64]
   - 9.3.0                      # [ppc64le]
-  - 8.3                        # [armv7l]
 
 cxx_compiler_version:          # [unix]
   - 11                         # [osx and arm64]
