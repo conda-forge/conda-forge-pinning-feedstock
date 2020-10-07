@@ -12,6 +12,6 @@ python:
   - 3.9.* *_cpython
 # additional entries to add for zip_keys
 numpy:
-  - 1.100
+  - 1.18
 python_impl:
   - cpython
