@@ -1,0 +1,35 @@
+migrator_ts: 1602079781
+
+__migrator:
+  kind:
+    version
+  migration_number: 1
+  build_number: 1
+  override_cbc_keys:
+    - fortran_compiler_stub
+
+c_compiler_version:            # [unix]
+  - 11                         # [osx and arm64]
+  - 10                         # [osx and x86_64]
+  - 9.3.0                      # [linux64]
+  - 9.3.0                      # [aarch64]
+  - 9.3.0                      # [ppc64le]
+  - 8.3                        # [armv7l]
+
+cxx_compiler_version:          # [unix]
+  - 11                         # [osx and arm64]
+  - 10                         # [osx and x86_64]
+  - 9.3.0                      # [linux64]
+  - 9.3.0                      # [aarch64]
+  - 9.3.0                      # [ppc64le]
+  - 8.3                        # [armv7l]
+
+
+fortran_compiler_version:      # [unix or win64]
+  - 11                         # [osx and arm64]
+  - 9.3.0                      # [osx and x86_64]
+  - 9.3.0                      # [linux64]
+  - 9.3.0                      # [aarch64]
+  - 9.3.0                      # [ppc64le]
+  - 8.3                        # [armv7l]
+  - 5                          # [win64]
