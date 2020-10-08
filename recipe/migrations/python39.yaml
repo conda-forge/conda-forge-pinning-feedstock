@@ -6,11 +6,11 @@ __migrator:
     ordering:
         python:
             - 3.6.* *_cpython
-            - 3.9.* *_cpython   # new entry
             - 3.7.* *_cpython
             - 3.8.* *_cpython
+            - 3.9.* *_cpython   # new entry
             - 3.6.* *_73_pypy
-    paused: true
+    paused: false
 python:
   - 3.9.* *_cpython
 # additional entries to add for zip_keys
