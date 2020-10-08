@@ -129,6 +129,10 @@ docker_image:                           # [os.environ.get("BUILD_PLATFORM", "").
   - condaforge/linux-anvil-cuda:10.2    # [linux64 and (os.environ.get("BUILD_PLATFORM") == "linux-64" or os.environ.get("CONFIG_VERSION", "1") == "1")]
 
 zip_keys:
+  -                             # [unix]
+    - c_compiler_version        # [unix]
+    - cxx_compiler_version      # [unix]
+    - fortran_compiler_version  # [unix]  
   -
     - python
   -                             # [(os.environ.get("CONFIG_VERSION", "1") == "1" and linux64) or os.environ.get("BUILD_PLATFORM") == "linux-64"]
