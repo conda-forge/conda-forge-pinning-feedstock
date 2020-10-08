@@ -1,5 +1,6 @@
 migrator_ts: 1602104489
 __migrator:
+    migration_number: 2
     operation: key_add
     primary_key: python
     ordering:
