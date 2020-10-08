@@ -57,15 +57,3 @@ fortran_compiler_version:      # [unix or win64]
   - 8                          # [ppc64le]
 
   - 5                          # [win64]
-
-
-zip_keys:
-  -                             # [unix]
-    - c_compiler_version        # [unix]
-    - cxx_compiler_version      # [unix]
-    - fortran_compiler_version  # [unix]
-  -
-    - python
-  -                             # [(os.environ.get("CONFIG_VERSION", "1") == "1" and linux64) or os.environ.get("BUILD_PLATFORM") == "linux-64"]
-    - cuda_compiler_version     # [(os.environ.get("CONFIG_VERSION", "1") == "1" and linux64) or os.environ.get("BUILD_PLATFORM") == "linux-64"]
-    - docker_image              # [(os.environ.get("CONFIG_VERSION", "1") == "1" and linux64) or os.environ.get("BUILD_PLATFORM") == "linux-64"]
