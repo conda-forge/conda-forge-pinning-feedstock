@@ -132,7 +132,7 @@ zip_keys:
   -                             # [unix]
     - c_compiler_version        # [unix]
     - cxx_compiler_version      # [unix]
-    - fortran_compiler_version  # [unix]  
+    - fortran_compiler_version  # [unix]
   -
     - python
   -                             # [(os.environ.get("CONFIG_VERSION", "1") == "1" and linux64) or os.environ.get("BUILD_PLATFORM") == "linux-64"]
@@ -290,6 +290,8 @@ pin_run_as_build:
     max_pin: x.x
   poppler:
     max_pin: x.x
+  pybind11:
+    max_pin: x.x.x
   qt:
     max_pin: x.x
   readline:

@@ -1,0 +1,10 @@
+migrator_ts: 1602255445
+
+__migrator:
+  kind:
+    version
+  migration_number: 1
+  build_number: 1
+
+pybind11:
+  - 2.5.0
