@@ -11,6 +11,7 @@ __migrator:
             - 3.9.* *_cpython   # new entry
             - 3.6.* *_73_pypy
     paused: false
+    pr_limit: 50
 python:
   - 3.9.* *_cpython
 # additional entries to add for zip_keys
