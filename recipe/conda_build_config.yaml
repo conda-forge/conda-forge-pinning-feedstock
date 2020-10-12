@@ -589,7 +589,7 @@ poco:
 poppler:
   - 0.67.0
 proj:
-  - 7.1.0
+  - 7.1.1
 python:
   # part of a zip_keys: python, python_impl, numpy
   - 3.6.* *_cpython    # [not (osx and arm64)]
