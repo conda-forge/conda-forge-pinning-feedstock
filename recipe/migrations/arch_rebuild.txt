@@ -271,3 +271,4 @@ openssh
 dataclasses
 rich
 cctbx-base
+ompl
