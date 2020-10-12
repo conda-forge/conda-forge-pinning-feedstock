@@ -132,9 +132,11 @@ zip_keys:
   -                             # [unix]
     - c_compiler_version        # [unix]
     - cxx_compiler_version      # [unix]
-    - fortran_compiler_version  # [unix]  
+    - fortran_compiler_version  # [unix]
   -
     - python
+    - numpy
+    - python_impl
   -                             # [(os.environ.get("CONFIG_VERSION", "1") == "1" and linux64) or os.environ.get("BUILD_PLATFORM") == "linux-64"]
     - cuda_compiler_version     # [(os.environ.get("CONFIG_VERSION", "1") == "1" and linux64) or os.environ.get("BUILD_PLATFORM") == "linux-64"]
     - docker_image              # [(os.environ.get("CONFIG_VERSION", "1") == "1" and linux64) or os.environ.get("BUILD_PLATFORM") == "linux-64"]
@@ -544,6 +546,9 @@ ntl:
   - '11.4.3'
 # we build for the oldest version possible of numpy for forward compatibility
 numpy:
+  # part of a zip_keys: python, python_impl, numpy
+  - 1.16   # [not (osx and arm64)]
+  - 1.16   # [not (osx and arm64)]
   - 1.16
 occt:
   - 7.4
@@ -586,10 +591,14 @@ poppler:
 proj:
   - 7.1.0
 python:
+  # part of a zip_keys: python, python_impl, numpy
   - 3.6.* *_cpython    # [not (osx and arm64)]
   - 3.7.* *_cpython    # [not (osx and arm64)]
   - 3.8.* *_cpython
 python_impl:
+  # part of a zip_keys: python, python_impl, numpy
+  - cpython   # [not (osx and arm64)]
+  - cpython   # [not (osx and arm64)]
   - cpython
 qt:
   - 5.12
