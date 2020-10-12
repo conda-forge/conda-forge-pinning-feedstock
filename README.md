@@ -5,11 +5,9 @@ Home: https://conda-forge.org/docs/maintainer/infrastructure.html#conda-forge-pi
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/LICENSE.txt)
 
 Summary: The baseline versions of software for the conda-forge ecosystem
-
-
 
 Current build status
 ====================

@@ -449,7 +449,7 @@ jsoncpp:
 kealib:
   - 1.4
 krb5:
-  - 1.16
+  - 1.17.1
 libarchive:
   - 3.3
 libblitz:
