@@ -546,7 +546,7 @@ ntl:
   - '11.4.3'
 # we build for the oldest version possible of numpy for forward compatibility
 numpy:
-  # part of t zip_keys with python
+  # part of a zip_keys: python, python_impl, numpy
   - 1.16   # [not (osx and arm64)]
   - 1.16   # [not (osx and arm64)]
   - 1.16
@@ -591,10 +591,12 @@ poppler:
 proj:
   - 7.1.0
 python:
+  # part of a zip_keys: python, python_impl, numpy
   - 3.6.* *_cpython    # [not (osx and arm64)]
   - 3.7.* *_cpython    # [not (osx and arm64)]
   - 3.8.* *_cpython
 python_impl:
+  # part of a zip_keys: python, python_impl, numpy
   - cpython   # [not (osx and arm64)]
   - cpython   # [not (osx and arm64)]
   - cpython
