@@ -15,6 +15,7 @@ __migrator:
       # this shouldn't attempt to modify the python feedstocks
       - python
       - pypy3.6
+      - pypy-meta
 python:
   - 3.9.* *_cpython
 # additional entries to add for zip_keys
