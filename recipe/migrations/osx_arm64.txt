@@ -12,3 +12,8 @@ pycparser
 constructor
 lapack
 openblas
+cmake
+make
+ninja
+pexpect
+ripgrep
