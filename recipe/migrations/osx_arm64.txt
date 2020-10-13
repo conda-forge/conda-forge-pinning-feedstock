@@ -17,3 +17,4 @@ make
 ninja
 pexpect
 ripgrep
+pkg-config
