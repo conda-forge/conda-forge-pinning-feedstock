@@ -342,7 +342,7 @@ alsa_lib:
 arb:
   - '2.18'
 arpack:
-  - 3.6.3
+  - 3.7
 arrow_cpp:
   - 0.17.1
 aws_c_common:
