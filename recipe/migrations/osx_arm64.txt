@@ -18,3 +18,4 @@ ninja
 pexpect
 ripgrep
 pkg-config
+glib
