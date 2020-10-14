@@ -19,3 +19,7 @@ pexpect
 ripgrep
 pkg-config
 glib
+libtool
+autoconf
+automake
+m4
