@@ -272,3 +272,4 @@ dataclasses
 rich
 cctbx-base
 ompl
+cudatoolkit
