@@ -23,3 +23,5 @@ libtool
 autoconf
 automake
 m4
+patch
+git
