@@ -273,3 +273,6 @@ rich
 cctbx-base
 ompl
 cudatoolkit
+gh
+bat
+ncdu
