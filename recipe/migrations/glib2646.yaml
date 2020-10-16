@@ -9,3 +9,5 @@ __migrator:
 
 glib:
   - 2.64.6
+libglib:
+  - 2.64.6
