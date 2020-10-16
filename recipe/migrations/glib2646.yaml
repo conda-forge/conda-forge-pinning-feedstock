@@ -1,0 +1,13 @@
+migrator_ts: 1
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+
+glib:
+  - 2.64.6
+libglib:
+  - 2.64.6
