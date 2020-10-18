@@ -276,3 +276,4 @@ cudatoolkit
 gh
 bat
 ncdu
+aiohttp
