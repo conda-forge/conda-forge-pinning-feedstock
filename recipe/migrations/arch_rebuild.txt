@@ -277,3 +277,4 @@ gh
 bat
 ncdu
 aiohttp
+fastparquet
