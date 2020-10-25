@@ -441,7 +441,7 @@ graphviz:
   - 2.38  # [win]
   - 2.40  # [not win]
 grpc_cpp:
-  - '1.32'
+  - '1.33'
 harfbuzz:
   - 2
 hdf4:
