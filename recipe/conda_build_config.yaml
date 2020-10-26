@@ -582,7 +582,7 @@ openmpi:
 openssl:
   - 1.1.1
 openturns:
-  - '1.15'
+  - '1.16'
 orc:
   - 1.6.5
 pango:
