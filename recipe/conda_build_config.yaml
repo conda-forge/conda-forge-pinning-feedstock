@@ -424,8 +424,8 @@ isl:
   - 0.19
 jasper:
   # the first windows build of jasper was 2.0.14
-  - 1.900.1  # [not win]
-  - 2.0.14   # [win]
+  - 1  # [not win]
+  - 2  # [win]
 jpeg:
   - 9
 libjpeg_turbo:
