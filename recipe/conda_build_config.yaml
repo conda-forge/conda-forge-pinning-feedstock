@@ -250,8 +250,6 @@ pin_run_as_build:
     max_pin: x.x
   libpng:
     max_pin: x.x
-  librdkafka:
-    max_pin: x.x.x
   librsvg:
     max_pin: x
   libsvm:
@@ -447,7 +445,7 @@ harfbuzz:
 hdf4:
   - 4.2
 hdf5:
-  - 1.10.5
+  - 1.10.6
 icu:
   - 67
 isl:
@@ -497,9 +495,9 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 3.12
+  - 3.13
 librdkafka:
-  - 0.11.5
+  - 1.4
 librsvg:
   - 2
 libsecret:
@@ -592,19 +590,19 @@ pari:
 perl:
   - 5.26.2
 petsc:
-  - 3.12
+  - 3.13
 petsc4py:
-  - 3.12
+  - 3.13
 slepc:
-  - 3.12
+  - 3.13
 slepc4py:
-  - 3.12
+  - 3.13
 pixman:
   - 0.38
 poco:
   - 1.10.1
 poppler:
-  - 0.67.0
+  - 0.89
 proj:
   - 7.1.1
 python:
@@ -634,9 +632,9 @@ r_base:
   - 3.6
   - 4.0
 scotch:
-  - 6.0.8
+  - 6.0.9
 ptscotch:
-  - 6.0.8
+  - 6.0.9
 singular:
   - 4.1.2
 snappy:
