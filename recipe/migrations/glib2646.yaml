@@ -8,6 +8,8 @@ __migrator:
     1
 
 glib:
-  - 2.64.6
+  - 2.64.6  # [not (osx and arm64)]
+  - 2.66    # [osx and arm64]
 libglib:
-  - 2.64.6
+  - 2.64.6  # [not (osx and arm64)]
+  - 2.66    # [osx and arm64]
