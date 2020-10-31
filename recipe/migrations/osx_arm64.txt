@@ -27,3 +27,4 @@ patch
 git
 pytest
 scipy
+matplotlib
