@@ -1,0 +1,18 @@
+migrator_ts: 1604255168
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+
+cuda_compiler:                 # [linux64 or win]
+  - nvcc                       # [linux64 or win]
+cuda_compiler_version:
+  - None
+  - 9.2                        # [linux64]
+  - 10.0                       # [linux64 or win]
+  - 10.1                       # [linux64 or win]
+  - 10.2                       # [linux64 or win]
+  - 11.0                       # [linux64 or win]
