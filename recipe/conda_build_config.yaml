@@ -636,9 +636,9 @@ r_base:
   - 3.6
   - 4.0
 scotch:
-  - 6.0.8
+  - 6.0.9
 ptscotch:
-  - 6.0.8
+  - 6.0.9
 singular:
   - 4.1.2
 snappy:
