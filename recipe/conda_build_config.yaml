@@ -298,8 +298,6 @@ pin_run_as_build:
     max_pin: x.x
   perl:
     max_pin: x.x.x
-  pixman:
-    max_pin: x.x
   poppler:
     max_pin: x.x
   qt:
@@ -602,7 +600,7 @@ slepc:
 slepc4py:
   - '3.13'
 pixman:
-  - 0.38
+  - 0
 poco:
   - 1.10.1
 poppler:
