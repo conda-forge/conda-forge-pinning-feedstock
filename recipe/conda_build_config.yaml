@@ -594,13 +594,13 @@ pari:
 perl:
   - 5.26.2
 petsc:
-  - 3.12
+  - '3.13'
 petsc4py:
-  - 3.12
+  - '3.13'
 slepc:
-  - 3.12
+  - '3.13'
 slepc4py:
-  - 3.12
+  - '3.13'
 pixman:
   - 0.38
 poco:
