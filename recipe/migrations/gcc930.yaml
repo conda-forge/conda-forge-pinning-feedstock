@@ -8,6 +8,7 @@ __migrator:
   override_cbc_keys:
     - fortran_compiler_stub
   paused: false
+  longterm: True
 
 c_compiler_version:            # [unix]
   - 11                         # [osx and arm64]
