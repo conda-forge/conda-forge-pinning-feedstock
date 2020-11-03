@@ -2,6 +2,7 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
+  longterm: True
 boost_cpp:
 - 1.74.0
 - 1.72.0   # [not (osx and arm64)]
