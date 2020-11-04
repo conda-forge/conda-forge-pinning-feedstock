@@ -279,3 +279,4 @@ ncdu
 aiohttp
 fastparquet
 prmon
+go-licenses
