@@ -468,6 +468,8 @@ kealib:
   - 1.4
 krb5:
   - 1.17.1
+lcms2:
+  - 2.11
 libarchive:
   - 3.3
 libblitz:
@@ -500,6 +502,8 @@ libprotobuf:
   - 3.12
 librdkafka:
   - 0.11.5
+libraw:
+  - 0.20
 librsvg:
   - 2
 libsecret:
