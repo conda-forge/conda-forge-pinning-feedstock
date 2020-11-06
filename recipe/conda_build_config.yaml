@@ -469,7 +469,7 @@ kealib:
 krb5:
   - 1.17.1
 lcms2:
-  - 2.11
+  - 2
 libarchive:
   - 3.3
 libblitz:
