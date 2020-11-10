@@ -30,3 +30,4 @@ scipy
 matplotlib
 emacs
 r-base
+reproc
