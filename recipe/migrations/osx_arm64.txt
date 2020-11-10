@@ -31,3 +31,6 @@ matplotlib
 emacs
 r-base
 reproc
+ipython
+healpy
+fitsio
