@@ -34,3 +34,5 @@ reproc
 ipython
 healpy
 fitsio
+trio
+notebook
