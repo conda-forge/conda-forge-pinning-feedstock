@@ -39,3 +39,8 @@ notebook
 esutil
 galsim
 treecorr
+pyopencl
+islpy
+meshpy
+pyfmmlib
+sage
