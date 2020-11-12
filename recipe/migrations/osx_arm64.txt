@@ -36,3 +36,6 @@ healpy
 fitsio
 trio
 notebook
+esutil
+galsim
+treecorr
