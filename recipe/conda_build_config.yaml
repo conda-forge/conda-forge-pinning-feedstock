@@ -198,8 +198,6 @@ pin_run_as_build:
     max_pin: x
   gdal:
     max_pin: x.x
-  gdk_pixbuf:
-    max_pin: x.x.x
   geotiff:
     max_pin: x.x.x
   glew:
@@ -400,7 +398,7 @@ freetype:
 gf2x:
   - '1.3'
 gdk_pixbuf:
-  - 2.36.12
+  - 2
 gnuradio_core:
   - 3.8.2
 gsl:
