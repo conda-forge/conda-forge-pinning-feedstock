@@ -45,3 +45,5 @@ meshpy
 pyfmmlib
 sage
 pocl
+git-lfs
+numba
