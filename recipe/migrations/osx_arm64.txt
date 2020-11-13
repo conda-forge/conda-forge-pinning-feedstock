@@ -44,3 +44,4 @@ islpy
 meshpy
 pyfmmlib
 sage
+pocl
