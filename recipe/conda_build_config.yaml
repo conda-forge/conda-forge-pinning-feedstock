@@ -360,7 +360,7 @@ aws_c_common:
 aws_c_event_stream:
   - 0.1.6
 aws_checksums:
-  - 0.1.9
+  - 0.1.10
 aws_sdk_cpp:
   - 1.8.70
 boost:
