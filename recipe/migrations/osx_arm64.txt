@@ -47,3 +47,4 @@ sage
 pocl
 git-lfs
 numba
+fastcache
