@@ -281,3 +281,4 @@ fastparquet
 prmon
 go-licenses
 reproc
+traits
