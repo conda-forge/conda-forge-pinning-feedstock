@@ -48,3 +48,9 @@ pocl
 git-lfs
 numba
 fastcache
+gtest
+benchmark
+rsync
+ruamel.yaml
+ccache
+doxygen
