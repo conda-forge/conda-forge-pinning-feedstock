@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+libraw:
+- '0.20'
+migrator_ts: 1605529287
