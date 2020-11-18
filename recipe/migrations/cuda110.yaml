@@ -17,6 +17,11 @@ cuda_compiler_version:
   - 10.2                       # [linux64]
   - 11.0                       # [linux64]
 
+c_compiler_version:     # [linux]
+  - 7                   # [linux]
+cxx_compiler_version:   # [linux]
+  - 7                   # [linux]
+
 # cdt_name:  # [os.environ.get("BUILD_PLATFORM", "").startswith("linux") or (os.environ.get("CONFIG_VERSION", "1") == "1" and linux)]
 #   - cos6   # [os.environ.get("BUILD_PLATFORM") == "linux-64" or (os.environ.get("CONFIG_VERSION", "1") == "1" and linux64)]
 #   - cos7   # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" or (os.environ.get("CONFIG_VERSION", "1") == "1" and aarch64)]
