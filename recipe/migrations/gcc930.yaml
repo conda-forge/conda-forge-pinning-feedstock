@@ -12,33 +12,15 @@ __migrator:
   check_solvable: false
 
 c_compiler_version:            # [unix]
-  - 11                         # [osx and arm64]
-
-  - 11                         # [osx and x86_64]
-  - 11                         # [osx and x86_64]
-
-  - 9                          # [linux64]
-  - 9                          # [aarch64]
-  - 9                          # [ppc64le]
+  - 11                         # [osx]
+  - 9                          # [linux]
 
 cxx_compiler_version:          # [unix]
-  - 11                         # [osx and arm64]
-
-  - 11                         # [osx and x86_64]
-  - 11                         # [osx and x86_64]
-
-  - 9                          # [linux64]
-  - 9                          # [aarch64]
-  - 9                          # [ppc64le]
+  - 11                         # [osx]
+  - 9                          # [linux]
 
 fortran_compiler_version:      # [unix or win64]
   - 11                         # [osx and arm64]
-
   - 9                          # [osx and x86_64]
-  - 7                          # [osx and x86_64]
-
-  - 9                          # [linux64]
-  - 9                          # [aarch64]
-  - 9                          # [ppc64le]
-
+  - 9                          # [linux]
   - 5                          # [win64]
