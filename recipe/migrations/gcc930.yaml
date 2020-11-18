@@ -9,6 +9,7 @@ __migrator:
     - fortran_compiler_stub
   paused: false
   longterm: True
+  check_solvable: false
 
 c_compiler_version:            # [unix]
   - 11                         # [osx and arm64]
