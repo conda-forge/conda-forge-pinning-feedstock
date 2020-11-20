@@ -54,3 +54,5 @@ rsync
 ruamel.yaml
 ccache
 doxygen
+scikit-learn
+dask
