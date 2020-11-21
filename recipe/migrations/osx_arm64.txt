@@ -58,3 +58,5 @@ scikit-learn
 dask
 statsmodels
 conda-forge-ci-setup
+grpcio
+h5py
