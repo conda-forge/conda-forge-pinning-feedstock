@@ -56,3 +56,5 @@ ccache
 doxygen
 scikit-learn
 dask
+statsmodels
+conda-forge-ci-setup
