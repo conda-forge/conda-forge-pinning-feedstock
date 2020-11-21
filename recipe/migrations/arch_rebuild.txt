@@ -282,3 +282,4 @@ prmon
 go-licenses
 reproc
 traits
+hyperspy
