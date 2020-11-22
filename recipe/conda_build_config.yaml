@@ -520,6 +520,8 @@ libxml2:
   - 2.9
 libuuid:
   - 2.32.1
+log4cxx:
+  - 0.11.0
 lz4_c:
   - 1.9.2
 lzo:
