@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-libv8:
-- 8.9.15
-migrator_ts: 1606150276.1532555
