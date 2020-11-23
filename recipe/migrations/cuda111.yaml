@@ -6,6 +6,8 @@ __migrator:
     1
   build_number:
     1
+  override_cbc_keys:
+    - cuda_compiler_stub
 
 cuda_compiler_version:
   - None
