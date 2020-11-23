@@ -67,3 +67,4 @@ google-pasta
 keras-preprocessing
 protobuf
 compilers
+tensorboard
