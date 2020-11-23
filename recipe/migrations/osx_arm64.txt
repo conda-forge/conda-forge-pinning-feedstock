@@ -60,3 +60,11 @@ statsmodels
 conda-forge-ci-setup
 grpcio
 h5py
+wrapt
+flatbuffers
+tensorflow-estimator
+google-pasta
+keras-preprocessing
+protobuf
+compilers
+tensorboard
