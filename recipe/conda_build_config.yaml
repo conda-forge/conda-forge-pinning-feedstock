@@ -486,6 +486,8 @@ libkml:
   - 1.3
 libmatio:
   - 1.5
+libmicrohttpd:
+  - 0.9
 libnetcdf:
   - 4.7.4
 libpcap:
