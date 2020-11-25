@@ -72,5 +72,4 @@ cctbx-base
 wxpython
 hdf5-external-filter-plugins
 mamba
-wrapt
 lazy-object-proxy
