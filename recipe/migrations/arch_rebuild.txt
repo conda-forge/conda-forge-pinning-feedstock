@@ -283,3 +283,10 @@ go-licenses
 reproc
 traits
 hyperspy
+xeus-cling
+xeus-robot
+xeus-sqlite
+uvloop
+httptools
+uvicorn
+pydantic
