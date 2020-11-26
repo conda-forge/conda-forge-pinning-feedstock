@@ -290,3 +290,8 @@ uvloop
 httptools
 uvicorn
 pydantic
+xwebrtc
+xleaflet
+xtensor-io
+xtensor-fftw
+xtensor-blas
