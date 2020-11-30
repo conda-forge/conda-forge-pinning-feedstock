@@ -74,3 +74,4 @@ hdf5-external-filter-plugins
 mamba
 lazy-object-proxy
 pyerfa
+libopus
