@@ -296,3 +296,4 @@ xtensor-io
 xtensor-fftw
 xtensor-blas
 pyerfa
+libopus
