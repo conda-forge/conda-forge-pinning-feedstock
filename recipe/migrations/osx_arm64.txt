@@ -75,3 +75,4 @@ mamba
 lazy-object-proxy
 pyerfa
 libopus
+libv8
