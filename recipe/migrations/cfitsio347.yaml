@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+cfitsio:
+- '3.47'
+migrator_ts: 1607016754.0217195
