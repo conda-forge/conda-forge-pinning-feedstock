@@ -77,3 +77,4 @@ pyerfa
 libopus
 libv8
 root
+scikit-image
