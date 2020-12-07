@@ -78,3 +78,6 @@ libopus
 libv8
 root
 scikit-image
+fish
+gh
+htop
