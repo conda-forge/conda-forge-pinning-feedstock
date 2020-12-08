@@ -18,6 +18,10 @@ __migrator:
       - python
       - pypy3.6
       - pypy-meta
+
+    # this has gone for a while so issue everything
+    check_solvable: false
+
 python:
   - 3.9.* *_cpython
 # additional entries to add for zip_keys
