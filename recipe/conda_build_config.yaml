@@ -620,7 +620,7 @@ ruby:
   - 2.5
   - 2.6
 r_base:
-  - 3.6
+  - 3.6  # [not (osx and arm64)]
   - 4.0
 scotch:
   - 6.0.9
