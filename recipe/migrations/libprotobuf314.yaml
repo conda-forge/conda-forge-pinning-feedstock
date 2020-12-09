@@ -2,6 +2,6 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-arrow_cpp:
-- 1.0.1
-migrator_ts: 1598295570.3522754
+libprotobuf:
+- '3.14'
+migrator_ts: 1607035151.2279923
