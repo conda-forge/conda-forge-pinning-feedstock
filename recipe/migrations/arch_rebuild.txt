@@ -298,3 +298,4 @@ xtensor-blas
 pyerfa
 libopus
 heaptrack
+sundials
