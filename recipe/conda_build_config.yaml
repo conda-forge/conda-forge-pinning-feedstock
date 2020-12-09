@@ -287,8 +287,6 @@ pin_run_as_build:
     max_pin: x.x.x
   poppler:
     max_pin: x.x
-  pybind11:
-    max_pin: x.x.x
   qt:
     max_pin: x.x
   readline:
@@ -598,6 +596,8 @@ poppler:
   - '0.89'
 proj:
   - 7.1.1
+pybind11_abi:
+  - 4
 python:
   # part of a zip_keys: python, python_impl, numpy
   - 3.6.* *_cpython    # [not (osx and arm64)]
