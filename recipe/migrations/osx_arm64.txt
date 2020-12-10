@@ -83,3 +83,4 @@ gh
 htop
 boa
 pre-commit
+conda-smithy
