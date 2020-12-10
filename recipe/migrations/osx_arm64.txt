@@ -82,3 +82,4 @@ fish
 gh
 htop
 boa
+pre-commit
