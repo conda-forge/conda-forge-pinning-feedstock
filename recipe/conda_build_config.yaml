@@ -596,6 +596,8 @@ poppler:
   - '0.89'
 proj:
   - 7.1.1
+pybind11_abi:
+  - 4
 python:
   # part of a zip_keys: python, python_impl, numpy
   - 3.6.* *_cpython    # [not (osx and arm64)]
