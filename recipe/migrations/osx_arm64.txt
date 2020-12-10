@@ -81,3 +81,4 @@ scikit-image
 fish
 gh
 htop
+boa
