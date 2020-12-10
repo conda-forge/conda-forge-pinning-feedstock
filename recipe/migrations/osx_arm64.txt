@@ -84,3 +84,8 @@ htop
 boa
 pre-commit
 conda-smithy
+python-xxhash
+uritools
+pytest-cov
+simplejson
+asv
