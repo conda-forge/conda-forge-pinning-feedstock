@@ -89,3 +89,4 @@ uritools
 pytest-cov
 simplejson
 asv
+poetry
