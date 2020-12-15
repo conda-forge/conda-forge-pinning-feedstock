@@ -299,3 +299,4 @@ pyerfa
 libopus
 heaptrack
 sundials
+cantera
