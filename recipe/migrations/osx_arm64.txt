@@ -98,3 +98,4 @@ iminuit
 asyncpg
 psycopg2
 lzip
+awkward
