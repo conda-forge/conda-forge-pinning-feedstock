@@ -93,3 +93,5 @@ poetry
 kartothek
 mlflow
 file
+boost-histogram
+iminuit
