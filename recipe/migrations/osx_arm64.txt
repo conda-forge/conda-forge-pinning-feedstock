@@ -95,3 +95,5 @@ mlflow
 file
 boost-histogram
 iminuit
+asyncpg
+psycopg2
