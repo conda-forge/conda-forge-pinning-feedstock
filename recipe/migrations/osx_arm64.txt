@@ -99,3 +99,4 @@ asyncpg
 psycopg2
 lzip
 awkward
+tifffile
