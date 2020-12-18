@@ -10,6 +10,6 @@ __migrator:
 # see discussionas to why the name of the migration doesn't match the pin
 # https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/1026
 glib:
-  - 2
+  - 2.66
 libglib:
-  - 2
+  - 2.66
