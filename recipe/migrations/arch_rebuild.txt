@@ -300,3 +300,4 @@ libopus
 heaptrack
 sundials
 cantera
+sleef

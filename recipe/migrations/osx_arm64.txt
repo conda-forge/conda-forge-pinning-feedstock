@@ -101,3 +101,4 @@ lzip
 awkward
 tifffile
 pytorch-cpu
+sleef
