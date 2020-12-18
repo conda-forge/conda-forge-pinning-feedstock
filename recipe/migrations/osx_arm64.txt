@@ -100,3 +100,4 @@ psycopg2
 lzip
 awkward
 tifffile
+pytorch-cpu
