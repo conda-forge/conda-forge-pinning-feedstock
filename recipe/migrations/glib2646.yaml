@@ -7,9 +7,10 @@ __migrator:
   build_number:
     1
 
+# see discussionas to why the name of the migration doesn't match the pin
+# https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/1026
+# https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/1027
 glib:
-  - 2.64.6  # [not (osx and arm64)]
-  - 2.66    # [osx and arm64]
+  - 2.66
 libglib:
-  - 2.64.6  # [not (osx and arm64)]
-  - 2.66    # [osx and arm64]
+  - 2.66
