@@ -613,7 +613,7 @@ python_impl:
 qt:
   - 5.12
 qtkeychain:
-  - 0.12
+  - 0.11
 re2:
   - 2020.11.01
 readline:
