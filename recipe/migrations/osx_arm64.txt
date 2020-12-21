@@ -104,3 +104,4 @@ pytorch-cpu
 sleef
 cross-python
 black
+perl
