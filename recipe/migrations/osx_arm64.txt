@@ -103,3 +103,4 @@ tifffile
 pytorch-cpu
 sleef
 cross-python
+black
