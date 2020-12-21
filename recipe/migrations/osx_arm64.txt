@@ -102,3 +102,4 @@ awkward
 tifffile
 pytorch-cpu
 sleef
+cross-python
