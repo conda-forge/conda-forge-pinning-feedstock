@@ -105,3 +105,4 @@ sleef
 cross-python
 black
 perl
+cvxopt
