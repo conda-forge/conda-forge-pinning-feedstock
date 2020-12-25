@@ -82,6 +82,7 @@ opcua
 ipykernel
 pivy
 configurable-http-proxy
+libdeflate
 jupyterhub
 pypy2.7
 pypy3.6

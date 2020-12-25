@@ -107,3 +107,4 @@ black
 perl
 cvxopt
 grayskull
+libdeflate
