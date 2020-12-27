@@ -108,3 +108,6 @@ perl
 cvxopt
 grayskull
 libdeflate
+xeus-python
+xeus-robot
+xtensor-io
