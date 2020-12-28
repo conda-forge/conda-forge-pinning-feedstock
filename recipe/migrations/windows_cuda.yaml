@@ -8,6 +8,7 @@ __migrator:
     1
   override_cbc_keys:
     - cuda_compiler_stub
+  check_solvable: false
 
 cuda_compiler:                 # [linux64 or win]
   - nvcc                       # [linux64 or win]
