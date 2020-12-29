@@ -26,11 +26,11 @@ cxx_compiler_version:   # [linux]
 
 cudnn:
   - undefined
-  - 7.6                 # [linux64]
-  - 7.6                 # [linux64]
-  - 7.6                 # [linux64]
-  - 7.6                 # [linux64]
-  - 8.0                 # [linux64]
+  - 7                   # [linux64]
+  - 7                   # [linux64]
+  - 7                   # [linux64]
+  - 7                   # [linux64]
+  - 8                   # [linux64]
 
 docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   - quay.io/condaforge/linux-anvil-comp7        # [os.environ.get("BUILD_PLATFORM") == "linux-64"]

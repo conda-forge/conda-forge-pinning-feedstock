@@ -46,10 +46,10 @@ cuda_compiler_version:
   - 10.2                       # [linux64]
 cudnn:
   - undefined
-  - 7.6.5                      # [linux64]
-  - 7.6.5                      # [linux64]
-  - 7.6.5                      # [linux64]
-  - 7.6.5                      # [linux64]
+  - 7                          # [linux64]
+  - 7                          # [linux64]
+  - 7                          # [linux64]
+  - 7                          # [linux64]
 
 _libgcc_mutex:
   - 0.1 conda_forge
@@ -172,9 +172,6 @@ pin_run_as_build:
     max_pin: x
   cairo:
     max_pin: x.x
-  cudnn:
-    max_pin: x
-    min_pin: x.x
   curl:
     max_pin: x
   dbus:
