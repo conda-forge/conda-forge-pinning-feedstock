@@ -8,6 +8,15 @@ __migrator:
     1
   override_cbc_keys:
     - cuda_compiler_stub
+  ordering:
+    cxx_compiler_version:
+      - 9
+      - 8
+      - 7
+    c_compiler_version:
+      - 9
+      - 8
+      - 7
 
 cuda_compiler_version:
   - None
