@@ -252,7 +252,7 @@ pin_run_as_build:
     max_pin: x.x
   libuuid:
     max_pin: x
-  lz4-c:
+  lz4_c:
     max_pin: x.x.x
   lzo:
     max_pin: x
