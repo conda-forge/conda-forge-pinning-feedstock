@@ -7,5 +7,5 @@ __migrator:
   build_number:
     1
 
-lz4-c:
+lz4_c:
   - 1.9.3
