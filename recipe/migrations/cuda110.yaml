@@ -28,6 +28,11 @@ cuda_compiler_version:
 
 c_compiler_version:     # [linux]
   - 7                   # [linux64 or aarch64]
+  - 7                   # [linux64]
+  - 7                   # [linux64]
+  - 7                   # [linux64]
+  - 7                   # [linux64]
+  - 9                   # [linux64]
   - 8                   # [ppc64le]
 cxx_compiler_version:   # [linux]
   - 7                   # [linux64 or aarch64]
@@ -57,3 +62,4 @@ zip_keys:
   - - cudnn                      # [linux64]
     - cuda_compiler_version      # [linux64]
     - docker_image               # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+    - c_compiler_version         # [linux64]
