@@ -111,3 +111,4 @@ libdeflate
 xeus-python
 xeus-robot
 xtensor-io
+opencv
