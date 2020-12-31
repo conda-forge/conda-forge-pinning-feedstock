@@ -111,3 +111,8 @@ libdeflate
 xeus-python
 xeus-robot
 xtensor-io
+qt
+pyqt
+libdb
+bsddb3
+openmpi
