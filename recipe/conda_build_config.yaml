@@ -352,7 +352,7 @@ arrow_cpp:
 aws_c_common:
   - 0.4.59
 aws_c_event_stream:
-  - 0.1.6
+  - 0.2.5
 aws_checksums:
   - 0.1.10
 aws_sdk_cpp:
