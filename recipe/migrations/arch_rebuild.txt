@@ -299,6 +299,7 @@ xtensor-blas
 pyerfa
 libopus
 heaptrack
+vtk
 sundials
 cantera
 sleef

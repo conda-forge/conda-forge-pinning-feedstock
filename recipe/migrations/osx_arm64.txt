@@ -111,6 +111,7 @@ libdeflate
 xeus-python
 xeus-robot
 xtensor-io
+opencv
 qt
 pyqt
 libdb
