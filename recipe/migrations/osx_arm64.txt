@@ -117,3 +117,4 @@ pyqt
 libdb
 bsddb3
 openmpi
+cvxpy
