@@ -20,10 +20,10 @@ __migrator:
       - pypy3.6
       - pypy-meta
 
-python:
-  - 3.7.* *_73_pypy
+python:                # [not (win or arm64)]
+  - 3.7.* *_73_pypy    # [not (win or arm64)]
 # additional entries to add for zip_keys
-numpy:
-  - 1.16
-python_impl:
-  - pypy
+numpy:                 # [not (win or arm64)]
+  - 1.19               # [not (win or arm64)]
+python_impl:           # [not (win or arm64)]
+  - pypy               # [not (win or arm64)]
