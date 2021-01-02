@@ -118,3 +118,4 @@ libdb
 bsddb3
 openmpi
 cvxpy
+clingo
