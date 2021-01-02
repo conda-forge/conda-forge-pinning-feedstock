@@ -358,11 +358,9 @@ aws_checksums:
 aws_sdk_cpp:
   - 1.8.70
 boost:
-  - 1.72.0  # [not (osx and arm64)]
-  - 1.74.0  # [osx and arm64]
+  - 1.74.0
 boost_cpp:
-  - 1.72.0  # [not (osx and arm64)]
-  - 1.74.0  # [osx and arm64]
+  - 1.74.0
 bzip2:
   - 1
 cairo:
