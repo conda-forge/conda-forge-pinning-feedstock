@@ -120,3 +120,4 @@ openmpi
 cvxpy
 clingo
 openmm
+nodejs
