@@ -121,3 +121,4 @@ cvxpy
 clingo
 openmm
 nodejs
+xtensor-python
