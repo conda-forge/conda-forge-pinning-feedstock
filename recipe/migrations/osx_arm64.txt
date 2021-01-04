@@ -122,3 +122,4 @@ clingo
 openmm
 nodejs
 xtensor-python
+jupyter_server
