@@ -123,3 +123,14 @@ openmm
 nodejs
 xtensor-python
 jupyter_server
+ndarray
+numexpr
+starlink-ast
+wcslib
+pytables
+fastavro
+minuit2
+log4cxx
+xpa
+apr
+eups
