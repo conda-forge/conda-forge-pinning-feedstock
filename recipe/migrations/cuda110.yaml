@@ -41,17 +41,17 @@ cudnn:
   - 7                   # [linux64]
   - 8                   # [linux64]
 
-cdt_name:
-- cos6  # [os.environ.get("BUILD_PLATFORM") == "linux-64" or (os.environ.get("CONFIG_VERSION", "1") == "1" and linux64)]
-- cos7  # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" or (os.environ.get("CONFIG_VERSION", "1") == "1" and aarch64)]
-- cos7  # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" or (os.environ.get("CONFIG_VERSION", "1") == "1" and ppc64le)]
-- cos7  # [os.environ.get("BUILD_PLATFORM") == "linux-armv7l" or (os.environ.get("CONFIG_VERSION", "1") == "1" and armv7l)]
+cdt_name:  # [linux]
+  - cos6   # [linux64]
+  - cos7   # [linux and aarch64]
+  - cos7   # [linux and ppc64le]
+  - cos7   # [linux and armv7l]
 
-- cos6  # [linux64 and (os.environ.get("BUILD_PLATFORM") == "linux-64" or os.environ.get("CONFIG_VERSION", "1") == "1")]
-- cos6  # [linux64 and (os.environ.get("BUILD_PLATFORM") == "linux-64" or os.environ.get("CONFIG_VERSION", "1") == "1")]
-- cos6  # [linux64 and (os.environ.get("BUILD_PLATFORM") == "linux-64" or os.environ.get("CONFIG_VERSION", "1") == "1")]
-- cos6  # [linux64 and (os.environ.get("BUILD_PLATFORM") == "linux-64" or os.environ.get("CONFIG_VERSION", "1") == "1")]
-- cos7  # [linux64 and (os.environ.get("BUILD_PLATFORM") == "linux-64" or os.environ.get("CONFIG_VERSION", "1") == "1")]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos7   # [linux64]
 
 docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   - quay.io/condaforge/linux-anvil-comp7        # [os.environ.get("BUILD_PLATFORM") == "linux-64"]
