@@ -5,7 +5,7 @@ __migrator:
   migration_number:
     1
   build_number:
-    1
+    2
   override_cbc_keys:
     - cuda_compiler_stub
   ordering:
@@ -33,6 +33,14 @@ cxx_compiler_version:   # [linux]
   - 7                   # [linux64 or aarch64]
   - 8                   # [ppc64le]
 
+cdt_name:
+  - cos6
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos7   # [linux64]
+
 cudnn:
   - undefined
   - 7                   # [linux64]
@@ -57,3 +65,4 @@ zip_keys:
   - - cudnn                      # [linux64]
     - cuda_compiler_version      # [linux64]
     - docker_image               # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+    - cdt_name                   # [linux64]
