@@ -146,7 +146,7 @@ zip_keys:
   -                             # [linux64]
     - cudnn                     # [linux64]
     - cuda_compiler_version     # [linux64]
-    - cdt_name                  # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+    - cdt_name                  # [linux64]
     - docker_image              # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
 
 # aarch64 specifics because conda-build sets many things to centos 6

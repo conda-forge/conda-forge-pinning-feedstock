@@ -69,4 +69,4 @@ zip_keys:
   - - cudnn                      # [linux64]
     - cuda_compiler_version      # [linux64]
     - docker_image               # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
-    - cdt_name                   # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+    - cdt_name                   # [linux64]
