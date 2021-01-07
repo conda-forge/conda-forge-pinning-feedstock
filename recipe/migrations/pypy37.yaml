@@ -14,6 +14,7 @@ __migrator:
     paused: false
     longterm: True
     pr_limit: 50
+    build_number: 0
     exclude:
       # this shouldn't attempt to modify the python feedstocks
       - python
