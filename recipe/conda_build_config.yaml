@@ -118,10 +118,10 @@ cdt_name:  # [linux]
   - cos7   # [linux and ppc64le]
   - cos7   # [linux and armv7l]
 
-  # - cos6   # [linux64]
-  # - cos6   # [linux64]
-  # - cos6   # [linux64]
-  # - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
 
 docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   - quay.io/condaforge/linux-anvil-comp7        # [os.environ.get("BUILD_PLATFORM") == "linux-64"]
@@ -146,6 +146,7 @@ zip_keys:
   -                             # [linux64]
     - cudnn                     # [linux64]
     - cuda_compiler_version     # [linux64]
+    - cdt_name                  # [linux64]
     - docker_image              # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
 
 # aarch64 specifics because conda-build sets many things to centos 6

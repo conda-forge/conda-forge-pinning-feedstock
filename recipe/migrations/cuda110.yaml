@@ -41,6 +41,18 @@ cudnn:
   - 7                   # [linux64]
   - 8                   # [linux64]
 
+cdt_name:  # [linux]
+  - cos6   # [linux64]
+  - cos7   # [linux and aarch64]
+  - cos7   # [linux and ppc64le]
+  - cos7   # [linux and armv7l]
+
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos7   # [linux64]
+
 docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   - quay.io/condaforge/linux-anvil-comp7        # [os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-aarch64      # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64"]
@@ -57,3 +69,4 @@ zip_keys:
   - - cudnn                      # [linux64]
     - cuda_compiler_version      # [linux64]
     - docker_image               # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+    - cdt_name                   # [linux64]
