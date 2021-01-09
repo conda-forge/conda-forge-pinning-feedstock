@@ -458,7 +458,7 @@ kealib:
 krb5:
   - 1.17.1
 libarchive:
-  - 3.3
+  - 3.5
 libblitz:
   - 0.10
 libcurl:
