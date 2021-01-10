@@ -14,7 +14,7 @@ __migrator:
   # This determines the increment to the build number when the 
   # migration runs. 
   # Change this to zero if the new pin increases the number of builds
-  build_number:
+  bump_number:
     1
 
 # The name of the feedstock you wish to migrate with dashes replaced by
