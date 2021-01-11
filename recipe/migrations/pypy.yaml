@@ -12,7 +12,8 @@ __migrator:
   # do not use mamba to check if the issued PRs are solvable
   check_solvable: false
   longterm: True
-  paused: True
+  paused: False
+  pr_limit: 2
 
 python:
   - 3.6.* *_cpython   # [not (osx and arm64)]
