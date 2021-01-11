@@ -11,9 +11,9 @@ __migrator:
             - 3.9.* *_cpython
             - 3.6.* *_73_pypy
             - 3.7.* *_73_pypy  # new entry
-    paused: True
+    paused: False
     longterm: True
-    pr_limit: 10
+    pr_limit: 8
     bump_number: 0
     exclude:
       # this shouldn't attempt to modify the python feedstocks
