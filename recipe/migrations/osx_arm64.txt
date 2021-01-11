@@ -142,3 +142,7 @@ great-expectations
 rejected
 xgboost
 lightgbm
+python-rapidjson
+tar
+rever
+python-graphviz
