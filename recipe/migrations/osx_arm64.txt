@@ -138,3 +138,7 @@ openpmd-api
 jemalloc
 xsimd
 line_profiler
+great-expectations
+rejected
+xgboost
+lightgbm
