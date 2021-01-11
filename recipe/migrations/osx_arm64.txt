@@ -135,3 +135,6 @@ xpa
 apr
 eups
 openpmd-api
+jemalloc
+xsimd
+line_profiler
