@@ -146,3 +146,4 @@ python-rapidjson
 tar
 rever
 python-graphviz
+google-cloud-cpp
