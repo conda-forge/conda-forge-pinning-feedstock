@@ -147,3 +147,5 @@ tar
 rever
 python-graphviz
 google-cloud-cpp
+pyodbc
+turodbc
