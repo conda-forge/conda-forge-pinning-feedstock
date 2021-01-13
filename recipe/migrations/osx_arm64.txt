@@ -149,3 +149,4 @@ python-graphviz
 google-cloud-cpp
 pyodbc
 turodbc
+texlive-core
