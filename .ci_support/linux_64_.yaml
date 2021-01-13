@@ -6,3 +6,6 @@ channel_targets:
 - conda-forge main
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
+zip_keys:
+- - cdt_name
+  - docker_image
