@@ -306,3 +306,6 @@ sleef
 dm-tree
 grpcio
 open62541
+libignition-fuel-tools5
+libignition-physics3
+libignition-transport9
