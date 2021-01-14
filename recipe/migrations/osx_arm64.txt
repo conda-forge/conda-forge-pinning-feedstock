@@ -151,3 +151,4 @@ pyodbc
 turodbc
 texlive-core
 open62541
+gperf
