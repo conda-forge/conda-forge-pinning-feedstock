@@ -274,6 +274,8 @@ rich
 cctbx-base
 ompl
 cudatoolkit
+cudnn
+nvcc
 gh
 bat
 ncdu
