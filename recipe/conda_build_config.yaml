@@ -506,7 +506,7 @@ libtiff:
 libunwind:
   - 1
 libv8:
-  - 8.9.15
+  - 8.9.83
 libwebp:
   - 1.1
 libwebp_base:
