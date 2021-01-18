@@ -156,3 +156,4 @@ ansible
 r
 tmux
 websockets
+gtk3
