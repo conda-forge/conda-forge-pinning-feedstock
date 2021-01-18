@@ -157,3 +157,4 @@ r
 tmux
 websockets
 gtk3
+rdkit
