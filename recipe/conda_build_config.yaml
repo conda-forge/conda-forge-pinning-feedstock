@@ -470,7 +470,7 @@ libdap4:
 libevent:
   - 2.1.10
 libffi:
-  - 3.2
+  - '3.3'
 libgdal:
   - '3.1'
 libiconv:
