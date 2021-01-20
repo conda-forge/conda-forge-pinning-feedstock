@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-gstreamer:
-- '1.18'
-migrator_ts: 1605149853.4046257
