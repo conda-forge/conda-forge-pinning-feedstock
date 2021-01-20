@@ -528,7 +528,7 @@ mimalloc:
 mkl:
   - 2019
 mpich:
-  - 3.3
+  - 3
 mpfr:
   - 4
 mumps_mpi:
@@ -569,7 +569,7 @@ openexr:
 openjpeg:
   - 2.3
 openmpi:
-  - 4.0
+  - 4
 openssl:
   - 1.1.1
 openturns:
