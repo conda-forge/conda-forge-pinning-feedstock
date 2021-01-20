@@ -355,7 +355,7 @@ aws_c_event_stream:
 aws_checksums:
   - 0.1.10
 aws_sdk_cpp:
-  - 1.8.122
+  - 1.8.127
 boost:
   - 1.74.0
 boost_cpp:
