@@ -411,7 +411,7 @@ giflib:
 glew:
   - 2.1
 glib:
-  - '2.66'
+  - '2'
 glog:
   - 0.4.0
 glpk:
