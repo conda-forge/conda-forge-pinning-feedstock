@@ -502,7 +502,7 @@ libssh2:
 libsvm:
   - 3.21
 libtiff:
-  - 4.1.0
+  - 4
 libunwind:
   - 1
 libv8:
