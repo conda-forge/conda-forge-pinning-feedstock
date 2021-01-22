@@ -159,3 +159,4 @@ websockets
 gtk3
 rdkit
 zarr
+squashfs-tools
