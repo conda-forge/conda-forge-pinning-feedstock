@@ -311,3 +311,4 @@ open62541
 libignition-fuel-tools
 libignition-physics
 libignition-transport4
+viztracer
