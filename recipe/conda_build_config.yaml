@@ -480,7 +480,7 @@ libmicrohttpd:
 libnetcdf:
   - 4.7.4
 libpcap:
-  - '1.9'
+  - '1.10'
 libpng:
   - 1.6
 libprotobuf:
