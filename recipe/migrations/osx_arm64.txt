@@ -161,3 +161,4 @@ rdkit
 zarr
 squashfs-tools
 viztracer
+vcpkg
