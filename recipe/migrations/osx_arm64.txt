@@ -162,3 +162,4 @@ zarr
 squashfs-tools
 viztracer
 vcpkg
+r-reticulate
