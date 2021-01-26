@@ -275,6 +275,7 @@ cctbx-base
 ompl
 cudatoolkit
 cudnn
+cutensor
 nvcc
 gh
 bat
