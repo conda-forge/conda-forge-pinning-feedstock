@@ -364,6 +364,8 @@ cairo:
   - 1.16
 cfitsio:
   - 3.470
+cutensor:
+  - 1.2.2.5
 curl:
   - 7
 dbus:
