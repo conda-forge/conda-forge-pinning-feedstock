@@ -450,7 +450,7 @@ libjpeg_turbo:
 json_c:
   - 0.13
 jsoncpp:
-  - 1.8.4
+  - 1.9.4
 kealib:
   - 1.4
 krb5:
