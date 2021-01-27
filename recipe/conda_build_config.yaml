@@ -516,7 +516,7 @@ libuuid:
 log4cxx:
   - 0.11.0
 lz4_c:
-  - 1.9.2
+  - 1.9.3
 lzo:
   - 2
 metis:
