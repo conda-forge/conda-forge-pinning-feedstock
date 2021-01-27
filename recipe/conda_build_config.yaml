@@ -573,7 +573,7 @@ openssl:
 openturns:
   - '1.16'
 orc:
-  - 1.6.6
+  - 1.6.7
 pango:
   - 1.42
 pari:
