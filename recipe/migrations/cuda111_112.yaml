@@ -18,15 +18,17 @@ __migrator:
       - 8
       - 7
 
+cuda_compiler:                 # [linux64 or win]
+  - nvcc                       # [linux64 or win]
 cuda_compiler_version:
   - None
   - 9.2                        # [linux64]
-  - 10.0                       # [linux64]
-  - 10.1                       # [linux64]
-  - 10.2                       # [linux64]
-  - 11.0                       # [linux64]
-  - 11.1                       # [linux64]
-  - 11.2                       # [linux64]
+  - 10.0                       # [linux64 or win]
+  - 10.1                       # [linux64 or win]
+  - 10.2                       # [linux64 or win]
+  - 11.0                       # [linux64 or win]
+  - 11.1                       # [linux64 or win]
+  - 11.2                       # [linux64 or win]
 
 c_compiler_version:     # [linux]
   - 7                   # [linux64 or aarch64]
@@ -38,12 +40,12 @@ cxx_compiler_version:   # [linux]
 cudnn:
   - undefined
   - 7                   # [linux64]
-  - 7                   # [linux64]
-  - 7                   # [linux64]
-  - 7                   # [linux64]
-  - 8                   # [linux64]
-  - 8                   # [linux64]
-  - 8                   # [linux64]
+  - 7                   # [linux64 or win]
+  - 7                   # [linux64 or win]
+  - 7                   # [linux64 or win]
+  - 8                   # [linux64 or win]
+  - 8                   # [linux64 or win]
+  - 8                   # [linux64 or win]
 
 cdt_name:  # [linux]
   - cos6   # [linux64]
@@ -74,7 +76,7 @@ docker_image:                                   # [os.environ.get("BUILD_PLATFOR
   - quay.io/condaforge/linux-anvil-cuda:11.2    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
 
 zip_keys:
-  - - cudnn                      # [linux64]
-    - cuda_compiler_version      # [linux64]
+  - - cudnn                      # [linux64 or win]
+    - cuda_compiler_version      # [linux64 or win]
     - docker_image               # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
     - cdt_name                   # [linux64]
