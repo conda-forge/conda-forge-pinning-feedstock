@@ -395,9 +395,9 @@ gnuradio_core:
 gsl:
   - 2.6
 gstreamer:
-  - 1.14.4
+  - 1.18
 gst_plugins_base:
-  - 1.14.4
+  - 1.18
 gdal:
   - '3.1'
 geos:
