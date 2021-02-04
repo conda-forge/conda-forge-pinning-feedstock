@@ -165,3 +165,5 @@ vcpkg
 r-reticulate
 nb_conda_kernels
 spacy
+requests-kerberos
+nb_conda
