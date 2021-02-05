@@ -170,3 +170,4 @@ nb_conda
 sentencepiece
 gensim
 twine
+cmarkgfm
