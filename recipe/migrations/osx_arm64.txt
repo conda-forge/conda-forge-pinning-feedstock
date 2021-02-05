@@ -167,3 +167,5 @@ nb_conda_kernels
 spacy
 requests-kerberos
 nb_conda
+sentencepiece
+gensim
