@@ -5,9 +5,7 @@ gmp
 mpfr
 mpc
 isl
-pyarrow
 yaml-cpp
-cffi
 pycparser
 constructor
 lapack
@@ -25,13 +23,8 @@ automake
 m4
 patch
 git
-pytest
-scipy
-matplotlib
 emacs
-r-base
 reproc
-ipython
 healpy
 fitsio
 trio
@@ -54,12 +47,9 @@ rsync
 ruamel.yaml
 ccache
 doxygen
-scikit-learn
-dask
 statsmodels
 conda-forge-ci-setup
 grpcio
-h5py
 wrapt
 flatbuffers
 tensorflow-estimator
@@ -153,7 +143,6 @@ texlive-core
 open62541
 gperf
 ansible
-r
 tmux
 websockets
 gtk3
@@ -163,9 +152,9 @@ squashfs-tools
 viztracer
 vcpkg
 r-reticulate
-nb_conda_kernels
 spacy
 requests-kerberos
 nb_conda
 sentencepiece
 gensim
+pandoc
