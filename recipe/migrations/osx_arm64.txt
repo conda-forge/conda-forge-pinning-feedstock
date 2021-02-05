@@ -169,3 +169,4 @@ requests-kerberos
 nb_conda
 sentencepiece
 gensim
+twine
