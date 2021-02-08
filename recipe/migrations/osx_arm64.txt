@@ -173,3 +173,5 @@ twine
 cmarkgfm
 ibm_db
 libzip
+gdal
+libgdal
