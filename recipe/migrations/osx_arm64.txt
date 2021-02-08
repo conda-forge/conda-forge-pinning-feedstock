@@ -175,3 +175,4 @@ ibm_db
 libzip
 gdal
 libgdal
+snowflake-connector-python
