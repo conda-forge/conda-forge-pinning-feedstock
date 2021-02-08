@@ -172,4 +172,4 @@ gensim
 twine
 cmarkgfm
 ibm_db
-ziplib
+libzip
