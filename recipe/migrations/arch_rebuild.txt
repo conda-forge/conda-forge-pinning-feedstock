@@ -314,3 +314,4 @@ libignition-physics
 libignition-transport4
 viztracer
 mysql-connector-odbc
+openai
