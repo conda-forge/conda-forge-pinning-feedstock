@@ -177,3 +177,4 @@ gdal
 libgdal
 snowflake-connector-python
 openai
+mysql-connector-odbc
