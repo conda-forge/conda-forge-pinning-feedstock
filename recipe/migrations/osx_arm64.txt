@@ -178,3 +178,7 @@ libgdal
 snowflake-connector-python
 openai
 mysql-connector-odbc
+fastapi
+uvicorn
+qgrid
+ujson
