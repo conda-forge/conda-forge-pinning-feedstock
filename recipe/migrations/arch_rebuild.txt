@@ -315,3 +315,4 @@ libignition-transport4
 viztracer
 mysql-connector-odbc
 openai
+pynisher
