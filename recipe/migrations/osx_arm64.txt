@@ -183,3 +183,8 @@ uvicorn
 qgrid
 ujson
 pynisher
+help2man
+metaio
+ligo-segments
+igwn-cmake
+framel
