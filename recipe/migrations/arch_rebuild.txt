@@ -316,3 +316,7 @@ viztracer
 mysql-connector-odbc
 openai
 pynisher
+xorg-libxcomposite
+xorg-libxdamage
+xorg-libxinerama
+xorg-xineramaproto
