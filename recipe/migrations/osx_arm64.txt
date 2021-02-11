@@ -188,3 +188,4 @@ metaio
 ligo-segments
 igwn-cmake
 framel
+uvloop
