@@ -189,3 +189,6 @@ ligo-segments
 igwn-cmake
 framel
 uvloop
+dustmaps
+lsst-documenteer
+piff
