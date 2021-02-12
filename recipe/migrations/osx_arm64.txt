@@ -195,3 +195,4 @@ piff
 cftime
 netcdf4
 theano-pymc
+hdbscan
