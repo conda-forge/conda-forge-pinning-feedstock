@@ -192,3 +192,6 @@ uvloop
 dustmaps
 lsst-documenteer
 piff
+cftime
+netcdf4
+theano-pymc
