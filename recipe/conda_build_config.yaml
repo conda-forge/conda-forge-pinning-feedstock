@@ -347,7 +347,7 @@ arpack:
 arrow_cpp:
   - 2.0.0
 aws_c_common:
-  - 0.4.66
+  - 0.4.67
 aws_c_event_stream:
   - 0.2.6
 aws_checksums:
