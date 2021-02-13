@@ -196,3 +196,13 @@ cftime
 netcdf4
 theano-pymc
 hdbscan
+pyproj
+shapely
+freexl
+geotiff
+hdf4
+json-c
+libnetcdf
+xerces-c
+libspatialindex
+rtree
