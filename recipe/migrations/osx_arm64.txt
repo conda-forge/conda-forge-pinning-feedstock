@@ -207,3 +207,4 @@ xerces-c
 libspatialindex
 rtree
 pygeos
+stumpy
