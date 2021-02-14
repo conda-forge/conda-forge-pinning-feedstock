@@ -208,3 +208,4 @@ libspatialindex
 rtree
 pygeos
 stumpy
+gpy
