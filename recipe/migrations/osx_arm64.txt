@@ -209,3 +209,4 @@ rtree
 pygeos
 stumpy
 gpy
+astroid
