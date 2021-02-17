@@ -211,3 +211,11 @@ stumpy
 gpy
 astroid
 pylint
+console_bridge
+poco
+tinyxml2
+tinyxml
+rosdep
+rosdistro
+apr
+log4cxx
