@@ -210,3 +210,4 @@ pygeos
 stumpy
 gpy
 astroid
+pylint
