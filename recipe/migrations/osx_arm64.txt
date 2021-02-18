@@ -219,3 +219,5 @@ rosdep
 rosdistro
 apr
 log4cxx
+py-cpuinfo
+
