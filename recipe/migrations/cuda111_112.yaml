@@ -29,6 +29,11 @@ __migrator:
       - quay.io/condaforge/linux-anvil-cuda:11.0    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
       - quay.io/condaforge/linux-anvil-cuda:11.1    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
       - quay.io/condaforge/linux-anvil-cuda:11.2    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+
+      - quay.io/condaforge/linux-anvil-cos7-cuda:9.2     # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+      - quay.io/condaforge/linux-anvil-cos7-cuda:10.0    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+      - quay.io/condaforge/linux-anvil-cos7-cuda:10.1    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+      - quay.io/condaforge/linux-anvil-cos7-cuda:10.2    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
     cuda_compiler_version:
       - None
       - 9.2
@@ -39,10 +44,18 @@ __migrator:
       - 11.1
       - 11.2
 
+      - 9.2
+      - 10.0
+      - 10.1
+      - 10.2
+
 cuda_compiler:                 # [linux64 or win]
   - nvcc                       # [linux64 or win]
 cuda_compiler_version:
   - None
+  - 9.2                        # [linux64]
+  - 10.0                       # [linux64 or win]
+  - 10.1                       # [linux64 or win]
   - 10.2                       # [linux64 or win]
   - 11.0                       # [linux64 or win]
   - 11.1                       # [linux64 or win]
@@ -57,6 +70,9 @@ cxx_compiler_version:   # [linux]
 
 cudnn:
   - undefined
+  - 7                   # [linux64]
+  - 7                   # [linux64 or win]
+  - 7                   # [linux64 or win]
   - 7                   # [linux64 or win]
   - 8                   # [linux64 or win]
   - 8                   # [linux64 or win]
@@ -69,6 +85,9 @@ cdt_name:  # [linux]
   - cos7   # [linux and armv7l]
 
   - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
   - cos7   # [linux64]
   - cos7   # [linux64]
   - cos7   # [linux64]
@@ -79,6 +98,9 @@ docker_image:                                   # [os.environ.get("BUILD_PLATFOR
   - quay.io/condaforge/linux-anvil-ppc64le      # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le"]
   - quay.io/condaforge/linux-anvil-armv7l       # [os.environ.get("BUILD_PLATFORM") == "linux-armv7l"]
 
+  - quay.io/condaforge/linux-anvil-cuda:9.2     # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+  - quay.io/condaforge/linux-anvil-cuda:10.0    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+  - quay.io/condaforge/linux-anvil-cuda:10.1    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-cuda:10.2    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-cuda:11.0    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-cuda:11.1    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
