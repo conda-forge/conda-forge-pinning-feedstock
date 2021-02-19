@@ -321,3 +321,4 @@ xorg-libxdamage
 xorg-libxinerama
 xorg-xineramaproto
 jaeger
+anyio
