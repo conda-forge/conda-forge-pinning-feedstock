@@ -322,3 +322,5 @@ xorg-libxinerama
 xorg-xineramaproto
 jaeger
 anyio
+pre-commit
+lightgbm
