@@ -615,6 +615,9 @@ root_base:
 ruby:
   - 2.5
   - 2.6
+# Pin rust to <1.49 on osx-64 due to min deployment target req, cf. https://github.com/conda-forge/rust-feedstock/issues/73
+rust:     # [osx and x86_64]
+  - 1.48  # [osx and x86_64]
 r_base:
   - 3.6  # [not (osx and arm64)]
   - 4.0
