@@ -220,4 +220,5 @@ rosdistro
 apr
 log4cxx
 py-cpuinfo
-
+suitesparse
+arpack
