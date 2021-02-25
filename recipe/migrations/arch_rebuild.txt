@@ -324,3 +324,5 @@ jaeger
 anyio
 pre-commit
 lightgbm
+suitesparse
+arpack
