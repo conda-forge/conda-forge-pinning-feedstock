@@ -628,6 +628,8 @@ scotch:
   - 6.0.9
 ptscotch:
   - 6.0.9
+s2n:
+  - 1.0.0
 singular:
   - 4.1.2
 snappy:
