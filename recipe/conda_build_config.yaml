@@ -641,6 +641,8 @@ sqlite:
 suitesparse:
   - 5.6                # [not win]
   - 5.4                # [win]
+tbb:
+  - 2020
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
