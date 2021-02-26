@@ -645,7 +645,7 @@ suitesparse:
   - 5.4                # [win]
 tbb:
   - 2020
-tbb-devel:
+tbb_devel:
   - 2020
 tk:
   - 8.6                # [not ppc64le]
