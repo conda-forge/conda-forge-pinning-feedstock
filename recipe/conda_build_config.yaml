@@ -560,7 +560,7 @@ openblas:
 openexr:
   - 2.5
 openjpeg:
-  - 2.3
+  - '2.4'
 openmpi:
   - 4
 openssl:
