@@ -1,0 +1,11 @@
+migrator_ts: 1614338156
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  bump_number:
+    1
+
+zeromq:
+  - 4.3.4
