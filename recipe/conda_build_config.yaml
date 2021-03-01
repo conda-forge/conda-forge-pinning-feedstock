@@ -585,6 +585,10 @@ slepc:
   - '3.13'
 slepc4py:
   - '3.13'
+pcre:
+  - '8'
+pcre2:
+  - '10.36'
 pixman:
   - 0
 poco:
