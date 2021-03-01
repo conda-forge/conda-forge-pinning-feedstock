@@ -33,7 +33,6 @@ r-base
 reproc
 ipython
 healpy
-aioeasywebdav
 fitsio
 trio
 notebook
@@ -223,3 +222,4 @@ log4cxx
 py-cpuinfo
 suitesparse
 arpack
+aioeasywebdav
