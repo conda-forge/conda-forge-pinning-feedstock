@@ -224,3 +224,4 @@ suitesparse
 arpack
 aioeasywebdav
 xdrfile
+gawk
