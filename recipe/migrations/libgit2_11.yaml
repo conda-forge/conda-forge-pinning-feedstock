@@ -1,0 +1,12 @@
+migrator_ts: 1614596885
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  bump_number:
+    1
+
+libgit2:
+  - '1.1'
+
