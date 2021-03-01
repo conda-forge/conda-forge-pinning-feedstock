@@ -466,6 +466,8 @@ libffi:
   - '3.3'
 libgdal:
   - '3.1'
+libgit2:
+  - '1.1'
 libiconv:
   - 1.16
 libkml:
