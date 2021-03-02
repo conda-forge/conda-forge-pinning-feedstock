@@ -4,4 +4,6 @@ __migrator:
   migration_number: 1
 gdal:
 - '3.2'
+libgdal:
+- '3.2'
 migrator_ts: 1604390922.414637
