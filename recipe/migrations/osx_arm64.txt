@@ -226,3 +226,4 @@ aioeasywebdav
 xdrfile
 gawk
 jbig
+xorg-libx11
