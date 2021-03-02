@@ -227,3 +227,4 @@ xdrfile
 gawk
 jbig
 pygraphviz
+kwant
