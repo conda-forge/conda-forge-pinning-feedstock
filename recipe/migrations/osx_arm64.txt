@@ -228,3 +228,4 @@ gawk
 jbig
 pygraphviz
 kwant
+plumed
