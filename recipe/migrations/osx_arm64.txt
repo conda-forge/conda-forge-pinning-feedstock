@@ -231,3 +231,5 @@ kwant
 plumed
 xorg-libice
 supervisor
+jupyter_contrib_nbextensions
+qgrid

@@ -327,3 +327,5 @@ lightgbm
 suitesparse
 arpack
 supervisor
+jupyter_contrib_nbextensions
+qgrid
