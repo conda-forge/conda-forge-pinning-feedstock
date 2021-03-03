@@ -229,3 +229,4 @@ jbig
 pygraphviz
 kwant
 plumed
+xorg-libice
