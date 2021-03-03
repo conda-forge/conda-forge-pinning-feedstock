@@ -230,3 +230,4 @@ pygraphviz
 kwant
 plumed
 xorg-libice
+supervisor
