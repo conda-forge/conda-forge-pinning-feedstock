@@ -326,3 +326,4 @@ pre-commit
 lightgbm
 suitesparse
 arpack
+supervisor
