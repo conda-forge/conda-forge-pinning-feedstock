@@ -1,0 +1,10 @@
+migrator_ts: 1614244658
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+nodejs:
+  - 15
+  - 14
+  - 12
