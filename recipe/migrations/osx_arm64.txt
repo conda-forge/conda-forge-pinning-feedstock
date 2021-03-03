@@ -234,3 +234,5 @@ supervisor
 jupyter_contrib_nbextensions
 qgrid
 py-plumed
+xorg-renderproto
+xorg-libxext
