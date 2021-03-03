@@ -233,3 +233,4 @@ xorg-libice
 supervisor
 jupyter_contrib_nbextensions
 qgrid
+py-plumed
