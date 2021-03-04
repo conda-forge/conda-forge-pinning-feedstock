@@ -236,3 +236,5 @@ qgrid
 py-plumed
 xorg-renderproto
 xorg-libxext
+xorg-libsm
+xorg-libxrender
