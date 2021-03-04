@@ -5,5 +5,5 @@ __migrator:
 migrator_ts: 1614854594
 tbb:
 - '2021'
-tbb-devel:
+tbb_devel:
 - '2021'
