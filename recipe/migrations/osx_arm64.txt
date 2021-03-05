@@ -238,3 +238,4 @@ xorg-renderproto
 xorg-libxext
 xorg-libsm
 xorg-libxrender
+xorg-libxt
