@@ -656,7 +656,7 @@ tbb_devel:
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
-  - '2.1'
+  - '2.2'
 uhd:
   - 3.15.0
 vc:                    # [win]
