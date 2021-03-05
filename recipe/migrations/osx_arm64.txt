@@ -239,3 +239,7 @@ xorg-libxext
 xorg-libsm
 xorg-libxrender
 xorg-libxt
+gsd
+freud
+fresnel
+hoomd
