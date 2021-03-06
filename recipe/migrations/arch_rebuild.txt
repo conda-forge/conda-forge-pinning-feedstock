@@ -314,6 +314,7 @@ libignition-physics
 libignition-transport4
 viztracer
 mysql-connector-odbc
+msgspec
 openai
 pynisher
 xorg-libxcomposite
