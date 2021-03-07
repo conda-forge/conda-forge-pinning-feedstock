@@ -244,3 +244,4 @@ freud
 fresnel
 hoomd
 re2c
+kwant
