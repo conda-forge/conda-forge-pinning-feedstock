@@ -531,7 +531,7 @@ mumps_mpi:
 mumps_seq:
   - 5.2
 nccl:
-  - 2.7.8.1
+  - 2
 ncurses:
   - 6.2
 netcdf_cxx4:
