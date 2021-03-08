@@ -246,3 +246,7 @@ hoomd
 re2c
 kwant
 lfortran
+scalapack
+parmetis
+scotch
+mumps
