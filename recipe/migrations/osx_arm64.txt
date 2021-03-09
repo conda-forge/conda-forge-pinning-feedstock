@@ -257,3 +257,4 @@ buildbot
 tokenizers
 pyrfr
 dtw-python
+fairseq
