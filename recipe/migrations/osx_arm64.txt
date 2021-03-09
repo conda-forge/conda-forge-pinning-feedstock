@@ -254,3 +254,4 @@ mumps
 netcdf4
 gsw
 buildbot
+tokenizers
