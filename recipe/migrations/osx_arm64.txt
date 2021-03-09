@@ -258,3 +258,4 @@ tokenizers
 pyrfr
 dtw-python
 torchvision
+fairseq
