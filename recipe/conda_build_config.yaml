@@ -232,8 +232,6 @@ pin_run_as_build:
     max_pin: x.x
   libpng:
     max_pin: x.x
-  librdkafka:
-    max_pin: x.x.x
   librsvg:
     max_pin: x
   libsvm:
