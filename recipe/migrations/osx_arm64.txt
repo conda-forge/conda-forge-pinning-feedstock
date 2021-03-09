@@ -257,4 +257,5 @@ buildbot
 tokenizers
 pyrfr
 dtw-python
+torchvision
 fairseq
