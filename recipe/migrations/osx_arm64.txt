@@ -259,3 +259,4 @@ pyrfr
 dtw-python
 torchvision
 fairseq
+psychopy
