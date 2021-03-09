@@ -250,3 +250,4 @@ scalapack
 parmetis
 scotch
 mumps
+buildbot
