@@ -250,4 +250,6 @@ scalapack
 parmetis
 scotch
 mumps
+netcdf4
+gsw
 buildbot
