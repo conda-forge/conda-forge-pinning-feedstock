@@ -255,3 +255,4 @@ netcdf4
 gsw
 buildbot
 tokenizers
+pyrfr
