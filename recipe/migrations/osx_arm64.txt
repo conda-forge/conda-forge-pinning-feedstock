@@ -260,3 +260,4 @@ dtw-python
 torchvision
 fairseq
 psychopy
+audioread
