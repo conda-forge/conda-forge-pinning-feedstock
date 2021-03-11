@@ -264,3 +264,4 @@ audioread
 imagemagick
 pymc3
 onnx
+fastparquet
