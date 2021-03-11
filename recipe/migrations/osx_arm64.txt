@@ -269,3 +269,4 @@ rise
 multiprocess
 libjpeg-turbo
 austin
+python-symengine
