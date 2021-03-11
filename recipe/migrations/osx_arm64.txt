@@ -262,3 +262,4 @@ fairseq
 psychopy
 audioread
 imagemagick
+pymc3
