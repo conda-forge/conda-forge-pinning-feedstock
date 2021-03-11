@@ -265,3 +265,4 @@ imagemagick
 pymc3
 onnx
 fastparquet
+rise
