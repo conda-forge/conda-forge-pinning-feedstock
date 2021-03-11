@@ -268,3 +268,4 @@ fastparquet
 rise
 multiprocess
 libjpeg-turbo
+austin
