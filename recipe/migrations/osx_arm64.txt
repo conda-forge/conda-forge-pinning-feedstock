@@ -266,3 +266,4 @@ pymc3
 onnx
 fastparquet
 rise
+multiprocess
