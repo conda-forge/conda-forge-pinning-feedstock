@@ -267,3 +267,4 @@ onnx
 fastparquet
 rise
 multiprocess
+libjpeg-turbo
