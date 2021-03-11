@@ -263,3 +263,4 @@ psychopy
 audioread
 imagemagick
 pymc3
+onnx
