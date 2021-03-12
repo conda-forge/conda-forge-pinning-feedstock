@@ -195,7 +195,6 @@ lsst-documenteer
 piff
 cftime
 netcdf4
-theano-pymc
 hdbscan
 pyproj
 shapely
@@ -270,3 +269,4 @@ multiprocess
 libjpeg-turbo
 austin
 python-symengine
+aesara
