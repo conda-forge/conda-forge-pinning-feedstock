@@ -270,3 +270,5 @@ multiprocess
 libjpeg-turbo
 austin
 python-symengine
+jax
+jaxlib
