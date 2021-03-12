@@ -334,3 +334,4 @@ buildbot
 pyrfr
 onnx
 austin
+libxkbfile
