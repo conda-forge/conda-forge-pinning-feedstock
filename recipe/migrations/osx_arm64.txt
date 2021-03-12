@@ -270,3 +270,4 @@ libjpeg-turbo
 austin
 python-symengine
 aesara
+yarn
