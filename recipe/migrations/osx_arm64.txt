@@ -271,3 +271,4 @@ austin
 python-symengine
 aesara
 yarn
+pytest-asyncio
