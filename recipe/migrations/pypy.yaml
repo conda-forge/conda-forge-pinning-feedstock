@@ -22,9 +22,9 @@ python:
   - 3.6.* *_73_pypy   # [not (win64 or (osx and arm64))]
 
 numpy:
-  - 1.16       # [not (osx and arm64)]
-  - 1.16       # [not (osx and arm64)]
-  - 1.16
+  - 1.17       # [not (osx and arm64)]
+  - 1.17       # [not (osx and arm64)]
+  - 1.17
   - 1.18       # [not (win64 or (osx and arm64))]
 
 python_impl:
