@@ -275,3 +275,5 @@ pytest-asyncio
 colorlog
 nasm
 bazel
+extinction
+sncosmo
