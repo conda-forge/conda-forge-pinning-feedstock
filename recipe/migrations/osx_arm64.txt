@@ -273,3 +273,5 @@ aesara
 yarn
 pytest-asyncio
 colorlog
+nasm
+bazel

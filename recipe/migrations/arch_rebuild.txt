@@ -356,3 +356,5 @@ jaydebeapi
 optuna
 r-jsonvalidate
 r-kableextra
+nasm
+bazel
