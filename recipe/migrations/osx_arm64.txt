@@ -275,3 +275,4 @@ pytest-asyncio
 colorlog
 nasm
 bazel
+jax
