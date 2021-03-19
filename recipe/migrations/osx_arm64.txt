@@ -277,3 +277,4 @@ nasm
 bazel
 extinction
 sncosmo
+pandana
