@@ -10,6 +10,7 @@ __migrator:
     - cuda_compiler_stub
   operation: key_add
   check_solvable: false
+  primary_key: cuda_compiler_version
 
 cuda_compiler_version:         # [linux64 or win]
   - 11.1                       # [linux64 or win]
