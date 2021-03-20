@@ -1,0 +1,13 @@
+migrator_ts: 1616270765
+
+__migrator:
+  kind:
+    version
+  migration_number: 1
+  build_number: 1
+  longterm: True
+  override_cbc_keys:
+    - fortran_compiler_stub
+
+fortran_compiler_version:      # [win64]
+  - 11.0.1                     # [win64]
