@@ -470,6 +470,8 @@ libiconv:
   - 1.16
 libkml:
   - 1.3
+libiio:
+  - 0.21
 libmatio:
   - 1.5
 libmicrohttpd:
