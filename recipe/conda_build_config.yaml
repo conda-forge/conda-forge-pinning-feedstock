@@ -649,8 +649,7 @@ sox:
 sqlite:
   - 3
 suitesparse:
-  - 5.6                # [not win]
-  - 5.4                # [win]
+  - 5
 tbb:
   - 2020
 tbb_devel:
