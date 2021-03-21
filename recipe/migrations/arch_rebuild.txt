@@ -358,3 +358,4 @@ r-jsonvalidate
 r-kableextra
 nasm
 bazel
+onednn
