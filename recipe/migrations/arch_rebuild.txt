@@ -359,3 +359,6 @@ r-kableextra
 nasm
 bazel
 onednn
+lbaplocal
+heaptrack
+dirac-grid
