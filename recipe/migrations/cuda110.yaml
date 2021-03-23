@@ -6,6 +6,7 @@ __migrator:
     1
   build_number:
     1
+  use_local: True
   override_cbc_keys:
     - cuda_compiler_stub
   ordering:
@@ -61,8 +62,7 @@ cdt_name:  # [linux]
 
   - cos6   # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
   - cos7   # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
-  - cos6   # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
-  - cos7   # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
+  - cos7   # [linux64]
 
 docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   - quay.io/condaforge/linux-anvil-comp7        # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
