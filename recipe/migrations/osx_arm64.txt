@@ -281,3 +281,4 @@ pandana
 onednn
 ijar
 grpc_java_plugin
+cantera
