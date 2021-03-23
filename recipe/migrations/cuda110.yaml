@@ -6,7 +6,6 @@ __migrator:
     1
   build_number:
     1
-  use_local: True
   override_cbc_keys:
     - cuda_compiler_stub
   ordering:
