@@ -9,19 +9,8 @@ __migrator:
   override_cbc_keys:
     - cuda_compiler_stub
   operation: key_add
-  use_local: true
   check_solvable: false
   primary_key: cuda_compiler_version
-  ordering:
-    cuda_compiler_version:
-      - None
-      - 9.2
-      - 10.0
-      - 10.1
-      - 10.2
-      - 11.0
-      - 11.1
-      - 11.2
 
 cuda_compiler_version:         # [linux64 or win]
   - 11.1                       # [linux64 or win]
@@ -38,9 +27,3 @@ cdt_name:  # [linux]
 docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   - quay.io/condaforge/linux-anvil-cuda:11.1    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-cuda:11.2    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
-
-zip_keys:
-  - - cudnn                      # [linux64 or win]
-    - cuda_compiler_version      # [linux64 or win]
-    - docker_image               # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
-    - cdt_name                   # [linux64]
