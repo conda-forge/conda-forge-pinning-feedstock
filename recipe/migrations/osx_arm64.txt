@@ -286,3 +286,5 @@ albumentations
 faiss-split
 zip
 nsync
+gpgme
+lz4
