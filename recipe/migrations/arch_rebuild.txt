@@ -362,3 +362,5 @@ onednn
 lbaplocal
 heaptrack
 dirac-grid
+zip
+nsync

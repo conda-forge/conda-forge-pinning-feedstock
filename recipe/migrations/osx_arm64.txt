@@ -284,3 +284,5 @@ grpc_java_plugin
 cantera
 albumentations
 faiss-split
+zip
+nsync
