@@ -228,8 +228,6 @@ pin_run_as_build:
     max_pin: x.x
   libkml:
     max_pin: x.x
-  libmatio:
-    max_pin: x.x
   libpng:
     max_pin: x.x
   librsvg:
