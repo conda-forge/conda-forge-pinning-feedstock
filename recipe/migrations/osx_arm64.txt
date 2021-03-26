@@ -289,3 +289,5 @@ nsync
 gpgme
 lz4
 mlir
+r-v8
+gn
