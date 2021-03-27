@@ -556,7 +556,7 @@ numpy:
   - 1.17   # [not (osx and arm64)]
   - 1.19   # [osx and arm64]
 occt:
-  - 7.4
+  - 7.5
 openblas:
   - 0.3.*
 openexr:
