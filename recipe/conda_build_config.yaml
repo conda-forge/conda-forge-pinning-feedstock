@@ -172,8 +172,6 @@ pin_run_as_build:
     max_pin: x
   dbus:
     max_pin: x
-  expat:
-    max_pin: x.x
   fftw:
     max_pin: x
   flann:
@@ -364,7 +362,7 @@ dbus:
 exiv2:
   - 0.27
 expat:
-  - 2.2
+  - 2
 ffmpeg:
   - '4.3'
 fftw:
