@@ -365,3 +365,4 @@ dirac-grid
 zip
 nsync
 chrpath
+gmsh
