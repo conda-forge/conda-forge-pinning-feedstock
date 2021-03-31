@@ -481,7 +481,7 @@ libpng:
 libprotobuf:
   - '3.15'
 librdkafka:
-  - '1.4'
+  - '1.6'
 librsvg:
   - 2
 libsecret:
