@@ -366,3 +366,4 @@ zip
 nsync
 chrpath
 gmsh
+pyzstd
