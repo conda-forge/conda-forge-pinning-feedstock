@@ -294,3 +294,4 @@ gn
 apache-beam
 pyzstd
 dulwich
+libignition-launch
