@@ -612,7 +612,7 @@ qt:
 qtkeychain:
   - '0.12'
 re2:
-  - 2020.11.01
+  - 2021.04.01
 readline:
   - 8.0
 rocksdb:
