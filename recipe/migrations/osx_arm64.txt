@@ -296,3 +296,6 @@ apache-beam
 pyzstd
 dulwich
 libignition-launch
+cunit
+cppcheck
+maven
