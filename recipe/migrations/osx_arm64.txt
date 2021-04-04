@@ -239,6 +239,7 @@ xorg-libxext
 xorg-libsm
 xorg-libxrender
 xorg-libxt
+xorg-libxcomposite
 gsd
 freud
 fresnel
