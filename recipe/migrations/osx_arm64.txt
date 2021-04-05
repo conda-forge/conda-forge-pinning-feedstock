@@ -301,3 +301,4 @@ cppcheck
 maven
 uncrustify
 cppunit
+asio
