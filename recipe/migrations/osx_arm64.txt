@@ -299,3 +299,4 @@ libignition-launch
 cunit
 cppcheck
 maven
+uncrustify
