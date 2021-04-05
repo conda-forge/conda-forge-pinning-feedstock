@@ -300,3 +300,4 @@ cunit
 cppcheck
 maven
 uncrustify
+cppunit
