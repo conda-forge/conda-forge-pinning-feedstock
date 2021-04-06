@@ -304,3 +304,7 @@ cppunit
 asio
 traits
 hyperspy
+snappy
+python-snappy
+blosc
+python-blosc
