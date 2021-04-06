@@ -302,3 +302,5 @@ maven
 uncrustify
 cppunit
 asio
+traits
+hyperspy
