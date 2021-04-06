@@ -302,3 +302,4 @@ maven
 uncrustify
 cppunit
 asio
+ecflow
