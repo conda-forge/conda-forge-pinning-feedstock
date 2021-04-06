@@ -302,6 +302,7 @@ maven
 uncrustify
 cppunit
 asio
+ecflow
 traits
 hyperspy
 snappy
