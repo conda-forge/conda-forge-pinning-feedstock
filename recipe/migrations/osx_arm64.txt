@@ -303,3 +303,9 @@ uncrustify
 cppunit
 asio
 ecflow
+traits
+hyperspy
+snappy
+python-snappy
+blosc
+python-blosc
