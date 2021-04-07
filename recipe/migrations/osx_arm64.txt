@@ -309,3 +309,5 @@ snappy
 python-snappy
 blosc
 python-blosc
+orocos-kdl
+ogre
