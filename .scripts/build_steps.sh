@@ -10,9 +10,10 @@ export FEEDSTOCK_ROOT="${FEEDSTOCK_ROOT:-/home/conda/feedstock_root}"
 source ${FEEDSTOCK_ROOT}/.scripts/logging_utils.sh
 
 
-endgroup "Start Docker"
+( endgroup "Start Docker" ) 2> /dev/null
 
-startgroup "Configuring conda"
+( startgroup "Configuring conda" ) 2> /dev/null
+
 export PYTHONUNBUFFERED=1
 export RECIPE_ROOT="${RECIPE_ROOT:-/home/conda/recipe_root}"
 export CI_SUPPORT="${FEEDSTOCK_ROOT}/.ci_support"
@@ -36,34 +37,38 @@ source run_conda_forge_build_setup
 # make the build number clobber
 make_build_number "${FEEDSTOCK_ROOT}" "${RECIPE_ROOT}" "${CONFIG_FILE}"
 
-endgroup "Configuring conda"
+
+( endgroup "Configuring conda" ) 2> /dev/null
 
 if [[ "${BUILD_WITH_CONDA_DEBUG:-0}" == 1 ]]; then
-    startgroup "Running conda debug"
     if [[ "x${BUILD_OUTPUT_ID:-}" != "x" ]]; then
         EXTRA_CB_OPTIONS="${EXTRA_CB_OPTIONS:-} --output-id ${BUILD_OUTPUT_ID}"
     fi
     conda debug "${RECIPE_ROOT}" -m "${CI_SUPPORT}/${CONFIG}.yaml" \
         ${EXTRA_CB_OPTIONS:-} \
         --clobber-file "${CI_SUPPORT}/clobber_${CONFIG}.yaml"
-    endgroup "Running conda debug"
+
     # Drop into an interactive shell
     /bin/bash
 else
-    startgroup "Running conda $BUILD_CMD"
     conda $BUILD_CMD "${RECIPE_ROOT}" -m "${CI_SUPPORT}/${CONFIG}.yaml" \
         --suppress-variables ${EXTRA_CB_OPTIONS:-} \
         --clobber-file "${CI_SUPPORT}/clobber_${CONFIG}.yaml"
-    endgroup "Running conda build"
-    startgroup "Validating outputs"
+    ( startgroup "Validating outputs" ) 2> /dev/null
+
     validate_recipe_outputs "${FEEDSTOCK_NAME}"
-    endgroup "Validating outputs"
+
+    ( endgroup "Validating outputs" ) 2> /dev/null
+
+    ( startgroup "Uploading packages" ) 2> /dev/null
 
     if [[ "${UPLOAD_PACKAGES}" != "False" ]]; then
-        startgroup "Uploading packages"
         upload_package --validate --feedstock-name="${FEEDSTOCK_NAME}"  "${FEEDSTOCK_ROOT}" "${RECIPE_ROOT}" "${CONFIG_FILE}"
-        endgroup "Uploading packages"
     fi
+
+    ( endgroup "Uploading packages" ) 2> /dev/null
 fi
+
+( startgroup "Final checks" ) 2> /dev/null
 
 touch "${FEEDSTOCK_ROOT}/build_artifacts/conda-forge-build-done-${CONFIG}"
