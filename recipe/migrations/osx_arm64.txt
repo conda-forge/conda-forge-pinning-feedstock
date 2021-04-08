@@ -311,3 +311,4 @@ blosc
 python-blosc
 orocos-kdl
 ogre
+pygit2
