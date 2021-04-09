@@ -312,3 +312,4 @@ python-blosc
 orocos-kdl
 ogre
 pygit2
+tesseract
