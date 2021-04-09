@@ -33,6 +33,7 @@ r-base
 reproc
 ipython
 healpy
+tesseract
 fitsio
 trio
 notebook
