@@ -501,9 +501,9 @@ libunwind:
 libv8:
   - 8.9.83
 libwebp:
-  - 1.1
+  - 1.2
 libwebp_base:
-  - 1.1
+  - 1.2
 libxml2:
   - 2.9
 libuuid:
