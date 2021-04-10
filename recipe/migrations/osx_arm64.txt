@@ -314,3 +314,4 @@ ogre
 pygit2
 tesseract
 coremltools
+cspice
