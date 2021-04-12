@@ -380,7 +380,7 @@ gf2x:
 gdk_pixbuf:
   - 2
 gnuradio_core:
-  - 3.8.2
+  - 3.8.3
 gsl:
   - 2.6
 gstreamer:
