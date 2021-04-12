@@ -417,7 +417,7 @@ graphviz:
   - 2.40  # [linux or (osx and x86_64)]
   - 2.46  # [win or (osx and arm64)]
 grpc_cpp:
-  - '1.36'
+  - '1.37'
 harfbuzz:
   - 2
 hdf4:
