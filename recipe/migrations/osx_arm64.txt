@@ -316,3 +316,4 @@ tesseract
 coremltools
 cspice
 gmsh
+r-lightgbm
