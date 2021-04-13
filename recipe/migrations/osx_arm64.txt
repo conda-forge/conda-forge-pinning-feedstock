@@ -317,4 +317,4 @@ coremltools
 cspice
 gmsh
 r-lightgbm
-scopeo
+skopeo
