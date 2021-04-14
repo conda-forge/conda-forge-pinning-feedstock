@@ -318,3 +318,4 @@ cspice
 gmsh
 r-lightgbm
 skopeo
+py-spy
