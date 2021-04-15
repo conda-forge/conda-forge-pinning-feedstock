@@ -319,3 +319,4 @@ gmsh
 r-lightgbm
 skopeo
 py-spy
+photospline
