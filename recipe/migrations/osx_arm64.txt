@@ -322,3 +322,5 @@ py-spy
 photospline
 nmslib
 gmt
+dcw-gmt
+gsshg-gmt
