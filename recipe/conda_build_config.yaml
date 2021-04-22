@@ -616,7 +616,7 @@ qtkeychain:
 re2:
   - 2021.04.01
 readline:
-  - 8.0
+  - "8"
 rocksdb:
   - "6.10"
 root_base:
