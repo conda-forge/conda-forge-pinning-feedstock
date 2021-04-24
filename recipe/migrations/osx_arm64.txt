@@ -324,3 +324,4 @@ nmslib
 gmt
 libmamba
 rhumba
+cartopy
