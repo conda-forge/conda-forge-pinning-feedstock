@@ -325,3 +325,5 @@ gmt
 libmamba
 rhumba
 cartopy
+nuflux
+
