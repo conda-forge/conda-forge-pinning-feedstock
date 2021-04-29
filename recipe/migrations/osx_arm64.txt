@@ -330,3 +330,4 @@ datrie
 coin-or-cbc
 libdate
 boost_mp11
+pulp
