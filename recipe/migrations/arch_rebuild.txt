@@ -368,3 +368,4 @@ chrpath
 gmsh
 pyzstd
 uncrustify
+gnuradio
