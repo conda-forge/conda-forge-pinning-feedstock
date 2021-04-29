@@ -327,3 +327,4 @@ rhumba
 cartopy
 nuflux
 datrie
+coin-or-cbc
