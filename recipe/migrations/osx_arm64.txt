@@ -328,3 +328,5 @@ cartopy
 nuflux
 datrie
 coin-or-cbc
+libdate
+boost_mp11
