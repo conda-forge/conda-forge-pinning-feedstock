@@ -17,6 +17,7 @@ make
 ninja
 pexpect
 ripgrep
+vispy
 pkg-config
 glib
 libtool
