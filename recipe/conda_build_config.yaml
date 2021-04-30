@@ -555,6 +555,7 @@ numpy:
   - 1.17   # [not (osx and arm64)]
   - 1.17   # [not (osx and arm64)]
   - 1.19   # [osx and arm64]
+  - 1.19
 occt:
   - '7.5'
 openblas:
@@ -604,10 +605,12 @@ python:
   - 3.6.* *_cpython    # [not (osx and arm64)]
   - 3.7.* *_cpython    # [not (osx and arm64)]
   - 3.8.* *_cpython
+  - 3.9.* *_cpython
 python_impl:
   # part of a zip_keys: python, python_impl, numpy
   - cpython   # [not (osx and arm64)]
   - cpython   # [not (osx and arm64)]
+  - cpython
   - cpython
 qt:
   - 5.12
