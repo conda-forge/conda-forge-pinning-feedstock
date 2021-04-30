@@ -414,8 +414,7 @@ google_cloud_cpp_common:
 googleapis_cpp:
   - '0.10'
 graphviz:
-  - 2.40  # [linux or (osx and x86_64)]
-  - 2.46  # [win or (osx and arm64)]
+  - 2.47
 grpc_cpp:
   - '1.37'
 harfbuzz:
