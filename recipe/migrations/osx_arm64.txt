@@ -18,6 +18,7 @@ ninja
 pexpect
 ripgrep
 vispy
+hugin
 pkg-config
 glib
 libtool
