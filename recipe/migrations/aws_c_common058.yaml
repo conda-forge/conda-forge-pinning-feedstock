@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-aws_c_common:
-- 0.5.8
-migrator_ts: 1619835136.7258098
