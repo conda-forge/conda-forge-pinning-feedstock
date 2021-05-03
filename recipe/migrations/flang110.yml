@@ -10,4 +10,4 @@ __migrator:
     - fortran_compiler_stub
 
 fortran_compiler_version:      # [win64]
-  - 11.0.1                     # [win64]
+  - 11                         # [win64]
