@@ -334,3 +334,5 @@ libdate
 boost_mp11
 pulp
 gnuradio
+optional-lite
+safeint
