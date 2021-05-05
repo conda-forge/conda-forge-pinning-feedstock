@@ -336,3 +336,4 @@ pulp
 gnuradio
 optional-lite
 safeint
+onnxruntime

@@ -369,3 +369,4 @@ gmsh
 pyzstd
 uncrustify
 gnuradio
+onnxruntime
