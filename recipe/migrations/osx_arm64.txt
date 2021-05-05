@@ -337,3 +337,4 @@ gnuradio
 optional-lite
 safeint
 onnxruntime
+obspy
