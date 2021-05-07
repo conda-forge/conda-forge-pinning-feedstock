@@ -5,3 +5,9 @@ __migrator:
 migrator_ts: 1617279105.7611532
 petsc:
 - '3.15'
+petsc4py:
+- '3.15'
+slepc:
+- '3.15'
+slepc4py:
+- '3.15'
