@@ -242,6 +242,7 @@ xorg-libsm
 xorg-libxrender
 xorg-libxt
 xorg-libxcomposite
+zaber-motion
 gsd
 freud
 fresnel
