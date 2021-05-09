@@ -321,6 +321,7 @@ xorg-libxcomposite
 xorg-libxdamage
 xorg-libxinerama
 xorg-xineramaproto
+xorg-glproto
 jaeger
 anyio
 pre-commit
