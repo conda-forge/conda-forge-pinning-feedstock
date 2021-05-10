@@ -339,3 +339,6 @@ optional-lite
 safeint
 onnxruntime
 obspy
+r-arrow
+r-rcppcnpy
+r-testthat
