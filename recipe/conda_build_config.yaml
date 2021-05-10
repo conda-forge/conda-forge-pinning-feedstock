@@ -326,7 +326,7 @@ blas_impl:
   - blis         # [x86 or x86_64]
 
 abseil_cpp:
-  - '20200923.3'
+  - '20210324.0'
 alsa_lib:
   - 1.2.3
 arb:
