@@ -372,3 +372,13 @@ uncrustify
 gnuradio
 onnxruntime
 xdrfile
+digital_rf
+gnuradio-satellites
+gnuradio-soapy
+gqrx
+libm2k
+limesuite
+soapysdr-module-plutosdr
+soapysdr-module-remote
+soapysdr-module-rtlsdr
+soapysdr-module-uhd
