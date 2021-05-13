@@ -354,3 +354,5 @@ soapysdr-module-rtlsdr
 soapysdr-module-uhd
 yoda
 sox
+rasterio
+fiona
