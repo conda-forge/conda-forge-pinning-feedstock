@@ -645,7 +645,7 @@ singular:
 snappy:
   - 1
 soapysdr:
-  - 0.7
+  - '0.8'
 sox:
   - 14.4.2
 sqlite:
