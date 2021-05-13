@@ -353,3 +353,4 @@ soapysdr-module-remote
 soapysdr-module-rtlsdr
 soapysdr-module-uhd
 yoda
+sox
