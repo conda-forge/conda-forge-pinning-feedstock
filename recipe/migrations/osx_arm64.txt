@@ -356,3 +356,4 @@ yoda
 sox
 rasterio
 fiona
+freecad
