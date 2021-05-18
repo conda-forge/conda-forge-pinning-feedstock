@@ -358,3 +358,12 @@ rasterio
 fiona
 freecad
 casadi
+xorg-damageproto
+xorg-xf86vidmodeproto
+xorg-libxdamage
+xorg-libxinerama
+xorg-xineramaproto
+xorg-glproto
+xorg-libxcursor
+xorg-libxrandr
+xorg-libxtst
