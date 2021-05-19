@@ -385,3 +385,5 @@ soapysdr-module-uhd
 plumed
 yoda
 freecad
+htcondor-utils
+python-htcondor
