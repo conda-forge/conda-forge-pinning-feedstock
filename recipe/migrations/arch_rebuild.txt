@@ -387,3 +387,4 @@ yoda
 freecad
 htcondor-utils
 python-htcondor
+pycuda
