@@ -5,7 +5,7 @@ __migrator:
   migration_number:
     1
   build_number:
-    1
+    0
   automerge: true
 
   # slow start, increase to 20/50 later
