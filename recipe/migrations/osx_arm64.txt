@@ -352,6 +352,7 @@ soapysdr-module-plutosdr
 soapysdr-module-remote
 soapysdr-module-rtlsdr
 soapysdr-module-uhd
+r-devtools
 yoda
 sox
 rasterio
