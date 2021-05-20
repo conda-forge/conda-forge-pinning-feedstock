@@ -368,3 +368,4 @@ xorg-glproto
 xorg-libxcursor
 xorg-libxrandr
 xorg-libxtst
+r-png
