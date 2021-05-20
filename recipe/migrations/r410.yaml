@@ -4,8 +4,7 @@ __migrator:
     version
   migration_number:
     1
-  build_number:
-    0
+  bump_number: 0
   automerge: true
   longterm: true
 
