@@ -93,6 +93,7 @@ photutils
 ccdproc
 yt
 libaec
+jbig
 xeus-python
 zopfli
 libzopfli
