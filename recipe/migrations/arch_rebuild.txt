@@ -93,6 +93,7 @@ photutils
 ccdproc
 yt
 libaec
+jbig
 xeus-python
 zopfli
 libzopfli
@@ -384,3 +385,6 @@ soapysdr-module-rtlsdr
 soapysdr-module-uhd
 plumed
 yoda
+freecad
+htcondor-utils
+python-htcondor
