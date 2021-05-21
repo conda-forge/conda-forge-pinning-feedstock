@@ -7,6 +7,8 @@ __migrator:
   bump_number: 0
   automerge: true
   longterm: true
+  # Wait until build _1 is on the CDN
+  paused: true
 
   # slow start, increase to 20/50 later
   pr_limit: 2
