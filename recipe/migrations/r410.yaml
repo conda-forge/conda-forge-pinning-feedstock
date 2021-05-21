@@ -1,0 +1,16 @@
+migrator_ts: 1621536224
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  bump_number: 0
+  automerge: true
+  longterm: true
+
+  # slow start, increase to 20/50 later
+  pr_limit: 2
+
+r_base:
+  - 4.0
+  - 4.1
