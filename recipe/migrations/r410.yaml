@@ -9,6 +9,7 @@ __migrator:
   longterm: true
   paused: false
   pr_limit: 40
+  include_noarch: True
 
 r_base:
   - 4.0
