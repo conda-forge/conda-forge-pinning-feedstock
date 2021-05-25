@@ -370,3 +370,7 @@ xorg-libxrandr
 xorg-libxtst
 r-png
 scip
+petsc
+petsc4py
+swig
+hdf5
