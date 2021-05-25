@@ -370,17 +370,7 @@ xorg-libxrandr
 xorg-libxtst
 r-png
 scip
-libblas
-libcblas
-liblapack
-yaml
-hypre
-metis
-ptscotch
-superlu
-superlu_dist
 petsc
 petsc4py
 swig
-mumps-mpi
 hdf5
