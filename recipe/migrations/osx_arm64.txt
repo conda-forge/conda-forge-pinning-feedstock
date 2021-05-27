@@ -376,3 +376,6 @@ swig
 hdf5
 pycbf
 pyuv
+bcolz
+crick
+mmh3
