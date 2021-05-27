@@ -375,3 +375,4 @@ petsc4py
 swig
 hdf5
 pycbf
+pyuv
