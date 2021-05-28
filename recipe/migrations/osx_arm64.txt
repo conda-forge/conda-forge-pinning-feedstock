@@ -379,3 +379,4 @@ pyuv
 bcolz
 crick
 mmh3
+msgpack-c
