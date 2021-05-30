@@ -578,7 +578,8 @@ pango:
 pari:
   - 2.11
 perl:
-  - 5.26.2
+  - 5.26.2  # [not (osx and arm64)]
+  - 5.32.0  # [osx and arm64]
 petsc:
   - 3.14
 petsc4py:
