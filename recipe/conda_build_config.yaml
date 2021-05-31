@@ -334,7 +334,7 @@ arb:
 arpack:
   - 3.7
 arrow_cpp:
-  - 4.0.0
+  - 4.0.1
 aws_c_common:
   - 0.5.11
 aws_c_event_stream:
