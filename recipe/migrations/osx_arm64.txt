@@ -380,3 +380,4 @@ bcolz
 crick
 mmh3
 msgpack-c
+r-ragg
