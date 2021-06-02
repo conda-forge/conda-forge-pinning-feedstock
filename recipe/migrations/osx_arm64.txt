@@ -383,3 +383,4 @@ msgpack-c
 r-ragg
 capstone
 openslide
+freetds
