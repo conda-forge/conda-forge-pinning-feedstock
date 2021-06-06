@@ -394,3 +394,8 @@ nanoflann
 torchsparse
 clingo-dl
 pythran
+pytorch_cluster
+pytorch_geometric
+pytorch_scatter
+pytorch_sparse
+pytorch_spline_conv
