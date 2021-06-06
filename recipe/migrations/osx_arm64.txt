@@ -385,3 +385,6 @@ capstone
 openslide
 freetds
 unicorn
+pygrib
+pyresample
+pykdtree
