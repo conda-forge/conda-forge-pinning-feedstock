@@ -392,3 +392,4 @@ pycocotools
 detectron2
 nanoflann
 torchsparse
+clingo-dl
