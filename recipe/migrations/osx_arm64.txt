@@ -388,3 +388,6 @@ unicorn
 pygrib
 pyresample
 pykdtree
+pycocotools
+detectron2
+nanoflann
