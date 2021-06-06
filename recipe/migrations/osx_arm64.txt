@@ -391,3 +391,4 @@ pykdtree
 pycocotools
 detectron2
 nanoflann
+torchsparse
