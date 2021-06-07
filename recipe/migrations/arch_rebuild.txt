@@ -389,3 +389,4 @@ freecad
 htcondor-utils
 python-htcondor
 openslide
+xsimd
