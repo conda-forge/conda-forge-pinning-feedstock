@@ -395,3 +395,9 @@ torchsparse
 clingo-dl
 pythran
 pycalphad
+pytorch_cluster
+pytorch_geometric
+pytorch_scatter
+pytorch_sparse
+pytorch_spline_conv
+xraylib
