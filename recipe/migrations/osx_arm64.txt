@@ -394,3 +394,4 @@ nanoflann
 torchsparse
 clingo-dl
 pythran
+pycalphad
