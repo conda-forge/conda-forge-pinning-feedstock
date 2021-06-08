@@ -390,3 +390,4 @@ htcondor-utils
 python-htcondor
 openslide
 xsimd
+pickle5
