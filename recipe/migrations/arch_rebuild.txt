@@ -391,3 +391,4 @@ python-htcondor
 openslide
 xsimd
 pickle5
+py-plumed
