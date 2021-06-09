@@ -392,3 +392,6 @@ openslide
 xsimd
 pickle5
 py-plumed
+libgsasl
+python-confluent-kafka
+librdkafka
