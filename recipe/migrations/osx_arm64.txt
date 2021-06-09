@@ -402,3 +402,4 @@ pytorch_sparse
 pytorch_spline_conv
 xraylib
 libcomcat
+oidc-agent
