@@ -401,3 +401,4 @@ pytorch_scatter
 pytorch_sparse
 pytorch_spline_conv
 xraylib
+libcomcat
