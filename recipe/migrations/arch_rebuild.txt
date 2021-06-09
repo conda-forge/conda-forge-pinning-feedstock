@@ -395,3 +395,4 @@ py-plumed
 libgsasl
 python-confluent-kafka
 librdkafka
+oidc-agent
