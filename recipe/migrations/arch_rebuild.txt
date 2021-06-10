@@ -396,3 +396,4 @@ libgsasl
 python-confluent-kafka
 librdkafka
 oidc-agent
+aioeasywebdav
