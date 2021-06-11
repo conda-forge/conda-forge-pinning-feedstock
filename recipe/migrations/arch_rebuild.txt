@@ -388,5 +388,14 @@ yoda
 freecad
 htcondor-utils
 python-htcondor
+openslide
+xsimd
+pickle5
+py-plumed
+libgsasl
+python-confluent-kafka
+librdkafka
+oidc-agent
+aioeasywebdav
 r-statnet.common
 r-s2
