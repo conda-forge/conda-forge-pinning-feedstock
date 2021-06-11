@@ -388,3 +388,5 @@ yoda
 freecad
 htcondor-utils
 python-htcondor
+r-statnet.common
+r-s2

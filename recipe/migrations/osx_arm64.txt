@@ -369,3 +369,5 @@ xorg-libxcursor
 xorg-libxrandr
 xorg-libxtst
 r-png
+r-statnet.common
+r-s2
