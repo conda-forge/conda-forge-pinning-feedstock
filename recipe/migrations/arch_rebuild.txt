@@ -397,3 +397,5 @@ python-confluent-kafka
 librdkafka
 oidc-agent
 aioeasywebdav
+r-statnet.common
+r-s2

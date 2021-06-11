@@ -403,3 +403,5 @@ pytorch_spline_conv
 xraylib
 libcomcat
 oidc-agent
+r-statnet.common
+r-s2
