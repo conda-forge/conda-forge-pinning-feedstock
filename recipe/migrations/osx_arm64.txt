@@ -405,3 +405,4 @@ libcomcat
 oidc-agent
 r-statnet.common
 r-s2
+clingcon
