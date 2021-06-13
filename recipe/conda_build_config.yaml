@@ -652,7 +652,7 @@ ptscotch:
 s2n:
   - 1.0.10
 singular:
-  - 4.1.2
+  - 4.2.0.p3
 snappy:
   - 1
 soapysdr:
