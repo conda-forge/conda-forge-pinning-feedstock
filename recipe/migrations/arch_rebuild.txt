@@ -399,3 +399,4 @@ oidc-agent
 aioeasywebdav
 r-statnet.common
 r-s2
+pythran
