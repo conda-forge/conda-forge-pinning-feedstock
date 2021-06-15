@@ -408,3 +408,4 @@ r-s2
 clingcon
 scitokens
 scitokens-cpp
+awscrt

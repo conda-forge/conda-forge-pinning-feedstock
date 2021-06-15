@@ -402,3 +402,4 @@ r-s2
 pythran
 scitokens
 scitokens-cpp
+awscrt
