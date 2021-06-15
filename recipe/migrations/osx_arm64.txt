@@ -406,3 +406,5 @@ oidc-agent
 r-statnet.common
 r-s2
 clingcon
+scitokens
+scitokens-cpp
