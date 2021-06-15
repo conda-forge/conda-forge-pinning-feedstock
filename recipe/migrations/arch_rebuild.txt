@@ -400,3 +400,5 @@ aioeasywebdav
 r-statnet.common
 r-s2
 pythran
+scitokens
+scitokens-cpp
