@@ -4,4 +4,6 @@ __migrator:
   migration_number: 1
 libthrift:
 - 0.14.2
+thrift_cpp:
+- 0.14.2
 migrator_ts: 1624222888.888659
