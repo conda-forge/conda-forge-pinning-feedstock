@@ -409,3 +409,4 @@ clingcon
 scitokens
 scitokens-cpp
 awscrt
+bc
