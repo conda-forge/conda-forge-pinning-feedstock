@@ -403,3 +403,6 @@ pythran
 scitokens
 scitokens-cpp
 awscrt
+gst-libav
+gst-plugins-bad
+gst-plugins-ugly
