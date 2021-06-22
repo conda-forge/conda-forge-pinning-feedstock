@@ -289,6 +289,8 @@ pin_run_as_build:
     max_pin: x.x.x
   sqlite:
     max_pin: x
+  tinyxml2:
+    max_pin: x.x
   tk:
     max_pin: x.x
   tiledb:
@@ -669,6 +671,8 @@ tbb_devel:
   - 2020
 thrift_cpp:
   - '0.14.1'
+tinyxml2:
+  - 9.0
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
