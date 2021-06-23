@@ -410,3 +410,4 @@ scitokens
 scitokens-cpp
 awscrt
 bc
+mypy
