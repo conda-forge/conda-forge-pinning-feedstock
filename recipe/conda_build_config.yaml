@@ -669,6 +669,8 @@ tbb_devel:
   - 2020
 thrift_cpp:
   - '0.14.1'
+tinyxml2:
+  - 8
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
