@@ -674,7 +674,7 @@ tinyxml2:
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
-  - '2.2'
+  - '2.3'
 uhd:
   - 3.15.0
 vc:                    # [win]
