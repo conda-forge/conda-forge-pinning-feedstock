@@ -626,9 +626,9 @@ python_impl:
   - cpython
 pytorch:
   - 1.8.0
-pytorch-cpu:
+pytorch_cpu:
   - 1.8.0
-pytorch-gpu:
+pytorch_gpu:
   - 1.8.0
 qt:
   - 5.12
