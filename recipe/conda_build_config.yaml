@@ -276,6 +276,8 @@ pin_run_as_build:
     max_pin: x.x.x
   poppler:
     max_pin: x.x
+  pytorch:
+    max_pin: x.x.x
   qt:
     max_pin: x.x
   qtkeychain:
