@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-migrator_ts: 1621034958.4997654
-zstd:
-- '1.5'
