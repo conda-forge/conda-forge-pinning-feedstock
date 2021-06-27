@@ -694,7 +694,7 @@ xrootd:
 xz:
   - 5.2
 zeromq:
-  - 4.3.3
+  - 4.3.4
 zlib:
   - 1.2
 zstd:
