@@ -407,3 +407,4 @@ gst-libav
 gst-plugins-bad
 gst-plugins-ugly
 mppp
+pandas-stubs
