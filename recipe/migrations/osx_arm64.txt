@@ -415,3 +415,11 @@ mppp
 antlr
 av
 pandas-stubs
+schwimmbad
+joblib
+loky
+metadetect
+jinja2
+pyyaml
+ngmix
+loky
