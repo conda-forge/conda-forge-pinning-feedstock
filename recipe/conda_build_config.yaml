@@ -639,7 +639,7 @@ readline:
 rocksdb:
   - "6.10"
 root_base:
-  - 6.22.8
+  - 6.24.0
 ruby:
   - 2.5
   - 2.6
