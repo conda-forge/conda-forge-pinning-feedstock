@@ -425,3 +425,4 @@ ngmix
 loky
 libsoup
 flake8-annotations
+pytype
