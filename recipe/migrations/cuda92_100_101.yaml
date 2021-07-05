@@ -1,0 +1,34 @@
+migrator_ts: 1611736741
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+  paused: true
+  override_cbc_keys:
+    - cuda_compiler_stub
+  operation: key_add
+  check_solvable: false
+  primary_key: cuda_compiler_version
+
+cuda_compiler_version:         # [linux64 or win]
+  - 9.2                        # [linux64]
+  - 10.0                       # [linux64 or win]
+  - 10.1                       # [linux64 or win]
+
+cudnn:                  # [linux64 or win]
+  - 7                   # [linux64]
+  - 7                   # [linux64 or win]
+  - 7                   # [linux64 or win]
+
+cdt_name:  # [linux]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+  - cos6   # [linux64]
+
+docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
+  - quay.io/condaforge/linux-anvil-cuda:9.2     # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+  - quay.io/condaforge/linux-anvil-cuda:10.0    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+  - quay.io/condaforge/linux-anvil-cuda:10.1    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
