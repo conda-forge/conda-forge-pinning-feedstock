@@ -504,7 +504,7 @@ libssh2:
 libsvm:
   - 3.21
 libthrift:
-  - '0.14.1'
+  - 0.14.2
 libtiff:
   - 4
 libunwind:
@@ -672,7 +672,7 @@ tbb:
 tbb_devel:
   - 2020
 thrift_cpp:
-  - '0.14.1'
+  - 0.14.2
 tinyxml2:
   - 8
 tk:
