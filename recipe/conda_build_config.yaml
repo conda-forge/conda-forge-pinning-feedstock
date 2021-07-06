@@ -609,7 +609,7 @@ pcre2:
 pixman:
   - 0
 poco:
-  - 1.10.1
+  - 1.11.0
 poppler:
   - '21.03'
 proj:
