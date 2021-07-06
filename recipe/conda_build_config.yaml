@@ -647,8 +647,8 @@ ruby:
 rust:     # [osx and x86_64]
   - 1.46  # [osx and x86_64]
 r_base:
-  - 3.6  # [not (osx and arm64)]
   - 4.0
+  - 4.1
 scotch:
   - 6.0.9
 ptscotch:
