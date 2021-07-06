@@ -12,7 +12,6 @@ __migrator:
             - 3.9.* *_cpython
             - 3.6.* *_73_pypy
             - 3.7.* *_73_pypy  # new entry
-    paused: False
     longterm: True
     pr_limit: 6
     bump_number: 0
