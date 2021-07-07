@@ -592,7 +592,7 @@ orc:
 pango:
   - 1.42
 pari:
-  - 2.11
+  - '2.13'
 perl:
   - 5.26.2  # [not (osx and arm64)]
   - 5.32.0  # [osx and arm64]
