@@ -429,3 +429,4 @@ pytype
 detectron2
 camb
 firecrown
+wget
