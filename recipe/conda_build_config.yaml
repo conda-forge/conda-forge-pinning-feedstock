@@ -607,7 +607,7 @@ slepc4py:
 pcre:
   - '8'
 pcre2:
-  - '10.36'
+  - '10.37'
 pixman:
   - 0
 poco:
