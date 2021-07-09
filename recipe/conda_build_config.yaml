@@ -678,7 +678,7 @@ tbb_devel:
 thrift_cpp:
   - 0.14.2
 tinyxml2:
-  - 8
+  - 9
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
