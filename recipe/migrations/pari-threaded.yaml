@@ -1,9 +1,0 @@
-migrator_ts: 1625685400
-__migrator:
-    migration_number: 1
-    kind: version 
-    bump_number: 1
-    commit_message: "Rebuild for pari thread-safe version"
-
-pari:
-  - 2.13.* *_pthread
