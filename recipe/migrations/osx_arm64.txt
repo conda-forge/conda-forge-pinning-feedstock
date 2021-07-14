@@ -430,3 +430,4 @@ detectron2
 camb
 firecrown
 wget
+pandoc
