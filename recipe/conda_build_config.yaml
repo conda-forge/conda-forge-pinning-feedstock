@@ -40,10 +40,14 @@ cuda_compiler:                 # [linux64]
   - nvcc                       # [linux64]
 cuda_compiler_version:
   - None
-  - 10.2                       # [linux64]
+  - 11.0                       # [linux64]
+  - 11.1                       # [linux64]
+  - 11.2                       # [linux64]
 cudnn:
   - undefined
-  - 7                          # [linux64]
+  - 8                          # [linux64]
+  - 8                          # [linux64]
+  - 8                          # [linux64]
 
 _libgcc_mutex:
   - 0.1 conda_forge
@@ -116,8 +120,9 @@ cdt_name:  # [linux]
   - cos7   # [linux and ppc64le]
   - cos7   # [linux and armv7l]
 
-  - cos6   # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
-  - cos7   # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
+  - cos7   # [linux64]
+  - cos7   # [linux64]
+  - cos7   # [linux64]
 
 docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   - quay.io/condaforge/linux-anvil-comp7        # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
@@ -126,8 +131,9 @@ docker_image:                                   # [os.environ.get("BUILD_PLATFOR
   - quay.io/condaforge/linux-anvil-ppc64le      # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le"]
   - quay.io/condaforge/linux-anvil-armv7l       # [os.environ.get("BUILD_PLATFORM") == "linux-armv7l"]
 
-  - quay.io/condaforge/linux-anvil-cuda:10.2       # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
-  - quay.io/condaforge/linux-anvil-cos7-cuda:10.2  # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
+  - quay.io/condaforge/linux-anvil-cuda:11.0    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+  - quay.io/condaforge/linux-anvil-cuda:11.1    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+  - quay.io/condaforge/linux-anvil-cuda:11.2    # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
 
 zip_keys:
   -                             # [unix]
