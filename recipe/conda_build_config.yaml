@@ -630,12 +630,6 @@ python_impl:
   - cpython   # [not (osx and arm64)]
   - cpython
   - cpython
-pytorch:
-  - 1.8.0
-pytorch_cpu:
-  - 1.8.0
-pytorch_gpu:
-  - 1.8.0
 qt:
   - 5.12
 qtkeychain:
