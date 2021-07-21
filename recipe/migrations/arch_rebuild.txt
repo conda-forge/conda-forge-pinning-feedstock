@@ -409,3 +409,5 @@ gst-plugins-ugly
 mppp
 pandas-stubs
 idyntree
+r-vroom
+r-tzdb

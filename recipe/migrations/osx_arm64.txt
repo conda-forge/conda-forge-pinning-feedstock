@@ -432,3 +432,5 @@ firecrown
 wget
 pandoc
 idyntree
+r-vroom
+r-tzdb
