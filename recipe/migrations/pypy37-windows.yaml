@@ -1,6 +1,6 @@
 migrator_ts: 1623865877
 __migrator:
-    paused: True
+    paused: False
     migration_number: 1
     operation: key_add
     primary_key: python
