@@ -336,21 +336,21 @@ arpack:
 arrow_cpp:
   - 4.0.1
 aws_c_auth:
-  - 0.6.0
+  - 0.6.1
 aws_c_cal:
-  - 0.5.10
-aws_c_common:
   - 0.5.11
+aws_c_common:
+  - 0.6.5
 aws_c_event_stream:
   - 0.2.7
 aws_c_http:
   - 0.6.4
 aws_c_io:
-  - 0.9.14
+  - 0.10.6
 aws_c_mqtt:
   - 0.7.6
 aws_c_s3:
-  - 0.1.19
+  - 0.1.22
 aws_checksums:
   - 0.1.11
 aws_sdk_cpp:
@@ -382,7 +382,7 @@ fftw:
 flann:
   - 1.9.1
 fmt:
-  - '7'
+  - '8'
 fontconfig:
   - 2.13
 freetype:
@@ -414,13 +414,13 @@ glew:
 glib:
   - '2'
 glog:
-  - 0.4.0
+  - '0.5'
 glpk:
   - 4.65
 gmp:
   - 6
 google_cloud_cpp:
-  - '1.28'
+  - '1.29'
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
@@ -428,7 +428,7 @@ googleapis_cpp:
 graphviz:
   - 2.47
 grpc_cpp:
-  - '1.37'
+  - '1.38'
 harfbuzz:
   - 2
 hdf4:
@@ -437,6 +437,8 @@ hdf5:
   - 1.10.6
 icu:
   - 68
+ipopt:
+  - 3.14
 isl:
   - '0.22'
 jasper:
@@ -485,12 +487,14 @@ libmicrohttpd:
   - 0.9
 libnetcdf:
   - 4.7.4
+libopencv:
+  - 4.5.2
 libpcap:
   - '1.10'
 libpng:
   - 1.6
 libprotobuf:
-  - '3.15'
+  - '3.16'
 librdkafka:
   - '1.6'
 librsvg:
@@ -504,7 +508,7 @@ libssh2:
 libsvm:
   - 3.21
 libthrift:
-  - '0.14.1'
+  - 0.14.2
 libtiff:
   - 4
 libunwind:
@@ -551,6 +555,10 @@ netcdf_fortran:
   - 4.5
 nettle:
   - '3.7'
+nodejs:
+  - 15
+  - 14
+  - 12
 nss:
   - 3
 nspr:
@@ -582,11 +590,11 @@ openssl:
 openturns:
   - '1.16'
 orc:
-  - 1.6.8
+  - 1.6.9
 pango:
   - 1.42
 pari:
-  - 2.11
+  - 2.13.* *_pthread
 perl:
   - 5.26.2  # [not (osx and arm64)]
   - 5.32.0  # [osx and arm64]
@@ -601,11 +609,11 @@ slepc4py:
 pcre:
   - '8'
 pcre2:
-  - '10.36'
+  - '10.37'
 pixman:
   - 0
 poco:
-  - 1.10.1
+  - 1.11.0
 poppler:
   - '21.03'
 proj:
@@ -629,13 +637,13 @@ qt:
 qtkeychain:
   - '0.12'
 re2:
-  - 2021.04.01
+  - 2021.06.01
 readline:
   - "8"
 rocksdb:
   - "6.10"
 root_base:
-  - 6.22.8
+  - 6.24.0
 ruby:
   - 2.5
   - 2.6
@@ -643,16 +651,16 @@ ruby:
 rust:     # [osx and x86_64]
   - 1.46  # [osx and x86_64]
 r_base:
-  - 3.6  # [not (osx and arm64)]
   - 4.0
+  - 4.1
 scotch:
   - 6.0.9
 ptscotch:
   - 6.0.9
 s2n:
-  - 1.0.10
+  - 1.0.12
 singular:
-  - 4.1.2
+  - 4.2.0.p3
 snappy:
   - 1
 soapysdr:
@@ -668,19 +676,21 @@ tbb:
 tbb_devel:
   - 2020
 thrift_cpp:
-  - '0.14.1'
+  - 0.14.2
+tinyxml2:
+  - 9
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
-  - '2.2'
+  - '2.3'
 uhd:
-  - 3.15.0
+  - 4.1.0
 vc:                    # [win]
   - 14                 # [win]
 vlfeat:
   - 0.9.20
 volk:
-  - '2.4'
+  - '2.5'
 vtk:
   - 9.0.1
 x264:
@@ -692,8 +702,8 @@ xrootd:
 xz:
   - 5.2
 zeromq:
-  - 4.3.3
+  - 4.3.4
 zlib:
   - 1.2
 zstd:
-  - 1.4
+  - '1.5'

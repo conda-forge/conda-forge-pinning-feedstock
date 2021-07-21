@@ -399,5 +399,15 @@ oidc-agent
 aioeasywebdav
 r-statnet.common
 r-s2
+pythran
+scitokens
+scitokens-cpp
+awscrt
+gst-libav
+gst-plugins-bad
+gst-plugins-ugly
+mppp
+pandas-stubs
+idyntree
 r-vroom
 r-tzdb

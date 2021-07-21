@@ -2,6 +2,8 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-migrator_ts: 1622567015.403561
-re2:
-- 2021.06.01
+migrator_ts: 1626366230.4925187
+nodejs:
+ - 16
+ - 14
+ - 12
