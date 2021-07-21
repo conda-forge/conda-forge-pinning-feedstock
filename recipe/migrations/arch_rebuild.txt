@@ -399,3 +399,5 @@ oidc-agent
 aioeasywebdav
 r-statnet.common
 r-s2
+r-vroom
+r-tzdb

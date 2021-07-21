@@ -405,3 +405,5 @@ libcomcat
 oidc-agent
 r-statnet.common
 r-s2
+r-vroom
+r-tzdb
