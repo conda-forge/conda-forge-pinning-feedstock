@@ -411,3 +411,4 @@ pandas-stubs
 idyntree
 r-vroom
 r-tzdb
+heyoka
