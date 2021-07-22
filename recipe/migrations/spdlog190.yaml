@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+spdlog:
+- 1.9.0
+migrator_ts: 1626944267
