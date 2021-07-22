@@ -287,6 +287,8 @@ pin_run_as_build:
     min_pin: x.x
   sox:
     max_pin: x.x.x
+  spdlog:
+    max_pin: x.x
   sqlite:
     max_pin: x
   tk:
@@ -644,6 +646,8 @@ soapysdr:
   - 0.7
 sox:
   - 14.4.2
+spdlog:
+  - 1.8
 sqlite:
   - 3
 suitesparse:
