@@ -18,6 +18,8 @@ cxx_compiler:
 cxx_compiler_version:          # [unix]
   - 11                         # [osx]
   - 9                          # [linux]
+llvm_openmp:                   # [osx]
+  - 11                         # [osx]
 fortran_compiler:              # [unix or win64]
   - gfortran                   # [linux64 or (osx and x86_64)]
   - gfortran                   # [aarch64 or ppc64le or armv7l]
