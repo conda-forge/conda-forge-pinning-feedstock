@@ -15,6 +15,7 @@ openblas
 cmake
 make
 ninja
+gensim
 pexpect
 ripgrep
 vispy
