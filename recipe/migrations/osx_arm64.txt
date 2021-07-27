@@ -438,3 +438,4 @@ r-tzdb
 heyoka
 kubernetes-helm
 heyoka.py
+google-cloud-sdk
