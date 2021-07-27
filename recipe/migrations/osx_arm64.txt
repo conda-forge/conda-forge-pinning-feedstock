@@ -439,3 +439,15 @@ heyoka
 kubernetes-helm
 heyoka.py
 google-cloud-sdk
+cpppath
+docopt.cpp
+frictionqpotfem
+frictionqpotspringblock
+gmatelastoplasicqpot
+gmattensor
+gooseeye
+goosefem
+gooseslurm
+parallel
+prrng
+qpot
