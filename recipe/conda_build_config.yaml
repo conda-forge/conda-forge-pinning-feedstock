@@ -542,7 +542,7 @@ metis:
 mimalloc:
   - 1.6.3
 mkl:
-  - 2019
+  - '2021'
 mpich:
   - 3
 mpfr:
