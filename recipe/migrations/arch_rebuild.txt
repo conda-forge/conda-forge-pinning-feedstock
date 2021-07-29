@@ -413,3 +413,4 @@ r-vroom
 r-tzdb
 heyoka
 heyoka.py
+mosh
