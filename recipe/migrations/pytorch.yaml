@@ -1,8 +1,0 @@
-migrator_ts: 1627598587
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-pytorch:
-  - 1.9.0
