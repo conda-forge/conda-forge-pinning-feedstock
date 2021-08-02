@@ -107,6 +107,7 @@ tifffile
 pytorch-cpu
 sleef
 cross-python
+pyvips
 black
 perl
 cvxopt
