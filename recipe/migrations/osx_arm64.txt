@@ -454,3 +454,4 @@ qpot
 mosh
 pagmo
 pygmo
+ipopt
