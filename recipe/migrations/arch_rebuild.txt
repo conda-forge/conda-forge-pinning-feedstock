@@ -414,3 +414,5 @@ r-tzdb
 heyoka
 heyoka.py
 mosh
+pagmo
+pygmo

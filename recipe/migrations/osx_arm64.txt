@@ -452,3 +452,5 @@ parallel
 prrng
 qpot
 mosh
+pagmo
+pygmo
