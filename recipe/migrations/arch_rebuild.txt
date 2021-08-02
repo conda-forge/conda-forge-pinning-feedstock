@@ -416,3 +416,4 @@ heyoka.py
 mosh
 pagmo
 pygmo
+ipopt
