@@ -472,3 +472,6 @@ batchcrop
 xdmfwrite_highfive
 lndoctor
 gsbatch
+pynndescent
+umap-learn
+hdbscan
