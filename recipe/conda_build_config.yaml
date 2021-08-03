@@ -248,8 +248,6 @@ pin_run_as_build:
     max_pin: x
   metis:
     max_pin: x.x
-  mkl:
-    max_pin: x
   mpfr:
     max_pin: x
   ncurses:
@@ -542,6 +540,8 @@ metis:
 mimalloc:
   - 1.6.3
 mkl:
+  - '2021'
+mkl_devel:
   - '2021'
 mpich:
   - 3
