@@ -475,3 +475,4 @@ gsbatch
 pynndescent
 umap-learn
 hdbscan
+mathjax
