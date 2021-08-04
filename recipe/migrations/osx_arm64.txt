@@ -476,3 +476,4 @@ pynndescent
 umap-learn
 hdbscan
 mathjax
+pyhdf
