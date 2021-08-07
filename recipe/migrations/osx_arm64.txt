@@ -478,3 +478,4 @@ hdbscan
 mathjax
 pyhdf
 tomlplusplus
+zoxide
