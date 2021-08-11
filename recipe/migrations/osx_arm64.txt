@@ -480,3 +480,4 @@ pyhdf
 tomlplusplus
 zoxide
 vega
+vega-cli
