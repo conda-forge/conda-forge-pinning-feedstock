@@ -479,5 +479,6 @@ mathjax
 pyhdf
 tomlplusplus
 zoxide
+orderedset
 vega
 vega-cli
