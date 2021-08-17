@@ -482,3 +482,4 @@ zoxide
 orderedset
 vega
 vega-cli
+openbabel
