@@ -419,3 +419,4 @@ pygmo
 ipopt
 pyhdf
 geopandas
+fa2
