@@ -483,3 +483,4 @@ orderedset
 vega
 vega-cli
 openbabel
+pmdarima
