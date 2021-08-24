@@ -484,3 +484,5 @@ vega
 vega-cli
 openbabel
 pmdarima
+librdkafka
+python-confluent-kafka
