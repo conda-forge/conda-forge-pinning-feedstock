@@ -488,3 +488,4 @@ librdkafka
 python-confluent-kafka
 scanpy
 radian
+pymde
