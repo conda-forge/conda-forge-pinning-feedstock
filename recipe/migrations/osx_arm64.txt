@@ -489,3 +489,4 @@ python-confluent-kafka
 scanpy
 radian
 pymde
+pyfftw
