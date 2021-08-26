@@ -490,3 +490,5 @@ scanpy
 radian
 pymde
 pyfftw
+gmatelastoplastic
+python-gmatelastoplastic
