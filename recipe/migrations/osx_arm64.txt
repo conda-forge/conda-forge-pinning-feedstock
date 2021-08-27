@@ -492,3 +492,5 @@ pymde
 pyfftw
 gmatelastoplastic
 python-gmatelastoplastic
+pyreadstat
+pyreadr
