@@ -23,6 +23,8 @@ __migrator:
       - python
       - pypy3.6
       - pypy-meta
+      # we don't need pyqt for pypy and matplotlib
+      - pyqt
 
 python:                # [win]
   - 3.7.* *_73_pypy    # [win]
