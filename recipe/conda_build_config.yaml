@@ -358,7 +358,7 @@ aws_c_s3:
 aws_checksums:
   - 0.1.11
 aws_crt_cpp:
-  - 0.14.5
+  - 0.15.1
 aws_sdk_cpp:
   - 1.8.186
 boost:
