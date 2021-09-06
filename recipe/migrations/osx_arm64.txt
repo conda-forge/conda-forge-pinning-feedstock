@@ -495,3 +495,5 @@ python-gmatelastoplastic
 pyreadstat
 pyreadr
 backward-cpp
+glib-networking
+libpsl
