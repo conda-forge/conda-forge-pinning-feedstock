@@ -342,7 +342,7 @@ arrow_cpp:
   - 4.0.1
   - 3.0.0
 aws_c_auth:
-  - 0.6.1
+  - 0.6.3
 aws_c_cal:
   - 0.5.11
 aws_c_common:
