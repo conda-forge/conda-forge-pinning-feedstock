@@ -344,7 +344,7 @@ arrow_cpp:
 aws_c_auth:
   - 0.6.3
 aws_c_cal:
-  - 0.5.11
+  - 0.5.12
 aws_c_common:
   - 0.6.9
 aws_c_event_stream:
