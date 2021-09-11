@@ -84,9 +84,6 @@ target_gobin:
 # Rust Compiler Options
 rust_compiler:
   - rust
-# Pin rust to <1.49 on osx-64 due to min deployment target req, cf. https://github.com/conda-forge/rust-feedstock/issues/73
-rust_compiler_version:  # [osx and x86_64]
-  - 1.46                # [osx and x86_64]
 
 macos_machine:                 # [osx]
   - x86_64-apple-darwin13.4.0  # [osx and x86_64]
@@ -104,7 +101,7 @@ VERBOSE_CM:
 # dual build configuration
 channel_sources:
   - conda-forge,defaults                        # [not (aarch64 or armv7l or (osx and arm64) or s390x)]
-  - conda-forge/label/rust_dev,conda-forge      # [osx and arm64]
+  - conda-forge                                 # [osx and arm64]
   - conda-forge                                 # [aarch64]
   - conda-forge,c4armv7l,defaults               # [armv7l]
   - https://conda-web.anaconda.org/conda-forge  # [s390x]
@@ -657,9 +654,6 @@ root_base:
 ruby:
   - 2.5
   - 2.6
-# Pin rust to <1.49 on osx-64 due to min deployment target req, cf. https://github.com/conda-forge/rust-feedstock/issues/73
-rust:     # [osx and x86_64]
-  - 1.46  # [osx and x86_64]
 r_base:
   - 4.0
   - 4.1
