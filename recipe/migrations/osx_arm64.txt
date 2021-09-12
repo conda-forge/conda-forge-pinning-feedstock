@@ -507,3 +507,4 @@ kim-api
 kimpy
 randspg
 clease
+vim
