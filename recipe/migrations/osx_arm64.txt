@@ -497,3 +497,13 @@ pyreadr
 backward-cpp
 glib-networking
 libpsl
+spglib
+phonopy
+lammps
+pymatgen
+scandir
+pyscal
+kim-api
+kimpy
+randspg
+clease
