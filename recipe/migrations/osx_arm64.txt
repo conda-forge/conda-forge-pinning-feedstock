@@ -513,3 +513,4 @@ neovim
 magics
 magics-metview
 magics-metview-batch
+jenkspy
