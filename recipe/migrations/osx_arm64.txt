@@ -515,3 +515,4 @@ magics-metview
 magics-metview-batch
 jenkspy
 rust-script
+luajit
