@@ -516,3 +516,4 @@ magics-metview-batch
 jenkspy
 rust-script
 luajit
+lalapps
