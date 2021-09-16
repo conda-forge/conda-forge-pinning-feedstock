@@ -476,6 +476,8 @@ libevent:
   - 2.1.10
 libffi:
   - '3.3'
+libflint:
+  - '2.8'
 libgdal:
   - '3.2'
 libgit2:
