@@ -566,8 +566,8 @@ nettle:
   - '3.7'
 nodejs:
  - 16
- - 14
- - 12
+ - 14  # [not (osx and arm64)]
+ - 12  # [not (osx and arm64)]
 nss:
   - 3
 nspr:
