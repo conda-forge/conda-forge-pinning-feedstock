@@ -518,3 +518,6 @@ rust-script
 luajit
 lalapps
 pystan
+gstlal-inspiral
+gstlal-burst
+gstlal-calibration
