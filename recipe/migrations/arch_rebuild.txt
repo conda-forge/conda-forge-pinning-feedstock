@@ -423,3 +423,4 @@ fa2
 pyclibrary
 arm-variant
 backward-cpp
+libudev
