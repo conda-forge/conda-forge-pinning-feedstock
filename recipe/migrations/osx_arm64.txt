@@ -521,3 +521,4 @@ pystan
 gstlal-inspiral
 gstlal-burst
 gstlal-calibration
+pycbc
