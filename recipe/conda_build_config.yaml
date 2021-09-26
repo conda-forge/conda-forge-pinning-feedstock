@@ -349,7 +349,7 @@ aws_c_http:
 aws_c_io:
   - 0.10.9
 aws_c_mqtt:
-  - 0.7.7
+  - 0.7.8
 aws_c_s3:
   - 0.1.25
 aws_checksums:
