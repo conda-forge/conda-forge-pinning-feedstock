@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+libgit2:
+- '1.3'
+migrator_ts: 1632822410.0067842
