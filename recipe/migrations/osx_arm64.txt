@@ -523,3 +523,5 @@ gstlal-burst
 gstlal-calibration
 pycbc
 python-pushover
+ib_insync
+eventkit
