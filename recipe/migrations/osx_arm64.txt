@@ -522,3 +522,4 @@ gstlal-inspiral
 gstlal-burst
 gstlal-calibration
 pycbc
+python-pushover
