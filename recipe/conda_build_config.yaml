@@ -400,6 +400,8 @@ gnuradio_core:
   - 3.8.3
 gsl:
   - 2.6
+gsoap:
+  - 2.8.106
 gstreamer:
   - 1.18
 gst_plugins_base:
