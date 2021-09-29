@@ -628,7 +628,7 @@ pixman:
 poco:
   - 1.11.0
 poppler:
-  - '21.08'
+  - '21.09'
 proj:
   - 8.0.1
 pybind11_abi:
