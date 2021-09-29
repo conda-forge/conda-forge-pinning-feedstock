@@ -533,7 +533,7 @@ libwebp_base:
 libxml2:
   - 2.9
 libuuid:
-  - 2.32.1
+  - 2
 libzip:
   - 1
 log4cxx:
