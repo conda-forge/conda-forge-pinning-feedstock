@@ -100,10 +100,7 @@ VERBOSE_CM:
 
 # dual build configuration
 channel_sources:
-  - conda-forge,defaults                        # [not (aarch64 or armv7l or (osx and arm64) or s390x)]
-  - conda-forge                                 # [osx and arm64]
-  - conda-forge                                 # [aarch64]
-  - conda-forge,c4armv7l,defaults               # [armv7l]
+  - conda-forge                                 # [not s390x]
   - https://conda-web.anaconda.org/conda-forge  # [s390x]
 
 channel_targets:
