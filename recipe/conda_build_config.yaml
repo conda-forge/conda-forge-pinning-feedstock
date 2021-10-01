@@ -410,7 +410,7 @@ geos:
 geotiff:
   - '1.6'
 gfal2:
-  - '2.19'
+  - '2.20'
 gflags:
   - 2.2
 giflib:
