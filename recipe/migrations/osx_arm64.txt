@@ -524,3 +524,4 @@ gstlal-calibration
 pycbc
 python-pushover
 rustpython
+binaryen
