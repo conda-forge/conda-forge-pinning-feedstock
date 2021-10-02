@@ -408,7 +408,7 @@ gdal:
 geos:
   - 3.9.1
 geotiff:
-  - '1.6'
+  - '1.7'
 gfal2:
   - '2.20'
 gflags:
