@@ -428,3 +428,4 @@ systemd
 cmarkgfm
 python-snappy
 vim
+lalapps
