@@ -11,6 +11,7 @@ gunicorn
 numba
 psycopg2
 enum34
+libnsl
 root
 boost-histogram
 geant4
