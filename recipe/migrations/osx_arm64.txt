@@ -8,6 +8,7 @@ isl
 pyarrow
 yaml-cpp
 cffi
+libnsl
 pycparser
 constructor
 lapack
