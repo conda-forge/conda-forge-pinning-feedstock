@@ -1,0 +1,7 @@
+__migrator:
+  bump_number: 1
+  kind: version
+  migration_number: 1
+gnuradio_core:
+  - 3.9.3
+migrator_ts: 1633442208
