@@ -390,6 +390,7 @@ freecad
 htcondor-utils
 python-htcondor
 openslide
+openslide-python
 xsimd
 pickle5
 py-plumed
