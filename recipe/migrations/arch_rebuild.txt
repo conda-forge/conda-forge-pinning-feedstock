@@ -430,3 +430,4 @@ cmarkgfm
 python-snappy
 vim
 lalapps
+fish
