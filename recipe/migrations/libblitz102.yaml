@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-libblitz:
-- 1.0.2
-migrator_ts: 1633438849.5635846

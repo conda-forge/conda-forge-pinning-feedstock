@@ -466,7 +466,7 @@ krb5:
 libarchive:
   - 3.5
 libblitz:
-  - 0.10
+  - 1.0.2
 libcurl:
   - 7
 libcrc32c:
