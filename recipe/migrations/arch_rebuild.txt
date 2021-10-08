@@ -432,3 +432,4 @@ python-snappy
 vim
 lalapps
 fish
+tmux
