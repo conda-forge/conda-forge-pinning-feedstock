@@ -528,3 +528,4 @@ rustpython
 binaryen
 gfal2-util
 randomgen
+python-build
