@@ -9,5 +9,3 @@ docker_image:
 zip_keys:
 - - cdt_name
   - docker_image
-- - docker_image
-  - cdt_name
