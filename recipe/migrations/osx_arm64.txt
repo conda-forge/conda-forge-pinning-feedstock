@@ -530,3 +530,4 @@ gfal2-util
 randomgen
 python-build
 cpnest
+sox
