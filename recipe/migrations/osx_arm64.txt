@@ -58,6 +58,7 @@ rsync
 ruamel.yaml
 ccache
 doxygen
+libblitz
 scikit-learn
 dask
 statsmodels
