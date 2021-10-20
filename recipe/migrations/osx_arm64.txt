@@ -532,3 +532,4 @@ randomgen
 python-build
 cpnest
 sox
+gevent
