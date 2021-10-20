@@ -533,3 +533,4 @@ python-build
 cpnest
 sox
 gunicorn
+gevent
