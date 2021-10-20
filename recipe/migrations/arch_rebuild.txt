@@ -438,3 +438,4 @@ nb_conda_kernels
 logzero
 numcodecs
 libvpx
+diffutils
