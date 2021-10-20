@@ -435,3 +435,4 @@ fish
 tmux
 python-build
 nb_conda_kernels
+logzero
