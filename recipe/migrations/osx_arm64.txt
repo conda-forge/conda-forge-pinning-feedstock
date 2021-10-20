@@ -534,3 +534,4 @@ cpnest
 sox
 gunicorn
 gevent
+bayeswave
