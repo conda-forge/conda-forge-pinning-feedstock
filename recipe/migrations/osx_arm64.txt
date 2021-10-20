@@ -535,3 +535,4 @@ sox
 gunicorn
 gevent
 bayeswave
+libvpx
