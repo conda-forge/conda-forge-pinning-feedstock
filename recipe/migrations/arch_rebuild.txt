@@ -438,5 +438,6 @@ nb_conda_kernels
 logzero
 numcodecs
 libvpx
+x265
 diffutils
 cuda-python
