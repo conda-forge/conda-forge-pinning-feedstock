@@ -266,8 +266,6 @@ pin_run_as_build:
     max_pin: x.x
   pango:
     max_pin: x.x
-  perl:
-    max_pin: x.x.x
   poppler:
     max_pin: x.x
   qt:
@@ -607,8 +605,7 @@ pango:
 pari:
   - 2.13.* *_pthread
 perl:
-  - 5.26.2  # [not (osx and arm64)]
-  - 5.32.0  # [osx and arm64]
+  - 5.32.1
 petsc:
   - 3.14
 petsc4py:
