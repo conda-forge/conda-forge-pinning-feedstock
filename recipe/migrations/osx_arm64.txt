@@ -536,3 +536,4 @@ gunicorn
 gevent
 bayeswave
 libvpx
+nds2-client-swig
