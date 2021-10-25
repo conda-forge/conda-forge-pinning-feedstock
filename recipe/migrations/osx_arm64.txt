@@ -539,3 +539,5 @@ libvpx
 x265
 nds2-client-swig
 cartographer
+gym
+kaggle
