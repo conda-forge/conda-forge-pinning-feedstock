@@ -441,3 +441,4 @@ libvpx
 x265
 diffutils
 cuda-python
+cartographer
