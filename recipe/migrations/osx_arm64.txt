@@ -541,3 +541,4 @@ nds2-client-swig
 cartographer
 gym
 kaggle
+r-tidyverse
