@@ -544,3 +544,5 @@ kaggle
 r-tidyverse
 quantecon
 cbgen
+xtb
+crest
