@@ -542,3 +542,4 @@ cartographer
 gym
 kaggle
 r-tidyverse
+quantecon
