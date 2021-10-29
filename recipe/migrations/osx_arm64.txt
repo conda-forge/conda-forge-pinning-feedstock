@@ -544,3 +544,4 @@ kaggle
 r-tidyverse
 quantecon
 cbgen
+pot
