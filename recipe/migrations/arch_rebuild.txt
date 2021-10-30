@@ -442,3 +442,4 @@ x265
 diffutils
 cuda-python
 cartographer
+fonttools
