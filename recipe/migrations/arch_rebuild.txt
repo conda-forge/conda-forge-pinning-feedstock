@@ -443,3 +443,4 @@ diffutils
 cuda-python
 cartographer
 fonttools
+unicodedata2
