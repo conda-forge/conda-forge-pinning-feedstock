@@ -367,13 +367,13 @@ cfitsio:
   - 3.470
 coin_or_cbc:
   - 2.10.5
-coin-or-cgl:
+coin_or_cgl:
   - 0.60.3
-coin-or-clp:
+coin_or_clp:
   - 1.17.4
-coin-or-osi:
+coin_or_osi:
   - 0.108.6
-coin-or-utils:
+coin_or_utils:
   - 2.11.4
 cutensor:
   - 1
