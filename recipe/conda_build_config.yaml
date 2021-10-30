@@ -365,7 +365,7 @@ cairo:
   - 1.16
 cfitsio:
   - 3.470
-coin-or-cbc:
+coin_or_cbc:
   - 2.10.5
 coin-or-cgl:
   - 0.60.3
