@@ -609,13 +609,13 @@ perl:
   - 5.26.2  # [not (osx and arm64)]
   - 5.32.0  # [osx and arm64]
 petsc:
-  - 3.14
+  - 3.15
 petsc4py:
-  - 3.14
+  - 3.15
 slepc:
-  - 3.14
+  - 3.15
 slepc4py:
-  - 3.14
+  - 3.15
 pcre:
   - '8'
 pcre2:
