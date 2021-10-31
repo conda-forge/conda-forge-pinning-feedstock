@@ -444,3 +444,4 @@ cuda-python
 cartographer
 fonttools
 unicodedata2
+labelimg
