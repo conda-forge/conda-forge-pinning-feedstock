@@ -14,7 +14,7 @@ __migrator:
             - 3.7.* *_73_pypy  # new entry
     paused: false
     longterm: True
-    pr_limit: 50
+    pr_limit: 5
     exclude:
       # this shouldn't attempt to modify the python feedstocks
       - python
