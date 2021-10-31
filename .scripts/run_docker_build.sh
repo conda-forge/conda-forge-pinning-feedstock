@@ -76,6 +76,7 @@ fi
 
 export UPLOAD_PACKAGES="${UPLOAD_PACKAGES:-True}"
 export IS_PR_BUILD="${IS_PR_BUILD:-False}"
+docker pull "${DOCKER_IMAGE}"
 docker run ${DOCKER_RUN_ARGS} \
            -v "${RECIPE_ROOT}":/home/conda/recipe_root:rw,z,delegated \
            -v "${FEEDSTOCK_ROOT}":/home/conda/feedstock_root:rw,z,delegated \
@@ -93,9 +94,9 @@ docker run ${DOCKER_RUN_ARGS} \
            -e BINSTAR_TOKEN \
            -e FEEDSTOCK_TOKEN \
            -e STAGING_BINSTAR_TOKEN \
-           $DOCKER_IMAGE \
+           "${DOCKER_IMAGE}" \
            bash \
-           /home/conda/feedstock_root/${PROVIDER_DIR}/build_steps.sh
+           "/home/conda/feedstock_root/${PROVIDER_DIR}/build_steps.sh"
 
 # verify that the end of the script was reached
 test -f "$DONE_CANARY"
