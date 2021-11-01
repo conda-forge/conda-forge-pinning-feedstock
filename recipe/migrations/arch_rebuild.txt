@@ -445,3 +445,4 @@ cartographer
 fonttools
 unicodedata2
 labelimg
+rectangle-packer
