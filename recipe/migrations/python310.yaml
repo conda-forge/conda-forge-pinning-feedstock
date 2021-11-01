@@ -20,6 +20,8 @@ __migrator:
       - python
       - pypy3.6
       - pypy-meta
+      - cross-python
+      - python_abi
 
 python:
   - 3.10.* *_cpython
