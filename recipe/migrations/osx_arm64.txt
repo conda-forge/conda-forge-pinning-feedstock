@@ -544,5 +544,9 @@ kaggle
 r-tidyverse
 quantecon
 cbgen
+pot
+labelimg
+radiosphere
+rectangle-packer
 xtb
 crest

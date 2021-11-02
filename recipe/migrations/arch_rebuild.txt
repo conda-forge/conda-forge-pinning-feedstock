@@ -442,3 +442,7 @@ x265
 diffutils
 cuda-python
 cartographer
+fonttools
+unicodedata2
+labelimg
+rectangle-packer
