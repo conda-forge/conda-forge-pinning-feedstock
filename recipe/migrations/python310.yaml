@@ -22,6 +22,7 @@ __migrator:
       - pypy-meta
       - cross-python
       - python_abi
+    exclude_pinned_pkgs: false
 
 python:
   - 3.10.* *_cpython
