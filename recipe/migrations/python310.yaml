@@ -12,7 +12,7 @@ __migrator:
             - 3.10.* *_cpython  # new entry
             - 3.6.* *_73_pypy
             - 3.7.* *_73_pypy
-    paused: false
+    paused: true
     longterm: True
     pr_limit: 10
     exclude:
