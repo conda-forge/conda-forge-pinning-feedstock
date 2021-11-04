@@ -365,6 +365,18 @@ cairo:
   - 1.16
 cfitsio:
   - 3.470
+coin_or_cbc:
+  - 2.10
+coincbc:
+  - 2.10
+coin_or_cgl:
+  - 0.60
+coin_or_clp:
+  - 1.17
+coin_or_osi:
+  - 0.108
+coin_or_utils:
+  - 2.11
 cutensor:
   - 1
 curl:
