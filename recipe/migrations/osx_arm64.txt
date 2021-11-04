@@ -550,3 +550,4 @@ radiosphere
 rectangle-packer
 xtb
 crest
+libcint
