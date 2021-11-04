@@ -367,6 +367,8 @@ cfitsio:
   - 3.470
 coin_or_cbc:
   - 2.10
+coincbc:
+  - 2.10
 coin_or_cgl:
   - 0.60
 coin_or_clp:
