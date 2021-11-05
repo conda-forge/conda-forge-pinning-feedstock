@@ -479,6 +479,8 @@ libarchive:
   - 3.5
 libblitz:
   - 1.0.2
+libcint:
+  - 4.4
 libcurl:
   - 7
 libcrc32c:
