@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-  automerge: true
-migrator_ts: 1636000189.893033
-s2n:
-- 1.2.0
