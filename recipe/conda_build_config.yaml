@@ -382,7 +382,7 @@ cutensor:
 curl:
   - 7
 davix:
-  - 0.7
+  - '0.8'
 dbus:
   - 1
 exiv2:
