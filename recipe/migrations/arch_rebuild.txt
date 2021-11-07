@@ -449,3 +449,4 @@ rectangle-packer
 sixs
 or-tools
 termcolor-cpp
+graphicsmagick

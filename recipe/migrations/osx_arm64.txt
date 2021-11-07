@@ -551,3 +551,4 @@ rectangle-packer
 xtb
 crest
 termcolor-cpp
+graphicsmagick
