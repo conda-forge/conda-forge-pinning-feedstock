@@ -448,5 +448,6 @@ labelimg
 rectangle-packer
 sixs
 or-tools
+gnuplot
 termcolor-cpp
 graphicsmagick
