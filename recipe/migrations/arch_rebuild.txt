@@ -447,7 +447,9 @@ unicodedata2
 labelimg
 rectangle-packer
 sixs
+libcint
 or-tools
 gnuplot
 termcolor-cpp
 graphicsmagick
+libcint

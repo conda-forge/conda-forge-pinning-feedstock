@@ -554,3 +554,4 @@ gnuplot
 termcolor-cpp
 graphicsmagick
 correctionlib
+libcint
