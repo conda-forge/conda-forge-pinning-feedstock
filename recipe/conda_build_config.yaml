@@ -336,11 +336,11 @@ aws_c_auth:
 aws_c_cal:
   - 0.5.12
 aws_c_common:
-  - 0.6.15
+  - 0.6.16
 aws_c_event_stream:
   - 0.2.7
 aws_c_http:
-  - 0.6.9
+  - 0.6.10
 aws_c_io:
   - 0.10.13
 aws_c_mqtt:
@@ -354,7 +354,7 @@ aws_checksums:
 aws_crt_cpp:
   - 0.17.3
 aws_sdk_cpp:
-  - 1.8.186
+  - 1.9.120
 boost:
   - 1.74.0
 boost_cpp:
@@ -365,12 +365,24 @@ cairo:
   - 1.16
 cfitsio:
   - 3.470
+coin_or_cbc:
+  - 2.10
+coincbc:
+  - 2.10
+coin_or_cgl:
+  - 0.60
+coin_or_clp:
+  - 1.17
+coin_or_osi:
+  - 0.108
+coin_or_utils:
+  - 2.11
 cutensor:
   - 1
 curl:
   - 7
 davix:
-  - 0.7
+  - '0.8'
 dbus:
   - 1
 exiv2:
@@ -436,7 +448,7 @@ graphviz:
 grpc_cpp:
   - '1.39'
 harfbuzz:
-  - 2
+  - '3'
 hdf4:
   - 4.2
 hdf5:
@@ -467,6 +479,8 @@ libarchive:
   - 3.5
 libblitz:
   - 1.0.2
+libcint:
+  - 4.4
 libcurl:
   - 7
 libcrc32c:
@@ -661,7 +675,7 @@ scotch:
 ptscotch:
   - 6.0.9
 s2n:
-  - 1.1.2
+  - 1.2.0
 singular:
   - 4.2.0.p3
 snappy:

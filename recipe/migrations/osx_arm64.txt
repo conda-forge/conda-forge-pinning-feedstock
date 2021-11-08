@@ -550,4 +550,8 @@ radiosphere
 rectangle-packer
 xtb
 crest
+gnuplot
+termcolor-cpp
+graphicsmagick
+correctionlib
 libcint
