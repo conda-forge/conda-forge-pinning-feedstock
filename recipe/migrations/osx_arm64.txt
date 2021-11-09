@@ -555,3 +555,5 @@ termcolor-cpp
 graphicsmagick
 correctionlib
 libcint
+frozenlist
+aiosignal

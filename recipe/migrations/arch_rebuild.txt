@@ -453,3 +453,5 @@ gnuplot
 termcolor-cpp
 graphicsmagick
 libcint
+frozenlist
+aiosignal
