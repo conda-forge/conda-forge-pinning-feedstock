@@ -557,3 +557,4 @@ correctionlib
 libcint
 frozenlist
 aiosignal
+pyspnego
