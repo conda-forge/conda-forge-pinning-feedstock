@@ -558,3 +558,4 @@ libcint
 frozenlist
 aiosignal
 pyspnego
+scikit-survival
