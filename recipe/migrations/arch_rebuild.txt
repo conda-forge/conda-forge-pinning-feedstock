@@ -96,6 +96,7 @@ ccdproc
 yt
 libaec
 jbig
+jpype1
 xeus-python
 zopfli
 libzopfli
