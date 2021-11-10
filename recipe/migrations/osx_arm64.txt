@@ -233,6 +233,7 @@ aioeasywebdav
 xdrfile
 gawk
 jbig
+jpype1
 pygraphviz
 kwant
 plumed
