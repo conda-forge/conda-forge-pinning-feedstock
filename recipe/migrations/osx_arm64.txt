@@ -61,6 +61,7 @@ doxygen
 libblitz
 scikit-learn
 dask
+dask-sql
 statsmodels
 conda-forge-ci-setup
 grpcio
