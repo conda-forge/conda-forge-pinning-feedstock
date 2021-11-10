@@ -560,3 +560,4 @@ aiosignal
 pyspnego
 scikit-survival
 slycot
+mdtraj
