@@ -459,3 +459,12 @@ frozenlist
 aiosignal
 pyspnego
 scikit-survival
+gstools
+h3-py
+pandana
+pygeos
+pyogrio
+pyrosm
+rasterio
+pulp
+cartopy
