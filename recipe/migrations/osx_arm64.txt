@@ -563,3 +563,10 @@ pyspnego
 scikit-survival
 slycot
 mdtraj
+pyogrio
+gstools
+h3-py
+pyrosm
+quantecon
+rvlib
+python-levenshtein
