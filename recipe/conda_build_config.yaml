@@ -352,7 +352,7 @@ aws_checksums:
 aws_crt_cpp:
   - 0.17.6
 aws_sdk_cpp:
-  - 1.9.140
+  - 1.9.145
 boost:
   - 1.74.0
 boost_cpp:
