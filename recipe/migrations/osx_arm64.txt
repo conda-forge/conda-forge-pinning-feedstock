@@ -576,3 +576,5 @@ ambertools
 restic
 backports.zoneinfo
 pyre2
+fonttools
+unicodedata2
