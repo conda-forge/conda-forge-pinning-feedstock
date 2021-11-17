@@ -321,6 +321,8 @@ abseil_cpp:
   - '20210324.2'
 alsa_lib:
   - 1.2.3
+antic:
+  - 0.2
 arb:
   - '2.20'
 arpack:
@@ -485,6 +487,8 @@ libcrc32c:
   - 1.1
 libdap4:
   - 3.20.6
+libeantic:
+  - 1
 libevent:
   - 2.1.10
 libffi:
