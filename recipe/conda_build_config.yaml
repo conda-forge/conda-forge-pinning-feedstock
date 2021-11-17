@@ -324,7 +324,7 @@ abseil_cpp:
 alsa_lib:
   - 1.2.3
 antic:
-  - 0.2.4
+  - 0.2
 arb:
   - '2.20'
 arpack:
