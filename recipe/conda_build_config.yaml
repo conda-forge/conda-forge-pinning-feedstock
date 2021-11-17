@@ -490,7 +490,7 @@ libcrc32c:
 libdap4:
   - 3.20.6
 libeantic:
-  - 1.0.3
+  - 1
 libevent:
   - 2.1.10
 libffi:
