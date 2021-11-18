@@ -179,6 +179,8 @@ sentencepiece
 gensim
 twine
 cmarkgfm
+coincbc
+coinbonmin
 ibm_db
 libzip
 gdal
