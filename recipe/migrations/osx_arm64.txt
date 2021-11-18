@@ -578,3 +578,4 @@ backports.zoneinfo
 pyre2
 fonttools
 unicodedata2
+pyagrum
