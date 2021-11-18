@@ -304,6 +304,7 @@ mlir
 r-v8
 gn
 apache-beam
+primesieve
 pyzstd
 dulwich
 libignition-launch
