@@ -283,6 +283,7 @@ python-symengine
 aesara
 yarn
 pytest-asyncio
+ceres-solver
 colorlog
 nasm
 bazel
