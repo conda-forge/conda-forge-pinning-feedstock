@@ -57,6 +57,7 @@ benchmark
 rsync
 ruamel.yaml
 ccache
+cminpack
 doxygen
 libblitz
 scikit-learn
