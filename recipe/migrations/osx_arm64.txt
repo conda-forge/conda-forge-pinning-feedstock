@@ -447,6 +447,7 @@ kubernetes-helm
 heyoka.py
 google-cloud-sdk
 cpppath
+dlib-cpp
 docopt.cpp
 frictionqpotfem
 frictionqpotspringblock
