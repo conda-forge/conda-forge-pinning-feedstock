@@ -553,6 +553,7 @@ rectangle-packer
 xtb
 crest
 gnuplot
+tbb
 termcolor-cpp
 graphicsmagick
 correctionlib
