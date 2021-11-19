@@ -325,6 +325,7 @@ blosc
 python-blosc
 orocos-kdl
 ogre
+openturns
 pygit2
 tesseract
 coremltools
