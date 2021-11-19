@@ -84,6 +84,7 @@ lazy-object-proxy
 pyerfa
 libopus
 libv8
+libxml2
 root
 scikit-image
 fish
