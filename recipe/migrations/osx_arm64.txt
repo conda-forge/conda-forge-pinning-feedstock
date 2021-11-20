@@ -588,4 +588,5 @@ pyre2
 fonttools
 unicodedata2
 pyagrum
+cpp-terminal
 psygnal
