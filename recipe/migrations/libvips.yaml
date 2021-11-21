@@ -1,0 +1,8 @@
+migrator_ts: 1637517215
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+libvips:
+  - 8.12
