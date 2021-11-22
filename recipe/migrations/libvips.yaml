@@ -5,4 +5,4 @@ __migrator:
   bump_number: 1
 
 libvips:
-  - 8.12
+  - 8
