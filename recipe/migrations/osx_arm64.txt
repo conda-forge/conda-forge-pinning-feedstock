@@ -590,3 +590,6 @@ unicodedata2
 pyagrum
 cpp-terminal
 psygnal
+libzen
+libmediainfo
+pymediainfo
