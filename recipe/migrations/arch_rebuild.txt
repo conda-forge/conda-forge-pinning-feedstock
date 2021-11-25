@@ -470,3 +470,4 @@ pulp
 cartopy
 htcondor
 elsi
+spyder
