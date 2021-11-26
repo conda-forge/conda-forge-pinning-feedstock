@@ -471,3 +471,4 @@ cartopy
 htcondor
 elsi
 spyder
+jellyfish
