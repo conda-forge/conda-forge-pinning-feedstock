@@ -5,3 +5,5 @@ __migrator:
 migrator_ts: 1638024739.738037
 nodejs:
 - '17'
+- '16'
+- '14'
