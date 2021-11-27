@@ -56,10 +56,10 @@ cuda_compiler_version:
   - 11.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cudnn:
   - undefined
-  - 7                          # [linux64 or win]
-  - 8                          # [linux64 or win]
-  - 8                          # [linux64 or win]
-  - 8                          # [linux64 or win]
+  - 7                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 _libgcc_mutex:
   - 0.1 conda_forge
