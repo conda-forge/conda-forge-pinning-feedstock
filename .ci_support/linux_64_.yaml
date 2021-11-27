@@ -1,11 +1,11 @@
 cdt_name:
-- cos7
+- cos6
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
 docker_image:
-- quay.io/condaforge/linux-anvil-cuda:11.1
+- quay.io/condaforge/linux-anvil-comp7
 zip_keys:
 - - cdt_name
   - docker_image
