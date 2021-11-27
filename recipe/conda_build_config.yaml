@@ -156,7 +156,7 @@ zip_keys:
     - cuda_compiler_version     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cdt_name                  # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - docker_image              # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
-  -
+  -                             # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cudnn                     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   -
