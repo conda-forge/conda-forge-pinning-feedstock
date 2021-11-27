@@ -54,8 +54,8 @@ cuda_compiler_version:
   - 11.0                       # [linux64 or win]
   - 11.1                       # [linux64 or win]
   - 11.2                       # [linux64 or win]
-cudnn:                         # [linux64 or win]
-  - undefined                  # [linux64 or win]
+cudnn:
+  - undefined
   - 7                          # [linux64 or win]
   - 8                          # [linux64 or win]
   - 8                          # [linux64 or win]
