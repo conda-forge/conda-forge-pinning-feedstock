@@ -593,3 +593,4 @@ psygnal
 libzen
 libmediainfo
 pymediainfo
+perspective
