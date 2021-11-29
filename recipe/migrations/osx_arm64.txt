@@ -596,3 +596,4 @@ pymediainfo
 perspective
 vowpalwabbit
 igl
+mpi4jax
