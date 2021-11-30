@@ -508,7 +508,7 @@ libmatio:
 libmicrohttpd:
   - 0.9
 libnetcdf:
-  - 4.8.0
+  - 4.8.1
 libopencv:
   - 4.5.3
 libpcap:
