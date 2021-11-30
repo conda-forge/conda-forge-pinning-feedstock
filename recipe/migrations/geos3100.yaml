@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-geos:
-- 3.10.0
-migrator_ts: 1634841454.957882
