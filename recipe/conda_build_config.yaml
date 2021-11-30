@@ -460,9 +460,7 @@ ipopt:
 isl:
   - '0.22'
 jasper:
-  # the first windows build of jasper was 2.0.14
-  - 1  # [not (win or arm64)]
-  - 2  # [win or arm64]
+  - '2'
 jpeg:
   - 9
 libjpeg_turbo:

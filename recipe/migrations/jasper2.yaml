@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-jasper:
-- '2'
-migrator_ts: 1632848255.398075
