@@ -2,6 +2,8 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-davix:
-- '0.8'
-migrator_ts: 1632498114.379716
+gdal:
+- '3.4'
+libgdal:
+- '3.4'
+migrator_ts: 1636499972.7301745
