@@ -595,3 +595,9 @@ libmediainfo
 pymediainfo
 perspective
 vowpalwabbit
+igl
+mpi4jax
+plum-dispatch
+octave
+netcdf-cxx4
+julia
