@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-google_cloud_cpp:
-- '1.34'
-migrator_ts: 1638410571.2070382
