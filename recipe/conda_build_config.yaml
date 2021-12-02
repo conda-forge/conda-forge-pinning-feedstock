@@ -354,9 +354,9 @@ arb:
 arpack:
   - 3.7
 arrow_cpp:
+  - 6.0.1
   - 5.0.0
   - 4.0.1
-  - 3.0.0
 aws_c_auth:
   - 0.6.8
 aws_c_cal:
