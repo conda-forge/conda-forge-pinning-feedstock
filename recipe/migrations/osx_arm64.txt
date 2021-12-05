@@ -601,3 +601,4 @@ plum-dispatch
 octave
 netcdf-cxx4
 julia
+r-svglite
