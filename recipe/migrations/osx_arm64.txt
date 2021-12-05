@@ -603,3 +603,4 @@ netcdf-cxx4
 julia
 r-lme4
 r-rstatix
+r-svglite
