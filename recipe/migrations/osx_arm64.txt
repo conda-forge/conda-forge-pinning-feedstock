@@ -604,3 +604,4 @@ julia
 r-lme4
 r-rstatix
 r-svglite
+spyder
