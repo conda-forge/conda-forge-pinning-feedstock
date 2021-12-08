@@ -603,6 +603,8 @@ julia
 r-lme4
 r-rstatix
 r-svglite
+r-knitr
+r-ggpubr
 spyder
 pexsi
 mysql-connector-odbc
