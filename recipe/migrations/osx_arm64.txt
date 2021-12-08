@@ -189,7 +189,6 @@ gdal
 libgdal
 snowflake-connector-python
 openai
-mysql-connector-odbc
 fastapi
 uvicorn
 qgrid
@@ -606,3 +605,8 @@ r-rstatix
 r-svglite
 spyder
 pexsi
+mysql-connector-odbc
+mysqlclient
+mysql-connector-python
+mysql-connector-c
+mysql-connector-cpp
