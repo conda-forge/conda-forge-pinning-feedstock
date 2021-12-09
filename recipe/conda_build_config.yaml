@@ -737,7 +737,9 @@ vlfeat:
 volk:
   - '2.5'
 vtk:
-  - 9.0.1
+  - 9.1.0 qt*
+  - 9.1.0 egl*  # [linux64]
+  - 9.1.0 osmesa*  # [linux64]
 x264:
   - '1!161.*'
 xerces_c:
