@@ -613,4 +613,5 @@ mysql-connector-python
 mysql-connector-c
 mysql-connector-cpp
 pyferret
+cf-units
 pyresample
