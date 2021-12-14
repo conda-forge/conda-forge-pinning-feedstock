@@ -474,5 +474,7 @@ spyder
 jellyfish
 pexsi
 buildah
+squashfuse
+pyferret
 alsa-plugins
 zchunk
