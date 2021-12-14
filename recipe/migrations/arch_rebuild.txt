@@ -476,3 +476,5 @@ pexsi
 buildah
 squashfuse
 pyferret
+alsa-plugins
+zchunk
