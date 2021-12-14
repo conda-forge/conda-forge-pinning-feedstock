@@ -615,3 +615,5 @@ mysql-connector-cpp
 pyferret
 cf-units
 pyresample
+zchunk
+vpython
