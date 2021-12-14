@@ -474,4 +474,5 @@ spyder
 jellyfish
 pexsi
 buildah
+alsa-plugins
 zchunk
