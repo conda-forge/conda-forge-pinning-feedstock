@@ -635,3 +635,4 @@ yaml
 rsa
 pyasn1
 s3transfer
+inchi
