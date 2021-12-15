@@ -636,3 +636,6 @@ rsa
 pyasn1
 s3transfer
 inchi
+imreg_dft
+sagemaker-python-sdk
+multicore-tsne
