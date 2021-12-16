@@ -639,3 +639,4 @@ inchi
 imreg_dft
 sagemaker-python-sdk
 multicore-tsne
+dftbplus
