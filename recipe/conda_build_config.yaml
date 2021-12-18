@@ -558,7 +558,7 @@ libthrift:
 libtiff:
   - 4
 libunwind:
-  - 1
+  - 1.5
 libv8:
   - 8.9.83
 libwebp:
