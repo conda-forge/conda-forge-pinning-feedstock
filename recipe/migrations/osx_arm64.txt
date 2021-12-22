@@ -643,3 +643,10 @@ dftbplus
 pymc
 gdstk
 cargo-bundle-licenses
+astropy-healpix
+photutils
+astroscrappy
+reproject
+pyregion
+regions
+
