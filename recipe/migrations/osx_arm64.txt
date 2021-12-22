@@ -642,3 +642,4 @@ multicore-tsne
 dftbplus
 pymc
 gdstk
+cargo-bundle-licenses
