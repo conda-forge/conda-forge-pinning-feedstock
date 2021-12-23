@@ -478,3 +478,4 @@ squashfuse
 pyferret
 alsa-plugins
 zchunk
+julia
