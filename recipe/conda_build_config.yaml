@@ -604,9 +604,9 @@ netcdf_fortran:
 nettle:
   - '3.7'
 nodejs:
- - 16
- - 14  # [not (osx and arm64)]
- - 12  # [not (osx and arm64)]
+  - '17'
+  - '16'
+  - '14'  # [not (osx and arm64)]
 nss:
   - 3
 nspr:
