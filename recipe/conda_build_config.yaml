@@ -502,7 +502,7 @@ libarchive:
 libblitz:
   - 1.0.2
 libcint:
-  - 4.4
+  - '5.1'
 libcurl:
   - 7
 libcrc32c:
