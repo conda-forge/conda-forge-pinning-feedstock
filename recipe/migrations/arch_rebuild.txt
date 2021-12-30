@@ -465,6 +465,7 @@ pandana
 pygeos
 pyogrio
 pyrosm
+pyvips
 rasterio
 pulp
 cartopy
