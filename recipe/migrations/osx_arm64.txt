@@ -649,4 +649,4 @@ astroscrappy
 reproject
 pyregion
 regions
-
+r-cairo
