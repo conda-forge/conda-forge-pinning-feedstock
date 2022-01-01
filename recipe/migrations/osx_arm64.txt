@@ -650,3 +650,4 @@ reproject
 pyregion
 regions
 r-cairo
+socat
