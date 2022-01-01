@@ -480,3 +480,4 @@ pyferret
 alsa-plugins
 zchunk
 julia
+socat
