@@ -517,6 +517,8 @@ libevent:
   - 2.1.10
 libffi:
   - '3.3'
+libflatsurf:
+  - 3
 libflint:
   - '2.8'
 libgdal:
