@@ -515,6 +515,8 @@ libeantic:
   - 1
 libevent:
   - 2.1.10
+libexactreal:
+  - 2
 libffi:
   - '3.3'
 libflint:
