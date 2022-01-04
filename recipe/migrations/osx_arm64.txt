@@ -653,3 +653,6 @@ r-cairo
 socat
 r-irkernel
 coreutils
+libsigcpp
+cairomm
+graph-tool
