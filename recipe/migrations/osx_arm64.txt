@@ -656,3 +656,4 @@ coreutils
 libsigcpp
 cairomm
 graph-tool
+galpy
