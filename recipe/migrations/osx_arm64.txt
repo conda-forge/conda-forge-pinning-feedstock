@@ -653,3 +653,4 @@ r-cairo
 socat
 r-irkernel
 coreutils
+libsigcpp
