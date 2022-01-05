@@ -484,3 +484,4 @@ socat
 backports.zoneinfo
 cppad
 manif
+pinocchio
