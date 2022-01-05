@@ -482,3 +482,5 @@ zchunk
 julia
 socat
 backports.zoneinfo
+cppad
+manif
