@@ -658,3 +658,4 @@ cairomm
 graph-tool
 galpy
 r-sourcetools
+sunpy
