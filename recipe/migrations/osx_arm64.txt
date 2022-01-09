@@ -661,3 +661,4 @@ r-sourcetools
 sunpy
 changeforest
 r-changeforest
+peewee
