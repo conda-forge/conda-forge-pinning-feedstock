@@ -662,3 +662,6 @@ sunpy
 changeforest
 r-changeforest
 peewee
+r-ecp
+r-rfast
+r-kernlab
