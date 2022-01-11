@@ -665,3 +665,4 @@ peewee
 r-ecp
 r-rfast
 r-kernlab
+r-languageserver
