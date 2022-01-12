@@ -268,8 +268,6 @@ pin_run_as_build:
     max_pin: x.x
   mpfr:
     max_pin: x
-  ncurses:
-    max_pin: x.x
   netcdf-cxx4:
     max_pin: x.x
   netcdf-fortran:
@@ -606,7 +604,7 @@ mumps_seq:
 nccl:
   - 2
 ncurses:
-  - 6.2
+  - 6
 netcdf_cxx4:
   - 4.3
 netcdf_fortran:
