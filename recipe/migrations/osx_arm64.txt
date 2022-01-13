@@ -667,3 +667,4 @@ r-rfast
 r-kernlab
 r-languageserver
 biosphere
+cx_freeze
