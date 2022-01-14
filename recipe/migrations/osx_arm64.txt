@@ -668,3 +668,4 @@ r-kernlab
 r-languageserver
 biosphere
 cx_freeze
+ruptures
