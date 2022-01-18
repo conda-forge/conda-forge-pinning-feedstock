@@ -671,3 +671,4 @@ cx_freeze
 ruptures
 pytomlpp
 protozfits
+ortools-python
