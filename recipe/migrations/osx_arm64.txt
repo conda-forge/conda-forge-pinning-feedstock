@@ -672,4 +672,7 @@ ruptures
 pytomlpp
 protozfits
 ortools-python
+r-ape
+r-fastmatch
+r-quadprog
 r-kableextra
