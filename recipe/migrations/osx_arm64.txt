@@ -676,3 +676,6 @@ r-ape
 r-fastmatch
 r-quadprog
 r-kableextra
+libtvm
+nnvm
+
