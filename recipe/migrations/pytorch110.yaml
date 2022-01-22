@@ -5,4 +5,4 @@ __migrator:
   bump_number: 1
 
 pytorch:
-  - 1.10.0
+  - 1.10
