@@ -485,3 +485,5 @@ backports.zoneinfo
 cppad
 manif
 pinocchio
+libtvm
+nnvm
