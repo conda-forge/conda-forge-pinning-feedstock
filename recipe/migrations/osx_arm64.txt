@@ -677,3 +677,4 @@ r-fastmatch
 r-quadprog
 r-kableextra
 r-phangorn
+compas
