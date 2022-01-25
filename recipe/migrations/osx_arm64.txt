@@ -679,3 +679,4 @@ r-kableextra
 r-phangorn
 compas
 ukkonen
+finesse
