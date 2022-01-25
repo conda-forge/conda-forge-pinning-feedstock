@@ -680,3 +680,7 @@ r-phangorn
 compas
 ukkonen
 finesse
+suds-jurko
+rrdtool
+m2crypto
+pycurl
