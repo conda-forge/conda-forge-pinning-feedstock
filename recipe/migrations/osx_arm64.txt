@@ -12,6 +12,7 @@ libnsl
 pycparser
 constructor
 lapack
+blis
 openblas
 cmake
 make
