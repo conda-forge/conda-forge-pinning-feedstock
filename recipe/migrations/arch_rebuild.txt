@@ -1,6 +1,9 @@
 occt
 pythonocc-core
 conda-package-handling
+lapack
+blis
+openblas
 numpy
 tornado
 bcrypt
