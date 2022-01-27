@@ -686,3 +686,4 @@ rrdtool
 m2crypto
 pycurl
 php
+s2geometry
