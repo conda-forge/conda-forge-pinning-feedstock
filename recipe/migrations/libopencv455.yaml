@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-libopencv:
-- 4.5.5
-migrator_ts: 1642005626.2850642
