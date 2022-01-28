@@ -705,3 +705,4 @@ mongoengine
 pymssql
 mercurial
 pyahocorasick
+treelite
