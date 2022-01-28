@@ -706,3 +706,5 @@ pymssql
 mercurial
 pyahocorasick
 treelite
+msitools
+msvc-headers-libs
