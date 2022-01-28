@@ -708,3 +708,4 @@ pyahocorasick
 treelite
 msitools
 msvc-headers-libs
+esmpy
