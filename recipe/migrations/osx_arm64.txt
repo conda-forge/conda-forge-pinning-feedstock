@@ -709,3 +709,5 @@ treelite
 msitools
 msvc-headers-libs
 esmpy
+cdo
+python-cdo
