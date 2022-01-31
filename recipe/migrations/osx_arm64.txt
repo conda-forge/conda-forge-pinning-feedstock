@@ -711,3 +711,6 @@ msvc-headers-libs
 esmpy
 cdo
 python-cdo
+python-magic
+httpx
+tesserocr
