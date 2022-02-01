@@ -544,7 +544,7 @@ libkml:
 libiio:
   - 0
 libmatio:
-  - 1.5
+  - 1.5.21
 libmicrohttpd:
   - 0.9
 libnetcdf:
