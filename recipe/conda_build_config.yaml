@@ -392,7 +392,7 @@ capnproto:
 ccr:
   - 1.3
 cfitsio:
-  - 3.470
+  - 4.0.0
 coin_or_cbc:
   - 2.10
 coincbc:
