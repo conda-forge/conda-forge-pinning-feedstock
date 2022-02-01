@@ -533,6 +533,8 @@ libgit2:
   - '1.3'
 libhugetlbfs:
   - 2
+libhwy:
+  - 0.15
 libiconv:
   - 1.16
 libintervalxt:
