@@ -462,6 +462,7 @@ gooseeye
 goosefem
 gooseslurm
 parallel
+paraview
 prrng
 qpot
 mosh
