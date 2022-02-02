@@ -717,3 +717,4 @@ httpx
 tesserocr
 climlab
 findutils
+xmlsec
