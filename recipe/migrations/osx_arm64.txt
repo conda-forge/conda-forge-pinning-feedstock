@@ -716,3 +716,4 @@ python-magic
 httpx
 tesserocr
 climlab
+findutils
