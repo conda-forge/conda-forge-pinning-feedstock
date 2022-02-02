@@ -489,3 +489,4 @@ cppad
 manif
 pinocchio
 php
+xmlsec
