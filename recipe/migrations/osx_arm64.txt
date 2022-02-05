@@ -718,6 +718,11 @@ tesserocr
 climlab
 findutils
 xmlsec
+allennlp
+allennlp-models
+allennlp-optuna
+allennlp-semparse
+allennlp-server
 compas_view2
 compas_occ
 compas_cgal
