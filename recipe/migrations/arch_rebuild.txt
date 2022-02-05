@@ -1,6 +1,9 @@
 occt
 pythonocc-core
 conda-package-handling
+lapack
+blis
+openblas
 numpy
 tornado
 bcrypt
@@ -485,3 +488,5 @@ backports.zoneinfo
 cppad
 manif
 pinocchio
+php
+xmlsec
