@@ -440,7 +440,7 @@ gnuradio_core:
 gsl:
   - 2.7
 gsoap:
-  - 2.8.117
+  - 2.8.119
 gstreamer:
   - 1.18
 gst_plugins_base:
