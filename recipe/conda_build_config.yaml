@@ -436,7 +436,7 @@ gf2x:
 gdk_pixbuf:
   - 2
 gnuradio_core:
-  - 3.9.5
+  - 3.10.0
 gsl:
   - 2.7
 gsoap:
