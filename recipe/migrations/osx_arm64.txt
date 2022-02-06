@@ -714,4 +714,3 @@ python-cdo
 python-magic
 httpx
 tesserocr
-prophet
