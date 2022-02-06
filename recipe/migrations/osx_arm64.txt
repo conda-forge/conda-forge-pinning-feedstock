@@ -462,6 +462,7 @@ gooseeye
 goosefem
 gooseslurm
 parallel
+paraview
 prrng
 qpot
 mosh
@@ -677,6 +678,8 @@ r-ape
 r-fastmatch
 r-quadprog
 r-kableextra
+libtvm
+nnvm
 r-phangorn
 compas
 ukkonen
@@ -714,3 +717,15 @@ python-cdo
 python-magic
 httpx
 tesserocr
+climlab
+findutils
+xmlsec
+allennlp
+allennlp-models
+allennlp-optuna
+allennlp-semparse
+allennlp-server
+compas_view2
+compas_occ
+compas_cgal
+pyuvdata
