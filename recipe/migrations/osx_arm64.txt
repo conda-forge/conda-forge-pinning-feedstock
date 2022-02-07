@@ -725,6 +725,7 @@ allennlp-models
 allennlp-optuna
 allennlp-semparse
 allennlp-server
+tango
 compas_view2
 compas_occ
 compas_cgal
