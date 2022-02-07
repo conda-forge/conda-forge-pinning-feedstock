@@ -729,3 +729,4 @@ compas_view2
 compas_occ
 compas_cgal
 pyuvdata
+dscribe
