@@ -490,3 +490,4 @@ manif
 pinocchio
 php
 xmlsec
+geckodriver
