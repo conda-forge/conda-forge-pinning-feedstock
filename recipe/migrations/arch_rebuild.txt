@@ -491,3 +491,5 @@ pinocchio
 php
 xmlsec
 geckodriver
+pygrib
+eccodes
