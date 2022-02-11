@@ -736,3 +736,4 @@ r-sn
 fs-s3fs
 pyside2
 python-docx
+gifsicle
