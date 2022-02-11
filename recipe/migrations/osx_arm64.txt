@@ -731,3 +731,4 @@ compas_occ
 compas_cgal
 pyuvdata
 dscribe
+sgp4
