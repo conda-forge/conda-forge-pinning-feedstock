@@ -737,3 +737,4 @@ fs-s3fs
 pyside2
 python-docx
 gifsicle
+qutip
