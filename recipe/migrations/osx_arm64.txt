@@ -732,5 +732,6 @@ compas_cgal
 pyuvdata
 dscribe
 sgp4
+fs-s3fs
 pyside2
 python-docx
