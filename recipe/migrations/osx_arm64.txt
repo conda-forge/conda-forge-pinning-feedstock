@@ -733,3 +733,4 @@ pyuvdata
 dscribe
 sgp4
 pyside2
+python-docx
