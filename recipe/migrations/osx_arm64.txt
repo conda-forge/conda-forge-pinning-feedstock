@@ -738,3 +738,4 @@ pyside2
 python-docx
 gifsicle
 dxtbx
+r-gtools
