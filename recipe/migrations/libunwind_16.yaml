@@ -1,0 +1,11 @@
+migrator_ts: 1644790084
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  bump_number:
+    1
+
+libunwind:
+  - 1.6
