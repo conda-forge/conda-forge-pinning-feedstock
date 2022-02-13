@@ -567,6 +567,8 @@ libwebp_base:
   - 1
 libxml2:
   - 2.9
+libxsmm:
+  - 1
 libuuid:
   - 2
 libzip:
