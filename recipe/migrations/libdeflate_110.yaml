@@ -1,0 +1,10 @@
+migrator_ts: 1644789537
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  bump_number:
+    1
+libdeflate:
+  - 1.10
