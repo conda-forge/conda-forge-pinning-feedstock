@@ -5,3 +5,5 @@ __migrator:
 migrator_ts: 1597089749.3339348
 mumps_mpi:
 - 5.2.1
+mumps_seq:
+- 5.2.1
