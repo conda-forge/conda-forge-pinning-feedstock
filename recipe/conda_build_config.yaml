@@ -653,7 +653,7 @@ openssl:
 openturns:
   - '1.18'
 orc:
-  - 1.7.2
+  - 1.7.3
 pango:
   - '1.48'
 pari:

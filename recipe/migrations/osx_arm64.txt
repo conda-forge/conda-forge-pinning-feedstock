@@ -737,4 +737,6 @@ fs-s3fs
 pyside2
 python-docx
 gifsicle
+dxtbx
+r-gtools
 qutip
