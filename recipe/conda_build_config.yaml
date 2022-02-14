@@ -602,9 +602,9 @@ metis:
 mimalloc:
   - 1.6.3
 mkl:
-  - '2021'
+  - 2022
 mkl_devel:
-  - '2021'
+  - 2022
 mpich:
   - 3
 mpfr:
