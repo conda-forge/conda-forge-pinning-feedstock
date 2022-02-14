@@ -742,3 +742,4 @@ gifsicle
 dxtbx
 r-gtools
 qutip
+mnelab
