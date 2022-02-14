@@ -69,6 +69,8 @@ conda-forge-ci-setup
 grpcio
 h5py
 wrapt
+mne-base
+mne
 flatbuffers
 tensorflow-estimator
 google-pasta
