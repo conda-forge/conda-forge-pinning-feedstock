@@ -743,3 +743,4 @@ dxtbx
 r-gtools
 qutip
 mnelab
+r-forecast
