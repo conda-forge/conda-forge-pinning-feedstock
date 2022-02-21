@@ -746,3 +746,6 @@ mnelab
 r-forecast
 r-hexbin
 sccache
+r-mclust
+r-diptest
+r-distributionutils
