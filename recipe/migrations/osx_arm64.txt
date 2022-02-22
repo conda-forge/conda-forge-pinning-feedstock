@@ -749,3 +749,4 @@ sccache
 r-mclust
 r-diptest
 r-distributionutils
+connexion
