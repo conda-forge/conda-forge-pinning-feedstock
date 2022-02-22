@@ -13,8 +13,7 @@ __migrator:
   check_solvable: false
   primary_key: cuda_compiler_version
   wait_for_migrators:
-    - cuda110
-    - cuda111_112
+    - aarch64andppc64leaddition
 
 c_compiler_version:            # [ppc64le]
   - 9                          # [ppc64le]
