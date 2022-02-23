@@ -751,3 +751,4 @@ r-diptest
 r-distributionutils
 connexion
 r-microbenchmark
+pdm
