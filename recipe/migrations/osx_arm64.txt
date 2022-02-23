@@ -3,6 +3,7 @@ micromamba
 conda-build
 gmp
 mpfr
+libavif
 mpc
 isl
 pyarrow
