@@ -6,6 +6,7 @@ blis
 openblas
 numpy
 tornado
+libavif
 bcrypt
 tqdm
 zstd
