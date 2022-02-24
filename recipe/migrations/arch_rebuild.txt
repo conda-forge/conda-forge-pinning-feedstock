@@ -12,6 +12,7 @@ tqdm
 zstd
 sympy
 gunicorn
+cx_oracle
 numba
 psycopg2
 enum34
