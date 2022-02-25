@@ -4,4 +4,6 @@ __migrator:
   migration_number: 1
 gstreamer:
 - '1.20'
+gst_plugins_base:
+- '1.20'
 migrator_ts: 1644012262.9946759
