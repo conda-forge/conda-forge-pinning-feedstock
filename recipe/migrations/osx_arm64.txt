@@ -755,6 +755,8 @@ r-microbenchmark
 pdm
 dagster
 libsass
+r-tidygraph
+numbalsoda
 mbuild
 foyer
 gmso
