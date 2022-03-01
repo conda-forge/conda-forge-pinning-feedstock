@@ -757,3 +757,5 @@ dagster
 libsass
 r-tidygraph
 numbalsoda
+pyright
+macfsevents
