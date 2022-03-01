@@ -756,3 +756,4 @@ pdm
 dagster
 libsass
 r-tidygraph
+numbalsoda
