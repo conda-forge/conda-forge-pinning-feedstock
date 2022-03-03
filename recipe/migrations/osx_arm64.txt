@@ -759,3 +759,5 @@ r-tidygraph
 numbalsoda
 pyright
 macfsevents
+python-stratify
+nco
