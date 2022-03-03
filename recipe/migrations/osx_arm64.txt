@@ -761,3 +761,4 @@ pyright
 macfsevents
 python-stratify
 nco
+lightfm
