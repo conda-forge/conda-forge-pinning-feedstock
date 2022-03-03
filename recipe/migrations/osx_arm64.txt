@@ -762,3 +762,6 @@ macfsevents
 python-stratify
 nco
 lightfm
+tilt
+kubernetes
+fastdtw
