@@ -609,7 +609,7 @@ mkl:
 mkl_devel:
   - 2022
 mpich:
-  - 3
+  - 4
 mpfr:
   - 4
 mumps_mpi:
