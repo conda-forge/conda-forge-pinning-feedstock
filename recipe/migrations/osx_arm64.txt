@@ -757,6 +757,9 @@ dagster
 libsass
 r-tidygraph
 numbalsoda
+mbuild
+foyer
+gmso
 pyright
 macfsevents
 python-stratify
