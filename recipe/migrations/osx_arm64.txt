@@ -760,3 +760,15 @@ numbalsoda
 mbuild
 foyer
 gmso
+pyright
+macfsevents
+python-stratify
+nco
+lightfm
+tilt
+kubernetes
+fastdtw
+tippecanoe
+pyclipper
+mrcpp
+liblsl
