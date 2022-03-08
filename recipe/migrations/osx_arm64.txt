@@ -772,3 +772,4 @@ tippecanoe
 pyclipper
 mrcpp
 liblsl
+dm-tree
