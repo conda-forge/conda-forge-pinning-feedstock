@@ -773,3 +773,4 @@ pyclipper
 mrcpp
 liblsl
 dm-tree
+clawpack
