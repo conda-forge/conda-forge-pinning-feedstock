@@ -774,3 +774,4 @@ mrcpp
 liblsl
 dm-tree
 clawpack
+gemmi
