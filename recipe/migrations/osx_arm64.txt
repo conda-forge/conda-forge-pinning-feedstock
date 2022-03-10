@@ -775,3 +775,4 @@ liblsl
 dm-tree
 clawpack
 gemmi
+datavzrd
