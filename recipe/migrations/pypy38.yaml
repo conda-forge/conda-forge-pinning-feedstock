@@ -15,6 +15,8 @@ __migrator:
     check_solvable: True
     pr_limit: 1
     bump_number: 0
+    wait_for:
+      - python310
     commit_message: "Rebuild for PyPy3.8 and PyPy3.9"
     exclude:
       # this shouldn't attempt to modify the python feedstocks
