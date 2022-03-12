@@ -776,3 +776,4 @@ dm-tree
 clawpack
 gemmi
 datavzrd
+xattr
