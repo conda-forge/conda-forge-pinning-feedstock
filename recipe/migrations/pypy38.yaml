@@ -15,7 +15,7 @@ __migrator:
     check_solvable: True
     exclude_pinned_pkgs: False
     pr_limit: 1
-    bump_number: 0
+    bump_number: 1
     wait_for:
       - python310
     commit_message: "Rebuild for PyPy3.8 and PyPy3.9"
