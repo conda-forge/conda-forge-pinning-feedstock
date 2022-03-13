@@ -13,6 +13,7 @@ __migrator:
     paused: False
     longterm: True
     check_solvable: True
+    exclude_pinned_pkgs: False
     pr_limit: 1
     bump_number: 0
     wait_for:
