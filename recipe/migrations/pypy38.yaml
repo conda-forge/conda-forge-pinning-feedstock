@@ -4,10 +4,13 @@ __migrator:
     primary_key: python
     ordering:
         python:
+            - 3.6.* *_cpython
             - 3.7.* *_cpython
             - 3.8.* *_cpython
             - 3.9.* *_cpython
             - 3.10.* *_cpython
+            - 3.6.* *_73_pypy
+            - 3.7.* *_73_pypy
             - 3.8.* *_73_pypy
             - 3.9.* *_73_pypy
     paused: False
