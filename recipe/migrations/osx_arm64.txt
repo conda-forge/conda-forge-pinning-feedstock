@@ -778,3 +778,4 @@ gemmi
 datavzrd
 xattr
 compas_fab
+coolprop
