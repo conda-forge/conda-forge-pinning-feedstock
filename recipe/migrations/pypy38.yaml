@@ -19,7 +19,7 @@ __migrator:
     exclude_pinned_pkgs: False
     pr_limit: 1
     bump_number: 1
-    wait_for:
+    wait_for_migrators:
       - python310
     commit_message: "Rebuild for PyPy3.8 and PyPy3.9"
     exclude:
