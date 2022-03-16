@@ -2,6 +2,7 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
+  check_solvable: False
 migrator_ts: 1644122594.106261
 singular:
 - 4.2.1.3
