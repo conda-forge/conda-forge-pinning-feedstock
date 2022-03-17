@@ -14,6 +14,7 @@ __migrator:
   primary_key: cuda_compiler_version
   wait_for_migrators:
     - aarch64andppc64leaddition
+  exclude_pinned_pkgs: False
   commit_message: "Rebuild for cuda for ppc64le and aarch64"
 
 c_compiler_version:            # [ppc64le or aarch64]
