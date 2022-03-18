@@ -783,5 +783,6 @@ findent
 r-roxygen2
 ddtrace
 filprofiler
+python-duckdb
 metview
 metview-batch
