@@ -779,3 +779,11 @@ datavzrd
 xattr
 compas_fab
 ansi2html
+coolprop
+findent
+r-roxygen2
+ddtrace
+filprofiler
+python-duckdb
+metview
+metview-batch
