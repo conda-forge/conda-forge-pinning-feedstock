@@ -778,6 +778,7 @@ gemmi
 datavzrd
 xattr
 compas_fab
+ansi2html
 coolprop
 findent
 r-roxygen2
