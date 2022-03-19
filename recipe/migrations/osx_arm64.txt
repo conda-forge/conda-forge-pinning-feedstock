@@ -787,3 +787,4 @@ filprofiler
 python-duckdb
 metview
 metview-batch
+fortls
