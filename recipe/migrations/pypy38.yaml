@@ -15,6 +15,7 @@ __migrator:
             - 3.9.* *_73_pypy
     paused: False
     longterm: True
+    use_local: False
     check_solvable: True
     exclude_pinned_pkgs: False
     pr_limit: 1
