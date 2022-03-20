@@ -698,6 +698,8 @@ python_impl:
   - cpython   # [not (osx and arm64)]
   - cpython
   - cpython
+pytorch;
+  - "1.10"
 qt:
   - 5.12
 qtkeychain:
