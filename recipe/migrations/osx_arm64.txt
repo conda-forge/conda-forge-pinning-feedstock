@@ -788,3 +788,4 @@ python-duckdb
 metview
 metview-batch
 fortls
+swiglpk
