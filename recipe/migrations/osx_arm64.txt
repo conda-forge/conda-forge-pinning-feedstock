@@ -791,3 +791,4 @@ fortls
 swiglpk
 cmdstan
 pyimagej
+compas_occ
