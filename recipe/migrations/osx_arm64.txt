@@ -790,3 +790,4 @@ metview-batch
 fortls
 swiglpk
 cmdstan
+pyimagej
