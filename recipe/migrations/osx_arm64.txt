@@ -792,3 +792,4 @@ swiglpk
 cmdstan
 pyimagej
 compas_occ
+go-licenses
