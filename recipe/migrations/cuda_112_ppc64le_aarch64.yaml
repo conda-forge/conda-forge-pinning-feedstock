@@ -13,7 +13,7 @@ __migrator:
   check_solvable: false
   primary_key: cuda_compiler_version
   wait_for_migrators:
-    - ArchRebuild
+    - aarch64 and ppc64le addition
   exclude_pinned_pkgs: False
   commit_message: "Rebuild for cuda for ppc64le and aarch64"
 
