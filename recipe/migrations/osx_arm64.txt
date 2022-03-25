@@ -794,3 +794,4 @@ pyimagej
 compas_occ
 go-licenses
 autode
+brian2
