@@ -34,7 +34,7 @@ pytest-benchmark
 conda-forge-ci-setup
 oclgrind
 openmpi
-ucx
+ucx-split
 typing
 sqlalchemy
 root_pandas
