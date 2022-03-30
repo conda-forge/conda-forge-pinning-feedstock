@@ -799,3 +799,4 @@ yappi
 r-suppdists
 apscheduler
 python-eccodes
+cosmosis
