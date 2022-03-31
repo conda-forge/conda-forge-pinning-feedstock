@@ -13,7 +13,7 @@ __migrator:
             - 3.7.* *_73_pypy
             - 3.8.* *_73_pypy
             - 3.9.* *_73_pypy
-    paused: True
+    paused: False
     longterm: True
     use_local: False
     check_solvable: True
