@@ -17,6 +17,8 @@ __migrator:
   exclude_pinned_pkgs: False
   commit_message: "Rebuild for cuda for ppc64le and aarch64"
 
+arm_variant_type:              # [aarch64]
+  - sbsa                       # [aarch64]
 c_compiler_version:            # [ppc64le or aarch64]
   - 10                         # [ppc64le or aarch64]
 cxx_compiler_version:          # [ppc64le or aarch64]
