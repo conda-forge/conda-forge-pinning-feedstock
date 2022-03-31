@@ -802,3 +802,4 @@ apscheduler
 python-eccodes
 cosmosis
 yte
+pypandoc
