@@ -449,7 +449,7 @@ gdal:
 geos:
   - 3.10.2
 geotiff:
-  - 1.7.0
+  - 1.7.1
 gfal2:
   - '2.20'
 gflags:
