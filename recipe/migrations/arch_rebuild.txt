@@ -506,3 +506,5 @@ cusparselt
 librmm
 rmm
 nccl
+ptxcompiler
+arrow-cpp
