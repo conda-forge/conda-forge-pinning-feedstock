@@ -772,6 +772,7 @@ tippecanoe
 pyclipper
 mrcpp
 liblsl
+pyg4ometry
 dm-tree
 clawpack
 gemmi
