@@ -497,3 +497,12 @@ geckodriver
 pygrib
 eccodes
 fortls
+cub
+thrust
+cupy
+cuquantum
+cuquantum-python
+cusparselt
+librmm
+rmm
+nccl
