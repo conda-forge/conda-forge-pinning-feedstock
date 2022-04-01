@@ -509,3 +509,7 @@ rmm
 nccl
 ptxcompiler
 arrow-cpp
+cudasirecon
+faiss-split
+implicit
+kaldi
