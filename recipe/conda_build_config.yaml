@@ -50,8 +50,8 @@ m2w64_fortran_compiler:        # [win]
 CMAKE_GENERATOR:               # [win]
   - NMake Makefiles            # [win]
 
-cuda_compiler:                 # [linux64 or win or aarch64 or ppc64le]
-  - nvcc                       # [linux64 or win or aarch64 or ppc64le]
+cuda_compiler:                 # [linux or win]
+  - nvcc                       # [linux or win]
 cuda_compiler_version:
   - None
   - 10.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
