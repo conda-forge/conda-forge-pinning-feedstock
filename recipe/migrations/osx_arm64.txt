@@ -803,3 +803,4 @@ python-eccodes
 cosmosis
 yte
 pypandoc
+ducc0
