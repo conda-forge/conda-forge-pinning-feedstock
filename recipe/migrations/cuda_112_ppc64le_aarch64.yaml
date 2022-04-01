@@ -3,7 +3,7 @@ __migrator:
   kind:
     version
   migration_number:
-    1
+    2
   build_number:
     1
   paused: false
