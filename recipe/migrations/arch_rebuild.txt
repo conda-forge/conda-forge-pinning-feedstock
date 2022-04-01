@@ -509,3 +509,4 @@ rmm
 nccl
 ptxcompiler
 arrow-cpp
+faiss-split
