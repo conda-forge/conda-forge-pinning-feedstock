@@ -511,3 +511,4 @@ ptxcompiler
 arrow-cpp
 faiss-split
 implicit
+kaldi
