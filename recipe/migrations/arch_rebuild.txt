@@ -509,7 +509,11 @@ rmm
 nccl
 ptxcompiler
 arrow-cpp
+cudadecon
 cudasirecon
 faiss-split
+hoomd
 implicit
 kaldi
+libastra
+pycuda
