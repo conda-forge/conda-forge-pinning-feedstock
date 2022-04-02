@@ -1,0 +1,11 @@
+migrator_ts: 1641760645
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  bump_number:
+    1
+
+pango:
+  - 1.50

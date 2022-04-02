@@ -1,6 +1,5 @@
 migrator_ts: 1623865877
 __migrator:
-    paused: False
     migration_number: 1
     operation: key_add
     primary_key: python
@@ -13,6 +12,7 @@ __migrator:
             - 3.6.* *_73_pypy
             - 3.7.* *_73_pypy  # new entry
     longterm: True
+    paused: True
     pr_limit: 6
     bump_number: 0
     wait_for_migrators:

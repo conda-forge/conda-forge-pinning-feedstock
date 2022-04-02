@@ -2,6 +2,6 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-migrator_ts: 1616561397.3859694
-pango:
-- '1.48'
+libprotobuf:
+- '3.19'
+migrator_ts: 1634806373.384677

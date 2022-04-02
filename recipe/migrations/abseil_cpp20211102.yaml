@@ -1,0 +1,8 @@
+migrator_ts: 1644918847
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+abseil_cpp:
+ - '20211102.0'

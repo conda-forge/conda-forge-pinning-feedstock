@@ -3,5 +3,7 @@ __migrator:
   kind: version
   migration_number: 1
 libthrift:
-- 0.15.0
-migrator_ts: 1631491093.6389954
+- 0.16.0
+thrift_cpp:
+- 0.16.0
+migrator_ts: 1647553508.657296
