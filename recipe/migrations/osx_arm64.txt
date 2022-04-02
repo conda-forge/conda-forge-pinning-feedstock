@@ -804,3 +804,4 @@ cosmosis
 yte
 pypandoc
 ducc0
+s5cmd
