@@ -528,6 +528,7 @@ meld
 nnpops
 nvidia-apex
 omniscidb
+openmm
 openmm-plumed
 openmm-torch
 prismatic_split
@@ -541,3 +542,4 @@ torch-scatter
 torchsparse
 tsnecuda
 tvm-py
+xgboost
