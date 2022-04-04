@@ -808,3 +808,6 @@ s5cmd
 zeroc-ice
 ann
 faunus
+clhep
+healpix_cxx
+pmw
