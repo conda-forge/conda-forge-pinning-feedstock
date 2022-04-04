@@ -811,3 +811,4 @@ faunus
 clhep
 healpix_cxx
 pmw
+pykep
