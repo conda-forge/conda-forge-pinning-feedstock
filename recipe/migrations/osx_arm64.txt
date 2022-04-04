@@ -807,3 +807,4 @@ ducc0
 s5cmd
 zeroc-ice
 ann
+faunus
