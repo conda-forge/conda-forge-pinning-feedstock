@@ -806,3 +806,4 @@ pypandoc
 ducc0
 s5cmd
 zeroc-ice
+polyscope
