@@ -812,3 +812,4 @@ clhep
 healpix_cxx
 pmw
 pykep
+sourmash-minimal
