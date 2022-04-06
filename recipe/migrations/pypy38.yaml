@@ -42,8 +42,8 @@ numpy:
   - 1.19
   - 1.19
   - 1.21
-  - 1.22               # [not (osx and arm64)]
-  - 1.22               # [not (osx and arm64)]
+  - 1.19               # [not (osx and arm64)]
+  - 1.19               # [not (osx and arm64)]
 python_impl:
   - cpython            # [not (osx and arm64)]
   - cpython
