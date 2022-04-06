@@ -813,5 +813,6 @@ clhep
 healpix_cxx
 pmw
 pykep
+sourmash-minimal
 pymbar
 f2c
