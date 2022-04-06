@@ -518,3 +518,8 @@ omniscidb
 openmm
 pycuda
 xgboost
+clhep
+f2c
+fermipy
+healpix_cxx
+pmw
