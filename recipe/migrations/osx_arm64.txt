@@ -814,3 +814,4 @@ healpix_cxx
 pmw
 pykep
 pymbar
+f2c
