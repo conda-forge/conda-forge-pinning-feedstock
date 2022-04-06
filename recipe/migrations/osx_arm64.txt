@@ -807,3 +807,9 @@ ducc0
 s5cmd
 zeroc-ice
 polyscope
+ann
+faunus
+clhep
+healpix_cxx
+pmw
+pykep
