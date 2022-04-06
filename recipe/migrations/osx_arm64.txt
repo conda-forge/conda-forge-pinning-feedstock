@@ -813,3 +813,4 @@ clhep
 healpix_cxx
 pmw
 pykep
+pymbar
