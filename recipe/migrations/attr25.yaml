@@ -1,0 +1,12 @@
+# To learn more about migrations read CFEP-09
+# https://github.com/conda-forge/conda-forge-enhancement-proposals/blob/master/cfep-09.md
+# The timestamp of when the migration was made
+# Can be obtained by copying the output of
+migrator_ts: 1649211998
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+attr:
+  - 2.5
