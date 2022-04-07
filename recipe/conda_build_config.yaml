@@ -354,6 +354,8 @@ arrow_cpp:
   - 4.0.1
 assimp:
   - 5.2
+attr:
+  - 2.5
 aws_c_auth:
   - 0.6.11
 aws_c_cal:
