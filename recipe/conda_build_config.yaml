@@ -507,6 +507,8 @@ krb5:
   - '1.19'
 libarchive:
   - 3.5
+libavif:
+  - '0.9.3'
 libblitz:
   - 1.0.2
 libcint:
