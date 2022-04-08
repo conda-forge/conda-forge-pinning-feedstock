@@ -817,3 +817,4 @@ sourmash-minimal
 pymbar
 f2c
 climlab-rrtmg
+doit
