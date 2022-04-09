@@ -517,6 +517,8 @@ nvidia-apex
 omniscidb
 openmm
 pycuda
+clpeak
+pyvkfft
 xgboost
 clhep
 f2c
