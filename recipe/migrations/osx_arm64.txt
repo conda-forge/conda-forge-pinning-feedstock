@@ -812,6 +812,8 @@ faunus
 clhep
 healpix_cxx
 pmw
+clpeak
+pyvkfft
 pykep
 sourmash-minimal
 pymbar
