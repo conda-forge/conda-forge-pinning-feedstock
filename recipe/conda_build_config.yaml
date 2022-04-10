@@ -745,7 +745,7 @@ tbb:
 tbb_devel:
   - 2020
 thrift_cpp:
-  - 0.15.0
+  - 0.16.0
 tinyxml2:
   - 9
 tk:
