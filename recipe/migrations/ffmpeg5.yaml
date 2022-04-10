@@ -1,0 +1,9 @@
+migrator_ts: 1649161119
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+ffmpeg:
+  - 5    # [unix]
+  - 4.3  # [win]
