@@ -820,3 +820,4 @@ pymbar
 f2c
 climlab-rrtmg
 doit
+watchfiles
