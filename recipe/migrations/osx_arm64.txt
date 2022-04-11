@@ -821,3 +821,4 @@ f2c
 climlab-rrtmg
 doit
 watchfiles
+climlab-emanuel-convection-feedstock
