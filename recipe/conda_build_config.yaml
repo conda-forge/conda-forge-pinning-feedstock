@@ -510,7 +510,7 @@ krb5:
 libarchive:
   - 3.5
 libavif:
-  - 0.10.0
+  - 0.10.1
 libblitz:
   - 1.0.2
 libcint:
