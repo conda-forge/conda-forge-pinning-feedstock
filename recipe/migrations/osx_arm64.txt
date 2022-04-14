@@ -822,3 +822,4 @@ climlab-rrtmg
 doit
 watchfiles
 climlab-emanuel-convection
+niftyreg
