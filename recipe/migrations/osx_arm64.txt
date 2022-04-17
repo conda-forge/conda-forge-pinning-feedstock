@@ -823,3 +823,4 @@ doit
 watchfiles
 climlab-emanuel-convection
 niftyreg
+pygcgopt
