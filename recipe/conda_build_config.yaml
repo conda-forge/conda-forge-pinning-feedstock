@@ -608,7 +608,7 @@ lzo:
 metis:
   - 5.1
 mimalloc:
-  - 2.0.2
+  - 2.0.6
 mkl:
   - 2022
 mkl_devel:
