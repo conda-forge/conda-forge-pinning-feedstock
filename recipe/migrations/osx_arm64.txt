@@ -824,3 +824,4 @@ watchfiles
 climlab-emanuel-convection
 niftyreg
 pygcgopt
+pyshtools
