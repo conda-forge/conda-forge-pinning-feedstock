@@ -826,3 +826,4 @@ niftyreg
 pygcgopt
 pyshtools
 libconeangle
+celerite
