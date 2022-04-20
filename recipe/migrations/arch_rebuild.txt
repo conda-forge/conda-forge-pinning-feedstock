@@ -525,3 +525,4 @@ f2c
 fermipy
 healpix_cxx
 pmw
+bsddb3
