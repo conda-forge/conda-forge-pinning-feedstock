@@ -827,3 +827,4 @@ pygcgopt
 pyshtools
 libconeangle
 celerite
+python-casacore
