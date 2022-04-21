@@ -828,3 +828,4 @@ pyshtools
 libconeangle
 celerite
 python-casacore
+pymagewell
