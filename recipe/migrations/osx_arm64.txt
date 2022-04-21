@@ -829,3 +829,4 @@ libconeangle
 celerite
 python-casacore
 pymagewell
+landlab
