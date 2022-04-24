@@ -831,3 +831,4 @@ python-casacore
 pymagewell
 landlab
 bt
+xcfun
