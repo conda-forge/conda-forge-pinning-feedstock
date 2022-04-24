@@ -832,3 +832,5 @@ pymagewell
 landlab
 bt
 xcfun
+vampyr
+mrchem
