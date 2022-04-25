@@ -834,3 +834,4 @@ bt
 xcfun
 vampyr
 mrchem
+quantlib
