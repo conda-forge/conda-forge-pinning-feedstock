@@ -831,3 +831,7 @@ python-casacore
 pymagewell
 landlab
 _openmp_mutex
+bt
+xcfun
+vampyr
+mrchem

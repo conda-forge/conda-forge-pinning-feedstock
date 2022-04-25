@@ -365,9 +365,9 @@ aws_c_common:
 aws_c_event_stream:
   - 0.2.7
 aws_c_http:
-  - 0.6.13
+  - 0.6.14
 aws_c_io:
-  - 0.10.21
+  - 0.10.22
 aws_c_mqtt:
   - 0.7.10
 aws_c_s3:
@@ -654,7 +654,7 @@ occt:
 openblas:
   - 0.3.*
 openexr:
-  - 2.5
+  - '3.1'
 openjpeg:
   - '2.4'
 openmpi:
