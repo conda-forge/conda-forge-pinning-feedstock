@@ -836,3 +836,5 @@ vampyr
 mrchem
 quantlib
 dials
+nest-simulator
+
