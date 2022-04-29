@@ -526,3 +526,4 @@ fermipy
 healpix_cxx
 pmw
 bsddb3
+celery
