@@ -839,3 +839,4 @@ dials
 nest-simulator
 tango-idl
 omniorb
+celery
