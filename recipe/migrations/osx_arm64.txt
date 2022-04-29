@@ -837,6 +837,7 @@ mrchem
 quantlib
 dials
 nest-simulator
+img2pdf
 tango-idl
 omniorb
 celery
