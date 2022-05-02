@@ -841,3 +841,5 @@ img2pdf
 tango-idl
 omniorb
 celery
+pystackreg
+pyfai
