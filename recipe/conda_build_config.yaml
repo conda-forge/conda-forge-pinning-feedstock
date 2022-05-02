@@ -743,6 +743,8 @@ spdlog:
   - '1.10'
 sqlite:
   - 3
+starlink_ast:
+  - '9.2.7'
 suitesparse:
   - 5
 superlu_dist:
