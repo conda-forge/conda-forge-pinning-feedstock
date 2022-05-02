@@ -740,7 +740,7 @@ soapysdr:
 sox:
   - 14.4.2
 spdlog:
-  - 1.9
+  - '1.10'
 sqlite:
   - 3
 suitesparse:
