@@ -843,3 +843,4 @@ omniorb
 celery
 pystackreg
 pyfai
+r-rocit
