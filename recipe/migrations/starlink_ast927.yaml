@@ -1,8 +1,0 @@
-migrator_ts: 1651431250
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-starlink_ast:
-  - '9.2.7'
