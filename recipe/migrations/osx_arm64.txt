@@ -842,3 +842,4 @@ tango-idl
 omniorb
 celery
 pystackreg
+pyfai

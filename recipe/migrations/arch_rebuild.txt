@@ -528,3 +528,4 @@ pmw
 bsddb3
 celery
 pystackreg
+pyfai
