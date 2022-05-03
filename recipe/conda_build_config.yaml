@@ -771,6 +771,8 @@ volk:
   - '2.5'
 vtk:
   - 9.0.1
+wcslib:
+  - '7.7'
 wxwidgets:
   - '3.1'
 x264:
