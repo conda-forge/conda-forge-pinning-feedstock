@@ -766,7 +766,7 @@ tk:
 tiledb:
   - '2.7'
 uhd:
-  - 4.1.0
+  - 4.2.0
 vc:                    # [win]
   - 14                 # [win]
 vlfeat:
