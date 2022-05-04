@@ -845,3 +845,4 @@ pystackreg
 pyfai
 r-rocit
 quaternion
+autodiff
