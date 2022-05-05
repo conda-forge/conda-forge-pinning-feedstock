@@ -765,6 +765,8 @@ tk:
   - 8.6                # [not ppc64le]
 tiledb:
   - '2.7'
+ucx:
+  - 1.12.1
 uhd:
   - 4.1.0
 vc:                    # [win]
