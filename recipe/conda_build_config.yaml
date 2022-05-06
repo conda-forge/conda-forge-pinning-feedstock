@@ -768,7 +768,7 @@ tiledb:
 ucx:
   - 1.12.1
 uhd:
-  - 4.1.0
+  - 4.2.0
 vc:                    # [win]
   - 14                 # [win]
 vlfeat:
