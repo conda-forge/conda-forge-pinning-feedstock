@@ -1,8 +1,0 @@
-migrator_ts: 1651851047
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-google_cloud_cpp:
-  - '1.36'
