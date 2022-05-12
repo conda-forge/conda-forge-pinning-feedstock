@@ -847,3 +847,4 @@ r-rocit
 quaternion
 autodiff
 stardist
+csbdeep
