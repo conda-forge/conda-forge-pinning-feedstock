@@ -848,4 +848,5 @@ quaternion
 autodiff
 stardist
 uwsift
+physics-tenpy
 scqubits
