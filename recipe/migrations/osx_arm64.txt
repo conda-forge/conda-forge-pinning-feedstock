@@ -848,3 +848,4 @@ quaternion
 autodiff
 stardist
 uwsift
+scqubits
