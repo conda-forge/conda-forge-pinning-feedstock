@@ -5,4 +5,4 @@ __migrator:
   bump_number: 1
 
 lz4_c:
-  - '1.9'
+  - '1.9.3'
