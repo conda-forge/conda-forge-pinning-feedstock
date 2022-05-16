@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+gsoap:
+- 2.8.122
+migrator_ts: 1652718621.3413086
