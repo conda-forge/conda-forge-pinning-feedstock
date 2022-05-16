@@ -530,3 +530,5 @@ celery
 pystackreg
 pyfai
 quaternion
+meilisearch
+oras

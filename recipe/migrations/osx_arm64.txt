@@ -850,3 +850,5 @@ stardist
 uwsift
 physics-tenpy
 scqubits
+meilisearch
+oras
