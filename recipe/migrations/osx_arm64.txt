@@ -862,3 +862,4 @@ guardian
 omicron
 starship
 stow
+s5cmd
