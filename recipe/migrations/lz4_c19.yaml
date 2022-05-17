@@ -3,6 +3,7 @@ __migrator:
   kind: version
   migration_number: 1
   bump_number: 1
+  automerge: true
 
 lz4_c:
   - '1.9.3'
