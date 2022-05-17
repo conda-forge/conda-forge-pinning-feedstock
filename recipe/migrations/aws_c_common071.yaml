@@ -3,6 +3,6 @@ __migrator:
   kind: version
   migration_number: 1
   automerge: true
-aws_crt_cpp:
-- 0.17.13
-migrator_ts: 1641270425.958111
+aws_c_common:
+- 0.7.1
+migrator_ts: 1651696816.9743936

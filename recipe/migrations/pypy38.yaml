@@ -1,0 +1,53 @@
+migrator_ts: 1647123563
+__migrator:
+    migration_number: 1
+    primary_key: python
+    ordering:
+        python:
+            - 3.6.* *_cpython
+            - 3.7.* *_cpython
+            - 3.8.* *_cpython
+            - 3.9.* *_cpython
+            - 3.10.* *_cpython
+            - 3.6.* *_73_pypy
+            - 3.7.* *_73_pypy
+            - 3.8.* *_73_pypy
+            - 3.9.* *_73_pypy
+    paused: False
+    longterm: True
+    use_local: False
+    check_solvable: True
+    exclude_pinned_pkgs: False
+    pr_limit: 10
+    bump_number: 1
+    wait_for_migrators:
+      - python310
+    commit_message: "Rebuild for PyPy3.8 and PyPy3.9"
+    exclude:
+      # this shouldn't attempt to modify the python feedstocks
+      - python
+      - pypy3.6
+      - pypy-meta
+
+python:
+  - 3.7.* *_cpython    # [not (osx and arm64)]
+  - 3.8.* *_cpython
+  - 3.9.* *_cpython
+  - 3.10.* *_cpython
+  - 3.8.* *_73_pypy    # [not (osx and arm64)]
+  - 3.9.* *_73_pypy    # [not (osx and arm64)]
+numpy:
+  # part of a zip_keys: python, python_impl, numpy
+  - 1.19               # [not (osx and arm64)]
+  - 1.19
+  - 1.19
+  - 1.21
+  - 1.19               # [not (osx and arm64)]
+  - 1.19               # [not (osx and arm64)]
+python_impl:
+  - cpython            # [not (osx and arm64)]
+  - cpython
+  - cpython
+  - cpython
+  - pypy               # [not (osx and arm64)]
+  - pypy               # [not (osx and arm64)]
