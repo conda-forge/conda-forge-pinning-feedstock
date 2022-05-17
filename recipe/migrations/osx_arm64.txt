@@ -860,4 +860,5 @@ inspiral-range
 htgettoken
 guardian
 omicron
+starship
 stow
