@@ -853,3 +853,10 @@ physics-tenpy
 scqubits
 meilisearch
 oras
+cwinpy
+sbank
+ligo.skymap
+inspiral-range
+htgettoken
+guardian
+omicron
