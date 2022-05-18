@@ -1,0 +1,8 @@
+migrator_ts: 1652888305
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+svt_av1:
+  - '1.1'
