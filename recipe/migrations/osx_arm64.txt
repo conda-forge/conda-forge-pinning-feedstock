@@ -865,3 +865,4 @@ stow
 samtools
 bedtools
 gepetto-viewer-corba
+fastremap
