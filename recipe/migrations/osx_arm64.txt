@@ -864,3 +864,4 @@ starship
 stow
 samtools
 bedtools
+gepetto-viewer-corba
