@@ -862,3 +862,5 @@ guardian
 omicron
 starship
 stow
+samtools
+bedtools
