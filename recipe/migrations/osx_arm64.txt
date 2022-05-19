@@ -866,3 +866,6 @@ samtools
 bedtools
 gepetto-viewer-corba
 fastremap
+requests-gssapi
+gwsurrogate
+upv
