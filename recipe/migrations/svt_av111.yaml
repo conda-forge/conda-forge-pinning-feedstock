@@ -5,4 +5,4 @@ __migrator:
   bump_number: 1
 
 svt_av1:
-  - '1.1'
+  - '1.1.0'
