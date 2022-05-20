@@ -870,4 +870,4 @@ requests-gssapi
 gwsurrogate
 upv
 edt
-bats
+bats-core
