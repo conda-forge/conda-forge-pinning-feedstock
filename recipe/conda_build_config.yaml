@@ -682,7 +682,7 @@ slepc:
 slepc4py:
   - '3.16'
 svt_av1:
-  - '0.9.1'
+  - '1.1.0'
 pcre:
   - '8'
 pcre2:
