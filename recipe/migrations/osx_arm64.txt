@@ -870,4 +870,5 @@ requests-gssapi
 gwsurrogate
 upv
 edt
+bats-core
 gradle
