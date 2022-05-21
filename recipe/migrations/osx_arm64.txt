@@ -872,3 +872,4 @@ upv
 edt
 bats-core
 gradle
+r-classint
