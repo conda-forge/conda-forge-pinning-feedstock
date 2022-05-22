@@ -872,3 +872,5 @@ upv
 edt
 bats-core
 gradle
+r-sf
+r-essentials
