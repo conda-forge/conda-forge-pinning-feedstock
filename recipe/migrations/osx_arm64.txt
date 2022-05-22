@@ -874,3 +874,4 @@ bats-core
 gradle
 r-sf
 r-essentials
+dbgpy
