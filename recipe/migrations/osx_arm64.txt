@@ -876,3 +876,4 @@ gradle
 r-sf
 r-essentials
 dbgpy
+climlab-cam3-radiation
