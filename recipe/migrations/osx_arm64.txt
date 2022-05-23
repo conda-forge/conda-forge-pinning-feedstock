@@ -128,6 +128,7 @@ xtensor-io
 opencv
 qt
 pyqt
+pyside2
 libdb
 bsddb3
 openmpi
