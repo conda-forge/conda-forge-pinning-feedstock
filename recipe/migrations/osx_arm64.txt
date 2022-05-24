@@ -879,3 +879,4 @@ r-essentials
 dbgpy
 climlab-cam3-radiation
 pygeoda
+r-splines2
