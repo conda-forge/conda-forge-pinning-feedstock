@@ -72,6 +72,7 @@ h5py
 wrapt
 mne-base
 mne
+mne-qt-browser
 flatbuffers
 tensorflow-estimator
 google-pasta
@@ -877,4 +878,3 @@ r-sf
 r-essentials
 dbgpy
 climlab-cam3-radiation
-mne-qt-browser
