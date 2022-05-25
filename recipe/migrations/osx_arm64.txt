@@ -73,7 +73,6 @@ wrapt
 mne-base
 mne
 mne-qt-browser
-mne-installer-menus
 openneuro-py
 sleepecg
 dcm2niix
