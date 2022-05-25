@@ -73,10 +73,12 @@ wrapt
 mne-base
 mne
 mne-qt-browser
+mne-installer-menus
 openneuro-py
 sleepecg
 dcm2niix
 mayavi
+fsleyes
 flatbuffers
 tensorflow-estimator
 google-pasta
