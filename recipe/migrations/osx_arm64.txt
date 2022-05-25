@@ -73,6 +73,9 @@ wrapt
 mne-base
 mne
 mne-qt-browser
+openneuro-py
+sleepecg
+dcm2niix
 flatbuffers
 tensorflow-estimator
 google-pasta
