@@ -76,6 +76,8 @@ mne-qt-browser
 openneuro-py
 sleepecg
 dcm2niix
+mayavi
+fsleyes
 flatbuffers
 tensorflow-estimator
 google-pasta
