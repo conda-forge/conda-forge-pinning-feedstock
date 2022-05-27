@@ -404,6 +404,8 @@ coin_or_osi:
   - 0.108
 coin_or_utils:
   - 2.11
+console_bridge:
+  - 1.0
 cutensor:
   - 1
 curl:
@@ -765,6 +767,8 @@ ucx:
   - 1.12.1
 uhd:
   - 4.2.0
+urdfdom:
+  - 3.1
 vc:                    # [win]
   - 14                 # [win]
 vlfeat:
