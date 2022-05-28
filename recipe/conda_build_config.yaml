@@ -543,6 +543,8 @@ libhwy:
   - 0.15
 libiconv:
   - 1.16
+libidn2:
+  - 2
 libintervalxt:
   - 3
 libkml:
