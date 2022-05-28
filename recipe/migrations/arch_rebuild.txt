@@ -533,3 +533,4 @@ quaternion
 meilisearch
 oras
 pygeoda
+dwave-ocean-sdk
