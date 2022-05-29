@@ -6,3 +6,5 @@ __migrator:
 
 qt:
   - 5.15
+qt_main:
+  - 5.15
