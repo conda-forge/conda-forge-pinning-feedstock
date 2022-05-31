@@ -888,3 +888,5 @@ r-splines2
 pymol-open-source
 spam
 dwave-ocean-sdk
+glibmm
+libxmlpp
