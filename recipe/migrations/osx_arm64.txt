@@ -890,3 +890,6 @@ spam
 dwave-ocean-sdk
 glibmm
 libxmlpp
+batman-package
+exoplanet-core
+exoplanet
