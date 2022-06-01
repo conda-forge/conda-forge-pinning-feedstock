@@ -893,3 +893,7 @@ libxmlpp
 batman-package
 exoplanet-core
 exoplanet
+satgen
+diffmah
+diffstar
+dsps
