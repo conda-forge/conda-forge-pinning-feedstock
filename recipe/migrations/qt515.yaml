@@ -3,6 +3,7 @@ __migrator:
   kind: version
   migration_number: 1
   bump_number: 1
+  pr_limit: 1
 
 qt:
   - 5.15
