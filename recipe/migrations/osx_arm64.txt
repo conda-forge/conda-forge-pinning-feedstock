@@ -898,3 +898,4 @@ diffmah
 diffstar
 dsps
 halotools
+fast-histogram
