@@ -897,3 +897,4 @@ satgen
 diffmah
 diffstar
 dsps
+halotools
