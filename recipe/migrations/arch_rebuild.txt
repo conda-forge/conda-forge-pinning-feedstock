@@ -535,3 +535,5 @@ oras
 pygeoda
 dwave-ocean-sdk
 pyscf
+slepc
+fenics-dolfinx
