@@ -1,11 +1,7 @@
-migrator_ts: 1653771978
 __migrator:
+  build_number: 1
   kind: version
   migration_number: 1
-  bump_number: 1
-  pr_limit: 1
-
+migrator_ts: 1654236007.843706
 qt:
-  - 5.15
-qt_main:
-  - 5.15
+- '5.15'
