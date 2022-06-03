@@ -899,3 +899,5 @@ diffstar
 dsps
 halotools
 fast-histogram
+slepc
+fenics-dolfinx
