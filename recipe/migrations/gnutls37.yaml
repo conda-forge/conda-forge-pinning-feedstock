@@ -1,8 +1,7 @@
-migrator_ts: 1653945114
 __migrator:
+  build_number: 1
   kind: version
   migration_number: 1
-  bump_number: 1
-
 gnutls:
-  - 3.7
+- '3.7'
+migrator_ts: 1654235977.348109
