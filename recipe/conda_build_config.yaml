@@ -716,7 +716,7 @@ qt:
 qtkeychain:
   - '0.12'
 re2:
-  - 2022.02.01
+  - 2022.04.01
 readline:
   - "8"
 rocksdb:
