@@ -692,7 +692,7 @@ pixman:
 poco:
   - 1.11.1
 poppler:
-  - '22.01'
+  - '22.04'
 proj:
   - 9.0.0
 pulseaudio:
