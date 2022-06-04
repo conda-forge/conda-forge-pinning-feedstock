@@ -500,7 +500,7 @@ jpeg:
 libjpeg_turbo:
   - 2
 json_c:
-  - 0.15
+  - '0.16'
 jsoncpp:
   - 1.9.5
 kealib:
