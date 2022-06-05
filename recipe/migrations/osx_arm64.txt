@@ -902,3 +902,4 @@ fast-histogram
 slepc
 fenics-dolfinx
 hyperspyui
+ovito
