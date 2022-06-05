@@ -903,4 +903,5 @@ slepc
 fenics-dolfinx
 hyperspyui
 ovito
+pycares
 ciso8601
