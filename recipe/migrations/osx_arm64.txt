@@ -901,3 +901,4 @@ halotools
 fast-histogram
 slepc
 fenics-dolfinx
+hyperspyui
