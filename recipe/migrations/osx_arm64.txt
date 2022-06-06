@@ -904,3 +904,5 @@ fenics-dolfinx
 hyperspyui
 ovito
 polycap
+pycares
+ciso8601
