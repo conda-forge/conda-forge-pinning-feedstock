@@ -906,3 +906,4 @@ ovito
 polycap
 pycares
 ciso8601
+polars
