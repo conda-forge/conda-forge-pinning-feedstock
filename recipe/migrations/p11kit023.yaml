@@ -1,0 +1,8 @@
+migrator_ts: 1654633916
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+p11_kit:
+  - 0.23.21
