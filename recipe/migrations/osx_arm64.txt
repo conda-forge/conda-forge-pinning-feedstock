@@ -894,6 +894,7 @@ batman-package
 exoplanet-core
 exoplanet
 satgen
+aiodns
 diffmah
 diffstar
 dsps
