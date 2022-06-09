@@ -338,7 +338,7 @@ blas_impl:
 abseil_cpp:
   - '20210324.2'
 alsa_lib:
-  - 1.2.3
+  - 1.2.6
 antic:
   - 0.2
 arb:
