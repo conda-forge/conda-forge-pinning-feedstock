@@ -16,6 +16,9 @@ gunicorn
 cx_oracle
 numba
 psycopg2
+xcb-util
+xcb-util-wm
+xcb-util-keysyms
 xcb-util-image
 xcb-util-renderutil
 enum34
