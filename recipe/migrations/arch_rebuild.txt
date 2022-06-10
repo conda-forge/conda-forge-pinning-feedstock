@@ -16,6 +16,8 @@ gunicorn
 cx_oracle
 numba
 psycopg2
+xcb-util-image
+xcb-util-renderutil
 enum34
 libnsl
 root
