@@ -909,3 +909,5 @@ ciso8601
 polars
 r-ggforce
 pycifrw
+mdanalysis
+mdanalysistests
