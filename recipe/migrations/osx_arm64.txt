@@ -912,3 +912,5 @@ r-ggforce
 pycifrw
 mdanalysis
 mdanalysistests
+tabula-py
+pyomo
