@@ -914,3 +914,4 @@ mdanalysis
 mdanalysistests
 tabula-py
 pyomo
+connectorx
