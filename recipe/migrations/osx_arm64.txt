@@ -915,3 +915,4 @@ mdanalysistests
 tabula-py
 pyomo
 connectorx
+dasel
