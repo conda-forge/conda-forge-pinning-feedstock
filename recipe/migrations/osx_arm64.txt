@@ -916,6 +916,7 @@ tabula-py
 pyomo
 connectorx
 dasel
+yarp
 cwltool
 libstempo
 psy-view
