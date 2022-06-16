@@ -917,4 +917,8 @@ pyomo
 connectorx
 dasel
 yarp
-
+cwltool
+libstempo
+psy-view
+pyfesom2
+pyworld
