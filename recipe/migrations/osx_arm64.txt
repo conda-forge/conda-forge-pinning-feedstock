@@ -918,3 +918,4 @@ connectorx
 dasel
 cwltool
 libstempo
+psy-view
