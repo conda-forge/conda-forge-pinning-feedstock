@@ -387,7 +387,7 @@ bzip2:
 cairo:
   - 1.16
 capnproto:
-  - 0.9.1
+  - 0.10.0
 ccr:
   - 1.3
 cfitsio:
