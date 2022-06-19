@@ -335,8 +335,17 @@ blas_impl:
   - mkl          # [x86 or x86_64]
   - blis         # [x86 or x86_64]
 
+zip_keys:
+- - abseil_cpp
+  - grpc_cpp
+
+# hmaarrfk (2022/05/06) -- keep in sync with grpc_cpp
+# Due to the fact that cetain large packages (tensorflow)
+# require specific versions of abseil to be used, it is
+# useful if we build out two versions with the abseil dependency
 abseil_cpp:
   - '20210324.2'
+  - '20211102.0'
 alsa_lib:
   - 1.2.6
 antic:
@@ -477,8 +486,13 @@ googleapis_cpp:
   - '0.10'
 graphviz:
   - 2.47
+# 2022/02/16 -- hmaarrfk -- Keep in sync with abseil_cpp
+# However, grpc_cpp 1.46 now requires the newer version, so for the
+# abseil version 20210324 we need to ensure to build with the lastest
+# version of grpc that still supports it.
 grpc_cpp:
-  - '1.43'
+  - '1.45'
+  - '1.46'
 harfbuzz:
   - '4'
 hdf4:
