@@ -736,7 +736,7 @@ scotch:
 ptscotch:
   - 6.0.9
 s2n:
-  - 1.3.11
+  - 1.3.12
 singular:
   - 4.2.1.p3
 snappy:
