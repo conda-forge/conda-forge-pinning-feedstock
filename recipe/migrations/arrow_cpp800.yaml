@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-arrow_cpp:
-- 8.0.0
-migrator_ts: 1652718562.424424
