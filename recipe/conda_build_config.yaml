@@ -64,7 +64,8 @@ cuda_compiler_version_min:
   - 11.2                       # [linux and (ppc64le or aarch64)]
 cudnn:
   - undefined
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 7                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"  and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
+  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"  and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
   - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
