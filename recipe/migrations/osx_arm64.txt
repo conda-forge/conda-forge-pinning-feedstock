@@ -925,3 +925,4 @@ pyfesom2
 pyworld
 astra-toolbox
 ytop
+polyagamma
