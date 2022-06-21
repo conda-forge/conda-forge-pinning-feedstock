@@ -169,6 +169,10 @@ zip_keys:
     - python
     - numpy
     - python_impl
+  -
+    - abseil_cpp
+    - grpc_cpp
+
 
 # aarch64 specifics because conda-build sets many things to centos 6
 # this can probably be removed when conda-build gets updated defaults
@@ -340,10 +344,6 @@ blas_impl:
   - openblas
   - mkl          # [x86 or x86_64]
   - blis         # [x86 or x86_64]
-
-zip_keys:
-- - abseil_cpp
-  - grpc_cpp
 
 # hmaarrfk (2022/05/06) -- keep in sync with grpc_cpp
 # Due to the fact that cetain large packages (tensorflow)
