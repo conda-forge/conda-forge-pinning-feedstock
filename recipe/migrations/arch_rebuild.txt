@@ -544,3 +544,4 @@ slepc
 fenics-dolfinx
 pycifrw
 astra-toolbox
+mujoco
