@@ -445,7 +445,7 @@ gf2x:
 gdk_pixbuf:
   - 2
 gnuradio_core:
-  - 3.10.2
+  - 3.10.3
 gnutls:
   - 3.7
 gsl:
