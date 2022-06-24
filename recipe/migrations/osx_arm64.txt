@@ -926,3 +926,4 @@ pyworld
 astra-toolbox
 ytop
 mujoco
+tomopy
