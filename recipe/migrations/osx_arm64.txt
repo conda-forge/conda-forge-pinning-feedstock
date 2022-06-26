@@ -930,3 +930,4 @@ mujoco
 openconnect
 openconnect-sso
 mgrs
+chemfiles-python
