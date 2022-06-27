@@ -537,6 +537,7 @@ pyfai
 quaternion
 meilisearch
 oras
+dasel
 pygeoda
 dwave-ocean-sdk
 pyscf
