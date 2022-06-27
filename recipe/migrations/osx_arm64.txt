@@ -931,3 +931,4 @@ openconnect
 openconnect-sso
 mgrs
 chemfiles-python
+fps-terminals
