@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-migrator_ts: 1654331015.9389994
-nettle:
-- '3.8'
