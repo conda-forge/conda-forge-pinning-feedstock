@@ -933,3 +933,4 @@ mgrs
 chemfiles-python
 fps-terminals
 nutpie
+geant4
