@@ -666,7 +666,7 @@ numpy:
   - 1.19
   - 1.19
 occt:
-  - '7.5'
+  - 7.6
 openblas:
   - 0.3.*
 openexr:
