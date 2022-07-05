@@ -935,3 +935,5 @@ fps-terminals
 nutpie
 geant4
 propka
+zeopp-lsmo
+raspa2
