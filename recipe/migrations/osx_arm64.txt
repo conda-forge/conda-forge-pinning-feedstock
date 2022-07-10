@@ -940,3 +940,4 @@ raspa2
 cloudpathlib
 tiffslide
 python-box
+wordcloud
