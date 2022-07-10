@@ -548,3 +548,4 @@ astra-toolbox
 mujoco
 xonsh
 python-box
+wordcloud
