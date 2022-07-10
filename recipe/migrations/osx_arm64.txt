@@ -941,3 +941,4 @@ cloudpathlib
 tiffslide
 python-box
 wordcloud
+python-crfsuite
