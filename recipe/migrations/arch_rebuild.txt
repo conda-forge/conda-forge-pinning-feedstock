@@ -550,3 +550,5 @@ xonsh
 python-box
 wordcloud
 python-crfsuite
+metaphone
+
