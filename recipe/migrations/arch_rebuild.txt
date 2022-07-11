@@ -549,3 +549,4 @@ mujoco
 xonsh
 python-box
 wordcloud
+python-crfsuite
