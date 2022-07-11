@@ -942,3 +942,4 @@ tiffslide
 python-box
 wordcloud
 python-crfsuite
+metaphone
