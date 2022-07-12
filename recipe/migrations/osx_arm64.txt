@@ -945,3 +945,4 @@ python-crfsuite
 metaphone
 pigz
 r-seurat
+faiss-cpu
