@@ -426,8 +426,7 @@ exiv2:
 expat:
   - 2
 ffmpeg:
-  - '4.3'  # [win]
-  - '4.4'  # [unix]
+  - '4.4'
 fftw:
   - 3
 flann:
