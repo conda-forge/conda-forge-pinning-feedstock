@@ -947,3 +947,4 @@ pigz
 r-seurat
 faiss-cpu
 yaehmop
+splipy
