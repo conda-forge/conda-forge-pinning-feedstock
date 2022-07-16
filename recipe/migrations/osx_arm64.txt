@@ -948,3 +948,6 @@ r-seurat
 faiss-cpu
 yaehmop
 splipy
+functorch
+xlwings
+r-reprex
