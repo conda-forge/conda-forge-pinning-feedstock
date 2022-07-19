@@ -553,3 +553,11 @@ python-crfsuite
 metaphone
 xlwings
 r-reprex
+gds-swig
+ldas-tools-al-swig
+ldas-tools-diskcacheapi-swig
+ldas-tools-frameapi-swig
+ldas-tools-framecpp-swig
+ldas-tools-ldasgen-swig
+ldas-tools-utilities
+nds2-client-swig
