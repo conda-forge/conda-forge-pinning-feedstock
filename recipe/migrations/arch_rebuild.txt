@@ -279,6 +279,7 @@ lcov
 lua
 python-blosc
 libdrm
+libmongocxx
 myproxy
 rrdtool
 gfal2-util
