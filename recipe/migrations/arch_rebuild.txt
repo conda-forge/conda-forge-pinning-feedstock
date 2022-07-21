@@ -562,3 +562,4 @@ ldas-tools-framecpp-swig
 ldas-tools-ldasgen-swig
 ldas-tools-utilities
 nds2-client-swig
+oso
