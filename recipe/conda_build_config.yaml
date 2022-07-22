@@ -484,7 +484,7 @@ google_cloud_cpp_common:
 googleapis_cpp:
   - '0.10'
 graphviz:
-  - '3'
+  - '5'
 # 2022/02/16 -- hmaarrfk -- Keep in sync with abseil_cpp
 # However, grpc_cpp 1.46 now requires the newer version, so for the
 # abseil version 20210324 we need to ensure to build with the lastest
