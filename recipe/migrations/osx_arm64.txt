@@ -944,6 +944,7 @@ wordcloud
 python-crfsuite
 metaphone
 pigz
+dav1d
 r-seurat
 faiss-cpu
 yaehmop

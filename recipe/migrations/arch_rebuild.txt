@@ -563,3 +563,4 @@ ldas-tools-ldasgen-swig
 ldas-tools-utilities
 nds2-client-swig
 oso
+dav1d
