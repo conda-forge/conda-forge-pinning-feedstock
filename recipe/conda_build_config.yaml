@@ -285,7 +285,7 @@ pin_run_as_build:
   nspr:
     max_pin: x
   occt:
-    max_pin: x.x
+    max_pin: x.x  
   openturns:
     max_pin: x.x
   openjpeg:
@@ -670,6 +670,8 @@ openblas:
   - 0.3.*
 openexr:
   - '3.1'
+openh264:
+  - '2.2'
 openjpeg:
   - '2.4'
 openmpi:
