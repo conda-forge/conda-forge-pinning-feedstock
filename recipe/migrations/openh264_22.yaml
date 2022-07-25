@@ -1,8 +1,0 @@
-migrator_ts: 1658709335
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-openh264:
-  - 2.2
