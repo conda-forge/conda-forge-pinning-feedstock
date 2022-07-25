@@ -285,7 +285,7 @@ pin_run_as_build:
   nspr:
     max_pin: x
   occt:
-    max_pin: x.x  
+    max_pin: x.x
   openturns:
     max_pin: x.x
   openjpeg:
