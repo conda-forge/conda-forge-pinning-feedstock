@@ -565,3 +565,4 @@ nds2-client-swig
 oso
 dav1d
 watchfiles
+filprofiler
