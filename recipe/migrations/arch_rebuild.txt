@@ -9,6 +9,7 @@ tornado
 libavif
 bcrypt
 tqdm
+clingo
 pyg4ometry
 zstd
 sympy
