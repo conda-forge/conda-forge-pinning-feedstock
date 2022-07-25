@@ -709,7 +709,7 @@ poco:
 poppler:
   - '22.04'
 proj:
-  - 9.0.0
+  - 9.0.1
 pulseaudio:
   - 14.0
 pybind11_abi:
