@@ -553,7 +553,7 @@ libflint:
 libgdal:
   - '3.5'
 libgit2:
-  - '1.4'
+  - '1.5'
 libhugetlbfs:
   - 2
 libhwy:
