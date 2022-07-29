@@ -960,3 +960,4 @@ hmmlearn
 arm_pyart
 stockwell
 rubin-sim
+pandoc-crossref
