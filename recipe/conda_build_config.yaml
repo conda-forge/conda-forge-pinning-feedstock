@@ -511,7 +511,7 @@ jasper:
 jpeg:
   - 9
 lerc:
-  - 3
+  - '4'
 libjpeg_turbo:
   - 2
 json_c:
