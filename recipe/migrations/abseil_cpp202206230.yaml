@@ -7,6 +7,13 @@ __migrator:
 # when the migration is complete
 abseil_cpp:
 - '20220623.0'
+# new name, use both for now
+libabseil:
+- '20220623.0'
+# separate output for static builds (depending on C++ version)
+# also need to be migrated
+libabseil_static:
+- '20220623.0'
 grpc_cpp:
 - '1.48'
 
