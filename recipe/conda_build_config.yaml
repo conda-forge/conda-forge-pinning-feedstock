@@ -557,7 +557,7 @@ libgit2:
 libhugetlbfs:
   - 2
 libhwy:
-  - '0.17'
+  - '1.0'
 libiconv:
   - 1.16
 libidn2:
