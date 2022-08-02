@@ -963,3 +963,4 @@ rubin-sim
 pandoc-crossref
 visan
 dgpsi
+rabbitmq-server
