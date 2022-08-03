@@ -963,4 +963,5 @@ rubin-sim
 pandoc-crossref
 visan
 dgpsi
+nrel-pysam
 rabbitmq-server
