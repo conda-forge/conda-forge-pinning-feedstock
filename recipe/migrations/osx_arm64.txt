@@ -964,3 +964,4 @@ pandoc-crossref
 visan
 dgpsi
 nrel-pysam
+sedflux
