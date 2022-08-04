@@ -746,8 +746,9 @@ ruby:
   - 2.5
   - 2.6
 r_base:
-  - 4.0
+  - 4.0  # [win]
   - 4.1
+  - 4.2  # [not win]
 scotch:
   - 6.0.9
 ptscotch:
