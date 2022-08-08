@@ -569,3 +569,8 @@ dav1d
 watchfiles
 filprofiler
 arm_pyart
+esbuild
+deno
+deno-dom
+dart-sass
+dart-sdk
