@@ -966,3 +966,7 @@ dgpsi
 nrel-pysam
 sedflux
 mitmproxy
+esbuild
+deno
+deno-dom
+dart-sass
