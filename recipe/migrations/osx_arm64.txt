@@ -971,3 +971,4 @@ deno
 deno-dom
 dart-sass
 dart-sdk
+pybamm
