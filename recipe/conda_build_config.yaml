@@ -96,6 +96,7 @@ target_goos:
   - windows                    # [win]
 target_goarch:
   - amd64                      # [x86_64]
+  - arm64                      # [arm64 or aarch64]
 target_goexe:
   -                            # [unix]
   - .exe                       # [win]
