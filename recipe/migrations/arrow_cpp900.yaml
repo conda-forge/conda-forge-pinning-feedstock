@@ -4,4 +4,7 @@ __migrator:
   migration_number: 1
 arrow_cpp:
 - 9.0.0
+- 8.0.1
+- 7.0.0
+- 6.0.1
 migrator_ts: 1659712119.1789937
