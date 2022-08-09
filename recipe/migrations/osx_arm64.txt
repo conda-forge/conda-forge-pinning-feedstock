@@ -15,6 +15,7 @@ constructor
 lapack
 blis
 openblas
+shellcheck
 cmake
 make
 ninja
