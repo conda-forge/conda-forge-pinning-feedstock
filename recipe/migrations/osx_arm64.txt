@@ -973,3 +973,4 @@ deno-dom
 dart-sass
 dart-sdk
 pybamm
+clfft
