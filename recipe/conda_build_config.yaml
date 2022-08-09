@@ -731,7 +731,7 @@ python_impl:
   - cpython
   - cpython
 pytorch:
-  - '1.11'
+  - '1.12'
 qt:
   - 5.12
 qtkeychain:
