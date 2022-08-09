@@ -394,6 +394,7 @@ xdrfile
 digital_rf
 gnuradio-satellites
 gnuradio-soapy
+shellcheck
 gqrx
 libm2k
 limesuite
