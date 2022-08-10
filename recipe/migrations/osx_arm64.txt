@@ -975,3 +975,4 @@ dart-sdk
 pybamm
 clfft
 bilby.cython
+stack
