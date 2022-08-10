@@ -974,3 +974,4 @@ dart-sass
 dart-sdk
 pybamm
 clfft
+bilby.cython
