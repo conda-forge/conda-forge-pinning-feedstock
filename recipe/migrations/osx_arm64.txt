@@ -976,3 +976,5 @@ pybamm
 clfft
 bilby.cython
 stack
+ghc
+
