@@ -980,4 +980,5 @@ stack
 ghc
 openimageio
 py-openimageio
+r-tidyverse
 r-minpack.lm
