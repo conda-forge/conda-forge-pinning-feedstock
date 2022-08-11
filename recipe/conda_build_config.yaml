@@ -96,6 +96,8 @@ target_goos:
   - windows                    # [win]
 target_goarch:
   - amd64                      # [x86_64]
+  - arm64                      # [arm64 or aarch64]
+  - ppc64le                    # [ppc64le]
 target_goexe:
   -                            # [unix]
   - .exe                       # [win]
@@ -493,7 +495,7 @@ grpc_cpp:
   - '1.45'
   - '1.46'
 harfbuzz:
-  - '4'
+  - '5'
 hdf4:
   - 4.2.15
 hdf5:
@@ -537,7 +539,7 @@ libcrc32c:
 libdap4:
   - 3.20.6
 libdeflate:
-  - '1.12'
+  - '1.13'
 libeantic:
   - 1
 libevent:
@@ -729,7 +731,7 @@ python_impl:
   - cpython
   - cpython
 pytorch:
-  - '1.11'
+  - '1.12'
 qt:
   - 5.12
 qtkeychain:
@@ -801,7 +803,7 @@ wcslib:
 wxwidgets:
   - '3.2'
 x264:
-  - '1164'
+  - '1!161.*'
 x265:
   - '3.5'
 xerces_c:
@@ -812,6 +814,8 @@ xz:
   - 5.2
 zeromq:
   - 4.3.4
+zfp:
+  - 0.5
 zlib:
   - 1.2
 zlib_ng:

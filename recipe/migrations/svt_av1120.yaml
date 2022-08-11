@@ -2,6 +2,6 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-harfbuzz:
-- '5'
-migrator_ts: 1658865623.4868302
+migrator_ts: 1659511457.003717
+svt_av1:
+- 1.2.0

@@ -15,6 +15,7 @@ constructor
 lapack
 blis
 openblas
+shellcheck
 cmake
 make
 ninja
@@ -964,3 +965,18 @@ pandoc-crossref
 visan
 dgpsi
 r-rpostgres
+nrel-pysam
+sedflux
+mitmproxy
+esbuild
+deno
+deno-dom
+dart-sass
+dart-sdk
+pybamm
+clfft
+bilby.cython
+stack
+ghc
+openimageio
+py-openimageio
