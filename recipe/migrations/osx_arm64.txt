@@ -980,3 +980,4 @@ stack
 ghc
 openimageio
 py-openimageio
+r-tidyverse
