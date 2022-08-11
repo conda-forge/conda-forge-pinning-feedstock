@@ -977,4 +977,5 @@ clfft
 bilby.cython
 stack
 ghc
-
+openimageio
+py-openimageio
