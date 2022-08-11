@@ -964,6 +964,7 @@ rubin-sim
 pandoc-crossref
 visan
 dgpsi
+r-rpostgres
 nrel-pysam
 sedflux
 mitmproxy
