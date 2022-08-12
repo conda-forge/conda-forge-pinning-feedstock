@@ -982,3 +982,4 @@ openimageio
 py-openimageio
 r-tidyverse
 r-minpack.lm
+lightwood
