@@ -516,6 +516,8 @@ lerc:
   - '4'
 libjpeg_turbo:
   - 2
+libev:
+  - 4.33
 json_c:
   - '0.16'
 jsoncpp:
