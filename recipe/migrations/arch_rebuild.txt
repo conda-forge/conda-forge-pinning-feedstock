@@ -576,3 +576,4 @@ deno-dom
 dart-sass
 dart-sdk
 bilby.cython
+jaxlib
