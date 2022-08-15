@@ -15,6 +15,6 @@ libabseil:
 libabseil_static:
 - '20220623.0'
 grpc_cpp:
-- '1.48'
+- '1.46'
 
 migrator_ts: 1656693919.0942996
