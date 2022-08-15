@@ -587,7 +587,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - '3.19'
+  - '3.20'
 librdkafka:
   - '1.7'
 librsvg:
