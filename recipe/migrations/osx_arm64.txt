@@ -984,3 +984,4 @@ r-tidyverse
 r-minpack.lm
 lightwood
 libdlfind
+eelbrain
