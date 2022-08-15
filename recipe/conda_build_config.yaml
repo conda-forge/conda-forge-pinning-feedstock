@@ -395,6 +395,8 @@ boost_cpp:
   - 1.74.0
 bzip2:
   - 1
+c_ares:
+  - 1
 cairo:
   - 1.16
 capnproto:
