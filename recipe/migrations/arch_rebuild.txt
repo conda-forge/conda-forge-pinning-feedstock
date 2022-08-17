@@ -574,7 +574,8 @@ esbuild
 deno
 deno-dom
 dart-sass
+pybamm
 dart-sdk
 bilby.cython
 jaxlib
-pybamm
+bayeswave
