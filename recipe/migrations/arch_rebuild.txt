@@ -578,3 +578,4 @@ dart-sdk
 bilby.cython
 jaxlib
 dataprep
+bayeswave
