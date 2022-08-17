@@ -966,6 +966,7 @@ visan
 dgpsi
 r-rpostgres
 nrel-pysam
+rabbitmq-server
 sedflux
 mitmproxy
 esbuild
