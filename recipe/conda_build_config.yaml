@@ -96,6 +96,8 @@ target_goos:
   - windows                    # [win]
 target_goarch:
   - amd64                      # [x86_64]
+  - arm64                      # [arm64 or aarch64]
+  - ppc64le                    # [ppc64le]
 target_goexe:
   -                            # [unix]
   - .exe                       # [win]
@@ -393,6 +395,8 @@ boost_cpp:
   - 1.74.0
 bzip2:
   - 1
+c_ares:
+  - 1
 cairo:
   - 1.16
 capnproto:
@@ -493,7 +497,7 @@ grpc_cpp:
   - '1.45'
   - '1.46'
 harfbuzz:
-  - '4'
+  - '5'
 hdf4:
   - 4.2.15
 hdf5:
@@ -514,6 +518,8 @@ lerc:
   - '4'
 libjpeg_turbo:
   - 2
+libev:
+  - 4.33
 json_c:
   - '0.16'
 jsoncpp:
@@ -537,7 +543,7 @@ libcrc32c:
 libdap4:
   - 3.20.6
 libdeflate:
-  - '1.12'
+  - '1.13'
 libeantic:
   - 1
 libevent:
@@ -581,7 +587,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - '3.19'
+  - '3.20'
 librdkafka:
   - '1.7'
 librsvg:
@@ -673,7 +679,7 @@ openblas:
 openexr:
   - '3.1'
 openh264:
-  - '2.2'
+  - '2.3'
 openjpeg:
   - '2.4'
 openmpi:
@@ -699,7 +705,7 @@ slepc:
 slepc4py:
   - '3.16'
 svt_av1:
-  - '1.1.0'
+  - 1.2.0
 p11_kit:
   - '0.24'
 pcre:
@@ -729,7 +735,7 @@ python_impl:
   - cpython
   - cpython
 pytorch:
-  - '1.11'
+  - '1.12'
 qt:
   - 5.12
 qtkeychain:
@@ -801,7 +807,7 @@ wcslib:
 wxwidgets:
   - '3.2'
 x264:
-  - '1164'
+  - '1!164.*'
 x265:
   - '3.5'
 xerces_c:
@@ -812,6 +818,8 @@ xz:
   - 5.2
 zeromq:
   - 4.3.4
+zfp:
+  - 0.5
 zlib:
   - 1.2
 zlib_ng:

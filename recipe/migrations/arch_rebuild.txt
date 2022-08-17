@@ -88,6 +88,7 @@ hub
 httplib2
 wurlitzer
 xdg
+black
 python-language-server
 pylint
 keyring
@@ -393,6 +394,7 @@ xdrfile
 digital_rf
 gnuradio-satellites
 gnuradio-soapy
+shellcheck
 gqrx
 libm2k
 limesuite
@@ -568,3 +570,13 @@ dav1d
 watchfiles
 filprofiler
 arm_pyart
+esbuild
+deno
+deno-dom
+dart-sass
+pybamm
+dart-sdk
+bilby.cython
+jaxlib
+dataprep
+bayeswave
