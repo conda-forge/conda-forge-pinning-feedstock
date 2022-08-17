@@ -2,6 +2,6 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-capnproto:
-- 0.10.2
-migrator_ts: 1656641062.879805
+migrator_ts: 1658385627.9482098
+s2n:
+- 1.3.17
