@@ -988,3 +988,4 @@ libdlfind
 eelbrain
 dataprep
 parcels
+esptool
