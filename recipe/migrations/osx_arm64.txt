@@ -989,3 +989,4 @@ eelbrain
 dataprep
 parcels
 esptool
+armadillo
