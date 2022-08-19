@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+gfal2:
+- '2.21'
+migrator_ts: 1658840221.965734
