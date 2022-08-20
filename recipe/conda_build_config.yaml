@@ -466,7 +466,7 @@ geos:
 geotiff:
   - 1.7.1
 gfal2:
-  - '2.20'
+  - '2.21'
 gflags:
   - 2.2
 giflib:
