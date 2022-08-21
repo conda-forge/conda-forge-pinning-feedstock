@@ -819,7 +819,7 @@ xz:
 zeromq:
   - 4.3.4
 zfp:
-  - 0.5
+  - 1.0
 zlib:
   - 1.2
 zlib_ng:
