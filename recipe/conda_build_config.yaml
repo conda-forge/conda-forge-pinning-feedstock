@@ -188,6 +188,11 @@ BUILD: aarch64-conda_cos7-linux-gnu     # [aarch64]
 cdt_arch: armv7l                          # [armv7l]
 BUILD: armv7-conda_cos7-linux-gnueabihf   # [armv7l]
 
+# bootstrapping specifies whether or not a recipe is run in "bootstrapping"
+# mode during the initial progress of adding a new platform.  Most recipes
+# will not need this value.  Possible values are: "yes" and "no".
+bootstrapping: no
+
 # TODO: remove these when run_exports are added to the packages.
 pin_run_as_build:
   arpack:
