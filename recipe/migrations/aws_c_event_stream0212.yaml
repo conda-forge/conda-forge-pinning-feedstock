@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-  automerge: true
-aws_c_event_stream:
-- 0.2.12
-migrator_ts: 1655891596.5841472
