@@ -961,6 +961,7 @@ hmmlearn
 arm_pyart
 stockwell
 rubin-sim
+dbt-extractor
 pandoc-crossref
 visan
 dgpsi
