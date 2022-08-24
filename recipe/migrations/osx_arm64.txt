@@ -991,3 +991,4 @@ parcels
 esptool
 armadillo
 redlionfish
+scalene
