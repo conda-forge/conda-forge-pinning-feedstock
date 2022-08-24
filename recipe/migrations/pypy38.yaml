@@ -21,8 +21,6 @@ __migrator:
     exclude_pinned_pkgs: False
     pr_limit: 10
     bump_number: 1
-    wait_for_migrators:
-      - python310
     commit_message: "Rebuild for PyPy3.8 and PyPy3.9"
     exclude:
       # this shouldn't attempt to modify the python feedstocks
