@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-  automerge: true
-aws_c_sdkutils:
-- 0.1.3
-migrator_ts: 1661404357.927169
