@@ -27,6 +27,9 @@ __migrator:
       - python
       - pypy3.6
       - pypy-meta
+    ignored_deps_per_node:
+      matplotlib:
+        - pyqt
 
 python:
   - 3.8.* *_73_pypy    # [not (osx and arm64)]
