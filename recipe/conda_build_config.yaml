@@ -379,7 +379,7 @@ aws_c_io:
 aws_c_mqtt:
   - 0.7.11
 aws_c_s3:
-  - 0.1.45
+  - 0.1.46
 aws_c_sdkutils:
   - 0.1.2
 aws_checksums:
