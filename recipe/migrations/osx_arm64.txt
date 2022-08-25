@@ -992,3 +992,4 @@ esptool
 armadillo
 redlionfish
 scalene
+arrow-odbc
