@@ -996,3 +996,5 @@ redlionfish
 scalene
 arrow-odbc
 cppe
+biotite
+hydride
