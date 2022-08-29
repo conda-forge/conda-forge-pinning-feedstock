@@ -13,6 +13,7 @@ libnsl
 pycparser
 constructor
 lapack
+pangomm
 blis
 openblas
 shellcheck
