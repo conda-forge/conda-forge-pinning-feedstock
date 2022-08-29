@@ -581,3 +581,4 @@ bilby.cython
 jaxlib
 dataprep
 bayeswave
+quarto
