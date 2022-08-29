@@ -941,6 +941,7 @@ raspa2
 cloudpathlib
 tiffslide
 python-box
+atkmm
 wordcloud
 python-crfsuite
 metaphone
