@@ -81,6 +81,7 @@ dcm2niix
 mayavi
 fsleyes
 flatbuffers
+gtkmm
 tensorflow-estimator
 google-pasta
 keras-preprocessing
