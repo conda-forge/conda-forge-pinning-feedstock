@@ -367,7 +367,7 @@ attr:
 aws_c_auth:
   - 0.6.16
 aws_c_cal:
-  - 0.5.18
+  - 0.5.19
 aws_c_common:
   - 0.8.0
 aws_c_event_stream:
