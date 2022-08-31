@@ -17,6 +17,7 @@ pangomm
 blis
 openblas
 shellcheck
+rclone
 cmake
 make
 ninja
