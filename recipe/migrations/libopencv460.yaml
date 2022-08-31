@@ -1,8 +1,0 @@
-migrator_ts: 1661815782
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-libopencv:
-  - 4.6.0
