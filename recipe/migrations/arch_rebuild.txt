@@ -584,3 +584,4 @@ dataprep
 bayeswave
 quarto
 julia
+octave
