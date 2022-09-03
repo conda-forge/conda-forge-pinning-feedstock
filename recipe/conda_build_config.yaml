@@ -598,7 +598,7 @@ libspatialindex:
 libssh2:
   - 1
 libsvm:
-  - 3.21
+  - '325'
 libthrift:
   - 0.16.0
 libtiff:
