@@ -1002,4 +1002,5 @@ biotite
 hydride
 quarto
 ocaml
+julia
 octave
