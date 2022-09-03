@@ -583,3 +583,4 @@ jaxlib
 dataprep
 bayeswave
 quarto
+octave
