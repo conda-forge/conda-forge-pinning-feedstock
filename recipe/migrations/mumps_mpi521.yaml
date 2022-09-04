@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-migrator_ts: 1597089749.3339348
-mumps_mpi:
-- 5.2.1
-mumps_seq:
-- 5.2.1
