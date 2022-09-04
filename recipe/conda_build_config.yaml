@@ -417,7 +417,7 @@ coin_or_osi:
 coin_or_utils:
   - 2.11
 console_bridge:
-  - '1.0'
+  - 1.0
 cutensor:
   - 1
 curl:
