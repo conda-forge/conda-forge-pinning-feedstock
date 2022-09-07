@@ -437,7 +437,7 @@ fftw:
 flann:
   - 1.9.1
 fmt:
-  - '8'
+  - '9'
 fontconfig:
   - 2.13
 freetype:
