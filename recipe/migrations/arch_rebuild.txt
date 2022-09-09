@@ -299,6 +299,7 @@ nvcc
 gh
 bat
 ncdu
+prophet
 aiohttp
 fastparquet
 prmon
