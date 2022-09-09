@@ -327,6 +327,7 @@ cantera
 sleef
 dm-tree
 grpcio
+mathjax
 open62541
 libignition-fuel-tools
 libignition-physics
