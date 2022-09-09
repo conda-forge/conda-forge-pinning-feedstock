@@ -3,5 +3,5 @@ __migrator:
   kind: version
   migration_number: 1
 google_cloud_cpp:
-- '2'
+- '2.1'
 migrator_ts: 1657175606.7143388
