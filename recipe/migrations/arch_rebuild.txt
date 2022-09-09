@@ -427,6 +427,7 @@ pythran
 scitokens
 scitokens-cpp
 awscrt
+ephem
 gst-libav
 gst-plugins-bad
 gst-plugins-ugly
