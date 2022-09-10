@@ -510,7 +510,7 @@ imath:
 ipopt:
   - 3.14.8
 isl:
-  - '0.22'
+  - '0.24'
 jasper:
   - '2'
 jpeg:
