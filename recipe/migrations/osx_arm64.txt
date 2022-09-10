@@ -1010,3 +1010,4 @@ cheetah3
 ablog
 basemap
 universal_pathlib
+manim
