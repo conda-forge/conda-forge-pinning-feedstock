@@ -803,7 +803,7 @@ uhd:
 vc:                    # [win]
   - 14                 # [win]
 vlfeat:
-  - 0.9.20
+  - 0.9.21
 volk:
   - '2.5'
 vtk:
