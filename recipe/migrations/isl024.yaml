@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-isl:
-- '0.24'
-migrator_ts: 1645176966.4754152
