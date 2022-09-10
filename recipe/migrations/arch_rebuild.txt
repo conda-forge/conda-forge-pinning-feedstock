@@ -126,6 +126,7 @@ nbgrader
 allennlp
 urwid
 qutip
+omegaconf
 r-reshape
 r-kernlab
 r-rdpack
