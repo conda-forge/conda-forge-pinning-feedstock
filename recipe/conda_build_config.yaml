@@ -597,6 +597,8 @@ libsecret:
   - 0.18
 libspatialindex:
   - 1.9.3
+libssh:
+  - 0.10
 libssh2:
   - 1
 libsvm:
