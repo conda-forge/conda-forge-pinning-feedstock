@@ -4,6 +4,6 @@ __migrator:
   migration_number: 1
 boost:
 - 1.80.0
-boost_cpp
+boost_cpp:
 - 1.80.0
 migrator_ts: 1660820636.9540253
