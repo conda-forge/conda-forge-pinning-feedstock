@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+libiconv:
+- '1.17'
+migrator_ts: 1653640691.779616
