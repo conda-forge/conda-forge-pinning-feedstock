@@ -170,10 +170,6 @@ zip_keys:
     - python
     - numpy
     - python_impl
-  -
-    - abseil_cpp
-    - libabseil
-    - libabseil_static
 
 
 # aarch64 specifics because conda-build sets many things to centos 6
