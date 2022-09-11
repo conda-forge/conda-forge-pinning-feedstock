@@ -251,8 +251,6 @@ pin_run_as_build:
     max_pin: x.x
   libgdal:
     max_pin: x.x
-  libiconv:
-    max_pin: x.x
   libkml:
     max_pin: x.x
   libpng:
@@ -566,7 +564,7 @@ libhugetlbfs:
 libhwy:
   - '1.0'
 libiconv:
-  - 1.16
+  - 1
 libidn2:
   - 2
 libintervalxt:
