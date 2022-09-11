@@ -287,8 +287,6 @@ pin_run_as_build:
     max_pin: x.x
   openturns:
     max_pin: x.x
-  openjpeg:
-    max_pin: x.x
   pango:
     max_pin: x.x
   poppler:
@@ -683,7 +681,7 @@ openexr:
 openh264:
   - '2.3'
 openjpeg:
-  - '2.4'
+  - >=2.5,<3
 openmpi:
   - 4
 openssl:
