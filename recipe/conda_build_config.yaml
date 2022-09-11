@@ -681,7 +681,7 @@ openexr:
 openh264:
   - '2.3'
 openjpeg:
-  - >=2.5,<3
+  - '>=2.5,<3'
 openmpi:
   - 4
 openssl:
