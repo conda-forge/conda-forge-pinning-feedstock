@@ -508,7 +508,7 @@ icu:
 imath:
   - '3.1'
 ipopt:
-  - 3.14.8
+  - 3.14.9
 isl:
   - '0.25'
 jasper:
