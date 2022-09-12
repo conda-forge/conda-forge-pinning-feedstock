@@ -1011,3 +1011,4 @@ ablog
 basemap
 universal_pathlib
 manim
+ta-lib
