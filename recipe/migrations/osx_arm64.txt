@@ -1012,3 +1012,4 @@ basemap
 universal_pathlib
 manim
 ta-lib
+libta-lib
