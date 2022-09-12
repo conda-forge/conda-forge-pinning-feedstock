@@ -542,7 +542,7 @@ libcrc32c:
 libdap4:
   - 3.20.6
 libdeflate:
-  - '1.13'
+  - '1.14'
 libeantic:
   - 1
 libevent:
