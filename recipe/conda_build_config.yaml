@@ -424,6 +424,8 @@ davix:
   - '0.8'
 dbus:
   - 1
+eclib:
+  - 20220621
 exiv2:
   - 0.27
 expat:
