@@ -483,7 +483,7 @@ glpk:
 gmp:
   - 6
 google_cloud_cpp:
-  - '2.1'
+  - '2.2'
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
