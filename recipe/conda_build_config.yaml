@@ -170,9 +170,6 @@ zip_keys:
     - python
     - numpy
     - python_impl
-  -
-    - abseil_cpp
-    - grpc_cpp
 
 
 # aarch64 specifics because conda-build sets many things to centos 6
@@ -338,13 +335,9 @@ blas_impl:
   - mkl          # [x86 or x86_64]
   - blis         # [x86 or x86_64]
 
-# hmaarrfk (2022/05/06) -- keep in sync with grpc_cpp
-# Due to the fact that cetain large packages (tensorflow)
-# require specific versions of abseil to be used, it is
-# useful if we build out two versions with the abseil dependency
+# keep in sync with libabseil{,_static}
 abseil_cpp:
-  - '20210324.2'
-  - '20211102.0'
+  - '20220623.0'
 alsa_lib:
   - 1.2.6
 antic:
@@ -490,13 +483,8 @@ googleapis_cpp:
   - '0.10'
 graphviz:
   - '5'
-# 2022/02/16 -- hmaarrfk -- Keep in sync with abseil_cpp
-# However, grpc_cpp 1.46 now requires the newer version, so for the
-# abseil version 20210324 we need to ensure to build with the lastest
-# version of grpc that still supports it.
 grpc_cpp:
-  - '1.45'
-  - '1.46'
+  - '1.47'
 harfbuzz:
   - '5'
 hdf4:
@@ -529,6 +517,10 @@ kealib:
   - 1.4
 krb5:
   - '1.19'
+libabseil:
+  - '20220623.0'
+libabseil_static:
+  - '20220623.0'
 libarchive:
   - 3.5
 libavif:
