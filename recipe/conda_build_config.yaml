@@ -683,7 +683,7 @@ openmpi:
 openssl:
   - 1.1.1
 openturns:
-  - '1.18'
+  - '1.19'
 orc:
   - 1.7.6
 pango:
