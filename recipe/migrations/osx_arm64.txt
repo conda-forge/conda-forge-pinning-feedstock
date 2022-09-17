@@ -517,3 +517,4 @@ jenkspy
 rust-script
 luajit
 lalapps
+terraform
