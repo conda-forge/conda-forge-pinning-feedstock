@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-  check_solvable: false
-migrator_ts: 1630722380.715523
-root_base:
-- 6.24.6
