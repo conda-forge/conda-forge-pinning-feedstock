@@ -1014,3 +1014,4 @@ manim
 ta-lib
 simpleeval
 lru-dict
+terraform
