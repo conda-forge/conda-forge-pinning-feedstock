@@ -1015,3 +1015,4 @@ ta-lib
 simpleeval
 lru-dict
 terraform
+libobjcryst
