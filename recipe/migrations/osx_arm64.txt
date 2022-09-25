@@ -1016,3 +1016,4 @@ simpleeval
 lru-dict
 terraform
 libobjcryst
+pyobjcryst
