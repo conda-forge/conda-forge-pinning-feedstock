@@ -589,3 +589,4 @@ bayeswave
 quarto
 julia
 octave
+levenshtein
