@@ -1,9 +1,0 @@
-migrator_ts: 1664208756
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-# Remember to add this to the global pinnings when done
-aom:
-  - 3.5
