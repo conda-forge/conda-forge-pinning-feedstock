@@ -1018,3 +1018,4 @@ terraform
 libobjcryst
 pyobjcryst
 levenshtein
+r-checkmate
