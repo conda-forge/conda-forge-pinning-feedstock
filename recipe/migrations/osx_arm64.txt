@@ -1019,3 +1019,4 @@ libobjcryst
 pyobjcryst
 levenshtein
 r-checkmate
+cexprtk
