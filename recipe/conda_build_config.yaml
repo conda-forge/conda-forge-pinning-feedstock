@@ -258,7 +258,7 @@ aws_c_event_stream:
 aws_c_http:
   - 0.6.20
 aws_c_io:
-  - 0.13.2
+  - 0.13.4
 aws_c_mqtt:
   - 0.7.12
 aws_c_s3:
