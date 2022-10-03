@@ -629,7 +629,7 @@ pytorch:
 qt:
   - 5.12
 qtkeychain:
-  - '0.12'
+  - '0.13'
 re2:
   - 2022.06.01
 readline:
