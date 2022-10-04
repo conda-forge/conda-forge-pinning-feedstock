@@ -364,7 +364,7 @@ glib:
 glog:
   - '0.6'
 glpk:
-  - 4
+  - '5.0'
 gmp:
   - 6
 google_cloud_cpp:
