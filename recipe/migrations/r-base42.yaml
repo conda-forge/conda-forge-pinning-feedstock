@@ -5,6 +5,7 @@ __migrator:
   bump_number: 1
   operation: key_add
   commit_message: "Rebuild for r-base 4.2"
+  primary_key: r_base
 
 r_base:   # [not win]
   - 4.2   # [not win]
