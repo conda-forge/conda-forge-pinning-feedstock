@@ -440,7 +440,7 @@ libffi:
 libflatsurf:
   - 3
 libflint:
-  - '2.8'
+  - '2.9'
 libgdal:
   - '3.5'
 libgit2:
