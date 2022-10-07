@@ -1021,3 +1021,4 @@ levenshtein
 r-checkmate
 cexprtk
 simpleitk
+imagecodecs-lite
