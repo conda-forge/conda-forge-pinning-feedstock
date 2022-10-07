@@ -1022,3 +1022,4 @@ r-checkmate
 cexprtk
 simpleitk
 imagecodecs-lite
+z5py
