@@ -8,6 +8,7 @@ __migrator:
   primary_key: r_base
   automerge: True
   longterm: True
+  include_noarch: True
 
 r_base:   # [not win]
   - 4.2   # [not win]
