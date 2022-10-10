@@ -1023,3 +1023,6 @@ cexprtk
 simpleitk
 imagecodecs-lite
 z5py
+numina
+megaradrp
+pyemir
