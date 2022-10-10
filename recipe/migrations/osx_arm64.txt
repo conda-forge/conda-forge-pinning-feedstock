@@ -541,6 +541,8 @@ neovim
 magics
 magics-metview
 magics-metview-batch
+pcraster
+lue
 jenkspy
 rust-script
 luajit
