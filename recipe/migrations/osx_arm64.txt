@@ -1029,3 +1029,4 @@ numina
 megaradrp
 pyemir
 pysjef
+pyqstrat
