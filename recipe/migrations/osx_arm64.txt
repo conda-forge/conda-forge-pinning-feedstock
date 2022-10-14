@@ -854,6 +854,7 @@ dials
 nest-simulator
 img2pdf
 tango-idl
+cpptango
 omniorb
 celery
 pystackreg
