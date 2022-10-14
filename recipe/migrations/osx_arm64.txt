@@ -295,6 +295,7 @@ onnx
 fastparquet
 rise
 multiprocess
+jpeg
 libjpeg-turbo
 austin
 python-symengine
@@ -1030,3 +1031,5 @@ megaradrp
 pyemir
 pysjef
 pyqstrat
+cppzmq
+zeromq
