@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-libavif:
-- 0.11.0
-migrator_ts: 1665808172.3105211
