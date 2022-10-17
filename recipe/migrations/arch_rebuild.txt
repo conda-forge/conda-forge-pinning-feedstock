@@ -286,6 +286,7 @@ libmongocxx
 myproxy
 rrdtool
 gfal2-util
+apptainer
 singularity
 nordugrid-arc
 openssh
