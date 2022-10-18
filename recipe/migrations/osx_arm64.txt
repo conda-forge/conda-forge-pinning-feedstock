@@ -316,6 +316,7 @@ albumentations
 faiss-split
 zip
 nsync
+srm
 gpgme
 lz4
 mlir
