@@ -1031,3 +1031,4 @@ megaradrp
 pyemir
 pysjef
 pyqstrat
+r-fst
