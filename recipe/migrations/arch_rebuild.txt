@@ -390,6 +390,7 @@ heaptrack
 dirac-grid
 zip
 nsync
+srm
 chrpath
 gmsh
 pyzstd
