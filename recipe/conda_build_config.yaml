@@ -235,7 +235,7 @@ antic:
 aom:
   - 3.5
 arb:
-  - '2.22'
+  - '2.23'
 arpack:
   - 3.7
 arrow_cpp:
