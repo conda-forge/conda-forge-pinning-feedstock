@@ -592,3 +592,8 @@ quarto
 julia
 octave
 levenshtein
+ciso
+esmpy
+parcels
+xscape
+pykdtree
