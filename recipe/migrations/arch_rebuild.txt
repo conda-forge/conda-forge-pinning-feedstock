@@ -595,5 +595,5 @@ levenshtein
 ciso
 esmpy
 parcels
-xscape
+xcape
 pykdtree
