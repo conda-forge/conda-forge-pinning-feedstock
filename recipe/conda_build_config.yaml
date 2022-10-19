@@ -577,7 +577,7 @@ openssl:
 openturns:
   - '1.19'
 orc:
-  - 1.7.6
+  - 1.8.0
 pango:
   - '1'
 pari:
