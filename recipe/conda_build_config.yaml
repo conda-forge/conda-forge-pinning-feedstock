@@ -252,7 +252,7 @@ aws_c_auth:
 aws_c_cal:
   - 0.5.19
 aws_c_common:
-  - 0.8.1
+  - 0.8.2
 aws_c_event_stream:
   - 0.2.15
 aws_c_http:
