@@ -502,7 +502,7 @@ libwebp:
 libwebp_base:
   - 1
 libxml2:
-  - 2.9
+  - 2.10
 libxsmm:
   - 1
 libuuid:
