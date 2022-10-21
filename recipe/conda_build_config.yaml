@@ -579,7 +579,7 @@ openturns:
 orc:
   - 1.8.0
 pango:
-  - '1'
+  - 1.50
 pari:
   - 2.13.* *_pthread
 perl:
