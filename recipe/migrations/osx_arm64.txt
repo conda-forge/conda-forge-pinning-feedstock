@@ -1033,3 +1033,4 @@ pyemir
 pysjef
 pyqstrat
 r-fst
+noise
