@@ -385,6 +385,7 @@ scalene
 nasm
 bazel
 onednn
+pybcj
 lbaplocal
 heaptrack
 dirac-grid
