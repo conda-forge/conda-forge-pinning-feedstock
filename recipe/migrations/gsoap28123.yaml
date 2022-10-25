@@ -2,7 +2,6 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-  automerge: true
-migrator_ts: 1651047769.9265347
-s2n:
-- 1.3.12
+gsoap:
+- 2.8.123
+migrator_ts: 1662015610.5721903

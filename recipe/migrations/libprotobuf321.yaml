@@ -2,7 +2,6 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-  automerge: true
-aws_c_io:
-- 0.11.0
-migrator_ts: 1651103023.808034
+libprotobuf:
+- '3.21'
+migrator_ts: 1661531047.2553904

@@ -19,6 +19,9 @@ build:
     - exit 1                                                          # [win]
 
 test:
+  requires:
+    - python >= 3.8
+    - pyyaml
   commands:
     - test -f $PREFIX/conda_build_config.yaml                       # [unix]
     - test -f $PREFIX/share/conda-forge/migrations/example.exyaml   # [unix]
