@@ -18,11 +18,15 @@ __migrator:
     paused: false
     longterm: True
     pr_limit: 5
+    max_solver_attempts: 10  # this will make the bot retry "not solvable" stuff 10 times
     exclude:
       # this shouldn't attempt to modify the python feedstocks
       - python
       - pypy3.6
       - pypy-meta
+      - cross-python
+      - python_abi
+    exclude_pinned_pkgs: false
 
 python:
   - 3.11.* *_cpython
