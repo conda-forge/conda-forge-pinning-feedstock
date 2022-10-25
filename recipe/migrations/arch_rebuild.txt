@@ -350,6 +350,8 @@ jaeger
 anyio
 pre-commit
 lightgbm
+graphblas
+python-suitesparse-graphblas
 suitesparse
 arpack
 supervisor
