@@ -681,6 +681,8 @@ ucx:
   - 1.12.1
 uhd:
   - 4.3.0
+urdfdom:
+  - 3.1
 vc:                    # [win]
   - 14                 # [win]
 vlfeat:
