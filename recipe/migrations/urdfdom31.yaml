@@ -1,8 +1,0 @@
-migrator_ts: 1662210046
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-urdfdom:
-  - '3.1'
