@@ -1036,3 +1036,5 @@ r-fst
 noise
 jupyter-docx-bundler
 emsdk
+graphblas
+python-suitesparse-graphblas
