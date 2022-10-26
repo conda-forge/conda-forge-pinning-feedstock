@@ -2,3 +2,7 @@ conda_forge_output_validation: true
 github:
   branch_name: main
   tooling_branch_name: main
+provider:
+  linux_aarch64: default
+noarch_platforms:
+  - linux_aarch64
