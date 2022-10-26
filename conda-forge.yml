@@ -3,4 +3,6 @@ github:
   branch_name: main
   tooling_branch_name: main
 provider:
-  linux_64: travis
+  linux_aarch64: default
+noarch_platforms:
+  - linux_aarch64
