@@ -2,3 +2,5 @@ conda_forge_output_validation: true
 github:
   branch_name: main
   tooling_branch_name: main
+provider:
+  linux_64: travis
