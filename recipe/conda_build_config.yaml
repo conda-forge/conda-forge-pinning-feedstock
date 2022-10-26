@@ -340,7 +340,7 @@ gnutls:
 gsl:
   - 2.7
 gsoap:
-  - 2.8.119
+  - 2.8.123
 gstreamer:
   - '1.20'
 gst_plugins_base:
