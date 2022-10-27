@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 3
-boost:
-- 1.78.0
-boost_cpp:
-- 1.78.0
-migrator_ts: 1662825971
