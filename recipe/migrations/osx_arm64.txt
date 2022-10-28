@@ -856,6 +856,9 @@ nest-simulator
 img2pdf
 tango-idl
 cpptango
+tango-admin
+tango-database
+tango-test
 omniorb
 celery
 pystackreg
