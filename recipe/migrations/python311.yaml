@@ -15,9 +15,9 @@ __migrator:
             - 3.7.* *_73_pypy
             - 3.8.* *_73_pypy
             - 3.9.* *_73_pypy
-    paused: true
+    paused: false
     longterm: True
-    pr_limit: 10
+    pr_limit: 5
     max_solver_attempts: 10  # this will make the bot retry "not solvable" stuff 10 times
     exclude:
       # this shouldn't attempt to modify the python feedstocks
