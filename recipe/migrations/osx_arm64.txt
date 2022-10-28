@@ -1036,6 +1036,7 @@ r-fst
 noise
 jupyter-docx-bundler
 emsdk
+libqdldl
 graphblas
 python-suitesparse-graphblas
 caiman
