@@ -544,6 +544,7 @@ magics-metview
 magics-metview-batch
 pcraster
 lue
+hpx
 jenkspy
 rust-script
 luajit
