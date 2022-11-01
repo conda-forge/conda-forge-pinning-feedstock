@@ -1048,3 +1048,4 @@ caiman
 lazrs-python
 r-changepoint
 r-getpass
+laspy
