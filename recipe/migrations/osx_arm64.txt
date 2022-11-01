@@ -1047,3 +1047,4 @@ python-suitesparse-graphblas
 caiman
 lazrs-python
 r-changepoint
+r-getpass
