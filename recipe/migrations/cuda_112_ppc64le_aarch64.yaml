@@ -37,5 +37,9 @@ cdt_name:  # [ppc64le or aarch64]
   - cos7   # [ppc64le or aarch64]
 
 docker_image:                                           # [os.environ.get("BUILD_PLATFORM", "").startswith("linux") and (ppc64le or aarch64)]
+   # case: native compilation (build == target)
    - quay.io/condaforge/linux-anvil-ppc64le-cuda:11.2   # [ppc64le and os.environ.get("BUILD_PLATFORM") == "linux-ppc64le"]
    - quay.io/condaforge/linux-anvil-aarch64-cuda:11.2   # [aarch64 and os.environ.get("BUILD_PLATFORM") == "linux-aarch64"]
+   # case: cross-compilation (build != target)
+   - quay.io/condaforge/linux-anvil-cuda:11.2           # [ppc64le and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+   - quay.io/condaforge/linux-anvil-cuda:11.2           # [aarch64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
