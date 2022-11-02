@@ -606,3 +606,4 @@ ray-packages
 noise
 lazrs-python
 laspy
+manim
