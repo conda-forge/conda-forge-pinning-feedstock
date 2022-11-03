@@ -608,3 +608,4 @@ lazrs-python
 laspy
 manim
 cds-crtools
+scikit-gstat
