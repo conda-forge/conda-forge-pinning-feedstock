@@ -1049,3 +1049,4 @@ lazrs-python
 r-changepoint
 r-getpass
 laspy
+gds-root-extensions

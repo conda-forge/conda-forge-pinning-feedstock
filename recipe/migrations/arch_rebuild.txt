@@ -607,3 +607,4 @@ noise
 lazrs-python
 laspy
 manim
+cds-crtools
