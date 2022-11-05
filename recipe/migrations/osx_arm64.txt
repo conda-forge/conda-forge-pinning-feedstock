@@ -1051,3 +1051,4 @@ r-getpass
 laspy
 gds-root-extensions
 scikit-gstat
+chemicalite
