@@ -479,6 +479,8 @@ librsvg:
   - 2
 libsecret:
   - 0.18
+libsndfile:
+  - 1.1
 libspatialindex:
   - 1.9.3
 libssh:
