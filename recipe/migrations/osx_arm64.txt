@@ -1053,3 +1053,4 @@ gds-root-extensions
 scikit-gstat
 r-leaps
 chemicalite
+r-rcpproll
