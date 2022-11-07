@@ -264,11 +264,11 @@ aws_c_mqtt:
 aws_c_s3:
   - 0.1.51
 aws_c_sdkutils:
-  - 0.1.5
+  - 0.1.6
 aws_checksums:
   - 0.1.13
 aws_crt_cpp:
-  - 0.18.10
+  - 0.18.11
 aws_sdk_cpp:
   - 1.9.160
 boost:
@@ -520,7 +520,7 @@ lzo:
 metis:
   - 5.1
 mimalloc:
-  - 2.0.6
+  - 2.0.7
 mkl:
   - 2022
 mkl_devel:
@@ -608,7 +608,7 @@ poco:
 poppler:
   - '22.04'
 proj:
-  - 9.0.1
+  - 9.1.0
 pulseaudio:
   - 14.0
 pybind11_abi:

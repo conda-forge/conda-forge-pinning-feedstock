@@ -1051,4 +1051,5 @@ r-getpass
 laspy
 gds-root-extensions
 scikit-gstat
+r-leaps
 chemicalite
