@@ -476,6 +476,7 @@ gmatelastoplasicqpot
 gmattensor
 gooseeye
 goosefem
+r-lfe
 gooseslurm
 parallel
 paraview
