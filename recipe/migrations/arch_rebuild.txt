@@ -609,3 +609,4 @@ laspy
 manim
 cds-crtools
 scikit-gstat
+thriftpy2
