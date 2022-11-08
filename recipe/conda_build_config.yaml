@@ -546,7 +546,7 @@ nettle:
 nodejs:
   - '18'
   - '16'
-  - '14'
+  - '14'  # [not (osx and arm64)]
 nss:
   - 3
 nspr:
