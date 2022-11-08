@@ -672,6 +672,7 @@ pyregion
 regions
 r-cairo
 socat
+r-fixest
 r-irkernel
 coreutils
 libsigcpp
