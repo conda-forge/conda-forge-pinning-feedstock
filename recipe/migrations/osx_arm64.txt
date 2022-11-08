@@ -1054,3 +1054,4 @@ scikit-gstat
 r-leaps
 chemicalite
 r-rcpproll
+r-desctools
