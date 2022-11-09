@@ -2,6 +2,7 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
+  automerge: true
 aws_crt_cpp:
 - 0.18.13
 migrator_ts: 1668001287.0013306
