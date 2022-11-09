@@ -863,6 +863,7 @@ cpptango
 tango-admin
 tango-database
 tango-test
+pytango
 omniorb
 celery
 pystackreg
