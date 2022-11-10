@@ -1059,3 +1059,4 @@ chemicalite
 r-rcpproll
 r-desctools
 tmap
+somoclu
