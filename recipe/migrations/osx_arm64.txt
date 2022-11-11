@@ -1061,4 +1061,5 @@ r-desctools
 tmap
 somoclu
 cellfinder-core
+scikit-sparse
 scikit-network
