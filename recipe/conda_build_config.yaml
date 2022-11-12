@@ -310,7 +310,7 @@ davix:
 dbus:
   - 1
 eclib:
-  - 20220621
+  - '20221012'
 exiv2:
   - 0.27
 expat:
