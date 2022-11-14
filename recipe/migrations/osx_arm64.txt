@@ -1064,3 +1064,4 @@ cellfinder-core
 scikit-sparse
 scikit-network
 pybamm
+nifty
