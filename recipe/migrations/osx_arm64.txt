@@ -1063,3 +1063,4 @@ somoclu
 cellfinder-core
 scikit-sparse
 scikit-network
+nifty
