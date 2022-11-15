@@ -1067,3 +1067,6 @@ pybamm
 nifty
 arosics
 sensormapgeo
+modin
+xopen
+keras
