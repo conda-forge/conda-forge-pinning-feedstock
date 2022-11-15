@@ -1065,3 +1065,4 @@ scikit-sparse
 scikit-network
 pybamm
 nifty
+arosics
