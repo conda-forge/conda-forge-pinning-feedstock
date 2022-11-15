@@ -1066,3 +1066,4 @@ scikit-network
 pybamm
 nifty
 arosics
+sensormapgeo
