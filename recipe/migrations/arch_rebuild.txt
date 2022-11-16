@@ -610,3 +610,4 @@ manim
 cds-crtools
 scikit-gstat
 thriftpy2
+tensorflow
