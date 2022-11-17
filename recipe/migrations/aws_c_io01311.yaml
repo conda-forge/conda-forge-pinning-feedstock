@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+  automerge: true
+  wait_for_migrators:
+  - aws_c_io01310
+aws_c_io:
+- 0.13.11
+migrator_ts: 1668656519.5265317
