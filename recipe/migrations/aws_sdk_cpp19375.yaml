@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-aws_sdk_cpp:
-- 1.9.375
-migrator_ts: 1667321224.1701944
