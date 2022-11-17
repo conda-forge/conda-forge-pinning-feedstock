@@ -4,6 +4,7 @@ conda-package-handling
 lapack
 blis
 openblas
+go-yq
 numpy
 tornado
 libavif
@@ -594,6 +595,7 @@ dataprep
 bayeswave
 quarto
 julia
+linux-perf
 octave
 levenshtein
 ciso

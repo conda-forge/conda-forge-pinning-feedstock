@@ -1,6 +1,7 @@
 python
 micromamba
 conda-build
+go-yq
 gmp
 mpfr
 libavif
