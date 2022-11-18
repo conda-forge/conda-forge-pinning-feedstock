@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+aws_c_sdkutils:
+- 0.1.7
+migrator_ts: 1668742059.9490685
