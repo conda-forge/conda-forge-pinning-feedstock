@@ -6,6 +6,7 @@ blis
 openblas
 go-yq
 numpy
+libqrencode
 tornado
 libavif
 bcrypt
