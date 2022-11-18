@@ -5,6 +5,7 @@ go-yq
 gmp
 mpfr
 libavif
+libqrencode
 mpc
 isl
 pyarrow
