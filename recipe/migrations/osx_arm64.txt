@@ -1072,3 +1072,4 @@ sensormapgeo
 modin
 xopen
 keras
+ncdu
