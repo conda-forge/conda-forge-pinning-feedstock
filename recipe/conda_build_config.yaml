@@ -395,6 +395,8 @@ jasper:
   - '2'
 jpeg:
   - 9
+lcms:
+  - 2
 lerc:
   - '4'
 libjpeg_turbo:
