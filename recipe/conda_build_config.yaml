@@ -375,6 +375,7 @@ googleapis_cpp:
   - '0.10'
 graphviz:
   - '6'
+# keep in sync with libgrpc
 grpc_cpp:
   - '1.49'
 harfbuzz:
@@ -447,6 +448,8 @@ libgdal:
   - '3.5'
 libgit2:
   - '1.5'
+libgrpc:
+  - '1.49'
 libhugetlbfs:
   - 2
 libhwy:
