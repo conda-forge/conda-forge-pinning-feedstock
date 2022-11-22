@@ -162,6 +162,7 @@ log4cxx
 xpa
 apr
 eups
+exprtk
 openpmd-api
 jemalloc
 xsimd
