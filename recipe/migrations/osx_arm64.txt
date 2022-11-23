@@ -18,6 +18,8 @@ lapack
 pangomm
 blis
 openblas
+numpy
+numpy-allocator
 shellcheck
 rclone
 cmake
