@@ -1078,3 +1078,4 @@ xopen
 keras
 ncdu
 pynio
+gz-launch
