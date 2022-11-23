@@ -18,6 +18,7 @@ lapack
 pangomm
 blis
 openblas
+numpy
 shellcheck
 rclone
 cmake
