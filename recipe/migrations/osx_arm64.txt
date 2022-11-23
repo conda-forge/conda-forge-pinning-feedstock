@@ -454,6 +454,7 @@ schwimmbad
 joblib
 loky
 metadetect
+natcap.invest
 jinja2
 pyyaml
 ngmix
