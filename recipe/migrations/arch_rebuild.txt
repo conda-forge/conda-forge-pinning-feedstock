@@ -6,6 +6,7 @@ blis
 openblas
 go-yq
 numpy
+numpy-allocator
 libqrencode
 tornado
 libavif
