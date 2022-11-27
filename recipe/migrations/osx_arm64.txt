@@ -454,6 +454,7 @@ schwimmbad
 joblib
 loky
 metadetect
+natcap.invest
 jinja2
 pyyaml
 ngmix
@@ -1080,3 +1081,4 @@ ncdu
 pynio
 gz-launch
 tslearn
+qe
