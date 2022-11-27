@@ -1080,4 +1080,5 @@ keras
 ncdu
 pynio
 gz-launch
+tslearn
 qe
