@@ -1082,3 +1082,4 @@ pynio
 gz-launch
 tslearn
 qe
+pytsql
