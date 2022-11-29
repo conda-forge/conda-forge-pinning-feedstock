@@ -28,6 +28,9 @@ xcb-util-renderutil
 enum34
 libnsl
 root
+boost-cpp
+boost
+libboost-mpi
 boost-histogram
 geant4
 poetry
