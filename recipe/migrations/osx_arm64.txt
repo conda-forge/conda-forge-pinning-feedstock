@@ -121,6 +121,9 @@ poetry
 kartothek
 mlflow
 file
+boost-cpp
+boost
+libboost-mpi
 boost-histogram
 iminuit
 asyncpg
