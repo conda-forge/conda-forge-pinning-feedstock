@@ -614,6 +614,7 @@ noise
 lazrs-python
 laspy
 manim
+jupyter-dash
 cds-crtools
 scikit-gstat
 thriftpy2
