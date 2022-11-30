@@ -60,6 +60,7 @@ sage
 mpich
 iminuit
 tini
+datafusion
 pyarrow
 r-base
 lhcbdirac

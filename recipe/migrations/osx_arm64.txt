@@ -8,6 +8,7 @@ libavif
 libqrencode
 mpc
 isl
+datafusion
 pyarrow
 yaml-cpp
 cffi
