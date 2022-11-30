@@ -494,6 +494,9 @@ libssh2:
   - 1
 libsvm:
   - '325'
+# keep libsqlite in sync with sqlite
+libsqlite:
+  - 3
 libthrift:
   - 0.16.0
 libtiff:
@@ -664,6 +667,7 @@ sox:
   - 14.4.2
 spdlog:
   - '1.10'
+# keep sqlite in sync with libsqlite
 sqlite:
   - 3
 starlink_ast:
