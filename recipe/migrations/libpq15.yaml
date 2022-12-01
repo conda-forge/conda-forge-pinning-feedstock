@@ -8,5 +8,5 @@ libpq:
   - 15
 postgresql:
   - 15
-postgresql-plpython:
+postgresql_plpython:
   - 15
