@@ -622,4 +622,5 @@ scikit-gstat
 thriftpy2
 tensorflow
 gz-launch
+dwave-samplers
 glum
