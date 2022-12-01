@@ -608,7 +608,7 @@ p11_kit:
 pcre:
   - '8'
 pcre2:
-  - '10.37'
+  - '10.40'
 pixman:
   - 0
 poco:
