@@ -327,6 +327,7 @@ faiss-split
 zip
 nsync
 srm
+ruff
 gpgme
 lz4
 mlir
