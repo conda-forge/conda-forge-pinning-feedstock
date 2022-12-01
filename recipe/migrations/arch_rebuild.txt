@@ -401,6 +401,7 @@ dirac-grid
 zip
 nsync
 srm
+ruff
 chrpath
 gmsh
 pyzstd
