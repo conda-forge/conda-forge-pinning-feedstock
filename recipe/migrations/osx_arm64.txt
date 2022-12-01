@@ -1087,4 +1087,5 @@ pynio
 gz-launch
 tslearn
 qe
+dwave-samplers
 pytsql
