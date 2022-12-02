@@ -1088,3 +1088,9 @@ gz-launch
 tslearn
 qe
 pytsql
+r-desolve
+r-picante
+r-bipartite
+r-raster
+r-gmp
+r-rmpfr
