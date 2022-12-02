@@ -409,7 +409,7 @@ json_c:
 jsoncpp:
   - 1.9.5
 kealib:
-  - 1.4
+  - '1.5'
 krb5:
   - '1.19'
 libabseil:
