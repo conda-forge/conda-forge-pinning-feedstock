@@ -8,4 +8,7 @@ __migrator:
 google_cloud_cpp:
 - '2.5.0'
 
+libgoogle_cloud:
+- '2.5.5'
+
 migrator_ts: 1670190924.8093572
