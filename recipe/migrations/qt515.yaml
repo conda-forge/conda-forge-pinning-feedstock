@@ -8,3 +8,10 @@ qt:
   - 5.15
 qt_main:
   - 5.15
+# Upon closing, please rerember to add the pyqt to the global pinnings
+pyqt:
+  - 5.15
+pyqtwebengine:
+  - 5.15
+pyqtchart:
+  - 5.15
