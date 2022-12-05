@@ -1095,3 +1095,13 @@ r-bipartite
 r-raster
 r-gmp
 r-rmpfr
+r-parsedate
+r-aptreeshape
+r-spelling
+r-coda
+r-cubature
+r-pbapply
+r-quantreg
+r-hunspell
+r-pingr
+r-rhub
