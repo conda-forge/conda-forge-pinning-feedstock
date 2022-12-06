@@ -666,7 +666,7 @@ soapysdr:
 sox:
   - 14.4.2
 spdlog:
-  - '1.10'
+  - '1.11'
 # keep sqlite in sync with libsqlite
 sqlite:
   - 3
