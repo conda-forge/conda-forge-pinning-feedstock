@@ -1096,3 +1096,6 @@ r-raster
 r-gmp
 r-rmpfr
 orange3
+sdl2_mixer
+sdl2_ttf
+sdl2_image
