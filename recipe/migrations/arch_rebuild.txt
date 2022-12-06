@@ -625,3 +625,4 @@ gz-launch
 dwave-samplers
 glum
 orange3
+r-rcppspdlog
