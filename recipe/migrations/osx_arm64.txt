@@ -19,6 +19,7 @@ lapack
 pangomm
 blis
 openblas
+triangle
 numpy
 numpy-allocator
 shellcheck
