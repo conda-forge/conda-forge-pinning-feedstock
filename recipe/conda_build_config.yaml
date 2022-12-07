@@ -533,6 +533,8 @@ mkl:
   - 2022
 mkl_devel:
   - 2022
+mpg123:
+  - '1.31'
 mpich:
   - 4
 mpfr:
@@ -658,6 +660,14 @@ ptscotch:
 s2n:
   - 1.3.28
 sdl2:
+  - '2'
+sdl2_image:
+  - '2'
+sdl2_mixer:
+  - '2'
+sdl2_net:
+  - '2'
+sdl2_ttf:
   - '2'
 singular:
   - 4.2.1.p3
