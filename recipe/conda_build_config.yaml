@@ -348,7 +348,7 @@ gst_plugins_base:
 gdal:
   - '3.5'
 geos:
-  - 3.11.0
+  - 3.11.1
 geotiff:
   - 1.7.1
 gfal2:
@@ -533,6 +533,8 @@ mkl:
   - 2022
 mkl_devel:
   - 2022
+mpg123:
+  - '1.31'
 mpich:
   - 4
 mpfr:
@@ -657,6 +659,16 @@ ptscotch:
   - 6.0.9
 s2n:
   - 1.3.28
+sdl2:
+  - '2'
+sdl2_image:
+  - '2'
+sdl2_mixer:
+  - '2'
+sdl2_net:
+  - '2'
+sdl2_ttf:
+  - '2'
 singular:
   - 4.2.1.p3
 snappy:
@@ -666,7 +678,7 @@ soapysdr:
 sox:
   - 14.4.2
 spdlog:
-  - '1.10'
+  - '1.11'
 # keep sqlite in sync with libsqlite
 sqlite:
   - 3
