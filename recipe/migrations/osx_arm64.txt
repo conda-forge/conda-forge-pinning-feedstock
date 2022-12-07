@@ -1111,6 +1111,7 @@ sdl2_ttf
 sdl2_image
 dvc
 r-rcppspdlog
+cosmosis-build-standard-library
 r-glassofast
 r-mvmorph
 r-robustbase
