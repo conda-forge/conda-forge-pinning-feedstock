@@ -170,6 +170,10 @@ zip_keys:
     - python
     - numpy
     - python_impl
+  # transition until arrow_cpp can be dropped for arrow 13.x
+  -
+    - arrow_cpp
+    - libarrow
 
 
 # aarch64 specifics because conda-build sets many things to centos 6
@@ -238,6 +242,7 @@ arb:
   - '2.23'
 arpack:
   - 3.7
+# keep in sync with libarrow
 arrow_cpp:
   - 9.0.0
   - 8.0.1
@@ -418,6 +423,12 @@ libabseil_static:
   - '20220623.0'
 libarchive:
   - 3.5
+# keep in sync with arrow_cpp (libarrow exists only from 10.x, but ensure consistency)
+libarrow:
+  - 9.0.0
+  - 8.0.1
+  - 7.0.1
+  - 6.0.2
 libavif:
   - 0.11.1
 libblitz:

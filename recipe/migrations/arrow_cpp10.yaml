@@ -1,0 +1,17 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+arrow_cpp:
+- 10.0.1
+- 9.0.0
+- 8.0.1
+- 7.0.1
+# make sure we have same length for zip, even
+# though libarrow builds only exist since 10.x
+libarrow:
+- 10.0.1
+- 9.0.0
+- 8.0.1
+- 7.0.1
+migrator_ts: 1670146930.791868
