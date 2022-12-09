@@ -147,6 +147,9 @@ xeus-robot
 xtensor-io
 opencv
 qt
+qt-3d
+qt-charts
+qt-datavis3d
 pyqt
 pyside2
 libdb
