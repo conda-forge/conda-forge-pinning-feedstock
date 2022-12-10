@@ -631,7 +631,7 @@ poppler:
 proj:
   - 9.1.0
 pulseaudio:
-  - 14.0
+  - '16.1'
 pybind11_abi:
   - 4
 python:
