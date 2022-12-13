@@ -626,3 +626,5 @@ dwave-samplers
 glum
 orange3
 r-rcppspdlog
+pytensor-base
+pytensor

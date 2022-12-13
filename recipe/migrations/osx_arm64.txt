@@ -1125,3 +1125,5 @@ bpython
 web3
 qiskit-terra
 r-rcppnumerical
+pytensor-base
+pytensor
