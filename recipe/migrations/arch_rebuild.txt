@@ -29,6 +29,7 @@ enum34
 libnsl
 root
 boost-cpp
+teensy_loader_cli
 boost
 libboost-mpi
 boost-histogram
