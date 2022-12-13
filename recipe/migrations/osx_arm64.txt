@@ -314,6 +314,7 @@ libjpeg-turbo
 austin
 python-symengine
 aesara
+pytensor
 yarn
 pytest-asyncio
 ceres-solver
