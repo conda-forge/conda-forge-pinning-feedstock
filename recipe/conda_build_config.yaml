@@ -599,7 +599,7 @@ openssl:
 openturns:
   - '1.19'
 orc:
-  - 1.8.0
+  - 1.8.1
 pango:
   - 1.50
 pari:
