@@ -33,6 +33,7 @@ ripgrep
 vispy
 hugin
 pkg-config
+teensy_loader_cli
 glib
 libtool
 autoconf
