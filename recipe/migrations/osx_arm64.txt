@@ -955,6 +955,7 @@ cwltool
 libstempo
 psy-view
 pyfesom2
+pystow
 pyworld
 astra-toolbox
 ytop
