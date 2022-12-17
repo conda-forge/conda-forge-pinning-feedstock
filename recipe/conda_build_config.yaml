@@ -511,7 +511,7 @@ libsqlite:
 libthrift:
   - 0.16.0
 libtiff:
-  - 4
+  - 4.4
 libunwind:
   - '1.6'
 libv8:
