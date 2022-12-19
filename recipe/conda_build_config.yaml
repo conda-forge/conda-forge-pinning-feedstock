@@ -597,7 +597,7 @@ openmpi:
 openssl:
   - 1.1.1
 openturns:
-  - '1.19'
+  - '1.20'
 orc:
   - 1.8.1
 pango:
