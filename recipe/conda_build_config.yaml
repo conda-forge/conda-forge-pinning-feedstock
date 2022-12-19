@@ -351,7 +351,7 @@ gstreamer:
 gst_plugins_base:
   - '1.20'
 gdal:
-  - '3.5'
+  - '3.6'
 geos:
   - 3.11.1
 geotiff:
@@ -456,7 +456,7 @@ libflatsurf:
 libflint:
   - '2.9'
 libgdal:
-  - '3.5'
+  - '3.6'
 libgit2:
   - '1.5'
 libgrpc:
