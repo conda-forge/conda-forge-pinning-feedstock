@@ -40,6 +40,7 @@ cvxpy
 hepmc3
 conda-smithy
 scikit-image
+gosu
 su-exec
 uproot
 zeromq
