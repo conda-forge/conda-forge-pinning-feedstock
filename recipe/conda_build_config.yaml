@@ -347,9 +347,9 @@ gsl:
 gsoap:
   - 2.8.123
 gstreamer:
-  - '1.20'
+  - '1.21'
 gst_plugins_base:
-  - '1.20'
+  - '1.21'
 gdal:
   - '3.6'
 geos:
