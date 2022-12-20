@@ -1133,3 +1133,7 @@ ibm_db_sa
 geocat-f2py
 pikepdf
 qscintilla2
+triqs
+triqs_cthyb
+triqs_tprf
+triqs_dft_tools
