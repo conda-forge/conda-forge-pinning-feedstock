@@ -630,3 +630,6 @@ orange3
 r-rcppspdlog
 pytensor-base
 pytensor
+gstlal-burst
+gstlal-calibration
+gstlal-inspiral
