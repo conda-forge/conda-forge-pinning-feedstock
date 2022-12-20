@@ -4,6 +4,8 @@ conda-package-handling
 lapack
 blis
 openblas
+fftw
+pyfftw
 go-yq
 numpy
 numpy-allocator
