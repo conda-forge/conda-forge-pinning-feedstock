@@ -423,7 +423,7 @@ libabseil:
 libabseil_static:
   - '20220623.0'
 libarchive:
-  - 3.5
+  - '3.6'
 # keep in sync with arrow_cpp (libarrow exists only from 10.x, but ensure consistency)
 libarrow:
   - 9.0.0
