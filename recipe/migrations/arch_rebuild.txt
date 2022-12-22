@@ -635,3 +635,5 @@ pytensor
 gstlal-burst
 gstlal-calibration
 gstlal-inspiral
+river-cpp
+river-py
