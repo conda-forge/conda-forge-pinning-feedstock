@@ -244,10 +244,12 @@ arpack:
   - 3.7
 # keep in sync with libarrow
 arrow_cpp:
+  - 10.0.1
   - 9.0.0
   - 8.0.1
   - 7.0.1
-  - 6.0.2
+# make sure we have same length for zip, even
+# though libarrow builds only exist since 10.x
 assimp:
   - 5.2.5
 attr:
@@ -426,10 +428,10 @@ libarchive:
   - '3.6'
 # keep in sync with arrow_cpp (libarrow exists only from 10.x, but ensure consistency)
 libarrow:
+  - 10.0.1
   - 9.0.0
   - 8.0.1
   - 7.0.1
-  - 6.0.2
 libavif:
   - 0.11.1
 libblitz:
