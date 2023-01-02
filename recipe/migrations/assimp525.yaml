@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-assimp:
-- 5.2.5
-migrator_ts: 1663100710.2627342
