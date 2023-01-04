@@ -1137,3 +1137,4 @@ triqs
 triqs_cthyb
 triqs_tprf
 triqs_dft_tools
+veloxchem
