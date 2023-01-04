@@ -635,3 +635,4 @@ pytensor
 gstlal-burst
 gstlal-calibration
 gstlal-inspiral
+veloxchem
