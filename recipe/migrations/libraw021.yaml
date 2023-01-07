@@ -1,0 +1,8 @@
+migrator_ts: 1673090267
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+libraw:
+  - '0.21'
