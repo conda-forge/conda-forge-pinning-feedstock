@@ -588,6 +588,7 @@ x265
 nds2-client-swig
 cartographer
 gym
+gymnasium
 kaggle
 r-tidyverse
 quantecon

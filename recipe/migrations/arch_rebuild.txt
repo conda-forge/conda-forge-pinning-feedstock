@@ -616,6 +616,7 @@ xcape
 libqdldl
 pykdtree
 ray-packages
+gymnasium
 noise
 lazrs-python
 laspy
