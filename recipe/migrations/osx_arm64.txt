@@ -1141,3 +1141,4 @@ triqs_dft_tools
 veloxchem
 firefox
 causalml
+gnuastro
