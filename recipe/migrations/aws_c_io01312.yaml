@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-  automerge: true
-aws_c_io:
-- 0.13.12
-migrator_ts: 1671629046.8359842
