@@ -571,6 +571,7 @@ pystan
 gstlal-inspiral
 gstlal-burst
 gstlal-calibration
+gst-plugins-bad
 pycbc
 python-pushover
 rustpython
