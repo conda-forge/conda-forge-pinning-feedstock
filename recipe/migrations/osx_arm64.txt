@@ -1145,3 +1145,4 @@ causalml
 gnuastro
 pathos
 forestci
+pyqg
