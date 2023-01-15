@@ -637,3 +637,5 @@ gstlal-burst
 gstlal-calibration
 gstlal-inspiral
 veloxchem
+pathos
+forestci
