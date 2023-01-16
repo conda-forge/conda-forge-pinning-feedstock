@@ -529,6 +529,7 @@ zoxide
 orderedset
 vega
 vega-cli
+vega-lite-cli
 openbabel
 pmdarima
 librdkafka
