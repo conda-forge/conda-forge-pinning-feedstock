@@ -453,7 +453,7 @@ libeantic:
 libevent:
   - 2.1.10
 libexactreal:
-  - 2
+  - '3'
 libffi:
   - '3.4'
 libflatsurf:
