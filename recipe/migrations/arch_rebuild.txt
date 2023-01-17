@@ -640,3 +640,4 @@ veloxchem
 pathos
 forestci
 yarp
+pypdf
