@@ -1150,5 +1150,6 @@ pyqg
 pypdf
 pytinyrenderer
 norse
+scikit-fmm
 openpnm
 porespy
