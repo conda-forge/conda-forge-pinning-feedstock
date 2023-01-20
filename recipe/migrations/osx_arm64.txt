@@ -1149,3 +1149,4 @@ forestci
 pyqg
 pypdf
 pytinyrenderer
+norse
