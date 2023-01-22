@@ -505,6 +505,8 @@ librsvg:
   - 2
 libsecret:
   - 0.18
+libsentencepiece:
+  - 0.1.97
 libsndfile:
   - 1.1
 libspatialindex:
