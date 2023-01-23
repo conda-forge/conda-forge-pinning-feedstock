@@ -1030,6 +1030,7 @@ armadillo
 redlionfish
 scalene
 arrow-odbc
+atheris
 cppe
 biotite
 hydride
