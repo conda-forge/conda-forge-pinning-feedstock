@@ -499,6 +499,8 @@ libprotobuf:
   - '3.21'
 libpq:
   - 15
+libraw:
+  - '0.21'
 librdkafka:
   - '1.9'
 librsvg:
