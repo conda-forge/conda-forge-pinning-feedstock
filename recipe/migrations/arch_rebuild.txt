@@ -642,3 +642,4 @@ forestci
 yarp
 pypdf
 pytinyrenderer
+easyocr
