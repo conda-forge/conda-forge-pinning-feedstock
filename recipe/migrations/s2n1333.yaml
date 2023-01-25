@@ -2,6 +2,8 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
+  wait_for_migrators:
+  - aws_c_io01314
 migrator_ts: 1674120201.4427557
 s2n:
 - 1.3.33
