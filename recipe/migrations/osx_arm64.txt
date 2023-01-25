@@ -1151,3 +1151,4 @@ pyqg
 pypdf
 pytinyrenderer
 norse
+easyocr
