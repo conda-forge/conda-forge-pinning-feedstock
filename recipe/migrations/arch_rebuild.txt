@@ -643,3 +643,4 @@ yarp
 pypdf
 pytinyrenderer
 easyocr
+cpptango
