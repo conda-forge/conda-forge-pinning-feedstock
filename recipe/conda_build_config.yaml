@@ -510,7 +510,7 @@ libsecret:
 libsentencepiece:
   - 0.1.97
 libsndfile:
-  - 1.1
+  - '1.2'
 libspatialindex:
   - 1.9.3
 libssh:
