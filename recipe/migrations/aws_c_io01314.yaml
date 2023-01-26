@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+  wait_for_migrators:
+  - aws_c_auth0622
+aws_c_io:
+- 0.13.14
+migrator_ts: 1673680924.2678478
