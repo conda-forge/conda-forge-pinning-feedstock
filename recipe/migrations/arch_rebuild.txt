@@ -645,3 +645,8 @@ pypdf
 pytinyrenderer
 easyocr
 cpptango
+tango-database
+tango-access-control
+tango-admin
+tango-starter
+tango-test
