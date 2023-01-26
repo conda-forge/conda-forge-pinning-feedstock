@@ -365,6 +365,7 @@ graphblas
 python-suitesparse-graphblas
 suitesparse
 arpack
+muspinsim
 supervisor
 jupyter_contrib_nbextensions
 qgrid

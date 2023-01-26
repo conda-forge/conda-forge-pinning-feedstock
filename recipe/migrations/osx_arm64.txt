@@ -365,6 +365,7 @@ coremltools
 cspice
 gmsh
 r-lightgbm
+muspinsim
 skopeo
 py-spy
 photospline
