@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-aws_c_event_stream:
-- 0.2.18
-migrator_ts: 1673574382.542301
