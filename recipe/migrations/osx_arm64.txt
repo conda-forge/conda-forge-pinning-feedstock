@@ -246,6 +246,7 @@ json-c
 libnetcdf
 xerces-c
 libspatialindex
+scikit-geometry
 rtree
 pygeos
 stumpy
