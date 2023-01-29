@@ -465,6 +465,7 @@ pandas-stubs
 schwimmbad
 joblib
 loky
+airflow
 metadetect
 natcap.invest
 jinja2
