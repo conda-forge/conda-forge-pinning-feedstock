@@ -1155,3 +1155,4 @@ pypdf
 pytinyrenderer
 norse
 easyocr
+r-changepoints
