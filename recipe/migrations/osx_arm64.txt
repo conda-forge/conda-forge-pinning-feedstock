@@ -1156,4 +1156,5 @@ pypdf
 pytinyrenderer
 norse
 easyocr
+r-changepoints
 xeus-octave
