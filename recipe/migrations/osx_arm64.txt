@@ -1156,5 +1156,6 @@ pypdf
 pytinyrenderer
 norse
 easyocr
+torchtext
 r-changepoints
 xeus-octave
