@@ -465,6 +465,7 @@ pandas-stubs
 schwimmbad
 joblib
 loky
+airflow
 metadetect
 natcap.invest
 jinja2
@@ -1070,6 +1071,7 @@ jupyter-docx-bundler
 emsdk
 libqdldl
 graphblas
+glab
 python-suitesparse-graphblas
 caiman
 lazrs-python
@@ -1155,3 +1157,5 @@ pytinyrenderer
 norse
 easyocr
 torchtext
+r-changepoints
+xeus-octave
