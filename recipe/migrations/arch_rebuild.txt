@@ -650,3 +650,4 @@ tango-access-control
 tango-admin
 tango-starter
 tango-test
+xeus-octave
