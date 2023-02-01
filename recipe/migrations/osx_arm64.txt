@@ -1156,3 +1156,4 @@ pypdf
 pytinyrenderer
 norse
 easyocr
+xeus-octave
