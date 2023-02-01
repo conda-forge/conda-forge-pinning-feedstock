@@ -1071,6 +1071,7 @@ jupyter-docx-bundler
 emsdk
 libqdldl
 graphblas
+glab
 python-suitesparse-graphblas
 caiman
 lazrs-python
