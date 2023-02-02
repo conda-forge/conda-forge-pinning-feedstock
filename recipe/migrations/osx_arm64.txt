@@ -1162,4 +1162,5 @@ r-changepoints
 xeus-octave
 libxc
 affogato
+r-rstan
 
