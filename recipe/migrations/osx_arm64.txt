@@ -1162,4 +1162,6 @@ r-changepoints
 xeus-octave
 libxc
 affogato
-
+apache-ant
+subversion
+ocaml-num
