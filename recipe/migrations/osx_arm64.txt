@@ -1160,3 +1160,4 @@ easyocr
 torchtext
 r-changepoints
 xeus-octave
+libxc
