@@ -2,6 +2,7 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
+  automerge: true
 aws_c_mqtt:
 - 0.8.6
 migrator_ts: 1675298787.1496816
