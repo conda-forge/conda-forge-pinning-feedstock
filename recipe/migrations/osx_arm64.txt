@@ -967,6 +967,7 @@ astra-toolbox
 ytop
 polyagamma
 mujoco
+pypeit
 openconnect
 openconnect-sso
 mgrs
