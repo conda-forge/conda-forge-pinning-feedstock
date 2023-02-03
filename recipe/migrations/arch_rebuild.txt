@@ -651,3 +651,4 @@ tango-admin
 tango-starter
 tango-test
 xeus-octave
+airflow
