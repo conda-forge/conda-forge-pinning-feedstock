@@ -1163,4 +1163,6 @@ xeus-octave
 libxc
 affogato
 r-rstan
-
+apache-ant
+subversion
+ocaml-num

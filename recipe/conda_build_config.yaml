@@ -255,7 +255,7 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - 0.6.23
+  - 0.6.24
 aws_c_cal:
   - 0.5.20
 aws_c_common:
@@ -267,7 +267,7 @@ aws_c_http:
 aws_c_io:
   - 0.13.14
 aws_c_mqtt:
-  - 0.7.13
+  - 0.8.6
 aws_c_s3:
   - 0.2.3
 aws_c_sdkutils:
@@ -687,7 +687,7 @@ scotch:
 ptscotch:
   - 6.0.9
 s2n:
-  - 1.3.33
+  - 1.3.35
 sdl2:
   - '2'
 sdl2_image:
