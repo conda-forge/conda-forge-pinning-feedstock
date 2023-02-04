@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-migrator_ts: 1675470955.8028367
-scotch:
-- 7.0.2
-ptscotch:
-- 7.0.2
