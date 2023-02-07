@@ -1169,3 +1169,4 @@ subversion
 ocaml-num
 geocat-f2py
 geocat-comp
+gau2grid
