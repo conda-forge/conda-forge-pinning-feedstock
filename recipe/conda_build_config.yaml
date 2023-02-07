@@ -610,8 +610,6 @@ openmpi:
   - 4
 openssl:
   - '3'
-openturns:
-  - '1.20'
 orc:
   - 1.8.2
 pango:
