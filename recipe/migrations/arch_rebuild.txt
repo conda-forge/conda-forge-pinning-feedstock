@@ -652,5 +652,6 @@ tango-starter
 tango-test
 xeus-octave
 airflow
+neobolt
 r-gert
 r-ragg
