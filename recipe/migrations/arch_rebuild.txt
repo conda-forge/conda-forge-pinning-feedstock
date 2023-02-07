@@ -654,3 +654,4 @@ xeus-octave
 airflow
 r-gert
 r-ragg
+geohexviz
