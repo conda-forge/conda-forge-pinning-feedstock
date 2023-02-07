@@ -879,6 +879,7 @@ xcfun
 vampyr
 mrchem
 quantlib
+quantlib-python
 dials
 nest-simulator
 img2pdf
