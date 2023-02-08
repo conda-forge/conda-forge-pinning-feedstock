@@ -1172,3 +1172,4 @@ geocat-f2py
 geocat-comp
 gau2grid
 geohexviz
+pynauty
