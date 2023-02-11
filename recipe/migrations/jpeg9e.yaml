@@ -1,0 +1,10 @@
+migrator_ts: 1676157958
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+# This migration is matched with a minimigrator that will
+# replace jpeg with libjpegturbo
+jpeg:
+  - '9e'
