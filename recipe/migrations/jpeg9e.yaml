@@ -3,6 +3,8 @@ __migrator:
   kind: version
   migration_number: 1
   bump_number: 1
+  # limit the number of prs to do the initial test
+  pr_limit: 1
 
 # This migration is matched with a minimigrator that will
 # replace jpeg with libjpegturbo
