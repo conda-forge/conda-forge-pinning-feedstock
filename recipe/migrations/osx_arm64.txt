@@ -1173,3 +1173,4 @@ geocat-comp
 gau2grid
 geohexviz
 pynauty
+pygpcca
