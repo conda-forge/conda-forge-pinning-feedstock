@@ -231,7 +231,7 @@ blas_impl:
 
 # keep in sync with libabseil{,_static}
 abseil_cpp:
-  - '20220623.0'
+  - '20230125'
 alsa_lib:
   - 1.2.8
 antic:
