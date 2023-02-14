@@ -5,4 +5,8 @@ __migrator:
   automerge: true
 aws_c_common:
 - 0.8.10
+# coupled to aws_c_common version bump, see
+# https://github.com/conda-forge/aws-c-http-feedstock/pull/109
+aws_c_http:
+- 0.7.4
 migrator_ts: 1675487371.2696729
