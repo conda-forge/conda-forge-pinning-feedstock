@@ -4,4 +4,4 @@ __migrator:
   migration_number: 1
 migrator_ts: 1675890156.1177275
 pari:
-- '2.15'
+- 2.15.* *_pthread
