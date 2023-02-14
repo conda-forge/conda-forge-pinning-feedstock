@@ -222,6 +222,7 @@ openai
 fastapi
 uvicorn
 msgspec
+qgis
 qgrid
 ujson
 pynisher

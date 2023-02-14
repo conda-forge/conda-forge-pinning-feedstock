@@ -368,6 +368,7 @@ arpack
 muspinsim
 supervisor
 jupyter_contrib_nbextensions
+qgis
 qgrid
 buildbot
 pyrfr
