@@ -222,6 +222,7 @@ openai
 fastapi
 uvicorn
 msgspec
+qgis
 qgrid
 ujson
 pynisher
@@ -1173,3 +1174,5 @@ geocat-comp
 gau2grid
 geohexviz
 pynauty
+mpas_tools
+pylibtiff

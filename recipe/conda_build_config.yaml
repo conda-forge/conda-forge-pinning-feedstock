@@ -231,7 +231,7 @@ blas_impl:
 
 # keep in sync with libabseil{,_static}
 abseil_cpp:
-  - '20220623.0'
+  - '20230125'
 alsa_lib:
   - 1.2.8
 antic:
@@ -277,7 +277,7 @@ aws_checksums:
 aws_crt_cpp:
   - 0.18.16
 aws_sdk_cpp:
-  - 1.9.379
+  - 1.10.57
 boost:
   - 1.78.0
 boost_cpp:

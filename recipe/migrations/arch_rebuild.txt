@@ -368,6 +368,7 @@ arpack
 muspinsim
 supervisor
 jupyter_contrib_nbextensions
+qgis
 qgrid
 buildbot
 pyrfr
@@ -657,3 +658,5 @@ r-gert
 r-ragg
 geohexviz
 r-yardstick
+mpas_tools
+pylibtiff
