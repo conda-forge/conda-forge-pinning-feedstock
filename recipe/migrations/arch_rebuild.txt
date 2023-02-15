@@ -658,5 +658,6 @@ r-gert
 r-ragg
 geohexviz
 r-yardstick
+r-dicedesign
 mpas_tools
 pylibtiff
