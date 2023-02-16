@@ -661,3 +661,4 @@ r-yardstick
 r-dicedesign
 mpas_tools
 pylibtiff
+r-slider
