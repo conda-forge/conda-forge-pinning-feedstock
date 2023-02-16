@@ -626,6 +626,7 @@ manim
 jupyter-dash
 cds-crtools
 scikit-gstat
+pyspfA
 thriftpy2
 tensorflow
 gz-launch
