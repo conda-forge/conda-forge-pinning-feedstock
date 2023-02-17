@@ -1178,3 +1178,4 @@ pynauty
 mpas_tools
 pylibtiff
 pytiff
+scilab
