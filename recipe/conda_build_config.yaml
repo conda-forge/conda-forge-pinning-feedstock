@@ -618,7 +618,7 @@ orc:
 pango:
   - 1.50
 pari:
-  - 2.13.* *_pthread
+  - 2.15.* *_pthread
 perl:
   - 5.32.1
 petsc:
