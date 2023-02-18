@@ -1179,3 +1179,4 @@ mpas_tools
 pylibtiff
 pytiff
 scilab
+bipedal-locomotion-framework
