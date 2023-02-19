@@ -1180,3 +1180,4 @@ pylibtiff
 pytiff
 scilab
 bipedal-locomotion-framework
+vulkan-loader
