@@ -663,3 +663,5 @@ r-dicedesign
 mpas_tools
 pylibtiff
 r-slider
+bipedal-locomotion-framework
+vulkan-loader
