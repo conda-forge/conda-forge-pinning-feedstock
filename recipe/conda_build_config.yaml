@@ -259,11 +259,14 @@ aws_c_auth:
 aws_c_cal:
   - 0.5.20
 aws_c_common:
-  - 0.8.9
+  - 0.8.10
+# coupled to aws_c_common version bump, see
+# https://github.com/conda-forge/aws-c-http-feedstock/pull/109
 aws_c_event_stream:
   - 0.2.18
 aws_c_http:
-  - 0.7.3
+  - 0.7.4
+# the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
   - 0.13.15
 # the builds got coupled because 0.2.4 landed before the io migrator
