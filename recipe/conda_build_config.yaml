@@ -320,6 +320,8 @@ davix:
   - '0.8'
 dbus:
   - 1
+dcap:
+  - 2.47
 eclib:
   - '20221012'
 exiv2:
