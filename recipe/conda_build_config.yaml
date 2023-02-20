@@ -715,6 +715,8 @@ spdlog:
 # keep sqlite in sync with libsqlite
 sqlite:
   - 3
+srm_ifce:
+  - 1.24.6
 starlink_ast:
   - '9.2.7'
 suitesparse:
