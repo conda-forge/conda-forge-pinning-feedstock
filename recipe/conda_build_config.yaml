@@ -445,7 +445,7 @@ libavif:
 libblitz:
   - 1.0.2
 libcint:
-  - '5.1'
+  - '5.2'
 libcurl:
   - 7
 libcrc32c:
