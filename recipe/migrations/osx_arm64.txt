@@ -284,6 +284,7 @@ xorg-libsm
 xorg-libxrender
 xorg-libxt
 xorg-libxcomposite
+xorg-libxxf86vm
 zaber-motion
 gsd
 freud

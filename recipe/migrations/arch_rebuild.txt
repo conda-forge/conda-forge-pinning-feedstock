@@ -357,6 +357,7 @@ xorg-libxdamage
 xorg-libxinerama
 xorg-xineramaproto
 xorg-glproto
+xorg-libxxf86vm
 jaeger
 anyio
 pre-commit
