@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+libarrow:
+- 11.0.0
+migrator_ts: 1677122846.5773642
