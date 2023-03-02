@@ -1186,3 +1186,4 @@ vulkan-loader
 typos
 pyngl
 scikit-digital-health
+verilator
