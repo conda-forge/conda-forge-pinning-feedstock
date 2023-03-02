@@ -12,6 +12,7 @@ datafusion
 pyarrow
 yaml-cpp
 cffi
+libheif
 libnsl
 pycparser
 constructor
