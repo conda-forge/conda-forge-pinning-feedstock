@@ -668,3 +668,5 @@ r-slider
 bipedal-locomotion-framework
 vulkan-loader
 rise
+spglib
+sqsgenerator
