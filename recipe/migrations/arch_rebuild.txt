@@ -39,6 +39,7 @@ geant4
 poetry
 constructor
 cvxpy
+libheif
 hepmc3
 conda-smithy
 scikit-image
