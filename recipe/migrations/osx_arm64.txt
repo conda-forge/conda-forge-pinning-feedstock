@@ -1187,3 +1187,4 @@ typos
 pyngl
 scikit-digital-health
 verilator
+sqsgenerator
