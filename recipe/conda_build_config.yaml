@@ -528,7 +528,7 @@ libsvm:
 libsqlite:
   - 3
 libthrift:
-  - 0.16.0
+  - 0.18.0
 libtiff:
   - 4.4
 libunwind:
@@ -729,7 +729,7 @@ tbb:
 tbb_devel:
   - '2021'
 thrift_cpp:
-  - 0.16.0
+  - 0.18.0
 tinyxml2:
   - 9
 tk:

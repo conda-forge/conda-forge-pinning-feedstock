@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-libthrift:
-- 0.18.0
-thrift_cpp:
-- 0.18.0
-migrator_ts: 1676451880.5636883
