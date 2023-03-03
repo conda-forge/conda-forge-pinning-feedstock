@@ -253,7 +253,7 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - 0.6.24
+  - 0.6.25
 aws_c_cal:
   - 0.5.20
 aws_c_common:
