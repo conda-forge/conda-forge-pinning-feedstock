@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+  automerge: true
+aws_crt_cpp:
+- 0.19.8
+migrator_ts: 1677748163.4639971
