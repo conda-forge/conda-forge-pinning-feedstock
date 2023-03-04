@@ -255,7 +255,7 @@ attr:
 aws_c_auth:
   - 0.6.24
 aws_c_cal:
-  - 0.5.20
+  - 0.5.21
 aws_c_common:
   - 0.8.11
 # coupled to aws_c_common version bump, see
