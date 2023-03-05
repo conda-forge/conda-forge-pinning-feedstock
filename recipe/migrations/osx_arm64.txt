@@ -12,6 +12,7 @@ datafusion
 pyarrow
 yaml-cpp
 cffi
+libheif
 libnsl
 pycparser
 constructor
@@ -284,6 +285,7 @@ xorg-libsm
 xorg-libxrender
 xorg-libxt
 xorg-libxcomposite
+xorg-libxxf86vm
 zaber-motion
 gsd
 freud
@@ -1165,6 +1167,7 @@ r-changepoints
 xeus-octave
 libxc
 affogato
+pyspf
 r-rstan
 apache-ant
 subversion
@@ -1176,3 +1179,14 @@ geohexviz
 pynauty
 mpas_tools
 pylibtiff
+pytiff
+scilab
+bipedal-locomotion-framework
+vulkan-loader
+typos
+pyngl
+scikit-digital-health
+verilator
+xeus-cling
+sqsgenerator
+cascade

@@ -1,11 +1,11 @@
-About conda-forge-pinning
-=========================
+About conda-forge-pinning-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/main/LICENSE.txt)
 
 Home: https://conda-forge.org/docs/maintainer/infrastructure.html#conda-forge-pinning
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/main/LICENSE.txt)
 
 Summary: The baseline versions of software for the conda-forge ecosystem
 

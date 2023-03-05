@@ -229,9 +229,9 @@ blas_impl:
   - mkl          # [x86 or x86_64]
   - blis         # [x86 or x86_64]
 
-# keep in sync with libabseil{,_static}
+# this output was dropped as of libabseil 20230125
 abseil_cpp:
-  - '20230125'
+  - '20220623.0'
 alsa_lib:
   - 1.2.8
 antic:
@@ -244,38 +244,40 @@ arpack:
   - 3.7
 # keep in sync with libarrow
 arrow_cpp:
+  - 11.0.0
   - 10.0.1
   - 9.0.0
   - 8.0.1
-  - 7.0.1
-# make sure we have same length for zip, even
-# though libarrow builds only exist since 10.x
 assimp:
   - 5.2.5
 attr:
   - 2.5
 aws_c_auth:
-  - 0.6.24
+  - 0.6.25
 aws_c_cal:
-  - 0.5.20
+  - 0.5.21
 aws_c_common:
-  - 0.8.9
+  - 0.8.12
+# coupled to aws_c_common version bump, see
+# https://github.com/conda-forge/aws-c-http-feedstock/pull/109
 aws_c_event_stream:
-  - 0.2.18
+  - 0.2.20
 aws_c_http:
-  - 0.7.3
+  - 0.7.5
+# the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
-  - 0.13.14
+  - 0.13.18
+# the builds got coupled because 0.2.4 landed before the io migrator
 aws_c_mqtt:
   - 0.8.6
 aws_c_s3:
-  - 0.2.3
+  - 0.2.5
 aws_c_sdkutils:
   - 0.1.7
 aws_checksums:
   - 0.1.14
 aws_crt_cpp:
-  - 0.18.16
+  - 0.19.8
 aws_sdk_cpp:
   - 1.10.57
 boost:
@@ -316,6 +318,8 @@ davix:
   - '0.8'
 dbus:
   - 1
+dcap:
+  - 2.47
 eclib:
   - '20221012'
 exiv2:
@@ -376,7 +380,7 @@ gmp:
   - 6
 # keep google_cloud_cpp in sync with libgoogle_cloud
 google_cloud_cpp:
-  - 2.7.0
+  - 2.8.0
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
@@ -428,18 +432,19 @@ libaec:
   - '1'
 libarchive:
   - '3.6'
-# keep in sync with arrow_cpp (libarrow exists only from 10.x, but ensure consistency)
+# keep in sync with arrow_cpp (libarrow exists only from 10.x,
+# but make sure we have same length for zip as arrow_cpp)
 libarrow:
+  - 11.0.0
   - 10.0.1
   - 9.0.0
   - 8.0.1
-  - 7.0.1
 libavif:
   - 0.11.1
 libblitz:
   - 1.0.2
 libcint:
-  - '5.1'
+  - '5.2'
 libcurl:
   - 7
 libcrc32c:
@@ -466,7 +471,7 @@ libgit2:
   - '1.5'
 # Keep in sync with google_cloud_cpp
 libgoogle_cloud:
-  - 2.7.0
+  - 2.8.0
 libgrpc:
   - '1.51'
 libhugetlbfs:
@@ -523,7 +528,7 @@ libsvm:
 libsqlite:
   - 3
 libthrift:
-  - 0.16.0
+  - 0.18.0
 libtiff:
   - 4.4
 libunwind:
@@ -617,7 +622,7 @@ orc:
 pango:
   - 1.50
 pari:
-  - 2.13.* *_pthread
+  - 2.15.* *_pthread
 perl:
   - 5.32.1
 petsc:
@@ -669,13 +674,13 @@ qt:
 qtkeychain:
   - '0.13'
 re2:
-  - 2022.06.01
+  - 2023.02.01
 readline:
   - "8"
 rocksdb:
   - "6.10"
 root_base:
-  - 6.26.8
+  - 6.26.10
 ruby:
   - 2.5
   - 2.6
@@ -687,7 +692,7 @@ scotch:
 ptscotch:
   - 6.0.9
 s2n:
-  - 1.3.35
+  - 1.3.38
 sdl2:
   - '2'
 sdl2_image:
@@ -711,6 +716,8 @@ spdlog:
 # keep sqlite in sync with libsqlite
 sqlite:
   - 3
+srm_ifce:
+  - 1.24.6
 starlink_ast:
   - '9.2.7'
 suitesparse:
@@ -722,7 +729,7 @@ tbb:
 tbb_devel:
   - '2021'
 thrift_cpp:
-  - 0.16.0
+  - 0.18.0
 tinyxml2:
   - 9
 tk:

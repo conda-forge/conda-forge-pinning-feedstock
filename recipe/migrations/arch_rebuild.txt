@@ -39,6 +39,7 @@ geant4
 poetry
 constructor
 cvxpy
+libheif
 hepmc3
 conda-smithy
 scikit-image
@@ -357,6 +358,7 @@ xorg-libxdamage
 xorg-libxinerama
 xorg-xineramaproto
 xorg-glproto
+xorg-libxxf86vm
 jaeger
 anyio
 pre-commit
@@ -626,6 +628,7 @@ manim
 jupyter-dash
 cds-crtools
 scikit-gstat
+pyspf
 thriftpy2
 tensorflow
 gz-launch
@@ -658,5 +661,13 @@ r-gert
 r-ragg
 geohexviz
 r-yardstick
+r-dicedesign
 mpas_tools
 pylibtiff
+r-slider
+bipedal-locomotion-framework
+vulkan-loader
+rise
+spglib
+sqsgenerator
+cascade
