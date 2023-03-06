@@ -1,13 +1,13 @@
 migrator_ts: 1676157958
 __migrator:
   kind: version
-  migration_number: 1
+  migration_number: 2
   bump_number: 1
   commit_message: "Rebuild for jpegturbo migration"
   # limit the number of prs to do the initial test
   pr_limit: 1
 libjpeg_turbo:
-  - 2.1.5
+  - 2.1.4
 # This migration is matched with a minimigrator that will
 # replace jpeg with libjpegturbo
 jpeg:
