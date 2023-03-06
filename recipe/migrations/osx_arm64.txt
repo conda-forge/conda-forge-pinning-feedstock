@@ -1190,3 +1190,5 @@ verilator
 xeus-cling
 sqsgenerator
 cascade
+conda-bash-completion
+mamba-bash-completion
