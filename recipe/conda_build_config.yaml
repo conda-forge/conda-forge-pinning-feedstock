@@ -322,6 +322,8 @@ dcap:
   - 2.47
 eclib:
   - '20221012'
+elfutils:
+  - 0.189
 exiv2:
   - 0.27
 expat:
