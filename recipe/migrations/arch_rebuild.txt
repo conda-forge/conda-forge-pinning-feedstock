@@ -672,3 +672,4 @@ spglib
 sqsgenerator
 cascade
 pymatgen
+scenepic
