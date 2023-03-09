@@ -5,7 +5,7 @@ __migrator:
   bump_number: 1
   commit_message: "Rebuild for jpegturbo migration"
   paused: false
-  pr_limit: 1
+  pr_limit: 10
 
 libjpeg_turbo:
   - 2.1.5
