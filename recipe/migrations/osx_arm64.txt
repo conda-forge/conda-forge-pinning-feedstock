@@ -1207,3 +1207,4 @@ r-terra
 r-tmvtnorm
 r-udunits2
 r-gmm
+scenepic
