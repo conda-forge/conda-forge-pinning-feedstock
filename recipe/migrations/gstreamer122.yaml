@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-gstreamer:
-- '1.22'
-gst_plugins_base:
-- '1.22'
-migrator_ts: 1674863713.3234591
