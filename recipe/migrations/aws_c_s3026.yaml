@@ -2,6 +2,7 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
+  automerge: true
 aws_c_s3:
 - 0.2.6
 migrator_ts: 1678152936.0385785
