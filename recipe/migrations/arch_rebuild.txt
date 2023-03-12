@@ -673,3 +673,4 @@ sqsgenerator
 cascade
 pymatgen
 scenepic
+r-marginaleffects
