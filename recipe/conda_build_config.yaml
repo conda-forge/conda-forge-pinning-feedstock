@@ -470,7 +470,7 @@ libflint:
 libgdal:
   - '3.6'
 libgit2:
-  - '1.5'
+  - '1.6'
 # Keep in sync with google_cloud_cpp
 libgoogle_cloud:
   - 2.8.0
