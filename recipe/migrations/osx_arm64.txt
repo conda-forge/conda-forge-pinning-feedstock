@@ -1212,3 +1212,4 @@ scenepic
 marching_cubes
 r-marginaleffects
 rb-escape_utils
+pygplates
