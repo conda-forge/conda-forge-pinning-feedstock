@@ -1217,3 +1217,4 @@ rb-escape_utils
 pygplates
 dtaidistance
 netgen
+conda-ecosystem-user-package-isolation
