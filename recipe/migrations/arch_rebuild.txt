@@ -676,3 +676,4 @@ cascade
 pymatgen
 scenepic
 r-marginaleffects
+conda-ecosystem-user-package-isolation
