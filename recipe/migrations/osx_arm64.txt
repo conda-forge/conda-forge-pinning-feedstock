@@ -1214,3 +1214,4 @@ r-marginaleffects
 rb-escape_utils
 pygplates
 dtaidistance
+netgen
