@@ -1218,3 +1218,4 @@ pygplates
 dtaidistance
 netgen
 conda-ecosystem-user-package-isolation
+libint
