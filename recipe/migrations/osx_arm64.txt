@@ -1219,3 +1219,4 @@ dtaidistance
 netgen
 conda-ecosystem-user-package-isolation
 libint
+aws-session-manager-plugin
