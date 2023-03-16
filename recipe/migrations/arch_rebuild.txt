@@ -67,6 +67,8 @@ iminuit
 tini
 datafusion
 pyarrow
+orc
+pyorc
 r-base
 lhcbdirac
 pythia8

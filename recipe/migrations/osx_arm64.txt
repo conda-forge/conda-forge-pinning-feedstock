@@ -10,6 +10,8 @@ mpc
 isl
 datafusion
 pyarrow
+orc
+pyorc
 yaml-cpp
 cffi
 libheif
