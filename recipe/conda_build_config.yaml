@@ -620,7 +620,7 @@ openssl:
 openturns:
   - '1.20'
 orc:
-  - 1.8.2
+  - 1.8.3
 pango:
   - 1.50
 pari:
