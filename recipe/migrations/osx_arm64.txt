@@ -64,6 +64,7 @@ islpy
 meshpy
 pyfmmlib
 sage
+tiktoken
 pocl
 git-lfs
 numba
