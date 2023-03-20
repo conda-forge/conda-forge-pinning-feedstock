@@ -665,6 +665,7 @@ geohexviz
 r-yardstick
 r-dicedesign
 mpas_tools
+cairomm
 pylibtiff
 r-slider
 bipedal-locomotion-framework
