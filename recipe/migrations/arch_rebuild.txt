@@ -678,3 +678,5 @@ pymatgen
 scenepic
 r-marginaleffects
 conda-ecosystem-user-package-isolation
+sparsehash
+graph-tool
