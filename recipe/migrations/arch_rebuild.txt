@@ -686,3 +686,4 @@ n2p2
 quippy
 voro
 lammps
+phonopy
