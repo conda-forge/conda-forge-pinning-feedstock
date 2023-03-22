@@ -680,3 +680,10 @@ r-marginaleffects
 conda-ecosystem-user-package-isolation
 sparsehash
 graph-tool
+kim-api
+mlip
+n2p2
+quippy
+voro
+lammps
+phonopy
