@@ -539,6 +539,7 @@ eccodes
 fortls
 cub
 thrust
+cutlass
 cupy
 cuquantum
 cuquantum-python
