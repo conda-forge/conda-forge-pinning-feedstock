@@ -849,6 +849,7 @@ autode
 brian2
 yappi
 r-suppdists
+fast-query-parsers
 apscheduler
 python-eccodes
 cosmosis
