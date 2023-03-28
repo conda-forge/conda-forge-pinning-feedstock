@@ -689,3 +689,4 @@ voro
 lammps
 phonopy
 pyscal
+pygplates
