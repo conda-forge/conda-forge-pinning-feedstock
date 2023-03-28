@@ -1225,3 +1225,4 @@ aws-session-manager-plugin
 libefp
 owlready2
 podman
+seabreeze
