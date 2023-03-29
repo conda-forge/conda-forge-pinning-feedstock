@@ -1227,3 +1227,4 @@ owlready2
 podman
 seabreeze
 scikit-surprise
+webrtcvad
