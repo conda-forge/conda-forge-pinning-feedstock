@@ -1,3 +1,4 @@
+pennylane
 python
 micromamba
 conda-build
