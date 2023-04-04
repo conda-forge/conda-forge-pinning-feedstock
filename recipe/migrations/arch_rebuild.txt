@@ -1,3 +1,4 @@
+pennylane
 occt
 pythonocc-core
 conda-package-handling
