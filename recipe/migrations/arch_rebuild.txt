@@ -691,3 +691,6 @@ lammps
 phonopy
 pyscal
 pygplates
+libcublas
+libcublas-dev
+libcublas-static
