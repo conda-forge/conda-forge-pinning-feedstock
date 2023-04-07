@@ -542,9 +542,14 @@ cub
 thrust
 cutlass
 cupy
+cuda-cccl
+cuda-cccl-impl
 cuquantum
 cuquantum-python
 cusparselt
+libcusolver
+libcusparse
+libnvjitlink
 librmm
 rmm
 nccl
