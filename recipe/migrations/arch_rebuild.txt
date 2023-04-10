@@ -547,6 +547,8 @@ cuda-cccl-impl
 cuquantum
 cuquantum-python
 cusparselt
+libcublas
+libcufft
 libcusolver
 libcusparse
 libnvjitlink
@@ -696,6 +698,3 @@ lammps
 phonopy
 pyscal
 pygplates
-libcublas
-libcublas-dev
-libcublas-static
