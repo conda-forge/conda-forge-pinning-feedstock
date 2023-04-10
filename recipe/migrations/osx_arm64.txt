@@ -1229,3 +1229,4 @@ podman
 seabreeze
 scikit-surprise
 webrtcvad
+hnswlib
