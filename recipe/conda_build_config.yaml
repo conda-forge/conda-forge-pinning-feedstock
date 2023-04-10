@@ -427,7 +427,7 @@ kealib:
 krb5:
   - '1.19'
 libabseil:
-  - '20220623.0'
+  - '20230125'
 libabseil_static:
   - '20220623.0'
 libaec:
