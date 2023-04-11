@@ -388,7 +388,7 @@ google_cloud_cpp_common:
 googleapis_cpp:
   - '0.10'
 graphviz:
-  - '6'
+  - '7'
 # keep in sync with libgrpc
 grpc_cpp:
   - '1.51'
