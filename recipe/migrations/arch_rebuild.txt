@@ -549,6 +549,7 @@ cuquantum-python
 cusparselt
 libcublas
 libcufft
+libcurand
 libcusolver
 libcusparse
 libnvjitlink
