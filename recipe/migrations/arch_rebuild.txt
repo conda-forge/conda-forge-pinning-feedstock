@@ -544,6 +544,7 @@ cutlass
 cupy
 cuda-cccl
 cuda-cccl-impl
+cuda-nvrtc
 cuquantum
 cuquantum-python
 cusparselt
