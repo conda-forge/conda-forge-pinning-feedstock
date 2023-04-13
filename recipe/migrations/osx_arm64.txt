@@ -1230,3 +1230,4 @@ seabreeze
 scikit-surprise
 webrtcvad
 hnswlib
+pyebsdindex
