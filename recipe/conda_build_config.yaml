@@ -313,7 +313,7 @@ console_bridge:
 cutensor:
   - 1
 curl:
-  - 7
+  - 8
 davix:
   - '0.8'
 dbus:
@@ -448,7 +448,7 @@ libblitz:
 libcint:
   - '5.2'
 libcurl:
-  - 7
+  - 8
 libcrc32c:
   - 1.1
 libdap4:
