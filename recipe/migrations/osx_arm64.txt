@@ -1233,3 +1233,5 @@ hnswlib
 pyebsdindex
 libmongocxx
 ncbi-datasets-cli
+pygmo_plugins_nonfree
+
