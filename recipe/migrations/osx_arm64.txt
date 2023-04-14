@@ -1232,3 +1232,4 @@ webrtcvad
 hnswlib
 pyebsdindex
 libmongocxx
+ncbi-datasets-cli
