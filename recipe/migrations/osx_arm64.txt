@@ -59,6 +59,7 @@ trio
 notebook
 esutil
 galsim
+cyipopt
 treecorr
 pyopencl
 islpy
