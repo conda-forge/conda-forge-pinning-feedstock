@@ -1,3 +1,4 @@
+kokkos
 pennylane
 python
 micromamba
