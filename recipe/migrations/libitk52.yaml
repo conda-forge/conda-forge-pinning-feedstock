@@ -1,9 +1,0 @@
-migrator_ts: 1670174518
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-# Remember to add to global pinnings
-libitk:
-  - 5.2

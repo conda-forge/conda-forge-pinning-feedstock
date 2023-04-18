@@ -1,11 +1,11 @@
-About conda-forge-pinning
-=========================
+About conda-forge-pinning-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/main/LICENSE.txt)
 
 Home: https://conda-forge.org/docs/maintainer/infrastructure.html#conda-forge-pinning
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/main/LICENSE.txt)
 
 Summary: The baseline versions of software for the conda-forge ecosystem
 
@@ -13,10 +13,11 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>All platforms:</td>
+<table><tr><td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5407&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/conda-forge-pinning-feedstock?branchName=main">
+      </a>
     </td>
   </tr>
 </table>
