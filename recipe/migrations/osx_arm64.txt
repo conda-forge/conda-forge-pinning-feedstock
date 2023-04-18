@@ -1,3 +1,4 @@
+kokkos-kernels
 kokkos
 pennylane
 python
