@@ -545,7 +545,11 @@ cupy
 cuda-cccl
 cuda-cccl-impl
 cuda-cudart
+cuda-cupti
+cuda-nvcc
+cuda-nvml-dev
 cuda-nvrtc
+cuda-profiler-api
 cuquantum
 cuquantum-python
 cusparselt
