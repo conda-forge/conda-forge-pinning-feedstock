@@ -1241,3 +1241,4 @@ ncbi-datasets-cli
 pygmo_plugins_nonfree
 r-lpsolve
 pyaudi
+amplpy
