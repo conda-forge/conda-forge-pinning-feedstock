@@ -1242,3 +1242,4 @@ pygmo_plugins_nonfree
 r-lpsolve
 scikit-fmm
 pyaudi
+amplpy
