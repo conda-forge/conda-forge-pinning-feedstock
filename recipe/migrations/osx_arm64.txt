@@ -1243,3 +1243,5 @@ r-lpsolve
 scikit-fmm
 pyaudi
 amplpy
+openpnm
+porespy
