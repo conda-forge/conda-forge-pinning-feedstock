@@ -1,9 +1,3 @@
-# This differs from target_platform in that it determines what subdir the compiler
-#    will target, not what subdir the compiler package will be itself.
-#    For example, we need a win-64 vs2008_win-32 package, so that we compile win-32
-#    code on win-64 miniconda.
-cross_compiler_target_platform:  # [win]
-  - win-64                     # [win]
 c_compiler:
   - gcc                        # [linux]
   - clang                      # [osx]
@@ -46,8 +40,6 @@ m2w64_cxx_compiler:            # [win]
   - m2w64-toolchain            # [win]
 m2w64_fortran_compiler:        # [win]
   - m2w64-toolchain            # [win]
-CMAKE_GENERATOR:               # [win]
-  - NMake Makefiles            # [win]
 
 cuda_compiler:                 # [linux or win]
   - nvcc                       # [linux or win]
@@ -114,8 +106,6 @@ macos_machine:                 # [osx]
 MACOSX_DEPLOYMENT_TARGET:      # [osx]
   - 11.0                       # [osx and arm64]
   - 10.9                       # [osx and x86_64]
-target_platform:               # [win]
-  - win-64                     # [win]
 VERBOSE_AT:
   - V=1
 VERBOSE_CM:
