@@ -606,7 +606,7 @@ openjpeg:
 openmpi:
   - 4
 openssl:
-  - '3'
+  - '3.0'
 openturns:
   - '1.20'
 orc:
