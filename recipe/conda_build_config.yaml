@@ -52,11 +52,6 @@ cuda_compiler_version_min:
   - None                       # [osx]
   - 11.0                       # [linux64 or win]
   - 11.2                       # [linux and (ppc64le or aarch64)]
-cudnn:
-  - undefined
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 _libgcc_mutex:
   - 0.1 conda_forge
@@ -145,12 +140,10 @@ zip_keys:
     - c_compiler_version        # [unix]
     - cxx_compiler_version      # [unix]
     - fortran_compiler_version  # [unix]
-    - cudnn                     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cdt_name                  # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - docker_image              # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   -                             # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cudnn                     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   -
     - python
@@ -296,6 +289,8 @@ coin_or_utils:
   - 2.11
 console_bridge:
   - 1.0
+cudnn:
+  - 8
 cutensor:
   - 1
 curl:
