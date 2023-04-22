@@ -2,6 +2,6 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-hdf4:
-- 4.2.15
-migrator_ts: 1620961297.598538
+cfitsio:
+- 4.2.0
+migrator_ts: 1668765504.9452357

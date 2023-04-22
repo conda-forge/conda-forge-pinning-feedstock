@@ -2,8 +2,6 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-migrator_ts: 1626366230.4925187
-nodejs:
- - 16
- - 14
- - 12
+harfbuzz:
+- '7'
+migrator_ts: 1681100035.1884027

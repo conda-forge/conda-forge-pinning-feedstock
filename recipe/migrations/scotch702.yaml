@@ -2,7 +2,8 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-  automerge: true
-migrator_ts: 1626216060.4354854
-s2n:
-- 1.0.13
+migrator_ts: 1675259791.8028367
+scotch:
+- 7.0.2
+ptscotch:
+- 7.0.2
