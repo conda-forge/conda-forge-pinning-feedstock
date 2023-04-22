@@ -1245,3 +1245,4 @@ pyaudi
 amplpy
 openpnm
 porespy
+soxr-python
