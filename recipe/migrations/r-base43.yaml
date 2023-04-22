@@ -1,0 +1,8 @@
+migrator_ts: 1682187595
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+r_base:   # [not win]
+  - 4.3   # [not win]
