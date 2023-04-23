@@ -708,3 +708,4 @@ lammps
 phonopy
 pyscal
 pygplates
+soxr-python
