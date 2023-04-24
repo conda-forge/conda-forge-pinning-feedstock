@@ -438,6 +438,7 @@ bcolz
 crick
 mmh3
 msgpack-c
+python-cityhash
 r-ragg
 capstone
 openslide
