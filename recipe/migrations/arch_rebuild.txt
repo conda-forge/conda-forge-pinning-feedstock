@@ -20,6 +20,7 @@ pyg4ometry
 zstd
 sympy
 gunicorn
+gilknocker
 cx_oracle
 numba
 psycopg2
