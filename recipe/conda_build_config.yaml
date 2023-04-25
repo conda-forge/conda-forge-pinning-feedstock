@@ -381,7 +381,7 @@ graphviz:
   - '7'
 # keep in sync with libgrpc
 grpc_cpp:
-  - '1.51'
+  - '1.52'
 harfbuzz:
   - '6'
 hdf4:
@@ -465,7 +465,7 @@ libgit2:
 libgoogle_cloud:
   - 2.8.0
 libgrpc:
-  - '1.51'
+  - '1.52'
 libhugetlbfs:
   - 2
 libhwy:
