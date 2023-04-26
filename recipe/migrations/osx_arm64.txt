@@ -1252,3 +1252,4 @@ mesas
 ptpython
 dkh
 psi4
+msgpack-cxx
