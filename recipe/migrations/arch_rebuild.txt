@@ -711,3 +711,4 @@ pyscal
 pygplates
 soxr-python
 adrt
+json_schema_validator
