@@ -311,7 +311,7 @@ dbus:
 dcap:
   - 2.47
 eclib:
-  - '20221012'
+  - '20230424'
 elfutils:
   - 0.189
 exiv2:
