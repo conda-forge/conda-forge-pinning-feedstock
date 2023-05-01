@@ -678,8 +678,7 @@ root_base:
 ruby:
   - 2.5
   - 2.6
-r_base:
-  - 4.1
+r_base:   # [not win]
   - 4.2   # [not win]
 scotch:
   - 6.0.9
