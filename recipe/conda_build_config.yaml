@@ -41,12 +41,12 @@ m2w64_cxx_compiler:            # [win]
 m2w64_fortran_compiler:        # [win]
   - m2w64-toolchain            # [win]
 
-cuda_compiler:                 # [linux64 or win]
-  - nvcc                       # [linux64 or win]
-  - nvcc                       # [linux64 or win]
-  - nvcc                       # [linux64 or win]
-  - nvcc                       # [linux64 or win]
-  - nvcc                       # [linux64 or win]
+cuda_compiler:
+  - None
+  - nvcc                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version:
   - None
   - 10.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
