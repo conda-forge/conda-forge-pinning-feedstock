@@ -4,4 +4,6 @@ __migrator:
   migration_number: 1
 libgoogle_cloud:
 - 2.10.0
+google_cloud_cpp:
+- 2.10.0
 migrator_ts: 1683064486.2253776
