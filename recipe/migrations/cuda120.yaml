@@ -10,6 +10,7 @@ __migrator:
   override_cbc_keys:
     - cuda_compiler_stub
   operation: key_add
+  primary_key: cuda_compiler_version
   ordering:
     cxx_compiler_version:
       - 9
