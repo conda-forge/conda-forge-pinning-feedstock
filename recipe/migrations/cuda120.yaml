@@ -59,5 +59,5 @@ cudnn:
 cdt_name:  # [linux]
   - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
-docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
+docker_image:                                      # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   - quay.io/condaforge/linux-anvil-cos7-x86_64     # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
