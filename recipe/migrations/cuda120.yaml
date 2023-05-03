@@ -20,6 +20,10 @@ __migrator:
       - 9
       - 8
       - 7
+    fortran_compiler_version:
+      - 9
+      - 8
+      - 7
     docker_image:
       - quay.io/condaforge/linux-anvil-comp7              # [os.environ.get("BUILD_PLATFORM") == "linux-64"]
       - quay.io/condaforge/linux-anvil-aarch64            # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64"]
@@ -52,6 +56,9 @@ c_compiler_version:            # [unix]
   - 12                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
 
 cxx_compiler_version:          # [unix]
+  - 12                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
+
+fortran_compiler_version:      # [unix]
   - 12                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
 
 cudnn:
