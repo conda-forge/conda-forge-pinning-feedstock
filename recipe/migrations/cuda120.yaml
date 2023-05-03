@@ -41,92 +41,23 @@ __migrator:
       - 12.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   commit_message: "Rebuild for CUDA 12"
 
-cuda_compiler:                 # [linux64 or win]
-  - nvcc                       # [linux64 or win]
-  - nvcc                       # [linux64 or win]
-  - nvcc                       # [linux64 or win]
-  - nvcc                       # [linux64 or win]
-  - cuda-nvcc                  # [linux64 or win]
+cuda_compiler:
+  - cuda-nvcc                  # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cuda_compiler_version:
-  - None
-  - 10.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.1                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 12.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 c_compiler_version:            # [unix]
-  - 12                         # [linux]
-  - 15                         # [osx]
-  - 7                          # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
-  - 9                          # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
-  - 10                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
-  - 10                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
   - 12                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
 
 cxx_compiler_version:          # [unix]
-  - 12                         # [linux]
-  - 15                         # [osx]
-  - 7                          # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
-  - 9                          # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
-  - 10                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
-  - 10                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
   - 12                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux64]
 
 cudnn:
-  - undefined
-  - 7                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cdt_name:  # [linux]
-  - cos6   # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
-  - cos7   # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
-  - cos7   # [linux and aarch64]
-  - cos7   # [linux and ppc64le]
-  - cos7   # [linux and armv7l]
-  - cos7   # [linux and s390x]
-
-  - cos6   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
-  - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
-  - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
-  - quay.io/condaforge/linux-anvil-cos7-x86_64  # [os.environ.get("BUILD_PLATFORM") == "linux-64"]
-  - quay.io/condaforge/linux-anvil-aarch64      # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64"]
-  - quay.io/condaforge/linux-anvil-ppc64le      # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le"]
-  - quay.io/condaforge/linux-anvil-armv7l       # [os.environ.get("BUILD_PLATFORM") == "linux-armv7l"]
-
-  - quay.io/condaforge/linux-anvil-cos7-cuda:10.2  # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
-  - quay.io/condaforge/linux-anvil-cuda:11.0       # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
-  - quay.io/condaforge/linux-anvil-cuda:11.1       # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
-  - quay.io/condaforge/linux-anvil-cuda:11.2       # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-cos7-x86_64     # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
-
-zip_keys:
-  -                             # [unix]
-    - c_compiler_version        # [unix]
-    - cxx_compiler_version      # [unix]
-    - fortran_compiler_version  # [unix]
-    - cudnn                     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cuda_compiler             # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cuda_compiler_version     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cdt_name                  # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - docker_image              # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
-  -                             # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cudnn                     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cuda_compiler_version     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  -
-    - python
-    - numpy
-    - python_impl
-  # transition until arrow_cpp can be dropped for arrow 13.x
-  -
-    - arrow_cpp
-    - libarrow
