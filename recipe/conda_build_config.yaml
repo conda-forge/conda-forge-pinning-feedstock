@@ -1,7 +1,8 @@
 c_compiler:
   - gcc                        # [linux]
   - clang                      # [osx]
-  - vs2019                     # [win]
+  - vs2019                     # [win and x86_64]
+  - vs2022                     # [win and arm64]
 c_compiler_version:            # [unix]
   - 12                         # [linux]
   - 15                         # [osx]
@@ -12,7 +13,8 @@ c_compiler_version:            # [unix]
 cxx_compiler:
   - gxx                        # [linux]
   - clangxx                    # [osx]
-  - vs2019                     # [win]
+  - vs2019                     # [win and x86_64]
+  - vs2022                     # [win and arm64]
 cxx_compiler_version:          # [unix]
   - 12                         # [linux]
   - 15                         # [osx]
@@ -43,26 +45,26 @@ m2w64_fortran_compiler:        # [win]
 
 cuda_compiler:
   - None
-  - nvcc                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - nvcc                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - nvcc                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - nvcc                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version:
   - None
-  - 10.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.1                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 10.2                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11.0                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11.1                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11.2                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version_min:
   - None                       # [osx]
-  - 10.2                       # [linux64 or win]
+  - 10.2                       # [linux64 or win64]
   - 11.2                       # [linux and (ppc64le or aarch64)]
 cudnn:
   - undefined
-  - 7                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 7                          # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 8                          # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 8                          # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 8                          # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 _libgcc_mutex:
   - 0.1 conda_forge
