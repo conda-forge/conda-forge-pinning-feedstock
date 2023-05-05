@@ -1260,3 +1260,4 @@ hole2
 namaster
 rattler-build
 datalad
+css-html-js-minify
