@@ -677,6 +677,7 @@ vpython
 awscli
 botocore
 jmespath
+pyduktape2
 python-dateutil
 six
 urllib3
