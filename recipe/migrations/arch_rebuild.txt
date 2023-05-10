@@ -29,6 +29,7 @@ xcb-util-wm
 xcb-util-keysyms
 xcb-util-image
 xcb-util-renderutil
+xcb-util-cursor
 enum34
 libnsl
 root
