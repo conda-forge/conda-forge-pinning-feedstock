@@ -678,6 +678,7 @@ awscli
 botocore
 jmespath
 pyduktape2
+scylla-driver
 python-dateutil
 six
 urllib3
