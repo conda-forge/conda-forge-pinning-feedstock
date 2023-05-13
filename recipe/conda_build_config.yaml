@@ -672,7 +672,11 @@ python_impl:
 pytorch:
   - '1.13'
 qt:
-  - 5.12
+  - 5.15
+qt_main:
+  - 5.15
+qt6_main:
+  - 6.3
 qtkeychain:
   - '0.13'
 re2:
