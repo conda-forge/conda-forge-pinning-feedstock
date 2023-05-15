@@ -5,4 +5,4 @@ __migrator:
   bump_number: 1
 
 dav1d:
-  - 1.0.0
+  - 1.2.0
