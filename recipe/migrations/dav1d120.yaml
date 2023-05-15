@@ -1,8 +1,7 @@
-migrator_ts: 1684110228
 __migrator:
+  build_number: 1
   kind: version
   migration_number: 1
-  bump_number: 1
-
 dav1d:
-  - 1.2.0
+- 1.2.0
+migrator_ts: 1684125526.670104
