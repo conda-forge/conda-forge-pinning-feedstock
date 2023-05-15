@@ -1266,3 +1266,4 @@ css-html-js-minify
 r-rhpcblasctl
 gimli.units
 pymt
+r-catboost
