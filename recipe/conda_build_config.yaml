@@ -656,7 +656,7 @@ postgresql:
 postgresql_plpython:
   - 15
 proj:
-  - 9.1.0
+  - 9.1.1
 pulseaudio:
   - '16.1'
 pybind11_abi:
