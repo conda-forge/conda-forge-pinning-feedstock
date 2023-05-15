@@ -11,7 +11,7 @@ __migrator:
   include_noarch: True
   pr_limit: 4
   conda_forge_yml_patches:
-    build_platform.win_64: win_disabled
+    provider.win_64: win_disabled
 
 r_base:
   - 4.3   # [not win]
