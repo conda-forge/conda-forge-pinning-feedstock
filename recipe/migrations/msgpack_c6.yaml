@@ -1,0 +1,10 @@
+migrator_ts: 1684200449
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+msgpack_c:
+  - 6
+msgpack_cxx:
+  - 6
