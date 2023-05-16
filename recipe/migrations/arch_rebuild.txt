@@ -548,6 +548,7 @@ cuda-cccl-impl
 cuda-cudart
 cuda-cupti
 cuda-nvcc
+cuda-nvcc-impl
 cuda-nvml-dev
 cuda-nvrtc
 cuda-nvtx
