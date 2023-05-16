@@ -715,3 +715,4 @@ adrt
 calceph
 json_schema_validator
 rattler-build
+r-catboost
