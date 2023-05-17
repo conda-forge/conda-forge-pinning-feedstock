@@ -473,7 +473,7 @@ libgit2:
   - '1.6'
 # Keep in sync with google_cloud_cpp
 libgoogle_cloud:
-  - 2.10.0
+  - 2.10.1
 libgrpc:
   - '1.52'
 libhugetlbfs:
