@@ -1,3 +1,4 @@
+pennylane-lightning-kokkos
 pennylane
 occt
 pythonocc-core
