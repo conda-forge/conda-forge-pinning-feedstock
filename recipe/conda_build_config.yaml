@@ -382,7 +382,7 @@ gmp:
   - 6
 # keep google_cloud_cpp in sync with libgoogle_cloud
 google_cloud_cpp:
-  - 2.10.0
+  - 2.10.1
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
