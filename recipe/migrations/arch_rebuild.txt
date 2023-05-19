@@ -719,3 +719,4 @@ json_schema_validator
 rattler-build
 r-catboost
 r-webutils
+range-v3
