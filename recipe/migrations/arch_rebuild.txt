@@ -1,3 +1,4 @@
+pennylane-lightning-gpu
 pennylane-lightning-kokkos
 pennylane
 occt
