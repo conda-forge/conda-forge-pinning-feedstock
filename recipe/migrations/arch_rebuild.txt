@@ -721,3 +721,4 @@ rattler-build
 r-catboost
 r-webutils
 range-v3
+glm
