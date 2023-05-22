@@ -684,7 +684,7 @@ qt:
 qt_main:
   - 5.15
 qt6_main:
-  - 6.3
+  - '6.5'
 qtkeychain:
   - '0.14'
 re2:
