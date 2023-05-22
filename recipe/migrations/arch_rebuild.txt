@@ -57,6 +57,7 @@ pytest-benchmark
 conda-forge-ci-setup
 oclgrind
 openmpi
+rdma-core
 ucx-split
 typing
 sqlalchemy
