@@ -1270,3 +1270,5 @@ r-catboost
 range-v3
 pdftotext
 tblite-python
+cis
+
