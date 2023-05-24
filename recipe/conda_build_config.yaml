@@ -172,6 +172,10 @@ zip_keys:
   -
     - arrow_cpp
     - libarrow
+  # until libprotobuf 3.21->4.23 migration is complete
+  -
+    - libgrpc
+    - libprotobuf
 
 
 # aarch64 specifics because conda-build sets many things to centos 6
