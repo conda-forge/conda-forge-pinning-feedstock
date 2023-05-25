@@ -1273,3 +1273,6 @@ tblite-python
 cis
 puma
 grpcio-tools
+libomm
+elsi
+libmbd
