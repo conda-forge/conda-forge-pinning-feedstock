@@ -723,3 +723,7 @@ r-catboost
 r-webutils
 range-v3
 glm
+xcfun
+mrcpp
+mrchem
+vampyr
