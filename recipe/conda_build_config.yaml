@@ -502,6 +502,8 @@ libnetcdf:
   - 4.8.1
 libopencv:
   - 4.7.0
+libosqp:
+  - 0.6.3
 libpcap:
   - '1.10'
 libpng:
