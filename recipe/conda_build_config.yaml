@@ -277,7 +277,7 @@ aws_c_s3:
 aws_c_sdkutils:
   - 0.1.10
 aws_checksums:
-  - 0.1.14
+  - 0.1.15
 aws_crt_cpp:
   - 0.20.2
 aws_sdk_cpp:
