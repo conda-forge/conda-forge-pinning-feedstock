@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-  automerge: true
-aws_c_mqtt:
-- 0.8.12
-migrator_ts: 1685156163.6362553
