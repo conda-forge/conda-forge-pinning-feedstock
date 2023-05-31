@@ -47,11 +47,11 @@ __migrator:
       - 12.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   commit_message: "Rebuild for CUDA 12"
 
-cuda_compiler:                 # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - cuda-nvcc                  # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cuda_compiler:                 # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - cuda-nvcc                  # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
-cuda_compiler_version:         # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 12.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cuda_compiler_version:         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 12.0                       # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 c_compiler_version:            # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 12                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
@@ -62,8 +62,8 @@ cxx_compiler_version:          # [linux64 and os.environ.get("CF_CUDA_ENABLED", 
 fortran_compiler_version:      # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 12                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
-cudnn:                         # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cudnn:                         # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 8                          # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cdt_name:                      # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - cos7                       # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
