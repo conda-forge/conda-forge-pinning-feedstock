@@ -33,11 +33,11 @@ cuda_compiler:                 # [ppc64le or aarch64]
 cuda_compiler_version:         # [ppc64le or aarch64]
   - 12.0                       # [ppc64le or aarch64]
 
-cudnn:                  # [ppc64le or aarch64]
-  - 8                   # [ppc64le or aarch64]
+cudnn:                         # [ppc64le or aarch64]
+  - 8                          # [ppc64le or aarch64]
 
-cdt_name:  # [ppc64le or aarch64]
-  - cos7   # [ppc64le or aarch64]
+cdt_name:                      # [ppc64le or aarch64]
+  - cos7                       # [ppc64le or aarch64]
 
 docker_image:                                           # [os.environ.get("BUILD_PLATFORM", "").startswith("linux") and (ppc64le or aarch64)]
    # case: native compilation (build == target)
