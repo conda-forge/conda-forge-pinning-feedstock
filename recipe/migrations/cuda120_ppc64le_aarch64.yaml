@@ -2,7 +2,6 @@ migrator_ts: 1683090168
 __migrator:
   kind:
     version
-  use_local: true  # TODO: Remove this line after completing testing
   migration_number:
     1
   build_number:
