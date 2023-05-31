@@ -6,7 +6,8 @@ __migrator:
     1
   build_number:
     1
-  paused: false
+  # Pausing to start on CUDA 12.0 `x86_64` migrator first
+  paused: true
   override_cbc_keys:
     - cuda_compiler_stub
   operation: key_add
