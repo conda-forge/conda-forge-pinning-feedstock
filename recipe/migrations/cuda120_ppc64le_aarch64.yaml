@@ -1,0 +1,48 @@
+migrator_ts: 1683090168
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+  # Pausing to start on CUDA 12.0 `x86_64` migrator first
+  paused: true
+  override_cbc_keys:
+    - cuda_compiler_stub
+  operation: key_add
+  check_solvable: false
+  primary_key: cuda_compiler_version
+  wait_for_migrators:
+    - aarch64 and ppc64le addition
+  exclude_pinned_pkgs: False
+  commit_message: "Rebuild for cuda 12 on ppc64le and aarch64"
+
+arm_variant_type:              # [aarch64]
+  - sbsa                       # [aarch64]
+
+c_compiler_version:            # [ppc64le or aarch64]
+  - 10                         # [ppc64le or aarch64]
+cxx_compiler_version:          # [ppc64le or aarch64]
+  - 10                         # [ppc64le or aarch64]
+fortran_compiler_version:      # [ppc64le or aarch64]
+  - 10                         # [ppc64le or aarch64]
+
+cuda_compiler:                 # [ppc64le or aarch64]
+  - cuda-nvcc                  # [ppc64le or aarch64]
+cuda_compiler_version:         # [ppc64le or aarch64]
+  - 12.0                       # [ppc64le or aarch64]
+
+cudnn:                         # [ppc64le or aarch64]
+  - 8                          # [ppc64le or aarch64]
+
+cdt_name:                      # [ppc64le or aarch64]
+  - cos7                       # [ppc64le or aarch64]
+
+docker_image:                                           # [os.environ.get("BUILD_PLATFORM", "").startswith("linux") and (ppc64le or aarch64)]
+   # case: native compilation (build == target)
+   - quay.io/condaforge/linux-anvil-ppc64le             # [ppc64le and os.environ.get("BUILD_PLATFORM") == "linux-ppc64le"]
+   - quay.io/condaforge/linux-anvil-aarch64             # [aarch64 and os.environ.get("BUILD_PLATFORM") == "linux-aarch64"]
+   # case: cross-compilation (build != target)
+   - quay.io/condaforge/linux-anvil-cos7-x86_64         # [ppc64le and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+   - quay.io/condaforge/linux-anvil-cos7-x86_64         # [aarch64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
