@@ -1,3 +1,5 @@
+pennylane-lightning-gpu
+pennylane-lightning-kokkos
 pennylane
 occt
 pythonocc-core
@@ -29,6 +31,7 @@ xcb-util-wm
 xcb-util-keysyms
 xcb-util-image
 xcb-util-renderutil
+xcb-util-cursor
 enum34
 libnsl
 root
@@ -54,6 +57,7 @@ pytest-benchmark
 conda-forge-ci-setup
 oclgrind
 openmpi
+rdma-core
 ucx-split
 typing
 sqlalchemy
@@ -548,6 +552,7 @@ cuda-cccl-impl
 cuda-cudart
 cuda-cupti
 cuda-nvcc
+cuda-nvcc-impl
 cuda-nvml-dev
 cuda-nvrtc
 cuda-nvtx
@@ -713,3 +718,13 @@ soxr-python
 adrt
 calceph
 json_schema_validator
+rattler-build
+r-catboost
+r-webutils
+range-v3
+glm
+xcfun
+mrcpp
+mrchem
+vampyr
+ovito

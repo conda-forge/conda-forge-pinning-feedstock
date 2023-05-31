@@ -1,3 +1,4 @@
+aitch
 pennylane-lightning-kokkos
 kokkos-kernels
 kokkos
@@ -677,6 +678,8 @@ vpython
 awscli
 botocore
 jmespath
+pyduktape2
+scylla-driver
 python-dateutil
 six
 urllib3
@@ -1257,3 +1260,21 @@ msgpack-cxx
 calceph
 json_schema_validator
 hole2
+namaster
+rattler-build
+datalad
+css-html-js-minify
+r-rhpcblasctl
+gimli.units
+pymt
+r-catboost
+range-v3
+pdftotext
+tblite-python
+cis
+puma
+grpcio-tools
+kwn-deform
+helix
+libpcm
+r-rsvg
