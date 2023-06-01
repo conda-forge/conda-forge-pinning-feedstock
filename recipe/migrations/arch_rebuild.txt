@@ -566,6 +566,7 @@ libcufft
 libcurand
 libcusolver
 libcusparse
+libnpp
 libnvjitlink
 libnvjpeg
 librmm
