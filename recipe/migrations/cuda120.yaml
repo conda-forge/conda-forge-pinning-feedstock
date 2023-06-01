@@ -5,7 +5,7 @@ __migrator:
   migration_number:
     1
   build_number:
-    1
+    2
   paused: false
   override_cbc_keys:
     - cuda_compiler_stub
