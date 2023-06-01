@@ -45,14 +45,14 @@ __migrator:
       - 11.1                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
       - 11.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
       - 12.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  commit_message: | Rebuild for CUDA 12
-
-The transition to CUDA 12 SDK includes new packages for all CUDA libraries and
-build tools. Notably, the cudatoolkit package no longer exists, and packages
-should depend directly on the specific cuda libraries (libblas, libcusolver,
-etc) as needed. A list of all new cuda packages and their status is available
-[in this issue](https://github.com/conda-forge/staged-recipes/issues/21382).
-
+  commit_message: |
+    Rebuild for CUDA 12
+    
+    The transition to CUDA 12 SDK includes new packages for all CUDA libraries and
+    build tools. Notably, the cudatoolkit package no longer exists, and packages
+    should depend directly on the specific cuda libraries (libblas, libcusolver,
+    etc) as needed. A list of all new cuda packages and their status is available
+    [in this issue]( https://github.com/conda-forge/staged-recipes/issues/21382 ).
 
 cuda_compiler:                 # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - cuda-nvcc                  # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
