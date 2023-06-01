@@ -50,8 +50,8 @@ __migrator:
     
     The transition to CUDA 12 SDK includes new packages for all CUDA libraries and
     build tools. Notably, the cudatoolkit package no longer exists, and packages
-    should depend directly on the specific cuda libraries (libblas, libcusolver,
-    etc) as needed. A list of all new cuda packages and their status is available
+    should depend directly on the specific CUDA libraries (libblas, libcusolver,
+    etc) as needed. A list of all new CUDA packages and their status is available
     [in this issue]( https://github.com/conda-forge/staged-recipes/issues/21382 ).
 
 cuda_compiler:                 # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
