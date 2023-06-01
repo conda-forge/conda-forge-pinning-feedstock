@@ -1281,3 +1281,4 @@ r-rsvg
 gpaw
 r-infotheo
 r-magick
+depfinder
