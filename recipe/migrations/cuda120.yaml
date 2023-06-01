@@ -39,7 +39,7 @@ __migrator:
       - quay.io/condaforge/linux-anvil-cuda:11.2          # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
       - quay.io/condaforge/linux-anvil-cos7-x86_64        # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
     cuda_compiler_version:
-      - None
+      - undefined
       - 10.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
       - 11.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
       - 11.1                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
