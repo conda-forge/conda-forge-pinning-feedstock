@@ -5,7 +5,7 @@ __migrator:
   migration_number:
     1
   build_number:
-    2
+    1
   paused: false
   override_cbc_keys:
     - cuda_compiler_stub
@@ -53,6 +53,7 @@ __migrator:
     should depend directly on the specific CUDA libraries (libblas, libcusolver,
     etc) as needed. For an in-depth overview of the changes and to report problems
     [see this issue]( https://github.com/conda-forge/conda-forge.github.io/issues/1963 ).
+    Please feel free to raise any issues encountered there. Thank you! :pray:
 
 cuda_compiler:                 # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - cuda-nvcc                  # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
