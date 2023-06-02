@@ -553,11 +553,15 @@ cuda-cudart
 cuda-cupti
 cuda-cuobjdump
 cuda-cuxxfilt
+cuda-gdb
 cuda-nvcc
 cuda-nvcc-impl
+cuda-nvdisasm
 cuda-nvml-dev
+cuda-nvprof
 cuda-nvrtc
 cuda-nvtx
+cuda-nvvp
 cuda-profiler-api
 cuda-nsight
 cuda-nvprune
