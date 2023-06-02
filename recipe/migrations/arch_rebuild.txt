@@ -551,12 +551,16 @@ cuda-cccl
 cuda-cccl-impl
 cuda-cudart
 cuda-cupti
+cuda-cuobjdump
+cuda-cuxxfilt
 cuda-nvcc
 cuda-nvcc-impl
 cuda-nvml-dev
 cuda-nvrtc
 cuda-nvtx
 cuda-profiler-api
+cuda-nsight
+cuda-nvprune
 cuquantum
 cuquantum-python
 cusparselt
