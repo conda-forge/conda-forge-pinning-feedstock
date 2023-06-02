@@ -1283,3 +1283,4 @@ r-infotheo
 r-magick
 depfinder
 r-liblinear
+abinit
