@@ -1282,3 +1282,4 @@ gpaw
 r-infotheo
 r-magick
 depfinder
+r-liblinear
