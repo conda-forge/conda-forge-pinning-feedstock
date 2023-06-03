@@ -1,7 +1,8 @@
 c_compiler:
   - gcc                        # [linux]
   - clang                      # [osx]
-  - vs2019                     # [win]
+  - vs2019                     # [win and x86_64]
+  - vs2022                     # [win and arm64]
 c_compiler_version:            # [unix]
   - 12                         # [linux]
   - 15                         # [osx]
@@ -12,7 +13,8 @@ c_compiler_version:            # [unix]
 cxx_compiler:
   - gxx                        # [linux]
   - clangxx                    # [osx]
-  - vs2019                     # [win]
+  - vs2019                     # [win and x86_64]
+  - vs2022                     # [win and arm64]
 cxx_compiler_version:          # [unix]
   - 12                         # [linux]
   - 15                         # [osx]
@@ -41,16 +43,19 @@ m2w64_cxx_compiler:            # [win]
 m2w64_fortran_compiler:        # [win]
   - m2w64-toolchain            # [win]
 
-cuda_compiler:                 # [linux or win]
-  - nvcc                       # [linux or win]
+cuda_compiler:
+  - None
+  - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version:
   - None
-  - 11.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.1                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11.0                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11.1                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11.2                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version_min:
   - None                       # [osx]
-  - 11.0                       # [linux64 or win]
+  - 11.0                       # [linux64 or win64]
   - 11.2                       # [linux and (ppc64le or aarch64)]
 
 _libgcc_mutex:
@@ -140,10 +145,12 @@ zip_keys:
     - c_compiler_version        # [unix]
     - cxx_compiler_version      # [unix]
     - fortran_compiler_version  # [unix]
+    - cuda_compiler             # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cdt_name                  # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - docker_image              # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   -                             # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+    - cuda_compiler             # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   -
     - python
@@ -153,6 +160,10 @@ zip_keys:
   -
     - arrow_cpp
     - libarrow
+  # until libprotobuf 3.21->4.23 migration is complete
+  -
+    - libgrpc
+    - libprotobuf
 
 
 # aarch64 specifics because conda-build sets many things to centos 6
@@ -223,40 +234,40 @@ arpack:
   - 3.7
 # keep in sync with libarrow
 arrow_cpp:
+  - 12.0.0
   - 11.0.0
   - 10.0.1
   - 9.0.0
-  - 8.0.1
 assimp:
   - 5.2.5
 attr:
   - 2.5
 aws_c_auth:
-  - 0.6.26
+  - 0.6.28
 aws_c_cal:
-  - 0.5.21
+  - 0.5.27
 aws_c_common:
-  - 0.8.14
+  - 0.8.20
 # coupled to aws_c_common version bump, see
 # https://github.com/conda-forge/aws-c-http-feedstock/pull/109
 aws_c_event_stream:
-  - 0.2.20
+  - 0.3.0
 aws_c_http:
-  - 0.7.6
+  - 0.7.8
 # the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
-  - 0.13.19
+  - 0.13.22
 # the builds got coupled because 0.2.4 landed before the io migrator
 aws_c_mqtt:
-  - 0.8.6
+  - 0.8.12
 aws_c_s3:
-  - 0.2.7
+  - 0.3.4
 aws_c_sdkutils:
-  - 0.1.8
+  - 0.1.10
 aws_checksums:
-  - 0.1.14
+  - 0.1.15
 aws_crt_cpp:
-  - 0.19.8
+  - 0.20.2
 aws_sdk_cpp:
   - 1.10.57
 boost:
@@ -295,6 +306,8 @@ cutensor:
   - 1
 curl:
   - 8
+dav1d:
+  - 1.2.0
 davix:
   - '0.8'
 dbus:
@@ -302,7 +315,7 @@ dbus:
 dcap:
   - 2.47
 eclib:
-  - '20221012'
+  - '20230424'
 elfutils:
   - 0.189
 exiv2:
@@ -310,7 +323,7 @@ exiv2:
 expat:
   - 2
 ffmpeg:
-  - '4.4'
+  - '5'
 fftw:
   - 3
 flann:
@@ -342,7 +355,7 @@ gst_plugins_base:
 gdal:
   - '3.6'
 geos:
-  - 3.11.1
+  - 3.11.2
 geotiff:
   - 1.7.1
 gfal2:
@@ -363,16 +376,16 @@ gmp:
   - 6
 # keep google_cloud_cpp in sync with libgoogle_cloud
 google_cloud_cpp:
-  - 2.8.0
+  - 2.10.1
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
   - '0.10'
 graphviz:
-  - '7'
+  - '8'
 # keep in sync with libgrpc
 grpc_cpp:
-  - '1.51'
+  - '1.52'
 harfbuzz:
   - '6'
 hdf4:
@@ -382,9 +395,9 @@ hdf5:
 icu:
   - '70'
 imath:
-  - 3.1.7
+  - 3.1.8
 ipopt:
-  - 3.14.11
+  - 3.14.12
 isl:
   - '0.25'
 jasper:
@@ -418,10 +431,10 @@ libarchive:
 # keep in sync with arrow_cpp (libarrow exists only from 10.x,
 # but make sure we have same length for zip as arrow_cpp)
 libarrow:
+  - 12.0.0
   - 11.0.0
   - 10.0.1
   - 9.0.0
-  - 8.0.1
 libavif:
   - 0.11.1
 libblitz:
@@ -439,7 +452,7 @@ libdeflate:
 libeantic:
   - 1
 libevent:
-  - 2.1.10
+  - 2.1.12
 libexactreal:
   - '3'
 libffi:
@@ -454,9 +467,9 @@ libgit2:
   - '1.6'
 # Keep in sync with google_cloud_cpp
 libgoogle_cloud:
-  - 2.8.0
+  - 2.10.1
 libgrpc:
-  - '1.51'
+  - '1.52'
 libhugetlbfs:
   - 2
 libhwy:
@@ -479,6 +492,8 @@ libnetcdf:
   - 4.8.1
 libopencv:
   - 4.7.0
+libosqp:
+  - 0.6.3
 libpcap:
   - '1.10'
 libpng:
@@ -569,7 +584,6 @@ nettle:
 nodejs:
   - '18'
   - '16'
-  - '14'  # [not (osx and arm64)]
 nss:
   - 3
 nspr:
@@ -619,7 +633,7 @@ slepc:
 slepc4py:
   - '3.17'
 svt_av1:
-  - 1.4.1
+  - 1.5.0
 p11_kit:
   - '0.24'
 pcre:
@@ -637,7 +651,7 @@ postgresql:
 postgresql_plpython:
   - 15
 proj:
-  - 9.1.0
+  - 9.1.1
 pulseaudio:
   - '16.1'
 pybind11_abi:
@@ -654,12 +668,22 @@ python_impl:
   - cpython
 pytorch:
   - '1.13'
+pyqt:
+  - 5.15
+pyqtwebengine:
+  - 5.15
+pyqtchart:
+  - 5.15
 qt:
-  - 5.12
+  - 5.15
+qt_main:
+  - 5.15
+qt6_main:
+  - '6.5'
 qtkeychain:
-  - '0.13'
+  - '0.14'
 re2:
-  - 2023.02.02
+  - 2023.03.02
 readline:
   - "8"
 rocksdb:
@@ -677,7 +701,7 @@ scotch:
 ptscotch:
   - 6.0.9
 s2n:
-  - 1.3.41
+  - 1.3.44
 sdl2:
   - '2'
 sdl2_image:
