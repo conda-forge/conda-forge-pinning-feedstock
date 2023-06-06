@@ -1284,3 +1284,4 @@ r-magick
 depfinder
 r-liblinear
 abinit
+mo_pack
