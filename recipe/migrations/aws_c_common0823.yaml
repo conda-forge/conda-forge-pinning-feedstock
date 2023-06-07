@@ -2,7 +2,6 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-  automerge: true
 aws_c_common:
 - 0.8.23
-migrator_ts: 1686026178.114153
+migrator_ts: 1686160008.8335373
