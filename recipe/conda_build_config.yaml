@@ -317,7 +317,7 @@ cutensor:
 curl:
   - 8
 dav1d:
-  - 1.2.0
+  - 1.2.1
 davix:
   - '0.8'
 dbus:
