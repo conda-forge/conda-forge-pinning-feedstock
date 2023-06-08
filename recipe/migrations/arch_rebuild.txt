@@ -549,6 +549,7 @@ cutlass
 cupy
 cuda-cccl
 cuda-cccl-impl
+cuda-compiler
 cuda-cudart
 cuda-cupti
 cuda-cuobjdump
