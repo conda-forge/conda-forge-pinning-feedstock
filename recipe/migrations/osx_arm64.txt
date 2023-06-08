@@ -164,6 +164,7 @@ qt-charts
 qt-datavis3d
 pyqt
 pyside2
+vigra
 libdb
 bsddb3
 openmpi
