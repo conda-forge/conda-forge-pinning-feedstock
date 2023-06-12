@@ -740,3 +740,6 @@ vampyr
 ovito
 vigra
 rclone
+r-bench
+r-odbc
+r-splines2
