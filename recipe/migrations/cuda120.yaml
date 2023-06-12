@@ -50,7 +50,7 @@ __migrator:
     
     The transition to CUDA 12 SDK includes new packages for all CUDA libraries and
     build tools. Notably, the cudatoolkit package no longer exists, and packages
-    should depend directly on the specific CUDA libraries (libblas, libcusolver,
+    should depend directly on the specific CUDA libraries (libcublas, libcusolver,
     etc) as needed. For an in-depth overview of the changes and to report problems
     [see this issue]( https://github.com/conda-forge/conda-forge.github.io/issues/1963 ).
     Please feel free to raise any issues encountered there. Thank you! :pray:
