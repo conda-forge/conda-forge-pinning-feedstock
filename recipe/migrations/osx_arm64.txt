@@ -1288,3 +1288,5 @@ abinit
 r-mlr
 mo_pack
 sshpass
+spleaf
+kepderiv
