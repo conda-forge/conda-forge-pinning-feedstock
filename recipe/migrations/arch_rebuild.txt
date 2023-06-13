@@ -744,3 +744,4 @@ rclone
 r-bench
 r-odbc
 r-splines2
+gnupg
