@@ -9,7 +9,7 @@ __migrator:
   automerge: True
   longterm: True
   include_noarch: True
-  pr_limit: 4
+  pr_limit: 40
   conda_forge_yml_patches:
     provider.win_64: win_disabled
 
