@@ -555,6 +555,10 @@ cuda-cuobjdump
 cuda-cupti
 cuda-cuxxfilt
 cuda-gdb
+cuda-libraries
+cuda-libraries-dev
+cuda-libraries-static
+cuda-minimal-build
 cuda-nsight
 cuda-nvcc
 cuda-nvcc-impl
@@ -566,6 +570,8 @@ cuda-nvrtc
 cuda-nvtx
 cuda-nvvp
 cuda-profiler-api
+cuda-runtime
+nvidia-gds
 cuquantum
 cuquantum-python
 cusparselt
