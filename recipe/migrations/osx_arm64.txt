@@ -1291,3 +1291,4 @@ sshpass
 spleaf
 kepderiv
 pybuilder
+lhapdf
