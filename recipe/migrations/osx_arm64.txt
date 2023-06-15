@@ -1290,3 +1290,4 @@ mo_pack
 sshpass
 spleaf
 kepderiv
+lhapdf
