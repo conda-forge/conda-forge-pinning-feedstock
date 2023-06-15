@@ -1290,4 +1290,5 @@ mo_pack
 sshpass
 spleaf
 kepderiv
+pybuilder
 lhapdf
