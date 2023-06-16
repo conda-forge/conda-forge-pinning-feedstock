@@ -1292,3 +1292,4 @@ spleaf
 kepderiv
 pybuilder
 lhapdf
+gooseepm-split
