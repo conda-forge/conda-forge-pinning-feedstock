@@ -1,7 +1,0 @@
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-libsentencepiece:
-  - '0.1.99'
-migrator_ts: 1686840310.882099
