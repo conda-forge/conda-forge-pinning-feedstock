@@ -1293,3 +1293,4 @@ kepderiv
 pybuilder
 lhapdf
 gooseepm-split
+luarocks
