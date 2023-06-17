@@ -411,7 +411,7 @@ ipopt:
 isl:
   - '0.25'
 jasper:
-  - '2'
+  - 4
 jpeg:
   - 9
 lcms:
