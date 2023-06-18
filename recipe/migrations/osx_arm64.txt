@@ -1141,6 +1141,7 @@ r-quantreg
 r-hunspell
 r-pingr
 r-rhub
+vale
 orange3
 sdl2_mixer
 sdl2_ttf
