@@ -1,5 +1,6 @@
 aitch
 pennylane-lightning-kokkos
+pyfmi
 kokkos-kernels
 kokkos
 pennylane
