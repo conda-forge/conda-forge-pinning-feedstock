@@ -1295,3 +1295,4 @@ pybuilder
 lhapdf
 gooseepm-split
 luarocks
+sasview
