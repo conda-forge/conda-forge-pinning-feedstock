@@ -549,6 +549,7 @@ cutlass
 cupy
 cuda-cccl
 cuda-cccl-impl
+cuda-compat
 cuda-compiler
 cuda-cudart
 cuda-cuobjdump
@@ -571,6 +572,7 @@ cuda-nvtx
 cuda-nvvp
 cuda-profiler-api
 cuda-runtime
+cuda-sanitizer-api
 nvidia-gds
 cuquantum
 cuquantum-python
