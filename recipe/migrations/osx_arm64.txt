@@ -1297,3 +1297,4 @@ lhapdf
 gooseepm-split
 luarocks
 sasview
+aio-pika
