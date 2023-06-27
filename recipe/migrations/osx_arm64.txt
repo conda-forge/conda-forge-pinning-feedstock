@@ -1300,3 +1300,4 @@ luarocks
 sasview
 aio-pika
 batoid
+cyanure
