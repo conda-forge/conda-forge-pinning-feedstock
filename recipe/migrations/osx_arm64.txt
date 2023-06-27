@@ -1301,3 +1301,4 @@ sasview
 aio-pika
 batoid
 cyanure
+dftd3-python
