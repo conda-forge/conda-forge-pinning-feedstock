@@ -89,6 +89,7 @@ dask
 dask-sql
 statsmodels
 conda-forge-ci-setup
+implicit
 grpcio
 h5py
 wrapt
