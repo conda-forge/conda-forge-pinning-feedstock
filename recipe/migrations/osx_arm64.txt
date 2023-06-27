@@ -1298,3 +1298,4 @@ gooseepm-split
 luarocks
 sasview
 aio-pika
+batoid
