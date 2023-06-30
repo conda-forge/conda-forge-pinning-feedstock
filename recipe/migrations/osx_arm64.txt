@@ -1,5 +1,6 @@
 aitch
 pennylane-lightning-kokkos
+pyfmi
 kokkos-kernels
 kokkos
 pennylane
@@ -88,6 +89,7 @@ dask
 dask-sql
 statsmodels
 conda-forge-ci-setup
+implicit
 grpcio
 h5py
 wrapt
@@ -164,6 +166,7 @@ qt-charts
 qt-datavis3d
 pyqt
 pyside2
+vigra
 libdb
 bsddb3
 openmpi
@@ -1140,6 +1143,7 @@ r-quantreg
 r-hunspell
 r-pingr
 r-rhub
+vale
 orange3
 sdl2_mixer
 sdl2_ttf
@@ -1284,3 +1288,19 @@ r-magick
 depfinder
 r-liblinear
 abinit
+r-mlr
+mo_pack
+sshpass
+spleaf
+kepderiv
+pybuilder
+lhapdf
+gooseepm-split
+luarocks
+sasview
+aio-pika
+batoid
+cyanure
+batoid-rubin
+dftd3-python
+pylops

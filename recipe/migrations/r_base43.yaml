@@ -1,0 +1,17 @@
+migrator_ts: 1682187595
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+  operation: key_add
+  commit_message: "Rebuild for r-base 4.3"
+  primary_key: r_base
+  automerge: True
+  longterm: True
+  include_noarch: True
+  pr_limit: 40
+  conda_forge_yml_patches:
+    provider.win_64: win_disabled
+
+r_base:
+  - 4.3   # [not win]

@@ -2,12 +2,12 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
-migrator_ts: 1675950135.195193
+migrator_ts: 1681468798
 petsc:
-  - '3.18'
+  - '3.19'
 petsc4py:
-  - '3.18'
+  - '3.19'
 slepc:
-  - '3.18'
+  - '3.19'
 slepc4py:
-  - '3.18'
+  - '3.19'
