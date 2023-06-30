@@ -393,7 +393,8 @@ googleapis_cpp:
   - '0.10'
 graphviz:
   - '8'
-# keep in sync with libgrpc
+# this has been renamed to libgrpc as of 1.49; dropped as of 1.52.
+# IOW, this version is unavailable; makes the renaming more obvious
 grpc_cpp:
   - '1.52'
 harfbuzz:
