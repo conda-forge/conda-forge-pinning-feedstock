@@ -677,7 +677,7 @@ python_impl:
   - cpython
   - cpython
 pytorch:
-  - '1.13'
+  - '2.0'
 pyqt:
   - 5.15
 pyqtwebengine:
