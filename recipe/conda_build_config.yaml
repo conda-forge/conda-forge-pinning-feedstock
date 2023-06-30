@@ -46,17 +46,12 @@ m2w64_fortran_compiler:        # [win]
 cuda_compiler:
   - None
   - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version:
   - None
-  - 11.0                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.1                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 11.2                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version_min:
   - None                       # [osx]
-  - 11.0                       # [linux64 or win64]
-  - 11.2                       # [linux and (ppc64le or aarch64)]
+  - 11.2                       # [linux or win64]
 
 _libgcc_mutex:
   - 0.1 conda_forge
@@ -125,8 +120,6 @@ cdt_name:  # [linux]
   - cos7   # [linux and armv7l]
   - cos7   # [linux and s390x]
 
-  - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
-  - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
@@ -136,8 +129,6 @@ docker_image:                                   # [os.environ.get("BUILD_PLATFOR
   - quay.io/condaforge/linux-anvil-ppc64le      # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le"]
   - quay.io/condaforge/linux-anvil-armv7l       # [os.environ.get("BUILD_PLATFORM") == "linux-armv7l"]
 
-  - quay.io/condaforge/linux-anvil-cuda:11.0       # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
-  - quay.io/condaforge/linux-anvil-cuda:11.1       # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-cuda:11.2       # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
 
 zip_keys:
