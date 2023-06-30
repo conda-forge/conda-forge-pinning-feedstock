@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+libgrpc:
+- '1.56'
+migrator_ts: 1688114357.5740738
