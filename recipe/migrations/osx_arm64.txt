@@ -422,6 +422,9 @@ rasterio
 fiona
 freecad
 casadi
+cglm
+shaderc
+glslang
 xorg-damageproto
 xorg-xf86vidmodeproto
 xorg-libxdamage
