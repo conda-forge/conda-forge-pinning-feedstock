@@ -338,6 +338,8 @@ fftw:
   - 3
 flann:
   - 1.9.1
+flatbuffers:
+  - 23.5.26
 fmt:
   - '9'
 fontconfig:
