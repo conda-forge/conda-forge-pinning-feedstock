@@ -259,7 +259,7 @@ aws_c_auth:
 aws_c_cal:
   - 0.6.0
 aws_c_common:
-  - 0.8.20
+  - 0.8.23
 # coupled to aws_c_common version bump, see
 # https://github.com/conda-forge/aws-c-http-feedstock/pull/109
 aws_c_event_stream:
