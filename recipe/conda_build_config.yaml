@@ -44,19 +44,19 @@ m2w64_fortran_compiler:        # [win]
   - m2w64-toolchain            # [win]
 
 cuda_compiler:
-  - None
+  - undefined
   - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - nvcc                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version:
-  - None
+  - undefined
   - 10.2                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 11.0                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 11.1                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 11.2                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version_min:
-  - None                       # [osx]
+  - undefined                  # [osx]
   - 10.2                       # [linux64 or win64]
   - 11.2                       # [linux and (ppc64le or aarch64)]
 cudnn:
