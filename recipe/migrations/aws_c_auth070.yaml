@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+aws_c_auth:
+- 0.7.0
+migrator_ts: 1688421528.8408647
