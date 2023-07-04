@@ -58,6 +58,7 @@ emacs
 r-base
 reproc
 ipython
+libuwebsockets
 healpy
 fitsio
 trio
