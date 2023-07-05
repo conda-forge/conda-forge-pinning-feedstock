@@ -1308,3 +1308,4 @@ cyanure
 batoid-rubin
 dftd3-python
 pylops
+pysolid
