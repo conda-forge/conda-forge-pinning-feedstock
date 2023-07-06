@@ -1309,4 +1309,5 @@ batoid-rubin
 dftd3-python
 pylops
 pysolid
+libpnetcdf
 r-mvnfast
