@@ -755,3 +755,4 @@ r-splines2
 gnupg
 cwinpy
 libpnetcdf
+rocm-smi
