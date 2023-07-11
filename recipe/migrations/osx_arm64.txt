@@ -1312,3 +1312,4 @@ pysolid
 libpnetcdf
 r-mvnfast
 vitables
+disperse
