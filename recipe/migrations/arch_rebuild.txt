@@ -573,6 +573,7 @@ cuda-nvvp
 cuda-profiler-api
 cuda-runtime
 cuda-sanitizer-api
+nsight-compute
 nvidia-gds
 cuquantum
 cuquantum-python
