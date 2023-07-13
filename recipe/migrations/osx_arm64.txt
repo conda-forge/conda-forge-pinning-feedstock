@@ -1149,6 +1149,7 @@ r-pingr
 r-rhub
 vale
 orange3
+sdl2_net
 sdl2_mixer
 sdl2_ttf
 sdl2_image
