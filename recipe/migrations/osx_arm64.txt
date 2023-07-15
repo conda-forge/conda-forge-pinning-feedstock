@@ -9,6 +9,7 @@ micromamba
 conda-build
 go-yq
 gmp
+cryptopp
 mpfr
 libavif
 libqrencode
