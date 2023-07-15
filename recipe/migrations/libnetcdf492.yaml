@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-libnetcdf:
-- 4.9.2
-migrator_ts: 1678915697.6091654
