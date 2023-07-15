@@ -10,6 +10,7 @@ openblas
 fftw
 pyfftw
 go-yq
+cryptopp
 numpy
 numpy-allocator
 libqrencode
