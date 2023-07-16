@@ -400,7 +400,7 @@ graphviz:
 grpc_cpp:
   - '1.52'
 harfbuzz:
-  - '6'
+  - '7'
 hdf4:
   - 4.2.15
 hdf5:
