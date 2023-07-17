@@ -1321,3 +1321,6 @@ tflint
 pymdi
 adcc
 pyddx
+quantized-mesh-encoder
+pymartini
+pydelatin
