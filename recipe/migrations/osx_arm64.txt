@@ -1318,3 +1318,6 @@ disperse
 cython-fortran-file
 bytewax
 tflint
+pymdi
+adcc
+pyddx
