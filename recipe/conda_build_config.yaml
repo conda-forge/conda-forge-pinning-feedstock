@@ -112,7 +112,6 @@ cdt_name:  # [linux]
   - cos7   # [linux and s390x]
 
   - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - cos7   # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 docker_image:                                   # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   - quay.io/condaforge/linux-anvil-cos7-x86_64  # [os.environ.get("BUILD_PLATFORM") == "linux-64"]
