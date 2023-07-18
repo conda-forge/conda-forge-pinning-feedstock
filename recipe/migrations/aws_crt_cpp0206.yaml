@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+aws_crt_cpp:
+- 0.20.6
+migrator_ts: 1689648130.9556625
