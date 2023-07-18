@@ -1324,3 +1324,4 @@ pyddx
 quantized-mesh-encoder
 pymartini
 pydelatin
+photochem
