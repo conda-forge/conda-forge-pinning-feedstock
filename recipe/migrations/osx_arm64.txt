@@ -9,6 +9,7 @@ micromamba
 conda-build
 go-yq
 gmp
+cryptopp
 mpfr
 libavif
 libqrencode
@@ -58,6 +59,7 @@ emacs
 r-base
 reproc
 ipython
+libuwebsockets
 healpy
 fitsio
 trio
@@ -422,6 +424,9 @@ rasterio
 fiona
 freecad
 casadi
+cglm
+shaderc
+glslang
 xorg-damageproto
 xorg-xf86vidmodeproto
 xorg-libxdamage
@@ -1145,6 +1150,7 @@ r-pingr
 r-rhub
 vale
 orange3
+sdl2_net
 sdl2_mixer
 sdl2_ttf
 sdl2_image
@@ -1304,3 +1310,17 @@ cyanure
 batoid-rubin
 dftd3-python
 pylops
+pysolid
+libpnetcdf
+r-mvnfast
+vitables
+disperse
+cython-fortran-file
+bytewax
+tflint
+pymdi
+adcc
+pyddx
+quantized-mesh-encoder
+pymartini
+pydelatin

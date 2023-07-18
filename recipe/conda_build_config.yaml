@@ -224,31 +224,31 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - 0.6.28
+  - 0.7.0
 aws_c_cal:
-  - 0.5.27
+  - 0.6.0
 aws_c_common:
-  - 0.8.20
+  - 0.8.23
 # coupled to aws_c_common version bump, see
 # https://github.com/conda-forge/aws-c-http-feedstock/pull/109
 aws_c_event_stream:
-  - 0.3.0
+  - 0.3.1
 aws_c_http:
-  - 0.7.8
+  - 0.7.11
 # the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
-  - 0.13.26
+  - 0.13.28
 # the builds got coupled because 0.2.4 landed before the io migrator
 aws_c_mqtt:
-  - 0.8.13
+  - 0.8.14
 aws_c_s3:
-  - 0.3.4
+  - 0.3.13
 aws_c_sdkutils:
-  - 0.1.10
+  - 0.1.11
 aws_checksums:
   - 0.1.16
 aws_crt_cpp:
-  - 0.20.2
+  - 0.20.3
 aws_sdk_cpp:
   - 1.10.57
 boost:
@@ -266,7 +266,7 @@ capnproto:
 ccr:
   - 1.3
 cfitsio:
-  - 4.1.0
+  - 4.2.0
 coin_or_cbc:
   - 2.10
 coincbc:
@@ -309,6 +309,8 @@ fftw:
   - 3
 flann:
   - 1.9.1
+flatbuffers:
+  - 23.5.26
 fmt:
   - '9'
 fontconfig:
@@ -364,17 +366,18 @@ googleapis_cpp:
   - '0.10'
 graphviz:
   - '8'
-# keep in sync with libgrpc
+# this has been renamed to libgrpc as of 1.49; dropped as of 1.52.
+# IOW, this version is unavailable; makes the renaming more obvious
 grpc_cpp:
   - '1.52'
 harfbuzz:
-  - '6'
+  - '7'
 hdf4:
   - 4.2.15
 hdf5:
   - 1.12.2
 icu:
-  - '70'
+  - '72'
 imath:
   - 3.1.9
 ipopt:
@@ -466,11 +469,11 @@ libkml:
 libiio:
   - 0
 libmatio:
-  - 1.5.21
+  - 1.5.23
 libmicrohttpd:
   - 0.9
 libnetcdf:
-  - 4.8.1
+  - 4.9.2
 libopencv:
   - 4.7.0
 libosqp:
@@ -596,7 +599,7 @@ openssl:
 openturns:
   - '1.20'
 orc:
-  - 1.8.4
+  - 1.9.0
 pango:
   - 1.50
 pari:
@@ -632,7 +635,7 @@ postgresql:
 postgresql_plpython:
   - 15
 proj:
-  - 9.1.1
+  - 9.2.0
 pulseaudio:
   - '16.1'
 pybind11_abi:
@@ -648,7 +651,7 @@ python_impl:
   - cpython
   - cpython
 pytorch:
-  - '1.13'
+  - '2.0'
 pyqt:
   - 5.15
 pyqtwebengine:
@@ -668,9 +671,9 @@ re2:
 readline:
   - "8"
 rocksdb:
-  - "6.10"
+  - '7.9'
 root_base:
-  - 6.26.10
+  - 6.28.0
 ruby:
   - 2.5
   - 2.6
@@ -741,7 +744,7 @@ volk:
 vtk:
   - 9.2.5
 wcslib:
-  - '7.7'
+  - '7'
 wxwidgets:
   - '3.2'
 x264:

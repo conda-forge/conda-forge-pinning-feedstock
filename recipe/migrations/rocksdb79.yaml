@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-migrator_ts: 1674005983.0998106
-rocksdb:
-- '7.9'
