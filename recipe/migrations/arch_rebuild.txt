@@ -726,6 +726,7 @@ r-marginaleffects
 conda-ecosystem-user-package-isolation
 sparsehash
 graph-tool
+pytensor-suite
 kim-api
 mlip
 n2p2
