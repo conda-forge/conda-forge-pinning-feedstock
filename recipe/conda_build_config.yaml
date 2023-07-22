@@ -453,7 +453,7 @@ libgit2:
 libgoogle_cloud:
   - '2.12'
 libgrpc:
-  - '1.52'
+  - '1.54'
 libhugetlbfs:
   - 2
 libhwy:
