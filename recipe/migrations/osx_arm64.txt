@@ -711,6 +711,7 @@ multicore-tsne
 dftbplus
 pymc
 gdstk
+gdspy
 cargo-bundle-licenses
 astropy-healpix
 photutils
