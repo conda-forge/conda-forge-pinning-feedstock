@@ -1329,3 +1329,5 @@ pydelatin
 photochem
 color-operations
 google-re2
+bed-reader
+sgkit
