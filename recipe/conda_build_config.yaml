@@ -562,7 +562,7 @@ ncurses:
 netcdf_cxx4:
   - 4.3
 netcdf_fortran:
-  - 4.5
+  - 4.6
 nettle:
   - '3.8'
 nodejs:
