@@ -1329,3 +1329,4 @@ pydelatin
 photochem
 color-operations
 google-re2
+r-performanceanalytics
