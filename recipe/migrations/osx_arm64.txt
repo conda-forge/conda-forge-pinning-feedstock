@@ -24,6 +24,7 @@ yaml-cpp
 cffi
 libheif
 libnsl
+mahotas
 pycparser
 constructor
 lapack
