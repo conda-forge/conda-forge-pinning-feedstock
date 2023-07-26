@@ -241,6 +241,7 @@ mamba
 charls
 attr
 libcap
+mahotas
 numexpr
 statsmodels
 imagecodecs
