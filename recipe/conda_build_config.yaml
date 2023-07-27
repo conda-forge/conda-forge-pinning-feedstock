@@ -605,7 +605,7 @@ pango:
 pari:
   - 2.15.* *_pthread
 pcl:
-  - 1.13.0
+  - 1.13.1
 perl:
   - 5.32.1
 petsc:
