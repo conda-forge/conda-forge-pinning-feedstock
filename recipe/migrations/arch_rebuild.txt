@@ -761,3 +761,4 @@ cwinpy
 libpnetcdf
 rocm-smi
 google-re2
+r-sodium
