@@ -1333,3 +1333,5 @@ google-re2
 r-performanceanalytics
 r-anytime
 rosettasciio
+corrfunc
+rerun-sdk
