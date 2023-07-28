@@ -1335,3 +1335,4 @@ r-anytime
 rosettasciio
 corrfunc
 rerun-sdk
+gdma
