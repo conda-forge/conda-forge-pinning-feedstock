@@ -579,9 +579,9 @@ ntl:
 # we build for the oldest version possible of numpy for forward compatibility
 numpy:
   # part of a zip_keys: python, python_impl, numpy
-  - 1.21
-  - 1.21
-  - 1.21
+  - 1.22
+  - 1.22
+  - 1.22
 occt:
   - '7.7'
 openblas:
