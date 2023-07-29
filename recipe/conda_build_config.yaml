@@ -577,6 +577,7 @@ nlopt:
 ntl:
   - '11.4.3'
 # we build for the oldest version possible of numpy for forward compatibility
+# we follow NEP29 in choosing the oldest version possible
 numpy:
   # part of a zip_keys: python, python_impl, numpy
   - 1.22
