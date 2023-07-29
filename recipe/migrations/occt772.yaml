@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+migrator_ts: 1690639873.1285627
+occt:
+- 7.7.2
