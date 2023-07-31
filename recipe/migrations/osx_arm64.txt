@@ -1336,3 +1336,4 @@ rosettasciio
 corrfunc
 rerun-sdk
 gdma
+ambit
