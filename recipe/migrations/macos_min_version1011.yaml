@@ -1,0 +1,18 @@
+migrator_ts: 1587148342
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+
+#TODO: What version do we want?
+#  10.11 is just a suggestion...
+macos_min_version:             # [osx]
+  - 10.11                      # [osx]
+#TODO: How is the macosx_machine variable used?
+macos_machine:                 # [osx]
+  - x86_64-apple-darwin13.4.0  # [osx]
+MACOSX_DEPLOYMENT_TARGET:      # [osx]
+  - 10.11                      # [osx]
