@@ -172,6 +172,7 @@ r-survival
 r-essentials
 r-recommended
 r-tidyverse
+r-filelock
 r-forecast
 r-bitops
 r-git2r
