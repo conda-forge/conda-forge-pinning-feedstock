@@ -257,6 +257,7 @@ r-rsqlite
 pandoc
 nghttp2
 cctools
+tectonic
 howardhinnant_date
 spdlog
 py-spy
