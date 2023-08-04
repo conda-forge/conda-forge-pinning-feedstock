@@ -1343,3 +1343,10 @@ psy-reg
 scri
 spinsfast
 r-traminer
+des-eastlake
+des-montara
+psfex
+des-pizza-cutter
+des-pizza-cutter-metadetect
+des-y6utils
+pixmappy
