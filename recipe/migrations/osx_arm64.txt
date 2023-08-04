@@ -1350,3 +1350,4 @@ des-pizza-cutter
 des-pizza-cutter-metadetect
 des-y6utils
 pixmappy
+r-raster
