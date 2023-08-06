@@ -629,7 +629,7 @@ pixman:
 poco:
   - 1.12.4
 poppler:
-  - '22.12'
+  - '23.07'
 postgresql:
   - 15
 postgresql_plpython:
