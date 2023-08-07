@@ -680,6 +680,7 @@ ruby:
 r_base:
   - 4.1   # [win]
   - 4.2   # [not win]
+  - 4.3   # [not win]
 scotch:
   - 6.0.9
 ptscotch:
