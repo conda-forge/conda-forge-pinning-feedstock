@@ -212,6 +212,15 @@ r-fracdiff
 r-rodbc
 r-rjson
 r-sp
+r-ape
+r-tkrplot
+r-locfit
+r-mixtools
+r-pbmcapply
+r-minpack.lm
+r-blockmodeling
+r-amap
+r-princurve
 r-reticulate
 r-dimred
 r-arules
