@@ -215,6 +215,7 @@ r-sp
 r-reticulate
 r-dimred
 r-arules
+r-igraph
 r-network
 r-spam
 r-ade4
