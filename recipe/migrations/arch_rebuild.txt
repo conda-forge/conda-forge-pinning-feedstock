@@ -183,7 +183,6 @@ r-logicreg
 r-dixontest
 r-tiff
 r-fftwtools
-r-minet
 r-rsvg
 r-fastmatch
 r-mclust
