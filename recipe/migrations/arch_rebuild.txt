@@ -187,6 +187,7 @@ r-rsvg
 r-fastmatch
 r-mclust
 r-ccapp
+r-fastcluster
 r-ddalpha
 r-xml
 r-catools
