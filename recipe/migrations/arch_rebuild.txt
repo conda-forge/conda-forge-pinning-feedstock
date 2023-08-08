@@ -236,6 +236,12 @@ r-gdtools
 r-proxy
 r-nnls
 r-lhs
+r-vegan
+r-rmysql
+r-ggrepel
+r-sm
+r-infotheo
+r-delaporte
 r-multicool
 r-rconv
 r-bbmisc
