@@ -169,7 +169,7 @@ r-nleqslv
 r-minqa
 r-mitools
 r-survival
-r-essentialsr-rocr
+r-essentials
 r-recommended
 r-tidyverse
 r-filelock
