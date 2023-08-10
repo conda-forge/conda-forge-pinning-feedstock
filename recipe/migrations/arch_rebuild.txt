@@ -190,6 +190,15 @@ r-ccapp
 r-fastcluster
 r-ddalpha
 r-xml
+r-gamlss
+r-vgam
+r-pscl
+r-bbmle
+r-rtsne
+r-apcluster
+r-fpc
+r-wgcna
+r-rcpphnsw
 r-catools
 r-geometry
 r-rcppeigen
