@@ -340,7 +340,7 @@ gst_plugins_base:
 gdal:
   - '3.6'
 geos:
-  - 3.11.2
+  - 3.12.0
 geotiff:
   - 1.7.1
 gfal2:
