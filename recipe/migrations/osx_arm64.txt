@@ -996,6 +996,7 @@ pystow
 pyworld
 astra-toolbox
 ytop
+selenium-manager
 polyagamma
 mujoco
 pypeit
