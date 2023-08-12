@@ -160,6 +160,9 @@ r-rlang
 r-pillar
 r-tibble
 r-scales
+r-rgl
+r-clue
+r-ncdf4
 r-reshape2
 r-mgcv
 r-lazyeval
