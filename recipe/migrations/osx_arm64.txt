@@ -1352,3 +1352,4 @@ des-pizza-cutter-metadetect
 des-y6utils
 pixmappy
 isce3
+gnss-sdr
