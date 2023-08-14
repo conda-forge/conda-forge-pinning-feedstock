@@ -401,6 +401,7 @@ libignition-physics
 libignition-transport4
 viztracer
 memray
+mysql-connector-cpp
 mysql-connector-odbc
 msgspec
 openai
