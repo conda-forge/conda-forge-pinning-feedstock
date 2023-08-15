@@ -287,6 +287,7 @@ r-nnls
 r-lhs
 r-vegan
 r-rmysql
+r-rmariadb
 r-ggrepel
 r-sm
 r-infotheo
