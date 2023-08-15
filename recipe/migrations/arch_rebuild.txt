@@ -427,6 +427,7 @@ libignition-physics
 libignition-transport4
 viztracer
 memray
+mariadb-connector-c
 mysql-connector-cpp
 mysql-connector-odbc
 msgspec
