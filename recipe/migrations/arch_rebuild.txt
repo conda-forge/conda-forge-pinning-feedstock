@@ -239,6 +239,8 @@ r-sp
 r-pdist
 r-robust
 r-logistf
+r-rfast
+r-dplr
 r-changepoint
 r-idpmisc
 r-rrcov
