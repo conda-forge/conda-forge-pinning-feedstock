@@ -5,3 +5,4 @@ __migrator:
 migrator_ts: 1692026777.3672097
 nodejs:
 - '20'
+- '18'
