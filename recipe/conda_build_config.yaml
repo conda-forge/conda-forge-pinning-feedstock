@@ -239,7 +239,7 @@ aws_c_http:
   - 0.7.11
 # the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
-  - 0.13.31
+  - 0.13.32
 # the builds got coupled because 0.2.4 landed before the io migrator
 aws_c_mqtt:
   - 0.9.3
