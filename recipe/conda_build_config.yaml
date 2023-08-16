@@ -224,7 +224,7 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - 0.7.0
+  - 0.7.3
 aws_c_cal:
   - 0.6.1
 aws_c_common:
