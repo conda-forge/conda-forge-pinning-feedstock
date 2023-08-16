@@ -1354,3 +1354,4 @@ pixmappy
 isce3
 gnss-sdr
 prismatic_split
+ensmallen

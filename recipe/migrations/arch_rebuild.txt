@@ -837,3 +837,4 @@ google-re2
 r-sodium
 abacus
 gnss-sdr
+ensmallen
