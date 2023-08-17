@@ -589,11 +589,12 @@ nlopt:
 ntl:
   - '11.4.3'
 # we build for the oldest version possible of numpy for forward compatibility
+# we roughly follow NEP29 in choosing the oldest version
 numpy:
   # part of a zip_keys: python, python_impl, numpy
-  - 1.21
-  - 1.21
-  - 1.21
+  - 1.22
+  - 1.22
+  - 1.22
 occt:
   - 7.7.2
 openblas:
