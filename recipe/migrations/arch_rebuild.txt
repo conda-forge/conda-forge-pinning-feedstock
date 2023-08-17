@@ -27,6 +27,7 @@ gilknocker
 cx_oracle
 numba
 psycopg2
+resvg
 xcb-util
 xcb-util-wm
 xcb-util-keysyms
