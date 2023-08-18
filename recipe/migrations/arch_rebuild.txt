@@ -611,6 +611,9 @@ squashfuse
 pyferret
 alsa-plugins
 zchunk
+pytorch-cpu
+dgl
+pyg-lib
 julia
 socat
 backports.zoneinfo
