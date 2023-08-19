@@ -259,6 +259,9 @@ r-flexclust
 r-sgeostat
 r-maldiquant
 r-drc
+r-gwasexacthw
+r-ggfoce
+r-restfulr
 r-irlba
 r-rann
 r-ddrtree
