@@ -53,6 +53,7 @@ libtool
 autoconf
 automake
 m4
+python-chromedriver-binary
 patch
 git
 pytest
