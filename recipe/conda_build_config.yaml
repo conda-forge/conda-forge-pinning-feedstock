@@ -141,6 +141,12 @@ zip_keys:
   -
     - arrow_cpp
     - libarrow
+  # as of 4.23.x, libprotobuf requires patch-level run-exports;
+  # we couple it with grpc (which very roughly releases in sync)
+  # to reduce the migration pain for these two libs a bit.
+  -
+    - libgrpc
+    - libprotobuf
 
 
 # aarch64 specifics because conda-build sets many things to centos 6

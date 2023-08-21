@@ -1,0 +1,11 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+libgrpc:
+- '1.54'
+- '1.56'
+libprotobuf:
+- '3.21'
+- '4.23.3'
+migrator_ts: 1688154716.9176981
