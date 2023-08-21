@@ -261,7 +261,15 @@ r-sgeostat
 r-maldiquant
 r-drc
 r-gwasexacthw
-r-ggfoce
+r-ggforce
+r-timsac
+r-fbasics
+r-dqrng
+r-ps
+r-tm
+r-coin
+r-compquadform
+r-pander
 r-restfulr
 r-irlba
 r-rann
