@@ -153,6 +153,7 @@ lzip
 awkward
 tifffile
 pytorch-cpu
+dgl
 sleef
 cross-python
 pyvips
