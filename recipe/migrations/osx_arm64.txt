@@ -1309,6 +1309,7 @@ lhapdf
 gooseepm-split
 luarocks
 sasview
+uproc
 aio-pika
 batoid
 cyanure
