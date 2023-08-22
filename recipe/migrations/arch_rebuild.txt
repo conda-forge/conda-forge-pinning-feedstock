@@ -35,8 +35,6 @@ xcb-util-renderutil
 xcb-util-cursor
 enum34
 libnsl
-r-tweenr
-r-rmixmod
 root
 boost-cpp
 teensy_loader_cli
@@ -241,6 +239,8 @@ r-robustbase
 r-fracdiff
 r-rodbc
 r-rjson
+r-tweenr
+r-rmixmod
 r-sp
 r-pdist
 r-robust
@@ -262,7 +262,15 @@ r-sgeostat
 r-maldiquant
 r-drc
 r-gwasexacthw
-r-ggfoce
+r-ggforce
+r-timsac
+r-fbasics
+r-dqrng
+r-ps
+r-tm
+r-coin
+r-compquadform
+r-pander
 r-restfulr
 r-irlba
 r-rann
