@@ -1337,3 +1337,6 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
+r-jpeg
+r-hmisc
+r-latticeextra
