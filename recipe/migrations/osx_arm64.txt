@@ -1084,6 +1084,7 @@ restic
 resvg
 rever
 rhumba
+rio-color
 ripgrep
 rise
 root
