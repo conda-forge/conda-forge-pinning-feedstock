@@ -240,6 +240,8 @@ r-robustbase
 r-fracdiff
 r-rodbc
 r-rjson
+r-tweenr
+r-rmixmod
 r-sp
 r-pdist
 r-robust
