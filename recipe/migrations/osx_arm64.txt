@@ -1,7 +1,3 @@
-inja
-tnt
-jama
-ale
 abinit
 ablog
 adcc
@@ -15,6 +11,7 @@ aiosignal
 airflow
 aitch
 albumentations
+ale
 allennlp
 allennlp-models
 allennlp-optuna
@@ -443,6 +440,7 @@ iminuit
 implicit
 imreg_dft
 inchi
+inja
 inspiral-range
 ipopt
 ipython
@@ -450,6 +448,7 @@ isce3
 isl
 islpy
 iteration_utilities
+jama
 jbig
 jemalloc
 jenkspy
@@ -1234,6 +1233,7 @@ tinyxml2
 tippecanoe
 tmap
 tmux
+tnt
 tokenizers
 tomlplusplus
 torchsparse
