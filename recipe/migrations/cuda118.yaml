@@ -63,11 +63,11 @@ __migrator:
   commit_message: |
     Rebuild for CUDA 11.8 w/arch support
 
-cuda_compiler:                 # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - nvcc                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cuda_compiler:                 # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                       # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
-cuda_compiler_version:         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.8                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cuda_compiler_version:         # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11.8                       # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 c_compiler_version:            # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 11                         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
