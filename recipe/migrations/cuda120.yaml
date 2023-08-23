@@ -77,9 +77,6 @@ cxx_compiler_version:          # [linux and os.environ.get("CF_CUDA_ENABLED", "F
 fortran_compiler_version:      # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 12                         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
-cudnn:                         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 8                          # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-
 cdt_name:                      # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - cos7                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
