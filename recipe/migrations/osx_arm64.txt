@@ -1,4 +1,3 @@
-nn
 abinit
 ablog
 adcc
@@ -646,6 +645,7 @@ ninja
 nitime
 nlopt
 nmslib
+nn
 nnvm
 nodejs
 noise
