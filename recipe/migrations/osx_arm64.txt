@@ -1,3 +1,7 @@
+inja
+tnt
+jama
+ale
 abinit
 ablog
 adcc
