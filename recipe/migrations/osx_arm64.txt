@@ -391,6 +391,7 @@ gstools
 gsw
 gtest
 gtk3
+gtk4
 gtkmm
 guardian
 gunicorn
