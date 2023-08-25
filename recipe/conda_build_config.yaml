@@ -632,7 +632,7 @@ slepc:
 slepc4py:
   - '3.18'
 svt_av1:
-  - 1.6.0
+  - 1.7.0
 p11_kit:
   - '0.24'
 pcre:
