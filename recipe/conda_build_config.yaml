@@ -238,7 +238,7 @@ attr:
 aws_c_auth:
   - 0.7.3
 aws_c_cal:
-  - 0.6.1
+  - 0.6.2
 aws_c_common:
   - 0.9.0
 aws_c_compression:
