@@ -248,7 +248,7 @@ aws_c_compression:
 aws_c_event_stream:
   - 0.3.2
 aws_c_http:
-  - 0.7.11
+  - 0.7.12
 # the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
   - 0.13.32
