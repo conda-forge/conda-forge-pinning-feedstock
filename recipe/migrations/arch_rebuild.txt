@@ -628,6 +628,7 @@ r-proxy
 r-ps
 r-pscl
 r-qlcmatrix
+r-qs
 r-qtl
 r-quadprog
 r-quantreg
@@ -678,6 +679,7 @@ r-slam
 r-slider
 r-sm
 r-sodium
+r-softimpute
 r-som
 r-sp
 r-spam
@@ -695,6 +697,7 @@ r-tiff
 r-timsac
 r-tkrplot
 r-tm
+r-tmvtnorm
 r-tokenizers
 r-tseries
 r-tweedie
