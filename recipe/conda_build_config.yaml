@@ -350,7 +350,7 @@ gstreamer:
 gst_plugins_base:
   - '1.22'
 gdal:
-  - '3.6'
+  - '3.7'
 geos:
   - 3.12.0
 geotiff:
@@ -460,7 +460,7 @@ libflatsurf:
 libflint:
   - '2.9'
 libgdal:
-  - '3.6'
+  - '3.7'
 libgit2:
   - '1.6'
 # Keep in sync with google_cloud_cpp
