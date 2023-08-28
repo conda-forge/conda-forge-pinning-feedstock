@@ -1024,6 +1024,7 @@ r-quadprog
 r-quantreg
 r-ragg
 r-raster
+r-rbibutils
 r-rcppcnpy
 r-rcppnumerical
 r-rcpproll
