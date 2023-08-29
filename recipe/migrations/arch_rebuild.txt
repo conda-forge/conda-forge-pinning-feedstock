@@ -538,6 +538,7 @@ r-dplr
 r-dqrng
 r-drc
 r-essentials
+r-extrafont
 r-factominer
 r-fastcluster
 r-fastica
@@ -567,6 +568,7 @@ r-grf
 r-gtools
 r-gwasexacthw
 r-haven
+r-hh
 r-hmisc
 r-idpmisc
 r-igraph
