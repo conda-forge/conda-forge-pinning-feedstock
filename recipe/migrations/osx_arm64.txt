@@ -475,6 +475,7 @@ kokkos-kernels
 kombu
 kubernetes
 kubernetes-helm
+kubo
 kwant
 kwn-deform
 labelimg
