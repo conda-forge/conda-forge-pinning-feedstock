@@ -722,6 +722,7 @@ peewee
 pennylane
 pennylane-lightning-kokkos
 perl
+perl-app-cpanminus
 perl-unicode-linebreak
 perspective
 petsc
