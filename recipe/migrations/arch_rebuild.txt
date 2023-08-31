@@ -626,13 +626,13 @@ r-norm
 r-odbc
 r-officer
 r-openxlsx
-r-plsgenomics
 r-pander
 r-pbivnorm
 r-pbmcapply
 r-pdist
 r-phylobase
 r-pillar
+r-plsgenomics
 r-poissonbinomial
 r-princurve
 r-profvis
