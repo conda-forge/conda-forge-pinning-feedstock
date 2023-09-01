@@ -460,6 +460,7 @@ pypdf
 pypy2.7
 pypy3.6
 pyrfr
+pyright
 pyrosm
 pyscal
 pyscf
