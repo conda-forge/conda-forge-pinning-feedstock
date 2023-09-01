@@ -58,7 +58,7 @@ __migrator:
       - quay.io/condaforge/linux-anvil-cuda:11.8          # [ppc64le and os.environ.get("BUILD_PLATFORM") == "linux-64"]
       - quay.io/condaforge/linux-anvil-cuda:11.8          # [aarch64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
 
-      # non-CUDA arch: cross-compilation (build != target)
+      # Native CentOS 7 image
       - quay.io/condaforge/linux-anvil-cos7-x86_64        # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
     cuda_compiler_version:
       - None
