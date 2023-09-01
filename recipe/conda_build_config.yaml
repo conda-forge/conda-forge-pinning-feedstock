@@ -411,7 +411,7 @@ libjpeg_turbo:
 libev:
   - 4.33
 json_c:
-  - '0.16'
+  - '0.17'
 jsoncpp:
   - 1.9.5
 kealib:
@@ -538,7 +538,7 @@ libwebp:
 libwebp_base:
   - 1
 libxml2:
-  - 2.10
+  - '2.11'
 libxsmm:
   - 1
 libuuid:
