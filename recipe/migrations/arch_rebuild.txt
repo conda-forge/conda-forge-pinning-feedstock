@@ -509,6 +509,7 @@ r-arules
 r-ashr
 r-backbone
 r-base
+r-batchtools
 r-bbmisc
 r-bbmle
 r-bench
@@ -517,6 +518,7 @@ r-bigrquery
 r-bindrcpp
 r-bitops
 r-blockmodeling
+r-cairo
 r-car
 r-catboost
 r-catools
@@ -524,6 +526,7 @@ r-ccapp
 r-changepoint
 r-checkmate
 r-chemometrics
+r-ckmeans.1d.dp
 r-clue
 r-coin
 r-commonmark
@@ -535,6 +538,7 @@ r-dbscan
 r-ddalpha
 r-ddrtree
 r-delaporte
+r-depmixs4
 r-dicedesign
 r-dimred
 r-dixontest
@@ -551,8 +555,11 @@ r-fbasics
 r-fdrtool
 r-feature
 r-fftwtools
+r-fields
 r-filelock
+r-fitdistrplus
 r-flexclust
+r-flock
 r-forecast
 r-fpc
 r-fracdiff
@@ -584,6 +591,7 @@ r-jsonify
 r-jsonvalidate
 r-kableextra
 r-kernlab
+r-kknn
 r-kohonen
 r-lazyeval
 r-lhs
@@ -627,13 +635,17 @@ r-odbc
 r-officer
 r-openxlsx
 r-plsgenomics
+r-plsvarsel
+r-pamr
 r-pander
+r-parmigene
 r-pbivnorm
 r-pbmcapply
 r-pdist
 r-phylobase
 r-pillar
 r-poissonbinomial
+r-praznik
 r-princurve
 r-profvis
 r-proxy
@@ -665,6 +677,7 @@ r-restfulr
 r-reticulate
 r-rfast
 r-rgl
+r-riags
 r-rjava
 r-rjson
 r-rjsonio
@@ -677,8 +690,10 @@ r-robust
 r-robustbase
 r-rocr
 r-rodbc
+r-rootslove
 r-roxygen2
 r-rrcov
+r-rsnns
 r-rsqlite
 r-rsvg
 r-rtsne
@@ -702,6 +717,7 @@ r-splines2
 r-sqldf
 r-statnet.common
 r-survival
+r-survminer
 r-svd
 r-tfmpvalue
 r-this.path
@@ -713,7 +729,9 @@ r-tkrplot
 r-tm
 r-tmvtnorm
 r-tokenizers
+r-truncdist
 r-tseries
+r-tsp
 r-tweedie
 r-tweenr
 r-tzdb
