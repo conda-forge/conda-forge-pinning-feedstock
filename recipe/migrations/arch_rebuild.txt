@@ -528,6 +528,7 @@ r-checkmate
 r-chemometrics
 r-ckmeans.1d.dp
 r-clue
+r-clusterr
 r-coin
 r-commonmark
 r-compositions
@@ -545,6 +546,7 @@ r-dixontest
 r-dplr
 r-dqrng
 r-drc
+r-ecp
 r-essentials
 r-extrafont
 r-factominer
@@ -581,6 +583,7 @@ r-gtools
 r-gwasexacthw
 r-haven
 r-hh
+r-hiddenmarkov
 r-hmisc
 r-idpmisc
 r-igraph
@@ -624,6 +627,7 @@ r-mnormt
 r-multicool
 r-mvoutlier
 r-mvtnorm
+r-nbpseq
 r-ncdf4
 r-network
 r-nleqslv
@@ -634,6 +638,8 @@ r-norm
 r-odbc
 r-officer
 r-openxlsx
+r-paralleldist
+r-phyclust
 r-plsgenomics
 r-plsvarsel
 r-pamr
@@ -678,6 +684,7 @@ r-reticulate
 r-rfast
 r-rgl
 r-riags
+r-rjags
 r-rjava
 r-rjson
 r-rjsonio
@@ -700,6 +707,7 @@ r-rtsne
 r-s2
 r-scales
 r-seqinr
+r-seurat
 r-sfheaders
 r-sgeostat
 r-shinywidgets
@@ -715,6 +723,7 @@ r-sparsem
 r-spdep
 r-splines2
 r-sqldf
+r-spp
 r-statnet.common
 r-survival
 r-survminer
