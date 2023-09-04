@@ -154,6 +154,7 @@ fftw
 file
 filprofiler
 fish
+fisx
 flask
 flit
 fonttools
@@ -449,6 +450,7 @@ pykdtree
 pylibtiff
 pylint
 pymatgen
+pymca
 pynacl
 pynisher
 pyogrio
@@ -458,6 +460,7 @@ pypdf
 pypy2.7
 pypy3.6
 pyrfr
+pyright
 pyrosm
 pyscal
 pyscf
@@ -639,17 +642,17 @@ r-odbc
 r-officer
 r-openxlsx
 r-paralleldist
-r-phyclust
-r-plsgenomics
-r-plsvarsel
 r-pamr
 r-pander
 r-parmigene
 r-pbivnorm
 r-pbmcapply
 r-pdist
+r-phyclust
 r-phylobase
 r-pillar
+r-plsgenomics
+r-plsvarsel
 r-poissonbinomial
 r-praznik
 r-princurve
@@ -898,6 +901,7 @@ xorg-libxinerama
 xorg-libxxf86vm
 xorg-xf86vidmodeproto
 xorg-xineramaproto
+xrayutilities
 xsimd
 xtensor-blas
 xtensor-fftw
