@@ -641,9 +641,9 @@ r-norm
 r-odbc
 r-officer
 r-openxlsx
-r-paralleldist
 r-pamr
 r-pander
+r-paralleldist
 r-parmigene
 r-pbivnorm
 r-pbmcapply
@@ -725,8 +725,8 @@ r-spam
 r-sparsem
 r-spdep
 r-splines2
-r-sqldf
 r-spp
+r-sqldf
 r-statnet.common
 r-survival
 r-survminer
