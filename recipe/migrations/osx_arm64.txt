@@ -1297,6 +1297,7 @@ wordcloud
 wrapt
 wxpython
 x265
+xalan-c
 xattr
 xcfun
 xdmfwrite_highfive
