@@ -439,7 +439,7 @@ libavif:
 libblitz:
   - 1.0.2
 libcint:
-  - '5.2'
+  - '5.4'
 libcurl:
   - 8
 libcrc32c:
