@@ -753,6 +753,7 @@ polars
 polyagamma
 polycap
 polyscope
+pomegranate
 porespy
 pot
 pre-commit
@@ -1128,6 +1129,7 @@ scanpy
 sccache
 scenepic
 schwimmbad
+scikit-allel
 scikit-digital-health
 scikit-fmm
 scikit-geometry
