@@ -7,7 +7,7 @@ __migrator:
   paused: false
 
 libjpeg_turbo:
-  - 2.1.5
+  - 3
 # This migration is matched with a minimigrator that will
 # replace jpeg with libjpegturbo
 jpeg:
