@@ -525,7 +525,7 @@ libsvm:
 libsqlite:
   - 3
 libthrift:
-  - 0.19.0
+  - 0.18.1
 libtiff:
   - '4.5'
 libunwind:
