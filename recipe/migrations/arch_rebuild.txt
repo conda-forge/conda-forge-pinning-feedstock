@@ -227,6 +227,7 @@ ipykernel
 ipython
 islpy
 jaeger
+jags
 jaxlib
 jaydebeapi
 jbig
@@ -697,7 +698,7 @@ r-robust
 r-robustbase
 r-rocr
 r-rodbc
-r-rootslove
+r-rootsolve
 r-roxygen2
 r-rrcov
 r-rsnns
