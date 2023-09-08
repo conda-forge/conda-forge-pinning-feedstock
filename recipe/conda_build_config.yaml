@@ -263,7 +263,7 @@ aws_c_sdkutils:
 aws_checksums:
   - 0.1.17
 aws_crt_cpp:
-  - 0.23.0
+  - 0.23.1
 aws_sdk_cpp:
   - 1.10.57
 boost:
