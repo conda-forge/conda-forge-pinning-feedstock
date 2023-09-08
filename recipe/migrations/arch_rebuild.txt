@@ -204,6 +204,7 @@ gunicorn
 gymnasium
 gz-launch
 h3-py
+harp
 hdbscan
 healpix_cxx
 heaptrack
