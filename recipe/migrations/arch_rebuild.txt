@@ -674,6 +674,7 @@ r-rconv
 r-rcppcnpy
 r-rcppeigen
 r-rcpphnsw
+r-rcppml
 r-rcppnumerical
 r-rcpproll
 r-rcppspdlog
@@ -681,6 +682,7 @@ r-rcurl
 r-rdpack
 r-readr
 r-recommended
+r-remacor
 r-reprex
 r-reshape
 r-reshape2
