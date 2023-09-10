@@ -654,6 +654,10 @@ proj:
   - 9.2.0
 pulseaudio:
   - '16.1'
+pulseaudio_client:
+  - '16.1'
+pulseaudio_daemon:
+  - '16.1'
 pybind11_abi:
   - 4
 python:
