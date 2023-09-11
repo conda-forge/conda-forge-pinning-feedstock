@@ -924,3 +924,4 @@ zeromq
 zip
 zopfli
 zstd
+phantomjs
