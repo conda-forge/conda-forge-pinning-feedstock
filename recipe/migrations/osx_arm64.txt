@@ -389,10 +389,6 @@ gstlal-calibration
 gstlal-inspiral
 gstools
 gsw
-r-gsw
-r-mapdata
-r-oce
-r-obistools
 gtest
 gtk3
 gtk4
@@ -988,6 +984,7 @@ r-ggpubr
 r-glassofast
 r-gmm
 r-gmp
+r-gsw
 r-gtools
 r-gunifrac
 r-hexbin
@@ -1010,6 +1007,7 @@ r-lightgbm
 r-lme4
 r-lpsolve
 r-magick
+r-mapdata
 r-marginaleffects
 r-mclust
 r-microbenchmark
@@ -1019,6 +1017,8 @@ r-msm
 r-mvmorph
 r-mvnfast
 r-ncdf4
+r-obistools
+r-oce
 r-parsedate
 r-pbapply
 r-performanceanalytics

@@ -584,6 +584,7 @@ r-glmmtmb
 r-gnm
 r-grbase
 r-grf
+r-gsw
 r-gtools
 r-gwasexacthw
 r-haven
@@ -617,6 +618,7 @@ r-lokern
 r-lpsolve
 r-lpsolveapi
 r-maldiquant
+r-mapdata
 r-maptools
 r-marginaleffects
 r-mass
@@ -640,6 +642,8 @@ r-nloptr
 r-nmf
 r-nnls
 r-norm
+r-obistools
+r-oce
 r-odbc
 r-officer
 r-openxlsx
@@ -920,7 +924,3 @@ zeromq
 zip
 zopfli
 zstd
-r-gsw
-r-mapdata
-r-oce
-r-obistools
