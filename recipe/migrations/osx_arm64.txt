@@ -729,6 +729,7 @@ petsc
 petsc4py
 pexpect
 pexsi
+phantomjs
 phono3py
 phonopy
 photochem
@@ -984,6 +985,7 @@ r-ggpubr
 r-glassofast
 r-gmm
 r-gmp
+r-gsw
 r-gtools
 r-gunifrac
 r-hexbin
@@ -1006,6 +1008,7 @@ r-lightgbm
 r-lme4
 r-lpsolve
 r-magick
+r-mapdata
 r-marginaleffects
 r-mclust
 r-microbenchmark
@@ -1015,6 +1018,8 @@ r-msm
 r-mvmorph
 r-mvnfast
 r-ncdf4
+r-obistools
+r-oce
 r-parsedate
 r-pbapply
 r-performanceanalytics
