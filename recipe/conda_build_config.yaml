@@ -435,7 +435,7 @@ libarrow:
   - 11.0.0
   - 10.0.1
 libavif:
-  - 0.11.1
+  - '1.0.1'
 libblitz:
   - 1.0.2
 libcint:
