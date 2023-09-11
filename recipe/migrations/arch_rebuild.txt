@@ -378,6 +378,7 @@ openai
 openblas
 opencv
 openmm
+openmp
 openmpi
 openslide
 openslide-python
