@@ -729,6 +729,7 @@ petsc
 petsc4py
 pexpect
 pexsi
+phantomjs
 phono3py
 phonopy
 photochem
@@ -1357,4 +1358,3 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
-phantomjs

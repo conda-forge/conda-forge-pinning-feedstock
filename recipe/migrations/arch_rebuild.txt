@@ -403,6 +403,7 @@ pennylane
 pennylane-lightning-gpu
 pennylane-lightning-kokkos
 pexsi
+phantomjs
 phonopy
 photutils
 php
@@ -924,4 +925,3 @@ zeromq
 zip
 zopfli
 zstd
-phantomjs
