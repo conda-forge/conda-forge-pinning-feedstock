@@ -1,8 +1,0 @@
-migrator_ts: 1694052176
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-libavif:
-  - '1.0.1'
