@@ -920,3 +920,7 @@ zeromq
 zip
 zopfli
 zstd
+r-gsw
+r-mapdata
+r-oce
+r-obistools

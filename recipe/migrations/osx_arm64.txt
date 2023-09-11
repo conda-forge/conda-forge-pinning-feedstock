@@ -389,6 +389,10 @@ gstlal-calibration
 gstlal-inspiral
 gstools
 gsw
+r-gsw
+r-mapdata
+r-oce
+r-obistools
 gtest
 gtk3
 gtk4
