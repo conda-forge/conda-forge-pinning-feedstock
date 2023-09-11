@@ -418,7 +418,7 @@ jsoncpp:
 kealib:
   - '1.5'
 krb5:
-  - '1.19'
+  - '1.20'
 libabseil:
   - '20230125'
 libabseil_static:
