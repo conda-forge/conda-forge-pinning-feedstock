@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+libtiff:
+- '4.6'
+migrator_ts: 1694631046.2977061
