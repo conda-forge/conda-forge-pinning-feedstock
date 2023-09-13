@@ -923,5 +923,6 @@ zaber-motion
 zchunk
 zeromq
 zip
+zipfile-deflate64
 zopfli
 zstd
