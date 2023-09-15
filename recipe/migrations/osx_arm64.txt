@@ -578,6 +578,7 @@ mdanalysistests
 mdtraj
 megaradrp
 meilisearch
+menuinst
 mercurial
 mesas
 meshpy
