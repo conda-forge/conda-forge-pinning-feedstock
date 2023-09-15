@@ -321,6 +321,7 @@ mathjax
 matplotlib
 meilisearch
 memray
+menuinst
 metaphone
 micromamba
 mlip
