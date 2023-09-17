@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+libdeflate:
+- '1.19'
+migrator_ts: 1694930414.887977
