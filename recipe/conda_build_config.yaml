@@ -520,7 +520,7 @@ libssh:
 libssh2:
   - 1
 libsvm:
-  - '325'
+  - '332'
 # keep libsqlite in sync with sqlite
 libsqlite:
   - 3
