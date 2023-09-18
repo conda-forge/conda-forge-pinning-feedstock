@@ -378,7 +378,6 @@ openai
 openblas
 opencv
 openmm
-openmp
 openmpi
 openslide
 openslide-python
@@ -894,6 +893,7 @@ xleaflet
 xlwings
 xmlsec
 xonsh
+xopen
 xorg-damageproto
 xorg-glproto
 xorg-libxcomposite
@@ -903,6 +903,7 @@ xorg-libxxf86vm
 xorg-xf86vidmodeproto
 xorg-xineramaproto
 xsimd
+sxv
 xtensor-blas
 xtensor-fftw
 xtensor-io
