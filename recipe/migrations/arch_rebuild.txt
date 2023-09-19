@@ -903,7 +903,7 @@ xorg-libxxf86vm
 xorg-xf86vidmodeproto
 xorg-xineramaproto
 xsimd
-sxv
+xsv
 xtensor-blas
 xtensor-fftw
 xtensor-io
