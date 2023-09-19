@@ -504,7 +504,7 @@ libpq:
 libraw:
   - '0.21'
 librdkafka:
-  - '1.9'
+  - '2.2'
 librsvg:
   - 2
 libsecret:
