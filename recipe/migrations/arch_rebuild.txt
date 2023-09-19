@@ -400,6 +400,9 @@ pathos
 pennylane
 pennylane-lightning-gpu
 pennylane-lightning-kokkos
+perl-compress-raw-zlib
+perl-data-dumper
+perl-storbale
 pexsi
 phonopy
 photutils
