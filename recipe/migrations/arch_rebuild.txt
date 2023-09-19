@@ -903,6 +903,7 @@ xleaflet
 xlwings
 xmlsec
 xonsh
+xopen
 xorg-damageproto
 xorg-glproto
 xorg-libxcomposite
@@ -913,6 +914,7 @@ xorg-xf86vidmodeproto
 xorg-xineramaproto
 xrayutilities
 xsimd
+xsv
 xtensor-blas
 xtensor-fftw
 xtensor-io
