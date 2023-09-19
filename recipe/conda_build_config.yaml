@@ -752,7 +752,7 @@ tiledb:
 ucx:
   - 1.14.0
 uhd:
-  - 4.4.0
+  - 4.5.0
 urdfdom:
   - 3.1
 vc:                    # [win]
