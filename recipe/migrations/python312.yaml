@@ -28,6 +28,8 @@ __migrator:
       - cross-python
       - python_abi
     exclude_pinned_pkgs: false
+    additional_zip_keys:
+      - channel_sources
 
 python:
   - 3.12.* *_cpython
