@@ -701,6 +701,7 @@ orc
 orderedset
 orocos-kdl
 ortools-python
+osmium-tool
 oso
 ovito
 owlready2
