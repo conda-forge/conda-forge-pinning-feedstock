@@ -244,6 +244,7 @@ jupyterhub
 jxrlib
 kaolin
 kartothek
+kdepy
 keyring
 kim-api
 krb5

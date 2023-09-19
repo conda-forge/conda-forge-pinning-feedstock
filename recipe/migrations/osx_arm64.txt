@@ -465,6 +465,7 @@ jupyter_contrib_nbextensions
 jupyter_server
 kaggle
 kartothek
+kdepy
 kepderiv
 keras
 keras-preprocessing
