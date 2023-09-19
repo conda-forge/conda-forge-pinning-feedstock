@@ -391,6 +391,7 @@ orange3
 oras
 orc
 orocos-kdl
+osdf-client
 oso
 ovito
 pagmo
