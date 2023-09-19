@@ -701,6 +701,7 @@ orc
 orderedset
 orocos-kdl
 ortools-python
+osdf-client
 osmium-tool
 oso
 ovito
