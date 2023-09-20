@@ -324,6 +324,7 @@ geocat-comp
 geocat-f2py
 geohexviz
 geotiff
+geowombat
 gepetto-viewer-corba
 gevent
 gfal2-util
