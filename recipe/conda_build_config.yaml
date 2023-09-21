@@ -546,6 +546,8 @@ libuuid:
   - 2
 libzip:
   - 1
+lmdb:
+  - 0.9.29
 log4cxx:
   - 0.11.0
 lz4_c:
