@@ -566,6 +566,10 @@ mpich:
   - 4
 mpfr:
   - 4
+msgpack_c:
+  - 6
+msgpack_cxx:
+  - 6
 mumps_mpi:
   - 5.2.1
 mumps_seq:
