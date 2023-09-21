@@ -1359,6 +1359,7 @@ ytop
 z5py
 zaber-motion
 zarr
+zbar
 zchunk
 zeopp-lsmo
 zeroc-ice
