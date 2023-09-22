@@ -308,6 +308,7 @@ frozenlist
 fs-s3fs
 fsleyes
 functorch
+fzf
 galpy
 galsim
 gau2grid
