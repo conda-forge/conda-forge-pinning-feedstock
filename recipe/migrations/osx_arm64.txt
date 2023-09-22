@@ -651,6 +651,7 @@ ngmix
 nifty
 niftyreg
 ninja
+nipype
 nitime
 nlopt
 nmslib
