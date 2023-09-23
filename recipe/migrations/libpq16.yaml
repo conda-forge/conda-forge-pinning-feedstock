@@ -4,8 +4,8 @@ __migrator:
   migration_number: 1
 libpq:
 - '16'
-postgreql:
+postgresql:
 - '16'
 postgresql_plpython:
 - '16'
-migrator_ts: 1695479202.2789197
+migrator_ts: 1695492657.2789197
