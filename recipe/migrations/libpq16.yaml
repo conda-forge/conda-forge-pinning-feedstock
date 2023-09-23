@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+libpq:
+- '16'
+migrator_ts: 1695472358.2789197
