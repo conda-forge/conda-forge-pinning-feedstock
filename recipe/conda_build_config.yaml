@@ -402,13 +402,15 @@ isl:
 jasper:
   - 4
 jpeg:
-  - 9
+  - 10
 lcms:
   - 2
 lerc:
   - '4'
 libjpeg_turbo:
-  - 2
+  - 2.1.5
+# This migration is matched with a minimigrator that will
+# replace jpeg with libjpegturbo
 libev:
   - 4.33
 json_c:
