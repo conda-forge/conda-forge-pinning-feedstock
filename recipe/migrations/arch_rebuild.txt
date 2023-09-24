@@ -359,6 +359,7 @@ numcodecs
 numexpr
 numpy
 numpy-allocator
+nutpie
 nvcc
 nvcomp
 nvidia-apex
