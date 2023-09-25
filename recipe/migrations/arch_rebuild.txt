@@ -45,6 +45,7 @@ bullet
 cairomm
 calceph
 cantera
+capnproto
 cartographer
 cartopy
 cascade
@@ -811,6 +812,7 @@ scitokens
 scitokens-cpp
 sdl
 sdl_image
+sdsl-lite
 shap
 shellcheck
 singularity
