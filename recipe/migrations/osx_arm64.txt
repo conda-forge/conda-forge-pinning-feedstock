@@ -308,6 +308,7 @@ frozenlist
 fs-s3fs
 fsleyes
 functorch
+fzf
 galpy
 galsim
 gau2grid
@@ -324,6 +325,7 @@ geocat-comp
 geocat-f2py
 geohexviz
 geotiff
+geowombat
 gepetto-viewer-corba
 gevent
 gfal2-util
@@ -465,6 +467,7 @@ jupyter_contrib_nbextensions
 jupyter_server
 kaggle
 kartothek
+kdepy
 kepderiv
 keras
 keras-preprocessing
@@ -475,6 +478,7 @@ kokkos-kernels
 kombu
 kubernetes
 kubernetes-helm
+kubo
 kwant
 kwn-deform
 labelimg
@@ -577,6 +581,7 @@ mdanalysistests
 mdtraj
 megaradrp
 meilisearch
+menuinst
 mercurial
 mesas
 meshpy
@@ -646,6 +651,7 @@ ngmix
 nifty
 niftyreg
 ninja
+nipype
 nitime
 nlopt
 nmslib
@@ -699,6 +705,8 @@ orc
 orderedset
 orocos-kdl
 ortools-python
+osdf-client
+osmium-tool
 oso
 ovito
 owlready2
@@ -721,12 +729,14 @@ peewee
 pennylane
 pennylane-lightning-kokkos
 perl
+perl-app-cpanminus
 perl-unicode-linebreak
 perspective
 petsc
 petsc4py
 pexpect
 pexsi
+phantomjs
 phono3py
 phonopy
 photochem
@@ -751,6 +761,7 @@ polars
 polyagamma
 polycap
 polyscope
+pomegranate
 porespy
 pot
 pre-commit
@@ -981,6 +992,7 @@ r-ggpubr
 r-glassofast
 r-gmm
 r-gmp
+r-gsw
 r-gtools
 r-gunifrac
 r-hexbin
@@ -1003,6 +1015,7 @@ r-lightgbm
 r-lme4
 r-lpsolve
 r-magick
+r-mapdata
 r-marginaleffects
 r-mclust
 r-microbenchmark
@@ -1012,6 +1025,8 @@ r-msm
 r-mvmorph
 r-mvnfast
 r-ncdf4
+r-obistools
+r-oce
 r-parsedate
 r-pbapply
 r-performanceanalytics
@@ -1024,6 +1039,7 @@ r-quadprog
 r-quantreg
 r-ragg
 r-raster
+r-rbibutils
 r-rcppcnpy
 r-rcppnumerical
 r-rcpproll
@@ -1125,6 +1141,7 @@ scanpy
 sccache
 scenepic
 schwimmbad
+scikit-allel
 scikit-digital-health
 scikit-fmm
 scikit-geometry
@@ -1229,9 +1246,11 @@ tifffile
 tiffslide
 tiktoken
 tilt
+time
 tinyxml
 tinyxml2
 tippecanoe
+titiler
 tmap
 tmux
 tnt
@@ -1294,6 +1313,7 @@ wordcloud
 wrapt
 wxpython
 x265
+xalan-c
 xattr
 xcfun
 xdmfwrite_highfive
@@ -1342,6 +1362,7 @@ ytop
 z5py
 zaber-motion
 zarr
+zbar
 zchunk
 zeopp-lsmo
 zeroc-ice

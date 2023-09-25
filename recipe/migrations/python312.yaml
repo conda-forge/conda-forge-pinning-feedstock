@@ -1,4 +1,4 @@
-migrator_ts: 1666686085
+migrator_ts: 1695046563
 __migrator:
     migration_number: 1
     operation: key_add
@@ -10,7 +10,8 @@ __migrator:
             - 3.8.* *_cpython
             - 3.9.* *_cpython
             - 3.10.* *_cpython
-            - 3.11.* *_cpython  # new entry
+            - 3.11.* *_cpython
+            - 3.12.* *_cpython  # new entry
             - 3.6.* *_73_pypy
             - 3.7.* *_73_pypy
             - 3.8.* *_73_pypy
@@ -27,11 +28,15 @@ __migrator:
       - cross-python
       - python_abi
     exclude_pinned_pkgs: false
+    additional_zip_keys:
+      - channel_sources
 
 python:
-  - 3.11.* *_cpython
+  - 3.12.* *_cpython
+channel_sources:
+  - conda-forge/label/python_rc,conda-forge
 # additional entries to add for zip_keys
 numpy:
-  - 1.23
+  - 1.26
 python_impl:
   - cpython

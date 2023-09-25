@@ -155,6 +155,7 @@ fftw
 file
 filprofiler
 fish
+fisx
 flask
 flit
 fonttools
@@ -204,6 +205,7 @@ gunicorn
 gymnasium
 gz-launch
 h3-py
+harp
 hdbscan
 healpix_cxx
 heaptrack
@@ -243,6 +245,7 @@ jupyterhub
 jxrlib
 kaolin
 kartothek
+kdepy
 keyring
 kim-api
 krb5
@@ -320,6 +323,7 @@ mathjax
 matplotlib
 meilisearch
 memray
+menuinst
 metaphone
 micromamba
 mlip
@@ -356,6 +360,7 @@ numcodecs
 numexpr
 numpy
 numpy-allocator
+nutpie
 nvcc
 nvcomp
 nvidia-apex
@@ -389,6 +394,7 @@ orange3
 oras
 orc
 orocos-kdl
+osdf-client
 oso
 ovito
 pagmo
@@ -405,6 +411,7 @@ perl-compress-raw-zlib
 perl-data-dumper
 perl-storbale
 pexsi
+phantomjs
 phonopy
 photutils
 php
@@ -454,6 +461,7 @@ pykdtree
 pylibtiff
 pylint
 pymatgen
+pymca
 pynacl
 pynisher
 pyogrio
@@ -463,6 +471,7 @@ pypdf
 pypy2.7
 pypy3.6
 pyrfr
+pyright
 pyrosm
 pyscal
 pyscf
@@ -584,6 +593,7 @@ r-glmmtmb
 r-gnm
 r-grbase
 r-grf
+r-gsw
 r-gtools
 r-gwasexacthw
 r-haven
@@ -617,6 +627,7 @@ r-lokern
 r-lpsolve
 r-lpsolveapi
 r-maldiquant
+r-mapdata
 r-maptools
 r-marginaleffects
 r-mass
@@ -640,21 +651,23 @@ r-nloptr
 r-nmf
 r-nnls
 r-norm
+r-obistools
+r-oce
 r-odbc
 r-officer
 r-openxlsx
-r-paralleldist
-r-phyclust
-r-plsgenomics
-r-plsvarsel
 r-pamr
 r-pander
+r-paralleldist
 r-parmigene
 r-pbivnorm
 r-pbmcapply
 r-pdist
+r-phyclust
 r-phylobase
 r-pillar
+r-plsgenomics
+r-plsvarsel
 r-poissonbinomial
 r-praznik
 r-princurve
@@ -729,8 +742,8 @@ r-spam
 r-sparsem
 r-spdep
 r-splines2
-r-sqldf
 r-spp
+r-sqldf
 r-statnet.common
 r-survival
 r-survminer
@@ -907,6 +920,7 @@ xorg-libxinerama
 xorg-libxxf86vm
 xorg-xf86vidmodeproto
 xorg-xineramaproto
+xrayutilities
 xsimd
 xsv
 xtensor-blas
@@ -920,5 +934,6 @@ zaber-motion
 zchunk
 zeromq
 zip
+zipfile-deflate64
 zopfli
 zstd

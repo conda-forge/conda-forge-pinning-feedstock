@@ -1,10 +1,8 @@
-migrator_ts: 1684200449
+migrator_ts: 1692696547
 __migrator:
   kind: version
   migration_number: 1
   bump_number: 1
 
-msgpack_c:
-  - 6
-msgpack_cxx:
-  - 6
+pugixml:
+  - '1.13'
