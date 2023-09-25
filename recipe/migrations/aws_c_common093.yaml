@@ -1,0 +1,9 @@
+migrator_ts: 1695654392
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+  automerge: true
+
+aws_c_common:
+  - 0.9.3
