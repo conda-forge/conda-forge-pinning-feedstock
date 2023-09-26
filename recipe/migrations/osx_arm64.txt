@@ -1078,6 +1078,7 @@ r-tmvtnorm
 r-traminer
 r-tzdb
 r-udunits2
+r-umap
 r-v8
 r-vroom
 rabbitmq-server
