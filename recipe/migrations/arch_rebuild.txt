@@ -501,6 +501,7 @@ pythonocc-core
 pythran
 pytinyrenderer
 pytorch-cpu
+pyvcf
 pyvips
 pyvisa-py
 pyvkfft
