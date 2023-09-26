@@ -420,7 +420,7 @@ kealib:
 krb5:
   - '1.20'
 libabseil:
-  - '20230125'
+  - '20230802'
 libabseil_static:
   - '20220623.0'
 libaec:
@@ -468,7 +468,7 @@ libgit2:
 libgoogle_cloud:
   - '2.12'
 libgrpc:
-  - '1.56'
+  - '1.57'
 libhugetlbfs:
   - 2
 libhwy:
@@ -498,7 +498,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 4.23.3
+  - 4.23.4
 libpq:
   - 15
 libraw:
