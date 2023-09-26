@@ -131,6 +131,7 @@ deno-dom
 dgl
 diffutils
 digital_rf
+dipy
 dirac-grid
 distributed
 dm-tree
