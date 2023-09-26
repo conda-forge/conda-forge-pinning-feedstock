@@ -827,6 +827,7 @@ pygplates
 pygraphviz
 pygrib
 pyhdf
+pyhull
 pyimagej
 pykdtree
 pykep
