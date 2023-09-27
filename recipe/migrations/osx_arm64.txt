@@ -1080,6 +1080,7 @@ r-tzdb
 r-udunits2
 r-umap
 r-v8
+r-vcd
 r-vroom
 rabbitmq-server
 radian
