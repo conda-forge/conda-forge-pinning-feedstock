@@ -13,3 +13,8 @@ libboost_devel:
 # that will replace boost-cpp with libboost-devel
 boost_cpp:
   - 1.82
+# same for boost -> libboost-python-devel
+libboost_python_devel:
+  - 1.82
+boost:
+  - 1.82
