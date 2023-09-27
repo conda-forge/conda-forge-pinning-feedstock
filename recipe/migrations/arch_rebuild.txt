@@ -367,6 +367,7 @@ nvidia-apex
 nvidia-gds
 nvtx
 nvtx-c
+ocaml
 occt
 oclgrind
 octave
@@ -378,6 +379,7 @@ ompl
 onednn
 onnx
 onnxruntime
+opam
 opcua
 open62541
 openai
