@@ -426,7 +426,7 @@ libabseil_static:
 libaec:
   - '1'
 libarchive:
-  - '3.6'
+  - '3.7'
 # keep in sync with arrow_cpp (libarrow exists only from 10.x,
 # but make sure we have same length for zip as arrow_cpp)
 libarrow:
