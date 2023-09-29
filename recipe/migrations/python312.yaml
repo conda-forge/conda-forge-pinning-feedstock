@@ -19,7 +19,7 @@ __migrator:
     paused: false
     longterm: True
     pr_limit: 60
-    max_solver_attempts: 3  # this will make the bot retry "not solvable" stuff 12 times
+    max_solver_attempts: 5  # this will make the bot retry "not solvable" stuff 5 times
     exclude:
       # this shouldn't attempt to modify the python feedstocks
       - python
