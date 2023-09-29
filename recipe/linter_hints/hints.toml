@@ -17,5 +17,6 @@ pytorch-gpu = """\
 
 # packages that have been renamed
 abseil-cpp = "The `abseil-cpp` output has been superseded by `libabseil`."
+arrow-cpp = "The `arrow-cpp` output has been superseded by `libarrow`."
 grpc-cpp = "The `grpc-cpp` output has been superseded by `libgrpc`."
 build = "The pypa `build` package has been renamed to `python-build`."
