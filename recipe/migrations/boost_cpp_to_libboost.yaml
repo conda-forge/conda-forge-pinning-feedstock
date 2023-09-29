@@ -4,8 +4,8 @@ __migrator:
   migration_number: 1
   bump_number: 1
   commit_message: "Rebuild for libboost 1.82"
-  # limit the number of prs to do the initial test
-  pr_limit: 1
+  # limit the number of prs for ramp-up
+  pr_limit: 10
 libboost_devel:
   - 1.82
 # This migration is matched with a piggy-back migrator
