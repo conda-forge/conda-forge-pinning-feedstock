@@ -1254,7 +1254,7 @@ time
 tinyxml
 tinyxml2
 tippecanoe
-titiler
+titiler-core
 tmap
 tmux
 tnt
