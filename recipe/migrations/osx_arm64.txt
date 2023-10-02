@@ -1046,6 +1046,7 @@ r-rcppnumerical
 r-rcpproll
 r-rcppspdlog
 r-reprex
+r-reshape
 r-reticulate
 r-rfast
 r-rhpcblasctl
