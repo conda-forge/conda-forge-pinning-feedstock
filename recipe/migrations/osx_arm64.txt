@@ -1271,6 +1271,7 @@ triqs
 triqs_cthyb
 triqs_dft_tools
 triqs_tprf
+tsl_robin_map
 tslearn
 turodbc
 twine
