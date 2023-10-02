@@ -6,6 +6,7 @@ __migrator:
   commit_message: "Rebuild for libboost 1.82"
   # limit the number of prs for ramp-up
   pr_limit: 10
+  max_solver_attempts: 3  # this will make the bot retry "not solvable" stuff 3 times
 libboost_devel:
   - 1.82
 # This migration is matched with a piggy-back migrator
