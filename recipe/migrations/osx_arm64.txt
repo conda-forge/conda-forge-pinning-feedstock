@@ -443,6 +443,7 @@ iminuit
 implicit
 imreg_dft
 inchi
+infrared
 inja
 inspiral-range
 ipopt
