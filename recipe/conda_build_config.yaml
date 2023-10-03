@@ -563,7 +563,7 @@ mkl:
 mkl_devel:
   - 2022
 mpg123:
-  - '1.31'
+  - '1.32'
 mpich:
   - 4
 mpfr:
