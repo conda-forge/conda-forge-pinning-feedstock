@@ -221,7 +221,7 @@ alsa_lib:
 antic:
   - 0.2
 aom:
-  - 3.5
+  - '3.6'
 arb:
   - '2.23'
 arpack:
