@@ -236,6 +236,7 @@ docker-compose
 docopt.cpp
 docutils
 doit
+dos2unix
 doxygen
 dscribe
 dsps
