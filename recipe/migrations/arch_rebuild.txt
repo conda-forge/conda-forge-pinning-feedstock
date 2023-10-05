@@ -23,6 +23,7 @@ asyncpg
 attr
 austin
 awkward1
+awscli2
 awscrt
 backports.zoneinfo
 backward-cpp
