@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-ucx:
-- '1.15.0'
-migrator_ts: 1696558865
