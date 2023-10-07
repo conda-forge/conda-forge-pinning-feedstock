@@ -805,6 +805,7 @@ ruff
 sage
 scalene
 scenepic
+scikit-allel
 scikit-build
 scikit-gstat
 scikit-image
