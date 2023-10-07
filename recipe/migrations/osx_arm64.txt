@@ -669,6 +669,7 @@ nsync
 nuflux
 numba
 numbalsoda
+numcosmo
 numexpr
 numina
 numpy
