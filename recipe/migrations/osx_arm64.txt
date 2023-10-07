@@ -1282,6 +1282,7 @@ tslearn
 turodbc
 twine
 typos
+tzfpy
 ujson
 ukkonen
 umap-learn
