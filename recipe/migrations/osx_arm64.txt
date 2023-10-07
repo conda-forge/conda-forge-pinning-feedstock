@@ -370,6 +370,7 @@ gooseepm-split
 gooseeye
 goosefem
 gooseslurm
+gotm
 gpaw
 gperf
 gpgme
