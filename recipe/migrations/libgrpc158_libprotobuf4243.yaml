@@ -2,6 +2,9 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
+  exclude:
+    # this shouldn't attempt to modify the python feedstocks
+    - protobuf
 libgrpc:
 - "1.58"
 libprotobuf:
