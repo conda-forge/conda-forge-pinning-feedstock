@@ -204,6 +204,7 @@ gstools
 gunicorn
 gymnasium
 gz-launch
+gzip
 h3-py
 harp
 hdbscan
