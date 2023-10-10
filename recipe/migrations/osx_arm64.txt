@@ -793,6 +793,7 @@ py-cpuinfo
 py-openimageio
 py-plumed
 py-spy
+py_rattler
 pyagrum
 pyahocorasick
 pyarrow
