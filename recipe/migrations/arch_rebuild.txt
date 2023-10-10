@@ -80,8 +80,10 @@ cpptango
 cppunit
 cryptopp
 cub
+cuda
 cuda-cccl
 cuda-cccl-impl
+cuda-command-line-tools
 cuda-compat
 cuda-compiler
 cuda-cudart
@@ -107,6 +109,9 @@ cuda-profiler-api
 cuda-python
 cuda-runtime
 cuda-sanitizer-api
+cuda-toolkit
+cuda-tools
+cuda-visual-tools
 cudatoolkit
 cudnn
 cupy
