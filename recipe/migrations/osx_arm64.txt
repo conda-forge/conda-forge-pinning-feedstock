@@ -1,5 +1,6 @@
 abinit
 ablog
+adaptive
 adcc
 adrt
 aesara
