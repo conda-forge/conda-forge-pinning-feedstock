@@ -443,6 +443,7 @@ ptxcompiler
 pulp
 py-plumed
 py-spy
+py_rattler
 pyarrow
 pybamm
 pybcj
