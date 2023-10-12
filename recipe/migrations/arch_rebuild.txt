@@ -12,8 +12,8 @@ anyjson
 apptainer
 apr
 argon2_cffi
-arm_pyart
 arm-variant
+arm_pyart
 arpack
 arrow-cpp
 assimp
@@ -247,8 +247,8 @@ jpype1
 json_schema_validator
 jsoncpp
 julia
-jupyter_contrib_nbextensions
 jupyter-dash
+jupyter_contrib_nbextensions
 jupyterhub
 jxrlib
 kaolin
@@ -441,9 +441,9 @@ protobuf
 psycopg2
 ptxcompiler
 pulp
-py_rattler
 py-plumed
 py-spy
+py_rattler
 pyarrow
 pybamm
 pybcj
