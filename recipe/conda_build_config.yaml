@@ -233,7 +233,7 @@ arrow_cpp:
   - 11.0.0
   - 10.0.1
 assimp:
-  - 5.2.5
+  - 5.3.1
 attr:
   - 2.5
 aws_c_auth:
