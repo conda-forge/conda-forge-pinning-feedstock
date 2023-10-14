@@ -411,8 +411,15 @@ pathos
 pennylane
 pennylane-lightning-gpu
 pennylane-lightning-kokkos
+perl-class-methodmaker
+perl-clone
 perl-compress-raw-zlib
 perl-data-dumper
+perl-dbi
+perl-io-tty
+perl-lwp-simple
+perl-moose
+perl-socket
 perl-storbale
 pexsi
 phantomjs
@@ -926,6 +933,7 @@ xorg-libxinerama
 xorg-libxxf86vm
 xorg-xf86vidmodeproto
 xorg-xineramaproto
+xorg-libxp
 xrayutilities
 xsimd
 xsv
