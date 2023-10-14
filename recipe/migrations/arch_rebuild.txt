@@ -930,10 +930,10 @@ xorg-glproto
 xorg-libxcomposite
 xorg-libxdamage
 xorg-libxinerama
+xorg-libxp
 xorg-libxxf86vm
 xorg-xf86vidmodeproto
 xorg-xineramaproto
-xorg-libxp
 xrayutilities
 xsimd
 xsv
