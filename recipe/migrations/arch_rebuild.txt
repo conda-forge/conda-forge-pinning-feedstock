@@ -314,6 +314,7 @@ lld
 llist
 log4cxx
 logzero
+lp_solve
 lua
 mahotas
 mamba
@@ -410,6 +411,7 @@ pathos
 pennylane
 pennylane-lightning-gpu
 pennylane-lightning-kokkos
+perl-bio-samtools
 perl-class-methodmaker
 perl-clone
 perl-compress-raw-zlib
