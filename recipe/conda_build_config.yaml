@@ -702,7 +702,7 @@ re2:
 readline:
   - "8"
 rocksdb:
-  - '7.9'
+  - '8.0'
 root_base:
   - 6.28.4
 ruby:
