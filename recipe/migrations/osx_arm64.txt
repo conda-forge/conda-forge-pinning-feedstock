@@ -1259,6 +1259,7 @@ tiffslide
 tiktoken
 tilt
 time
+time-machine
 tinyxml
 tinyxml2
 tippecanoe
