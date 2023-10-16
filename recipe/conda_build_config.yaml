@@ -225,7 +225,7 @@ aom:
 arb:
   - '2.23'
 arpack:
-  - 3.7
+  - '3.8'
 # keep in sync with libarrow
 arrow_cpp:
   - 13
