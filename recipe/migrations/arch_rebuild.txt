@@ -12,6 +12,7 @@ anyjson
 apptainer
 apr
 argon2_cffi
+aria2
 arm-variant
 arm_pyart
 arpack
