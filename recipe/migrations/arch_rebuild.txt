@@ -12,6 +12,7 @@ anyjson
 apptainer
 apr
 argon2_cffi
+aria2
 arm-variant
 arm_pyart
 arpack
@@ -32,6 +33,7 @@ bayeswave
 bazel
 bcrypt
 bilby.cython
+bio-format
 bipedal-locomotion-framework
 black
 blis
@@ -904,6 +906,7 @@ vampyr
 veloxchem
 vigra
 vim
+vina
 viztracer
 voro
 vowpalwabbit
