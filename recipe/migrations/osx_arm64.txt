@@ -555,6 +555,7 @@ llist
 lndoctor
 log4cxx
 loky
+lp_solve
 lru-dict
 lsst-documenteer
 luajit
