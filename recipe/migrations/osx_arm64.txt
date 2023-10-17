@@ -881,6 +881,7 @@ pyrfr
 pyright
 pyrosm
 pyscal
+pysdl2
 pyshtools
 pyside2
 pysjef
