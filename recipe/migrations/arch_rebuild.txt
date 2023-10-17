@@ -895,6 +895,7 @@ vampyr
 veloxchem
 vigra
 vim
+vina
 viztracer
 voro
 vowpalwabbit
