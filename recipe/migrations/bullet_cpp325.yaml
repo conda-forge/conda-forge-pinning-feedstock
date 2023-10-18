@@ -1,8 +1,0 @@
-migrator_ts: 1697202337
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-bullet_cpp:
-  - '3.25'
