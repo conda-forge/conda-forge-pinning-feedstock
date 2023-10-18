@@ -270,6 +270,8 @@ boost:
   - 1.78.0
 boost_cpp:
   - 1.78.0
+bullet_cpp:
+  - 3.25
 bzip2:
   - 1
 c_ares:
