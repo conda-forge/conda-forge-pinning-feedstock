@@ -433,6 +433,7 @@ hugin
 hydride
 hyperspy
 hyperspyui
+py-triangle
 ibm_db
 ibm_db_sa
 idna
