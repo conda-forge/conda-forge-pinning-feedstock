@@ -740,6 +740,7 @@ perl
 perl-app-cpanminus
 perl-unicode-linebreak
 perspective
+pestpp
 petsc
 petsc4py
 pexpect
