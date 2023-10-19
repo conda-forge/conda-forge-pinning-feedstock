@@ -795,6 +795,7 @@ py-cpuinfo
 py-openimageio
 py-plumed
 py-spy
+py-triangle
 py_rattler
 pyagrum
 pyahocorasick
