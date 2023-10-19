@@ -309,6 +309,7 @@ frictionqpotspringblock
 frozenlist
 fs-s3fs
 fsleyes
+funcparserlib
 functorch
 fzf
 galpy
