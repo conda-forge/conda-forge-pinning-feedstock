@@ -818,6 +818,7 @@ pyduktape2
 pyebsdindex
 pyemir
 pyerfa
+pyfabm
 pyfai
 pyferret
 pyfesom2
