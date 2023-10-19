@@ -433,7 +433,6 @@ hugin
 hydride
 hyperspy
 hyperspyui
-py-triangle
 ibm_db
 ibm_db_sa
 idna
@@ -796,6 +795,7 @@ py-cpuinfo
 py-openimageio
 py-plumed
 py-spy
+py-triangle
 py_rattler
 pyagrum
 pyahocorasick
