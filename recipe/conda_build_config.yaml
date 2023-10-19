@@ -217,7 +217,7 @@ blas_impl:
 abseil_cpp:
   - '20220623.0'
 alsa_lib:
-  - 1.2.9
+  - 1.2.10
 antic:
   - 0.2
 aom:
