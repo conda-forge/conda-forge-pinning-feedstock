@@ -78,6 +78,7 @@ bipedal-locomotion-framework
 black
 blis
 blosc
+bmi-fortran
 boa
 boost
 boost-cpp
