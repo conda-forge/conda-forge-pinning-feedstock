@@ -760,6 +760,7 @@ pigz
 pikepdf
 pixmappy
 pkg-config
+plantuml
 plum-dispatch
 plumed
 pmdarima
