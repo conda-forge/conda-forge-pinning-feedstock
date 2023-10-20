@@ -299,6 +299,7 @@ libignition-fuel-tools
 libignition-physics
 libignition-transport4
 libm2k
+libmo_unpack
 libmongocxx
 libnpp
 libnsl
