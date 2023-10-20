@@ -519,6 +519,7 @@ liblsl
 libm2k
 libmamba
 libmediainfo
+libmo_unpack
 libmongocxx
 libnetcdf
 libnsl
