@@ -132,6 +132,7 @@ dask
 dask-sql
 dataclasses
 datafusion
+datamash
 dataprep
 dav1d
 deno
@@ -397,6 +398,7 @@ openai
 openblas
 opencv
 openmm
+openmotif
 openmpi
 openslide
 openslide-python
@@ -449,6 +451,7 @@ prmon
 proj
 prophet
 protobuf
+provstore-api
 psycopg2
 ptxcompiler
 pulp
