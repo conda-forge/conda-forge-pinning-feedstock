@@ -451,6 +451,7 @@ prmon
 proj
 prophet
 protobuf
+provstore-api
 psycopg2
 ptxcompiler
 pulp
