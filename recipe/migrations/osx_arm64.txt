@@ -673,6 +673,7 @@ notebook
 nrel-pysam
 nsync
 nuflux
+nuitka
 numba
 numbalsoda
 numcosmo
