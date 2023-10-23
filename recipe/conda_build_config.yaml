@@ -774,7 +774,7 @@ vlfeat:
 volk:
   - '3.0'
 vtk:
-  - 9.2.5
+  - 9.2.6
 wcslib:
   - '8'
 wxwidgets:
