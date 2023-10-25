@@ -1279,6 +1279,7 @@ tmux
 tnt
 tokenizers
 tomlplusplus
+tomopy
 torchsparse
 torchtext
 torchvision
