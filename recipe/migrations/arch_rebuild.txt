@@ -554,6 +554,7 @@ r-batchtools
 r-bbmisc
 r-bbmle
 r-bench
+r-biasedurn
 r-biglm
 r-bigrquery
 r-bindrcpp
@@ -751,6 +752,7 @@ r-rsnns
 r-rsqlite
 r-rsvg
 r-rtsne
+r-ruv
 r-s2
 r-scales
 r-seqinr
