@@ -231,6 +231,7 @@ diffstar
 digital_rf
 dionysus
 disperse
+divemesh
 dkh
 dlib-cpp
 dm-tree
@@ -1116,6 +1117,7 @@ rdkit
 re2c
 rectangle-packer
 redlionfish
+reef3d
 regions
 rejected
 reproc
