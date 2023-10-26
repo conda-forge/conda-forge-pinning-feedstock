@@ -683,6 +683,7 @@ numina
 numpy
 numpy-allocator
 nutpie
+nvim
 obspy
 ocaml
 ocaml-num
