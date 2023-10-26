@@ -1272,6 +1272,7 @@ tiktoken
 tilt
 time
 time-machine
+timezonefinder
 tinyxml
 tinyxml2
 tippecanoe
