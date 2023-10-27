@@ -1290,6 +1290,7 @@ torchvision
 traits
 treecorr
 treelite
+trexio
 triangle
 trio
 triqs
