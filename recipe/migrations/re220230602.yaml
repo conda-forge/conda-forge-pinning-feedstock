@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-  commit_message: "Rebuild for re2 2023.06.02"
-migrator_ts: 1697153785.6780672
-re2:
-- 2023.06.02
