@@ -212,6 +212,7 @@ dav1d
 dbgpy
 dcm2niix
 ddtrace
+deepspeed
 deno
 deno-dom
 depfinder
