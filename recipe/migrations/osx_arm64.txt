@@ -1196,6 +1196,7 @@ sedflux
 selenium-manager
 sensormapgeo
 sentencepiece
+sfepy
 sgp4
 shaderc
 shapely
@@ -1399,4 +1400,3 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
-sfepy
