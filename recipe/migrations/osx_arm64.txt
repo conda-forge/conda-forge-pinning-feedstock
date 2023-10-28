@@ -1389,6 +1389,7 @@ yappi
 yarn
 yarp
 yoda
+youtube-dl
 yte
 ytop
 z5py
