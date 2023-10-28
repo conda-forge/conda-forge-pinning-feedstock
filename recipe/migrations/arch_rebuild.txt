@@ -634,6 +634,7 @@ r-igraph
 r-infotheo
 r-intervals
 r-irlba
+r-jade
 r-jsonify
 r-jsonvalidate
 r-kableextra
