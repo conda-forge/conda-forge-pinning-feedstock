@@ -1399,3 +1399,4 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
+sfepy
