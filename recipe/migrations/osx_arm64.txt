@@ -1196,6 +1196,7 @@ sedflux
 selenium-manager
 sensormapgeo
 sentencepiece
+sfepy
 sgp4
 shaderc
 shapely
