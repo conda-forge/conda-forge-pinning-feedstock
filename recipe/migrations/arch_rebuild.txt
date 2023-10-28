@@ -431,6 +431,7 @@ perl-data-dumper
 perl-dbi
 perl-io-tty
 perl-lwp-simple
+perl-mime-base64
 perl-moose
 perl-socket
 perl-storbale
@@ -504,6 +505,7 @@ pyscf
 pyspf
 pyspnego
 pystackreg
+pysvg-py3
 pytables
 pytensor
 pytensor-base
@@ -633,6 +635,7 @@ r-igraph
 r-infotheo
 r-intervals
 r-irlba
+r-jade
 r-jsonify
 r-jsonvalidate
 r-kableextra
@@ -749,6 +752,7 @@ r-rootsolve
 r-roxygen2
 r-rrcov
 r-rsnns
+r-rspectra
 r-rsqlite
 r-rsvg
 r-rtsne
