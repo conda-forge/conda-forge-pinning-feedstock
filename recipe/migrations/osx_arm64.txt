@@ -257,6 +257,7 @@ easyocr
 ecflow
 edt
 eelbrain
+einsums
 emacs
 emsdk
 ensmallen
