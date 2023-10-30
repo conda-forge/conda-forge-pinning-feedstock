@@ -563,8 +563,8 @@ log4cxx
 loky
 lp_solve
 lru-dict
-lsst-documenteer
 lsdeluxe
+lsst-documenteer
 luajit
 luarocks
 lue
