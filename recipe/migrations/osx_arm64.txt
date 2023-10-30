@@ -564,6 +564,7 @@ loky
 lp_solve
 lru-dict
 lsst-documenteer
+lsdeluxe
 luajit
 luarocks
 lue
