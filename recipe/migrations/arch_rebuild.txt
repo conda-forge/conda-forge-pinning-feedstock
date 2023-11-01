@@ -902,6 +902,7 @@ traits
 treelite
 tsl_robin_map
 typing
+typos
 ucx-split
 ujson
 uncrustify
