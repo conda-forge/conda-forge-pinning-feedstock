@@ -470,7 +470,7 @@ libgit2:
 libgoogle_cloud:
   - '2.12'
 libgrpc:
-  - '1.57'
+  - '1.58'
 libhugetlbfs:
   - 2
 libhwy:
@@ -500,7 +500,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 4.23.4
+  - 4.24.3
 libpq:
   - 15
 libraw:
