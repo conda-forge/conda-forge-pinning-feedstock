@@ -844,6 +844,7 @@ scikit-survival
 scipy
 scitokens
 scitokens-cpp
+sdf
 sdl
 sdl_image
 sdsl-lite
