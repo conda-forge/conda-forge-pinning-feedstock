@@ -285,6 +285,7 @@ fastparquet
 fastremap
 faunus
 fenics-dolfinx
+fiatlux
 file
 filprofiler
 findent
