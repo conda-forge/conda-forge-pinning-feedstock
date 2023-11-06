@@ -1065,6 +1065,7 @@ r-ragg
 r-raster
 r-rbibutils
 r-rcppcnpy
+r-rcpphnsw
 r-rcppnumerical
 r-rcpproll
 r-rcppspdlog
