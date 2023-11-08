@@ -561,7 +561,7 @@ metis:
 mimalloc:
   - 2.1.2
 mkl:
-  - 2022
+  - '2023'
 mkl_devel:
   - 2022
 mpg123:
