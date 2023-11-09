@@ -635,6 +635,8 @@ petsc:
   - '3.19'
 petsc4py:
   - '3.19'
+pugixml:
+  - '1.13'
 slepc:
   - '3.19'
 slepc4py:
