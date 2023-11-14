@@ -4,5 +4,18 @@ __migrator:
   migration_number: 1
   commit_message: "Rebuild for libarrow 14"
 arrow_cpp:
+- 14  # does not exist; switch to libarrow
+- 13
+- 12
+- 11.0.0
+libarrow:
 - 14
+- 13
+- 12
+- 11.0.0
+libarrow_all:
+- 14
+- 13
+- 12
+- 11.0.0
 migrator_ts: 1699381652.0215027
