@@ -1407,3 +1407,4 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
+pyscf
