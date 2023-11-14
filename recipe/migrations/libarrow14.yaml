@@ -2,6 +2,7 @@ __migrator:
   build_number: 1
   kind: version
   migration_number: 1
+  commit_message: "Rebuild for libarrow 14"
 arrow_cpp:
-- '14'
+- 14
 migrator_ts: 1699381652.0215027
