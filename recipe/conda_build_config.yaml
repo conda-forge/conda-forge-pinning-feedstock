@@ -152,6 +152,7 @@ zip_keys:
   -
     - arrow_cpp
     - libarrow
+    - libarrow_all
   # as of 4.23.x, libprotobuf requires patch-level run-exports;
   # we couple it with grpc (which very roughly releases in sync)
   # to reduce the migration pain for these two libs a bit.
@@ -432,6 +433,12 @@ libarchive:
 # keep in sync with arrow_cpp (libarrow exists only from 10.x,
 # but make sure we have same length for zip as arrow_cpp)
 libarrow:
+  - 13
+  - 12
+  - 11.0.0
+  - 10.0.1
+# only exists as of arrow v14, but needs to have same length as libarrow
+libarrow_all:
   - 13
   - 12
   - 11.0.0
