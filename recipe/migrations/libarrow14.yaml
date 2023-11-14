@@ -1,0 +1,28 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+  commit_message: |
+    Rebuild for libarrow 14
+    
+    Note that libarrow has been split into more granular components
+    as of v14. If you find that there are missing libraries, you can
+    use `libarrow-all` instead of `libarrow`. Please double-check the
+    results of the link check whether you're under- or overdepending
+    on some (arrow) libraries.
+arrow_cpp:
+- 14  # does not exist; switch to libarrow
+- 13
+- 12
+- 11.0.0
+libarrow:
+- 14
+- 13
+- 12
+- 11.0.0
+libarrow_all:
+- 14
+- 13
+- 12
+- 11.0.0
+migrator_ts: 1699381652.0215027
