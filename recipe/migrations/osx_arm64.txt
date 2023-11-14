@@ -92,6 +92,7 @@ bsddb3
 bt
 buildbot
 bytewax
+cached_interpolate
 caiman
 cairomm
 calceph
