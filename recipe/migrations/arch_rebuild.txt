@@ -45,6 +45,7 @@ bsddb3
 buildah
 buildbot
 bullet
+cached_interpolate
 cairomm
 calceph
 cantera
