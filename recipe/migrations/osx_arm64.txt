@@ -576,6 +576,7 @@ lzip
 m2crypto
 m4
 macfsevents
+magentropy
 magics
 magics-metview
 magics-metview-batch
