@@ -3,7 +3,7 @@ __migrator:
   kind:
     version
   migration_number:
-    2
+    3
   build_number:
     1
   paused: false
@@ -47,13 +47,13 @@ __migrator:
       - quay.io/condaforge/linux-anvil-cos7-x86_64        # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64"]
     cuda_compiler_version:
       - None
-      - 10.2                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-      - 11.0                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-      - 11.1                       # [(linux64 or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-      - 11.2                       # [(linux or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-      - 12.0                       # [(linux or win) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+      - 10.2                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+      - 11.0                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+      - 11.1                       # [(linux64 or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+      - 11.2                       # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+      - 12.0                       # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   commit_message: |
-    Rebuild for CUDA 12 w/arch support
+    Rebuild for CUDA 12 w/arch + Windows support
     
     The transition to CUDA 12 SDK includes new packages for all CUDA libraries and
     build tools. Notably, the cudatoolkit package no longer exists, and packages
@@ -62,11 +62,11 @@ __migrator:
     [see this issue]( https://github.com/conda-forge/conda-forge.github.io/issues/1963 ).
     Please feel free to raise any issues encountered there. Thank you! :pray:
 
-cuda_compiler:                 # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - cuda-nvcc                  # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cuda_compiler:                 # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - cuda-nvcc                  # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
-cuda_compiler_version:         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 12.0                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cuda_compiler_version:         # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 12.0                       # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 c_compiler_version:            # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 12                         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
