@@ -533,6 +533,10 @@ libsvm:
 # keep libsqlite in sync with sqlite
 libsqlite:
   - 3
+libtensorflow:
+  - 2.14
+libtensorflow_cc:
+  - 2.14
 libthrift:
   - 0.18.1
 libtiff:
