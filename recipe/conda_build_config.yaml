@@ -471,6 +471,8 @@ libflatsurf:
   - 3
 libflint:
   - '2.9'
+libframel:
+  - '8.41'
 libgdal:
   - '3.7'
 libgit2:
