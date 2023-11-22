@@ -189,6 +189,7 @@ glimpse
 glm
 glum
 gmsh
+gmt
 gnss-sdr
 gnupg
 gnuplot
