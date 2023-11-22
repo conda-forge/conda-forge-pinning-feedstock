@@ -850,6 +850,7 @@ pygmo_plugins_nonfree
 pygplates
 pygraphviz
 pygrib
+pygsti
 pyhdf
 pyhull
 pyimagej
