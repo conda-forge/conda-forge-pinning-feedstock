@@ -833,6 +833,7 @@ pydelatin
 pyduktape2
 pyebsdindex
 pyemir
+pyemma
 pyerfa
 pyfabm
 pyfai
