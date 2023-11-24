@@ -656,6 +656,7 @@ ncdu
 nco
 ncrystal
 ncview
+ncvis
 nd2
 ndarray
 nds2-client-swig
