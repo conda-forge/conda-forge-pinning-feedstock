@@ -799,7 +799,7 @@ xrootd:
 xz:
   - 5
 zeromq:
-  - 4.3.4
+  - '4.3.5'
 zfp:
   - 1.0
 zlib:
