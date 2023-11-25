@@ -909,6 +909,7 @@ pysjef
 pysocks
 pysolid
 pyspf
+pyspice
 pyspnego
 pystackreg
 pystan
