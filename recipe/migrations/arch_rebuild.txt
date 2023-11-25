@@ -232,6 +232,7 @@ htop
 httplib2
 httptools
 hub
+hurl
 hyperspy
 ibm_db
 idyntree
