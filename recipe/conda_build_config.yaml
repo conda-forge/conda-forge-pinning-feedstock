@@ -422,6 +422,8 @@ kealib:
   - '1.5'
 krb5:
   - '1.20'
+ldas_tools_framecpp:
+  - '2.9'
 libabseil:
   - '20230802'
 libabseil_static:
@@ -469,6 +471,8 @@ libflatsurf:
   - 3
 libflint:
   - '2.9'
+libframel:
+  - '8.41'
 libgdal:
   - '3.7'
 libgit2:
