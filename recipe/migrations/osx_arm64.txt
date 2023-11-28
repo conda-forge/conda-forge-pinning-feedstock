@@ -437,6 +437,7 @@ htgettoken
 htop
 httpx
 hugin
+hunspell
 hurl
 hydride
 hyperspy
