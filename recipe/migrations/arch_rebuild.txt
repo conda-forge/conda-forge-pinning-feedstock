@@ -857,6 +857,7 @@ singularity
 sixs
 sleef
 slepc
+slycot
 snowflake-connector-python
 soapysdr-module-plutosdr
 soapysdr-module-remote
