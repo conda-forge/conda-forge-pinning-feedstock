@@ -594,6 +594,7 @@ maven
 mayavi
 mbuild
 mcpl
+mcstas-suite
 mdanalysis
 mdanalysistests
 mdtraj
