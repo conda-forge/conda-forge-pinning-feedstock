@@ -3,5 +3,5 @@ __migrator:
   kind: version
   migration_number: 1
 libopentelemetry_cpp:
-- 1.12
-migrator_ts: 1701390100.9928305
+- '1.12'
+migrator_ts: 1701403063.8240542
