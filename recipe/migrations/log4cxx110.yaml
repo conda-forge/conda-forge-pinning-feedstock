@@ -1,0 +1,7 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+log4cxx:
+- 1.1.0
+migrator_ts: 1701397832.7566566
