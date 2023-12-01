@@ -505,7 +505,7 @@ libnetcdf:
 libopencv:
   - 4.8.1
 libopentelemetry_cpp:
-  - '1.9'
+  - 1.12
 libosqp:
   - 0.6.3
 libpcap:
