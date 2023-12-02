@@ -670,6 +670,7 @@ netgen
 ngmix
 nifty
 niftyreg
+nim
 ninja
 nipype
 nitime
