@@ -1183,6 +1183,7 @@ scanpy
 sccache
 scenepic
 schwimmbad
+shapelysmooth
 scikit-allel
 scikit-digital-health
 scikit-fmm
