@@ -174,11 +174,6 @@ cdt_arch: armv7l                          # [armv7l]
 BUILD: armv7-conda_cos7-linux-gnueabihf   # [armv7l]
 
 pin_run_as_build:
-  # boost is special, see https://github.com/conda-forge/boost-cpp-feedstock/pull/82
-  boost:
-    max_pin: x.x.x
-  boost-cpp:
-    max_pin: x.x.x
   # TODO: add run_exports to the following feedstocks
   flann:
     max_pin: x.x.x
@@ -267,10 +262,6 @@ aws_crt_cpp:
   - 0.24.9
 aws_sdk_cpp:
   - 1.11.210
-boost:
-  - 1.78.0
-boost_cpp:
-  - 1.78.0
 bullet_cpp:
   - 3.25
 bzip2:
@@ -449,6 +440,10 @@ libavif:
   - '1.0.1'
 libblitz:
   - 1.0.2
+libboost_devel:
+  - '1.82'
+libboost_python_devel:
+  - '1.82'
 libcint:
   - '5.5'
 libcurl:

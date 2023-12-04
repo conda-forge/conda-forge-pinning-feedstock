@@ -8,6 +8,16 @@ jpeg = """\
     Recipes should usually depend on `libjpeg-turbo` as opposed to \
     `jpeg` for improved performance. For more information please see \
     https://github.com/conda-forge/conda-forge.github.io/issues/673."""
+libboost = """\
+    You should not need to depend on `libboost` directly. If your package is \
+    linking to boost libraries, use `libboost-devel` in the host environment \
+    (which will create the correct dependence at runtime through a run-export), \
+    or use `libboost-headers` if you only need the boost headers."""
+libboost-python = """\
+    You should not need to depend on `libboost-python` directly. If your package \
+    is linking to libboost_python3x.so, use `libboost-python-devel` in the host \
+    environment (which will create the correct dependence at runtime through a \
+    run-export), or use `libboost-headers` if you only need the boost headers."""
 pytorch-cpu = """\
     Please depend on `pytorch` directly, in order to avoid forcing \
     CUDA users to downgrade to the CPU version for no reason."""
@@ -18,5 +28,12 @@ pytorch-gpu = """\
 # packages that have been renamed
 abseil-cpp = "The `abseil-cpp` output has been superseded by `libabseil`."
 arrow-cpp = "The `arrow-cpp` output has been superseded by `libarrow`."
+boost-cpp = """\
+    The `boost-cpp` output has been superseded by `libboost-devel` (as of 1.82), \
+    which now comes with a run-export (on `libboost`) as well. In case you only \
+    needed the boost headers, you should use `libboost-headers`."""
+boost = """\
+    The `boost` output has been superseded by `libboost-python-devel` (as of \
+    1.82), which now comes with a run-export (on `libboost-python`) as well."""
 grpc-cpp = "The `grpc-cpp` output has been superseded by `libgrpc`."
 build = "The pypa `build` package has been renamed to `python-build`."
