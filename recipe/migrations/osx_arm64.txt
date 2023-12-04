@@ -1066,6 +1066,7 @@ r-ncdf4
 r-obistools
 r-oce
 r-padr
+r-parallelDist
 r-parsedate
 r-pbapply
 r-performanceanalytics
