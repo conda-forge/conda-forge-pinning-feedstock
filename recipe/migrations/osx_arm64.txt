@@ -1077,6 +1077,7 @@ r-quantreg
 r-ragg
 r-raster
 r-rbibutils
+r-rbiom
 r-rcppcnpy
 r-rcpphnsw
 r-rcppnumerical
