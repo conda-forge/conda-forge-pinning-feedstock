@@ -300,6 +300,7 @@ fitsio
 flake8-annotations
 flatbuffers
 fonttools
+forcebalance
 forestci
 fortls
 foyer
