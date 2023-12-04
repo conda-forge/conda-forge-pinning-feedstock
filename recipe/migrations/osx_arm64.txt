@@ -613,6 +613,7 @@ metview
 metview-batch
 mgrs
 micromamba
+mim-solvers
 minuit2
 mitmproxy
 mlflow
