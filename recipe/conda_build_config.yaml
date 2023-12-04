@@ -723,7 +723,7 @@ readline:
 rocksdb:
   - '8.0'
 root_base:
-  - 6.28.4
+  - 6.28.10
 ruby:
   - 2.5
   - 2.6
