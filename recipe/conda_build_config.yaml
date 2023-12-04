@@ -639,7 +639,7 @@ openmpi:
 openssl:
   - '3'
 orc:
-  - 1.9.0
+  - 1.9.2
 pango:
   - 1.50
 pari:
