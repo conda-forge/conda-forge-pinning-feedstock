@@ -330,6 +330,7 @@ gdspy
 gdstk
 geant4
 gemmi
+genesis4
 gensim
 geocat-comp
 geocat-f2py
