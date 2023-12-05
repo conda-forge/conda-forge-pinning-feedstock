@@ -498,6 +498,8 @@ libiio:
   - 0
 libmatio:
   - 1.5.24
+libmatio_cpp:
+  - 0.2.3
 libmicrohttpd:
   - 0.9
 libnetcdf:
