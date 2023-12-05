@@ -563,6 +563,8 @@ ligo-segments
 ligo.skymap
 limesuite
 line_profiler
+llama-cpp-python
+llama.cpp
 llist
 lndoctor
 log4cxx
@@ -704,6 +706,7 @@ ocaml-num
 octave
 ogre
 oidc-agent
+ollama
 omicron
 omniorb
 onednn
