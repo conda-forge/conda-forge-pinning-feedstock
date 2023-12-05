@@ -865,6 +865,7 @@ pygrib
 pygsti
 pyhdf
 pyhull
+pyicu
 pyimagej
 pykdtree
 pykep
