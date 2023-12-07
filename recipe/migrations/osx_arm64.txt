@@ -1430,3 +1430,4 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
+vl-convert
