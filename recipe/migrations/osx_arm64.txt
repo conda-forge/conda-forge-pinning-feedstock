@@ -1361,6 +1361,7 @@ visan
 vispy
 vitables
 viztracer
+vl-convert
 vowpalwabbit
 vpython
 vulkan-loader
@@ -1430,4 +1431,3 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
-vl-convert
