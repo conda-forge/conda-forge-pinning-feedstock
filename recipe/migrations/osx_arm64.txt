@@ -1361,6 +1361,7 @@ visan
 vispy
 vitables
 viztracer
+vl-convert
 vowpalwabbit
 vpython
 vulkan-loader
