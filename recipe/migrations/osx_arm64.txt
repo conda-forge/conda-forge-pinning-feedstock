@@ -989,6 +989,7 @@ qgrid
 qiskit-terra
 qpot
 qscintilla2
+qsimcirq
 qt
 qt-3d
 qt-charts
