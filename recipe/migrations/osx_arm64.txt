@@ -1313,6 +1313,7 @@ tnt
 tokenizers
 tomlplusplus
 tomopy
+torchsde
 torchsparse
 torchtext
 torchvision
