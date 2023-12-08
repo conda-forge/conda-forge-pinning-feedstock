@@ -330,6 +330,7 @@ gdspy
 gdstk
 geant4
 gemmi
+genesis4
 gensim
 geocat-comp
 geocat-f2py
@@ -988,6 +989,7 @@ qgrid
 qiskit-terra
 qpot
 qscintilla2
+qsimcirq
 qt
 qt-3d
 qt-charts
@@ -1359,6 +1361,7 @@ visan
 vispy
 vitables
 viztracer
+vl-convert
 vowpalwabbit
 vpython
 vulkan-loader
