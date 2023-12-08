@@ -331,6 +331,7 @@ gdstk
 geant4
 gemmi
 genesis4
+genshi
 gensim
 geocat-comp
 geocat-f2py
