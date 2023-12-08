@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-libopentelemetry_cpp:
-- '1.13'
-migrator_ts: 1701992118.2928274
