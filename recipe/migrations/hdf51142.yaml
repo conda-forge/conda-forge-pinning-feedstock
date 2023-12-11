@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+# HDF5 1.14.2 and HDF5 1.14.3 are ABI compatible as
+# as such we decided to keep the same migration file
+hdf5:
+- 1.14.3
+migrator_ts: 1692590899.44706
