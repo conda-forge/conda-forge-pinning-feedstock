@@ -530,6 +530,9 @@ libsentencepiece:
   - '0.1.99'
 libsndfile:
   - '1.2'
+libsoup:
+  - 2      # [win]
+  - 3      # [not win]
 libspatialindex:
   - 1.9.3
 libssh:
