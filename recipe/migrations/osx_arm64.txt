@@ -254,6 +254,7 @@ dvc
 dwave-ocean-sdk
 dwave-samplers
 dxtbx
+dynaphopy
 easyocr
 ecflow
 edt
