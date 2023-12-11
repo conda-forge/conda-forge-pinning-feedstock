@@ -753,7 +753,7 @@ sdl2_net:
 sdl2_ttf:
   - '2'
 singular:
-  - 4.2.1.p3
+  - 4.3.2.p8
 snappy:
   - 1
 soapysdr:
