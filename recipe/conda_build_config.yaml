@@ -736,10 +736,14 @@ r_base:
   - 4.1   # [win]
   - 4.2   # [not win]
   - 4.3   # [not win]
+libscotch:
+  - 7.0.2
+libptscotch:
+  - 7.0.2
 scotch:
-  - 6.1.3
+  - 7.0.2
 ptscotch:
-  - 6.0.9
+  - 7.0.2
 s2n:
   - 1.4.0
 sdl2:
