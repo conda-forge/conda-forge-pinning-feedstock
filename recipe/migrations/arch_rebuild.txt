@@ -317,6 +317,7 @@ librmm
 libsolv
 libudev
 libvpx
+libxcrypt
 libxkbfile
 libzopfli
 lightgbm

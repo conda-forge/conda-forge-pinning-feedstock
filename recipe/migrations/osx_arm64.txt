@@ -555,6 +555,7 @@ libuwebsockets
 libv8
 libvpx
 libxc
+libxcrypt
 libxml2
 libxmlpp
 libzen
