@@ -989,6 +989,7 @@ pyzstd
 qe
 qgis
 qgrid
+qiskit-aer
 qiskit-terra
 qpot
 qscintilla2
