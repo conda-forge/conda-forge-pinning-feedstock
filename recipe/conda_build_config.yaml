@@ -497,7 +497,7 @@ libkml:
 libiio:
   - 0
 libmatio:
-  - 1.5.24
+  - 1.5.26
 libmatio_cpp:
   - 0.2.3
 libmicrohttpd:
