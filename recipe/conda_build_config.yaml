@@ -606,7 +606,7 @@ netcdf_cxx4:
 netcdf_fortran:
   - '4.6'
 nettle:
-  - '3.8'
+  - '3.9'
 nodejs:
   - '20'
   - '18'
