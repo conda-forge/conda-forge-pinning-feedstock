@@ -582,7 +582,7 @@ mimalloc:
 mkl:
   - '2023'
 mkl_devel:
-  - 2022
+  - 2023
 mpg123:
   - '1.32'
 mpich:
