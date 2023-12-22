@@ -1,6 +1,7 @@
 abinit
 ablog
 adaptive
+adaptive-scheduler
 adcc
 adrt
 aesara
