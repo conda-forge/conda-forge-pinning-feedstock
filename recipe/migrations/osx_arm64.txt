@@ -1230,6 +1230,7 @@ selenium-manager
 sensormapgeo
 sentencepiece
 sfepy
+sfml
 sgp4
 shaderc
 shapely
