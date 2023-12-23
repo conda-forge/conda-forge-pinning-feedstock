@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_s3 0.4.6
+  kind: version
+  migration_number: 1
+  automerge: true
+aws_c_s3:
+- 0.4.6
+migrator_ts: 1703358212.0858982
