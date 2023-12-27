@@ -1279,6 +1279,7 @@ stumpy
 subversion
 suds-jurko
 suitesparse
+sunode
 sunpy
 supervisor
 swig
