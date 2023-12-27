@@ -548,7 +548,7 @@ libtensorflow_cc:
 libthrift:
   - 0.18.1
 libtiff:
-  - '4.5'
+  - '4.6'
 libunwind:
   - '1.6'
 libv8:
