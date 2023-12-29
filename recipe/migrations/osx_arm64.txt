@@ -1285,6 +1285,7 @@ sunpy
 supervisor
 swig
 swiglpk
+systemc
 ta-lib
 tabula-py
 tango
