@@ -773,7 +773,7 @@ starlink_ast:
 suitesparse:
   - 5
 superlu_dist:
-  - 7.1.1
+  - '8'
 tbb:
   - '2021'
 tbb_devel:
