@@ -607,6 +607,7 @@ mcpl
 mcstas-suite
 mdanalysis
 mdanalysistests
+mdaencore
 mdtraj
 megaradrp
 meilisearch
