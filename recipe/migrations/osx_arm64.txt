@@ -605,9 +605,9 @@ mayavi
 mbuild
 mcpl
 mcstas-suite
+mdaencore
 mdanalysis
 mdanalysistests
-mdaencore
 mdtraj
 megaradrp
 meilisearch
