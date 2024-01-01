@@ -1002,6 +1002,7 @@ qt
 qt-3d
 qt-charts
 qt-datavis3d
+qtserialport
 quantecon
 quantized-mesh-encoder
 quantlib
