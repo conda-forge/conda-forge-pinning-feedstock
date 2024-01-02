@@ -1029,6 +1029,7 @@ r-desolve
 r-devtools
 r-diptest
 r-distributionutils
+r-duckdb
 r-ecp
 r-essentials
 r-fastmatch
