@@ -1141,6 +1141,8 @@ r-vroom
 rabbitmq-server
 radian
 radiosphere
+raider
+raider-base
 randomgen
 randspg
 range-v3
