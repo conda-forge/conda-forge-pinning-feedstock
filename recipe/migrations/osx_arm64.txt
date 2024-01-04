@@ -598,6 +598,7 @@ mamba
 mamba-bash-completion
 manim
 marching_cubes
+marimo
 mathjax
 matplotlib
 maven
