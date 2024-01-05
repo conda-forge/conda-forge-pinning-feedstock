@@ -402,7 +402,7 @@ lcms:
 lerc:
   - '4'
 libjpeg_turbo:
-  - 2.1.5
+  - '3'
 libev:
   - 4.33
 json_c:
