@@ -566,6 +566,7 @@ r-bigrquery
 r-bindrcpp
 r-bitops
 r-blockmodeling
+r-brglm
 r-cairo
 r-car
 r-catboost
