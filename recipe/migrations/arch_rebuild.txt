@@ -624,6 +624,7 @@ r-gert
 r-ggforce
 r-ggraph
 r-ggrepel
+r-gifski
 r-git2r
 r-glmmtmb
 r-gnm
