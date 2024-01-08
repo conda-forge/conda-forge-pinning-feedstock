@@ -28,6 +28,7 @@ awscli2
 awscrt
 backports.zoneinfo
 backward-cpp
+basemap
 bat
 bayeswave
 bazel
