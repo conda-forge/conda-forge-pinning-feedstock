@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libexactreal 4
-  kind: version
-  migration_number: 1
-libexactreal:
-- '4'
-migrator_ts: 1703900612.3032517
