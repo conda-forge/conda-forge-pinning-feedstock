@@ -899,6 +899,7 @@ pyngl
 pynio
 pynisher
 pynndescent
+pynng
 pyobjcryst
 pyodbc
 pyogrio
