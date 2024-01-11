@@ -219,6 +219,7 @@ gymnasium
 gz-launch
 gzip
 h3-py
+harlequin
 harp
 hdbscan
 healpix_cxx
