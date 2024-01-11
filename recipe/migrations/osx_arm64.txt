@@ -1076,6 +1076,7 @@ r-marginaleffects
 r-mclust
 r-microbenchmark
 r-minpack.lm
+r-mirt
 r-mlr
 r-msm
 r-mvmorph
