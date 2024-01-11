@@ -421,6 +421,7 @@ gz-launch
 h3-py
 h5py
 halotools
+harlequin
 harp
 hdbscan
 hdf4
