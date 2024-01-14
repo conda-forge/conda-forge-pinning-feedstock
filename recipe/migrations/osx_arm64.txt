@@ -1203,6 +1203,7 @@ safeint
 sage
 sagemaker-python-sdk
 samtools
+sasktran2
 sasview
 satgen
 sbank
