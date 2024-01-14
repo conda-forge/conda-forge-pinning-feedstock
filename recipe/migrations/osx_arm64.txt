@@ -1019,6 +1019,7 @@ r-ape
 r-aptreeshape
 r-arrow
 r-base
+r-beeswarm
 r-bipartite
 r-cairo
 r-catboost
@@ -1089,6 +1090,7 @@ r-padr
 r-parallelDist
 r-parsedate
 r-pbapply
+r-pdp
 r-performanceanalytics
 r-phangorn
 r-picante
@@ -1137,6 +1139,7 @@ r-testthat
 r-tidygraph
 r-tidyverse
 r-tmvtnorm
+r-tokenizers
 r-traminer
 r-tzdb
 r-udunits2
@@ -1144,6 +1147,7 @@ r-umap
 r-v8
 r-vcd
 r-vroom
+r-yardstick
 rabbitmq-server
 radian
 radiosphere
