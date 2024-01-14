@@ -1032,6 +1032,7 @@ r-cubature
 r-desctools
 r-desolve
 r-devtools
+r-dicedesign
 r-diptest
 r-distributionutils
 r-duckdb
@@ -1068,6 +1069,7 @@ r-languageserver
 r-latticeextra
 r-leaps
 r-lfe
+r-lhs
 r-liblinear
 r-lightgbm
 r-lme4
