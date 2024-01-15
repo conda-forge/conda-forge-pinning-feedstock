@@ -1,7 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-libxml2:
-- '2.12'
-migrator_ts: 1700445986.2150207
