@@ -127,6 +127,7 @@ cheetah3
 chemfiles-python
 chemicalite
 cherrypy
+cif2hkl
 cis
 ciso8601
 clawpack
@@ -1253,6 +1254,7 @@ shaderc
 shapely
 shapelysmooth
 shellcheck
+simple-build-system
 simpleeval
 simpleitk
 simplejson
