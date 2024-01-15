@@ -582,6 +582,7 @@ lp_solve
 lru-dict
 lsdeluxe
 lsst-documenteer
+lsst-sphgeom
 luajit
 luarocks
 lue
