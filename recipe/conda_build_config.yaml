@@ -579,7 +579,7 @@ libwebp:
 libwebp_base:
   - 1
 libxml2:
-  - '2.11'
+  - 2
 libxsmm:
   - 1
 libuuid:
