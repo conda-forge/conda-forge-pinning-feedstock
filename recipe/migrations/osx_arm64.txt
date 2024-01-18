@@ -1103,6 +1103,7 @@ r-png
 r-qgam
 r-quadprog
 r-quantreg
+r-quickjsr
 r-ragg
 r-raster
 r-rbibutils
