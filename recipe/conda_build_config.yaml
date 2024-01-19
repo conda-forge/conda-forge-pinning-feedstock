@@ -595,7 +595,7 @@ lz4_c:
 lzo:
   - 2
 metis:
-  - 5.1
+  - 5.1.0
 mimalloc:
   - 2.1.2
 mkl:
