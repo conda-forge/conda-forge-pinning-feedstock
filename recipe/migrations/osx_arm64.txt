@@ -1267,6 +1267,7 @@ sleef
 sleepecg
 slepc
 slycot
+snaphu
 snappy
 sncosmo
 snowflake-connector-python
