@@ -1125,6 +1125,7 @@ r-rocit
 r-roxygen2
 r-rpostgres
 r-rstan
+r-rstanarm
 r-rstatix
 r-rsvg
 r-s2
