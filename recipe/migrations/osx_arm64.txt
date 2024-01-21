@@ -1105,6 +1105,7 @@ r-quadprog
 r-quantreg
 r-quickjsr
 r-ragg
+r-ranger
 r-raster
 r-rbibutils
 r-rbiom
