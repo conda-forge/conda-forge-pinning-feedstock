@@ -1,0 +1,16 @@
+migrator_ts: 1705683187
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+  commit_message: |
+    Rebuild for cuTENSOR 2.x support
+    
+    This migrator updates the dependency on `cutensor` to 2.x. Since 2.x has API
+    breaking changes, be sure your package has the latest support tested before
+    merging. Otherwise, please keep the PR open (and better, in draft status) as
+    instructed [here](https://conda-forge.org/docs/maintainer/knowledge_base.html#migrators-and-migrations)
+    until the package is ready to migrate.
+
+cutensor:
+  - 2
