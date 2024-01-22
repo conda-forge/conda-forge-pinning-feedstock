@@ -1419,6 +1419,10 @@ xeus-cling
 xeus-octave
 xeus-python
 xeus-robot
+xeus-r
+xeus-lua
+xeus-sql
+xeus-sqlite
 xgboost
 xlwings
 xmlsec
