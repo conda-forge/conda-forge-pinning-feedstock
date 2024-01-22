@@ -18,6 +18,7 @@ arm_pyart
 arpack
 arrow-cpp
 assimp
+assimulo
 astra-toolbox
 astropy
 asyncpg
