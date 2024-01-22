@@ -1416,9 +1416,13 @@ xdmfwrite_highfive
 xdrfile
 xerces-c
 xeus-cling
+xeus-lua
 xeus-octave
 xeus-python
+xeus-r
 xeus-robot
+xeus-sql
+xeus-sqlite
 xgboost
 xlwings
 xmlsec
