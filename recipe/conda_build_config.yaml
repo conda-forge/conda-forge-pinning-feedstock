@@ -720,7 +720,7 @@ python_impl:
   - cpython
   - cpython
 pytorch:
-  - '2.0'
+  - '2.1'
 pyqt:
   - 5.15
 pyqtwebengine:
