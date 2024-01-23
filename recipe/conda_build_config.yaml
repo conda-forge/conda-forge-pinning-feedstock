@@ -568,6 +568,9 @@ libthrift:
   - 0.18.1
 libtiff:
   - '4.6'
+# keep in synch with pytorch
+libtorch:
+  - '2.1'
 libunwind:
   - '1.6'
 libv8:
@@ -719,6 +722,7 @@ python_impl:
   - cpython
   - cpython
   - cpython
+# Keep in sync with libtorch
 pytorch:
   - '2.1'
 pyqt:
