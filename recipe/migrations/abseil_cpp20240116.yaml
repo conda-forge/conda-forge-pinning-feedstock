@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for abseil_cpp 20240116
+  kind: version
+  migration_number: 1
+abseil_cpp:
+- '20240116'
+migrator_ts: 1705991934.9119136
