@@ -369,6 +369,7 @@ ncdu
 ncurses
 nds2-client-swig
 neobolt
+newrelic
 nghttp2
 noise
 nordugrid-arc
