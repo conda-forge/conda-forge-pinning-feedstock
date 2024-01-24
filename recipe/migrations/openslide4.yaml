@@ -3,6 +3,6 @@ __migrator:
   commit_message: Rebuild for openslide 4
   kind: version
   migration_number: 1
+migrator_ts: 1706113525.5639343
 openslide:
-- 4
-migrator_ts: 1706069399
+- '4'
