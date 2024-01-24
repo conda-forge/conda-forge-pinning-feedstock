@@ -663,7 +663,7 @@ openjpeg:
 openmpi:
   - 4
 openslide:
-  - 3
+  - 4
 openssl:
   - '3'
 orc:
