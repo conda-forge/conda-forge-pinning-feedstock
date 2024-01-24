@@ -660,6 +660,8 @@ openjpeg:
   - '2'
 openmpi:
   - 4
+openslide:
+  - 3
 openssl:
   - '3'
 orc:
