@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for tinyxml2 10
-  kind: version
-  migration_number: 1
-migrator_ts: 1704497957.887235
-tinyxml2:
-- '10'
