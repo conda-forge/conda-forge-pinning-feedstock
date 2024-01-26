@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libopenvino-dev 2023.3.0
+  kind: version
+  migration_number: 1
+migrator_ts: 1705841975.2201185
+libopenvino_dev:
+- '2023.3.0'
