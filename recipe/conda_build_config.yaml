@@ -522,7 +522,7 @@ libmicrohttpd:
 libnetcdf:
   - 4.9.2
 libopencv:
-  - 4.8.1
+  - 4.9.0
 libopentelemetry_cpp:
   - '1.13'
 libosqp:
