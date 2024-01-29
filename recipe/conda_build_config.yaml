@@ -48,7 +48,6 @@ cuda_compiler_version:
 cuda_compiler_version_min:
   - None                       # [osx]
   - 11.2                       # [linux or win64]
-  - 11.8                       # [linux or win64]
 
 arm_variant_type:              # [aarch64]
   - sbsa                       # [aarch64]
