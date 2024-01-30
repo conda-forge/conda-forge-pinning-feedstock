@@ -66,6 +66,7 @@ batoid
 batoid-rubin
 bats-core
 bayeswave
+bayes-filters-lib
 bazel
 bc
 bcolz
