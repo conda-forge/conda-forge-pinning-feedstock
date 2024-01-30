@@ -32,6 +32,7 @@ backward-cpp
 basemap
 bat
 bayeswave
+bayes-filters-lib
 bazel
 bcrypt
 bilby.cython
