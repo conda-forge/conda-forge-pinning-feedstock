@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for alsa_lib 1.2.11
+  kind: version
+  migration_number: 1
+alsa_lib:
+- 1.2.11
+migrator_ts: 1706646299.6472733
