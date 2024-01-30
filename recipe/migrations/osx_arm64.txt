@@ -65,8 +65,8 @@ batman-package
 batoid
 batoid-rubin
 bats-core
-bayeswave
 bayes-filters-lib
+bayeswave
 bazel
 bc
 bcolz

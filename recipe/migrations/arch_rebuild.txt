@@ -31,8 +31,8 @@ backports.zoneinfo
 backward-cpp
 basemap
 bat
-bayeswave
 bayes-filters-lib
+bayeswave
 bazel
 bcrypt
 bilby.cython
