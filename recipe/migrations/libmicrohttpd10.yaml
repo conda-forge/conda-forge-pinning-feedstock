@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libmicrohttpd 1.0
+  kind: version
+  migration_number: 1
+libmicrohttpd:
+- '1.0'
+migrator_ts: 1706875492.975051
