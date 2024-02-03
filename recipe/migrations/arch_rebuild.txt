@@ -334,6 +334,7 @@ llist
 log4cxx
 logzero
 lp_solve
+lsdeluxe
 lua
 mahotas
 mamba
@@ -888,6 +889,7 @@ sqlalchemy
 sqsgenerator
 squashfuse
 srm
+starship
 statsmodels
 su-exec
 suitesparse
