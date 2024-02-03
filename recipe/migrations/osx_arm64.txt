@@ -440,6 +440,7 @@ hmmlearn
 hnswlib
 hole2
 hoomd
+horton
 hpx
 htcondor
 htgettoken
