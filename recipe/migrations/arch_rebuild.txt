@@ -569,6 +569,7 @@ r-bbmle
 r-bench
 r-biasedurn
 r-biglm
+r-bigmemory
 r-bigrquery
 r-bindrcpp
 r-bitops
@@ -608,6 +609,7 @@ r-essentials
 r-extrafont
 r-factominer
 r-fastcluster
+r-fastglm
 r-fastica
 r-fastmatch
 r-fbasics
@@ -624,6 +626,7 @@ r-fpc
 r-fracdiff
 r-futile.logger
 r-gamlss
+r-gap
 r-gbm
 r-gdtools
 r-geometry
@@ -673,6 +676,7 @@ r-lpsolve
 r-lpsolveapi
 r-maldiquant
 r-mapdata
+r-mapproj
 r-maptools
 r-marginaleffects
 r-mass
@@ -686,6 +690,7 @@ r-mitools
 r-mixtools
 r-mnormt
 r-multicool
+r-mvnfast
 r-mvoutlier
 r-mvtnorm
 r-nbpseq
@@ -821,6 +826,7 @@ r-vroom
 r-webutils
 r-wgcna
 r-wordcloud
+r-wrs2
 r-xlsx
 r-xml
 r-yaml
