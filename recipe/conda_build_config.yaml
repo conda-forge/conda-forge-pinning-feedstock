@@ -656,7 +656,7 @@ openblas:
 openexr:
   - '3.2'
 openh264:
-  - 2.4.0
+  - 2.4.1
 openjpeg:
   - '2'
 openmpi:
