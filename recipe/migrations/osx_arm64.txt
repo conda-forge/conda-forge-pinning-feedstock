@@ -1287,6 +1287,7 @@ sox
 soxr-python
 spacy
 spam
+spectrum
 spglib
 spinsfast
 spleaf
