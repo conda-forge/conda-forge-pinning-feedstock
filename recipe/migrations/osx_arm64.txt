@@ -1135,6 +1135,7 @@ r-rsvg
 r-s2
 r-seurat
 r-sf
+r-showtext
 r-slider
 r-sn
 r-sodium

@@ -785,6 +785,7 @@ r-seurat
 r-sfheaders
 r-sgeostat
 r-shinywidgets
+r-showtext
 r-slam
 r-slider
 r-sm
