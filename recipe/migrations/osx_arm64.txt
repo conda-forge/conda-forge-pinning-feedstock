@@ -1336,6 +1336,7 @@ tesseract
 tesserocr
 texlive-core
 tflint
+thrax
 tifffile
 tiffslide
 tiktoken
