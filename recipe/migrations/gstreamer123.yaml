@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for gstreamer 1.23
+  kind: version
+  migration_number: 1
+gstreamer:
+- '1.23'
+migrator_ts: 1707299959.7722485
