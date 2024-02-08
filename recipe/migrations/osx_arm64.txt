@@ -855,6 +855,7 @@ pycifrw
 pyclipper
 pycocotools
 pycparser
+pycrdt
 pycurl
 pyddx
 pydelatin
