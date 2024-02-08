@@ -773,6 +773,7 @@ pcraster
 pdftotext
 pdm
 peewee
+pelicanplatform
 pennylane
 pennylane-lightning-kokkos
 perl
