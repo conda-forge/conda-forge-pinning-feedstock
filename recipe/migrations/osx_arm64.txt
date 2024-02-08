@@ -1130,6 +1130,7 @@ r-rhpcblasctl
 r-rhub
 r-rmpfr
 r-robustbase
+r-robustgasp
 r-rocit
 r-roxygen2
 r-rpostgres
