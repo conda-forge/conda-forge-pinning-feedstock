@@ -431,6 +431,7 @@ pandas-stubs
 pandoc
 parcels
 pathos
+pelicanplatform
 pennylane
 pennylane-lightning-gpu
 pennylane-lightning-kokkos
