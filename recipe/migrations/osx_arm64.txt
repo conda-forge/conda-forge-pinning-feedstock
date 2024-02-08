@@ -218,6 +218,7 @@ dbgpy
 dcm2niix
 ddtrace
 deepspeed
+deltalake
 deno
 deno-dom
 depfinder
