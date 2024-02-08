@@ -727,6 +727,7 @@ r-profvis
 r-proxy
 r-ps
 r-pscl
+r-qgam
 r-qlcmatrix
 r-qs
 r-qtl
