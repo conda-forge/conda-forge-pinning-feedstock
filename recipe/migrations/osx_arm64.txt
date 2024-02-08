@@ -855,6 +855,7 @@ pycifrw
 pyclipper
 pycocotools
 pycparser
+pycrdt
 pycurl
 pyddx
 pydelatin
@@ -1478,4 +1479,3 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
-pycrdt
