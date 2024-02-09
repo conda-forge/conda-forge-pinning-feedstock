@@ -566,6 +566,7 @@ r-av
 r-backbone
 r-base
 r-batchtools
+r-bayesfactor
 r-bbmisc
 r-bbmle
 r-bench
@@ -578,6 +579,7 @@ r-bitops
 r-blockmodeling
 r-brglm
 r-brms
+r-bwstest
 r-cairo
 r-car
 r-catboost
@@ -593,6 +595,7 @@ r-coin
 r-commonmark
 r-compositions
 r-compquadform
+r-contfrac
 r-cplm
 r-data.tree
 r-dbscan
@@ -661,6 +664,7 @@ r-kableextra
 r-kernlab
 r-kknn
 r-kohonen
+r-ksamples
 r-lazyeval
 r-lhs
 r-liblinear
@@ -720,6 +724,7 @@ r-phylobase
 r-pillar
 r-plsgenomics
 r-plsvarsel
+r-pmcmrplus
 r-poissonbinomial
 r-praznik
 r-princurve
@@ -803,6 +808,7 @@ r-splines2
 r-spp
 r-sqldf
 r-statnet.common
+r-suppdists
 r-survival
 r-survminer
 r-svd
