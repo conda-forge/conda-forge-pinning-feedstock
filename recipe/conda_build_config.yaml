@@ -308,7 +308,7 @@ console_bridge:
 cudnn:
   - 8
 cutensor:
-  - 1
+  - 2
 curl:
   - 8
 dav1d:
