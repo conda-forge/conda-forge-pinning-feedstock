@@ -494,6 +494,7 @@ jupyter-docx-bundler
 jupyter_contrib_nbextensions
 jupyter_server
 kaggle
+kanidm-clients
 kartothek
 kdepy
 kepderiv

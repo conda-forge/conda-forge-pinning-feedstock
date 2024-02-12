@@ -261,6 +261,7 @@ jupyter-dash
 jupyter_contrib_nbextensions
 jupyterhub
 jxrlib
+kanidm-clients
 kaolin
 kartothek
 kdepy
