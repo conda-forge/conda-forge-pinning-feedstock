@@ -336,7 +336,7 @@ flann:
 flatbuffers:
   - 23.5.26
 fmt:
-  - '9'
+  - '10'
 fontconfig:
   - 2
 freetype:
@@ -788,7 +788,7 @@ soapysdr:
 sox:
   - 14.4.2
 spdlog:
-  - '1.11'
+  - '1.12'
 # keep sqlite in sync with libsqlite
 sqlite:
   - 3
