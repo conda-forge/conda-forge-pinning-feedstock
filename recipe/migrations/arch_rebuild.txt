@@ -940,6 +940,7 @@ treelite
 tsl_robin_map
 typing
 typos
+typstfmt
 ucx-split
 ujson
 uncrustify
