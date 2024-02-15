@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_event_stream 0.4.2
+  kind: version
+  migration_number: 1
+  automerge: true
+aws_c_event_stream:
+- 0.4.2
+migrator_ts: 1707980130.622986
