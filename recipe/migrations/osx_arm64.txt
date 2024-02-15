@@ -1379,6 +1379,7 @@ tslearn
 turodbc
 twine
 typos
+typstfmt
 tzfpy
 ujson
 ukkonen
