@@ -448,6 +448,7 @@ htcondor
 htgettoken
 htop
 httpx
+hug
 hugin
 hunspell
 hurl
