@@ -162,6 +162,7 @@ esmpy
 f2c
 fa2
 faiss-split
+fancycompleter
 fastparquet
 fcl
 fenics-dolfinx
