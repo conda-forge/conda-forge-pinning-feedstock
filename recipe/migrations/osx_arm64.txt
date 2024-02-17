@@ -1410,6 +1410,7 @@ vina
 visan
 vispy
 vitables
+vivid
 viztracer
 vl-convert
 vowpalwabbit

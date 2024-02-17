@@ -958,6 +958,7 @@ veloxchem
 vigra
 vim
 vina
+vivid
 viztracer
 voro
 vowpalwabbit
