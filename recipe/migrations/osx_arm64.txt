@@ -1024,6 +1024,7 @@ quantlib
 quantlib-python
 quarto
 quaternion
+quspin
 qutip
 r
 r-anytime
