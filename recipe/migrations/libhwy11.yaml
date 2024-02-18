@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libhwy 1.1
+  kind: version
+  migration_number: 1
+libhwy:
+- '1.1'
+migrator_ts: 1708236665.052781
