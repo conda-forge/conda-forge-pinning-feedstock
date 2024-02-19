@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for exiv2 0.28
+  kind: version
+  migration_number: 1
+exiv2:
+- '0.28'
+migrator_ts: 1708094168.7880902
