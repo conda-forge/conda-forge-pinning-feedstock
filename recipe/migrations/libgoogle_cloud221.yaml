@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libgoogle_cloud 2.21
+  kind: version
+  migration_number: 1
+libgoogle_cloud:
+- '2.21'
+migrator_ts: 1708358802.0941658
