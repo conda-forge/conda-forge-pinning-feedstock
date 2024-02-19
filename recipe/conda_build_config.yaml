@@ -394,8 +394,8 @@ glpk:
 gmp:
   - 6
 # keep google_cloud_cpp in sync with libgoogle_cloud
-google_cloud_cpp:  # legacy setup
-  - '2.17'
+google_cloud_cpp:
+  - '2.12'
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
@@ -502,8 +502,8 @@ libgdal:
 libgit2:
   - '1.7'
 # Keep in sync with google_cloud_cpp
-libgoogle_cloud:   # legacy setup
-  - '2.17'
+libgoogle_cloud:
+  - '2.12'
 libgrpc:
   - '1.58'
 libhugetlbfs:
