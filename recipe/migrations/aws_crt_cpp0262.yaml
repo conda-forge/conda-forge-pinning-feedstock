@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for aws_crt_cpp 0.26.2
-  kind: version
-  migration_number: 1
-  automerge: true
-aws_crt_cpp:
-- 0.26.2
-migrator_ts: 1707972164.8484967
