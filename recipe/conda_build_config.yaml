@@ -692,7 +692,7 @@ petsc:
 petsc4py:
   - '3.20'
 pugixml:
-  - '1.13'
+  - '1.14'
 slepc:
   - '3.20'
 slepc4py:
