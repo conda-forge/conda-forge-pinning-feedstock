@@ -190,6 +190,7 @@ gfal2-util
 gh
 ghc
 gilknocker
+git-cliff
 glimpse
 glm
 glum
