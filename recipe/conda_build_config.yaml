@@ -264,7 +264,7 @@ aws_c_auth:
 aws_c_cal:
   - 0.6.10
 aws_c_common:
-  - 0.9.12
+  - 0.9.13
 aws_c_compression:
   - 0.2.18
 # coupled to aws_c_common version bump, see
