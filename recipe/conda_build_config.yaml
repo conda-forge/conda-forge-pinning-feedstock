@@ -104,9 +104,8 @@ rust_compiler:
 macos_machine:                 # [osx]
   - x86_64-apple-darwin13.4.0  # [osx and x86_64]
   - arm64-apple-darwin20.0.0   # [osx and arm64]
-MACOSX_DEPLOYMENT_TARGET:      # [osx]
-  - 11.0                       # [osx and arm64]
-  - 10.9                       # [osx and x86_64]
+MACOSX_DEPLOYMENT_TARGET:  # [osx and x86_64]
+  - "10.13"                  # [osx and x86_64]
 VERBOSE_AT:
   - V=1
 VERBOSE_CM:
@@ -505,7 +504,7 @@ libgit2:
 libgoogle_cloud:
   - '2.12'
 libgrpc:
-  - '1.58'
+  - "1.59"
 libhugetlbfs:
   - 2
 libhwloc:
@@ -545,7 +544,9 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 4.24.3
+  - 4.24.4
+# already covered by libabseil20230802_libgrpc157_libprotobuf4234,
+# which we cannot delete yet, but keep for clarity
 libpq:
   - '16'
 libraw:
