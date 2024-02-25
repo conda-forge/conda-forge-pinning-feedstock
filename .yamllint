@@ -4,4 +4,7 @@ rules:
   document-start: disable
   line-length:
     max: 180
-  indent-sequences: whatever
+  indentation:
+    spaces: consistent
+    indent-sequences: whatever
+    check-multi-line-strings: false
