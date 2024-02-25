@@ -10,13 +10,13 @@ __migrator:
     # this shouldn't attempt to modify the python feedstocks
     - protobuf
 libabseil:
-- "20240116"
+  - "20240116"
 libgrpc:
-- "1.61"
+  - "1.61"
 libprotobuf:
-- 4.25.2
+  - 4.25.2
 # already covered by libabseil20230802_libgrpc157_libprotobuf4234,
 # which we cannot delete yet, but keep for clarity
-MACOSX_DEPLOYMENT_TARGET:  # [osx and x86_64]
-- "10.13"                  # [osx and x86_64]
+MACOSX_DEPLOYMENT_TARGET:    # [osx and x86_64]
+  - "10.13"                  # [osx and x86_64]
 migrator_ts: 1705991934.9119136
