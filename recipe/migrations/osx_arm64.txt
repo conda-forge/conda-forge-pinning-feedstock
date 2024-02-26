@@ -1033,6 +1033,7 @@ r-anytime
 r-ape
 r-aptreeshape
 r-arrow
+r-bart
 r-base
 r-beeswarm
 r-bipartite
