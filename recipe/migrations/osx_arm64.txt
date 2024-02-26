@@ -1239,6 +1239,7 @@ sccache
 scenepic
 schwimmbad
 scikit-allel
+scikit-bio
 scikit-digital-health
 scikit-fmm
 scikit-geometry
