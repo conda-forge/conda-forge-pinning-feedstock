@@ -1046,6 +1046,7 @@ r-changepoints
 r-checkmate
 r-coda
 r-cubature
+r-dbarts
 r-desctools
 r-desolve
 r-devtools
