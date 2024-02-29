@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for aom 3.8
-  kind: version
-  migration_number: 1
-aom:
-- '3.8'
-migrator_ts: 1706659535.1517274
