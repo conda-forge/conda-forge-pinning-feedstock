@@ -140,6 +140,7 @@ datafusion
 datamash
 dataprep
 dav1d
+deltalake
 deno
 deno-dom
 dgl
