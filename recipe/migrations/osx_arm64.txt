@@ -523,6 +523,7 @@ lapack
 laspy
 lazrs-python
 lazy-object-proxy
+lenstool
 levenshtein
 lfortran
 lhapdf
