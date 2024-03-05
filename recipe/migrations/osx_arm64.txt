@@ -189,6 +189,7 @@ cppunit
 crest
 crick
 cross-python
+cryptlib
 cryptography
 cryptopp
 cspice
