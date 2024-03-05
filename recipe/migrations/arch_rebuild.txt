@@ -85,6 +85,7 @@ cppad
 cppcheck
 cpptango
 cppunit
+cryptlib
 cryptopp
 cub
 cuda
