@@ -1112,6 +1112,7 @@ r-padr
 r-parallelDist
 r-parsedate
 r-pbapply
+r-pdftools
 r-pdp
 r-performanceanalytics
 r-phangorn
