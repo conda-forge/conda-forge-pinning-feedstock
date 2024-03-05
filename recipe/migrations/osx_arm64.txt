@@ -1495,3 +1495,4 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
+r-pdftools
