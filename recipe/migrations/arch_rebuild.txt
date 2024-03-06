@@ -959,6 +959,7 @@ uproot4
 urdfdom
 urdfdom_headers
 urwid
+uv
 uvicorn
 uvloop
 vampyr
