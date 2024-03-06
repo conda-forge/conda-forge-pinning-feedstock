@@ -540,7 +540,7 @@ libgoogle_cloud_speech_devel:
 libgoogle_cloud_storage_devel:
   - '2.21'
 libgrpc:
-  - "1.59"
+  - "1.60"
 libhugetlbfs:
   - 2
 libhwloc:
@@ -580,7 +580,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 4.24.4
+  - 4.25.1
 libpq:
   - '16'
 libraw:
