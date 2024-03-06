@@ -115,6 +115,7 @@ cctbx-base
 cdo
 celerite
 celery
+cell_tree2d
 cellfinder-core
 ceres-solver
 certifi
@@ -848,6 +849,7 @@ py-openimageio
 py-plumed
 py-spy
 py-triangle
+py_gd
 py_rattler
 pyagrum
 pyahocorasick
