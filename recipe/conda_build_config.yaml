@@ -423,7 +423,7 @@ jasper:
   - 4
 jpeg:
   - 9
-lcms:
+lcms2:
   - 2
 lerc:
   - '4'
