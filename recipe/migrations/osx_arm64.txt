@@ -75,6 +75,7 @@ benchmark
 bilby.cython
 billiard
 binaryen
+bindensity
 biosphere
 biotite
 bipedal-locomotion-framework
