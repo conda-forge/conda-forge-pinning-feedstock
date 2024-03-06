@@ -971,6 +971,7 @@ python-box
 python-build
 python-casacore
 python-cdo
+python-cityhash
 python-confluent-kafka
 python-cppcolormap
 python-crfsuite
