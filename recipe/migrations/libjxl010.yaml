@@ -1,0 +1,9 @@
+migrator_ts: 1709734177
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+# Remember to add a global pin for this when it is closed
+libjxl:
+  - '0.10'
