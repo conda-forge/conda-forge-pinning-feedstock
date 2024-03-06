@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for libprotobuf 4.25.3
   kind: version
   migration_number: 1
-  paused: true
   exclude:
     - abseil-cpp
     - grpc-cpp
