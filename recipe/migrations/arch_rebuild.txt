@@ -316,6 +316,7 @@ libmo_unpack
 libmongocxx
 libnpp
 libnsl
+libnvfatbin
 libnvjitlink
 libnvjpeg
 libopus
