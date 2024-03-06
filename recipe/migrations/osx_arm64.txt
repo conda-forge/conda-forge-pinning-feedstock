@@ -1404,6 +1404,7 @@ uproc
 upv
 uritools
 urllib3
+uv
 uvicorn
 uvloop
 uwsift
