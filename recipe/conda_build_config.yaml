@@ -164,7 +164,6 @@ zip_keys:
     - c_compiler_version        # [unix]
     - cxx_compiler_version      # [unix]
     - fortran_compiler_version  # [unix]
-    - c_stdlib                  # [unix]
     - c_stdlib_version          # [unix]
     - cdt_name                  # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler             # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
