@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libgrpc 1.62
+  kind: version
+  migration_number: 1
+libgrpc:
+- '1.62'
+migrator_ts: 1709709431.5247624
