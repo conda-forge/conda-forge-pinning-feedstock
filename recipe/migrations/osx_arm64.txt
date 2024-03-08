@@ -1225,6 +1225,7 @@ rtree
 ruamel.yaml
 rubin-sim
 ruff
+ruptura
 ruptures
 rust-script
 rustpython
