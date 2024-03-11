@@ -871,6 +871,7 @@ pycrdt
 pycurl
 pyddx
 pydelatin
+pydpc
 pyduktape2
 pyebsdindex
 pyemir
