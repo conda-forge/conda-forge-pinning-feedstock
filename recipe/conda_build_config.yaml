@@ -409,6 +409,8 @@ hdf5:
   - 1.14.3
 icu:
   - '73'
+idyntree:
+  - '11'
 imath:
   - 3.1.11
 ipopt:
