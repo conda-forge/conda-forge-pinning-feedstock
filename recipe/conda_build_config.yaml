@@ -13,8 +13,11 @@ c_stdlib:
   - macosx_deployment_target   # [osx]
   - vs                         # [win]
 c_stdlib_version:              # [unix]
-  - 2.12                       # [linux64]
-  - 2.17                       # [aarch64 or ppc64le]
+  - 2.12                       # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
+  - 2.17                       # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
+  - 2.17                       # [linux and not x86_64]
+  - 2.17                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 2.17                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 10.9                       # [osx and x86_64]
   - 11.0                       # [osx and arm64]
 cxx_compiler:
@@ -161,16 +164,14 @@ zip_keys:
     - c_compiler_version        # [unix]
     - cxx_compiler_version      # [unix]
     - fortran_compiler_version  # [unix]
+    - c_stdlib_version          # [unix]
+    - cdt_name                  # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler             # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cdt_name                  # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - docker_image              # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   -                             # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler             # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  -                             # [unix]
-    - c_stdlib                  # [unix]
-    - c_stdlib_version          # [unix]
   -
     - python
     - numpy
@@ -180,12 +181,6 @@ zip_keys:
     - arrow_cpp
     - libarrow
     - libarrow_all
-  # as of 4.23.x, libprotobuf requires patch-level run-exports;
-  # we couple it with grpc (which very roughly releases in sync)
-  # to reduce the migration pain for these two libs a bit.
-  -
-    - libgrpc
-    - libprotobuf
 
 
 # aarch64 specifics because conda-build sets many things to centos 6
@@ -240,11 +235,11 @@ blas_impl:
 abseil_cpp:
   - '20220623.0'
 alsa_lib:
-  - 1.2.10
+  - '1.2'
 antic:
   - 0.2
 aom:
-  - '3.7'
+  - '3.8'
 arb:
   - '2.23'
 arpack:
@@ -262,9 +257,9 @@ attr:
 aws_c_auth:
   - 0.7.16
 aws_c_cal:
-  - 0.6.9
+  - 0.6.10
 aws_c_common:
-  - 0.9.12
+  - 0.9.13
 aws_c_compression:
   - 0.2.18
 # coupled to aws_c_common version bump, see
@@ -272,19 +267,19 @@ aws_c_compression:
 aws_c_event_stream:
   - 0.4.2
 aws_c_http:
-  - 0.8.0
+  - 0.8.1
 # the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
-  - 0.14.3
+  - 0.14.5
 # the builds got coupled because 0.2.4 landed before the io migrator
 aws_c_mqtt:
   - 0.10.2
 aws_c_s3:
-  - 0.5.1
+  - 0.5.2
 aws_c_sdkutils:
   - 0.1.15
 aws_checksums:
-  - 0.1.17
+  - 0.1.18
 aws_crt_cpp:
   - 0.26.2
 aws_sdk_cpp:
@@ -298,7 +293,7 @@ c_ares:
 cairo:
   - 1
 capnproto:
-  - 0.10.2
+  - 1.0.2
 ccr:
   - 1.3
 cfitsio:
@@ -393,9 +388,9 @@ glpk:
   - '5.0'
 gmp:
   - 6
-# keep google_cloud_cpp in sync with libgoogle_cloud
-google_cloud_cpp:
-  - '2.12'
+# keep google_cloud_cpp in sync with libgoogle_cloud_*
+google_cloud_cpp:  # legacy setup
+  - '2.21'
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
@@ -414,8 +409,10 @@ hdf5:
   - 1.14.3
 icu:
   - '73'
+idyntree:
+  - '11'
 imath:
-  - 3.1.9
+  - 3.1.11
 ipopt:
   - 3.14.14
 isl:
@@ -424,7 +421,7 @@ jasper:
   - 4
 jpeg:
   - 9
-lcms:
+lcms2:
   - 2
 lerc:
   - '4'
@@ -502,10 +499,46 @@ libgdal:
 libgit2:
   - '1.7'
 # Keep in sync with google_cloud_cpp
-libgoogle_cloud:
-  - '2.12'
+libgoogle_cloud:   # legacy setup
+  - '2.21'
+libgoogle_cloud_devel:
+  - '2.21'
+libgoogle_cloud_all_devel:
+  - '2.21'
+libgoogle_cloud_aiplatform_devel:
+  - '2.21'
+libgoogle_cloud_automl_devel:
+  - '2.21'
+libgoogle_cloud_bigquery_devel:
+  - '2.21'
+libgoogle_cloud_bigtable_devel:
+  - '2.21'
+libgoogle_cloud_compute_devel:
+  - '2.21'
+libgoogle_cloud_dialogflow_cx_devel:
+  - '2.21'
+libgoogle_cloud_dialogflow_es_devel:
+  - '2.21'
+libgoogle_cloud_discoveryengine_devel:
+  - '2.21'
+libgoogle_cloud_dlp_devel:
+  - '2.21'
+libgoogle_cloud_iam_devel:
+  - '2.21'
+libgoogle_cloud_oauth2_devel:
+  - '2.21'
+libgoogle_cloud_policytroubleshooter_devel:
+  - '2.21'
+libgoogle_cloud_pubsub_devel:
+  - '2.21'
+libgoogle_cloud_spanner_devel:
+  - '2.21'
+libgoogle_cloud_speech_devel:
+  - '2.21'
+libgoogle_cloud_storage_devel:
+  - '2.21'
 libgrpc:
-  - '1.58'
+  - "1.60"
 libhugetlbfs:
   - 2
 libhwloc:
@@ -545,7 +578,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 4.24.3
+  - 4.25.1
 libpq:
   - '16'
 libraw:
@@ -692,7 +725,7 @@ petsc:
 petsc4py:
   - '3.20'
 pugixml:
-  - '1.13'
+  - '1.14'
 slepc:
   - '3.20'
 slepc4py:
@@ -708,7 +741,7 @@ pcre2:
 pixman:
   - 0
 poco:
-  - 1.12.4
+  - 1.13.2
 poppler:
   - '23.07'
 postgresql:
@@ -757,13 +790,14 @@ qtkeychain:
 rdma_core:
   - '49'
 re2:
-  - 2023.06.02
+  - 2023.09.01
 readline:
   - "8"
 rocksdb:
   - '8.0'
 root_base:
   - 6.28.10
+  - 6.30.2
 ruby:
   - 2.5
   - 2.6
@@ -780,7 +814,7 @@ scotch:
 ptscotch:
   - 7.0.4
 s2n:
-  - 1.4.3
+  - 1.4.5
 sdl2:
   - '2'
 sdl2_image:
@@ -825,7 +859,7 @@ tinyxml2:
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
-  - '2.19'
+  - '2.20'
 ucx:
   - '1.15.0'
 uhd:

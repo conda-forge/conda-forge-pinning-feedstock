@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for libabseil 20240116, libgrp 1.61, libprotobuf 4.25.2
   kind: version
   migration_number: 1
-  paused: True
   exclude:
     - abseil-cpp
     - grpc-cpp

@@ -85,6 +85,7 @@ cppad
 cppcheck
 cpptango
 cppunit
+cryptlib
 cryptopp
 cub
 cuda
@@ -140,6 +141,7 @@ datafusion
 datamash
 dataprep
 dav1d
+deltalake
 deno
 deno-dom
 dgl
@@ -190,6 +192,7 @@ gfal2-util
 gh
 ghc
 gilknocker
+git-cliff
 glimpse
 glm
 glum
@@ -313,6 +316,7 @@ libmo_unpack
 libmongocxx
 libnpp
 libnsl
+libnvfatbin
 libnvjitlink
 libnvjpeg
 libopus
@@ -552,6 +556,7 @@ pyzstd
 qgis
 qgrid
 qhull
+qt-graphs
 quarto
 quaternion
 quippy
@@ -826,6 +831,7 @@ r-tkrplot
 r-tm
 r-tmvtnorm
 r-tokenizers
+r-transformr
 r-truncdist
 r-tseries
 r-tsp
@@ -929,6 +935,7 @@ termcolor-cpp
 tesseract
 thriftpy2
 thrust
+tiktoken
 timezonefinder
 tini
 tinyxml
@@ -952,6 +959,7 @@ uproot4
 urdfdom
 urdfdom_headers
 urwid
+uv
 uvicorn
 uvloop
 vampyr

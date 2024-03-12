@@ -4,6 +4,11 @@ repos:
   hooks:
     - id: file-contents-sorter
       files: recipe/migrations/arch_rebuild.txt|recipe/migrations/osx_arm64.txt
+- repo: https://github.com/adrienverge/yamllint.git
+  rev: v1.33.0
+  hooks:
+    - id: yamllint
+      files: recipe\/migrations\/.*\.yaml
 
 ci:
     autofix_commit_msg: |

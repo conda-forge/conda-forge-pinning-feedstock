@@ -6,6 +6,7 @@ adcc
 adrt
 aesara
 affogato
+agate
 aio-pika
 aiodns
 aioeasywebdav
@@ -75,6 +76,7 @@ benchmark
 bilby.cython
 billiard
 binaryen
+bindensity
 biosphere
 biotite
 bipedal-locomotion-framework
@@ -115,6 +117,7 @@ cctbx-base
 cdo
 celerite
 celery
+cell_tree2d
 cellfinder-core
 ceres-solver
 certifi
@@ -189,6 +192,7 @@ cppunit
 crest
 crick
 cross-python
+cryptlib
 cryptography
 cryptopp
 cspice
@@ -289,6 +293,7 @@ fastapi
 fastavro
 fastcache
 fastdtw
+fastnumbers
 fastparquet
 fastremap
 faunus
@@ -354,6 +359,7 @@ gifsicle
 gilknocker
 gimli.units
 git
+git-cliff
 git-lfs
 glab
 glib
@@ -432,6 +438,7 @@ hdf4
 hdf5
 hdf5-external-filter-plugins
 hdf5plugin
+hdmedians
 healpix_cxx
 healpy
 helix
@@ -520,6 +527,7 @@ lapack
 laspy
 lazrs-python
 lazy-object-proxy
+lenstool
 levenshtein
 lfortran
 lhapdf
@@ -844,6 +852,7 @@ py-openimageio
 py-plumed
 py-spy
 py-triangle
+py_gd
 py_rattler
 pyagrum
 pyahocorasick
@@ -864,6 +873,7 @@ pycrdt
 pycurl
 pyddx
 pydelatin
+pydpc
 pyduktape2
 pyebsdindex
 pyemir
@@ -964,6 +974,7 @@ python-box
 python-build
 python-casacore
 python-cdo
+python-cityhash
 python-confluent-kafka
 python-cppcolormap
 python-crfsuite
@@ -1019,6 +1030,7 @@ qt
 qt-3d
 qt-charts
 qt-datavis3d
+qt-graphs
 quantecon
 quantized-mesh-encoder
 quantlib
@@ -1032,6 +1044,7 @@ r-anytime
 r-ape
 r-aptreeshape
 r-arrow
+r-bart
 r-base
 r-beeswarm
 r-bipartite
@@ -1043,6 +1056,7 @@ r-changepoints
 r-checkmate
 r-coda
 r-cubature
+r-dbarts
 r-desctools
 r-desolve
 r-devtools
@@ -1106,6 +1120,7 @@ r-padr
 r-parallelDist
 r-parsedate
 r-pbapply
+r-pdftools
 r-pdp
 r-performanceanalytics
 r-phangorn
@@ -1213,6 +1228,7 @@ rtree
 ruamel.yaml
 rubin-sim
 ruff
+ruptura
 ruptures
 rust-script
 rustpython
@@ -1236,6 +1252,7 @@ sccache
 scenepic
 schwimmbad
 scikit-allel
+scikit-bio
 scikit-digital-health
 scikit-fmm
 scikit-geometry
@@ -1395,6 +1412,7 @@ uproc
 upv
 uritools
 urllib3
+uv
 uvicorn
 uvloop
 uwsift
