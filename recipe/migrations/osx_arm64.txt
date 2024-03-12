@@ -6,6 +6,7 @@ adcc
 adrt
 aesara
 affogato
+agate
 aio-pika
 aiodns
 aioeasywebdav
