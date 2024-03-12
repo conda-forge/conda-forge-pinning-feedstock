@@ -557,6 +557,7 @@ libqdldl
 libqrencode
 librdkafka
 libsass
+libsecp256k1
 libsigcpp
 libsoup
 libspatialindex
