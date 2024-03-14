@@ -36,6 +36,7 @@ bayeswave
 bazel
 bcrypt
 bilby.cython
+binaryen
 biom-format
 bipedal-locomotion-framework
 black
