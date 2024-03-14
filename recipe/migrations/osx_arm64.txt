@@ -838,8 +838,8 @@ protobuf
 protozfits
 prrng
 psfex
-psimpy
 psi4
+psimpy
 psy-reg
 psy-view
 psychopy
