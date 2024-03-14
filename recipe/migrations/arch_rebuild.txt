@@ -928,6 +928,7 @@ tango-admin
 tango-database
 tango-starter
 tango-test
+taplo
 tectonic
 teensy_loader_cli
 tensorflow
