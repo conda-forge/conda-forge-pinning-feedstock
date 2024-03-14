@@ -839,6 +839,7 @@ protozfits
 prrng
 psfex
 psi4
+psimpy
 psy-reg
 psy-view
 psychopy
