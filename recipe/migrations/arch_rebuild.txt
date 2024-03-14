@@ -474,6 +474,7 @@ proj
 prophet
 protobuf
 provstore-api
+psimpy
 psycopg2
 ptxcompiler
 pulp
