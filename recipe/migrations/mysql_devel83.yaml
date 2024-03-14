@@ -1,0 +1,9 @@
+migrator_ts: 1710446179
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+# Add this to the conda-forge pinning yaml when closing the migrator
+mysql_devel:
+  - '8.3'
