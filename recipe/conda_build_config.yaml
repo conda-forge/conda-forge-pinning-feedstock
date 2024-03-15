@@ -333,7 +333,7 @@ elfutils:
 exiv2:
   - 0.27
 expat:
-  - 2
+  - 2.5
 ffmpeg:
   - '6'
 fftw:
