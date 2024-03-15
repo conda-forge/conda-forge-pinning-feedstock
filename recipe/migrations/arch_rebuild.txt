@@ -385,6 +385,7 @@ nghttp2
 noise
 nordugrid-arc
 notebook
+nox
 nsight-compute
 nsync
 numba
