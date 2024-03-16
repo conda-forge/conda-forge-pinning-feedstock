@@ -544,7 +544,7 @@ libhugetlbfs:
 libhwloc:
   - '2.9.1'
 libhwy:
-  - '1.0'
+  - '1.1'
 libiconv:
   - 1
 libidn2:
