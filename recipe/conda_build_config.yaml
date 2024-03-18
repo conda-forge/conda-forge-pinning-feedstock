@@ -332,6 +332,11 @@ elfutils:
   - 0.190
 exiv2:
   - 0.27
+# The vtk-feedstock maintainers asked that we pin to 2.5 at build time
+# to help with compatibility with their packages
+# while they resolve the underlying issue upstream
+# https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/5640
+# The pin may be reverted to '2' in June 2024.
 expat:
   - 2.5
 ffmpeg:
