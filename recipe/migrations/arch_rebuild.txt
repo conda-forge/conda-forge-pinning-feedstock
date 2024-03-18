@@ -865,6 +865,7 @@ rclone
 rdma-core
 rectangle-packer
 reproc
+rerun-sdk
 resvg
 rhumba
 rich
