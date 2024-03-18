@@ -644,6 +644,7 @@ metview-batch
 mgrs
 micromamba
 mim-solvers
+minijinja
 minuit2
 mitmproxy
 mlflow
