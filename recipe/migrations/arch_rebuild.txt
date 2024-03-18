@@ -325,6 +325,7 @@ libpnetcdf
 libqdldl
 libqrencode
 librdkafka
+librerun-sdk
 librmm
 libsolv
 libudev
