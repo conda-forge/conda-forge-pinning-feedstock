@@ -324,6 +324,7 @@ libopus
 libpnetcdf
 libqdldl
 libqrencode
+librerun-sdk
 librdkafka
 librmm
 libsolv
