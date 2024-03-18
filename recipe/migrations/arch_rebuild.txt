@@ -358,6 +358,7 @@ memray
 menuinst
 metaphone
 micromamba
+minijinja
 mlip
 mosh
 mpas_tools
