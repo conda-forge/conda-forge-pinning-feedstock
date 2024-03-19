@@ -241,6 +241,7 @@ diffmah
 diffstar
 digital_rf
 dionysus
+direnv
 disperse
 divemesh
 dkh
