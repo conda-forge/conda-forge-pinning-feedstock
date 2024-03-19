@@ -442,6 +442,7 @@ hdf5plugin
 hdmedians
 healpix_cxx
 healpy
+heat
 helix
 help2man
 heyoka
