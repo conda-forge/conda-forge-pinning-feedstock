@@ -150,6 +150,7 @@ diffutils
 digital_rf
 dipy
 dirac-grid
+direnv
 distributed
 dm-tree
 dwave-ocean-sdk
