@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libgit2 1.8
+  kind: version
+  migration_number: 1
+libgit2:
+- '1.8'
+migrator_ts: 1710989682.2291226
