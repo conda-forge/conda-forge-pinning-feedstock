@@ -353,6 +353,7 @@ manim
 mariadb-connector-c
 mathjax
 matplotlib
+mcpl
 mdtraj
 meilisearch
 memray
@@ -382,6 +383,7 @@ ncbi-datasets-cli
 nccl
 ncdu
 ncurses
+ncrystal
 nds2-client-swig
 neobolt
 newrelic
