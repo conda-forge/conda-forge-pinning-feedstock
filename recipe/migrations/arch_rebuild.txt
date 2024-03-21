@@ -436,6 +436,7 @@ orc
 orocos-kdl
 osdf-client
 oso
+ossuuid
 ovito
 pagmo
 pandana
