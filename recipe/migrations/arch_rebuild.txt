@@ -382,8 +382,8 @@ nbgrader
 ncbi-datasets-cli
 nccl
 ncdu
-ncurses
 ncrystal
+ncurses
 nds2-client-swig
 neobolt
 newrelic
