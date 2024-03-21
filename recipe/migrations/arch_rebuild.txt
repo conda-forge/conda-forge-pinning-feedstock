@@ -378,6 +378,7 @@ nano
 nasm
 nb_conda_kernels
 nbgrader
+ncbi-datasets-cli
 nccl
 ncdu
 ncurses
