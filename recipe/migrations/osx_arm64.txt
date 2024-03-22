@@ -597,6 +597,7 @@ lndoctor
 log4cxx
 loky
 lp_solve
+lpsolve55
 lru-dict
 lsdeluxe
 lsst-documenteer
