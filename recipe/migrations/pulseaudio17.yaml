@@ -6,3 +6,7 @@ __migrator:
 migrator_ts: 1705695822.065136
 pulseaudio:
 - '17'
+pulseaudio-client:
+- '17'
+pulseaudio-daemon:
+- '17'
