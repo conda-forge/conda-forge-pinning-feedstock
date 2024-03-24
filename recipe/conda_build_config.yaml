@@ -777,16 +777,19 @@ python_impl:
 # Keep in sync with libtorch
 pytorch:
   - '2.1'
+# 2024/03 - hmaarrfk
+# Pin qt-main to 5.15.8 while we build out qt-webengine 5.15.13
+# to ensure compatibility between both during this transition period
 pyqt:
-  - 5.15
+  - 5.15.8
 pyqtwebengine:
-  - 5.15
+  - 5.15.8
 pyqtchart:
-  - 5.15
+  - 5.15.8
 qt:
-  - 5.15
+  - 5.15.8
 qt_main:
-  - 5.15
+  - 5.15.8
 qt6_main:
   - '6.6'
 qtkeychain:
