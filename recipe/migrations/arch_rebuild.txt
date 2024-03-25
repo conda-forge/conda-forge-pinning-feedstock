@@ -362,6 +362,7 @@ menuinst
 metaphone
 micromamba
 minijinja
+mkl-include
 mlip
 mosh
 mpas_tools
