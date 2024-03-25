@@ -438,8 +438,8 @@ optuna
 or-tools
 orange3
 oras
-orekit
 orc
+orekit
 orocos-kdl
 osdf-client
 oso
