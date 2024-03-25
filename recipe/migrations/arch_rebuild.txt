@@ -260,6 +260,7 @@ jags
 jaxlib
 jaydebeapi
 jbig
+jcc
 jellyfish
 jpype1
 json_schema_validator
@@ -438,6 +439,7 @@ or-tools
 orange3
 oras
 orc
+orekit
 orocos-kdl
 osdf-client
 oso
