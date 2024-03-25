@@ -994,6 +994,7 @@ python-gmatelastoplastic
 python-gmatelastoplasticfinitestrainsimo
 python-gmatnonlinearelastic
 python-gooseeye
+python-graphblas
 python-graphviz
 python-infomap
 python-levenshtein
