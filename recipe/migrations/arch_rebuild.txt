@@ -890,6 +890,7 @@ sage
 scalene
 scenepic
 scikit-allel
+scikit-bio
 scikit-build
 scikit-gstat
 scikit-image
