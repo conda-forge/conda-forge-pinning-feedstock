@@ -549,6 +549,7 @@ python-box
 python-build
 python-confluent-kafka
 python-crfsuite
+python-graphblas
 python-htcondor
 python-language-server
 python-orocos-kdl
