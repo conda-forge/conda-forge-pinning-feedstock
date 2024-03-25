@@ -427,6 +427,7 @@ openblas
 opencv
 openmm
 openmotif
+openmp
 openmpi
 openslide
 openslide-python
