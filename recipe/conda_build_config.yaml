@@ -164,6 +164,11 @@ zip_keys:
   -                             # [linux and os.environ.get("CF_CUDA_ENABLED", "False") != "True"]
     - c_stdlib_version          # [linux and os.environ.get("CF_CUDA_ENABLED", "False") != "True"]
     - cdt_name                  # [linux and os.environ.get("CF_CUDA_ENABLED", "False") != "True"]
+  # For OSX, these two contain the same information; in the future,
+  # we might be able to remove MACOSX_DEPLOYMENT_TARGET completely
+  -                             # [osx]
+    - c_stdlib_version          # [osx]
+    - MACOSX_DEPLOYMENT_TARGET  # [osx]
   -                             # [unix]
     - c_compiler_version        # [unix]
     - cxx_compiler_version      # [unix]
