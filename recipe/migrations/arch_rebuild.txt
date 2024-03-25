@@ -292,6 +292,7 @@ ldas-tools-frameapi-swig
 ldas-tools-framecpp-swig
 ldas-tools-ldasgen-swig
 ldas-tools-utilities
+ldc
 levenshtein
 lhcbdirac
 libaec
