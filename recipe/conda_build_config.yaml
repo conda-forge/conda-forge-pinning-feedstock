@@ -719,7 +719,7 @@ openslide:
 openssl:
   - '3'
 orc:
-  - 1.9.2
+  - 2.0.0
 pango:
   - 1.50
 pari:
