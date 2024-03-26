@@ -4,7 +4,7 @@ __migrator:
   commit_message: "Rebuild for libboost 1.84"
   migration_number: 1
 libboost_devel:
-- 1.84.0
+- "1.84"
 libboost_python_devel:
-- 1.84.0
+- "1.84"
 migrator_ts: 1700834511.141209
