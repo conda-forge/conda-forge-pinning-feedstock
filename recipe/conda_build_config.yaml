@@ -583,7 +583,7 @@ libopentelemetry_cpp:
 libosqp:
   - 0.6.3
 libopenvino_dev:
-  - '2023.3.0'
+  - '2024.0.0'
 libpcap:
   - '1.10'
 libpng:
