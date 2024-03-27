@@ -449,6 +449,7 @@ pandana
 pandas
 pandas-stubs
 pandoc
+parallel
 parcels
 pathos
 pelicanplatform
