@@ -333,7 +333,7 @@ dcap:
 eclib:
   - '20231211'
 elfutils:
-  - 0.190
+  - '0.191'
 exiv2:
   - 0.27
 expat:
