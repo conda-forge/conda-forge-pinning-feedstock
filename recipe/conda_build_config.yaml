@@ -377,7 +377,7 @@ geos:
 geotiff:
   - 1.7.1
 gfal2:
-  - '2.21'
+  - '2.22'
 gflags:
   - 2.2
 giflib:
