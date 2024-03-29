@@ -732,6 +732,7 @@ numexpr
 numina
 numpy
 numpy-allocator
+nushell
 nutpie
 nvim
 obspy
