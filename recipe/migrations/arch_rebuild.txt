@@ -402,6 +402,7 @@ numcodecs
 numexpr
 numpy
 numpy-allocator
+nushell
 nutpie
 nvcc
 nvcomp
