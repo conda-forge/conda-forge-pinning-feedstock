@@ -16,7 +16,7 @@ ci:
 
         for more information, see https://pre-commit.ci
     autofix_prs: false
-    autoupdate_commit_msg: '[pre-commit.ci] pre-commit autoupdate'
+    autoupdate_commit_msg: '[ci skip] [pre-commit.ci] pre-commit autoupdate'
     autoupdate_schedule: monthly
     skip: []
     submodules: false
