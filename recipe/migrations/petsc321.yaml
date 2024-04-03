@@ -6,3 +6,5 @@ __migrator:
 migrator_ts: 1711978255.2022784
 petsc:
 - '3.21'
+slepc:
+- '3.21'
