@@ -266,6 +266,7 @@ dwave-samplers
 dxtbx
 dynaphopy
 easyocr
+eatpy
 ecflow
 edt
 eelbrain
