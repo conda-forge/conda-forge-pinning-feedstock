@@ -966,6 +966,7 @@ tornado
 tqdm
 traits
 treelite
+tskit
 tsl_robin_map
 typing
 typos
