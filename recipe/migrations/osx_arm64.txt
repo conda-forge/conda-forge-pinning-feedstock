@@ -195,6 +195,7 @@ cross-python
 cryptlib
 cryptography
 cryptopp
+csp
 cspice
 css-html-js-minify
 cunit
