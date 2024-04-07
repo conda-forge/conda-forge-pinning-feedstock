@@ -334,6 +334,7 @@ fsleyes
 funcparserlib
 functorch
 fzf
+galgebra
 galpy
 galsim
 gau2grid
