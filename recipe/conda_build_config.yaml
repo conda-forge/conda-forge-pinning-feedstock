@@ -749,7 +749,7 @@ pcre2:
 pixman:
   - 0
 poco:
-  - 1.13.2
+  - 1.13.3
 poppler:
   - '23.07'
 postgresql:
