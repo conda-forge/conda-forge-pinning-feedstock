@@ -948,6 +948,7 @@ pyproj
 pyqg
 pyqstrat
 pyqt
+pyrage
 pyre2
 pyreadr
 pyreadstat

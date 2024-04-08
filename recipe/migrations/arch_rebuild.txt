@@ -533,6 +533,7 @@ pyorc
 pypdf
 pypy2.7
 pypy3.6
+pyrage
 pyrepl
 pyrfr
 pyright
