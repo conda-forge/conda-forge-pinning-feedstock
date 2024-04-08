@@ -391,6 +391,7 @@ nds2-client-swig
 neobolt
 newrelic
 nghttp2
+nim
 noise
 nordugrid-arc
 notebook
