@@ -928,6 +928,7 @@ pymediainfo
 pymol-open-source
 pymssql
 pymt
+pymupdf
 pynauty
 pyngl
 pynio
