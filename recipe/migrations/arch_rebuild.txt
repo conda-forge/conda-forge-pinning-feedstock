@@ -527,6 +527,7 @@ pylibtiff
 pylint
 pymatgen
 pymca
+pymupdf
 pynacl
 pynisher
 pyogrio
