@@ -5,4 +5,4 @@ __migrator:
   bump_number: 1
 
 c_blosc2:
-  - '2.14'
+  - '2.14.4'
