@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for c_blosc2 2.14
+  kind: version
+  migration_number: 1
+c_blosc2:
+- '2.14.4'
+migrator_ts: 1712872025.701592
