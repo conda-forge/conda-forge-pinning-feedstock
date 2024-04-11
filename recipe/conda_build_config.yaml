@@ -812,6 +812,7 @@ ruby:
   - 2.5
   - 2.6
 r_base:
+  - 3.6.3 # [linux and aarch64]
   - 4.1   # [win]
   - 4.2   # [not win]
   - 4.3   # [not win]
