@@ -858,8 +858,8 @@ ptpython
 pulp
 puma
 py-cpuinfo
-py-openimageio
 py-lz4framed
+py-openimageio
 py-plumed
 py-spy
 py-triangle
