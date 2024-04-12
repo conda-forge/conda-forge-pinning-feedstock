@@ -902,6 +902,7 @@ pygcgopt
 pygeoda
 pygeos
 pygit2
+pyglpk
 pygmo
 pygmo_plugins_nonfree
 pygplates
