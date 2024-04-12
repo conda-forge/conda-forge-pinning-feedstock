@@ -472,6 +472,7 @@ perl-mime-base64
 perl-moose
 perl-socket
 perl-storbale
+perl-version
 pexsi
 phantomjs
 phonopy
