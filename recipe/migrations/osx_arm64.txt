@@ -1068,6 +1068,7 @@ r-changeforest
 r-changepoint
 r-changepoints
 r-checkmate
+r-cmdstanr
 r-coda
 r-cubature
 r-dbarts
