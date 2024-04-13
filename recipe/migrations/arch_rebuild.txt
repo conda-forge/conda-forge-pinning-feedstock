@@ -544,6 +544,7 @@ pyright
 pyrosm
 pyscal
 pyscf
+pyshtools
 pyspf
 pyspnego
 pystackreg
