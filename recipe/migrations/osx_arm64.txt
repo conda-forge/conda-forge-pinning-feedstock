@@ -446,6 +446,7 @@ hdmedians
 healpix_cxx
 healpy
 heat
+helios
 helix
 help2man
 heyoka
