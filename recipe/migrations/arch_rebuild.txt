@@ -988,6 +988,7 @@ uproot4
 urdfdom
 urdfdom_headers
 urwid
+uuid-utils
 uv
 uvicorn
 uvloop

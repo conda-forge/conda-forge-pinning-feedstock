@@ -1429,6 +1429,7 @@ uproc
 upv
 uritools
 urllib3
+uuid-utils
 uv
 uvicorn
 uvloop
