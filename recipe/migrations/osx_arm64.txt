@@ -640,6 +640,7 @@ mdtraj
 megaradrp
 meilisearch
 menuinst
+meos
 mercurial
 mesas
 meshpy
@@ -928,6 +929,7 @@ pymc3
 pymde
 pymdi
 pymediainfo
+pymeos-cffi
 pymol-open-source
 pymssql
 pymt
