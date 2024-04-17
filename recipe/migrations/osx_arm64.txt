@@ -782,6 +782,7 @@ oso
 ovito
 owlready2
 pagmo
+paicos
 pandana
 pandas-stubs
 pandoc
