@@ -781,6 +781,7 @@ oso
 ovito
 owlready2
 pagmo
+paicos
 pandana
 pandas-stubs
 pandoc
@@ -1526,4 +1527,3 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
-paicos
