@@ -576,6 +576,7 @@ libsigcpp
 libsoup
 libspatialindex
 libstempo
+libtlsh
 libtool
 libtvm
 libuwebsockets
@@ -1016,6 +1017,7 @@ python-snappy
 python-stratify
 python-suitesparse-graphblas
 python-symengine
+python-tlsh
 python-xxhash
 pythran
 pytiff
@@ -1393,6 +1395,7 @@ tinyxml
 tinyxml2
 tippecanoe
 titiler-core
+tlsh-tools
 tmap
 tmux
 tnt
