@@ -1442,6 +1442,7 @@ uvicorn
 uvloop
 uwsift
 vale
+vale-ls
 vampyr
 vcpkg
 vega
