@@ -212,6 +212,7 @@ gnuradio-satellites
 gnuradio-soapy
 go-licenses
 go-yq
+google-compute-engine
 google-re2
 gosu
 gpgme
