@@ -349,6 +349,7 @@ gemmi
 genesis4
 genshi
 gensim
+geoarrow-c
 geocat-comp
 geocat-f2py
 geohexviz
