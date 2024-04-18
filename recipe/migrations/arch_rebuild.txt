@@ -189,6 +189,7 @@ functools32
 gds-swig
 geant4
 geckodriver
+geoarrow-c
 geohexviz
 geopandas
 gevent
