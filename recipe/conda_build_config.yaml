@@ -761,11 +761,11 @@ postgresql_plpython:
 proj:
   - 9.3.1
 pulseaudio:
-  - '17'
+  - '17.0'
 pulseaudio_client:
-  - '17'
+  - '17.0'
 pulseaudio_daemon:
-  - '17'
+  - '17.0'
 pybind11_abi:
   - 4
 python:
