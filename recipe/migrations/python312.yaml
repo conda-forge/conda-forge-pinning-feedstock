@@ -31,8 +31,11 @@ __migrator:
 
 python:
   - 3.12.* *_cpython
+  - 3.12.* *_cpython
 # additional entries to add for zip_keys
 numpy:
   - 1.26
+  - 2.0
 python_impl:
+  - cpython
   - cpython

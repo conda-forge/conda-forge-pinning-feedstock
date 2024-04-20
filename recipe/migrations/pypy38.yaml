@@ -34,8 +34,11 @@ __migrator:
 
 python:
   - 3.9.* *_73_pypy    # [not (osx and arm64)]
+  - 3.9.* *_73_pypy    # [not (osx and arm64)]
 numpy:
   # part of a zip_keys: python, python_impl, numpy
   - 1.22               # [not (osx and arm64)]
+  - 2.0                # [not (osx and arm64)]
 python_impl:
+  - pypy               # [not (osx and arm64)]
   - pypy               # [not (osx and arm64)]
