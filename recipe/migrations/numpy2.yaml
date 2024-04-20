@@ -5,13 +5,9 @@ __migrator:
   migration_number: 1
 
 # needs to fully reproduce zip of {python, python_impl, numpy}
-# in order to build for 2.0 and the 1.x per python version
+# in order to override it
 numpy:
-  - 1.22
-  - 1.22
-  - 1.22
-  - 1.23
-  - 2.0
+  - 1.22  # no py38 support for numpy 2.0
   - 2.0
   - 2.0
   - 2.0
@@ -20,15 +16,7 @@ python:
   - 3.9.* *_cpython
   - 3.10.* *_cpython
   - 3.11.* *_cpython
-  - 3.8.* *_cpython
-  - 3.9.* *_cpython
-  - 3.10.* *_cpython
-  - 3.11.* *_cpython
 python_impl:
-  - cpython
-  - cpython
-  - cpython
-  - cpython
   - cpython
   - cpython
   - cpython
