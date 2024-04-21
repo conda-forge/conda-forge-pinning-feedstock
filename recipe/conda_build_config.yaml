@@ -505,8 +505,8 @@ libgdal:
 libgit2:
   - '1.7'
 # Keep in sync with google_cloud_cpp
-libgoogle_cloud:   # legacy setup
-  - '2.21'
+libgoogle_cloud:
+  - '2.23'
 libgoogle_cloud_devel:
   - '2.21'
 libgoogle_cloud_all_devel:
