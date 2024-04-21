@@ -503,7 +503,7 @@ libframel:
 libgdal:
   - '3.8'
 libgit2:
-  - '1.7'
+  - '1.8'
 # Keep in sync with google_cloud_cpp
 libgoogle_cloud:   # legacy setup
   - '2.21'
