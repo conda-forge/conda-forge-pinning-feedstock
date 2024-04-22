@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for ipopt 3.14.15
-  kind: version
-  migration_number: 1
-ipopt:
-- 3.14.15
-migrator_ts: 1712831185.5957112
