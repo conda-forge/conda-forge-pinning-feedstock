@@ -420,7 +420,7 @@ idyntree:
 imath:
   - 3.1.11
 ipopt:
-  - 3.14.14
+  - 3.14.15
 isl:
   - '0.26'
 jasper:
