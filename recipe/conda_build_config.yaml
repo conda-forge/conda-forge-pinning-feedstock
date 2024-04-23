@@ -548,7 +548,7 @@ libgrpc:
 libhugetlbfs:
   - 2
 libhwloc:
-  - '2.9.1'
+  - 2.9.3
 libhwy:
   - '1.1'
 libiconv:
