@@ -467,6 +467,8 @@ hugin
 hunspell
 hurl
 hydride
+hyperion
+hyperion-fortran
 hyperspy
 hyperspyui
 ibm_db
