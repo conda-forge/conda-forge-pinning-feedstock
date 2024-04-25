@@ -362,6 +362,8 @@ mariadb-connector-c
 mathjax
 matplotlib
 mcpl
+mcstas
+mcxtrace
 mdtraj
 meilisearch
 memray
