@@ -32,6 +32,7 @@ apache-ant
 apache-beam
 apr
 apscheduler
+arcjetcv
 arm_pyart
 armadillo
 arosics
