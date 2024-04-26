@@ -397,6 +397,7 @@ ncurses
 nds2-client-swig
 neobolt
 newrelic
+nexus
 nghttp2
 nim
 noise
