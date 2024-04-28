@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_sdkutils 0.1.16
+  kind: version
+  migration_number: 1
+  autonerge: true
+aws_c_sdkutils:
+- 0.1.16
+migrator_ts: 1714218055.1875055
