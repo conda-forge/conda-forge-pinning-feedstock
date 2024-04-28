@@ -1351,6 +1351,7 @@ sqsgenerator
 squashfs-tools
 srm
 sshpass
+ssm-simulators
 stack
 stardist
 starlink-ast
