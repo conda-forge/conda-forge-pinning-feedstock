@@ -36,6 +36,7 @@ bayes-filters-lib
 bayeswave
 bazel
 bcrypt
+beagle-lib
 bilby.cython
 binaryen
 biom-format
@@ -220,6 +221,7 @@ gqrx
 graph-tool
 graphblas
 graphicsmagick
+gromacs
 grpcio
 gst-libav
 gst-plugins-bad
