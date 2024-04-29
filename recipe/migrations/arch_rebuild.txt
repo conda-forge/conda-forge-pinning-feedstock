@@ -36,7 +36,6 @@ bayes-filters-lib
 bayeswave
 bazel
 bcrypt
-beagle-lib
 bilby.cython
 binaryen
 biom-format
