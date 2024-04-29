@@ -318,6 +318,7 @@ flatbuffers
 fonttools
 forcebalance
 forestci
+forte
 fortls
 foyer
 fps-terminals
