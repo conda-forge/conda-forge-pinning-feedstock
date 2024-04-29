@@ -413,6 +413,7 @@ graphblas
 graphicsmagick
 grayskull
 great-expectations
+grimp
 gromacs
 grpc_java_plugin
 grpcio
