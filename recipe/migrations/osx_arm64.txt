@@ -47,6 +47,7 @@ asv
 asyncpg
 atheris
 atkmm
+atom
 audioread
 austin
 autoconf
