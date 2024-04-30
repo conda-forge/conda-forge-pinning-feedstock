@@ -5,4 +5,4 @@ __migrator:
   migration_number: 1
 migrator_ts: 1714455137
 libparallelproj:
-- 1.8.0
+- 1.8
