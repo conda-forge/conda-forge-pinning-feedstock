@@ -574,6 +574,7 @@ libpcm
 libpnetcdf
 libpsl
 libqdldl
+libqglviewer
 libqrencode
 librdkafka
 libsass
