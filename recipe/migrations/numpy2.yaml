@@ -1,7 +1,32 @@
 __migrator:
   build_number: 1
   kind: version
-  commit_message: "Rebuild for numpy 2.0"
+  commit_message: |
+    Rebuild for numpy 2.0
+    
+    As of version 2.0, the way we build against numpy has changed. In particular,
+    we no longer need to use the oldest available numpy version at build time
+    in order to support old numpy version at runtime - numpy will by default
+    use a compatible ABI for the oldest still-supported numpy versions.
+    
+    Additionally, we no longer need to use `{{ pin_compatible("numpy") }}` as a
+    run requirement - this has been handled for more than two years now by a
+    run-export on the numpy package itself. The migrator will therefore remove
+    any occurrences of this.
+    
+    However, by default, building against numpy 2.0 will assume that the package
+    is compatible with numpy 2.0, which is not necessarily the case. You should
+    check that the upstream package explicitly supports numpy 2.0, otherwise you
+    need to add a `- numpy <2` run requirement until that happens (check numpy
+    issue 26191 for an overview of the most important packages).
+    
+    Finally, numpy 2.0 has not yet been released, but there is a release candidate
+    that promises to be ABI-compatible with the final release. This means we can
+    build against numpy 2.0.0rc1 (which can only be installed using a special channel
+    to opt in, i.e. `conda install -c conda-forge/label/numpy_rc numpy=2.0`), and yet
+    produce packages that are compatible with older numpy versions and therefore can
+    be published to our main channels.
+
   migration_number: 1
   ordering:
   # prefer channels including numpy_rc (otherwise smithy doesn't
