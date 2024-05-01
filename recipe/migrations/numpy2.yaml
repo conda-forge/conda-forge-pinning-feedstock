@@ -3,6 +3,12 @@ __migrator:
   kind: version
   commit_message: "Rebuild for numpy 2.0"
   migration_number: 1
+  ordering:
+  # prefer channels including numpy_rc (otherwise smithy doesn't
+  # know which of the two values should be taken on merge)
+  channel_sources:
+    - conda-forge
+    - conda-forge/label/numpy_rc,conda-forge
 
 # needs to fully reproduce zip of {python, python_impl, numpy}
 # in order to override it
@@ -22,5 +28,5 @@ python_impl:
   - cpython
   - cpython
 channel_sources:
-  - conda-forge/label/numpy_dev,conda-forge
+  - conda-forge/label/numpy_rc,conda-forge
 migrator_ts: 1713572489.295986

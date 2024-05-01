@@ -40,4 +40,4 @@ numpy:
 python_impl:
   - pypy               # [not (osx and arm64)]
 channel_sources:
-  - conda-forge/label/numpy_dev,conda-forge  # [not (osx and arm64)]
+  - conda-forge/label/numpy_rc,conda-forge  # [not (osx and arm64)]

@@ -37,4 +37,4 @@ numpy:
 python_impl:
   - cpython
 channel_sources:
-  - conda-forge/label/numpy_dev,conda-forge
+  - conda-forge/label/numpy_rc,conda-forge
