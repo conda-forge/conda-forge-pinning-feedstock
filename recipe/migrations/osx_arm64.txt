@@ -47,6 +47,7 @@ asv
 asyncpg
 atheris
 atkmm
+atom
 audioread
 austin
 autoconf
@@ -318,6 +319,7 @@ flatbuffers
 fonttools
 forcebalance
 forestci
+forte
 fortls
 foyer
 fps-terminals
@@ -412,6 +414,7 @@ graphblas
 graphicsmagick
 grayskull
 great-expectations
+grimp
 gromacs
 grpc_java_plugin
 grpcio
@@ -572,6 +575,7 @@ libpcm
 libpnetcdf
 libpsl
 libqdldl
+libqglviewer
 libqrencode
 librdkafka
 libsass
