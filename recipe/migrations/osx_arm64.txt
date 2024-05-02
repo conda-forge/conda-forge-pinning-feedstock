@@ -776,6 +776,7 @@ openneuro-py
 openpmd-api
 openpnm
 openslide
+opentofu
 openturns
 optional-lite
 orange3
