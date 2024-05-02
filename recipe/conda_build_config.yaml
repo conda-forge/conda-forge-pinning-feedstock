@@ -11,6 +11,8 @@ c_stdlib:
   - sysroot                    # [linux]
   - macosx_deployment_target   # [osx]
   - vs                         # [win]
+m2w64_c_stdlib:                # [win]
+  - m2w64-toolchain            # [win]
 c_stdlib_version:              # [unix]
   - 2.12                       # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos6"]
   - 2.17                       # [linux64 and os.environ.get("DEFAULT_LINUX_VERSION", "cos6") == "cos7"]
