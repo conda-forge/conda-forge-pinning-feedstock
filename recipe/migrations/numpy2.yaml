@@ -25,10 +25,10 @@ __migrator:
     need to add a `- numpy <2` run requirement until that happens (check numpy
     issue 26191 for an overview of the most important packages).
     
-    Finally, numpy 2.0 has not yet been released, but there is a release candidate
-    that promises to be ABI-compatible with the final release. This means we can
-    build against numpy 2.0.0rc1, and yet produce packages that are compatible
-    with older numpy versions and therefore can be published to our main channels.
+    Note that the numpy release candidate promises to be ABI-compatible with the
+    final 2.0 release. This means that building against 2.0.0rc1 produces packages
+    that can be published to our main channels.
+    
     If you already want to use the numpy 2.0 release candidate yourself, you can do
     ```
     conda config --add channels conda-forge/label/numpy_rc
