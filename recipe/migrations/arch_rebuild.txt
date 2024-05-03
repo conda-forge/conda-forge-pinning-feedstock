@@ -220,6 +220,7 @@ gqrx
 graph-tool
 graphblas
 graphicsmagick
+gromacs
 grpcio
 gst-libav
 gst-plugins-bad
@@ -362,6 +363,8 @@ mariadb-connector-c
 mathjax
 matplotlib
 mcpl
+mcstas-suite
+mcxtrace-suite
 mdtraj
 meilisearch
 memray

@@ -32,6 +32,7 @@ apache-ant
 apache-beam
 apr
 apscheduler
+arcjetcv
 arm_pyart
 armadillo
 arosics
@@ -46,6 +47,7 @@ asv
 asyncpg
 atheris
 atkmm
+atom
 audioread
 austin
 autoconf
@@ -317,6 +319,7 @@ flatbuffers
 fonttools
 forcebalance
 forestci
+forte
 fortls
 foyer
 fps-terminals
@@ -411,6 +414,7 @@ graphblas
 graphicsmagick
 grayskull
 great-expectations
+grimp
 gromacs
 grpc_java_plugin
 grpcio
@@ -467,6 +471,8 @@ hugin
 hunspell
 hurl
 hydride
+hyperion
+hyperion-fortran
 hyperspy
 hyperspyui
 ibm_db
@@ -569,6 +575,7 @@ libpcm
 libpnetcdf
 libpsl
 libqdldl
+libqglviewer
 libqrencode
 librdkafka
 libsass
@@ -769,6 +776,7 @@ openneuro-py
 openpmd-api
 openpnm
 openslide
+opentofu
 openturns
 optional-lite
 orange3
@@ -1348,6 +1356,7 @@ sqsgenerator
 squashfs-tools
 srm
 sshpass
+ssm-simulators
 stack
 stardist
 starlink-ast
@@ -1408,6 +1417,7 @@ torchsde
 torchsparse
 torchtext
 torchvision
+tracktable
 traits
 treecorr
 treelite
