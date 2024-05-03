@@ -35,7 +35,7 @@ __migrator:
     ```
     or add this channel to your `.condarc` file directly.
     
-    To-Dos:
+    ### To-Dos:
       * [ ] Match run-requirements for numpy (i.e. check upstream `pyproject.toml` or however the project specifies numpy compatibility)
         * If upstream is not yet compatible with numpy 2.0, add `numpy <2` upper bound under `run:`.
         * If upstream is already compatible with numpy 2.0, nothing else should be necessary in most cases.
