@@ -98,6 +98,10 @@ target_gobin:
 rust_compiler:
   - rust
 
+# the numbers here are the Darwin Kernel version for macOS 10.9 & 11.0;
+# this is used to form our target triple on osx, and nothing else. After
+# we bumped the minimum macOS version to 10.13, this was left unchanged,
+# since it is not essential, and long-term we'd like to remove the version.
 macos_machine:                 # [osx]
   - x86_64-apple-darwin13.4.0  # [osx and x86_64]
   - arm64-apple-darwin20.0.0   # [osx and arm64]
