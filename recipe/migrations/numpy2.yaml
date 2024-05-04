@@ -56,23 +56,13 @@ __migrator:
     - conda-forge
     - conda-forge/label/numpy_rc,conda-forge
 
-# needs to fully reproduce zip of {python, python_impl, numpy}
-# in order to override it
+# needs to match length of zip {python, python_impl, numpy}
+# as it is in global CBC in order to override it
 numpy:
   - 1.22  # no py38 support for numpy 2.0
   - 2.0
   - 2.0
   - 2.0
-python:
-  - 3.8.* *_cpython
-  - 3.9.* *_cpython
-  - 3.10.* *_cpython
-  - 3.11.* *_cpython
-python_impl:
-  - cpython
-  - cpython
-  - cpython
-  - cpython
 channel_sources:
   - conda-forge/label/numpy_rc,conda-forge
 migrator_ts: 1713572489.295986
