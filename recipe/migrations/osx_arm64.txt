@@ -550,6 +550,7 @@ libboost-mpi
 libcint
 libcomcat
 libconeangle
+libcuba
 libdate
 libdb
 libdeflate
