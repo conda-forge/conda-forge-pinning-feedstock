@@ -791,6 +791,7 @@ osmium-tool
 oso
 ovito
 owlready2
+oxigraph
 pagmo
 paicos
 pandana
