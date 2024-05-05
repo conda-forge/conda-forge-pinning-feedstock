@@ -50,11 +50,11 @@ __migrator:
 
   migration_number: 1
   ordering:
-  # prefer channels including numpy_rc (otherwise smithy doesn't
-  # know which of the two values should be taken on merge)
-  channel_sources:
-    - conda-forge
-    - conda-forge/label/numpy_rc,conda-forge
+    # prefer channels including numpy_rc (otherwise smithy doesn't
+    # know which of the two values should be taken on merge)
+    channel_sources:
+      - conda-forge
+      - conda-forge/label/numpy_rc,conda-forge
 
 # needs to match length of zip {python, python_impl, numpy}
 # as it is in global CBC in order to override it
