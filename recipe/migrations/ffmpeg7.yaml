@@ -1,0 +1,12 @@
+migrator_ts: 1714874572
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+# 2024/05/04 -- hmaarrfk
+# ffmpeg migrations typically take a long time
+# Initially we ask that projects build out for both ffmpeg 6 and 7
+ffmpeg:
+  - '6'
+  - '7'
