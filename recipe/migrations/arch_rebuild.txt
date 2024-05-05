@@ -519,6 +519,7 @@ pyerfa
 pyfai
 pyferret
 pyfftw
+pyfmi
 pyg-lib
 pyg4ometry
 pygeoda
