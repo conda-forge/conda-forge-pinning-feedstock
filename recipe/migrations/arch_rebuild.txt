@@ -1052,7 +1052,6 @@ xtensor-blas
 xtensor-fftw
 xtensor-io
 xwebrtc
-yaggo
 yarp
 yoda
 yt
