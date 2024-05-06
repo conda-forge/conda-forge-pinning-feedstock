@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for suitesparse 7
+  kind: version
+  migration_number: 1
+migrator_ts: 1714672542.4288294
+suitesparse:
+- '7'
