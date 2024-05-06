@@ -1462,6 +1462,7 @@ vega-cli
 vega-lite-cli
 veloxchem
 verilator
+verticalize
 vigra
 vim
 vina
