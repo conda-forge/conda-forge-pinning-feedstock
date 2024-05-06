@@ -472,6 +472,7 @@ perl-clone
 perl-compress-raw-zlib
 perl-data-dumper
 perl-dbi
+perl-encode
 perl-io-tty
 perl-lwp-simple
 perl-mime-base64
