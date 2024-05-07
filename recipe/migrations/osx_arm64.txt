@@ -232,7 +232,9 @@ depfinder
 des-eastlake
 des-montara
 des-pizza-cutter
+des-pizza-cutter-masking
 des-pizza-cutter-metadetect
+des-pizza-patches
 des-y6utils
 detectron2
 dftbplus
