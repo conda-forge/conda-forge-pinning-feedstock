@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for arrow_cpp 16
-  kind: version
-  migration_number: 1
-arrow_cpp:
-- '16'
-migrator_ts: 1715131397.6158419
