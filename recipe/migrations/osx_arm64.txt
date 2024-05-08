@@ -450,6 +450,7 @@ hdf5
 hdf5-external-filter-plugins
 hdf5plugin
 hdmedians
+healpix
 healpix_cxx
 healpy
 heat
