@@ -765,6 +765,7 @@ omniorb
 onednn
 onnx
 onnxruntime
+oommf
 open62541
 openai
 openbabel
