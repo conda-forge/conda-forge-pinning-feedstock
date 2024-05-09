@@ -3,6 +3,11 @@ __migrator:
   commit_message: Rebuild for libarrow 16
   kind: version
   migration_number: 1
+  exclude:
+    - pyarrow
+    - r-arrow
+    - arrow-c-glib
+
 arrow_cpp:
 - 16  # does not exist; switch to libarrow
 - 15  # does not exist; switch to libarrow
