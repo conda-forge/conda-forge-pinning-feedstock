@@ -1,0 +1,7 @@
+migrator_ts: 1712592149
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+openvino:
+  - 2024.1.0
