@@ -445,6 +445,7 @@ halotools
 harlequin
 harp
 hdbscan
+hddm-wfpt
 hdf4
 hdf5
 hdf5-external-filter-plugins
@@ -465,6 +466,7 @@ hole2
 hoomd
 horton
 hpx
+hssm
 htcondor
 htgettoken
 htop
