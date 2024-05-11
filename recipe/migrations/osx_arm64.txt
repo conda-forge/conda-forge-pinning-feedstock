@@ -390,6 +390,7 @@ gmt
 gn
 gnss-sdr
 gnuastro
+gnucobol
 gnuplot
 gnuradio
 gnuradio-satellites
