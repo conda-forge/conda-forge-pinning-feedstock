@@ -205,6 +205,7 @@ glum
 gmsh
 gmt
 gnss-sdr
+gnucobol
 gnupg
 gnuplot
 gnuradio
