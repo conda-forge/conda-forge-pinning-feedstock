@@ -1064,6 +1064,7 @@ qgis
 qgrid
 qiskit-aer
 qiskit-terra
+qpoases
 qpot
 qscintilla2
 qsimcirq
