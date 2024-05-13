@@ -972,6 +972,7 @@ pypandoc
 pypdf
 pypeit
 pyproj
+pyproject-fmt-rust
 pyqg
 pyqstrat
 pyqt
