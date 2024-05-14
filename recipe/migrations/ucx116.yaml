@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for ucx 1.16.0
-  kind: version
-  migration_number: 1
-migrator_ts: 1714785040.2362041
-ucx:
-- '1.16.0'
