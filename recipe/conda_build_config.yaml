@@ -240,10 +240,10 @@ arpack:
   - '3.8'
 # keep in sync with libarrow
 arrow_cpp:
+  - 16  # does not exist; switch to libarrow
   - 15  # does not exist; switch to libarrow
   - 14  # does not exist; switch to libarrow
   - 13
-  - 12
 assimp:
   - 5.3.1
 attr:
@@ -446,16 +446,17 @@ libarchive:
 # keep in sync with arrow_cpp (libarrow exists only from 10.x,
 # but make sure we have same length for zip as arrow_cpp)
 libarrow:
+  - 16
   - 15
   - 14
   - 13
   - 12
 # only exists as of arrow v14, but needs to have same length as libarrow
 libarrow_all:
+  - 16
   - 15
   - 14
   - 13
-  - 12
 libavif:
   - '1.0.1'
 libblitz:
