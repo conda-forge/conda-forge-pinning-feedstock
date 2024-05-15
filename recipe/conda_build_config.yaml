@@ -450,7 +450,6 @@ libarrow:
   - 15
   - 14
   - 13
-  - 12
 # only exists as of arrow v14, but needs to have same length as libarrow
 libarrow_all:
   - 16
