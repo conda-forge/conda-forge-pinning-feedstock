@@ -56,28 +56,14 @@ __migrator:
       - conda-forge
       - conda-forge/label/numpy_rc,conda-forge
 
-# we need to override the entire zip {python, python_impl, numpy}
-# in order to change the length of it; that's the only way to migrate
-# python 3.12 for numpy 2.0, as we cannot update the existing 3.12
-# migrator without breaking already-migrated feedstocks immediately.
+# needs to match length of zip {python, python_impl, numpy}
+# as it is in global CBC in order to override it
 numpy:
   - 1.22  # no py38 support for numpy 2.0
   - 2.0
   - 2.0
   - 2.0
   - 2.0
-python:
-  - 3.8.* *_cpython
-  - 3.9.* *_cpython
-  - 3.10.* *_cpython
-  - 3.11.* *_cpython
-  - 3.12.* *_cpython
-python_impl:
-  - cpython
-  - cpython
-  - cpython
-  - cpython
-  - cpython
 channel_sources:
   - conda-forge/label/numpy_rc,conda-forge
 migrator_ts: 1713572489.295986
