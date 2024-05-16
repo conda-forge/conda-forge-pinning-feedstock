@@ -165,6 +165,7 @@ elsi
 ensmallen
 enum34
 ephem
+erlang
 esbuild
 esmpy
 f2c
