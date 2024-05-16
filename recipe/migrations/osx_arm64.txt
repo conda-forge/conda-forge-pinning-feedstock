@@ -1494,6 +1494,7 @@ websockets
 wget
 wordcloud
 wrapt
+wrf-python
 wxpython
 x265
 xalan-c
