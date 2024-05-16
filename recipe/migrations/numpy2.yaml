@@ -49,6 +49,9 @@ __migrator:
     case of git conflicts by marking it as a draft).
 
   migration_number: 1
+  exclude:
+    # needs local overrides that get stomped on by the migrator, which then fails
+    - scipy
   ordering:
     # prefer channels including numpy_rc (otherwise smithy doesn't
     # know which of the two values should be taken on merge)
