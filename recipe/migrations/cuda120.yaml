@@ -96,6 +96,9 @@ c_stdlib_version:              # [linux and os.environ.get("CF_CUDA_ENABLED", "F
 cdt_name:                      # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - cos7                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
+github_actions_labels:         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - ''                         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
 docker_image:                                      # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-") and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - quay.io/condaforge/linux-anvil-cos7-x86_64     # [linux64 and os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   # case: native compilation (build == target)
