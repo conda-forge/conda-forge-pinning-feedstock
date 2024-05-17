@@ -1448,6 +1448,7 @@ twine
 typos
 typstfmt
 tzfpy
+uharfbuzz
 ujson
 ukkonen
 umap-learn
