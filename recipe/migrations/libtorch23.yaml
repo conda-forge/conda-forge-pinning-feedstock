@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libtorch 2.3
+  kind: version
+  migration_number: 1
+libtorch:
+- '2.3'
+migrator_ts: 1716104530.1114125
