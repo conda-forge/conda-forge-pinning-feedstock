@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_cal 0.6.14
+  kind: version
+  migration_number: 1
+  automerge: true
+aws_c_cal:
+- 0.6.14
+migrator_ts: 1716103694.6911612
