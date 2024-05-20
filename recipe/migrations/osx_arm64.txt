@@ -1306,6 +1306,7 @@ scikit-network
 scikit-sparse
 scikit-surprise
 scikit-survival
+scikits.odes
 scilab
 scip
 scipy
