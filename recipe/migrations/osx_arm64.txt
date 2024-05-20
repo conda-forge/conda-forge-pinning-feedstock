@@ -80,6 +80,7 @@ bilby.cython
 billiard
 binaryen
 bindensity
+biome
 biosphere
 biotite
 bipedal-locomotion-framework
