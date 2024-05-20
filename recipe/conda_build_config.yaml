@@ -446,13 +446,13 @@ libarchive:
 # keep in sync with arrow_cpp (libarrow exists only from 10.x,
 # but make sure we have same length for zip as arrow_cpp)
 libarrow:
-  - '16.0'
+  - '16.1'
   - 15
   - 14
   - 13
 # only exists as of arrow v14, but needs to have same length as libarrow
 libarrow_all:
-  - '16.0'
+  - '16.1'
   - 15
   - 14
   - 13
