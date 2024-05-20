@@ -463,6 +463,7 @@ helix
 help2man
 heyoka
 heyoka.py
+higra
 hmmlearn
 hnswlib
 hole2
