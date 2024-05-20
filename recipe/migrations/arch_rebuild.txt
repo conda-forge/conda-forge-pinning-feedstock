@@ -483,6 +483,7 @@ perl-moose
 perl-socket
 perl-storbale
 perl-version
+perspective
 pexsi
 phantomjs
 phonopy
