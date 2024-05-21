@@ -646,7 +646,7 @@ lzo:
 metis:
   - 5.1.0
 mimalloc:
-  - 2.1.2
+  - 2.1.6
 mkl:
   - '2023'
 mkl_devel:
