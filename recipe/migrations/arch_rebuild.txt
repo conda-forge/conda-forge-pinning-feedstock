@@ -245,6 +245,7 @@ heaptrack
 hepmc3
 heyoka
 heyoka.py
+hmmlearn
 howardhinnant_date
 htcondor
 htcondor-utils
@@ -544,6 +545,7 @@ pymupdf
 pynacl
 pynisher
 pyogrio
+pyomo
 pyopencl
 pyorc
 pypdf
