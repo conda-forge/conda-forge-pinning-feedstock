@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for tiledb 2.23
-  kind: version
-  migration_number: 1
-migrator_ts: 1715281095.4532387
-tiledb:
-- '2.23'
