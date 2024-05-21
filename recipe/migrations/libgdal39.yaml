@@ -1,8 +1,9 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for libgdal 3.9
   kind: version
   migration_number: 1
+gdal:
+- '3.9'
 libgdal:
 - '3.9'
-migrator_ts: 1716104009.7785382
+migrator_ts: 1715443551.4913723
