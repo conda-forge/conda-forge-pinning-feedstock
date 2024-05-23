@@ -831,7 +831,7 @@ sdl2_ttf:
 singular:
   - 4.3.2.p8
 snappy:
-  - 1.1
+  - 1.2
 soapysdr:
   - '0.8'
 sox:
