@@ -1,0 +1,11 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+tensorflow:
+- "2.16"
+libtensorflow:
+- "2.16"
+libtensorflow_cc:
+- "2.16"
+migrator_ts: 1716581985.5468376
