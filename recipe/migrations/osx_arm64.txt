@@ -940,6 +940,7 @@ pyicu
 pyimagej
 pykdtree
 pykep
+pylance
 pylibtiff
 pylint
 pylops
