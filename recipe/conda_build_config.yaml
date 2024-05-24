@@ -457,7 +457,7 @@ libarrow_all:
   - 14
   - 13
 libavif:
-  - '1.0.1'
+  - 1
 libblitz:
   - 1.0.2
 libboost_devel:
