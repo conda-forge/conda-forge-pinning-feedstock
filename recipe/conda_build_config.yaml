@@ -556,7 +556,7 @@ libmed:
 libmatio:
   - 1.5.26
 libmatio_cpp:
-  - 0.2.4
+  - 0.2.5
 libmicrohttpd:
   - '1.0'
 libnetcdf:
