@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for urdfdom 4.0
-  kind: version
-  migration_number: 1
-migrator_ts: 1703639180.921018
-urdfdom:
-- '4.0'
