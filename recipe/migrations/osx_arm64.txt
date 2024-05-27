@@ -709,6 +709,7 @@ mysql-connector-odbc
 mysql-connector-python
 mysqlclient
 namaster
+nanoarrow
 nanoflann
 nasm
 natcap.invest
