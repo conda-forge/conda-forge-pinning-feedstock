@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for superlu_dist 9
+  kind: version
+  migration_number: 1
+migrator_ts: 1716853094.2616556
+superlu_dist:
+- '9'
