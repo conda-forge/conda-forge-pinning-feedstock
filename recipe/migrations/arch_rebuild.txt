@@ -442,6 +442,7 @@ open62541
 openai
 openblas
 opencv
+openmeeg
 openmm
 openmotif
 openmpi
