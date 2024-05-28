@@ -605,9 +605,9 @@ libsvm:
 libsqlite:
   - 3
 libtensorflow:
-  - "2.15"
+  - "2.16"
 libtensorflow_cc:
-  - "2.15"
+  - "2.16"
 libthrift:
   - 0.20.0
 libtiff:
@@ -854,7 +854,7 @@ tbb:
 tbb_devel:
   - '2021'
 tensorflow:
-  - "2.15"
+  - "2.16"
 thrift_cpp:
   - 0.18.1
 tinyxml2:
