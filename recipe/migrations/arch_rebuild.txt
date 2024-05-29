@@ -539,6 +539,7 @@ pygraphviz
 pygrib
 pyhdf
 pykdtree
+pykrige
 pylance
 pylibtiff
 pylint
