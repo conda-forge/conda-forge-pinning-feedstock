@@ -1083,6 +1083,7 @@ quantized-mesh-encoder
 quantlib
 quantlib-python
 quarto
+quasielasticbayes
 quaternion
 quspin
 qutip
