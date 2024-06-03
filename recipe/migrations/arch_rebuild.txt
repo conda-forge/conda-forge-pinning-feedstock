@@ -460,6 +460,7 @@ osdf-client
 oso
 ossuuid
 ovito
+packer
 pagmo
 pandana
 pandas

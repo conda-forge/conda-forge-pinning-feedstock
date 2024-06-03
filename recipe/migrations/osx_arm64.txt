@@ -804,6 +804,7 @@ oso
 ovito
 owlready2
 oxigraph
+packer
 pagmo
 paicos
 pandana
