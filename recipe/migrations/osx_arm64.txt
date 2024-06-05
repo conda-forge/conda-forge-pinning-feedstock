@@ -1502,6 +1502,7 @@ wcslib
 web3
 webrtcvad
 websockets
+websockify
 wget
 wordcloud
 wrapt
