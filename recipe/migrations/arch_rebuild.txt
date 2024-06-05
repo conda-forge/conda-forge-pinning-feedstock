@@ -141,6 +141,7 @@ dart-sdk
 dasel
 dask
 dask-sql
+databricks-cli
 dataclasses
 datafusion
 datamash
