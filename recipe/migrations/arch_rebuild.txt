@@ -496,6 +496,7 @@ phonopy
 photutils
 php
 pickle5
+pikepdf
 pinocchio
 pivy
 plumed
