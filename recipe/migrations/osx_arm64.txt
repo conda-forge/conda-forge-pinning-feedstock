@@ -802,6 +802,12 @@ ortools-python
 osdf-client
 osmium-tool
 oso
+otagrum
+otfftw
+otmixmod
+otmorris
+otrobopt
+otsvm
 ovito
 owlready2
 oxigraph
