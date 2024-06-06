@@ -601,6 +601,7 @@ pyzstd
 qgis
 qgrid
 qhull
+qpdf
 qt-graphs
 quarto
 quaternion
