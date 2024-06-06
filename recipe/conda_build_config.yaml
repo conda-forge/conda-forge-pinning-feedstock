@@ -461,9 +461,9 @@ libavif:
 libblitz:
   - 1.0.2
 libboost_devel:
-  - '1.82'
+  - '1.84'
 libboost_python_devel:
-  - '1.82'
+  - '1.84'
 libcint:
   - '5.5'
 libcurl:
