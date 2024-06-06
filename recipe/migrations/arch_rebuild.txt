@@ -379,6 +379,7 @@ metaphone
 micromamba
 minijinja
 mlip
+mongoengine
 mosh
 mpas_tools
 mpich
