@@ -846,7 +846,7 @@ srm_ifce:
 starlink_ast:
   - '9.2.7'
 suitesparse:
-  - 5
+  - '7'
 superlu_dist:
   - '8'
 tbb:
