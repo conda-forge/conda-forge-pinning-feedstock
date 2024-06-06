@@ -1077,6 +1077,7 @@ qgis
 qgrid
 qiskit-aer
 qiskit-terra
+qpdf
 qpoases
 qpot
 qscintilla2
