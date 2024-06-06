@@ -784,6 +784,7 @@ openconnect-sso
 opencv
 openimageio
 openkim-models
+openmc
 openmm
 openmpi
 openneuro-py
