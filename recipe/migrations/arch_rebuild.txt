@@ -496,6 +496,7 @@ phonopy
 photutils
 php
 pickle5
+pikepdf
 pinocchio
 pivy
 plumed
@@ -601,6 +602,7 @@ pyzstd
 qgis
 qgrid
 qhull
+qpdf
 qt-graphs
 quarto
 quaternion
