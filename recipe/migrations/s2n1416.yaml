@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for s2n 1.4.16
+  kind: version
+  migration_number: 1
+  automerge: true
+migrator_ts: 1717651676.1697464
+s2n:
+- 1.4.16
