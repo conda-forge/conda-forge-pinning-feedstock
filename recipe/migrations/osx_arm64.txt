@@ -292,6 +292,7 @@ exoplanet
 exoplanet-core
 exprtk
 extinction
+eza
 f2c
 fairseq
 faiss-cpu
