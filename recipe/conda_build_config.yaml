@@ -277,7 +277,7 @@ aws_checksums:
 aws_crt_cpp:
   - 0.26.9
 aws_sdk_cpp:
-  - 1.11.267
+  - 1.11.329
 bullet_cpp:
   - 3.25
 bzip2:
