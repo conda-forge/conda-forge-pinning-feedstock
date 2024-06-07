@@ -44,3 +44,15 @@ google_cloud_cpp:
   - libgoogle_cloud_spanner_devel
   - libgoogle_cloud_speech_devel
   - libgoogle_cloud_storage_devel
+
+gstreamer:
+  - gstreamer
+  - gst_plugins_base
+
+sqlite:
+  - sqlite
+  - libsqlite
+  
+pytorch:
+  - libtorch
+  - pytorch
