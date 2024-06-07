@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libopencv 4.10.0
+  kind: version
+  migration_number: 1
+libopencv:
+- 4.10.0
+migrator_ts: 1717741468.8363369
