@@ -1,11 +1,10 @@
 __migrator:
+  build_number: 1
+  commit_message: Rebuild for pytorch 2.3
   kind: version
-  commit_message: "Rebuild for pytorch 2.3"
   migration_number: 1
-  bump_number: 1
-
 libtorch:
-  - '2.3'
+- '2.3'
+migrator_ts: 1717796558.6936185
 pytorch:
-  - '2.3'
-migrator_ts: 1715797797.926
+- '2.3'
