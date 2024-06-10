@@ -739,6 +739,8 @@ pcre:
   - '8'
 pcre2:
   - '10.43'
+pdal:
+  - '2.7'
 pixman:
   - 0
 poco:
