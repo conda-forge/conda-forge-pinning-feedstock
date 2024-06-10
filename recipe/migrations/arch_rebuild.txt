@@ -88,6 +88,7 @@ cppad
 cppcheck
 cpptango
 cppunit
+cpu_features
 cryptlib
 cryptopp
 cub
