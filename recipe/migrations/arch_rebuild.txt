@@ -1004,6 +1004,7 @@ tsl_robin_map
 typing
 typos
 typstfmt
+typstyle
 ucx-split
 ujson
 uncrustify
@@ -1019,6 +1020,7 @@ uvicorn
 uvloop
 vampyr
 veloxchem
+vhs
 vigra
 vim
 vina

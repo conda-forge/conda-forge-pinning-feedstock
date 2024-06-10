@@ -1466,6 +1466,7 @@ turodbc
 twine
 typos
 typstfmt
+typstyle
 tzfpy
 uharfbuzz
 ujson
@@ -1494,6 +1495,7 @@ vega-lite-cli
 veloxchem
 verilator
 verticalize
+vhs
 vigra
 vim
 vina
