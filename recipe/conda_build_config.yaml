@@ -592,7 +592,7 @@ libsndfile:
 libsoup:
   - 3
 libspatialindex:
-  - 1.9.3
+  - 2.0.0
 libssh:
   - 0.10
 libssh2:
