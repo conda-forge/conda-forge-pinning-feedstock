@@ -23,7 +23,7 @@ libscotch:
   - scotch
   - ptscotch
 
-google_cloud_cpp:
+libgoogle_cloud:
   - google_cloud_cpp
   - libgoogle_cloud
   - libgoogle_cloud_devel
