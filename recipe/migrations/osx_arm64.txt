@@ -231,6 +231,7 @@ deltalake
 deno
 deno-dom
 depfinder
+deptry
 des-eastlake
 des-montara
 des-pizza-cutter
