@@ -151,6 +151,7 @@ dav1d
 deltalake
 deno
 deno-dom
+deptry
 dgl
 diffutils
 digital_rf
