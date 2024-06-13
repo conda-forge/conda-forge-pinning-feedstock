@@ -463,7 +463,7 @@ libboost_devel:
 libboost_python_devel:
   - '1.84'
 libcint:
-  - '5.5'
+  - '6.1'
 libcurl:
   - 8
 libcrc32c:
