@@ -782,6 +782,8 @@ pyqtwebengine:
   - 5.15
 pyqtchart:
   - 5.15
+qpdf:
+  - 11
 qt:
   - 5.15
 qt_main:
