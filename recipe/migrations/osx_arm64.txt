@@ -173,6 +173,7 @@ conda-bash-completion
 conda-build
 conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
+conda-pypi
 conda-smithy
 connectorx
 connexion

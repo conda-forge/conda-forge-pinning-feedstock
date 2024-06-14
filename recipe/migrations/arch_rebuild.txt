@@ -78,6 +78,7 @@ conda-build
 conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
 conda-package-handling
+conda-pypi
 conda-smithy
 conda-suggest-conda-forge
 configurable-http-proxy
