@@ -322,6 +322,7 @@ firefox
 fish
 fitsio
 flake8-annotations
+flash
 flatbuffers
 fonttools
 forcebalance
