@@ -14,4 +14,4 @@ __migrator:
     provider.win_64: win_disabled
 
 r_base:
-  - 4.3   # [not win]
+  - 4.4   # [not win]
