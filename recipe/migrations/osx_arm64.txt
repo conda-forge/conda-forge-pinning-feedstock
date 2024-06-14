@@ -321,8 +321,8 @@ firecrown
 firefox
 fish
 fitsio
-flash
 flake8-annotations
+flash
 flatbuffers
 fonttools
 forcebalance
