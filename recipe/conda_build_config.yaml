@@ -473,7 +473,7 @@ libdap4:
 libdeflate:
   - '1.20'
 libduckdb_devel:
-  - '0.9.2'
+  - '1'
 libeantic:
   - '2'
 libevent:
