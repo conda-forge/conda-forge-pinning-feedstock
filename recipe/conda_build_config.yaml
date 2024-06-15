@@ -552,7 +552,7 @@ libiio:
 libmed:
   - '4.1'
 libmatio:
-  - 1.5.26
+  - 1.5.27
 libmatio_cpp:
   - 0.2.5
 libmicrohttpd:
