@@ -45,6 +45,10 @@ libgoogle_cloud:
   - libgoogle_cloud_speech_devel
   - libgoogle_cloud_storage_devel
 
+libvigra:
+  - libvigra
+  - vigra
+
 gstreamer:
   - gstreamer
   - gst_plugins_base
@@ -52,7 +56,7 @@ gstreamer:
 sqlite:
   - sqlite
   - libsqlite
-  
+
 pytorch:
   - libtorch
   - pytorch
