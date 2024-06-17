@@ -49,17 +49,6 @@ __migrator:
     case of git conflicts by marking it as a draft).
 
   migration_number: 1
-  exclude:
-    # needs local overrides that get stomped on by the migrator, which then fails
-    - scipy
-    # already done, but thinks its unsolvable
-    - pandas
-  ordering:
-    # prefer channels including numpy_rc (otherwise smithy doesn't
-    # know which of the two values should be taken on merge)
-    channel_sources:
-      - conda-forge
-      - conda-forge/label/numpy_rc,conda-forge
 
 # needs to match length of zip {python, python_impl, numpy}
 # as it is in global CBC in order to override it
@@ -69,6 +58,4 @@ numpy:
   - 2.0
   - 2.0
   - 2.0
-channel_sources:
-  - conda-forge/label/numpy_rc,conda-forge
 migrator_ts: 1713572489.295986
