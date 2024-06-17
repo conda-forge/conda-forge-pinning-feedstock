@@ -787,6 +787,7 @@ r-plsvarsel
 r-pmcmrplus
 r-poissonbinomial
 r-praznik
+r-precrec
 r-princurve
 r-profvis
 r-proxy
