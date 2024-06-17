@@ -6,9 +6,6 @@ __migrator:
     
     TL;DR: The way we build against numpy has changed as of numpy 2.0. This bot
     PR has updated the recipe to account for the changes (see below for details).
-    The numpy 2.0 package itself is currently only available from a special release
-    channel (`conda-forge/label/numpy_rc`) and will not be available on the main
-    `conda-forge` channel until the release of numpy 2.0 GA.
     
     The biggest change is that we no longer need to use the oldest available numpy
     version at build time in order to support old numpy version at runtime - numpy
@@ -25,16 +22,6 @@ __migrator:
     need to add a `- numpy <2.0dev0` run requirement until that happens (check numpy
     issue 26191 for an overview of the most important packages).
     
-    Note that the numpy release candidate promises to be ABI-compatible with the
-    final 2.0 release. This means that building against 2.0.0rc1 produces packages
-    that can be published to our main channels.
-    
-    If you already want to use the numpy 2.0 release candidate yourself, you can do
-    ```
-    conda config --add channels conda-forge/label/numpy_rc
-    ```
-    or add this channel to your `.condarc` file directly.
-    
     ### To-Dos:
       * [ ] Match run-requirements for numpy (i.e. check upstream `pyproject.toml` or however the project specifies numpy compatibility)
         * If upstream is not yet compatible with numpy 2.0, add `numpy <2.0dev0` upper bound under `run:`.
@@ -49,17 +36,6 @@ __migrator:
     case of git conflicts by marking it as a draft).
 
   migration_number: 1
-  exclude:
-    # needs local overrides that get stomped on by the migrator, which then fails
-    - scipy
-    # already done, but thinks its unsolvable
-    - pandas
-  ordering:
-    # prefer channels including numpy_rc (otherwise smithy doesn't
-    # know which of the two values should be taken on merge)
-    channel_sources:
-      - conda-forge
-      - conda-forge/label/numpy_rc,conda-forge
 
 # needs to match length of zip {python, python_impl, numpy}
 # as it is in global CBC in order to override it
@@ -69,6 +45,4 @@ numpy:
   - 2.0
   - 2.0
   - 2.0
-channel_sources:
-  - conda-forge/label/numpy_rc,conda-forge
 migrator_ts: 1713572489.295986
