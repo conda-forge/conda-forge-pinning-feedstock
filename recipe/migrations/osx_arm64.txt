@@ -1559,6 +1559,7 @@ xorg-xineramaproto
 xpa
 xraylib
 xsimd
+xsv
 xtb
 xtensor-io
 xtensor-python
