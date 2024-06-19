@@ -1585,3 +1585,4 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
+midiutil
