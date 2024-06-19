@@ -974,6 +974,7 @@ statsmodels
 su-exec
 suitesparse
 sundials
+sunpy
 supervisor
 sympy
 systemd
