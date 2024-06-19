@@ -677,6 +677,7 @@ metview
 metview-batch
 mgrs
 micromamba
+midiutil
 mim-solvers
 minijinja
 minuit2
