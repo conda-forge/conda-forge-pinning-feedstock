@@ -677,6 +677,7 @@ metview
 metview-batch
 mgrs
 micromamba
+midiutil
 mim-solvers
 minijinja
 minuit2
@@ -1586,4 +1587,3 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
-midiutil
