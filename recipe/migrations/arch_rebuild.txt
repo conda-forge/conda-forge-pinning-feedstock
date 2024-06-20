@@ -363,6 +363,7 @@ log4cxx
 logzero
 lp_solve
 lsdeluxe
+lttng-ust
 lua
 mahotas
 mamba
