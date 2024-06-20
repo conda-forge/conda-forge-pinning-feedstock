@@ -39,6 +39,7 @@ bazel
 bcrypt
 bilby.cython
 binaryen
+bindensity
 biom-format
 bipedal-locomotion-framework
 black
@@ -288,6 +289,7 @@ kanidm-clients
 kaolin
 kartothek
 kdepy
+kepderiv
 keyring
 kim-api
 krb5
@@ -963,6 +965,7 @@ spacy
 sparsehash
 spdlog
 spglib
+spleaf
 spral
 spyder
 spyder-kernels
