@@ -1,0 +1,21 @@
+migrator_ts: 1718824596
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+  commit_message: Pin azure-core-cpp 1.12.0
+
+azure_core_cpp:
+  - 1.12.0
+azure_identity_cpp:
+  - 1.8.0
+azure_storage_blobs_cpp:
+  - 12.11.0
+azure_storage_common_cpp:
+  - 12.6.0
+azure_storage_files_datalake_cpp:
+  - 12.10.0
+azure_storage_files_shares_cpp:
+  - 12.9.0
+azure_storage_queues_cpp:
+  - 12.2.0
