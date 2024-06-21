@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for c_blosc2 2.15
+  kind: version
+  migration_number: 1
+c_blosc2:
+- '2.15'
+migrator_ts: 1718934392.661224
