@@ -626,6 +626,8 @@ libwebp:
   - 1
 libwebp_base:
   - 1
+libxcb:
+  - '1.16'
 libxml2:
   - 2
 libxsmm:
