@@ -908,6 +908,7 @@ r-xml
 r-yaml
 r-yardstick
 r-zip
+rabbitmq-server
 radical.utils
 range-v3
 rasterio
