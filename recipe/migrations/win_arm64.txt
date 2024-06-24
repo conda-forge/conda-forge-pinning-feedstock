@@ -1,0 +1,4 @@
+conda
+mamba
+conda-build
+conda-forge-ci-setup
