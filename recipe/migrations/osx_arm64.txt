@@ -138,6 +138,7 @@ chemicalite
 cherrypy
 cif2hkl
 cis
+ciso
 ciso8601
 clawpack
 clease
