@@ -812,7 +812,7 @@ qt6_main:
 qtkeychain:
   - '0.14'
 rdma_core:
-  - '51'
+  - '52'
 re2:
   - 2023.09.01
 readline:
