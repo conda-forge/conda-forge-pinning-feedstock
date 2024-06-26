@@ -801,6 +801,8 @@ pyqtwebengine:
   - 5.15
 pyqtchart:
   - 5.15
+qhull:
+  - 2020.2
 qpdf:
   - 11
 qt:
