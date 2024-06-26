@@ -1083,6 +1083,7 @@ pyzstd
 qe
 qgis
 qgrid
+qhull
 qiskit-aer
 qiskit-terra
 qpdf
