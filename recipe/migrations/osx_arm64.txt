@@ -956,6 +956,7 @@ pyhdf
 pyhull
 pyicu
 pyimagej
+pykakasi
 pykdtree
 pykep
 pylance
