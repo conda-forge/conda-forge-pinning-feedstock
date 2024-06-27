@@ -499,7 +499,7 @@ libffi:
 libflatsurf:
   - 3
 libflint:
-  - '2.9'
+  - '3.0'
 libframel:
   - '8.41'
 libgdal:
