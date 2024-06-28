@@ -185,6 +185,7 @@ fftw
 file
 filprofiler
 fish
+fisher
 fisx
 flask
 flit
@@ -394,6 +395,7 @@ mppp
 mrchem
 mrcpp
 msgspec
+msprime
 mujoco
 muspinsim
 myproxy
