@@ -235,7 +235,7 @@ aom:
 arb:
   - '2.23'
 arpack:
-  - '3.8'
+  - '3.9'
 # keep in sync with libarrow
 arrow_cpp:
   - 16  # does not exist; switch to libarrow
