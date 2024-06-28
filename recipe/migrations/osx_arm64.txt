@@ -1008,6 +1008,7 @@ pyrfr
 pyright
 pyrosm
 pyscal
+pyscal3
 pyscf
 pysdl2
 pyshtools
