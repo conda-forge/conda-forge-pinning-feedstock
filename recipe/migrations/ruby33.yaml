@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for ruby 3.3
+  kind: version
+  migration_number: 1
+migrator_ts: 1719578493.626199
+ruby:
+- '3.3'
