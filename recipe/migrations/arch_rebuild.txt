@@ -185,6 +185,7 @@ fftw
 file
 filprofiler
 fish
+fisher
 fisx
 flask
 flit
