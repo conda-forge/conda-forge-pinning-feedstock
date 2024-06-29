@@ -5,4 +5,5 @@ __migrator:
   migration_number: 1
 migrator_ts: 1718994381.697866
 root_base:
+- 6.30.4
 - 6.32.0
