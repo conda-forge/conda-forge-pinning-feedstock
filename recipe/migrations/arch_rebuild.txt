@@ -1000,6 +1000,7 @@ tesseract
 thriftpy2
 thrust
 tiktoken
+tiledb-py
 time
 timezonefinder
 tini
