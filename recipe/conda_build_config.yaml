@@ -576,7 +576,7 @@ libnetcdf:
 libode:
   - 0.16.2
 libopencv:
-  - 4.9.0
+  - 4.10.0
 libopentelemetry_cpp:
   - '1.15'
 libosqp:
