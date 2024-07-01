@@ -1474,6 +1474,7 @@ triqs_dft_tools
 triqs_tprf
 tsl_robin_map
 tslearn
+tsv-utils
 turodbc
 twine
 typos

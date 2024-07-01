@@ -1014,6 +1014,7 @@ traits
 treelite
 tskit
 tsl_robin_map
+tsv-utils
 typing
 typos
 typstfmt
