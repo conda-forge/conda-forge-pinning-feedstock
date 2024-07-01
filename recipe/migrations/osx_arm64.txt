@@ -558,6 +558,7 @@ lapack
 laspy
 lazrs-python
 lazy-object-proxy
+ldc
 lenstool
 levenshtein
 lfortran
