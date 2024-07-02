@@ -1434,6 +1434,7 @@ teensy_loader_cli
 tensorboard
 tensorflow-estimator
 termcolor-cpp
+termdbms
 terraform
 tesseract
 tesserocr

@@ -996,6 +996,7 @@ tectonic
 teensy_loader_cli
 tensorflow
 termcolor-cpp
+termdbms
 tesseract
 thriftpy2
 thrust
