@@ -672,9 +672,9 @@ msgpack_c:
 msgpack_cxx:
   - 6
 mumps_mpi:
-  - 5.7.1
+  - 5.7.2
 mumps_seq:
-  - 5.7.1
+  - 5.7.2
 nccl:
   - 2
 ncurses:
