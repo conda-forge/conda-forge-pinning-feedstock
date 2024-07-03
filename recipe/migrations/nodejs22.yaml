@@ -6,3 +6,4 @@ __migrator:
 migrator_ts: 1720020160.6454718
 nodejs:
 - '22'
+- '20'
