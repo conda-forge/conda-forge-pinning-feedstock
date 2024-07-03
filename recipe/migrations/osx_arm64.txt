@@ -799,6 +799,7 @@ openmpi
 openneuro-py
 openpmd-api
 openpnm
+openscenegraph
 openslide
 opentofu
 openturns
