@@ -215,6 +215,7 @@ cyanure
 cyipopt
 cython-fortran-file
 dagster
+daqp
 dart-sass
 dart-sdk
 dasel
