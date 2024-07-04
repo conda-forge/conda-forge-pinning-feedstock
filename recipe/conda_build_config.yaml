@@ -397,7 +397,7 @@ google_cloud_cpp_common:
 googleapis_cpp:
   - '0.10'
 graphviz:
-  - '9'
+  - '11'
 # this has been renamed to libgrpc as of 1.49; dropped as of 1.52.
 # IOW, this version is unavailable; makes the renaming more obvious
 grpc_cpp:
