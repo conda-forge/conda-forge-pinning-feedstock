@@ -875,6 +875,7 @@ r-spdep
 r-splines2
 r-spp
 r-sqldf
+r-stars
 r-statnet.common
 r-suppdists
 r-survival
@@ -888,6 +889,7 @@ r-tiff
 r-timsac
 r-tkrplot
 r-tm
+r-tmap
 r-tmvtnorm
 r-tokenizers
 r-transformr
