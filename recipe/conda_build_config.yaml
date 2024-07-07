@@ -290,7 +290,7 @@ bzip2:
 c_ares:
   - 1
 c_blosc2:
-  - '2.14'
+  - '2.15'
 cairo:
   - 1
 capnproto:
