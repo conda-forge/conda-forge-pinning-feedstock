@@ -1488,6 +1488,7 @@ tzfpy
 uharfbuzz
 ujson
 ukkonen
+ultranest
 umap-learn
 uncrustify
 unicodedata2
