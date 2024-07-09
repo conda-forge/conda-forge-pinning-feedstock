@@ -57,6 +57,7 @@ autode
 autodiff
 automake
 av
+awex
 awkward
 aws-session-manager-plugin
 awscli
@@ -300,6 +301,7 @@ exprtk
 extinction
 eza
 f2c
+fabmos
 fairseq
 faiss-cpu
 faiss-split
@@ -949,10 +951,12 @@ pyg4ometry
 pygcgopt
 pygeoda
 pygeos
+pygetm
 pygit2
 pyglpk
 pygmo
 pygmo_plugins_nonfree
+pygotm
 pygplates
 pygraphviz
 pygrib
