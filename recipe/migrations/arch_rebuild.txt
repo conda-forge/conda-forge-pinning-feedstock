@@ -33,6 +33,7 @@ backports.zoneinfo
 backward-cpp
 basemap
 bat
+batoid
 bayes-filters-lib
 bayeswave
 bazel
@@ -139,6 +140,7 @@ cwinpy
 cwltool
 cx_oracle
 cyordereddict
+danish
 dart-sass
 dart-sdk
 dasel
