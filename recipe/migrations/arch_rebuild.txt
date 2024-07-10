@@ -456,6 +456,7 @@ open62541
 openai
 openblas
 opencv
+openfst
 openmeeg
 openmm
 openmotif
