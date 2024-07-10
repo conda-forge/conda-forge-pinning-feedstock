@@ -648,6 +648,7 @@ lzip
 m2crypto
 m4
 macfsevents
+mafft
 magentropy
 magics
 magics-metview
