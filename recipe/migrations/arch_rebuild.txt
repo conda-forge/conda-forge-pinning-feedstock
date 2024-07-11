@@ -605,6 +605,7 @@ python-orocos-kdl
 python-snappy
 python-suitesparse-graphblas
 python-symengine
+python-zlib-ng
 pythonocc-core
 pythran
 pytinyrenderer
