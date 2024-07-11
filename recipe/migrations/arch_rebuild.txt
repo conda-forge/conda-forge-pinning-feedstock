@@ -514,6 +514,7 @@ pickle5
 pikepdf
 pinocchio
 pivy
+pixi-pack
 plumed
 pmw
 pocl
