@@ -371,6 +371,7 @@ lp_solve
 lsdeluxe
 lttng-ust
 lua
+mafft
 mahotas
 mamba
 manif
