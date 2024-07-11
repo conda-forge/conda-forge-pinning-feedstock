@@ -868,6 +868,7 @@ physics-tenpy
 piff
 pigz
 pikepdf
+pixi-pack
 pixmappy
 pixy
 pkg-config
