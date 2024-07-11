@@ -883,7 +883,7 @@ tiledb:
 ucx:
   - '1.16.0'
 uhd:
-  - 4.6.0
+  - 4.7.0
 urdfdom:
   - '4.0'
 vc:                    # [win]
