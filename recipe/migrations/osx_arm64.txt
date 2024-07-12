@@ -449,6 +449,7 @@ gunicorn
 gwsurrogate
 gym
 gymnasium
+gzip
 gz-launch
 h3-py
 h5py
