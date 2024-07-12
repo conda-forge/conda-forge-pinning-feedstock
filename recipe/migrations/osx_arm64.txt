@@ -455,6 +455,7 @@ gwsurrogate
 gym
 gymnasium
 gz-launch
+gzip
 h3-py
 h5py
 halotools
