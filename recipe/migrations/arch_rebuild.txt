@@ -992,6 +992,7 @@ statsmodels
 su-exec
 suitesparse
 sundials
+sunode
 sunpy
 supervisor
 sympy
