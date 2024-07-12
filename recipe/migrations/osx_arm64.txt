@@ -232,6 +232,7 @@ dav1d
 dbgpy
 dcm2niix
 ddtrace
+dedalus
 deepspeed
 deltalake
 deno
