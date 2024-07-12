@@ -601,11 +601,13 @@ python-confluent-kafka
 python-crfsuite
 python-graphblas
 python-htcondor
+python-isal
 python-language-server
 python-orocos-kdl
 python-snappy
 python-suitesparse-graphblas
 python-symengine
+python-zlib-ng
 pythonocc-core
 pythran
 pytinyrenderer
