@@ -1064,6 +1064,7 @@ python-gooseeye
 python-graphblas
 python-graphviz
 python-infomap
+python-isal
 python-levenshtein
 python-magic
 python-pushover
@@ -1074,6 +1075,7 @@ python-suitesparse-graphblas
 python-symengine
 python-tlsh
 python-xxhash
+python-zlib-ng
 pythran
 pytiff
 pytinyrenderer
