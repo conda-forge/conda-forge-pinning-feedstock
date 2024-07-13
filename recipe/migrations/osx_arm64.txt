@@ -1302,6 +1302,7 @@ rhumba
 rio-color
 ripgrep
 rise
+riskfolio-lib
 root
 rosdep
 rosdistro
