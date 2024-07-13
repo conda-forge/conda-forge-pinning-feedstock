@@ -1310,6 +1310,7 @@ rosettasciio
 rpds-py
 rrdtool
 rsa
+rstudio
 rsync
 rtree
 ruamel.yaml
