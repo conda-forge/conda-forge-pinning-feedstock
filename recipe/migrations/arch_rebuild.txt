@@ -520,6 +520,7 @@ pmw
 pocl
 poco
 poetry
+povray
 pre-commit
 prmon
 proj
