@@ -673,6 +673,7 @@ mdaencore
 mdanalysis
 mdanalysistests
 mdtraj
+medatetime
 megaradrp
 meilisearch
 menuinst
@@ -1586,6 +1587,7 @@ xorg-libxxf86vm
 xorg-renderproto
 xorg-xf86vidmodeproto
 xorg-xineramaproto
+xorjson
 xpa
 xraylib
 xsimd
