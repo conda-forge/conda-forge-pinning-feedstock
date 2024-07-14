@@ -1,11 +1,11 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for libgrp 1.63 & libprotobuf 5.26.1
+  commit_message: Rebuild for libgrp 1.63 & libprotobuf 5.27.2
   kind: version
   paused: true
   migration_number: 1
 libgrpc:
 - "1.63"
 libprotobuf:
-- 5.26.1
+- 5.27.2
 migrator_ts: 1711628174.9404116
