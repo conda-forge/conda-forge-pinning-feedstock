@@ -369,6 +369,10 @@ gst_plugins_base:
   - '1.22'
 gdal:
   - '3.9'
+libgdal:
+  - '3.9'
+libgdal_core:
+  - '3.9'
 geos:
   - 3.12.1
 geotiff:
@@ -495,8 +499,6 @@ libflint:
   - '3.0'
 libframel:
   - '8.41'
-libgdal:
-  - '3.9'
 libgit2:
   - '1.8'
 # Keep in sync with google_cloud_cpp
@@ -752,6 +754,10 @@ pcre:
 pcre2:
   - '10.44'
 pdal:
+  - '2.7'
+libpdal:
+  - '2.7'
+libpdal_core:
   - '2.7'
 pixman:
   - 0
