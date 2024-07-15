@@ -38,7 +38,6 @@ bayes-filters-lib
 bayeswave
 bazel
 bcrypt
-bellmans-gapc
 bilby.cython
 binaryen
 bindensity
