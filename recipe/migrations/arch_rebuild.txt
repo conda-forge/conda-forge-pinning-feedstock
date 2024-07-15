@@ -165,6 +165,7 @@ dirac-grid
 direnv
 distributed
 dm-tree
+dust
 dwave-ocean-sdk
 dwave-samplers
 easyocr
