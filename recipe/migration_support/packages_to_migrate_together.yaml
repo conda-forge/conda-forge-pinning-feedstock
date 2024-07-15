@@ -8,6 +8,12 @@ libboost_devel:
 gdal:
   - gdal
   - libgdal
+  - libgdal_core
+
+libpdal:
+  - pdal
+  - libpdal
+  - libpdal_core
 
 libwebp:
   - libwebp
