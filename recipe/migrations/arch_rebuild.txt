@@ -721,6 +721,7 @@ r-glmmtmb
 r-gnm
 r-grbase
 r-grf
+r-gstat
 r-gsw
 r-gtools
 r-gwasexacthw
