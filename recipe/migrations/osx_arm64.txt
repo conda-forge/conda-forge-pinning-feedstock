@@ -65,6 +65,7 @@ awscrt
 azure-storage
 backports.zoneinfo
 backward-cpp
+bandit
 basemap
 batchcrop
 batman-package
