@@ -77,7 +77,6 @@ bazel
 bc
 bcolz
 bedtools
-bellmans-gapc
 benchmark
 bfg
 bilby.cython
