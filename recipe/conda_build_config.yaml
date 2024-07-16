@@ -728,7 +728,7 @@ openssl:
 orc:
   - 2.0.1
 pango:
-  - 1.50
+  - '1'
 pari:
   - 2.15.* *_pthread
 pcl:
