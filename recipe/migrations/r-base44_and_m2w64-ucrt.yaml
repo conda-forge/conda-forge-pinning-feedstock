@@ -8,7 +8,7 @@ __migrator:
   automerge: True
   longterm: True
   include_noarch: True
-  pr_limit: 4
+  pr_limit: 20
   override_cbc_keys:
     - r-base
     - r_base
