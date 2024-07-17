@@ -236,7 +236,7 @@ arrow_cpp:
   - 14  # does not exist; switch to libarrow
   - 13
 assimp:
-  - 5.3.1
+  - 5.4.1
 attr:
   - 2.5
 aws_c_auth:
