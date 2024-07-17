@@ -1542,6 +1542,7 @@ vl-convert
 vowpalwabbit
 vpython
 vulkan-loader
+wabt
 watchfiles
 wcslib
 web3
