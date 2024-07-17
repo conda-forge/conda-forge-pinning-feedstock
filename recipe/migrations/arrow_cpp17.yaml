@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for arrow_cpp 17
+  kind: version
+  migration_number: 1
+arrow_cpp:
+- '17'
+migrator_ts: 1721237682.5523818
