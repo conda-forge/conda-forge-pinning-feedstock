@@ -76,6 +76,7 @@ clhep
 clingo
 clpeak
 cmarkgfm
+colima
 conda-build
 conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
@@ -164,6 +165,8 @@ dirac-grid
 direnv
 distributed
 dm-tree
+docker-buildx
+docker-cli
 dust
 dwave-ocean-sdk
 dwave-samplers
