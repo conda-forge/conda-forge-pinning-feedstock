@@ -358,6 +358,7 @@ libudev
 libvpx
 libxcrypt
 libxkbfile
+libxnvme
 libzopfli
 lightgbm
 lime
