@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for aws_c_cal 0.7.2
-  kind: version
-  migration_number: 1
-  automerge: true
-aws_c_cal:
-- 0.7.2
-migrator_ts: 1721180886.0790381
