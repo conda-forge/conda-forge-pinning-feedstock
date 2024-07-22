@@ -244,6 +244,7 @@ deno-dom
 depfinder
 deptry
 des-eastlake
+des-fitvd
 des-montara
 des-pizza-cutter
 des-pizza-cutter-masking
@@ -1386,6 +1387,7 @@ shaderc
 shapely
 shapelysmooth
 shellcheck
+shredx
 siesta
 simple-build-system
 simpleeval
