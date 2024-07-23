@@ -5,4 +5,6 @@ __migrator:
   migration_number: 1
 azure_core_cpp:
 - 1.13.0
+azure_storage_common_cpp:
+- 12.7.0
 migrator_ts: 1720864534.0175145
