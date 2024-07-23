@@ -1,0 +1,26 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libarrow 16.1
+  kind: version
+  migration_number: 1
+  exclude:
+    - pyarrow
+    - r-arrow
+    - arrow-c-glib
+
+arrow_cpp:
+- '17.0'  # does not exist; switch to libarrow
+- '16.1'  # does not exist; switch to libarrow
+- 15  # does not exist; switch to libarrow
+- 14  # does not exist; switch to libarrow
+libarrow:
+- '17.0'
+- '16.1'
+- 15
+- 14
+libarrow_all:
+- '17.0'
+- '16.1'
+- 15
+- 14
+migrator_ts: 1721237682.5523818
