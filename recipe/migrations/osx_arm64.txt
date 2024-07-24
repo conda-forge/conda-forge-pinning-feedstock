@@ -35,6 +35,7 @@ apache-ant
 apache-beam
 apr
 apscheduler
+apsw
 arcjetcv
 arm_pyart
 armadillo
