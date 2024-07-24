@@ -1,6 +1,6 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for libarrow 16.1
+  commit_message: Rebuild for libarrow 17.0
   kind: version
   migration_number: 1
   exclude:
