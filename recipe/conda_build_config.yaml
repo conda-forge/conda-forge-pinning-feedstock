@@ -161,9 +161,7 @@ zip_keys:
     - python
     - numpy
     - python_impl
-  # transition until arrow_cpp can be dropped for arrow 13.x
   -
-    - arrow_cpp
     - libarrow
     - libarrow_all
 
@@ -229,12 +227,6 @@ arb:
   - '2.23'
 arpack:
   - '3.9'
-# keep in sync with libarrow
-arrow_cpp:
-  - 16  # does not exist; switch to libarrow
-  - 15  # does not exist; switch to libarrow
-  - 14  # does not exist; switch to libarrow
-  - 13
 assimp:
   - 5.4.1
 attr:
@@ -452,19 +444,16 @@ libaec:
   - '1'
 libarchive:
   - '3.7'
-# keep in sync with arrow_cpp (libarrow exists only from 10.x,
-# but make sure we have same length for zip as arrow_cpp)
 libarrow:
+  - '17.0'
   - '16.1'
   - 15
   - 14
-  - 13
-# only exists as of arrow v14, but needs to have same length as libarrow
 libarrow_all:
+  - '17.0'
   - '16.1'
   - 15
   - 14
-  - 13
 libavif:
   - 1
 libblitz:
