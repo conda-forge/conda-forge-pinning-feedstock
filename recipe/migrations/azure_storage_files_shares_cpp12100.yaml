@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for azure_storage_files_shares_cpp 12.10.0
+  kind: version
+  migration_number: 1
+azure_storage_files_shares_cpp:
+- 12.10.0
+migrator_ts: 1721881486.4224782
