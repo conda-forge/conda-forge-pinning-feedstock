@@ -530,6 +530,7 @@ isl
 islpy
 iteration_utilities
 itk
+jags
 jama
 jbig
 jemalloc
@@ -1241,6 +1242,7 @@ r-reticulate
 r-rfast
 r-rhpcblasctl
 r-rhub
+r-rjags
 r-rmpfr
 r-rngwell
 r-robustbase
