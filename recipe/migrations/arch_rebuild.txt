@@ -542,6 +542,7 @@ py_rattler
 pyarrow
 pybamm
 pybcj
+pycbc
 pycifrw
 pyclibrary
 pycocotools
