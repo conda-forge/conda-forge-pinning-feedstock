@@ -1105,6 +1105,7 @@ pyuv
 pyuvdata
 pyvips
 pyvkfft
+pyweed
 pyworld
 pyyaml
 pyzstd
