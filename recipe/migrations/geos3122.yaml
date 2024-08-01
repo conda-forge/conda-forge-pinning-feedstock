@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for geos 3.12.2
-  kind: version
-  migration_number: 1
-geos:
-- 3.12.2
-migrator_ts: 1717700470.407194
