@@ -1064,6 +1064,7 @@ voro
 vowpalwabbit
 vtk
 vulkan-loader
+wabt
 watchfiles
 web3
 wordcloud
