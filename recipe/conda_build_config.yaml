@@ -856,7 +856,7 @@ sqlite:
 srm_ifce:
   - 1.24.6
 starlink_ast:
-  - '9.2.7'
+  - 9.2.11
 suitesparse:
   - '7'
 superlu_dist:
