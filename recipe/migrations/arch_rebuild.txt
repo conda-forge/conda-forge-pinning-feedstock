@@ -536,6 +536,7 @@ psimpy
 psycopg2
 ptxcompiler
 pulp
+pv
 py-plumed
 py-spy
 py_rattler
