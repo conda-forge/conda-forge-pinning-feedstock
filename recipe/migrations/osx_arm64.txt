@@ -155,6 +155,7 @@ climlab
 climlab-cam3-radiation
 climlab-emanuel-convection
 climlab-rrtmg
+climlab-sbm-convection
 cling
 clingcon
 clingo
