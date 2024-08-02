@@ -154,6 +154,7 @@ clickhouse-driver
 climlab
 climlab-cam3-radiation
 climlab-emanuel-convection
+climlab-sbm-convection
 climlab-rrtmg
 cling
 clingcon
