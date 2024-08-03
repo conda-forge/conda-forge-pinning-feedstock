@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for graphviz 12
+  kind: version
+  migration_number: 1
+graphviz:
+- '12'
+migrator_ts: 1722688838.199906
