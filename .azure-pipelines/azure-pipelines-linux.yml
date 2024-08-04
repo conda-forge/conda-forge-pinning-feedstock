@@ -5,21 +5,17 @@
 jobs:
 - job: linux
   pool:
-    vmImage: ubuntu-16.04
+    vmImage: ubuntu-latest
   strategy:
     matrix:
       linux_64_:
         CONFIG: linux_64_
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
   timeoutInMinutes: 360
+  variables: {}
 
   steps:
-  - script: |
-         rm -rf /opt/ghc
-         df -h
-    displayName: Manage disk space
-
   # configure qemu binfmt-misc running.  This allows us to run docker containers
   # embedded qemu-static
   - script: |
@@ -30,8 +26,17 @@ jobs:
 
   - script: |
         export CI=azure
+        export flow_run_id=azure_$(Build.BuildNumber).$(System.JobAttempt)
+        export remote_url=$(Build.Repository.Uri)
+        export sha=$(Build.SourceVersion)
         export GIT_BRANCH=$BUILD_SOURCEBRANCHNAME
         export FEEDSTOCK_NAME=$(basename ${BUILD_REPOSITORY_NAME})
+        export UPLOAD_ON_BRANCH="main"
+        if [[ "${BUILD_REASON:-}" == "PullRequest" ]]; then
+          export IS_PR_BUILD="True"
+        else
+          export IS_PR_BUILD="False"
+        fi
         .scripts/run_docker_build.sh
     displayName: Run docker build
     env:

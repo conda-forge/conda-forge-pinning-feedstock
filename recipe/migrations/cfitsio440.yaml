@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for cfitsio 4.4.0
+  kind: version
+  migration_number: 1
+cfitsio:
+- 4.4.0
+migrator_ts: 1709230923.7498808

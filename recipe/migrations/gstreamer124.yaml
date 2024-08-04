@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for gstreamer 1.24
+  kind: version
+  migration_number: 1
+gstreamer:
+- '1.24'
+gst_plugins_base:
+- '1.24'
+migrator_ts: 1711328385.659571

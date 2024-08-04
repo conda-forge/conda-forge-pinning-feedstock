@@ -15,13 +15,19 @@ build:
     - mkdir -p $PREFIX/share/conda-forge/migrations                   # [unix]
     - cp migrations/*.yaml $PREFIX/share/conda-forge/migrations/      # [unix]
     - cp migrations/*.exyaml $PREFIX/share/conda-forge/migrations/    # [unix]
+    - mkdir -p $PREFIX/share/conda-forge/migration_support            # [unix]
+    - cp migration_support/* $PREFIX/share/conda-forge/migration_support/   # [unix]
     - echo "This package can't be built on windows"                   # [win]
     - exit 1                                                          # [win]
 
 test:
+  requires:
+    - python >= 3.8
+    - pyyaml
   commands:
     - test -f $PREFIX/conda_build_config.yaml                       # [unix]
     - test -f $PREFIX/share/conda-forge/migrations/example.exyaml   # [unix]
+    - test -d $PREFIX/share/conda-forge/migration_support           # [unix]
 
 about:
   summary: The baseline versions of software for the conda-forge ecosystem
