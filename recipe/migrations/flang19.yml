@@ -6,7 +6,8 @@ __migrator:
   migration_number: 1
   build_number: 1
   commit_message: Rebuild for flang 19
-  longterm: True
+  platform_allowlist:
+    - win-64
   override_cbc_keys:
     - fortran_compiler_stub
 
