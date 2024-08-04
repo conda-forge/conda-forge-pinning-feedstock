@@ -1203,6 +1203,7 @@ r-magick
 r-mapdata
 r-marginaleffects
 r-mclust
+r-mice
 r-microbenchmark
 r-minpack.lm
 r-mirt
