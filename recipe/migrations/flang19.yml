@@ -1,8 +1,5 @@
-migrator_ts: 1616270765
-
 __migrator:
-  kind:
-    version
+  kind: version
   migration_number: 1
   build_number: 1
   commit_message: Rebuild for flang 19
@@ -10,6 +7,7 @@ __migrator:
     - win-64
   override_cbc_keys:
     - fortran_compiler_stub
+migrator_ts: 1722763680.3089325
 
 fortran_compiler_version:      # [win64]
   - 19                         # [win64]
