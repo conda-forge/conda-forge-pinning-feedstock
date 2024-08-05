@@ -1036,6 +1036,7 @@ treelite
 tskit
 tsl_robin_map
 tsv-utils
+turbodbc
 typing
 typos
 typstfmt
