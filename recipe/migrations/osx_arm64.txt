@@ -1186,6 +1186,7 @@ r-idpmisc
 r-infotheo
 r-irkernel
 r-jpeg
+r-jqr
 r-kableextra
 r-kernlab
 r-keyring
