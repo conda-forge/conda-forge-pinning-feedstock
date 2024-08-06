@@ -973,6 +973,7 @@ sdsl-lite
 shap
 shellcheck
 singularity
+sirius-ms
 sixs
 sleef
 slepc
