@@ -510,6 +510,7 @@ perl-socket
 perl-storbale
 perl-version
 perspective
+pestpp
 pexsi
 phantomjs
 phonopy
