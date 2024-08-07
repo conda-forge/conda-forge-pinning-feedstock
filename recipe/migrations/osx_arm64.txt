@@ -595,6 +595,7 @@ libefp
 libgdal
 libharu
 libheif
+libidn11
 libignition-launch
 libint
 libjpeg-turbo
