@@ -284,6 +284,7 @@ jaydebeapi
 jbig
 jcc
 jellyfish
+jnv
 jpype1
 json_schema_validator
 jsoncpp

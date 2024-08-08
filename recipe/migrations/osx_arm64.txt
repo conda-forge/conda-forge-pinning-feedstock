@@ -540,6 +540,7 @@ jenkspy
 jinja2
 jless
 jmespath
+jnv
 joblib
 jpype1
 json-c
