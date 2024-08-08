@@ -183,6 +183,7 @@ f2c
 fa2
 faiss-split
 fancycompleter
+fast-histogram
 fastparquet
 fcl
 fenics-dolfinx
