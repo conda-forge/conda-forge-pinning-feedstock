@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_http 0.8.7
+  kind: version
+  migration_number: 1
+  automerge: true
+aws_c_http:
+- 0.8.7
+migrator_ts: 1723103605.6210341
