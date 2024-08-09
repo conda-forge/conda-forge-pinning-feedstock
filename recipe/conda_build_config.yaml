@@ -829,7 +829,7 @@ scotch:
 ptscotch:
   - 7.0.4
 s2n:
-  - 1.4.18
+  - 1.4.19
 sdl2:
   - '2'
 sdl2_image:
