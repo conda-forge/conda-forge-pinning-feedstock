@@ -866,6 +866,9 @@ pennylane
 pennylane-lightning-kokkos
 perl
 perl-app-cpanminus
+perl-compress-raw-bzip
+perl-compress-raw-zlib
+perl-scalar-list-utils
 perl-unicode-linebreak
 perspective
 pestpp
