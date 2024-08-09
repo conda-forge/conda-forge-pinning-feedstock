@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for gfal2 2.23
+  kind: version
+  migration_number: 1
+gfal2:
+- '2.23'
+migrator_ts: 1722508229.0010924
