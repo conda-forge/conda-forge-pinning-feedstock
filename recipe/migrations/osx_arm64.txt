@@ -1373,6 +1373,7 @@ scikit-sparse
 scikit-surprise
 scikit-survival
 scikits.odes
+scikits_odes_sundials
 scilab
 scip
 scipy
