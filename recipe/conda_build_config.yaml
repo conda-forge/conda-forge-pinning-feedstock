@@ -182,8 +182,6 @@ pin_run_as_build:
   # TODO: add run_exports to the following feedstocks
   flann:
     max_pin: x.x.x
-  graphviz:
-    max_pin: x
   libsvm:
     max_pin: x
   netcdf-cxx4:
@@ -393,7 +391,7 @@ google_cloud_cpp_common:
 googleapis_cpp:
   - '0.10'
 graphviz:
-  - '11'
+  - '12'
 # this has been renamed to libgrpc as of 1.49; dropped as of 1.52.
 # IOW, this version is unavailable; makes the renaming more obvious
 grpc_cpp:
