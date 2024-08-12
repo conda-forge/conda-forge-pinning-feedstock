@@ -744,7 +744,7 @@ pixman:
 poco:
   - 1.13.3
 poppler:
-  - '24.04'
+  - '24.07'
 postgresql:
   - '16'
 postgresql_plpython:
