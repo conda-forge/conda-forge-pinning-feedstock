@@ -969,6 +969,7 @@ pyfftw
 pyfmi
 pyfmmlib
 pyg4ometry
+pygal
 pygcgopt
 pygeoda
 pygeos
