@@ -558,6 +558,7 @@ pyfftw
 pyfmi
 pyg-lib
 pyg4ometry
+pygal
 pygeoda
 pygeos
 pygit2
