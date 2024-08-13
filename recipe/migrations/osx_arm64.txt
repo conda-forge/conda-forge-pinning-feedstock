@@ -958,6 +958,7 @@ pydelatin
 pydpc
 pyduktape2
 pyebsdindex
+pyelftools
 pyemir
 pyemma
 pyerfa
