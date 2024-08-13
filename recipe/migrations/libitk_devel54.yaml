@@ -1,0 +1,8 @@
+migrator_ts: 1722789762
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+libitk_devel:
+  - 5.4
