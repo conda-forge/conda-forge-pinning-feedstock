@@ -4,6 +4,5 @@ __migrator:
   migration_number: 1
   bump_number: 1
 
-# Add to global pinnings when done
 libitk_devel:
-  - '5.4'
+  - 5.4
