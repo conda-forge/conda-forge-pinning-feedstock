@@ -337,6 +337,7 @@ libcusolver
 libcusparse
 libdeflate
 libdrm
+libglvnd
 libgpiod-split
 libgsasl
 libharu
