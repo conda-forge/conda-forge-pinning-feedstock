@@ -1038,6 +1038,7 @@ pyregion
 pyresample
 pyrfr
 pyright
+pyringgw
 pyrosm
 pyscal
 pyscal3

@@ -595,6 +595,7 @@ pyrage
 pyrepl
 pyrfr
 pyright
+pyringgw
 pyrosm
 pyscal
 pyscf
