@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  kind: version
+  commit_message: "Rebuild for libboost 1.86"
+  migration_number: 1
+libboost_devel:
+- "1.86"
+libboost_python_devel:
+- "1.86"
+migrator_ts: 1723764795.6693385
