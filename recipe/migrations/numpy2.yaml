@@ -16,7 +16,12 @@ __migrator:
     run-export on the numpy package itself. The migrator will therefore remove
     any occurrences of this.
     
-    However, by default, building against numpy 2.0 will assume that the package
+    However, you will likely still need to add the lower bound for the numpy version,
+    in line with what the upstream package requires. The default lower bound from
+    the run-export is `>=1.19`; if your package needs a newer version than that,
+    please add `numpy >=x.y` under `run:`.
+    
+    Finally, by default, building against numpy 2.0 will assume that the package
     is compatible with numpy 2.0, which is not necessarily the case. You should
     check that the upstream package explicitly supports numpy 2.0, otherwise you
     need to add a `- numpy <2.0dev0` run requirement until that happens (check numpy
