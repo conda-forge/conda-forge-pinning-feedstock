@@ -3,6 +3,7 @@ __migrator:
   kind: version
   commit_message: "Rebuild for libboost 1.86"
   migration_number: 1
+  paused: true
 libboost_devel:
 - "1.86"
 libboost_python_devel:
