@@ -16,7 +16,7 @@ __migrator:
     run-export on the numpy package itself. The migrator will therefore remove
     any occurrences of this.
     
-    However, you will likely still need to add the lower bound for the numpy version,
+    However, you will still need to add the lower bound for the numpy version,
     in line with what the upstream package requires. The default lower bound from
     the run-export is `>=1.19`; if your package needs a newer version than that,
     please add `numpy >=x.y` under `run:`.
