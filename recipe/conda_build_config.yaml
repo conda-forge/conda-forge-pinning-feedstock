@@ -462,7 +462,7 @@ libcrc32c:
 libdap4:
   - 3.20.6
 libdeflate:
-  - '1.20'
+  - '1.21'
 libduckdb_devel:
   - '1'
 libeantic:
