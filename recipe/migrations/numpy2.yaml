@@ -16,7 +16,12 @@ __migrator:
     run-export on the numpy package itself. The migrator will therefore remove
     any occurrences of this.
     
-    However, by default, building against numpy 2.0 will assume that the package
+    However, you will still need to add the lower bound for the numpy version,
+    in line with what the upstream package requires. The default lower bound from
+    the run-export is `>=1.19`; if your package needs a newer version than that,
+    please add `numpy >=x.y` under `run:`.
+    
+    Finally, by default, building against numpy 2.0 will assume that the package
     is compatible with numpy 2.0, which is not necessarily the case. You should
     check that the upstream package explicitly supports numpy 2.0, otherwise you
     need to add a `- numpy <2.0dev0` run requirement until that happens (check numpy
@@ -25,8 +30,8 @@ __migrator:
     ### To-Dos:
       * [ ] Match run-requirements for numpy (i.e. check upstream `pyproject.toml` or however the project specifies numpy compatibility)
         * If upstream is not yet compatible with numpy 2.0, add `numpy <2.0dev0` upper bound under `run:`.
-        * If upstream is already compatible with numpy 2.0, nothing else should be necessary in most cases.
-        * If upstream requires a minimum numpy version newer than 1.19, you can add `numpy >=x.y` under `run:`.
+        * If upstream is already compatible with numpy 2.0, double-check their supported numpy versions.
+        * If upstream requires a minimum numpy version newer than 1.19, you need to add `numpy >=x.y` under `run:`.
       * [ ] Remove any remaining occurrences of `{{ pin_compatible("numpy") }}` that the bot may have missed.
     
     PS. If the build does not compile anymore, this is almost certainly a sign that
