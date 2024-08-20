@@ -716,6 +716,7 @@ mnelab
 mo_pack
 modin
 mongoengine
+moonrepo-moon
 mosh
 mpas_tools
 mpc

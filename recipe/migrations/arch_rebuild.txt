@@ -401,6 +401,7 @@ micromamba
 minijinja
 mlip
 mongoengine
+moonrepo-moon
 mosh
 mpas_tools
 mpich
