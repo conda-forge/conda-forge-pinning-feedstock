@@ -41,4 +41,3 @@ boost = """\
     The `boost` output has been superseded by `libboost-python-devel` (as of \
     1.82), which now comes with a run-export (on `libboost-python`) as well."""
 grpc-cpp = "The `grpc-cpp` output has been superseded by `libgrpc`."
-build = "The pypa `build` package has been renamed to `python-build`."
