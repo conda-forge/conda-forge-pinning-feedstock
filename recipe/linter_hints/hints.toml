@@ -4,6 +4,11 @@ matplotlib = """\
     Recipes should usually depend on `matplotlib-base` as opposed to \
     `matplotlib` so that runtime environments do not require large \
     packages like `qt`."""
+build = """\
+    Recipes should depend on `python-build` as opposed to \
+    `build`. The `conda-forge` name for `https://github.com/pypa/build` is \
+    `python-build` in order to eliminate ambiguity. The `build` feedstock is \
+    archived and unmaintained."""
 jpeg = """\
     Recipes should usually depend on `libjpeg-turbo` as opposed to \
     `jpeg` for improved performance. For more information please see \
