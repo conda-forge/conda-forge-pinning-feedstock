@@ -184,8 +184,6 @@ pin_run_as_build:
     max_pin: x
   netcdf-cxx4:
     max_pin: x.x
-  poppler:
-    max_pin: x.x
   vlfeat:
     max_pin: x.x.x
 
@@ -746,7 +744,7 @@ pixman:
 poco:
   - 1.13.3
 poppler:
-  - '24.07'
+  - '24.08'
 postgresql:
   - '16'
 postgresql_plpython:
