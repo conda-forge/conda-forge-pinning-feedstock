@@ -1641,3 +1641,4 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
+enchant
