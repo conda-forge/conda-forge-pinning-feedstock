@@ -298,6 +298,7 @@ eelbrain
 einsums
 emacs
 emsdk
+enchant
 ensmallen
 esbuild
 esi-core
