@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for aws_c_compression 0.2.19
-  kind: version
-  migration_number: 1
-  automerge: true
-aws_c_compression:
-- 0.2.19
-migrator_ts: 1724367395.3990366
