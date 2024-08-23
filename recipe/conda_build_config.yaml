@@ -861,7 +861,7 @@ tbb_devel:
 tensorflow:
   - "2.16"
 thrift_cpp:
-  - 0.19.0
+  - 0.20.0
 tinyxml2:
   - '10'
 tk:
