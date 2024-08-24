@@ -339,7 +339,7 @@ gdk_pixbuf:
 gnuradio_core:
   - 3.10.10
 gnutls:
-  - 3.7
+  - '3.8'
 gsl:
   - 2.7
 gsoap:
