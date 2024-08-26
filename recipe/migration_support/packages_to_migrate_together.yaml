@@ -3,6 +3,7 @@
 
 libboost_devel:
   - libboost_devel
+  - libboost_headers
   - libboost_python_devel
 
 gdal:
