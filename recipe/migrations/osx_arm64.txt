@@ -582,6 +582,7 @@ lenstool
 levenshtein
 lfortran
 lhapdf
+lib3mf
 libavif
 libblitz
 libboost-mpi
