@@ -7,6 +7,8 @@ assimp:
 - 5.4.2
 libboost_devel:
 - "1.86"
+libboost_headers:
+- "1.86"
 libboost_python_devel:
 - "1.86"
 migrator_ts: 1723764795.6693385
