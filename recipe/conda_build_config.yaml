@@ -339,7 +339,7 @@ gdk_pixbuf:
 gnuradio_core:
   - 3.10.10
 gnutls:
-  - 3.7
+  - '3.8'
 gsl:
   - 2.7
 gsoap:
@@ -448,6 +448,8 @@ libavif:
 libblitz:
   - 1.0.2
 libboost_devel:
+  - '1.84'
+libboost_headers:
   - '1.84'
 libboost_python_devel:
   - '1.84'
