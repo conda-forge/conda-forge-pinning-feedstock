@@ -1423,6 +1423,7 @@ snaphu
 snappy
 sncosmo
 snowflake-connector-python
+snowflake-snowpark-python
 soapysdr-module-plutosdr
 soapysdr-module-remote
 soapysdr-module-rtlsdr
