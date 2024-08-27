@@ -542,6 +542,8 @@ libiio:
   - 0
 libitk_devel:
   - 5.4
+liblalsimulation:
+  - 5
 libmed:
   - '4.1'
 libmatio:
