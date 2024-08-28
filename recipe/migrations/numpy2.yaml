@@ -45,7 +45,6 @@ __migrator:
 # needs to match length of zip {python, python_impl, numpy}
 # as it is in global CBC in order to override it
 numpy:
-  - 1.22  # no py38 support for numpy 2.0
   - 2.0
   - 2.0
   - 2.0

@@ -688,7 +688,6 @@ numpy:
   # part of a zip_keys: python, python_impl, numpy
   - 1.22
   - 1.22
-  - 1.22
   - 1.23
   - 1.26
 occt:
@@ -763,14 +762,12 @@ pybind11_abi:
   - 4
 python:
   # part of a zip_keys: python, python_impl, numpy
-  - 3.8.* *_cpython
   - 3.9.* *_cpython
   - 3.10.* *_cpython
   - 3.11.* *_cpython
   - 3.12.* *_cpython
 python_impl:
   # part of a zip_keys: python, python_impl, numpy
-  - cpython
   - cpython
   - cpython
   - cpython
