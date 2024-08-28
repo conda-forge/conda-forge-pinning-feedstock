@@ -337,7 +337,7 @@ gf2x:
 gdk_pixbuf:
   - 2
 gnuradio_core:
-  - 3.10.10
+  - 3.10.11
 gnutls:
   - '3.8'
 gsl:
