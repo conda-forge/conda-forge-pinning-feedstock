@@ -989,6 +989,7 @@ sleef
 slepc
 slycot
 snowflake-connector-python
+snowflake-snowpark-python
 soapysdr-module-plutosdr
 soapysdr-module-remote
 soapysdr-module-rtlsdr
@@ -1004,6 +1005,7 @@ spral
 spyder
 spyder-kernels
 sqlalchemy
+sqlglotrs
 sqsgenerator
 squashfuse
 srm

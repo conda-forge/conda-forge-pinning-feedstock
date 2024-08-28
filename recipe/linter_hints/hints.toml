@@ -41,6 +41,7 @@ boost = """\
     The `boost` output has been superseded by `libboost-python-devel` (as of \
     1.82), which now comes with a run-export (on `libboost-python`) as well."""
 grpc-cpp = "The `grpc-cpp` output has been superseded by `libgrpc`."
+importlib_metadata = "Use `importlib-metadata` instead of `importlib_metadata`"
 libgcc-ng = """\
     This output has been superseded by `libgcc`. Note however, that except in \
     truly exceptional cases, you should not have to add this manually; you can \
