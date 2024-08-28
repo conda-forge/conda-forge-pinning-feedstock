@@ -23,22 +23,22 @@ __migrator:
     pr_limit: 20
     max_solver_attempts: 3  # this will make the bot retry "not solvable" stuff 12 times
     exclude:
-      # this shouldn't attempt to modify the python feedstocks
-      - python
-      - pypy3.6
-      - pypy-meta
-      - cross-python
-      - python_abi
+        # this shouldn't attempt to modify the python feedstocks
+        - python
+        - pypy3.6
+        - pypy-meta
+        - cross-python
+        - python_abi
     exclude_pinned_pkgs: false
     additional_zip_keys:
-      - channel_sources
+        - channel_sources
 
 python:
-  - 3.13.* *_cp313
+- 3.13.* *_cp313
 channel_sources:
-  - conda-forge/label/python_rc,conda-forge
+- conda-forge/label/python_rc,conda-forge
 # additional entries to add for zip_keys
 numpy:
-  - 2
+- 2
 python_impl:
-  - cpython
+- cpython
