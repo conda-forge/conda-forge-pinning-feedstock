@@ -772,6 +772,8 @@ python_impl:
   - cpython
   - cpython
   - cpython
+is_freethreading:
+  - false
 # Keep in sync with libtorch
 pytorch:
   - '2.3'
