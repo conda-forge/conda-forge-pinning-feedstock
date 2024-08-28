@@ -327,6 +327,7 @@ fastdtw
 fastnumbers
 fastparquet
 fastremap
+fasttext
 faunus
 fenics-dolfinx
 fiatlux
