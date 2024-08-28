@@ -327,6 +327,7 @@ fastdtw
 fastnumbers
 fastparquet
 fastremap
+fasttext
 faunus
 fenics-dolfinx
 fiatlux
@@ -1423,6 +1424,7 @@ snaphu
 snappy
 sncosmo
 snowflake-connector-python
+snowflake-snowpark-python
 soapysdr-module-plutosdr
 soapysdr-module-remote
 soapysdr-module-rtlsdr

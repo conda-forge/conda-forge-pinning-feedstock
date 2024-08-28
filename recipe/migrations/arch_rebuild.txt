@@ -1005,6 +1005,7 @@ spral
 spyder
 spyder-kernels
 sqlalchemy
+sqlglotrs
 sqsgenerator
 squashfuse
 srm
