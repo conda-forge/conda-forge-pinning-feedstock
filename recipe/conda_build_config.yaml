@@ -359,7 +359,7 @@ geos:
 geotiff:
   - 1.7.3
 gfal2:
-  - '2.22'
+  - '2.23'
 gflags:
   - 2.2
 giflib:
