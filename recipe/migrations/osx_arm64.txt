@@ -272,6 +272,7 @@ dm-tree
 docker-buildx
 docker-cli
 docker-compose
+dockle
 docopt.cpp
 docutils
 doit
