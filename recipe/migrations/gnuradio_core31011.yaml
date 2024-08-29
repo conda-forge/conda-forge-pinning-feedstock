@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for gnuradio_core 3.10.11
-  kind: version
-  migration_number: 1
-gnuradio_core:
-- 3.10.11
-migrator_ts: 1721872808.6445224
