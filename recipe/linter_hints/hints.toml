@@ -43,18 +43,19 @@ boost = """\
 grpc-cpp = "The `grpc-cpp` output has been superseded by `libgrpc`."
 importlib_metadata = "Use `importlib-metadata` instead of `importlib_metadata`"
 libgcc-ng = """\
-    This output has been superseded by `libgcc`. Note however, that except in \
+    `libgcc-ng` has been superseded by `libgcc`. Note however, that except in \
     truly exceptional cases, you should not have to add this manually; you can \
-    rely  on the fact that `{{ compiler("c") }}` and `{{ compiler("cxx") }}` \
+    rely on the fact that `{{ compiler("c") }}` and `{{ compiler("cxx") }}` \
     will always create the correct run-export for this. If you need to _ignore_ \
     the run-export for whatever reason, the best way to do it is:
     ```yaml
     build:
       ignore_run_exports_from:
-        - {{ compiler("c") }}
+        - {{ compiler("c") }}    # depending on which...
+        - {{ compiler("cxx") }}  # ... compilers you use
     ```"""
 libstdcxx-ng = """\
-    This output has been superseded by `libstdcxx`. Note however, that except in \
+    `libstdcxx-ng` has been superseded by `libstdcxx`. Note however, that except in \
     truly exceptional cases, you should not have to add this manually; you can \
     rely on the fact that `{{ compiler("cxx") }}` will always create the correct \
     run-export for this. If you need to _ignore_ the run-export for whatever \
@@ -65,7 +66,7 @@ libstdcxx-ng = """\
         - {{ compiler("cxx") }}
     ```"""
 libgfortran-ng = """\
-    This output has been superseded by `libgfortran`. Note however, that except in \
+    `libgfortran-ng` has been superseded by `libgfortran`. Note however, that except in \
     truly exceptional cases, you should not have to add this manually; you can \
     rely on the fact that `{{ compiler("fortran") }}` will always create the \
     correct run-export for this. If you need to _ignore_ the run-export for \
