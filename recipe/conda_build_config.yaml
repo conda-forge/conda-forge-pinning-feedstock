@@ -7,7 +7,7 @@ c_compiler_version:            # [unix]
   - 13                         # [linux]
   - 17                         # [osx]
   - 11                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux]
-  - 12                         # [os.environ.get("CF_CUDA_ENABLED", "false") == "true" and linux]
+  - 12                         # [os.environ.get("CF_CUDA_ENABLED", "False") == "True" and linux]
 c_stdlib:
   - sysroot                    # [linux]
   - macosx_deployment_target   # [osx]
