@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libsvm 334
+  kind: version
+  migration_number: 1
+libsvm:
+- '334'
+migrator_ts: 1725235932.57883
