@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for nlopt 2.8
+  kind: version
+  migration_number: 1
+migrator_ts: 1725279582.425862
+nlopt:
+- '2.8'
