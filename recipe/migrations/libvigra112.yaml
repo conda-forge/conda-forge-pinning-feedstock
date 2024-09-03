@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libvigra 1.12
+  kind: version
+  migration_number: 1
+libvigra:
+- '1.12'
+migrator_ts: 1725341298.6865923
+vigra:
+- '1.12'
