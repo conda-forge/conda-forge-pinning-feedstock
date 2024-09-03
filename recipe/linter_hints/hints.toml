@@ -54,6 +54,12 @@ libgcc-ng = """\
         - {{ compiler("c") }}    # depending on which...
         - {{ compiler("cxx") }}  # ... compilers you use
     ```"""
+coincbc = """\
+    The `coincbc` package has been renamed to `coin-or-cbc`. It is now \
+    preferred to depend on the `coin-or-cbc` package in th host section and allow
+    the run_export define the runtime dependency.
+"""
+
 libstdcxx-ng = """\
     `libstdcxx-ng` has been superseded by `libstdcxx`. Note however, that except in \
     truly exceptional cases, you should not have to add this manually; you can \
