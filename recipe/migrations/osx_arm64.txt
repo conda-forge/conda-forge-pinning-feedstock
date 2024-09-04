@@ -324,6 +324,7 @@ fast-query-parsers
 fastapi
 fastavro
 fastcache
+fastcluster
 fastdtw
 fastnumbers
 fastparquet
