@@ -1,6 +1,10 @@
 # These packages need to be migrated together.
 # Currently they need to have the same version
 
+coin_or_cbc:
+  - coin_or_cbc
+  - coincbc
+
 libboost_devel:
   - libboost_devel
   - libboost_headers
