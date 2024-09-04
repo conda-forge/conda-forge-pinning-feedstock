@@ -184,6 +184,7 @@ fa2
 faiss-split
 fancycompleter
 fast-histogram
+fast_float
 fastparquet
 fcl
 fenics-dolfinx
