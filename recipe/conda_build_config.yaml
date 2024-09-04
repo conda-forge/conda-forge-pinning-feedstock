@@ -626,9 +626,8 @@ libunwind:
   - '1.6'
 libv8:
   - 8.9.83
-# keep in synch with vigra
 libvigra:
-  - '1.11'
+  - '1.12'
 libvips:
   - 8
 libwebp:
@@ -891,9 +890,8 @@ urdfdom:
   - '4.0'
 vc:                    # [win]
   - 14                 # [win]
-# keep in synch with vigra
 vigra:
-  - '1.11'
+  - '1.12'
 vlfeat:
   - 0.9.21
 volk:
