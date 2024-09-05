@@ -835,6 +835,8 @@ scotch:
   - 7.0.4
 ptscotch:
   - 7.0.4
+s2geography:
+  - 0.1.2
 s2n:
   - 1.5.1
 sdl2:
