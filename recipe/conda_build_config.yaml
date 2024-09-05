@@ -550,6 +550,8 @@ libidn2:
   - 2
 libintervalxt:
   - 3
+libitk_devel:
+  - 5.4
 libkml:
   - 1.3
 libkml_devel:
