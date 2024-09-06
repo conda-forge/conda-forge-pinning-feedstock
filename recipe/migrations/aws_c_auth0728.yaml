@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_auth 0.7.28
+  kind: version
+  migration_number: 1
+aws_c_auth:
+- 0.7.28
+migrator_ts: 1725630668.1344182
