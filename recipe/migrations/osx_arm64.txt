@@ -767,6 +767,8 @@ nest-simulator
 netcdf-cxx4
 netcdf4
 netgen
+neunorm
+neuron
 newrelic
 nexus
 ngmix
