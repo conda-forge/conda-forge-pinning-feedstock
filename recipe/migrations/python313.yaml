@@ -29,6 +29,8 @@ __migrator:
         - pypy-meta
         - cross-python
         - python_abi
+        # see https://github.com/conda-forge/scipy-feedstock/pull/283
+        - scipy
     exclude_pinned_pkgs: false
     additional_zip_keys:
         - channel_sources
