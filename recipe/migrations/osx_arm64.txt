@@ -1421,6 +1421,7 @@ simpleitk
 simplejson
 simplification
 six
+sixs_json
 skopeo
 sleef
 sleepecg
