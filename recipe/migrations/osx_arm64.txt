@@ -1209,6 +1209,7 @@ r-keyring
 r-knitr
 r-languageserver
 r-latticeextra
+r-leafpop
 r-leaps
 r-lfe
 r-lhs
