@@ -583,6 +583,7 @@ pylibtiff
 pylint
 pymatgen
 pymca
+pymol-open-source
 pymupdf
 pynacl
 pynisher
