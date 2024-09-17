@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_auth 0.7.31
+  kind: version
+  migration_number: 1
+  automerge: true
+aws_c_auth:
+- 0.7.31
+migrator_ts: 1726556578.9490685
