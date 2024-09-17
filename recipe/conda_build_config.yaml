@@ -361,9 +361,9 @@ gsl:
 gsoap:
   - 2.8.123
 gstreamer:
-  - '1.22'
+  - '1.24'
 gst_plugins_base:
-  - '1.22'
+  - '1.24'
 gdal:
   - '3.9'
 libgdal:
