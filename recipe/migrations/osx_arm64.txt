@@ -346,6 +346,8 @@ fitsio
 flake8-annotations
 flash
 flatbuffers
+fluidfft
+fluidsim
 fonttools
 forcebalance
 forestci
