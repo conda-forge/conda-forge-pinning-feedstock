@@ -10,7 +10,6 @@ __migrator:
   include_noarch: True
   include_build: True
   pr_limit: 40
-  check_solvable: False
   override_cbc_keys:
     - r-base
     - r_base
