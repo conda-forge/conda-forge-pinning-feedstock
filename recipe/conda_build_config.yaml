@@ -620,7 +620,7 @@ libtensorflow_cc:
 libthrift:
   - 0.20.0
 libtiff:
-  - '4.6'
+  - '4.7'
 # keep in synch with pytorch
 libtorch:
   - '2.3'
