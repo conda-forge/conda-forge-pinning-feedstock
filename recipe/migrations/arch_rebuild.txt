@@ -87,6 +87,7 @@ conda-suggest-conda-forge
 configurable-http-proxy
 console_bridge
 constructor
+coreforecast
 cpp-filesystem
 cppad
 cppcheck
@@ -1012,6 +1013,7 @@ sqsgenerator
 squashfuse
 srm
 starship
+statsforecast
 statsmodels
 su-exec
 suitesparse
