@@ -331,6 +331,7 @@ libboost-mpi
 libcap
 libcint
 libcublas
+libcublasmp
 libcufft
 libcufile
 libcugraph
