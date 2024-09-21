@@ -821,8 +821,8 @@ readline:
 rocksdb:
   - '9.1'
 root_base:
-  - 6.28.12
   - 6.30.4
+  - 6.32.0
 ruby:
   - 2.5
   - 2.6
