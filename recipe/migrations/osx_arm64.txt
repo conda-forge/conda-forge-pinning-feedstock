@@ -346,6 +346,8 @@ fitsio
 flake8-annotations
 flash
 flatbuffers
+fluidfft
+fluidsim
 fonttools
 forcebalance
 forestci
@@ -767,6 +769,8 @@ nest-simulator
 netcdf-cxx4
 netcdf4
 netgen
+neunorm
+neuron
 newrelic
 nexus
 ngmix
@@ -964,6 +968,7 @@ pydelatin
 pydpc
 pyduktape2
 pyebsdindex
+pyeda
 pyelftools
 pyemir
 pyemma
@@ -1207,6 +1212,7 @@ r-keyring
 r-knitr
 r-languageserver
 r-latticeextra
+r-leafpop
 r-leaps
 r-lfe
 r-lhs
@@ -1418,6 +1424,7 @@ simpleitk
 simplejson
 simplification
 six
+sixs_json
 skopeo
 sleef
 sleepecg

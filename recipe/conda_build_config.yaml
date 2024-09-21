@@ -233,15 +233,15 @@ arb:
 arpack:
   - '3.9'
 assimp:
-  - 5.4.1
+  - 5.4.2
 attr:
   - 2.5
 aws_c_auth:
-  - 0.7.27
+  - 0.7.31
 aws_c_cal:
   - 0.7.4
 aws_c_common:
-  - 0.9.27
+  - 0.9.28
 aws_c_compression:
   - 0.2.19
 # coupled to aws_c_common version bump, see
@@ -249,21 +249,21 @@ aws_c_compression:
 aws_c_event_stream:
   - 0.4.3
 aws_c_http:
-  - 0.8.8
+  - 0.8.10
 # the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
   - 0.14.18
 # the builds got coupled because 0.2.4 landed before the io migrator
 aws_c_mqtt:
-  - 0.10.4
+  - 0.10.6
 aws_c_s3:
-  - 0.6.4
+  - 0.6.6
 aws_c_sdkutils:
   - 0.1.19
 aws_checksums:
-  - 0.1.18
+  - 0.1.20
 aws_crt_cpp:
-  - 0.28.2
+  - 0.28.3
 aws_sdk_cpp:
   - 1.11.379
 azure_core_cpp:
@@ -361,9 +361,9 @@ gsl:
 gsoap:
   - 2.8.123
 gstreamer:
-  - '1.22'
+  - '1.24'
 gst_plugins_base:
-  - '1.22'
+  - '1.24'
 gdal:
   - '3.9'
 libgdal:
@@ -392,7 +392,7 @@ gmp:
   - 6
 # keep google_cloud_cpp in sync with libgoogle_cloud_*
 google_cloud_cpp:
-  - '2.28'
+  - '2.29'
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
@@ -412,7 +412,7 @@ hdf5:
 icu:
   - '73'
 idyntree:
-  - '12'
+  - '13'
 imath:
   - 3.1.11
 ipopt:
@@ -499,43 +499,43 @@ libgit2:
   - '1.8'
 # Keep in sync with google_cloud_cpp
 libgoogle_cloud:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_all_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_aiplatform_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_automl_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_bigquery_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_bigtable_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_compute_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_dialogflow_cx_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_dialogflow_es_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_discoveryengine_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_dlp_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_iam_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_oauth2_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_policytroubleshooter_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_pubsub_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_spanner_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_speech_devel:
-  - '2.28'
+  - '2.29'
 libgoogle_cloud_storage_devel:
-  - '2.28'
+  - '2.29'
 libgrpc:
   - "1.62"
 libhugetlbfs:
@@ -591,7 +591,7 @@ libpq:
 libraw:
   - '0.21'
 librdkafka:
-  - '2.4'
+  - '2.5'
 librsvg:
   - 2
 libsecret:
@@ -620,7 +620,7 @@ libtensorflow_cc:
 libthrift:
   - 0.20.0
 libtiff:
-  - '4.6'
+  - '4.7'
 # keep in synch with pytorch
 libtorch:
   - '2.3'
@@ -675,9 +675,9 @@ msgpack_c:
 msgpack_cxx:
   - 6
 mumps_mpi:
-  - 5.7.2
+  - 5.7.3
 mumps_seq:
-  - 5.7.2
+  - 5.7.3
 nccl:
   - 2
 ncurses:
@@ -837,8 +837,12 @@ scotch:
   - 7.0.4
 ptscotch:
   - 7.0.4
+s2geography:
+  - 0.1.2
+s2geometry:
+  - 0.11.1
 s2n:
-  - 1.5.1
+  - 1.5.3
 sdl2:
   - '2'
 sdl2_image:
@@ -850,7 +854,7 @@ sdl2_net:
 sdl2_ttf:
   - '2'
 singular:
-  - 4.3.2.p8
+  - 4.4.0
 snappy:
   - 1.2
 soapysdr:
@@ -899,7 +903,9 @@ vlfeat:
 volk:
   - '3.1'
 vtk:
-  - 9.2.6
+  - 9.3.0
+vtk_base:
+  - 9.3.0
 wcslib:
   - '8'
 wxwidgets:

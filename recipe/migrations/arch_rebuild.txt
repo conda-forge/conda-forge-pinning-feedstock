@@ -87,6 +87,7 @@ conda-suggest-conda-forge
 configurable-http-proxy
 console_bridge
 constructor
+coreforecast
 cpp-filesystem
 cppad
 cppcheck
@@ -330,6 +331,7 @@ libboost-mpi
 libcap
 libcint
 libcublas
+libcublasmp
 libcufft
 libcufile
 libcugraph
@@ -583,6 +585,7 @@ pylibtiff
 pylint
 pymatgen
 pymca
+pymol-open-source
 pymupdf
 pynacl
 pynisher
@@ -1011,6 +1014,7 @@ sqsgenerator
 squashfuse
 srm
 starship
+statsforecast
 statsmodels
 su-exec
 suitesparse

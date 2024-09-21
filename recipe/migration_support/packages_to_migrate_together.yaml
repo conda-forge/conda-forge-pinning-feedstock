@@ -71,3 +71,7 @@ sqlite:
 pytorch:
   - libtorch
   - pytorch
+
+vtk:
+  - vtk_base
+  - vtk

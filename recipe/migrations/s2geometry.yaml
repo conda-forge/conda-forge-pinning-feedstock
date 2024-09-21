@@ -1,0 +1,8 @@
+migrator_ts: 0
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+s2geometry:
+  - 0.11.1
