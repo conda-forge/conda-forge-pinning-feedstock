@@ -3,8 +3,6 @@ __migrator:
   kind: version
   commit_message: "Rebuild for libboost 1.86"
   migration_number: 1
-assimp:
-- 5.4.2
 libboost_devel:
 - "1.86"
 libboost_headers:
