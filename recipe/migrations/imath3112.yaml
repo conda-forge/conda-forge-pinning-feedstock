@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for imath 3.1.12
-  kind: version
-  migration_number: 1
-imath:
-- 3.1.12
-migrator_ts: 1725984290.0027597

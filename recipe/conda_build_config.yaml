@@ -414,7 +414,7 @@ icu:
 idyntree:
   - '13'
 imath:
-  - 3.1.11
+  - 3.1.12
 ipopt:
   - 3.14.16
 isl:
