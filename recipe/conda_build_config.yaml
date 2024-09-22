@@ -195,9 +195,6 @@ cdt_arch: armv7l                          # [armv7l]
 BUILD: armv7-conda_cos7-linux-gnueabihf   # [armv7l]
 
 pin_run_as_build:
-  # TODO: add run_exports to the following feedstocks
-  libsvm:
-    max_pin: x
   netcdf-cxx4:
     max_pin: x.x
   vlfeat:
@@ -609,7 +606,7 @@ libssh:
 libssh2:
   - 1
 libsvm:
-  - '332'
+  - '335'
 # keep libsqlite in sync with sqlite
 libsqlite:
   - 3
