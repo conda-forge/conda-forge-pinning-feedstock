@@ -488,6 +488,7 @@ healpix
 healpix_cxx
 healpy
 heat
+heffte
 helios
 helix
 help2man
