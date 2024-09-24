@@ -259,6 +259,7 @@ harp
 hdbscan
 healpix_cxx
 heaptrack
+heffte
 hepmc3
 heyoka
 heyoka.py
