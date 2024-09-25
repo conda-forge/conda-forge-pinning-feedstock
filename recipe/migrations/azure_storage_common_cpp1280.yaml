@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for azure_storage_common_cpp 12.8.0
+  kind: version
+  migration_number: 1
+azure_storage_common_cpp:
+- 12.8.0
+migrator_ts: 1727284744.505542
