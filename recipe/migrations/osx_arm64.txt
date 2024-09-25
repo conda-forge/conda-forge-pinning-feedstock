@@ -222,6 +222,7 @@ cx_freeze
 cyanure
 cyipopt
 cython-fortran-file
+cytosim
 dagster
 daqp
 dart-sass
