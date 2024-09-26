@@ -1,0 +1,19 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for Azure Storage September release
+  kind: version
+  migration_number: 1
+  exclude_pinned_pkgs: false
+azure_storage_common_cpp:
+- 12.8.0
+azure-storage-blobs:
+- 12.13.0
+azure-storage-files-datalake:
+- 12.12.0
+azure-storage-files-shares:
+- 12.11.0
+azure-storage-queues:
+- 12.4.0
+azure_identity_cpp:
+- 1.9.0
+migrator_ts: 1727284744.505542
