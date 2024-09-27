@@ -223,6 +223,7 @@ cyanure
 cyipopt
 cython-fortran-file
 cytosim
+cytoplay
 dagster
 daqp
 dart-sass
