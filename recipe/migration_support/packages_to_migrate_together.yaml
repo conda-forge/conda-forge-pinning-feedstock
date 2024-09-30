@@ -28,6 +28,16 @@ mkl:
   - mkl
   - mkl_devel
 
+mumps:
+  - mumps-mpi
+  - mumps-seq
+
+petsc:
+  - petsc
+  - petsc4py
+  - slepc
+  - slepc4py
+
 libscotch:
   - libscotch
   - libptscotch
