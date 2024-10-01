@@ -28,7 +28,7 @@ mkl:
   - mkl
   - mkl_devel
 
-mumps:
+mumps-mpi:
   - mumps-mpi
   - mumps-seq
 
