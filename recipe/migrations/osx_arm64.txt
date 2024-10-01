@@ -510,6 +510,7 @@ htop
 httpx
 hug
 hugin
+human-dynamics-estimation
 hunspell
 hurl
 hydride
