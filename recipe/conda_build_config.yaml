@@ -262,7 +262,7 @@ aws_checksums:
 aws_crt_cpp:
   - 0.28.3
 aws_sdk_cpp:
-  - 1.11.379
+  - 1.11.407
 azure_core_cpp:
   - 1.13.0
 azure_identity_cpp:
