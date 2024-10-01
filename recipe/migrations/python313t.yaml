@@ -34,6 +34,8 @@ __migrator:
     additional_zip_keys:
         - channel_sources
         - is_freethreading
+    wait_for_migrators:
+        - python313
 
 python:
 - 3.13.* *_cp313t
