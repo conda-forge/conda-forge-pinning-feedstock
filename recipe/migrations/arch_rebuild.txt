@@ -272,6 +272,7 @@ htop
 httplib2
 httptools
 hub
+human-dynamics-estimation
 hurl
 hyperspy
 ibm_db
