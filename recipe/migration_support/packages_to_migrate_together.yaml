@@ -56,6 +56,10 @@ libgoogle_cloud:
   - libgoogle_cloud_speech_devel
   - libgoogle_cloud_storage_devel
 
+libthrift:
+  - libthrift
+  - thrift_cpp
+
 libvigra:
   - libvigra
   - vigra

@@ -259,10 +259,12 @@ harp
 hdbscan
 healpix_cxx
 heaptrack
+heffte
 hepmc3
 heyoka
 heyoka.py
 hmmlearn
+horovod
 howardhinnant_date
 htcondor
 htcondor-utils

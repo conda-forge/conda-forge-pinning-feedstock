@@ -576,7 +576,7 @@ libopentelemetry_cpp:
 libosqp:
   - 0.6.3
 libopenvino_dev:
-  - 2024.3.0
+  - 2024.4.0
 libpcap:
   - '1.10'
 libpng:
@@ -634,7 +634,7 @@ libwebp:
 libwebp_base:
   - 1
 libxcb:
-  - '1.16'
+  - '1'
 libxml2:
   - 2
 libxsmm:
@@ -693,7 +693,7 @@ nss:
 nspr:
   - 4
 nlopt:
-  - '2.7'
+  - '2.8'
 ntl:
   - '11.4.3'
 # we build for the oldest version possible of numpy for forward compatibility
@@ -749,11 +749,11 @@ pcre:
 pcre2:
   - '10.44'
 pdal:
-  - '2.7'
+  - 2.8.0
 libpdal:
-  - '2.7'
+  - 2.8.0
 libpdal_core:
-  - '2.7'
+  - 2.8.0
 pixman:
   - 0
 poco:
@@ -884,9 +884,11 @@ tinyxml2:
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
-  - '2.25'
+  - '2.26'
+ucc:
+  - 1
 ucx:
-  - '1.16.0'
+  - '1.17'
 uhd:
   - 4.7.0
 urdfdom:
