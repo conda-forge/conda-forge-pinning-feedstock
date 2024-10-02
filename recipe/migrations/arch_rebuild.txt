@@ -971,6 +971,7 @@ rosdistro
 rrdtool
 ruff
 sage
+sasktran2
 scalene
 scenepic
 scikit-allel
