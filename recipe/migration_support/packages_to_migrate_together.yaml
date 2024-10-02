@@ -20,6 +20,11 @@ libpdal:
   - libpdal
   - libpdal_core
 
+libpq:
+  - libpq
+  - postgresql
+  - postgresql_plpython
+
 libwebp:
   - libwebp
   - libwebp_base
