@@ -219,6 +219,8 @@ blas_impl:
 # this output was dropped as of libabseil 20230125
 abseil_cpp:
   - '20220623.0'
+ace:
+  - '8.0.1'
 alsa_lib:
   - '1.2'
 antic:
