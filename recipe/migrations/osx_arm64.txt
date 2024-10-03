@@ -323,6 +323,7 @@ faiss-split
 falcon
 fast-histogram
 fast-query-parsers
+fast_hdbscan
 fastapi
 fastavro
 fastcache
