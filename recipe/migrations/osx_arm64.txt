@@ -349,6 +349,8 @@ flake8-annotations
 flash
 flatbuffers
 fluidfft
+fluidfft-fftw
+fluidimage
 fluidsim
 fonttools
 forcebalance
