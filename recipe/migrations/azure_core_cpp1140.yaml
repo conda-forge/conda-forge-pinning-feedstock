@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for azure_core_cpp 1.14.0
+  kind: version
+  migration_number: 1
+azure_core_cpp:
+- 1.14.0
+migrator_ts: 1728066241.096861
