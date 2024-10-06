@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libdeflate 1.22
+  kind: version
+  migration_number: 1
+libdeflate:
+- '1.22'
+migrator_ts: 1728190539.7261107
