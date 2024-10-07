@@ -58,6 +58,7 @@ cairomm
 calceph
 cantera
 capnproto
+carma
 cartographer
 cartopy
 cascade
