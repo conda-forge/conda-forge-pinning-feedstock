@@ -518,6 +518,7 @@ perl-io-tty
 perl-lwp-simple
 perl-mime-base64
 perl-moose
+perl-scalar-list-utils
 perl-socket
 perl-storbale
 perl-version
