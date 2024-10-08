@@ -32,13 +32,9 @@ __migrator:
         # see https://github.com/conda-forge/scipy-feedstock/pull/283
         - scipy
     exclude_pinned_pkgs: false
-    additional_zip_keys:
-        - channel_sources
 
 python:
 - 3.13.* *_cp313
-channel_sources:
-- conda-forge/label/python_rc,conda-forge
 # additional entries to add for zip_keys
 numpy:
 - 2
