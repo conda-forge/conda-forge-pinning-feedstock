@@ -282,6 +282,7 @@ dos2unix
 doxygen
 dscribe
 dsps
+dssp
 dtaidistance
 dtw-python
 ducc0
