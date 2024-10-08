@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for json_c 0.18
-  kind: version
-  migration_number: 1
-json_c:
-- '0.18'
-migrator_ts: 1726500613.5475526

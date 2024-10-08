@@ -431,7 +431,7 @@ libjpeg_turbo:
 libev:
   - 4.33
 json_c:
-  - '0.17'
+  - '0.18'
 jsoncpp:
   - 1.9.5
 kealib:
