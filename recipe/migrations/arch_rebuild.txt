@@ -63,6 +63,7 @@ cartographer
 cartopy
 cascade
 catch2
+cbonsai
 cccl
 ccdproc
 cctbx-base
@@ -975,6 +976,7 @@ ruff
 sage
 sasktran2
 scalene
+scdoc
 scenepic
 scikit-allel
 scikit-bio
