@@ -122,6 +122,7 @@ casadi
 cascade
 causalml
 cbgen
+cbonsai
 ccache
 cchardet
 cctbx-base
@@ -1381,6 +1382,7 @@ scalene
 scandir
 scanpy
 sccache
+scdoc
 scenepic
 schwimmbad
 scikit-allel
