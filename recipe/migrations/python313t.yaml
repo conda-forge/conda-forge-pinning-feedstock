@@ -40,7 +40,7 @@ __migrator:
 python:
 - 3.13.* *_cp313t
 channel_sources:
-- conda-forge/label/python_rc,conda-forge/label/cython_dev,conda-forge
+- conda-forge/label/cython_dev,conda-forge
 # additional entries to add for zip_keys
 numpy:
 - 2
