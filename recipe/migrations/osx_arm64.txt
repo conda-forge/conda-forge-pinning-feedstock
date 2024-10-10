@@ -1484,6 +1484,7 @@ sunpy
 supervisor
 swig
 swiglpk
+swmm-toolkit
 systemc
 ta-lib
 tabula-py
