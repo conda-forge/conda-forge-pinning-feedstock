@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_io 0.14.19
+  kind: version
+  migration_number: 1
+  automerge: true
+aws_c_io:
+- 0.14.19
+migrator_ts: 1728634045.5989077
