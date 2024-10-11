@@ -1583,6 +1583,7 @@ vigra
 vim
 vina
 visan
+visp
 vispy
 vitables
 vivid
