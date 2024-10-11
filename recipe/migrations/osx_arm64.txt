@@ -589,7 +589,6 @@ lammps
 landlab
 lapack
 laspy
-pypdfium2
 lazrs-python
 lazy-object-proxy
 ldc
@@ -1045,6 +1044,7 @@ pyopenssl
 pyorc
 pypandoc
 pypdf
+pypdfium2
 pypeit
 pyproj
 pyproject-fmt-rust
