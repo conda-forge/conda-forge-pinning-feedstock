@@ -731,6 +731,7 @@ mne-qt-browser
 mnelab
 mo_pack
 modin
+moleculekit
 mongoengine
 moonrepo-moon
 mosh
