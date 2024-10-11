@@ -332,7 +332,7 @@ exiv2:
 expat:
   - 2
 ffmpeg:
-  - '6'
+  - '7'
 fftw:
   - 3
 flann:
