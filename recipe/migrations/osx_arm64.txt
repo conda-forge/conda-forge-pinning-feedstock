@@ -589,6 +589,7 @@ lammps
 landlab
 lapack
 laspy
+pypdfium2
 lazrs-python
 lazy-object-proxy
 ldc
