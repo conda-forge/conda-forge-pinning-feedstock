@@ -878,6 +878,7 @@ parmetis
 patch
 pathos
 pcraster
+pdf2svg
 pdftotext
 pdm
 peewee
