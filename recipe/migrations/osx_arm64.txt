@@ -116,6 +116,7 @@ camb
 cantera
 capstone
 cargo-bundle-licenses
+cargo-nextest
 cartographer
 cartopy
 casadi
