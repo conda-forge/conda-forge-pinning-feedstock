@@ -739,7 +739,7 @@ petsc4py:
 pugixml:
   - '1.14'
 slepc:
-  - '3.21'
+  - '3.19'
 slepc4py:
   - '3.21'
 svt_av1:
