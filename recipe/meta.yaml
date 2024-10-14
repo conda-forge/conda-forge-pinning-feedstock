@@ -29,6 +29,10 @@ test:
     - test -f $PREFIX/conda_build_config.yaml                       # [unix]
     - test -f $PREFIX/share/conda-forge/migrations/example.exyaml   # [unix]
     - test -d $PREFIX/share/conda-forge/migration_support           # [unix]
+    - >-                                                                         # [unix]
+      if [[ $(ls -1 $PREFIX/share/conda-forge/migrations/*.yml) != "" ]]; then   # [unix]
+      echo "All migration files must end in .yaml" && exit 1;                    # [unix]
+      fi                                                                         # [unix]
 
 about:
   summary: The baseline versions of software for the conda-forge ecosystem
