@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for xerces_c 3.3
+  kind: version
+  migration_number: 1
+migrator_ts: 1728987926.9639509
+xerces_c:
+- '3.3'
