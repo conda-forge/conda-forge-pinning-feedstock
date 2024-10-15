@@ -974,6 +974,7 @@ pycbf
 pycifrw
 pyclipper
 pycocotools
+pycontrails
 pycparser
 pycrdt
 pycurl
