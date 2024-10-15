@@ -565,6 +565,7 @@ julia
 jupyter-docx-bundler
 jupyter_contrib_nbextensions
 jupyter_server
+k9s
 kaggle
 kanidm-clients
 kartothek
@@ -578,6 +579,7 @@ kliff
 kokkos
 kokkos-kernels
 kombu
+ksops
 kubernetes
 kubernetes-helm
 kubo
