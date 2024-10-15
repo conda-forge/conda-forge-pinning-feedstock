@@ -302,6 +302,7 @@ jupyter-dash
 jupyter_contrib_nbextensions
 jupyterhub
 jxrlib
+k9s
 kanidm-clients
 kaolin
 kartothek
@@ -310,6 +311,7 @@ kepderiv
 keyring
 kim-api
 krb5
+ksops
 labelimg
 lalapps
 lammps
