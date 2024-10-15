@@ -41,6 +41,7 @@ arm_pyart
 armadillo
 arosics
 arpack
+arro3-core
 arrow-odbc
 asio
 astra-toolbox
