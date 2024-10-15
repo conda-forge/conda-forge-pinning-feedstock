@@ -136,7 +136,6 @@ docker_image:                                   # [os.environ.get("BUILD_PLATFOR
   - quay.io/condaforge/linux-anvil-cos7-x86_64  # [os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-aarch64      # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64"]
   - quay.io/condaforge/linux-anvil-ppc64le      # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le"]
-  - quay.io/condaforge/linux-anvil-armv7l       # [os.environ.get("BUILD_PLATFORM") == "linux-armv7l"]
 
   # CUDA 11.8
   - quay.io/condaforge/linux-anvil-cuda:11.8              # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
