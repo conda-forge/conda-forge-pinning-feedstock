@@ -4,6 +4,7 @@ accelerator-toolbox
 act
 adaptive
 adaptive-scheduler
+pyswmm
 adcc
 adrt
 aesara
