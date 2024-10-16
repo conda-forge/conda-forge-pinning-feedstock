@@ -1083,6 +1083,7 @@ pyspnego
 pystackreg
 pystan
 pystow
+pyswmm
 pytables
 pytango
 pytensor
