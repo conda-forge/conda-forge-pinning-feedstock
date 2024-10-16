@@ -437,6 +437,7 @@ gnuradio
 gnuradio-satellites
 gnuradio-soapy
 go-licenses
+go-shfmt
 go-yq
 google-cloud-cpp
 google-cloud-sdk
