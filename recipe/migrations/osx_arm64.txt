@@ -4,7 +4,6 @@ accelerator-toolbox
 act
 adaptive
 adaptive-scheduler
-pyswmm
 adcc
 adrt
 aesara
@@ -1084,6 +1083,7 @@ pyspnego
 pystackreg
 pystan
 pystow
+pyswmm
 pytables
 pytango
 pytensor
