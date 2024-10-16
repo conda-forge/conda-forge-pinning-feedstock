@@ -88,6 +88,7 @@ bilby.cython
 billiard
 binaryen
 bindensity
+binsider
 biome
 biosphere
 biotite
