@@ -41,6 +41,7 @@ bcrypt
 bilby.cython
 binaryen
 bindensity
+binsider
 biom-format
 bipedal-locomotion-framework
 black
