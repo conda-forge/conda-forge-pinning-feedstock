@@ -336,6 +336,7 @@ fastcluster
 fastdtw
 fastnumbers
 fastparquet
+fastpath
 fastremap
 fasttext
 faunus
