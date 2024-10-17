@@ -830,13 +830,13 @@ r_base:
   - 4.1   # [win]
   - 4.3   # [not win]
 libscotch:
-  - 7.0.4
+  - 7.0.5
 libptscotch:
-  - 7.0.4
+  - 7.0.5
 scotch:
-  - 7.0.4
+  - 7.0.5
 ptscotch:
-  - 7.0.4
+  - 7.0.5
 s2geography:
   - 0.1.2
 s2geometry:
