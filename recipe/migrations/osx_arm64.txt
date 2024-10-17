@@ -1487,6 +1487,7 @@ starship
 statsmodels
 stockwell
 stow
+stsynphot
 stumpy
 subversion
 suds-jurko
@@ -1679,4 +1680,3 @@ zeopp-lsmo
 zeroc-ice
 zip
 zoxide
-stsynphot
