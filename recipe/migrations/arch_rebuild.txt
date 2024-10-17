@@ -190,6 +190,7 @@ fancycompleter
 fast-histogram
 fast_float
 fastparquet
+fastpath
 fcl
 fenics-dolfinx
 fermipy
