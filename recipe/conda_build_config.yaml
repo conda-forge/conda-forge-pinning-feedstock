@@ -715,6 +715,8 @@ openh264:
   - 2.4.1
 openjpeg:
   - '2'
+openjph:
+  - '0.17'
 openmpi:
   - 4
 openslide:
