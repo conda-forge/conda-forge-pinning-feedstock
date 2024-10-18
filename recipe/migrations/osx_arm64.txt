@@ -1488,6 +1488,7 @@ starship
 statsmodels
 stockwell
 stow
+stsynphot
 stumpy
 subversion
 suds-jurko
