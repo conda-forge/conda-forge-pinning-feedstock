@@ -977,6 +977,7 @@ rosdep
 rosdistro
 rrdtool
 ruff
+s5cmd
 sage
 sasktran2
 scalene
@@ -1036,7 +1037,6 @@ sunpy
 supervisor
 sympy
 systemd
-s5cmd
 tango-access-control
 tango-admin
 tango-database
