@@ -1036,6 +1036,7 @@ sunpy
 supervisor
 sympy
 systemd
+s5cmd
 tango-access-control
 tango-admin
 tango-database
