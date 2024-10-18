@@ -1,0 +1,7 @@
+migrator_ts: 1729238352
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+root_base:
+  - 6.32.2
