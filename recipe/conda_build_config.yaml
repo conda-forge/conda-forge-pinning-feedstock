@@ -710,7 +710,7 @@ occt:
 openblas:
   - 0.3.*
 openexr:
-  - '3.2'
+  - '3.3'
 openh264:
   - 2.4.1
 openjpeg:
