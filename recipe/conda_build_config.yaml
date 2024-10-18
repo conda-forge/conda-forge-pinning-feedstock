@@ -239,7 +239,7 @@ aws_c_auth:
 aws_c_cal:
   - 0.7.4
 aws_c_common:
-  - 0.9.28
+  - 0.9.29
 aws_c_compression:
   - 0.2.19
 # coupled to aws_c_common version bump, see
@@ -250,12 +250,12 @@ aws_c_http:
   - 0.8.10
 # the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
-  - 0.14.18
+  - 0.14.19
 # the builds got coupled because 0.2.4 landed before the io migrator
 aws_c_mqtt:
   - 0.10.7
 aws_c_s3:
-  - 0.6.6
+  - 0.6.7
 aws_c_sdkutils:
   - 0.1.19
 aws_checksums:
