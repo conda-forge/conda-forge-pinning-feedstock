@@ -815,7 +815,7 @@ qtkeychain:
 rdma_core:
   - '53'
 re2:
-  - 2023.09.01
+  - 2024.07.02
 readline:
   - "8"
 rocksdb:
