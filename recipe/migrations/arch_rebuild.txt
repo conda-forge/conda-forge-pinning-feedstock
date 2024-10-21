@@ -644,6 +644,7 @@ pythonocc-core
 pythran
 pytinyrenderer
 pytorch-cpu
+pytsql
 pyvcf
 pyvips
 pyvisa-py
