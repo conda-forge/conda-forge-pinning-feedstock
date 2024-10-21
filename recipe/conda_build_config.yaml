@@ -309,7 +309,7 @@ coin_or_utils:
 console_bridge:
   - 1.0
 cudnn:
-  - 8
+  - '9'
 cutensor:
   - 2
 curl:
