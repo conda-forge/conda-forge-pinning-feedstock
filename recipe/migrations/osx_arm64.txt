@@ -130,6 +130,7 @@ ccache
 cchardet
 cctbx-base
 cdo
+cdshealpix
 celerite
 celery
 cell_tree2d
@@ -737,6 +738,7 @@ mne-base
 mne-qt-browser
 mnelab
 mo_pack
+mocpy
 modin
 moleculekit
 mongoengine
