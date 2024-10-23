@@ -722,7 +722,7 @@ openmpi:
 openslide:
   - 4
 openssl:
-  - '3'
+  - '3.3'
 orc:
   - 2.0.2
 pango:
