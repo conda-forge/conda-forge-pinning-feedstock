@@ -1680,6 +1680,8 @@ zaber-motion
 zarr
 zbar
 zchunk
+zenoh-cpp
+zenoh-plugin-webserver
 zeopp-lsmo
 zeroc-ice
 zip

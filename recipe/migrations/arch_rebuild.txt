@@ -1146,6 +1146,8 @@ yoda
 yt
 zaber-motion
 zchunk
+zenoh-cpp
+zenoh-plugin-webserver
 zeromq
 zip
 zipfile-deflate64
