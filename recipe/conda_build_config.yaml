@@ -440,7 +440,7 @@ krb5:
 ldas_tools_framecpp:
   - '2.9'
 libabseil:
-  - '20240116'
+  - '20240722'
 libabseil_static:
   - '20220623.0'
 libaec:
@@ -535,7 +535,7 @@ libgoogle_cloud_speech_devel:
 libgoogle_cloud_storage_devel:
   - '2.30'
 libgrpc:
-  - "1.62"
+  - "1.65"
 libhugetlbfs:
   - 2
 libhwloc:
@@ -583,7 +583,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 4.25.3
+  - 5.27.5
 libpq:
   - '16'
 libraw:
