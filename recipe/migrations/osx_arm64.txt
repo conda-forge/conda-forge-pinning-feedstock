@@ -1685,4 +1685,5 @@ zenoh-plugin-webserver
 zeopp-lsmo
 zeroc-ice
 zip
+zopfli
 zoxide
