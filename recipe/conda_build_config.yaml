@@ -241,7 +241,7 @@ aws_c_cal:
 aws_c_common:
   - 0.9.31
 aws_c_compression:
-  - 0.2.19
+  - 0.3.0
 # coupled to aws_c_common version bump, see
 # https://github.com/conda-forge/aws-c-http-feedstock/pull/109
 aws_c_event_stream:
