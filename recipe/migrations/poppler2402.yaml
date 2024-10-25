@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for poppler 24.02
-  kind: version
-  migration_number: 1
-migrator_ts: 1707090099.8628283
-poppler:
-- '24.02'

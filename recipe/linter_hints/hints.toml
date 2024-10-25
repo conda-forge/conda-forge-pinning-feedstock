@@ -4,6 +4,17 @@ matplotlib = """\
     Recipes should usually depend on `matplotlib-base` as opposed to \
     `matplotlib` so that runtime environments do not require large \
     packages like `qt`."""
+pathlib = """\
+    As of Python 3.4+, `pathlib` is part of the standard library. \
+    Recipes should drop the `pathlib` dependency as it is sunset.
+    
+    xref: https://peps.python.org/pep-0428/
+    xref: https://github.com/conda-forge/admin-requests/pull/1113"""
+build = """\
+    Recipes should depend on `python-build` as opposed to \
+    `build`. The `conda-forge` name for `https://github.com/pypa/build` is \
+    `python-build` in order to eliminate ambiguity. The `build` feedstock is \
+    archived and unmaintained."""
 jpeg = """\
     Recipes should usually depend on `libjpeg-turbo` as opposed to \
     `jpeg` for improved performance. For more information please see \
@@ -36,4 +47,44 @@ boost = """\
     The `boost` output has been superseded by `libboost-python-devel` (as of \
     1.82), which now comes with a run-export (on `libboost-python`) as well."""
 grpc-cpp = "The `grpc-cpp` output has been superseded by `libgrpc`."
-build = "The pypa `build` package has been renamed to `python-build`."
+importlib_metadata = "Use `importlib-metadata` instead of `importlib_metadata`"
+libgcc-ng = """\
+    `libgcc-ng` has been superseded by `libgcc`. Note however, that except in \
+    truly exceptional cases, you should not have to add this manually; you can \
+    rely on the fact that `{{ compiler("c") }}` and `{{ compiler("cxx") }}` \
+    will always create the correct run-export for this. If you need to _ignore_ \
+    the run-export for whatever reason, the best way to do it is:
+    ```yaml
+    build:
+      ignore_run_exports_from:
+        - {{ compiler("c") }}    # depending on which...
+        - {{ compiler("cxx") }}  # ... compilers you use
+    ```"""
+coincbc = """\
+    The `coincbc` package has been renamed to `coin-or-cbc`. It is now \
+    preferred to depend on the `coin-or-cbc` package in th host section and allow
+    the run_export define the runtime dependency.
+"""
+
+libstdcxx-ng = """\
+    `libstdcxx-ng` has been superseded by `libstdcxx`. Note however, that except in \
+    truly exceptional cases, you should not have to add this manually; you can \
+    rely on the fact that `{{ compiler("cxx") }}` will always create the correct \
+    run-export for this. If you need to _ignore_ the run-export for whatever \
+    reason, the best way to do it is:
+    ```yaml
+    build:
+      ignore_run_exports_from:
+        - {{ compiler("cxx") }}
+    ```"""
+libgfortran-ng = """\
+    `libgfortran-ng` has been superseded by `libgfortran`. Note however, that except in \
+    truly exceptional cases, you should not have to add this manually; you can \
+    rely on the fact that `{{ compiler("fortran") }}` will always create the \
+    correct run-export for this. If you need to _ignore_ the run-export for \
+    whatever reason, the best way to do it is:
+    ```yaml
+    build:
+      ignore_run_exports_from:
+        - {{ compiler("fortran") }}
+    ```"""

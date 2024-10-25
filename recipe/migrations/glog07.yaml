@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for glog 0.7
-  kind: version
-  migration_number: 1
-glog:
-- '0.7'
-migrator_ts: 1708266332.3422346

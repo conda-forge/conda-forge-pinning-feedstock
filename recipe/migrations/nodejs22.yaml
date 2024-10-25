@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for nodejs 22
+  kind: version
+  migration_number: 1
+migrator_ts: 1720020160.6454718
+nodejs:
+- '22'
+- '20'

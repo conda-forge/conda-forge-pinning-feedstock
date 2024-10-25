@@ -1,0 +1,53 @@
+migrator_ts: 1718391654
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+  commit_message: "Rebuild for r-base 4.4 and UCRT mingw toolchain"
+  primary_key: r_base
+  automerge: True
+  longterm: True
+  include_noarch: True
+  include_build: True
+  pr_limit: 40
+  override_cbc_keys:
+    - r-base
+    - r_base
+    - m2w64_c_compiler_stub
+    - m2w64_cxx_compiler_stub
+    - m2w64_fortran_compiler_stub
+  ordering:
+    m2w64_c_compiler:
+      - m2w64-toolchain
+      - gcc
+    m2w64_cxx_compiler:
+      - m2w64-toolchain
+      - gxx
+    m2w64_fortran_compiler:
+      - m2w64-toolchain
+      - gfortran
+    m2w64_c_stdlib:
+      - m2w64-toolchain
+      - m2w64-sysroot
+
+r_base:
+  - 4.3
+  - 4.4
+m2w64_c_compiler:                 # [win]
+  - gcc                           # [win]
+m2w64_c_compiler_version:         # [win]
+  - 13                            # [win]
+m2w64_cxx_compiler:               # [win]
+  - gxx                           # [win]
+m2w64_cxx_compiler_version:       # [win]
+  - 13                            # [win]
+m2w64_fortran_compiler:           # [win]
+  - gfortran                      # [win]
+m2w64_fortran_compiler_version:   # [win]
+  - 13                            # [win]
+m2w64_c_stdlib:                   # [win]
+  - m2w64-sysroot                 # [win]
+m2w64_c_stdlib_version:           # [win]
+  - 12                            # [win]
+m2w64_toolchain:                  # [win]
+  - disabled                      # [win]
