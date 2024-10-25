@@ -4,6 +4,12 @@ matplotlib = """\
     Recipes should usually depend on `matplotlib-base` as opposed to \
     `matplotlib` so that runtime environments do not require large \
     packages like `qt`."""
+pathlib = """\
+    As of Python 3.4+, `pathlib` is part of the standard library. \
+    Recipes should drop the `pathlib` dependency as it is sunset.
+    
+    xref: https://peps.python.org/pep-0428/
+    xref: https://github.com/conda-forge/admin-requests/pull/1113"""
 build = """\
     Recipes should depend on `python-build` as opposed to \
     `build`. The `conda-forge` name for `https://github.com/pypa/build` is \
