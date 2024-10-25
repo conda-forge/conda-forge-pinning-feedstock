@@ -253,7 +253,7 @@ aws_c_io:
   - 0.14.20
 # the builds got coupled because 0.2.4 landed before the io migrator
 aws_c_mqtt:
-  - 0.10.7
+  - 0.11.0
 aws_c_s3:
   - 0.7.0
 aws_c_sdkutils:
