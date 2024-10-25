@@ -795,19 +795,22 @@ is_freethreading:
 pytorch:
   - '2.4'
 pyqt:
-  - 5.15
+  - 5.15.8
 pyqtwebengine:
-  - 5.15
+  - 5.15.8
 pyqtchart:
-  - 5.15
+  - 5.15.8
 qhull:
   - 2020.2
 qpdf:
   - 11
 qt:
-  - 5.15
+  - 5.15.8
+# qt-main is temporarily (as of Oct 25, 2024) pinned to 5.15.8 to help with the
+# build out of the qt stack for 5.15.15
+# https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/5670
 qt_main:
-  - 5.15
+  - 5.15.8
 qt6_main:
   - '6.7'
 qtkeychain:
