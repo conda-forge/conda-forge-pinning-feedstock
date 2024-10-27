@@ -225,6 +225,7 @@ cwinpy
 cwltool
 cx_freeze
 cyanure
+cyclus
 cyipopt
 cython-fortran-file
 cytoplay
