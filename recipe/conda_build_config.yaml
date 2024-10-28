@@ -795,11 +795,11 @@ is_freethreading:
 pytorch:
   - '2.4'
 pyqt:
-  - 5.15.8
+  - 5.15
 pyqtwebengine:
-  - 5.15.8
+  - 5.15
 pyqtchart:
-  - 5.15.8
+  - 5.15
 qhull:
   - 2020.2
 qpdf:
