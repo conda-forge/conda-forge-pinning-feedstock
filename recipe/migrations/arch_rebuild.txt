@@ -29,6 +29,7 @@ austin
 awkward1
 awscli2
 awscrt
+axel
 backports.zoneinfo
 backward-cpp
 basemap
