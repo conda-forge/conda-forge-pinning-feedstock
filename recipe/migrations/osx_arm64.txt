@@ -111,6 +111,7 @@ bt
 buildbot
 bytewax
 cached_interpolate
+cadet
 caiman
 cairomm
 calceph
