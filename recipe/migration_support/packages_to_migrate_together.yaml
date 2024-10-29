@@ -14,6 +14,10 @@ gstreamer:
   - gstreamer
   - gst_plugins_base
 
+libarrow:
+  - libarrow
+  - libarrow_all
+
 libboost_devel:
   - libboost_devel
   - libboost_headers
