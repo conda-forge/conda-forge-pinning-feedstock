@@ -5,39 +5,23 @@ coin_or_cbc:
   - coin_or_cbc
   - coincbc
 
-libboost_devel:
-  - libboost_devel
-  - libboost_headers
-  - libboost_python_devel
-
 gdal:
   - gdal
   - libgdal
   - libgdal_core
 
-libpdal:
-  - pdal
-  - libpdal
-  - libpdal_core
+gstreamer:
+  - gstreamer
+  - gst_plugins_base
 
-libpq:
-  - libpq
-  - postgresql
-  - postgresql_plpython
+libarrow:
+  - libarrow
+  - libarrow_all
 
-libwebp:
-  - libwebp
-  - libwebp_base
-
-mkl:
-  - mkl
-  - mkl_devel
-
-libscotch:
-  - libscotch
-  - libptscotch
-  - scotch
-  - ptscotch
+libboost_devel:
+  - libboost_devel
+  - libboost_headers
+  - libboost_python_devel
 
 libgoogle_cloud:
   - google_cloud_cpp
@@ -61,6 +45,22 @@ libgoogle_cloud:
   - libgoogle_cloud_speech_devel
   - libgoogle_cloud_storage_devel
 
+libpdal:
+  - pdal
+  - libpdal
+  - libpdal_core
+
+libpq:
+  - libpq
+  - postgresql
+  - postgresql_plpython
+
+libscotch:
+  - libscotch
+  - libptscotch
+  - scotch
+  - ptscotch
+
 libthrift:
   - libthrift
   - thrift_cpp
@@ -69,17 +69,21 @@ libvigra:
   - libvigra
   - vigra
 
-gstreamer:
-  - gstreamer
-  - gst_plugins_base
+libwebp:
+  - libwebp
+  - libwebp_base
 
-sqlite:
-  - sqlite
-  - libsqlite
+mkl:
+  - mkl
+  - mkl_devel
 
 pytorch:
   - libtorch
   - pytorch
+
+sqlite:
+  - sqlite
+  - libsqlite
 
 vtk:
   - vtk_base
