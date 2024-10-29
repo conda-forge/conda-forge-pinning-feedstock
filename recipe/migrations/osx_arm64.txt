@@ -492,6 +492,7 @@ h5py
 halotools
 harlequin
 harp
+hazelbean
 hdbscan
 hddm-wfpt
 hdf4
