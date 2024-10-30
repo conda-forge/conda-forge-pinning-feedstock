@@ -29,6 +29,7 @@ austin
 awkward1
 awscli2
 awscrt
+axel
 backports.zoneinfo
 backward-cpp
 basemap
@@ -41,6 +42,7 @@ bcrypt
 bilby.cython
 binaryen
 bindensity
+binsider
 biom-format
 bipedal-locomotion-framework
 black
@@ -189,6 +191,7 @@ fancycompleter
 fast-histogram
 fast_float
 fastparquet
+fastpath
 fcl
 fenics-dolfinx
 fermipy
@@ -642,6 +645,7 @@ pythonocc-core
 pythran
 pytinyrenderer
 pytorch-cpu
+pytsql
 pyvcf
 pyvips
 pyvisa-py
@@ -975,6 +979,7 @@ rosdep
 rosdistro
 rrdtool
 ruff
+s5cmd
 sage
 sasktran2
 scalene
@@ -1142,6 +1147,8 @@ yoda
 yt
 zaber-motion
 zchunk
+zenoh-cpp
+zenoh-plugin-webserver
 zeromq
 zip
 zipfile-deflate64

@@ -251,33 +251,33 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - 0.7.31
+  - 0.8.0
 aws_c_cal:
-  - 0.7.4
+  - 0.8.0
 aws_c_common:
-  - 0.9.28
+  - 0.9.31
 aws_c_compression:
-  - 0.2.19
+  - 0.3.0
 # coupled to aws_c_common version bump, see
 # https://github.com/conda-forge/aws-c-http-feedstock/pull/109
 aws_c_event_stream:
-  - 0.4.3
+  - 0.5.0
 aws_c_http:
-  - 0.8.10
+  - 0.9.0
 # the builds got coupled because 0.2.4 landed before the this migrator finished
 aws_c_io:
-  - 0.14.18
+  - 0.15.0
 # the builds got coupled because 0.2.4 landed before the io migrator
 aws_c_mqtt:
-  - 0.10.7
+  - 0.11.0
 aws_c_s3:
-  - 0.6.6
+  - 0.7.0
 aws_c_sdkutils:
-  - 0.1.19
+  - 0.2.0
 aws_checksums:
   - 0.1.20
 aws_crt_cpp:
-  - 0.28.3
+  - 0.29.0
 aws_sdk_cpp:
   - 1.11.407
 azure_core_cpp:
@@ -325,7 +325,7 @@ coin_or_utils:
 console_bridge:
   - 1.0
 cudnn:
-  - 8
+  - '9'
 cutensor:
   - 2
 curl:
@@ -448,7 +448,7 @@ libev:
 json_c:
   - '0.18'
 jsoncpp:
-  - 1.9.5
+  - 1.9.6
 kealib:
   - '1.5'
 krb5:
@@ -456,7 +456,7 @@ krb5:
 ldas_tools_framecpp:
   - '2.9'
 libabseil:
-  - '20240116'
+  - '20240722'
 libabseil_static:
   - '20220623.0'
 libaec:
@@ -492,7 +492,7 @@ libcrc32c:
 libdap4:
   - 3.20.6
 libdeflate:
-  - '1.21'
+  - '1.22'
 libduckdb_devel:
   - '1'
 libeantic:
@@ -551,7 +551,7 @@ libgoogle_cloud_speech_devel:
 libgoogle_cloud_storage_devel:
   - '2.30'
 libgrpc:
-  - "1.62"
+  - "1.65"
 libhugetlbfs:
   - 2
 libhwloc:
@@ -589,7 +589,7 @@ libode:
 libopencv:
   - 4.10.0
 libopentelemetry_cpp:
-  - '1.16'
+  - '1.17'
 libosqp:
   - 0.6.3
 libopenvino_dev:
@@ -599,7 +599,7 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 4.25.3
+  - 5.27.5
 libpq:
   - '16'
 libraw:
@@ -726,11 +726,13 @@ occt:
 openblas:
   - 0.3.*
 openexr:
-  - '3.2'
+  - '3.3'
 openh264:
   - 2.4.1
 openjpeg:
   - '2'
+openjph:
+  - '0.17'
 openmpi:
   - 4
 openslide:
@@ -819,9 +821,12 @@ qhull:
 qpdf:
   - 11
 qt:
-  - 5.15
+  - 5.15.8
+# qt-main is temporarily (as of Oct 25, 2024) pinned to 5.15.8 to help with the
+# build out of the qt stack for 5.15.15
+# https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/5670
 qt_main:
-  - 5.15
+  - 5.15.8
 qt6_main:
   - '6.7'
 qtkeychain:
@@ -829,7 +834,7 @@ qtkeychain:
 rdma_core:
   - '53'
 re2:
-  - 2023.09.01
+  - 2024.07.02
 readline:
   - "8"
 rocksdb:
@@ -844,19 +849,19 @@ r_base:
   - 4.1   # [win]
   - 4.3   # [not win]
 libscotch:
-  - 7.0.4
+  - 7.0.5
 libptscotch:
-  - 7.0.4
+  - 7.0.5
 scotch:
-  - 7.0.4
+  - 7.0.5
 ptscotch:
-  - 7.0.4
+  - 7.0.5
 s2geography:
   - 0.1.2
 s2geometry:
   - 0.11.1
 s2n:
-  - 1.5.5
+  - 1.5.6
 sdl2:
   - '2'
 sdl2_image:

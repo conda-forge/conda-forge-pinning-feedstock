@@ -88,6 +88,7 @@ bilby.cython
 billiard
 binaryen
 bindensity
+binsider
 biome
 biosphere
 biotite
@@ -110,6 +111,7 @@ bt
 buildbot
 bytewax
 cached_interpolate
+cadet
 caiman
 cairomm
 calceph
@@ -129,6 +131,7 @@ ccache
 cchardet
 cctbx-base
 cdo
+cdshealpix
 celerite
 celery
 cell_tree2d
@@ -223,6 +226,7 @@ cwinpy
 cwltool
 cx_freeze
 cyanure
+cyclus
 cyipopt
 cython-fortran-file
 cytoplay
@@ -335,6 +339,7 @@ fastcluster
 fastdtw
 fastnumbers
 fastparquet
+fastpath
 fastremap
 fasttext
 faunus
@@ -436,6 +441,7 @@ gnuradio
 gnuradio-satellites
 gnuradio-soapy
 go-licenses
+go-shfmt
 go-yq
 google-cloud-cpp
 google-cloud-sdk
@@ -486,6 +492,7 @@ h5py
 halotools
 harlequin
 harp
+hazelbean
 hdbscan
 hddm-wfpt
 hdf4
@@ -734,6 +741,7 @@ mne-base
 mne-qt-browser
 mnelab
 mo_pack
+mocpy
 modin
 moleculekit
 mongoengine
@@ -1053,6 +1061,7 @@ pypandoc
 pypdf
 pypdfium2
 pypeit
+pypolymlp
 pyproj
 pyproject-fmt-rust
 pyqg
@@ -1083,6 +1092,7 @@ pyspnego
 pystackreg
 pystan
 pystow
+pyswmm
 pytables
 pytango
 pytensor
@@ -1163,6 +1173,7 @@ qt-charts
 qt-datavis3d
 qt-graphs
 quantecon
+quantile-forest
 quantized-mesh-encoder
 quantlib
 quantlib-python
@@ -1483,6 +1494,7 @@ starship
 statsmodels
 stockwell
 stow
+stsynphot
 stumpy
 subversion
 suds-jurko
@@ -1527,6 +1539,7 @@ tinyxml
 tinyxml2
 tippecanoe
 titiler-core
+tl2cgen
 tlsh-tools
 tmap
 tmux
@@ -1671,7 +1684,10 @@ zaber-motion
 zarr
 zbar
 zchunk
+zenoh-cpp
+zenoh-plugin-webserver
 zeopp-lsmo
 zeroc-ice
 zip
+zopfli
 zoxide
