@@ -15,9 +15,11 @@ c_stdlib:
 m2w64_c_stdlib:                # [win]
   - m2w64-toolchain            # [win]
 c_stdlib_version:              # [unix]
-  - 2.17                       # [linux]
+  - 2.17                       # [linux and os.environ.get("DEFAULT_LINUX_VERSION", "cos7") == "cos7"]
+  - 2.28                       # [linux and os.environ.get("DEFAULT_LINUX_VERSION", "cos7") == "alma8"]
   - 2.17                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 2.17                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 2.17                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("DEFAULT_LINUX_VERSION", "cos7") == "cos7"]
+  - 2.28                       # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("DEFAULT_LINUX_VERSION", "cos7") == "alma8"]
   - 10.13                      # [osx and x86_64]
   - 11.0                       # [osx and arm64]
 cxx_compiler:
