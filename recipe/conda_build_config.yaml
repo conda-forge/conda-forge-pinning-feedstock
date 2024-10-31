@@ -145,20 +145,20 @@ docker_image:                                             # [os.environ.get("BUI
   # CUDA 11.8 (no choice via DEFAULT_LINUX_VERSION available)
   - quay.io/condaforge/linux-anvil-cuda:11.8              # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
   # CUDA 11.8 arch: native compilation (build == target)
-  - quay.io/condaforge/linux-anvil-ppc64le-cuda:11.8      # [ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-ppc64le"]
   - quay.io/condaforge/linux-anvil-aarch64-cuda:11.8      # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-aarch64"]
+  - quay.io/condaforge/linux-anvil-ppc64le-cuda:11.8      # [ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-ppc64le"]
   # CUDA 11.8 arch: cross-compilation (build != target)
-  - quay.io/condaforge/linux-anvil-cuda:11.8              # [ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-cuda:11.8              # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+  - quay.io/condaforge/linux-anvil-cuda:11.8              # [ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
 
   # CUDA 12 on CentOS 7
   - quay.io/condaforge/linux-anvil-cos7-x86_64            # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma8") == "cos7"]
   # case: native compilation (build == target)
-  - quay.io/condaforge/linux-anvil-ppc64le                # [ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma8") == "cos7"]
   - quay.io/condaforge/linux-anvil-aarch64                # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma8") == "cos7"]
+  - quay.io/condaforge/linux-anvil-ppc64le                # [ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma8") == "cos7"]
   # case: cross-compilation (build != target)
-  - quay.io/condaforge/linux-anvil-cos7-x86_64            # [ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma8") == "cos7"]
   - quay.io/condaforge/linux-anvil-cos7-x86_64            # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma8") == "cos7"]
+  - quay.io/condaforge/linux-anvil-cos7-x86_64            # [ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma8") == "cos7"]
 
   # CUDA 12 on AlmaLinux 8
   - quay.io/condaforge/linux-anvil-alma-x86_64:8          # [linux64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma8") == "alma8"]
