@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for portaudio 19.7
+  kind: version
+  migration_number: 1
+portaudio:
+- 19.7
+migrator_ts: 1730375181.934707
