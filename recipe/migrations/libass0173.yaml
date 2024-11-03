@@ -1,0 +1,9 @@
+migrator_ts: 1730668850
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+# TODO: add to global pinnings once migration completed done
+libass:
+  - 0.17.3
