@@ -589,7 +589,7 @@ libpq:
 libraw:
   - '0.21'
 librdkafka:
-  - '2.5'
+  - '2.6'
 librsvg:
   - 2
 libsecret:
