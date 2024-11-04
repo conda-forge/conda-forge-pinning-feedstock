@@ -350,6 +350,7 @@ libcusolver
 libcusparse
 libdeflate
 libdrm
+libftdi
 libglvnd
 libgpiod-split
 libgsasl
