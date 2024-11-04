@@ -789,6 +789,10 @@ python_impl:
   - cpython
   - cpython
   - cpython
+python_min:
+  # minimum supported python version per CFEP-25
+  # bump to next minor version when we drop python versions
+  - '3.9'
 is_freethreading:
   - false
 # Keep in sync with libtorch
