@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for msgpack_cxx 7
+  kind: version
+  migration_number: 1
+migrator_ts: 1730678981.0507474
+msgpack_cxx:
+- '7'
