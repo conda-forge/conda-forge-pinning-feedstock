@@ -607,6 +607,7 @@ libdb
 libdeflate
 libdlfind
 libefp
+libftdi
 libgdal
 libharu
 libheif
