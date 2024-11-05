@@ -86,3 +86,4 @@ libgfortran-ng = """\
       ignore_run_exports_from:
         - {{ compiler("fortran") }}
     ```"""
+openmp = "The `openmp` output has been superseded by `llvm-openmp`."
