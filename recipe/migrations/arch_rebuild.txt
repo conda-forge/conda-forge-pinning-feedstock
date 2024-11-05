@@ -81,6 +81,7 @@ clhep
 clingo
 clpeak
 cmarkgfm
+coinmp
 colima
 conda-build
 conda-ecosystem-user-package-isolation
