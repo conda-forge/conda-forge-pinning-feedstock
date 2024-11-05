@@ -194,6 +194,8 @@ cdt_arch: armv7l                          # [armv7l]
 BUILD: armv7-conda_cos7-linux-gnueabihf   # [armv7l]
 
 pin_run_as_build:
+  libblst:
+    max_pin: x.x
   netcdf-cxx4:
     max_pin: x.x
   vlfeat:
@@ -461,6 +463,8 @@ libavif:
   - 1
 libblitz:
   - 1.0.2
+libblst:
+  - '0.3'
 libboost_devel:
   - '1.84'
 libboost_headers:
