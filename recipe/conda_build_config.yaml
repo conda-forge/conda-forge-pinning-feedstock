@@ -198,6 +198,8 @@ pin_run_as_build:
     max_pin: x.x
   vlfeat:
     max_pin: x.x.x
+  libblst:
+    max_pin: x.x
 
 # Pinning packages
 
@@ -461,6 +463,8 @@ libavif:
   - 1
 libblitz:
   - 1.0.2
+libblst:
+  - '0.3'
 libboost_devel:
   - '1.84'
 libboost_headers:
