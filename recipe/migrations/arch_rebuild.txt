@@ -45,6 +45,7 @@ bindensity
 binsider
 biom-format
 bipedal-locomotion-framework
+bitshuffle
 black
 blis
 bliss
