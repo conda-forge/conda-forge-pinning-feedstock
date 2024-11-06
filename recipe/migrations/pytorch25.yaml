@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for pytorch 2.5
+  kind: version
+  migration_number: 1
+libtorch:
+- '2.5'
+migrator_ts: 1730666768.682698
+pytorch:
+- '2.5'

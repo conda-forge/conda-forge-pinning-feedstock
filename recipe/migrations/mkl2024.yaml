@@ -1,0 +1,11 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+migrator_ts: 1701976941.105781
+mkl:
+- '2024'  # [not osx]
+- '2023'  # [osx]
+mkl_devel:
+- '2024'  # [not osx]
+- '2023'  # [osx]

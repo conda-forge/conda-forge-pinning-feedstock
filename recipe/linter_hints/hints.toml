@@ -1,9 +1,5 @@
 [hints]
 # mapping from output-name-to-warn-on to hint-to-display
-matplotlib = """\
-    Recipes should usually depend on `matplotlib-base` as opposed to \
-    `matplotlib` so that runtime environments do not require large \
-    packages like `qt`."""
 build = """\
     Recipes should depend on `python-build` as opposed to \
     `build`. The `conda-forge` name for `https://github.com/pypa/build` is \
@@ -23,6 +19,16 @@ libboost-python = """\
     is linking to libboost_python3x.so, use `libboost-python-devel` in the host \
     environment (which will create the correct dependence at runtime through a \
     run-export), or use `libboost-headers` if you only need the boost headers."""
+matplotlib = """\
+    Recipes should usually depend on `matplotlib-base` as opposed to \
+    `matplotlib` so that runtime environments do not require large \
+    packages like `qt`."""
+pathlib = """\
+    As of Python 3.4+, `pathlib` is part of the standard library. \
+    Recipes should drop the `pathlib` dependency as it is sunset.
+    
+    xref: https://peps.python.org/pep-0428/
+    xref: https://github.com/conda-forge/admin-requests/pull/1113"""
 pytorch-cpu = """\
     Please depend on `pytorch` directly, in order to avoid forcing \
     CUDA users to downgrade to the CPU version for no reason."""
@@ -40,4 +46,44 @@ boost-cpp = """\
 boost = """\
     The `boost` output has been superseded by `libboost-python-devel` (as of \
     1.82), which now comes with a run-export (on `libboost-python`) as well."""
+coincbc = """\
+    The `coincbc` package has been renamed to `coin-or-cbc`. It is now \
+    preferred to depend on the `coin-or-cbc` package in the host section and allow
+    the run_export define the runtime dependency."""
 grpc-cpp = "The `grpc-cpp` output has been superseded by `libgrpc`."
+importlib_metadata = "Use `importlib-metadata` instead of `importlib_metadata`"
+libgcc-ng = """\
+    `libgcc-ng` has been superseded by `libgcc`. Note however, that except in \
+    truly exceptional cases, you should not have to add this manually; you can \
+    rely on the fact that `{{ compiler("c") }}` and `{{ compiler("cxx") }}` \
+    will always create the correct run-export for this. If you need to _ignore_ \
+    the run-export for whatever reason, the best way to do it is:
+    ```yaml
+    build:
+      ignore_run_exports_from:
+        - {{ compiler("c") }}    # depending on which...
+        - {{ compiler("cxx") }}  # ... compilers you use
+    ```"""
+libstdcxx-ng = """\
+    `libstdcxx-ng` has been superseded by `libstdcxx`. Note however, that except in \
+    truly exceptional cases, you should not have to add this manually; you can \
+    rely on the fact that `{{ compiler("cxx") }}` will always create the correct \
+    run-export for this. If you need to _ignore_ the run-export for whatever \
+    reason, the best way to do it is:
+    ```yaml
+    build:
+      ignore_run_exports_from:
+        - {{ compiler("cxx") }}
+    ```"""
+libgfortran-ng = """\
+    `libgfortran-ng` has been superseded by `libgfortran`. Note however, that except in \
+    truly exceptional cases, you should not have to add this manually; you can \
+    rely on the fact that `{{ compiler("fortran") }}` will always create the \
+    correct run-export for this. If you need to _ignore_ the run-export for \
+    whatever reason, the best way to do it is:
+    ```yaml
+    build:
+      ignore_run_exports_from:
+        - {{ compiler("fortran") }}
+    ```"""
+openmp = "The `openmp` output has been superseded by `llvm-openmp`."

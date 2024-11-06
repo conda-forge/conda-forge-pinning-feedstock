@@ -8,6 +8,7 @@ __migrator:
   automerge: True
   longterm: True
   include_noarch: True
+  include_build: True
   pr_limit: 40
   override_cbc_keys:
     - r-base
@@ -48,3 +49,5 @@ m2w64_c_stdlib:                   # [win]
   - m2w64-sysroot                 # [win]
 m2w64_c_stdlib_version:           # [win]
   - 12                            # [win]
+m2w64_toolchain:                  # [win]
+  - disabled                      # [win]

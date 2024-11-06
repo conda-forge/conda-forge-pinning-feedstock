@@ -1,0 +1,12 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libpq 17
+  kind: version
+  migration_number: 1
+libpq:
+- '17'
+postgresql:
+- '17'
+postgresql_plpython:
+- '17'
+migrator_ts: 1727768708.7975254

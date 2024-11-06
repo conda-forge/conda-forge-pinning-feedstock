@@ -41,6 +41,7 @@ arm_pyart
 armadillo
 arosics
 arpack
+arro3-core
 arrow-odbc
 asio
 astra-toolbox
@@ -87,6 +88,7 @@ bilby.cython
 billiard
 binaryen
 bindensity
+binsider
 biome
 biosphere
 biotite
@@ -109,6 +111,7 @@ bt
 buildbot
 bytewax
 cached_interpolate
+cadet
 caiman
 cairomm
 calceph
@@ -116,16 +119,19 @@ camb
 cantera
 capstone
 cargo-bundle-licenses
+cargo-nextest
 cartographer
 cartopy
 casadi
 cascade
 causalml
 cbgen
+cbonsai
 ccache
 cchardet
 cctbx-base
 cdo
+cdshealpix
 celerite
 celery
 cell_tree2d
@@ -220,8 +226,11 @@ cwinpy
 cwltool
 cx_freeze
 cyanure
+cyclus
 cyipopt
 cython-fortran-file
+cytoplay
+cytosim
 dagster
 daqp
 dart-sass
@@ -272,6 +281,7 @@ dm-tree
 docker-buildx
 docker-cli
 docker-compose
+dockle
 docopt.cpp
 docutils
 doit
@@ -279,6 +289,7 @@ dos2unix
 doxygen
 dscribe
 dsps
+dssp
 dtaidistance
 dtw-python
 ducc0
@@ -298,6 +309,7 @@ eelbrain
 einsums
 emacs
 emsdk
+enchant
 ensmallen
 esbuild
 esi-core
@@ -319,13 +331,17 @@ faiss-split
 falcon
 fast-histogram
 fast-query-parsers
+fast_hdbscan
 fastapi
 fastavro
 fastcache
+fastcluster
 fastdtw
 fastnumbers
 fastparquet
+fastpath
 fastremap
+fasttext
 faunus
 fenics-dolfinx
 fiatlux
@@ -342,6 +358,10 @@ fitsio
 flake8-annotations
 flash
 flatbuffers
+fluidfft
+fluidfft-fftw
+fluidimage
+fluidsim
 fonttools
 forcebalance
 forestci
@@ -421,6 +441,7 @@ gnuradio
 gnuradio-satellites
 gnuradio-soapy
 go-licenses
+go-shfmt
 go-yq
 google-cloud-cpp
 google-cloud-sdk
@@ -471,6 +492,7 @@ h5py
 halotools
 harlequin
 harp
+hazelbean
 hdbscan
 hddm-wfpt
 hdf4
@@ -482,6 +504,7 @@ healpix
 healpix_cxx
 healpy
 heat
+heffte
 helios
 helix
 help2man
@@ -501,6 +524,7 @@ htop
 httpx
 hug
 hugin
+human-dynamics-estimation
 hunspell
 hurl
 hydride
@@ -549,6 +573,7 @@ julia
 jupyter-docx-bundler
 jupyter_contrib_nbextensions
 jupyter_server
+k9s
 kaggle
 kanidm-clients
 kartothek
@@ -562,6 +587,7 @@ kliff
 kokkos
 kokkos-kernels
 kombu
+ksops
 kubernetes
 kubernetes-helm
 kubo
@@ -581,6 +607,7 @@ lenstool
 levenshtein
 lfortran
 lhapdf
+lib3mf
 libavif
 libblitz
 libboost-mpi
@@ -593,6 +620,7 @@ libdb
 libdeflate
 libdlfind
 libefp
+libftdi
 libgdal
 libharu
 libheif
@@ -714,7 +742,9 @@ mne-base
 mne-qt-browser
 mnelab
 mo_pack
+mocpy
 modin
+moleculekit
 mongoengine
 moonrepo-moon
 mosh
@@ -762,6 +792,8 @@ nest-simulator
 netcdf-cxx4
 netcdf4
 netgen
+neunorm
+neuron
 newrelic
 nexus
 ngmix
@@ -794,6 +826,7 @@ nushell
 nutpie
 nvim
 obspy
+obstore
 ocaml
 ocaml-num
 octave
@@ -859,6 +892,7 @@ parmetis
 patch
 pathos
 pcraster
+pdf2svg
 pdftotext
 pdm
 peewee
@@ -951,6 +985,7 @@ pycbf
 pycifrw
 pyclipper
 pycocotools
+pycontrails
 pycparser
 pycrdt
 pycurl
@@ -959,6 +994,7 @@ pydelatin
 pydpc
 pyduktape2
 pyebsdindex
+pyeda
 pyelftools
 pyemir
 pyemma
@@ -1025,7 +1061,9 @@ pyopenssl
 pyorc
 pypandoc
 pypdf
+pypdfium2
 pypeit
+pypolymlp
 pyproj
 pyproject-fmt-rust
 pyqg
@@ -1056,6 +1094,7 @@ pyspnego
 pystackreg
 pystan
 pystow
+pyswmm
 pytables
 pytango
 pytensor
@@ -1136,6 +1175,7 @@ qt-charts
 qt-datavis3d
 qt-graphs
 quantecon
+quantile-forest
 quantized-mesh-encoder
 quantlib
 quantlib-python
@@ -1202,6 +1242,7 @@ r-keyring
 r-knitr
 r-languageserver
 r-latticeextra
+r-leafpop
 r-leaps
 r-lfe
 r-lhs
@@ -1362,6 +1403,7 @@ scalene
 scandir
 scanpy
 sccache
+scdoc
 scenepic
 schwimmbad
 scikit-allel
@@ -1392,6 +1434,7 @@ sdl2_image
 sdl2_mixer
 sdl2_net
 sdl2_ttf
+sdsl-lite
 seabreeze
 sedflux
 selenium-manager
@@ -1412,6 +1455,7 @@ simpleitk
 simplejson
 simplification
 six
+sixs_json
 skopeo
 sleef
 sleepecg
@@ -1421,6 +1465,7 @@ snaphu
 snappy
 sncosmo
 snowflake-connector-python
+snowflake-snowpark-python
 soapysdr-module-plutosdr
 soapysdr-module-remote
 soapysdr-module-rtlsdr
@@ -1451,6 +1496,7 @@ starship
 statsmodels
 stockwell
 stow
+stsynphot
 stumpy
 subversion
 suds-jurko
@@ -1460,6 +1506,7 @@ sunpy
 supervisor
 swig
 swiglpk
+swmm-toolkit
 systemc
 ta-lib
 tabula-py
@@ -1494,6 +1541,7 @@ tinyxml
 tinyxml2
 tippecanoe
 titiler-core
+tl2cgen
 tlsh-tools
 tmap
 tmux
@@ -1558,6 +1606,7 @@ vigra
 vim
 vina
 visan
+visp
 vispy
 vitables
 vivid
@@ -1637,7 +1686,10 @@ zaber-motion
 zarr
 zbar
 zchunk
+zenoh-cpp
+zenoh-plugin-webserver
 zeopp-lsmo
 zeroc-ice
 zip
+zopfli
 zoxide
