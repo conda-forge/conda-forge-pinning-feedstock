@@ -186,6 +186,7 @@ ephem
 erlang
 esbuild
 esmpy
+eza
 f2c
 fa2
 faiss-split
