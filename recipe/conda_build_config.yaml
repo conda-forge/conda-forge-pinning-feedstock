@@ -371,7 +371,7 @@ libgdal:
 libgdal_core:
   - '3.9'
 geos:
-  - 3.12.2
+  - 3.13.0
 geotiff:
   - 1.7.3
 gfal2:
