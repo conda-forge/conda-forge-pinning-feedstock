@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_sdkutils 0.2.1
+  kind: version
+  migration_number: 1
+aws_c_sdkutils:
+- 0.2.1
+migrator_ts: 1731050800.8330922
