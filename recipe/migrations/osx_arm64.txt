@@ -1496,6 +1496,7 @@ starship
 statsmodels
 stockwell
 stow
+streamtracer
 stsynphot
 stumpy
 subversion
