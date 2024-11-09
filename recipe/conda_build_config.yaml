@@ -251,7 +251,7 @@ aws_c_mqtt:
 aws_c_s3:
   - 0.7.0
 aws_c_sdkutils:
-  - 0.2.0
+  - 0.2.1
 aws_checksums:
   - 0.2.0
 aws_crt_cpp:
