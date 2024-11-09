@@ -442,15 +442,15 @@ libaec:
 libarchive:
   - '3.7'
 libarrow:
+  - '18.0'
   - '17.0'
   - '16.1'
   - 15
-  - 14
 libarrow_all:
+  - '18.0'
   - '17.0'
   - '16.1'
   - 15
-  - 14
 libavif:
   - 1
 libblitz:
