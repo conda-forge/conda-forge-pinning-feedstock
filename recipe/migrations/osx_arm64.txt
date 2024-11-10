@@ -226,8 +226,10 @@ cwinpy
 cwltool
 cx_freeze
 cyanure
+cycamore
 cyclus
 cyipopt
+cymetric
 cython-fortran-file
 cytoplay
 cytosim
