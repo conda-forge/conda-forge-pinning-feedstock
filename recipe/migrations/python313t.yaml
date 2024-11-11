@@ -1,6 +1,35 @@
 migrator_ts: 1724712608
 __migrator:
-    commit_message: Rebuild for python 3.13 freethreading
+    commit_message: |
+        [DO NOT MERGE w/o checklist] Rebuild for python 3.13 freethreading
+        
+        TL;DR: Even if CI is green, you need to check that upstream has declared
+        itself compatible with freethreading ("nogil") builds of python before merging.
+        
+        The removal of the Global Interpreter Lock ("GIL") per
+        [PEP 703](https://peps.python.org/pep-0703/) is likely the most impactful change
+        in Python since the 2 -> 3 transition. It is still considered provisional, and all
+        support so far is experimental.
+        
+        For one, there are changes in the ABI (Appliction Binary Interface) that make it
+        impossible to combine compiled Python packages between 3.13 and 3.13t, which means
+        (among other things) that we need a separate migration. Secondly, the removal of
+        the GIL will expose latent bugs or data races that were so far impossible due to
+        the synchronization that the GIL enforced.
+        
+        The removal of these bugs cannot be automated, and _**may not even show up in
+        existing test suites**_. As such, it takes substantial effort to validate that a
+        given package is actually compatible with freethreading builds of Python, and this
+        work can only happen upstream of conda-forge, in the respective project repository.
+        
+        Therefore, you MUST double-check the following before merging this PR:
+        
+        ### To-Dos:
+          * [ ] Ensure the upstream package has declared itself compatible with freethreading Python.
+          * [ ] Ensure that this has made it into a publicly released version.
+          * [ ] Ensure that the version currently being built on the feedstock is at least as new.
+          * [ ] Edit the title to remove `[DO NOT MERGE ...]`.
+
     migration_number: 1
     operation: key_add
     primary_key: python
