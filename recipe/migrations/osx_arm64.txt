@@ -210,6 +210,7 @@ cppe
 cpppath
 cpptango
 cppunit
+crc32c
 crest
 crick
 cross-python
