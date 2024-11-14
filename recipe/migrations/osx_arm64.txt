@@ -1205,6 +1205,7 @@ r-checkmate
 r-cmdstanr
 r-coda
 r-cubature
+r-cvxr
 r-dbarts
 r-desctools
 r-desolve
