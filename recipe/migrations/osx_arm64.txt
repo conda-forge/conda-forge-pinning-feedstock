@@ -1697,3 +1697,4 @@ zeroc-ice
 zip
 zopfli
 zoxide
+r-cvxr
