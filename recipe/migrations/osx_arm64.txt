@@ -908,6 +908,7 @@ perl-compress-raw-bzip
 perl-compress-raw-zlib
 perl-scalar-list-utils
 perl-unicode-linebreak
+perl-version
 perspective
 pestpp
 petsc
