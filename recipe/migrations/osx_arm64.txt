@@ -20,6 +20,7 @@ aitch
 albumentations
 ale
 allennlp
+pyspharm
 allennlp-models
 allennlp-optuna
 allennlp-semparse
