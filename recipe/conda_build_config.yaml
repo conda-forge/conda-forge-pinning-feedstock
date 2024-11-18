@@ -667,7 +667,7 @@ mpfr:
 msgpack_c:
   - 6
 msgpack_cxx:
-  - 6
+  - '7'
 mumps_mpi:
   - 5.7.3
 mumps_seq:
