@@ -777,6 +777,7 @@ mysqlclient
 namaster
 nanoarrow
 nanoflann
+napari-nd-annotator
 nasm
 natcap.invest
 nb_conda
