@@ -977,6 +977,7 @@ py-spy
 py-triangle
 py_gd
 py_rattler
+pyacvd
 pyagrum
 pyahocorasick
 pyarrow
