@@ -908,6 +908,7 @@ perl-compress-raw-bzip
 perl-compress-raw-bzip2
 perl-compress-raw-zlib
 perl-scalar-list-utils
+perl-storable
 perl-unicode-linebreak
 perspective
 pestpp
