@@ -910,6 +910,7 @@ perl-compress-raw-zlib
 perl-scalar-list-utils
 perl-storable
 perl-unicode-linebreak
+perl-version
 perspective
 pestpp
 petsc
