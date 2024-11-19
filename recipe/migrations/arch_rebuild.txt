@@ -205,6 +205,9 @@ filprofiler
 fish
 fisher
 fisx
+flash-attn
+flash-attn-fused-dense
+flash-attn-layer-norm
 flask
 flit
 fonttools
