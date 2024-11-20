@@ -8,6 +8,7 @@ aiosignal
 airflow
 allennlp
 alsa-plugins
+ambertools
 anyio
 anyjson
 apptainer
