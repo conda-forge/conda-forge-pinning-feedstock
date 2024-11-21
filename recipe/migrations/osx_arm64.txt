@@ -1373,6 +1373,7 @@ requests-gssapi
 requests-kerberos
 rerun-sdk
 restic
+resdk
 resvg
 rever
 rhumba
