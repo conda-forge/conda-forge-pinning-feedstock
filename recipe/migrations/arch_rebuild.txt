@@ -293,6 +293,7 @@ idyntree
 imagecodecs
 iminuit
 implicit
+indicators
 ipopt
 ipykernel
 ipython
