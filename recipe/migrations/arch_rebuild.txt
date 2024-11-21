@@ -426,6 +426,7 @@ mlip
 mongoengine
 moonrepo-moon
 mosh
+mne-lsl
 mpas_tools
 mpich
 mppp
