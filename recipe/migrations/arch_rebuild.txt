@@ -423,6 +423,7 @@ metaphone
 micromamba
 minijinja
 mlip
+mne-lsl
 mongoengine
 moonrepo-moon
 mosh
