@@ -932,6 +932,7 @@ physics-tenpy
 piff
 pigz
 pikepdf
+pixi-inject
 pixi-pack
 pixmappy
 pixy
