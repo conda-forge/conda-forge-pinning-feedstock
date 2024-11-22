@@ -405,6 +405,7 @@ geoarrow-c
 geocat-comp
 geocat-f2py
 geohexviz
+geometry-central
 geotiff
 geowombat
 gepetto-viewer-corba
@@ -951,6 +952,7 @@ polyscope
 pomegranate
 porespy
 pot
+potpourri3d
 pre-commit
 pre_commit
 primesieve
