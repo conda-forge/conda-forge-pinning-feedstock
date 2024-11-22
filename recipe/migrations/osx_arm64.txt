@@ -1138,8 +1138,8 @@ python-graphblas
 python-graphviz
 python-infomap
 python-isal
-python-libdiscid
 python-levenshtein
+python-libdiscid
 python-magic
 python-pushover
 python-rapidjson
