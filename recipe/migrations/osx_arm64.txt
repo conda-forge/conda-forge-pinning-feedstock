@@ -1138,6 +1138,7 @@ python-graphblas
 python-graphviz
 python-infomap
 python-isal
+python-libdiscid
 python-levenshtein
 python-magic
 python-pushover
