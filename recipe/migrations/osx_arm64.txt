@@ -1,3 +1,5 @@
+geometry-central
+potpourri3d
 abinit
 ablog
 accelerator-toolbox
