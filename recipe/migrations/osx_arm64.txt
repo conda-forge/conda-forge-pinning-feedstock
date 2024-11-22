@@ -743,6 +743,7 @@ mlir
 mmh3
 mne
 mne-base
+mne-lsl
 mne-qt-browser
 mnelab
 mo_pack
