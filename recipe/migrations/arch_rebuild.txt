@@ -979,6 +979,7 @@ rdma-core
 rectangle-packer
 reproc
 rerun-sdk
+resdk
 resvg
 rhumba
 rich

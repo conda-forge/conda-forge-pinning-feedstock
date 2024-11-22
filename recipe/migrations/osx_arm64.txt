@@ -1372,6 +1372,7 @@ reproject
 requests-gssapi
 requests-kerberos
 rerun-sdk
+resdk
 restic
 resvg
 rever
