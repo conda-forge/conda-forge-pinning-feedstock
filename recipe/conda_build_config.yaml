@@ -557,7 +557,7 @@ libitk_devel:
 libmed:
   - '4.1'
 libmatio:
-  - 1.5.27
+  - 1.5.28
 libmatio_cpp:
   - 0.2.5
 libmicrohttpd:
