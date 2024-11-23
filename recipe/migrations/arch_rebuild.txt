@@ -649,6 +649,7 @@ python-graphblas
 python-htcondor
 python-isal
 python-language-server
+python-libdiscid
 python-orocos-kdl
 python-snappy
 python-suitesparse-graphblas

@@ -1142,6 +1142,7 @@ python-graphviz
 python-infomap
 python-isal
 python-levenshtein
+python-libdiscid
 python-magic
 python-pushover
 python-rapidjson
