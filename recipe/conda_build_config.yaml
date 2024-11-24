@@ -187,13 +187,6 @@ zip_keys:
     - libarrow
     - libarrow_all
 
-
-# aarch64 specifics because conda-build sets many things to centos 6
-# this can probably be removed when conda-build gets updated defaults
-# for aarch64
-cdt_arch: aarch64                       # [aarch64]
-BUILD: aarch64-conda_cos7-linux-gnu     # [aarch64]
-
 # armv7l specifics because conda-build sets many things to centos 6
 # this can probably be removed when conda-build gets updated defaults
 # for aarch64
