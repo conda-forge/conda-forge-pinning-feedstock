@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libarrow 18.1
+  kind: version
+  migration_number: 1
+libarrow:
+- '18.1'
+libarrow_all:
+- '18.1'
+migrator_ts: 1732553024.9587834
