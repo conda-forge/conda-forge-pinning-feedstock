@@ -1435,6 +1435,7 @@ scikit-network
 scikit-sparse
 scikit-surprise
 scikit-survival
+scikit_sundae
 scikits.odes
 scikits_odes_sundials
 scilab
