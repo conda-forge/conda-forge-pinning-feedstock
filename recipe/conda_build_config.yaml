@@ -698,8 +698,8 @@ netcdf_fortran:
 nettle:
   - '3.9'
 nodejs:
+  - '22'
   - '20'
-  - '18'
 nss:
   - 3
 nspr:
