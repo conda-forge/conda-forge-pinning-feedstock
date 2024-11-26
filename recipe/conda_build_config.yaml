@@ -580,7 +580,7 @@ libmicrohttpd:
 libnetcdf:
   - 4.9.2
 libode:
-  - 0.16.2
+  - 0.16.5
 libopencv:
   - 4.10.0
 libopentelemetry_cpp:
