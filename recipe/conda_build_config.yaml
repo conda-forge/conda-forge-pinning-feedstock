@@ -569,6 +569,22 @@ libiio:
   - 0
 libitk_devel:
   - 5.4
+liblal:
+  - 7
+liblalburst:
+  - 2
+liblalframe:
+  - 3
+liblalinference:
+  - 4
+liblalinspiral:
+  - 5
+liblalmetaio:
+  - 4
+liblalpulsar:
+  - 6
+liblalsimulation:
+  - 5
 libmed:
   - '4.1'
 libmatio:
