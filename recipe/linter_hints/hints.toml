@@ -89,5 +89,5 @@ libgfortran-ng = """\
 openmp = "The `openmp` output has been superseded by `llvm-openmp`."
 astropy = """\
     Recipes should usually depend on `astropy-base` as opposed to \
-    `astropy`. `astropy-base` only has the required dependancies whereas\
+    `astropy`. `astropy-base` only has the required dependancies whereas \
     `astropy` now has all optional dependancies as well."""
