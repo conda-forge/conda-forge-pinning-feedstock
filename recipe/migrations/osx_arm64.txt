@@ -210,6 +210,7 @@ cppe
 cpppath
 cpptango
 cppunit
+crc32c
 crest
 crick
 cross-python
@@ -404,6 +405,7 @@ geoarrow-c
 geocat-comp
 geocat-f2py
 geohexviz
+geometry-central
 geotiff
 geowombat
 gepetto-viewer-corba
@@ -548,6 +550,7 @@ iminuit
 implicit
 imreg_dft
 inchi
+indicators
 infrared
 inja
 inspiral-range
@@ -741,6 +744,7 @@ mlir
 mmh3
 mne
 mne-base
+mne-lsl
 mne-qt-browser
 mnelab
 mo_pack
@@ -776,6 +780,7 @@ mysqlclient
 namaster
 nanoarrow
 nanoflann
+napari-nd-annotator
 nasm
 natcap.invest
 nb_conda
@@ -904,9 +909,12 @@ pennylane-lightning-kokkos
 perl
 perl-app-cpanminus
 perl-compress-raw-bzip
+perl-compress-raw-bzip2
 perl-compress-raw-zlib
 perl-scalar-list-utils
+perl-storable
 perl-unicode-linebreak
+perl-version
 perspective
 pestpp
 petsc
@@ -924,6 +932,7 @@ physics-tenpy
 piff
 pigz
 pikepdf
+pixi-inject
 pixi-pack
 pixmappy
 pixy
@@ -944,6 +953,7 @@ polyscope
 pomegranate
 porespy
 pot
+potpourri3d
 pre-commit
 pre_commit
 primesieve
@@ -973,6 +983,7 @@ py-spy
 py-triangle
 py_gd
 py_rattler
+pyacvd
 pyagrum
 pyahocorasick
 pyarrow
@@ -1091,6 +1102,7 @@ pysjef
 pysocks
 pysolid
 pyspf
+pyspharm
 pyspice
 pyspnego
 pystackreg
@@ -1130,6 +1142,7 @@ python-graphviz
 python-infomap
 python-isal
 python-levenshtein
+python-libdiscid
 python-magic
 python-pushover
 python-rapidjson
@@ -1204,6 +1217,7 @@ r-checkmate
 r-cmdstanr
 r-coda
 r-cubature
+r-cvxr
 r-dbarts
 r-desctools
 r-desolve
@@ -1363,6 +1377,7 @@ reproject
 requests-gssapi
 requests-kerberos
 rerun-sdk
+resdk
 restic
 resvg
 rever
@@ -1420,6 +1435,7 @@ scikit-network
 scikit-sparse
 scikit-surprise
 scikit-survival
+scikit_sundae
 scikits.odes
 scikits_odes_sundials
 scilab

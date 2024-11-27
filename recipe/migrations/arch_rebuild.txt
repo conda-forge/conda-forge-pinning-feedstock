@@ -8,6 +8,7 @@ aiosignal
 airflow
 allennlp
 alsa-plugins
+ambertools
 anyio
 anyjson
 apptainer
@@ -100,6 +101,7 @@ cppcheck
 cpptango
 cppunit
 cpu_features
+crc32c
 cryptlib
 cryptopp
 cub
@@ -204,6 +206,9 @@ filprofiler
 fish
 fisher
 fisx
+flash-attn
+flash-attn-fused-dense
+flash-attn-layer-norm
 flask
 flit
 fonttools
@@ -288,6 +293,7 @@ idyntree
 imagecodecs
 iminuit
 implicit
+indicators
 ipopt
 ipykernel
 ipython
@@ -417,6 +423,7 @@ metaphone
 micromamba
 minijinja
 mlip
+mne-lsl
 mongoengine
 moonrepo-moon
 mosh
@@ -545,6 +552,7 @@ pickle5
 pikepdf
 pinocchio
 pivy
+pixi-inject
 pixi-pack
 plumed
 pmw
@@ -641,6 +649,7 @@ python-graphblas
 python-htcondor
 python-isal
 python-language-server
+python-libdiscid
 python-orocos-kdl
 python-snappy
 python-suitesparse-graphblas
@@ -972,6 +981,7 @@ rdma-core
 rectangle-packer
 reproc
 rerun-sdk
+resdk
 resvg
 rhumba
 rich
@@ -1147,6 +1157,7 @@ xtensor-blas
 xtensor-fftw
 xtensor-io
 xwebrtc
+yambo
 yarp
 yoda
 yt
