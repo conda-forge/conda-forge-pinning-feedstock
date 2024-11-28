@@ -1154,6 +1154,7 @@ python-symengine
 python-tlsh
 python-xxhash
 python-zlib-ng
+python-zstd
 pythran
 pytiff
 pytinyrenderer
