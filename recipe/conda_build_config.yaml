@@ -628,6 +628,8 @@ libtorch:
   - '2.4'
 libunwind:
   - '1.6'
+libutf8proc:
+  - '2.8'
 libv8:
   - 8.9.83
 libvigra:
