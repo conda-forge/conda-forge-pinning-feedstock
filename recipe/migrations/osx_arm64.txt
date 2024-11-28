@@ -70,7 +70,6 @@ azure-storage
 backports.zoneinfo
 backward-cpp
 bandit
-python-zstd
 basemap
 batchcrop
 batman-package
@@ -1154,6 +1153,7 @@ python-symengine
 python-tlsh
 python-xxhash
 python-zlib-ng
+python-zstd
 pythran
 pytiff
 pytinyrenderer
