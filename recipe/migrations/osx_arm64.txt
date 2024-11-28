@@ -70,6 +70,7 @@ azure-storage
 backports.zoneinfo
 backward-cpp
 bandit
+python-zstd
 basemap
 batchcrop
 batman-package
