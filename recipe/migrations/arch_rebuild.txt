@@ -525,6 +525,7 @@ perl-clone
 perl-compress-raw-zlib
 perl-data-dumper
 perl-dbi
+perl-db_file
 perl-encode
 perl-io-tty
 perl-lwp-simple
