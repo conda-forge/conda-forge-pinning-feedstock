@@ -1,8 +1,9 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for hdf5 1.14.4
+  commit_message: Rebuild for hdf5 1.14.4 (and keep 1.14.3)
   kind: version
-  migration_number: 1
+  migration_number: 2
 hdf5:
+- 1.14.3
 - 1.14.4
 migrator_ts: 1727986901.81392
