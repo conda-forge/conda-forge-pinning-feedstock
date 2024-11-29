@@ -263,7 +263,7 @@ aws_c_sdkutils:
 aws_checksums:
   - 0.2.2
 aws_crt_cpp:
-  - 0.29.5
+  - 0.29.6
 aws_sdk_cpp:
   - 1.11.407
 azure_core_cpp:
