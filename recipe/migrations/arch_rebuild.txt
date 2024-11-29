@@ -530,6 +530,7 @@ perl-class-methodmaker
 perl-clone
 perl-compress-raw-zlib
 perl-data-dumper
+perl-db_file
 perl-dbi
 perl-digest-md5
 perl-encode
