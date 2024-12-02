@@ -407,6 +407,7 @@ lua
 mafft
 mahotas
 mamba
+mandrake
 manif
 manim
 mariadb-connector-c
@@ -562,6 +563,7 @@ pocl
 poco
 poetry
 povray
+pp-sketchlib
 pre-commit
 prmon
 proj
