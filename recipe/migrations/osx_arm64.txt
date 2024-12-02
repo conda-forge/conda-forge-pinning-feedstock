@@ -124,6 +124,7 @@ cartographer
 cartopy
 casadi
 cascade
+catsmoothing
 causalml
 cbgen
 cbonsai
