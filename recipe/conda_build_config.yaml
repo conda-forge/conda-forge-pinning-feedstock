@@ -649,7 +649,7 @@ libxsmm:
 libuuid:
   - 2
 libyarp:
-  - 3.9.0
+  - 3.10.1
 libzip:
   - 1
 lmdb:
