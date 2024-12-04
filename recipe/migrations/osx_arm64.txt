@@ -608,6 +608,7 @@ lapack
 laspy
 lazrs-python
 lazy-object-proxy
+lazydocker
 ldc
 lenstool
 levenshtein
