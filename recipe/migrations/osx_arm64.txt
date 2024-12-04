@@ -867,6 +867,7 @@ openslide
 opentofu
 openturns
 optional-lite
+optype
 orange3
 oras
 orc
