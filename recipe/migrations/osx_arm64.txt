@@ -606,9 +606,9 @@ lammps
 landlab
 lapack
 laspy
-lazydocker
 lazrs-python
 lazy-object-proxy
+lazydocker
 ldc
 lenstool
 levenshtein
