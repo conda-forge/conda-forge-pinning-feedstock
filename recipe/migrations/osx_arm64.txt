@@ -606,6 +606,7 @@ lammps
 landlab
 lapack
 laspy
+lazydocker
 lazrs-python
 lazy-object-proxy
 ldc

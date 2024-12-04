@@ -330,6 +330,7 @@ lammps
 lapack
 laspy
 lazrs-python
+lazydocker
 lbaplocal
 lbdevtools
 lbenv
