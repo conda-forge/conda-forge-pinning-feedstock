@@ -3,6 +3,6 @@ __migrator:
   commit_message: Rebuild for poppler 24.11
   kind: version
   migration_number: 1
-migrator_ts: 1733244007
+migrator_ts: 1733277602.6457
 poppler:
 - '24.11'
