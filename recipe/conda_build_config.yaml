@@ -558,6 +558,8 @@ libkml:
   - 1.3
 libkml_devel:
   - 1.3
+liblzma_devel:
+  - 5
 libiio:
   - 0
 libitk_devel:
