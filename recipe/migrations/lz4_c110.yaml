@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for lz4_c 1.10
+  kind: version
+  migration_number: 1
+lz4_c:
+- '1.10'
+migrator_ts: 1733409380.6728432
