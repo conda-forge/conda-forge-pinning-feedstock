@@ -316,6 +316,8 @@ cutensor:
   - 2
 curl:
   - 8
+dartsim_cpp:
+  - '6.15'
 dav1d:
   - 1.2.1
 davix:
