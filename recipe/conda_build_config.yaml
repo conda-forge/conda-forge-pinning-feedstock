@@ -768,7 +768,7 @@ libpdal_core:
 pixman:
   - 0
 poco:
-  - 1.13.3
+  - 1.14.0
 poppler:
   - '24.08'
 postgresql:
