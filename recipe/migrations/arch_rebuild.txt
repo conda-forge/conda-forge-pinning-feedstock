@@ -1015,6 +1015,7 @@ scikit-survival
 scipy
 scitokens
 scitokens-cpp
+screenfetch
 sdf
 sdl
 sdl_image

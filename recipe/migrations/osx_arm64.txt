@@ -1451,6 +1451,7 @@ scitokens-cpp
 scotch
 scqubits
 scrapy
+screenfetch
 scri
 scylla-driver
 sdl2_image
