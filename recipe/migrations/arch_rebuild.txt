@@ -612,6 +612,7 @@ pykrige
 pylance
 pylibtiff
 pylint
+pyload-ng
 pymatgen
 pymca
 pymol-open-source
