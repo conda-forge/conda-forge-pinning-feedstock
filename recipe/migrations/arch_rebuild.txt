@@ -1011,6 +1011,7 @@ scikit-build
 scikit-gstat
 scikit-image
 scikit-learn
+scikit-misc
 scikit-survival
 scipy
 scitokens

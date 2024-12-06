@@ -1436,6 +1436,7 @@ scikit-geometry
 scikit-gstat
 scikit-image
 scikit-learn
+scikit-misc
 scikit-network
 scikit-sparse
 scikit-surprise
