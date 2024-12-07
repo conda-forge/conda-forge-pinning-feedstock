@@ -3,6 +3,7 @@ __migrator:
   commit_message: Rebuild for aws_c_s3 0.7.5
   kind: version
   migration_number: 1
+  automerge: true
 aws_c_s3:
 - 0.7.5
 migrator_ts: 1733574395.713716
