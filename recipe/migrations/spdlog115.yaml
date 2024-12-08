@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for spdlog 1.15
+  kind: version
+  migration_number: 1
+migrator_ts: 1731195190.0405502
+spdlog:
+- '1.15'
