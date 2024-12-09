@@ -91,7 +91,9 @@ astropy = """\
     Recipes should usually depend on `astropy-base` as opposed to \
     `astropy`. `astropy-base` only has the required dependancies whereas \
     `astropy` now has all optional dependancies as well."""
-
-xorg_xextproto = """The use of `xorg-xextproto` is deprecated. \
-Please use `xorg-xorgproto` instead. It contains the latest version of the proto \
+xorg_xextproto = """The use of `xorg-xextproto` and `xorg-xproto` are deprecated. \
+Please use `xorg-xorgproto` instead. It contains the latest version of allthe proto \
+packages and bundles them all together."""
+xorg_xproto = """The use of `xorg-xextproto` and `xorg-xproto` are deprecated. \
+Please use `xorg-xorgproto` instead. It contains the latest version of all the proto \
 packages and bundles them all together."""
