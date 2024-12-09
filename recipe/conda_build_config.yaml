@@ -747,6 +747,10 @@ petsc:
   - '3.21'
 petsc4py:
   - '3.21'
+plutovg:
+  - '0.0.9'
+plutosvg:
+  - '0.0.3'
 pugixml:
   - '1.14'
 slepc:
