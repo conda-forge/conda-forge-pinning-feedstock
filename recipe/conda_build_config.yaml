@@ -581,7 +581,7 @@ libode:
 libopencv:
   - 4.10.0
 libopentelemetry_cpp:
-  - '1.17'
+  - '1.18'
 libosqp:
   - 0.6.3
 libopenvino_dev:
