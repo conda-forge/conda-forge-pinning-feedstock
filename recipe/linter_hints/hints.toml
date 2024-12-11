@@ -92,6 +92,10 @@ astropy = """\
     `astropy`. `astropy-base` only has the required dependancies whereas \
     `astropy` now has all optional dependancies as well."""
 
+xorg_xcb_proto = """\
+    The use of `xorg-xcb-proto` is deprecated. \
+    Please use `xcb-proto` instead."""
+
 # Replace all other `xorg-*proto`s with `xorg-xorgproto`.
 xorg_applewmproto = """\
     The use of `xorg-applewmproto` is deprecated. \
@@ -175,10 +179,6 @@ xorg_videoproto = """\
     packages and bundles them all together."""
 xorg_windowswmproto = """\
     The use of `xorg-windowswmproto` is deprecated. \
-    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
-    packages and bundles them all together."""
-xorg_xcb_proto = """\
-    The use of `xorg-xcb-proto` is deprecated. \
     Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
     packages and bundles them all together."""
 xorg_xcmiscproto = """\
