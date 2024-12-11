@@ -97,3 +97,8 @@ packages and bundles them all together."""
 xorg_xproto = """The use of `xorg-xextproto` and `xorg-xproto` are deprecated. \
 Please use `xorg-xorgproto` instead. It contains the latest version of all the proto \
 packages and bundles them all together."""
+xz = """The use of `xz` is deprecated. \
+If your package links to `liblzma`, use the new `liblzma-devel` package. \
+For XZ's command line utilities (like `xz` and `unxz`), use the `xz-tools`package. \
+For the xz-enabled GNU tools (like `grep`), use `xz-gpl-tools`. \
+Note: Command line utilities should go in `requirements/build`."""
