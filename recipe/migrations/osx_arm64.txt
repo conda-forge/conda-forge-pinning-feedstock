@@ -958,6 +958,7 @@ pomegranate
 porespy
 pot
 potpourri3d
+powerline-status
 pre-commit
 pre_commit
 primesieve
