@@ -768,6 +768,7 @@ polyscope
 pomegranate
 porespy
 pot
+powerline-status
 pre-commit
 pre_commit
 primesieve
