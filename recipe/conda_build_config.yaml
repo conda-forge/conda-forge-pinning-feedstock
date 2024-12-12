@@ -449,6 +449,8 @@ libabseil_static:
   - '20220623.0'
 libaec:
   - '1'
+libamd:
+  - '3'
 libarchive:
   - '3.7'
 libarrow:
@@ -473,12 +475,24 @@ libboost_headers:
   - '1.84'
 libboost_python_devel:
   - '1.84'
+libbtf:
+  - '2'
+libcamd:
+  - '3'
 libcint:
   - '6.1'
+libccolamd:
+  - '3'
+libcholmod:
+  - '5'
+libcolamd:
+  - '3'
 libcurl:
   - 8
 libcrc32c:
   - 1.1
+libcxsparse:
+  - '4'
 libdap4:
   - 3.20.6
 libdeflate:
@@ -556,6 +570,8 @@ libintervalxt:
   - 3
 libitk_devel:
   - 5.4
+libklu:
+  - '2'
 libkml:
   - 1.3
 libkml_devel:
@@ -566,6 +582,8 @@ libiio:
   - 0
 libitk_devel:
   - 5.4
+libldl:
+  - '3'
 libmed:
   - '4.1'
 libmatio:
@@ -586,6 +604,8 @@ libosqp:
   - 0.6.3
 libopenvino_dev:
   - 2024.4.0
+libparu:
+  - '1'
 libpcap:
   - '1.10'
 libpng:
@@ -596,6 +616,8 @@ libpq:
   - '16'
 libraw:
   - '0.21'
+librbio:
+  - '4'
 librdkafka:
   - '2.6'
 librsvg:
@@ -610,6 +632,12 @@ libsoup:
   - 3
 libspatialindex:
   - 2.0.0
+libspex:
+  - '3'
+libspqr:
+  - '4'
+libsuitesparseconfig:
+  - '7'
 libssh:
   - 0.10
 libssh2:
@@ -630,6 +658,8 @@ libtiff:
 # keep in synch with pytorch
 libtorch:
   - '2.4'
+libumfpack:
+  - '6'
 libunwind:
   - '1.6'
 libutf8proc:
@@ -889,6 +919,8 @@ starlink_ast:
   - 9.2.11
 suitesparse:
   - '7'
+suitesparse_mongoose:
+  - '3'
 superlu_dist:
   - '9'
 tbb:
