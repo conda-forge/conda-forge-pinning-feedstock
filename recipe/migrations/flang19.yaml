@@ -1,0 +1,203 @@
+__migrator:
+  kind: version
+  migration_number: 2
+  build_number: 1
+  commit_message: |
+    Rebuild for flang 19
+    
+    TL;DR: We are trying to switch our Fortran compilers on windows to flang.
+    This is not 100% guaranteed to work, but should be fine in the majority of cases.
+    
+    The new LLVM-based flang has become mature enough that it should be possible to
+    broadly switch over our Fortran compilers on windows to it (until now we only had
+    an ancient pre-LLVM flang 5, or alternatively the GCC-based `m2w64_fortran`).
+    
+    As such, this PR attempts to homogenize any use of `m2w64_fortran` and other `m2w64_*`
+    compilers to our default stack (which would then be MSVC + flang on windows), with
+    the exception of feedstocks for R-packages, which stay on the `m2w64_` compilers.
+    
+    Recipes that have hard-coded expectations about the name of the fortran compiler
+    will need to adjust to use `%FC%` or `flang-new` for the compiler name. Similarly,
+    you may need to change the linker to `%LD%` or use `lld-link`.
+    
+    It is also possible that you run into compilation errors due to differences in
+    compiler behaviour, bugs or as-yet unimplemented features. In case of compilation
+    errors due to stricter default language standards, you should be able to fix things
+    by passing `-std=legacy` to `FFLAGS`.
+    
+    If you have problems with this PR, feel free to ping the @c-f/flang-activation team.
+    In case you have convinced yourself that flang really is not ready yet to be used to
+    compile a given feedstock, you may also close this migrator PR.
+  platform_allowlist:
+    - win-64
+  override_cbc_keys:
+    - fortran_compiler_stub
+  exclude:
+    # exclude r-packages, which generally use m2w64-stack consistently
+    - r-base
+    - r-acepack
+    - r-akima
+    - r-amap
+    - r-ash
+    - r-aws
+    - r-bain
+    - r-bigalgebra
+    - r-biglm
+    - r-blockmodeling
+    - r-bma
+    - r-bootstrap
+    - r-cairodevice
+    - r-chnosz
+    - r-circular
+    - r-classint
+    - r-clinfun
+    - r-clues
+    - r-cluster
+    - r-clustercrit
+    - r-cmprsk
+    - r-copula
+    - r-coxboost
+    - r-coxphf
+    - r-cubature
+    - r-ddalpha
+    - r-delaporte
+    - r-deldir
+    - r-desctools
+    - r-desolve
+    - r-distributionutils
+    - r-dixontest
+    - r-dotcall64
+    - r-dplr
+    - r-dppackage
+    - r-dpq
+    - r-dse
+    - r-earth
+    - r-expm
+    - r-fastmatrix
+    - r-fd
+    - r-fgarch
+    - r-fields
+    - r-flashclust
+    - r-float
+    - r-fme
+    - r-gam
+    - r-gap
+    - r-gee
+    - r-geigen
+    - r-gglasso
+    - r-glasso
+    - r-glassofast
+    - r-glmmml
+    - r-glmnet
+    - r-gmm
+    - r-gss
+    - r-hdrcde
+    - r-hdtweedie
+    - r-hexbin
+    - r-hiclimr
+    - r-hiddenmarkov
+    - r-hier.part
+    - r-hmisc
+    - r-igraph
+    - r-interp
+    - r-iso
+    - r-kendall
+    - r-kernsmooth
+    - r-kfas
+    - r-l1pack
+    - r-labdsv
+    - r-lars
+    - r-lbfgsb3c
+    - r-leaps
+    - r-limsolve
+    - r-lmom
+    - r-lmtest
+    - r-logicreg
+    - r-logspline
+    - r-lokern
+    - r-lsei
+    - r-mclust
+    - r-mcr
+    - r-mda
+    - r-mets
+    - r-minpack.lm
+    - r-minqa
+    - r-mnormt
+    - r-mpmi
+    - r-mrfdepth
+    - r-muhaz
+    - r-multimode
+    - r-multitaper
+    - r-mvord
+    - r-mvtnorm
+    - r-n1qn1
+    - r-nimble
+    - r-nleqslv
+    - r-nlme
+    - r-nloptr
+    - r-nnls
+    - r-norm
+    - r-npregfast
+    - r-oce
+    - r-oceanview
+    - r-openmx
+    - r-pamr
+    - r-pan
+    - r-pbivnorm
+    - r-pcit
+    - r-pmcmrplus
+    - r-polspline
+    - r-pspline
+    - r-qap
+    - r-qtlrel
+    - r-quadprog
+    - r-quantreg
+    - r-randomfieldsutils
+    - r-randomforest
+    - r-randtoolbox
+    - r-rmr2
+    - r-rms
+    - r-rmumps
+    - r-rmutil
+    - r-robust
+    - r-robustbase
+    - r-rootsolve
+    - r-rrcov
+    - r-rrf
+    - r-rstpm2
+    - r-rxode
+    - r-rxode2
+    - r-seriation
+    - r-sgeostat
+    - r-signal
+    - r-sm
+    - r-softimpute
+    - r-spam
+    - r-spam64
+    - r-sparsem
+    - r-splancs
+    - r-splus2r
+    - r-stanheaders
+    - r-statmod
+    - r-subplex
+    - r-subselect
+    - r-survc1
+    - r-survidinri
+    - r-svd
+    - r-timsac
+    - r-tmvnsim
+    - r-tmvtnorm
+    - r-trend
+    - r-tripack
+    - r-tseries
+    - r-twdtw
+    - r-tweedie
+    - r-ucminf
+    - r-urca
+    - r-vegan
+    - r-vgam
+    - r-waveslim
+migrator_ts: 1722763680.3089325
+
+fortran_compiler_version:      # [win64]
+  - 19                         # [win64]

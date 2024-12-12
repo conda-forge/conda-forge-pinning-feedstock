@@ -1,0 +1,16 @@
+__migrator:
+  build_number: 1
+  commit_message: |
+    Rebuild for lz4_c 1.10
+
+    Note that the name of the windows shared library has changed from
+    liblz4.lib to lz4.lib
+
+    Please take care to update your linking scripts to utilize the new
+    name of the shared library on windows.
+
+  kind: version
+  migration_number: 1
+lz4_c:
+- '1.10'
+migrator_ts: 1733409380.6728432

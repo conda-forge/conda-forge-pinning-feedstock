@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libutf8proc 2.9
+  kind: version
+  migration_number: 1
+libutf8proc:
+- '2.9'
+migrator_ts: 1732883625.964528

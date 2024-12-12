@@ -1,0 +1,96 @@
+# These packages need to be migrated together.
+# Currently they need to have the same version
+
+coin_or_cbc:
+  - coin_or_cbc
+  - coincbc
+
+gdal:
+  - gdal
+  - libgdal
+  - libgdal_core
+
+gstreamer:
+  - gstreamer
+  - gst_plugins_base
+
+libarrow:
+  - libarrow
+  - libarrow_all
+
+libboost_devel:
+  - libboost_devel
+  - libboost_headers
+  - libboost_python_devel
+
+libgoogle_cloud:
+  - google_cloud_cpp
+  - libgoogle_cloud
+  - libgoogle_cloud_devel
+  - libgoogle_cloud_all_devel
+  - libgoogle_cloud_aiplatform_devel
+  - libgoogle_cloud_automl_devel
+  - libgoogle_cloud_bigquery_devel
+  - libgoogle_cloud_bigtable_devel
+  - libgoogle_cloud_compute_devel
+  - libgoogle_cloud_dialogflow_cx_devel
+  - libgoogle_cloud_dialogflow_es_devel
+  - libgoogle_cloud_discoveryengine_devel
+  - libgoogle_cloud_dlp_devel
+  - libgoogle_cloud_iam_devel
+  - libgoogle_cloud_oauth2_devel
+  - libgoogle_cloud_policytroubleshooter_devel
+  - libgoogle_cloud_pubsub_devel
+  - libgoogle_cloud_spanner_devel
+  - libgoogle_cloud_speech_devel
+  - libgoogle_cloud_storage_devel
+
+libpdal:
+  - pdal
+  - libpdal
+  - libpdal_core
+
+libpq:
+  - libpq
+  - postgresql
+  - postgresql_plpython
+
+libscotch:
+  - libscotch
+  - libptscotch
+  - scotch
+  - ptscotch
+
+libthrift:
+  - libthrift
+  - thrift_cpp
+
+libvigra:
+  - libvigra
+  - vigra
+
+libwebp:
+  - libwebp
+  - libwebp_base
+
+mkl:
+  - mkl
+  - mkl_devel
+
+petsc:
+  - petsc
+  - petsc4py
+  - slepc
+  - slepc4py
+
+pytorch:
+  - libtorch
+  - pytorch
+
+sqlite:
+  - sqlite
+  - libsqlite
+
+vtk:
+  - vtk_base
+  - vtk

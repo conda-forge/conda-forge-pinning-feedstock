@@ -1,9 +1,0 @@
-migrator_ts: 1684619068
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-# Remember to add to global pinnings
-libxcb:
-  - '1.15'
