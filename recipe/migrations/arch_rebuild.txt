@@ -609,6 +609,7 @@ pygraphviz
 pygrib
 pyhdf
 pykdtree
+pykep
 pykrige
 pylance
 pylibtiff
