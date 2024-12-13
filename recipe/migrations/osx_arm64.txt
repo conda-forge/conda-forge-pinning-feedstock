@@ -1333,6 +1333,7 @@ r-rstanarm
 r-rstatix
 r-rsvg
 r-s2
+r-satellite
 r-seurat
 r-sf
 r-showtext
