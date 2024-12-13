@@ -241,7 +241,7 @@ aws_c_auth:
 aws_c_cal:
   - 0.8.1
 aws_c_common:
-  - 0.10.3
+  - 0.10.5
 aws_c_compression:
   - 0.3.0
 # coupled to aws_c_common version bump, see
@@ -394,7 +394,7 @@ gmp:
   - 6
 # keep google_cloud_cpp in sync with libgoogle_cloud_*
 google_cloud_cpp:
-  - '2.31'
+  - '2.32'
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
@@ -449,15 +449,17 @@ libabseil_static:
   - '20220623.0'
 libaec:
   - '1'
+libamd:
+  - '3'
 libarchive:
   - '3.7'
 libarrow:
-  - '18.0'
+  - '18.1'
   - '17.0'
   - '16.1'
   - 15
 libarrow_all:
-  - '18.0'
+  - '18.1'
   - '17.0'
   - '16.1'
   - 15
@@ -473,12 +475,24 @@ libboost_headers:
   - '1.84'
 libboost_python_devel:
   - '1.84'
+libbtf:
+  - '2'
+libcamd:
+  - '3'
 libcint:
   - '6.1'
+libccolamd:
+  - '3'
+libcholmod:
+  - '5'
+libcolamd:
+  - '3'
 libcurl:
   - 8
 libcrc32c:
   - 1.1
+libcxsparse:
+  - '4'
 libdap4:
   - 3.20.6
 libdeflate:
@@ -503,43 +517,43 @@ libgit2:
   - '1.8'
 # Keep in sync with google_cloud_cpp
 libgoogle_cloud:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_all_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_aiplatform_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_automl_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_bigquery_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_bigtable_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_compute_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_dialogflow_cx_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_dialogflow_es_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_discoveryengine_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_dlp_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_iam_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_oauth2_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_policytroubleshooter_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_pubsub_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_spanner_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_speech_devel:
-  - '2.31'
+  - '2.32'
 libgoogle_cloud_storage_devel:
-  - '2.31'
+  - '2.32'
 libgrpc:
   - "1.65"
 libhugetlbfs:
@@ -556,6 +570,8 @@ libintervalxt:
   - 3
 libitk_devel:
   - 5.4
+libklu:
+  - '2'
 libkml:
   - 1.3
 libkml_devel:
@@ -566,6 +582,8 @@ libiio:
   - 0
 libitk_devel:
   - 5.4
+libldl:
+  - '3'
 libmed:
   - '4.1'
 libmatio:
@@ -581,11 +599,13 @@ libode:
 libopencv:
   - 4.10.0
 libopentelemetry_cpp:
-  - '1.17'
+  - '1.18'
 libosqp:
   - 0.6.3
 libopenvino_dev:
   - 2024.4.0
+libparu:
+  - '1'
 libpcap:
   - '1.10'
 libpng:
@@ -596,6 +616,8 @@ libpq:
   - '16'
 libraw:
   - '0.21'
+librbio:
+  - '4'
 librdkafka:
   - '2.6'
 librsvg:
@@ -610,6 +632,12 @@ libsoup:
   - 3
 libspatialindex:
   - 2.0.0
+libspex:
+  - '3'
+libspqr:
+  - '4'
+libsuitesparseconfig:
+  - '7'
 libssh:
   - 0.10
 libssh2:
@@ -630,6 +658,8 @@ libtiff:
 # keep in synch with pytorch
 libtorch:
   - '2.4'
+libumfpack:
+  - '6'
 libunwind:
   - '1.6'
 libutf8proc:
@@ -889,6 +919,8 @@ starlink_ast:
   - 9.2.11
 suitesparse:
   - '7'
+suitesparse_mongoose:
+  - '3'
 superlu_dist:
   - '9'
 tbb:

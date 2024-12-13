@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for aws_c_common 0.10.5
-  kind: version
-  migration_number: 1
-  automerge: true
-aws_c_common:
-- 0.10.5
-migrator_ts: 1733353946.1674678

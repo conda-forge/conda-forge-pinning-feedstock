@@ -91,6 +91,11 @@ astropy = """\
     Recipes should usually depend on `astropy-base` as opposed to \
     `astropy`. `astropy-base` only has the required dependancies whereas \
     `astropy` now has all optional dependancies as well."""
+xz = """The use of `xz` is deprecated. \
+If your package links to `liblzma`, use the new `liblzma-devel` package. \
+For XZ's command line utilities (like `xz` and `unxz`), use the `xz-tools`package. \
+For the xz-enabled GNU tools (like `grep`), use `xz-gpl-tools`. \
+Note: Command line utilities should go in `requirements/build`."""
 
 xorg_xcb_proto = """\
     The use of `xorg-xcb-proto` is deprecated. \

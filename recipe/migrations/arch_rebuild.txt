@@ -1,4 +1,5 @@
 abacus
+abinit
 abseil-cpp
 adrt
 age
@@ -608,6 +609,7 @@ pygraphviz
 pygrib
 pyhdf
 pykdtree
+pykep
 pykrige
 pylance
 pylibtiff
