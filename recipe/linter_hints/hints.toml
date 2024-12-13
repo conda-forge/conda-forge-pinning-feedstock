@@ -91,14 +91,138 @@ astropy = """\
     Recipes should usually depend on `astropy-base` as opposed to \
     `astropy`. `astropy-base` only has the required dependancies whereas \
     `astropy` now has all optional dependancies as well."""
-xorg_xextproto = """The use of `xorg-xextproto` and `xorg-xproto` are deprecated. \
-Please use `xorg-xorgproto` instead. It contains the latest version of allthe proto \
-packages and bundles them all together."""
-xorg_xproto = """The use of `xorg-xextproto` and `xorg-xproto` are deprecated. \
-Please use `xorg-xorgproto` instead. It contains the latest version of all the proto \
-packages and bundles them all together."""
 xz = """The use of `xz` is deprecated. \
 If your package links to `liblzma`, use the new `liblzma-devel` package. \
 For XZ's command line utilities (like `xz` and `unxz`), use the `xz-tools`package. \
 For the xz-enabled GNU tools (like `grep`), use `xz-gpl-tools`. \
 Note: Command line utilities should go in `requirements/build`."""
+
+xorg_xcb_proto = """\
+    The use of `xorg-xcb-proto` is deprecated. \
+    Please use `xcb-proto` instead."""
+
+# Replace all other `xorg-*proto`s with `xorg-xorgproto`.
+xorg_applewmproto = """\
+    The use of `xorg-applewmproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_bigreqsproto = """\
+    The use of `xorg-bigreqsproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_compositeproto = """\
+    The use of `xorg-compositeproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_damageproto = """\
+    The use of `xorg-damageproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_dmxproto = """\
+    The use of `xorg-dmxproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_fixesproto = """\
+    The use of `xorg-fixesproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_fontcacheproto = """\
+    The use of `xorg-fontcacheproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_fontsproto = """\
+    The use of `xorg-fontsproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_glproto = """\
+    The use of `xorg-glproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_inputproto = """\
+    The use of `xorg-inputproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_kbproto = """\
+    The use of `xorg-kbproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_presentproto = """\
+    The use of `xorg-presentproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_printproto = """\
+    The use of `xorg-printproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_randrproto = """\
+    The use of `xorg-randrproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_recordproto = """\
+    The use of `xorg-recordproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_renderproto = """\
+    The use of `xorg-renderproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_resourceproto = """\
+    The use of `xorg-resourceproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_scrnsaverproto = """\
+    The use of `xorg-scrnsaverproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_trapproto = """\
+    The use of `xorg-trapproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_videoproto = """\
+    The use of `xorg-videoproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_windowswmproto = """\
+    The use of `xorg-windowswmproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xcmiscproto = """\
+    The use of `xorg-xcmiscproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xextproto = """\
+    The use of `xorg-xextproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xf86bigfontproto = """\
+    The use of `xorg-xf86bigfontproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xf86dgaproto = """\
+    The use of `xorg-xf86dgaproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xf86driproto = """\
+    The use of `xorg-xf86driproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xf86miscproto = """\
+    The use of `xorg-xf86miscproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xf86rushproto = """\
+    The use of `xorg-xf86rushproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xf86vidmodeproto = """\
+    The use of `xorg-xf86vidmodeproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xineramaproto = """\
+    The use of `xorg-xineramaproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
+xorg_xproto = """\
+    The use of `xorg-xproto` is deprecated. \
+    Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
+    packages and bundles them all together."""
