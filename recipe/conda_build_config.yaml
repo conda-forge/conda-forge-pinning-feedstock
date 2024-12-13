@@ -620,6 +620,8 @@ librbio:
   - '4'
 librdkafka:
   - '2.6'
+librealsense:
+  - '2.54'
 librsvg:
   - 2
 libsecret:
