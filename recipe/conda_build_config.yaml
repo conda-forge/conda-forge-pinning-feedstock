@@ -665,7 +665,7 @@ libumfpack:
 libunwind:
   - '1.6'
 libutf8proc:
-  - '2.8'
+  - '2.9'
 libv8:
   - 8.9.83
 libvigra:
