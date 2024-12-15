@@ -193,6 +193,7 @@ conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
 conda-pypi
 conda-smithy
+configspace
 connectorx
 connexion
 console_bridge
