@@ -23,6 +23,7 @@ arpack
 arrow-cpp
 assimp
 assimulo
+ast-grep
 astra-toolbox
 astropy
 asyncpg
@@ -102,6 +103,7 @@ cppcheck
 cpptango
 cppunit
 cpu_features
+cram
 crc32c
 cryptlib
 cryptopp
@@ -174,12 +176,15 @@ dipy
 dirac-grid
 direnv
 distributed
+djvulibre
 dm-tree
 docker-buildx
 docker-cli
+dtc
 dust
 dwave-ocean-sdk
 dwave-samplers
+dyff
 easyocr
 eccodes
 elsi
@@ -244,6 +249,8 @@ gnuplot
 gnuradio
 gnuradio-satellites
 gnuradio-soapy
+go-archiver
+go-ghq
 go-licenses
 go-yq
 google-compute-engine
@@ -254,6 +261,7 @@ gqrx
 graph-tool
 graphblas
 graphicsmagick
+groff
 gromacs
 grpcio
 gst-libav
@@ -295,6 +303,7 @@ imagecodecs
 iminuit
 implicit
 indicators
+inetutils
 ipopt
 ipykernel
 ipython
@@ -344,6 +353,7 @@ ldas-tools-ldasgen-swig
 ldas-tools-utilities
 ldc
 levenshtein
+lftp
 lhcbdirac
 libaec
 libarchive
@@ -402,10 +412,12 @@ lld
 llist
 log4cxx
 logzero
+louvain
 lp_solve
 lsdeluxe
 lttng-ust
 lua
+lzop
 mafft
 mahotas
 mamba
@@ -581,6 +593,7 @@ pv
 py-plumed
 py-spy
 py_rattler
+py2bit
 pyarrow
 pybamm
 pybcj
@@ -657,6 +670,7 @@ python-graphblas
 python-htcondor
 python-isal
 python-language-server
+python-lzo
 python-libdiscid
 python-orocos-kdl
 python-snappy
@@ -1076,8 +1090,10 @@ tensorflow
 termcolor-cpp
 termdbms
 tesseract
+the_silver_searcher
 thriftpy2
 thrust
+tidy-html5
 tiktoken
 tiledb-py
 time
@@ -1086,6 +1102,7 @@ tini
 tinyxml
 tinyxml2
 tmux
+tokyocabinet
 tomopy
 tornado
 tqdm
@@ -1103,6 +1120,7 @@ ucx-split
 ujson
 uncrustify
 unicodedata2
+universal-ctags
 uproot
 uproot4
 urdfdom
@@ -1149,6 +1167,7 @@ xgboost
 xleaflet
 xlwings
 xmlsec
+xmlstarlet
 xonsh
 xopen
 xorg-damageproto

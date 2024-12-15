@@ -44,6 +44,7 @@ arpack
 arro3-core
 arrow-odbc
 asio
+ast-grep
 astra-toolbox
 astroid
 astromatic-source-extractor
@@ -211,6 +212,7 @@ cppe
 cpppath
 cpptango
 cppunit
+cram
 crc32c
 crest
 crick
@@ -279,6 +281,7 @@ dionysus
 direnv
 disperse
 divemesh
+djvulibre
 dkh
 dlib-cpp
 dm-tree
@@ -295,6 +298,7 @@ dscribe
 dsps
 dssp
 dtaidistance
+dtc
 dtw-python
 ducc0
 dulwich
@@ -304,6 +308,7 @@ dvc
 dwave-ocean-sdk
 dwave-samplers
 dxtbx
+dyff
 dynaphopy
 easyocr
 eatpy
@@ -445,6 +450,8 @@ gnuplot
 gnuradio
 gnuradio-satellites
 gnuradio-soapy
+go-archiver
+go-ghq
 go-licenses
 go-shfmt
 go-yq
@@ -469,6 +476,7 @@ graphicsmagick
 grayskull
 great-expectations
 grimp
+groff
 gromacs
 grpc_java_plugin
 grpcio
@@ -552,6 +560,7 @@ implicit
 imreg_dft
 inchi
 indicators
+inetutils
 infrared
 inja
 inspiral-range
@@ -613,6 +622,7 @@ ldc
 lenstool
 levenshtein
 lfortran
+lftp
 lhapdf
 lib3mf
 libavif
@@ -683,6 +693,7 @@ llist
 lndoctor
 log4cxx
 loky
+louvain
 lp_solve
 lpsolve55
 lru-dict
@@ -695,6 +706,7 @@ lue
 luigi
 lz4
 lzip
+lzop
 m2crypto
 m4
 macfsevents
@@ -988,6 +1000,7 @@ py-spy
 py-triangle
 py_gd
 py_rattler
+py2bit
 pyacvd
 pyagrum
 pyahocorasick
@@ -1149,6 +1162,7 @@ python-infomap
 python-isal
 python-levenshtein
 python-libdiscid
+python-lzo
 python-magic
 python-pushover
 python-rapidjson
@@ -1558,7 +1572,9 @@ tesseract
 tesserocr
 texlive-core
 tflint
+the_silver_searcher
 thrax
+tidy-html5
 tifffile
 tiffslide
 tiktoken
@@ -1576,6 +1592,7 @@ tmap
 tmux
 tnt
 tokenizers
+tokyocabinet
 tomlplusplus
 tomopy
 torchsde
@@ -1610,6 +1627,7 @@ umap-learn
 uncrustify
 unicodedata2
 unicorn
+universal-ctags
 universal_pathlib
 uproc
 upv
@@ -1674,6 +1692,7 @@ xeus-sqlite
 xgboost
 xlwings
 xmlsec
+xmlstarlet
 xopen
 xorg-damageproto
 xorg-glproto
