@@ -998,9 +998,9 @@ py-openimageio
 py-plumed
 py-spy
 py-triangle
+py2bit
 py_gd
 py_rattler
-py2bit
 pyacvd
 pyagrum
 pyahocorasick

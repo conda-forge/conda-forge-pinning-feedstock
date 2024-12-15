@@ -592,8 +592,8 @@ pulp
 pv
 py-plumed
 py-spy
-py_rattler
 py2bit
+py_rattler
 pyarrow
 pybamm
 pybcj
@@ -670,8 +670,8 @@ python-graphblas
 python-htcondor
 python-isal
 python-language-server
-python-lzo
 python-libdiscid
+python-lzo
 python-orocos-kdl
 python-snappy
 python-suitesparse-graphblas
