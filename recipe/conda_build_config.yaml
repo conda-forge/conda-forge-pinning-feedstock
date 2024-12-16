@@ -659,7 +659,7 @@ libtiff:
   - '4.7'
 # keep in synch with pytorch
 libtorch:
-  - '2.4'
+  - '2.5'
 libumfpack:
   - '6'
 libunwind:
@@ -843,7 +843,7 @@ is_freethreading:
   - false
 # Keep in sync with libtorch
 pytorch:
-  - '2.4'
+  - '2.5'
 pyqt:
   - 5.15
 pyqtwebengine:
