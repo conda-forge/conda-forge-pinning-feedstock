@@ -431,6 +431,7 @@ mcpl
 mcstas-suite
 mcxtrace-suite
 mdtraj
+mediainfo
 meilisearch
 memray
 menuinst
