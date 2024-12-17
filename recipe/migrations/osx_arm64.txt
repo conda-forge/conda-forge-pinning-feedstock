@@ -735,6 +735,7 @@ mdanalysis
 mdanalysistests
 mdtraj
 medatetime
+mediainfo
 megaradrp
 meilisearch
 menuinst
