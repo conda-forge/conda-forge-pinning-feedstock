@@ -613,7 +613,7 @@ libpng:
 libprotobuf:
   - 5.27.5
 libpq:
-  - '16'
+  - '17'
 libraw:
   - '0.21'
 librbio:
@@ -810,9 +810,9 @@ poco:
 poppler:
   - '24.08'
 postgresql:
-  - '16'
+  - '17'
 postgresql_plpython:
-  - '16'
+  - '17'
 proj:
   - '9.5'
 pulseaudio:
