@@ -438,7 +438,7 @@ json_c:
 jsoncpp:
   - 1.9.6
 kealib:
-  - '1.5'
+  - '1.6'
 krb5:
   - '1.21'
 ldas_tools_framecpp:

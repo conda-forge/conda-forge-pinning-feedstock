@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for kealib 1.6
-  kind: version
-  migration_number: 1
-kealib:
-- '1.6'
-migrator_ts: 1732967885.8292747
