@@ -290,6 +290,7 @@ docker-buildx
 docker-cli
 docker-compose
 dockle
+dockq
 docopt.cpp
 docutils
 doit
