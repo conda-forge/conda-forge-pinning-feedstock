@@ -561,7 +561,7 @@ libgoogle_cloud_storage_devel:
 libgrpc:
   - "1.67"
 libgsasl:
-  - 1
+  - '2'
 libhugetlbfs:
   - 2
 libhwloc:
