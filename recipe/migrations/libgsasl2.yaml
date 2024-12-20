@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libgsasl 2
+  kind: version
+  migration_number: 1
+libgsasl:
+- '2'
+migrator_ts: 1734701265.0259247
