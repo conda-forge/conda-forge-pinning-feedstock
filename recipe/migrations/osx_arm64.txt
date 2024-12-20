@@ -917,6 +917,7 @@ parmetis
 patch
 pathos
 pcraster
+pcst-fast
 pdf2svg
 pdftotext
 pdm
