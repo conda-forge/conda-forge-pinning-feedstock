@@ -560,6 +560,8 @@ libgoogle_cloud_storage_devel:
   - '2.32'
 libgrpc:
   - "1.67"
+libgsasl:
+  - 1
 libhugetlbfs:
   - 2
 libhwloc:
@@ -598,6 +600,8 @@ libmicrohttpd:
   - '1.0'
 libnetcdf:
   - 4.9.2
+libntlm:
+  - 1
 libode:
   - 0.16.5
 libopencv:
