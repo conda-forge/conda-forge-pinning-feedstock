@@ -1409,6 +1409,7 @@ rever
 rhumba
 rio-color
 ripgrep
+ripser
 rise
 riskfolio-lib
 root
