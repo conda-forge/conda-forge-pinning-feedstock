@@ -181,6 +181,7 @@ dm-tree
 docker-buildx
 docker-cli
 dtc
+dukpy
 dust
 dwave-ocean-sdk
 dwave-samplers
