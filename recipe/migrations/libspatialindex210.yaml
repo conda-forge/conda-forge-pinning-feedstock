@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libspatialindex 2.1.0
+  kind: version
+  migration_number: 1
+libspatialindex:
+- 2.1.0
+migrator_ts: 1734895759.6433609
