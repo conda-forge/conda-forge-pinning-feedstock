@@ -806,11 +806,11 @@ pcre:
 pcre2:
   - '10.44'
 pdal:
-  - 2.8.0
+  - 2.8.2
 libpdal:
-  - 2.8.0
+  - 2.8.2
 libpdal_core:
-  - 2.8.0
+  - 2.8.2
 pixman:
   - 0
 poco:
