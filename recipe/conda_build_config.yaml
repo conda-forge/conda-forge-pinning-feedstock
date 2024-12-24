@@ -641,7 +641,7 @@ libsndfile:
 libsoup:
   - 3
 libspatialindex:
-  - 2.0.0
+  - 2.1.0
 libspex:
   - '3'
 libspqr:
