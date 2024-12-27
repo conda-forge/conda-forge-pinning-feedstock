@@ -792,7 +792,7 @@ petsc4py:
 plutovg:
   - 0.0.10
 plutosvg:
-  - '0.0.3'
+  - 0.0.4
 pugixml:
   - '1.14'
 slepc:
