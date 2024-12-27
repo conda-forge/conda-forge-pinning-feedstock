@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for plutosvg 0.0.4
+  kind: version
+  migration_number: 1
+migrator_ts: 1735297353.6272697
+plutosvg:
+- 0.0.4
