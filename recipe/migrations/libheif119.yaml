@@ -1,8 +1,8 @@
-migrator_ts: 1735313248
 __migrator:
+  build_number: 1
+  commit_message: Rebuild for libheif 1.19
   kind: version
   migration_number: 1
-  bump_number: 1
-
 libheif:
-  - 1.19
+- '1.19'
+migrator_ts: 1735321418.2929332
