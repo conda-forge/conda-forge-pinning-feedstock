@@ -1,8 +1,0 @@
-migrator_ts: 1735313248
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-libheif:
-  - 1.19

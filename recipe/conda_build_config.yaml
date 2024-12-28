@@ -563,7 +563,7 @@ libgrpc:
 libgsasl:
   - '2'
 libheif:
-  - 1.18
+  - 1.19
 libhugetlbfs:
   - 2
 libhwloc:
