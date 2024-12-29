@@ -237,7 +237,7 @@ arb:
 arpack:
   - '3.9'
 assimp:
-  - 5.4.2
+  - 5.4.3
 attr:
   - 2.5
 aws_c_auth:
