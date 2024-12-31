@@ -869,7 +869,7 @@ qt:
 qt_main:
   - 5.15
 qt6_main:
-  - '6.7'
+  - '6.8'
 qtkeychain:
   - '0.14'
 rdma_core:
