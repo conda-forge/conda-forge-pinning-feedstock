@@ -1073,6 +1073,7 @@ starship
 statsforecast
 statsmodels
 su-exec
+subfinder
 suitesparse
 sundials
 sunode
