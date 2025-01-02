@@ -1,3 +1,4 @@
+r-rcppplanc
 abacus
 abinit
 abseil-cpp

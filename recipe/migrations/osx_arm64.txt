@@ -1,3 +1,4 @@
+r-rcppplanc
 abinit
 ablog
 accelerator-toolbox
