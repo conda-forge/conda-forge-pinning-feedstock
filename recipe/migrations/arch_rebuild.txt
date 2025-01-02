@@ -1,4 +1,3 @@
-r-rcppplanc
 abacus
 abinit
 abseil-cpp
@@ -896,6 +895,7 @@ r-rcppeigen
 r-rcpphnsw
 r-rcppml
 r-rcppnumerical
+r-rcppplanc
 r-rcpproll
 r-rcppspdlog
 r-rcurl
