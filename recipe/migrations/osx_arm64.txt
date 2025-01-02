@@ -1331,6 +1331,7 @@ r-rbiom
 r-rcppcnpy
 r-rcpphnsw
 r-rcppnumerical
+r-rcppplanc
 r-rcpproll
 r-rcppspdlog
 r-reprex
