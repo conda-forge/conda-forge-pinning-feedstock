@@ -1232,6 +1232,7 @@ r-arrow
 r-bart
 r-base
 r-beeswarm
+r-bigrquery
 r-bipartite
 r-cairo
 r-catboost
