@@ -715,6 +715,7 @@ r-batchtools
 r-bayesfactor
 r-bbmisc
 r-bbmle
+r-beeswarm
 r-bench
 r-biasedurn
 r-biglm
@@ -863,6 +864,8 @@ r-pamr
 r-pander
 r-paralleldist
 r-parmigene
+r-party
+r-partykit
 r-pbivnorm
 r-pbmcapply
 r-pdist
@@ -986,6 +989,7 @@ r-uwot
 r-vegan
 r-vgam
 r-vroom
+r-websocket
 r-webutils
 r-wgcna
 r-wordcloud
