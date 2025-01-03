@@ -711,9 +711,11 @@ metis:
 mimalloc:
   - 2.1.7
 mkl:
-  - '2023'
+  - '2024'  # [not osx]
+  - '2023'  # [osx]
 mkl_devel:
-  - 2023
+  - '2024'  # [not osx]
+  - '2023'  # [osx]
 mpg123:
   - '1.32'
 mpich:
