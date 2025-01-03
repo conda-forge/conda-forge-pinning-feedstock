@@ -931,6 +931,7 @@ perl-compress-raw-bzip
 perl-compress-raw-bzip2
 perl-compress-raw-zlib
 perl-data-dumper
+perl-pathtools
 perl-scalar-list-utils
 perl-storable
 perl-unicode-linebreak
