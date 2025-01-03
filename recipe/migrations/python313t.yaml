@@ -34,6 +34,7 @@ __migrator:
     additional_zip_keys:
         - channel_sources
         - is_freethreading
+        - is_abi3
     wait_for_migrators:
         - python313
 
@@ -48,3 +49,7 @@ python_impl:
 - cpython
 is_freethreading:
 - true
+is_python_min:
+- false
+is_abi3:
+- false
