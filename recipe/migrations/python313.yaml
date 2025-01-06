@@ -40,3 +40,5 @@ numpy:
 - 2
 python_impl:
 - cpython
+is_python_min:
+- false

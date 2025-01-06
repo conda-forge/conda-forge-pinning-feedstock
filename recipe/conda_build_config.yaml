@@ -187,6 +187,7 @@ zip_keys:
     - python
     - numpy
     - python_impl
+    - is_python_min
   -
     - libarrow
     - libarrow_all
@@ -836,13 +837,13 @@ pulseaudio_daemon:
 pybind11_abi:
   - 4
 python:
-  # part of a zip_keys: python, python_impl, numpy
+  # part of a zip_keys: python, python_impl, numpy, is_python_min
   - 3.9.* *_cpython
   - 3.10.* *_cpython
   - 3.11.* *_cpython
   - 3.12.* *_cpython
 python_impl:
-  # part of a zip_keys: python, python_impl, numpy
+  # part of a zip_keys: python, python_impl, numpy, is_python_min
   - cpython
   - cpython
   - cpython
@@ -853,6 +854,13 @@ python_min:
   - '3.9'
 is_freethreading:
   - false
+is_python_min:
+  - true
+  - false
+  - false
+  - false
+is_abi3:
+  - true
 # Keep in sync with libtorch
 pytorch:
   - '2.4'
