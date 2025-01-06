@@ -312,6 +312,7 @@ dwave-samplers
 dxtbx
 dyff
 dynaphopy
+e1
 easyocr
 eatpy
 ecflow
