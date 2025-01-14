@@ -554,7 +554,6 @@ perl-encode
 perl-io-tty
 perl-lwp-simple
 perl-mime-base64
-perl-moose
 perl-pathtools
 perl-scalar-list-utils
 perl-socket
