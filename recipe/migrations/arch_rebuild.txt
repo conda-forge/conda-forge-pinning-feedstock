@@ -553,6 +553,8 @@ perl-db_file
 perl-dbi
 perl-digest-md5
 perl-encode
+perl-extutils-constant
+perl-extutils-makemaker
 perl-io-tty
 perl-lwp-simple
 perl-mime-base64
