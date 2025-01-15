@@ -253,6 +253,7 @@ datrie
 dav1d
 dbgpy
 dcm2niix
+dcmtk
 ddtrace
 dedalus
 deepspeed
@@ -275,6 +276,7 @@ dftd3-python
 dgl
 dgpsi
 dials
+dicomweb-client
 diffmah
 diffstar
 digital_rf

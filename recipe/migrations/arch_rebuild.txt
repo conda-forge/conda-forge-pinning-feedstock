@@ -165,11 +165,13 @@ datafusion
 datamash
 dataprep
 dav1d
+dcmtk
 deltalake
 deno
 deno-dom
 deptry
 dgl
+dicomweb-client
 diffutils
 digital_rf
 dipy
