@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for pugixml 1.15
+  kind: version
+  migration_number: 1
+migrator_ts: 1736605268.221637
+pugixml:
+- '1.15'
