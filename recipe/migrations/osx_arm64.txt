@@ -640,6 +640,7 @@ libcuba
 libdate
 libdb
 libdeflate
+libdiffpy
 libdlfind
 libefp
 libftdi
