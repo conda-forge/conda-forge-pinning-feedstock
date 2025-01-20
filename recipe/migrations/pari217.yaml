@@ -5,4 +5,4 @@ __migrator:
   migration_number: 1
 migrator_ts: 1737362670.5243793
 pari:
-- '2.17'
+- 2.17.* *_pthread
