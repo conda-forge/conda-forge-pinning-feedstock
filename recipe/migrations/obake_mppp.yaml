@@ -3,7 +3,7 @@ __migrator:
   commit_message: Rebuild for obake 0.9 & mppp 2.0
   kind: version
   migration_number: 1
-obake:
+obake_devel:
   - '0.9'
 mppp:
   - '2.0'
