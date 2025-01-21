@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for starlink_ast 9.2.12
+  kind: version
+  migration_number: 1
+migrator_ts: 1737484362.1415439
+starlink_ast:
+- 9.2.12
