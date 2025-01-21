@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for ucx 1.18
+  kind: version
+  migration_number: 1
+migrator_ts: 1737490442.7463033
+ucx:
+- '1.18'
