@@ -222,9 +222,6 @@ blas_impl:
   - mkl          # [x86 or x86_64]
   - blis         # [x86 or x86_64]
 
-# this output was dropped as of libabseil 20230125
-abseil_cpp:
-  - '20220623.0'
 ace:
   - 8.0.2
 alsa_lib:
@@ -406,10 +403,6 @@ googleapis_cpp:
   - '0.10'
 graphviz:
   - '12'
-# this has been renamed to libgrpc as of 1.49; dropped as of 1.52.
-# IOW, this version is unavailable; makes the renaming more obvious
-grpc_cpp:
-  - '1.52'
 harfbuzz:
   - '10'
 hdf4:
@@ -450,8 +443,6 @@ ldas_tools_framecpp:
   - '2.9'
 libabseil:
   - '20240722'
-libabseil_static:
-  - '20220623.0'
 libaec:
   - '1'
 libamd:
