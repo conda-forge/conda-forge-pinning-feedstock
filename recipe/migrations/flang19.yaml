@@ -33,6 +33,11 @@ __migrator:
   override_cbc_keys:
     - fortran_compiler_stub
   exclude:
+    # these packages should be skipped because they're not built on windows, which
+    # contradicts platform_allowlist, see https://github.com/regro/cf-scripts/issues/3436
+    - mpich
+    - mvapich
+    - openmpi
     # exclude r-packages, which generally use m2w64-stack consistently
     - r-base
     - r-acepack
