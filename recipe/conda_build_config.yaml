@@ -390,7 +390,6 @@ glpk:
   - '5.0'
 gmp:
   - 6
-# keep google_cloud_cpp in sync with libgoogle_cloud_*
 google_cloud_cpp:
   - '2.33'
 google_cloud_cpp_common:
@@ -507,7 +506,6 @@ libframel:
   - '8.41'
 libgit2:
   - '1.9'
-# Keep in sync with google_cloud_cpp
 libgoogle_cloud:
   - '2.33'
 libgoogle_cloud_devel:
@@ -644,7 +642,6 @@ libssh2:
   - 1
 libsvm:
   - '335'
-# keep libsqlite in sync with sqlite
 libsqlite:
   - 3
 libtensorflow:
@@ -655,7 +652,6 @@ libthrift:
   - 0.21.0
 libtiff:
   - '4.7'
-# keep in synch with pytorch
 libtorch:
   - '2.4'
 libumfpack:
@@ -848,7 +844,6 @@ is_python_min:
   - false
 is_abi3:
   - true
-# Keep in sync with libtorch
 pytorch:
   - '2.4'
 pyqt:
@@ -919,7 +914,6 @@ sox:
   - 14.4.2
 spdlog:
   - '1.13'
-# keep sqlite in sync with libsqlite
 sqlite:
   - 3
 srm_ifce:
