@@ -919,7 +919,7 @@ sqlite:
 srm_ifce:
   - 1.24.6
 starlink_ast:
-  - 9.2.11
+  - 9.2.12
 suitesparse:
   - '7'
 suitesparse_mongoose:
