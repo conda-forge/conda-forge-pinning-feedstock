@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for gsl 2.8
+  kind: version
+  migration_number: 1
+gsl:
+- '2.8'
+migrator_ts: 1737555894.3998444
