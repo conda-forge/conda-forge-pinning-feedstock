@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_sdk_cpp 1.11.489
+  kind: version
+  migration_number: 1
+aws_sdk_cpp:
+- 1.11.489
+migrator_ts: 1737579362.7379434
