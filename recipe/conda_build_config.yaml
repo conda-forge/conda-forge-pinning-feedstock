@@ -445,15 +445,15 @@ libamd:
 libarchive:
   - '3.7'
 libarrow:
+  - '19.0'
   - '18.1'
   - '17.0'
   - '16.1'
-  - 15
 libarrow_all:
-  - '18.1'
+  - '19.0'
+  - '18.0'
   - '17.0'
   - '16.1'
-  - 15
 libavif:
   - 1
 libblitz:
