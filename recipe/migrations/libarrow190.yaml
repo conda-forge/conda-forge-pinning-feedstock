@@ -10,7 +10,7 @@ __migrator:
 
 libarrow:
 - '19.0'
-- '18.0'
+- '18.1'
 - '17.0'
 - '16.1'
 libarrow_all:
