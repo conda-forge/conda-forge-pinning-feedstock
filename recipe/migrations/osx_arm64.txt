@@ -37,6 +37,7 @@ apr
 apscheduler
 apsw
 arcjetcv
+aria-tools
 arm_pyart
 armadillo
 arosics
