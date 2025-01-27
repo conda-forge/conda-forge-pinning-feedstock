@@ -863,7 +863,7 @@ qt_main:
 qt6_main:
   - '6.8'
 qtkeychain:
-  - '0.14'
+  - '0.15'
 rdma_core:
   - '55'
 re2:
