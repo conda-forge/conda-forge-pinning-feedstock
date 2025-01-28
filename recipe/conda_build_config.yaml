@@ -809,6 +809,8 @@ poco:
   - 1.14.0
 poppler:
   - '24.12'
+portaudio:
+  - '19.7'
 postgresql:
   - '17'
 postgresql_plpython:
