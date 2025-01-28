@@ -529,6 +529,7 @@ helix
 help2man
 heyoka
 heyoka.py
+hf-transfer
 higra
 hmmlearn
 hnswlib
