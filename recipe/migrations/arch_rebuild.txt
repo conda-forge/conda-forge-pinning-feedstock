@@ -834,6 +834,7 @@ r-logr
 r-lokern
 r-lpsolve
 r-lpsolveapi
+r-magick
 r-maldiquant
 r-mapdata
 r-mapproj
