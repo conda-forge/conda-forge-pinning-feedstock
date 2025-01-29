@@ -565,6 +565,7 @@ perl-pathtools
 perl-scalar-list-utils
 perl-socket
 perl-storbale
+perl-sub-uplevel
 perl-version
 perspective
 pestpp
