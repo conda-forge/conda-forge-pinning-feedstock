@@ -574,8 +574,6 @@ liblzma_devel:
   - 5
 libiio:
   - 0
-libitk_devel:
-  - 5.4
 libldl:
   - '3'
 libmed:
