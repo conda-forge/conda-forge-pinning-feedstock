@@ -665,6 +665,7 @@ libobjcryst
 libopus
 libpcm
 libpnetcdf
+libpostal
 libpsl
 libqdldl
 libqglviewer
@@ -979,6 +980,7 @@ polycap
 polyscope
 pomegranate
 porespy
+postal
 pot
 potpourri3d
 powerline-status
