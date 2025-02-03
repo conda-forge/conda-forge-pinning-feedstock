@@ -555,7 +555,7 @@ perl-digest-md5
 perl-encode
 perl-extutils-constant
 perl-extutils-makemaker
-perl-io-socket-ssl-feedstock
+perl-io-socket-ssl
 perl-io-tty
 perl-lwp-simple
 perl-mime-base64
