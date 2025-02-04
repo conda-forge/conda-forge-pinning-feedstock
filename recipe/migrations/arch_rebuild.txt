@@ -544,6 +544,7 @@ pelicanplatform
 pennylane
 pennylane-lightning-gpu
 pennylane-lightning-kokkos
+perl-b-hooks-endofscope
 perl-bio-samtools
 perl-class-methodmaker
 perl-clone
@@ -552,6 +553,7 @@ perl-data-dumper
 perl-db_file
 perl-dbi
 perl-digest-md5
+perl-dist-checkconflicts
 perl-encode
 perl-extutils-constant
 perl-extutils-makemaker
@@ -559,6 +561,7 @@ perl-io-socket-ssl
 perl-io-tty
 perl-lwp-simple
 perl-mime-base64
+perl-module-implementation
 perl-moose
 perl-net-ssleay
 perl-pathtools
