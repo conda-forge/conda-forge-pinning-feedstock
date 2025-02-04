@@ -406,6 +406,7 @@ libxcrypt
 libxkbfile
 libxnvme
 libzopfli
+light-curve-python
 lightgbm
 lime
 limesuite
