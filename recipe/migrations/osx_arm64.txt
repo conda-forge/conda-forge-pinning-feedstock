@@ -1303,6 +1303,7 @@ r-lme4
 r-lpsolve
 r-magick
 r-mapdata
+r-mapdeck
 r-marginaleffects
 r-mclust
 r-mice
