@@ -1263,6 +1263,7 @@ r-distributionutils
 r-duckdb
 r-ecp
 r-essentials
+r-exactextractr
 r-fastmatch
 r-filelock
 r-fixest
