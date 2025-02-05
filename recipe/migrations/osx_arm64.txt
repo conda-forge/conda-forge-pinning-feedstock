@@ -726,6 +726,7 @@ magics-metview
 magics-metview-batch
 mahotas
 make
+makedepf90
 mamba
 mamba-bash-completion
 manim
