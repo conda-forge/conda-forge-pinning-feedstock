@@ -4,5 +4,5 @@ __migrator:
   kind: version
   migration_number: 1
 libopenvino_dev:
-- '2025'
+- '2025.0.0'
 migrator_ts: 1738856164.0024853
