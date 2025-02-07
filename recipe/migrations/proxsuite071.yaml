@@ -1,0 +1,9 @@
+migrator_ts: 1738924976
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+  commit_message: Rebuild for proxsuite 0.7.1
+
+proxsuite:
+  - 0.7.1
