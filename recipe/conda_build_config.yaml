@@ -597,7 +597,7 @@ libopentelemetry_cpp:
 libosqp:
   - 0.6.3
 libopenvino_dev:
-  - 2024.6.0
+  - 2025.0.0
 libparu:
   - '1'
 libpcap:
@@ -879,7 +879,7 @@ readline:
 rocksdb:
   - '9.1'
 root_base:
-  - 6.32.2
+  - 6.32.8
 ruby:
   - 2.5
   - 2.6
@@ -951,7 +951,7 @@ ucc:
 ucx:
   - '1.18'
 uhd:
-  - 4.7.0
+  - 4.8.0
 urdfdom:
   - '4.0'
 vc:                    # [win]
