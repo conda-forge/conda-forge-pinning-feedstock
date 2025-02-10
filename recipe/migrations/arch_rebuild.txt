@@ -15,6 +15,7 @@ anyjson
 apptainer
 apr
 argon2_cffi
+argparse
 argtable2
 aria2
 arm-variant
@@ -341,6 +342,7 @@ labelimg
 lalapps
 lammps
 lapack
+lasagne
 laspy
 lazrs-python
 lazydocker
@@ -973,6 +975,7 @@ r-spp
 r-sqldf
 r-stars
 r-statnet.common
+r-strawr
 r-suppdists
 r-survival
 r-survminer
