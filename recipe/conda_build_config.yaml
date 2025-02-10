@@ -339,7 +339,7 @@ fftw:
 flann:
   - 1.9.2
 flatbuffers:
-  - 24.3.25
+  - 24.12.23
 fmt:
   - '10'
 fontconfig:
