@@ -1036,6 +1036,7 @@ pycparser
 pycrdt
 pycurl
 pyddx
+pydeb
 pydelatin
 pydpc
 pyduktape2
