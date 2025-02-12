@@ -629,6 +629,7 @@ pyg-lib
 pyg4ometry
 pygal
 pygeoda
+pygeoprocessing
 pygeos
 pygit2
 pygmo
