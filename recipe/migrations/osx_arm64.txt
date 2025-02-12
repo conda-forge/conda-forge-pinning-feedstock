@@ -891,6 +891,7 @@ openslide
 opentofu
 openturns
 optional-lite
+opty
 optype
 orange3
 oras
