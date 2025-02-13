@@ -849,7 +849,7 @@ is_python_min:
 is_abi3:
   - true
 pytorch:
-  - '2.4'
+  - '2.5'
 pyqt:
   - 5.15
 pyqtwebengine:
