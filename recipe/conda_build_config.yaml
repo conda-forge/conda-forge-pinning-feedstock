@@ -15,7 +15,9 @@ c_stdlib:
   - macosx_deployment_target   # [osx]
   - vs                         # [win]
 m2w64_c_stdlib:                # [win]
-  - m2w64-toolchain            # [win]
+  - m2w64-sysroot              # [win]
+m2w64_c_stdlib_version:        # [win]
+  - 12                         # [win]
 c_stdlib_version:              # [unix]
   - 2.17                       # [linux]
   - 10.13                      # [osx and x86_64]
@@ -44,12 +46,18 @@ fortran_compiler_version:      # [unix or win64]
   - 11                         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 12                         # [linux and ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 13                         # [linux and not ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-m2w64_c_compiler:              # [win]
-  - m2w64-toolchain            # [win]
-m2w64_cxx_compiler:            # [win]
-  - m2w64-toolchain            # [win]
-m2w64_fortran_compiler:        # [win]
-  - m2w64-toolchain            # [win]
+m2w64_c_compiler:                 # [win]
+  - gcc                           # [win]
+m2w64_c_compiler_version:         # [win]
+  - 13                            # [win]
+m2w64_cxx_compiler:               # [win]
+  - gxx                           # [win]
+m2w64_cxx_compiler_version:       # [win]
+  - 13                            # [win]
+m2w64_fortran_compiler:           # [win]
+  - gfortran                      # [win]
+m2w64_fortran_compiler_version:   # [win]
+  - 13                            # [win]
 
 cuda_compiler:
   - None
@@ -882,8 +890,8 @@ ruby:
   - 2.5
   - 2.6
 r_base:
-  - 4.1   # [win]
-  - 4.3   # [not win]
+  - 4.3
+  - 4.4
 libscotch:
   - 7.0.6
 libptscotch:
