@@ -404,6 +404,7 @@ galsim
 gau2grid
 gawk
 gdal
+gdb
 gdma
 gds-root-extensions
 gdspy
