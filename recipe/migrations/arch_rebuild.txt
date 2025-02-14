@@ -394,6 +394,7 @@ libnsl
 libnvfatbin
 libnvjitlink
 libnvjpeg
+libnvshmem
 libopus
 libpnetcdf
 libqdldl
