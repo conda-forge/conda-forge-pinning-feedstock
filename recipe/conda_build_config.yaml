@@ -651,7 +651,7 @@ libthrift:
 libtiff:
   - '4.7'
 libtorch:
-  - '2.4'
+  - '2.5'
 libumfpack:
   - '6'
 libunwind:
