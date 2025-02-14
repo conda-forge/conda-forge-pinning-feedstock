@@ -228,6 +228,7 @@ freecad
 frozenlist
 functools32
 gau2grid
+gdb
 gds-swig
 geant4
 geckodriver
