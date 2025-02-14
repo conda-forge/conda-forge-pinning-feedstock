@@ -1619,6 +1619,7 @@ tokenizers
 tokyocabinet
 tomlplusplus
 tomopy
+torch-scatter
 torchmd-net
 torchsde
 torchsparse
