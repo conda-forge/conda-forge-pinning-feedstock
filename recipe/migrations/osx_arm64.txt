@@ -6,6 +6,7 @@ adaptive
 adaptive-scheduler
 adcc
 adrt
+torch-scatter
 aesara
 affogato
 agate
