@@ -6,7 +6,6 @@ adaptive
 adaptive-scheduler
 adcc
 adrt
-torch-scatter
 aesara
 affogato
 agate
@@ -1620,6 +1619,7 @@ tokenizers
 tokyocabinet
 tomlplusplus
 tomopy
+torch-scatter
 torchmd-net
 torchsde
 torchsparse
