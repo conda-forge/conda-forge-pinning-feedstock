@@ -790,7 +790,7 @@ plutovg:
 plutosvg:
   - 0.0.5
 pugixml:
-  - '1.14'
+  - '1.15'
 slepc:
   - '3.21'
 slepc4py:
