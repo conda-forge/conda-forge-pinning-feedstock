@@ -5,6 +5,9 @@ __migrator:
   migration_number: 1
   # see https://github.com/conda-forge/pytorch-cpu-feedstock/issues/362
   check_solvable: false
+  exclude:
+    # problems with phantom parents, see https://github.com/regro/cf-scripts/issues/3716
+    - torchvision
 libtorch:
 - '2.6'
 pytorch:
