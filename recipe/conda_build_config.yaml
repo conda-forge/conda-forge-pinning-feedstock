@@ -599,7 +599,7 @@ libntlm:
 libode:
   - 0.16.5
 libopencv:
-  - 4.10.0
+  - 4.11.0
 libopentelemetry_cpp:
   - '1.18'
 libosqp:
