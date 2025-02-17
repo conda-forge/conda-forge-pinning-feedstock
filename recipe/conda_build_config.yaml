@@ -627,7 +627,7 @@ librealsense:
 librsvg:
   - 2
 libsecret:
-  - 0.18
+  - '0.21'
 libsentencepiece:
   - 0.2.0
 libsndfile:
