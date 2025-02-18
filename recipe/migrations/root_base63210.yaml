@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for root_base 6.32.10
-  kind: version
-  migration_number: 1
-migrator_ts: 1739355192.0
-root_base:
-- 6.32.10
