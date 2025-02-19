@@ -1554,6 +1554,7 @@ srm
 sshpass
 ssm-simulators
 stack
+stacrs
 stardist
 starlink-ast
 starship
