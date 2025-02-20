@@ -87,6 +87,7 @@ clpeak
 cmarkgfm
 coinmp
 colima
+color-operations
 conda-build
 conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
