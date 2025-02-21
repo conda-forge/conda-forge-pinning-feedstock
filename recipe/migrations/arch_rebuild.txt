@@ -405,6 +405,7 @@ librdkafka
 librerun-sdk
 librmm
 libsolv
+libtins
 libudev
 libvpx
 libxcrypt
