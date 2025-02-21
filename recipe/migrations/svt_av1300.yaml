@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for svt_av1 3.0.0
-  kind: version
-  migration_number: 1
-migrator_ts: 1740099275.7166274
-svt_av1:
-- 3.0.0
