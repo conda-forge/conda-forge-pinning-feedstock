@@ -677,7 +677,7 @@ libwebp:
 libwebp_base:
   - 1
 libx86emu:
-  - 3.5
+  - 3.7
 libxcb:
   - '1'
 libxml2:
