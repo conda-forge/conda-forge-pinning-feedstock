@@ -720,6 +720,7 @@ r-ade4
 r-agricolae
 r-akima
 r-amap
+r-ampir
 r-apcluster
 r-ape
 r-arrow
