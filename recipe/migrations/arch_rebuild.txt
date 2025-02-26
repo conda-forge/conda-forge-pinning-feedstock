@@ -467,6 +467,7 @@ mysql-connector-odbc
 n2p2
 nano
 nasm
+natcap.invest
 nb_conda_kernels
 nbgrader
 ncbi-datasets-cli
