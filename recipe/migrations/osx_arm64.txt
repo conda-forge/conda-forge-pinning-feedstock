@@ -176,6 +176,7 @@ cmake
 cmarkgfm
 cmdstan
 cminpack
+cms-combine
 coin-or-cbc
 coinbonmin
 coincbc
@@ -204,7 +205,6 @@ coolprop
 coremltools
 coreutils
 correctionlib
-cms-combine
 corrfunc
 cosmosis
 cosmosis-build-standard-library
