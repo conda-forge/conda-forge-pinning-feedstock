@@ -204,6 +204,7 @@ coolprop
 coremltools
 coreutils
 correctionlib
+cms-combine
 corrfunc
 cosmosis
 cosmosis-build-standard-library
