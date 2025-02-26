@@ -77,6 +77,12 @@ mkl:
   - mkl
   - mkl_devel
 
+petsc:
+  - petsc
+  - petsc4py
+  - slepc
+  - slepc4py
+
 pytorch:
   - libtorch
   - pytorch

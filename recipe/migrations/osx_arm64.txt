@@ -37,6 +37,7 @@ apr
 apscheduler
 apsw
 arcjetcv
+aria-tools
 arm_pyart
 armadillo
 arosics
@@ -44,6 +45,7 @@ arpack
 arro3-core
 arrow-odbc
 asio
+ast-grep
 astra-toolbox
 astroid
 astromatic-source-extractor
@@ -93,6 +95,7 @@ biome
 biosphere
 biotite
 bipedal-locomotion-framework
+bitshuffle
 black
 blis
 blosc
@@ -124,6 +127,7 @@ cartographer
 cartopy
 casadi
 cascade
+catsmoothing
 causalml
 cbgen
 cbonsai
@@ -172,6 +176,7 @@ cmake
 cmarkgfm
 cmdstan
 cminpack
+cms-combine
 coin-or-cbc
 coinbonmin
 coincbc
@@ -191,6 +196,7 @@ conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
 conda-pypi
 conda-smithy
+configspace
 connectorx
 connexion
 console_bridge
@@ -210,6 +216,8 @@ cppe
 cpppath
 cpptango
 cppunit
+cram
+crc32c
 crest
 crick
 cross-python
@@ -226,8 +234,10 @@ cwinpy
 cwltool
 cx_freeze
 cyanure
+cycamore
 cyclus
 cyipopt
+cymetric
 cython-fortran-file
 cytoplay
 cytosim
@@ -246,6 +256,7 @@ datrie
 dav1d
 dbgpy
 dcm2niix
+dcmtk
 ddtrace
 dedalus
 deepspeed
@@ -268,6 +279,7 @@ dftd3-python
 dgl
 dgpsi
 dials
+dicomweb-client
 diffmah
 diffstar
 digital_rf
@@ -275,6 +287,7 @@ dionysus
 direnv
 disperse
 divemesh
+djvulibre
 dkh
 dlib-cpp
 dm-tree
@@ -282,6 +295,7 @@ docker-buildx
 docker-cli
 docker-compose
 dockle
+dockq
 docopt.cpp
 docutils
 doit
@@ -291,6 +305,7 @@ dscribe
 dsps
 dssp
 dtaidistance
+dtc
 dtw-python
 ducc0
 dulwich
@@ -300,7 +315,9 @@ dvc
 dwave-ocean-sdk
 dwave-samplers
 dxtbx
+dyff
 dynaphopy
+e1
 easyocr
 eatpy
 ecflow
@@ -389,6 +406,7 @@ galsim
 gau2grid
 gawk
 gdal
+gdb
 gdma
 gds-root-extensions
 gdspy
@@ -402,6 +420,7 @@ geoarrow-c
 geocat-comp
 geocat-f2py
 geohexviz
+geometry-central
 geotiff
 geowombat
 gepetto-viewer-corba
@@ -440,6 +459,8 @@ gnuplot
 gnuradio
 gnuradio-satellites
 gnuradio-soapy
+go-archiver
+go-ghq
 go-licenses
 go-shfmt
 go-yq
@@ -464,6 +485,7 @@ graphicsmagick
 grayskull
 great-expectations
 grimp
+groff
 gromacs
 grpc_java_plugin
 grpcio
@@ -510,6 +532,7 @@ helix
 help2man
 heyoka
 heyoka.py
+hf-transfer
 higra
 hmmlearn
 hnswlib
@@ -546,6 +569,8 @@ iminuit
 implicit
 imreg_dft
 inchi
+indicators
+inetutils
 infrared
 inja
 inspiral-range
@@ -602,10 +627,12 @@ lapack
 laspy
 lazrs-python
 lazy-object-proxy
+lazydocker
 ldc
 lenstool
 levenshtein
 lfortran
+lftp
 lhapdf
 lib3mf
 libavif
@@ -618,6 +645,7 @@ libcuba
 libdate
 libdb
 libdeflate
+libdiffpy
 libdlfind
 libefp
 libftdi
@@ -640,6 +668,7 @@ libobjcryst
 libopus
 libpcm
 libpnetcdf
+libpostal
 libpsl
 libqdldl
 libqglviewer
@@ -651,6 +680,7 @@ libsigcpp
 libsoup
 libspatialindex
 libstempo
+libtins
 libtlsh
 libtool
 libtvm
@@ -676,6 +706,7 @@ llist
 lndoctor
 log4cxx
 loky
+louvain
 lp_solve
 lpsolve55
 lru-dict
@@ -688,6 +719,7 @@ lue
 luigi
 lz4
 lzip
+lzop
 m2crypto
 m4
 macfsevents
@@ -698,6 +730,7 @@ magics-metview
 magics-metview-batch
 mahotas
 make
+makedepf90
 mamba
 mamba-bash-completion
 manim
@@ -715,6 +748,7 @@ mdanalysis
 mdanalysistests
 mdtraj
 medatetime
+mediainfo
 megaradrp
 meilisearch
 menuinst
@@ -739,6 +773,7 @@ mlir
 mmh3
 mne
 mne-base
+mne-lsl
 mne-qt-browser
 mnelab
 mo_pack
@@ -774,6 +809,7 @@ mysqlclient
 namaster
 nanoarrow
 nanoflann
+napari-nd-annotator
 nasm
 natcap.invest
 nb_conda
@@ -859,6 +895,8 @@ openslide
 opentofu
 openturns
 optional-lite
+opty
+optype
 orange3
 oras
 orc
@@ -892,6 +930,7 @@ parmetis
 patch
 pathos
 pcraster
+pcst-fast
 pdf2svg
 pdftotext
 pdm
@@ -902,9 +941,14 @@ pennylane-lightning-kokkos
 perl
 perl-app-cpanminus
 perl-compress-raw-bzip
+perl-compress-raw-bzip2
 perl-compress-raw-zlib
+perl-data-dumper
+perl-pathtools
 perl-scalar-list-utils
+perl-storable
 perl-unicode-linebreak
+perl-version
 perspective
 pestpp
 petsc
@@ -922,6 +966,7 @@ physics-tenpy
 piff
 pigz
 pikepdf
+pixi-inject
 pixi-pack
 pixmappy
 pixy
@@ -941,7 +986,10 @@ polycap
 polyscope
 pomegranate
 porespy
+postal
 pot
+potpourri3d
+powerline-status
 pre-commit
 pre_commit
 primesieve
@@ -969,8 +1017,10 @@ py-openimageio
 py-plumed
 py-spy
 py-triangle
+py2bit
 py_gd
 py_rattler
+pyacvd
 pyagrum
 pyahocorasick
 pyarrow
@@ -990,6 +1040,7 @@ pycparser
 pycrdt
 pycurl
 pyddx
+pydeb
 pydelatin
 pydpc
 pyduktape2
@@ -1031,6 +1082,7 @@ pykep
 pylance
 pylibtiff
 pylint
+pyload-ng
 pylops
 pymagewell
 pymartini
@@ -1089,6 +1141,7 @@ pysjef
 pysocks
 pysolid
 pyspf
+pyspharm
 pyspice
 pyspnego
 pystackreg
@@ -1128,6 +1181,8 @@ python-graphviz
 python-infomap
 python-isal
 python-levenshtein
+python-libdiscid
+python-lzo
 python-magic
 python-pushover
 python-rapidjson
@@ -1138,6 +1193,7 @@ python-symengine
 python-tlsh
 python-xxhash
 python-zlib-ng
+python-zstd
 pythran
 pytiff
 pytinyrenderer
@@ -1192,6 +1248,7 @@ r-arrow
 r-bart
 r-base
 r-beeswarm
+r-bigrquery
 r-bipartite
 r-cairo
 r-catboost
@@ -1202,6 +1259,7 @@ r-checkmate
 r-cmdstanr
 r-coda
 r-cubature
+r-cvxr
 r-dbarts
 r-desctools
 r-desolve
@@ -1212,6 +1270,7 @@ r-distributionutils
 r-duckdb
 r-ecp
 r-essentials
+r-exactextractr
 r-fastmatch
 r-filelock
 r-fixest
@@ -1252,6 +1311,7 @@ r-lme4
 r-lpsolve
 r-magick
 r-mapdata
+r-mapdeck
 r-marginaleffects
 r-mclust
 r-mice
@@ -1289,6 +1349,7 @@ r-rbiom
 r-rcppcnpy
 r-rcpphnsw
 r-rcppnumerical
+r-rcppplanc
 r-rcpproll
 r-rcppspdlog
 r-reprex
@@ -1310,6 +1371,7 @@ r-rstanarm
 r-rstatix
 r-rsvg
 r-s2
+r-satellite
 r-seurat
 r-sf
 r-showtext
@@ -1361,12 +1423,14 @@ reproject
 requests-gssapi
 requests-kerberos
 rerun-sdk
+resdk
 restic
 resvg
 rever
 rhumba
 rio-color
 ripgrep
+ripser
 rise
 riskfolio-lib
 root
@@ -1414,10 +1478,12 @@ scikit-geometry
 scikit-gstat
 scikit-image
 scikit-learn
+scikit-misc
 scikit-network
 scikit-sparse
 scikit-surprise
 scikit-survival
+scikit_sundae
 scikits.odes
 scikits_odes_sundials
 scilab
@@ -1428,6 +1494,7 @@ scitokens-cpp
 scotch
 scqubits
 scrapy
+screenfetch
 scri
 scylla-driver
 sdl2_image
@@ -1490,14 +1557,17 @@ srm
 sshpass
 ssm-simulators
 stack
+stacrs
 stardist
 starlink-ast
 starship
 statsmodels
 stockwell
 stow
+streamtracer
 stsynphot
 stumpy
+subfinder
 subversion
 suds-jurko
 suitesparse
@@ -1519,6 +1589,7 @@ taplo
 tar
 tbb
 tblite-python
+tcplotter
 teensy_loader_cli
 tensorboard
 tensorflow-estimator
@@ -1529,7 +1600,9 @@ tesseract
 tesserocr
 texlive-core
 tflint
+the_silver_searcher
 thrax
+tidy-html5
 tifffile
 tiffslide
 tiktoken
@@ -1547,8 +1620,11 @@ tmap
 tmux
 tnt
 tokenizers
+tokyocabinet
 tomlplusplus
 tomopy
+torch-scatter
+torchmd-net
 torchsde
 torchsparse
 torchtext
@@ -1581,6 +1657,7 @@ umap-learn
 uncrustify
 unicodedata2
 unicorn
+universal-ctags
 universal_pathlib
 uproc
 upv
@@ -1643,8 +1720,10 @@ xeus-robot
 xeus-sql
 xeus-sqlite
 xgboost
+xgrammar
 xlwings
 xmlsec
+xmlstarlet
 xopen
 xorg-damageproto
 xorg-glproto
@@ -1693,3 +1772,4 @@ zeroc-ice
 zip
 zopfli
 zoxide
+symjit

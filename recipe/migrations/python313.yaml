@@ -32,6 +32,9 @@ __migrator:
         # see https://github.com/conda-forge/scipy-feedstock/pull/283
         - scipy
     exclude_pinned_pkgs: false
+    ignored_deps_per_node:
+        matplotlib:
+            - pyqt
 
 python:
 - 3.13.* *_cp313
@@ -40,3 +43,5 @@ numpy:
 - 2
 python_impl:
 - cpython
+is_python_min:
+- false
