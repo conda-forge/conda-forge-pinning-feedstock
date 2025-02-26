@@ -986,6 +986,8 @@ xerces_c:
   - 3.2
 xrootd:
   - '5'
+xxhash:
+  - 0.8.3
 xz:
   - 5
 zeromq:
