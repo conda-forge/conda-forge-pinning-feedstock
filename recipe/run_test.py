@@ -13,4 +13,5 @@ for filename in migrations_path.glob('*.yml'):
 for filename in migrations_path.glob('*.yaml'):
     print(f"Checking that we can read {filename}")
     with open(filename, 'r', encoding='utf-8') as f:
-        yaml.load(f, Loader=yaml.SafeLoader)
+        data = yaml.load(f, Loader=yaml.SafeLoader)
+        assert isinstance(data["migrator_ts"], (int, float))

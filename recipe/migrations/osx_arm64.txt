@@ -1577,6 +1577,7 @@ supervisor
 swig
 swiglpk
 swmm-toolkit
+symjit
 systemc
 ta-lib
 tabula-py
@@ -1772,4 +1773,3 @@ zeroc-ice
 zip
 zopfli
 zoxide
-symjit
