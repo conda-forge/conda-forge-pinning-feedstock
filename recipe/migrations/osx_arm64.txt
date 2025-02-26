@@ -95,6 +95,7 @@ biome
 biosphere
 biotite
 bipedal-locomotion-framework
+bitshuffle
 black
 blis
 blosc
