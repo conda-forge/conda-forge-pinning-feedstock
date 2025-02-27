@@ -1123,6 +1123,7 @@ tesseract
 the_silver_searcher
 thriftpy2
 thrust
+tiara
 tidy-html5
 tiktoken
 tiledb-py
