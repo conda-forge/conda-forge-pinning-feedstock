@@ -1131,6 +1131,7 @@ pyrfr
 pyright
 pyringgw
 pyrosm
+pyrtools
 pyscal
 pyscal3
 pyscf
