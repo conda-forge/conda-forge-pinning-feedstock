@@ -689,6 +689,7 @@ python-confluent-kafka
 python-crfsuite
 python-graphblas
 python-htcondor
+python-hyperscan
 python-isal
 python-language-server
 python-libdiscid

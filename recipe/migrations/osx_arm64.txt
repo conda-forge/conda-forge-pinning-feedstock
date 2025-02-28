@@ -1178,6 +1178,7 @@ python-gmatnonlinearelastic
 python-gooseeye
 python-graphblas
 python-graphviz
+python-hyperscan
 python-infomap
 python-isal
 python-levenshtein
