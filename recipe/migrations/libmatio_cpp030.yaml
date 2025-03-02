@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libmatio_cpp 0.3.0
-  kind: version
-  migration_number: 1
-libmatio_cpp:
-- 0.3.0
-migrator_ts: 1740855124.6941018
