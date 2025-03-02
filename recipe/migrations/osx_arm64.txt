@@ -1775,3 +1775,4 @@ zeroc-ice
 zip
 zopfli
 zoxide
+pyiceberg
