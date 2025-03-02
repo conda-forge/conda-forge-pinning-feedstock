@@ -1074,6 +1074,7 @@ pygrib
 pygsti
 pyhdf
 pyhull
+pyiceberg
 pyicu
 pyimagej
 pykakasi
@@ -1775,4 +1776,3 @@ zeroc-ice
 zip
 zopfli
 zoxide
-pyiceberg
