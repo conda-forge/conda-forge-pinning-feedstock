@@ -1074,6 +1074,7 @@ pygrib
 pygsti
 pyhdf
 pyhull
+pyiceberg
 pyicu
 pyimagej
 pykakasi
