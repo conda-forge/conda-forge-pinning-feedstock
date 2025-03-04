@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libabseil 20250127
+  kind: version
+  migration_number: 1
+libabseil:
+- '20250127'
+migrator_ts: 1741097683.1633832
