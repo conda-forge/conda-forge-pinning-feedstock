@@ -1,6 +1,6 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for libabseil 20250127, libgrp 1.69 & libprotobuf 5.29.3
+  commit_message: Rebuild for libabseil 20250127, libgrpc 1.69 & libprotobuf 5.29.3
   kind: version
   migration_number: 1
   paused: true
