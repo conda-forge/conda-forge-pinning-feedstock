@@ -1,3 +1,4 @@
+bashlex
 abinit
 ablog
 accelerator-toolbox
