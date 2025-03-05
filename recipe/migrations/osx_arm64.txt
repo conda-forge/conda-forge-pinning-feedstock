@@ -464,6 +464,7 @@ go-ghq
 go-licenses
 go-shfmt
 go-yq
+gofit
 google-cloud-cpp
 google-cloud-sdk
 google-pasta
