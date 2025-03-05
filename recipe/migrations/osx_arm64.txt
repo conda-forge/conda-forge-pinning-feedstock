@@ -73,6 +73,7 @@ backports.zoneinfo
 backward-cpp
 bandit
 basemap
+bashlex
 batchcrop
 batman-package
 batoid
