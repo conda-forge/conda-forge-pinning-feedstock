@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws-checksums 0.2.3
+  kind: version
+  migration_number: 1
+  automerge: true
+migrator_ts: 1740214586
+aws_checksums:
+- 0.2.3
