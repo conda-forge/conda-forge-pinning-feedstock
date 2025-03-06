@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws-c-compression 0.3.1
+  kind: version
+  migration_number: 1
+  automerge: true
+migrator_ts: 1740214589
+aws_c_compression:
+- 0.3.1
