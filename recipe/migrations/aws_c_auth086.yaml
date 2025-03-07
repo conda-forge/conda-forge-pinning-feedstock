@@ -5,5 +5,5 @@ __migrator:
   migration_number: 1
   automerge: true
 migrator_ts: 1740214593
-aws_c_http:
+aws_c_auth:
 - 0.8.6
