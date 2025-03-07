@@ -329,6 +329,7 @@ elixir
 emacs
 emsdk
 enchant
+endf-parserpy
 ensmallen
 esbuild
 esi-core
