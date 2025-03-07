@@ -23,7 +23,7 @@ build:
 
 test:
   requires:
-    - python >= 3.8
+    - python >=3.8
     - pyyaml
   commands:
     - test -f $PREFIX/conda_build_config.yaml                       # [unix]
