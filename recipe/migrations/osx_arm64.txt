@@ -1036,6 +1036,7 @@ pycbc
 pycbf
 pycifrw
 pyclipper
+pyclustering
 pycocotools
 pycontrails
 pycparser
