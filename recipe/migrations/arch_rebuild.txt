@@ -577,6 +577,7 @@ perl-scalar-list-utils
 perl-socket
 perl-storbale
 perl-sub-uplevel
+perl-unix-processors
 perl-version
 perspective
 pestpp
