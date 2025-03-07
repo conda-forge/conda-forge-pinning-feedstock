@@ -325,6 +325,7 @@ ecflow
 edt
 eelbrain
 einsums
+elixir
 emacs
 emsdk
 enchant
