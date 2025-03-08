@@ -1,8 +1,0 @@
-migrator_ts: 1741466019
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-openjph:
-  - 0.21
