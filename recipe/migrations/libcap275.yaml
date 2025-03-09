@@ -1,8 +1,8 @@
-migrator_ts: 1741547316
 __migrator:
+  build_number: 1
+  commit_message: Rebuild for libcap 2.75
   kind: version
   migration_number: 1
-  bump_number: 1
-
 libcap:
-  - 2.75
+- '2.75'
+migrator_ts: 1741557786.2450576
