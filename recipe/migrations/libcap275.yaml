@@ -1,8 +1,0 @@
-migrator_ts: 1741547316
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-libcap:
-  - 2.75
