@@ -479,7 +479,7 @@ libbtf:
 libcamd:
   - '3'
 libcap:
-  - 2.71
+  - 2.75
 libcint:
   - '6.1'
 libccolamd:
