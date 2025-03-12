@@ -859,6 +859,7 @@ r-maptools
 r-marginaleffects
 r-mass
 r-mclust
+r-mcmcprecision
 r-mgcv
 r-mhsmm
 r-microbenchmark
