@@ -154,6 +154,7 @@ cvxpy
 cwinpy
 cwltool
 cx_oracle
+cylp
 cyordereddict
 danish
 dart-sass
