@@ -1,0 +1,7 @@
+migrator_ts: 1741889411
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+aws_sdk_cpp:
+  - 1.11.510
