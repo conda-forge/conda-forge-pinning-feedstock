@@ -1140,6 +1140,7 @@ pyrfr
 pyright
 pyringgw
 pyrosm
+pyrte_rrtmgp
 pyrtools
 pyscal
 pyscal3
