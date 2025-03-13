@@ -325,9 +325,11 @@ ecflow
 edt
 eelbrain
 einsums
+elixir
 emacs
 emsdk
 enchant
+endf-parserpy
 ensmallen
 esbuild
 esi-core
@@ -946,6 +948,8 @@ perl-compress-raw-bzip
 perl-compress-raw-bzip2
 perl-compress-raw-zlib
 perl-data-dumper
+perl-decode
+perl-encode
 perl-pathtools
 perl-scalar-list-utils
 perl-storable
@@ -1036,6 +1040,7 @@ pycbc
 pycbf
 pycifrw
 pyclipper
+pyclustering
 pycocotools
 pycontrails
 pycparser
@@ -1218,6 +1223,7 @@ pyvips
 pyvkfft
 pyweed
 pyworld
+pyxattr
 pyyaml
 pyzstd
 qe

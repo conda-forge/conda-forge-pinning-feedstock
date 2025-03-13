@@ -154,6 +154,7 @@ cvxpy
 cwinpy
 cwltool
 cx_oracle
+cylp
 cyordereddict
 danish
 dart-sass
@@ -577,6 +578,7 @@ perl-scalar-list-utils
 perl-socket
 perl-storbale
 perl-sub-uplevel
+perl-unix-processors
 perl-version
 perspective
 pestpp
@@ -858,6 +860,7 @@ r-maptools
 r-marginaleffects
 r-mass
 r-mclust
+r-mcmcprecision
 r-mgcv
 r-mhsmm
 r-microbenchmark

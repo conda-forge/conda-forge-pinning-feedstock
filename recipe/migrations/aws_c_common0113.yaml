@@ -1,9 +1,9 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for aws_c_common 0.11.2
+  commit_message: Rebuild for aws_c_common 0.11.3
   kind: version
   migration_number: 1
   automerge: true
 aws_c_common:
-- 0.11.2
-migrator_ts: 1741158462.435012
+- 0.11.3
+migrator_ts: 1741821142.6750708
