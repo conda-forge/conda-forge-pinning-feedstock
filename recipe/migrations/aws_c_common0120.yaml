@@ -6,4 +6,6 @@ __migrator:
   automerge: true
 aws_c_common:
 - 0.12.0
+aws_c_s3:
+- 0.7.13
 migrator_ts: 1741918305.4559343
