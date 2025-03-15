@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for occt 7.9.0
+  kind: version
+  migration_number: 1
+migrator_ts: 1741529007.273448
+occt:
+- 7.9.0
