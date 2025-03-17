@@ -763,6 +763,7 @@ r-ckmeans.1d.dp
 r-clue
 r-clusterr
 r-coin
+r-comics
 r-commonmark
 r-compositions
 r-compquadform
