@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libopentelemetry_cpp 1.19
+  kind: version
+  migration_number: 1
+libopentelemetry_cpp:
+- '1.19'
+migrator_ts: 1742189588.659836
