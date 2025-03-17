@@ -195,6 +195,7 @@ conda-bash-completion
 conda-build
 conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
+conda-managed-env
 conda-pypi
 conda-smithy
 configspace
