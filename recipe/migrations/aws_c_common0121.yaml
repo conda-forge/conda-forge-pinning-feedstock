@@ -3,6 +3,7 @@ __migrator:
   commit_message: Rebuild for latest aws-cpp stack
   kind: version
   migration_number: 1
+  automerge: true
 aws_c_common:
 - 0.12.1
 aws_c_auth:
