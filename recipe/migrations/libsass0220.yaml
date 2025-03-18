@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 0
+  commit_message: Rebuild for libsass 0.22.0
+  kind: version
+  migration_number: 0
+migrator_ts: 1742290820
+libsass:
+- 0.22.0
