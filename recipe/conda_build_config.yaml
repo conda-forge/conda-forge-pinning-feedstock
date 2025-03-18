@@ -815,8 +815,6 @@ postgresql_plpython:
   - '17'
 proj:
   - '9.5'
-proxsuite:
-  - '0.7.1'
 pulseaudio:
   - '17.0'
 pulseaudio_client:
