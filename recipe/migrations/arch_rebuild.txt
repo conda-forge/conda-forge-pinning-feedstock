@@ -405,6 +405,7 @@ libqrencode
 librdkafka
 librerun-sdk
 librmm
+libsass
 libsolv
 libtins
 libudev
