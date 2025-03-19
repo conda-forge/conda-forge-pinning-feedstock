@@ -1,5 +1,6 @@
 __migrator:
   build_number: 1
+  commit_message: Loosen geotiff pin to 1.7
   kind: version
   migration_number: 2
 migrator_ts: 1742393819
