@@ -381,7 +381,7 @@ libgdal_core:
 geos:
   - 3.13.0
 geotiff:
-  - 1.7.3
+  - '1.7'
 gfal2:
   - '2.23'
 gflags:
