@@ -85,6 +85,7 @@ clhep
 clingo
 clpeak
 cmarkgfm
+cms-combine
 coinmp
 colima
 color-operations
