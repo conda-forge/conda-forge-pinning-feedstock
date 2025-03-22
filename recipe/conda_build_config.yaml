@@ -744,7 +744,7 @@ nss:
 nspr:
   - 4
 nlopt:
-  - '2.9'
+  - '2.10'
 ntl:
   - '11.4.3'
 # we build for the oldest version possible of numpy for forward compatibility
