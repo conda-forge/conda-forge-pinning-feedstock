@@ -799,6 +799,8 @@ slepc:
   - '3.22'
 slepc4py:
   - '3.22'
+spirv_tools:
+  - '2024'
 svt_av1:
   - 3.0.1
 p11_kit:
