@@ -555,6 +555,7 @@ pelicanplatform
 pennylane
 pennylane-lightning-gpu
 pennylane-lightning-kokkos
+pentapy
 perl-b-hooks-endofscope
 perl-bio-samtools
 perl-class-methodmaker
@@ -585,6 +586,7 @@ perl-version
 perspective
 pestpp
 pexsi
+pgure-svt
 phantomjs
 phonopy
 photutils
