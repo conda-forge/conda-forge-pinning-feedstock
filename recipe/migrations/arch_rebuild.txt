@@ -149,6 +149,7 @@ cupy
 cuquantum
 cuquantum-python
 cusparselt
+cutde
 cutensor
 cutlass
 cvxpy
