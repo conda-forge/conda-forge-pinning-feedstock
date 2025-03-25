@@ -800,7 +800,7 @@ slepc:
 slepc4py:
   - '3.22'
 svt_av1:
-  - 3.0.1
+  - 3.0.2
 p11_kit:
   - '0.24'
 pcre:
