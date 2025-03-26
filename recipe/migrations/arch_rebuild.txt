@@ -1048,6 +1048,7 @@ resvg
 rhumba
 rich
 rise
+rivet
 rmm
 rocm-smi
 root
