@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for qpdf 12
-  kind: version
-  migration_number: 1
-migrator_ts: 1741557973.6217542
-qpdf:
-- '12'
