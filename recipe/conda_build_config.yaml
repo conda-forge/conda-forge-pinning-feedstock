@@ -871,7 +871,7 @@ pyqtchart:
 qhull:
   - 2020.2
 qpdf:
-  - 11
+  - '12'
 qt:
   - 5.15
 qt_main:
