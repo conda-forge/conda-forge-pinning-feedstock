@@ -668,6 +668,7 @@ pyomo
 pyopencl
 pyorc
 pypdf
+pyprind
 pypy2.7
 pypy3.6
 pyrage
