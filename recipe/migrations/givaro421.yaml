@@ -4,5 +4,5 @@ __migrator:
   kind: version
   migration_number: 1
 givaro:
-- '4.2.1'
-migrator_ts: 1743092847
+- 4.2.1
+migrator_ts: 1743116218.8895903
