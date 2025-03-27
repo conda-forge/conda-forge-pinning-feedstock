@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for harfbuzz 11
+  kind: version
+  migration_number: 1
+harfbuzz:
+- '11'
+migrator_ts: 1743088015.7278726
