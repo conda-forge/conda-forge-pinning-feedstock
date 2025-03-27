@@ -388,6 +388,8 @@ gflags:
   - 2.2
 giflib:
   - 5.2
+givaro:
+  - 4.2.0
 glew:
   - 2.1
 glib:
