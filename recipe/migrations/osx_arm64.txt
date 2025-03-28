@@ -950,8 +950,11 @@ perl-compress-raw-bzip
 perl-compress-raw-bzip2
 perl-compress-raw-zlib
 perl-data-dumper
-perl-decode
+perl-db_file
+perl-digest-md5
 perl-encode
+perl-io-tty
+perl-mime-base64
 perl-pathtools
 perl-scalar-list-utils
 perl-storable
