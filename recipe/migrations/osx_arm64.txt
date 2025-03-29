@@ -1069,6 +1069,7 @@ pyferret
 pyfesom2
 pyfftw
 pyfim
+pyflann
 pyfmi
 pyfmmlib
 pyg4ometry
