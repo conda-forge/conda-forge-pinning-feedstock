@@ -1,8 +1,9 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for aws_c_common 0.12.2
+  commit_message: Rebuild for aws-stack (end of March '25)
   kind: version
   migration_number: 1
+  automerge: true
 aws_c_common:
 - 0.12.2
 migrator_ts: 1743050145.50947
