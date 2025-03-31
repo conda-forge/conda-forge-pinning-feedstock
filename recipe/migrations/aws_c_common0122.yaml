@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws-stack (end of March '25)
+  kind: version
+  migration_number: 1
+  automerge: true
+  exclude_pinned_pkgs: false
+aws_c_common:
+- 0.12.2
+aws_checksums:
+- 0.2.5
+aws_c_mqtt:
+- 0.12.3
+migrator_ts: 1743050145.50947
