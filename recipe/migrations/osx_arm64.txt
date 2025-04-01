@@ -1356,6 +1356,7 @@ r-phangorn
 r-picante
 r-pingr
 r-png
+r-poolfstat
 r-qgam
 r-quadprog
 r-quantreg
