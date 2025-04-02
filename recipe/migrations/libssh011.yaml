@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libssh 0.11
+  kind: version
+  migration_number: 1
+libssh:
+- '0.11'
+migrator_ts: 1743629470.1604376
