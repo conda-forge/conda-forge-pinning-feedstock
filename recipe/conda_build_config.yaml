@@ -409,7 +409,7 @@ googleapis_cpp:
 graphviz:
   - '12'
 harfbuzz:
-  - '10'
+  - '11'
 hdf4:
   - 4.2.15
 hdf5:
