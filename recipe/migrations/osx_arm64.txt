@@ -955,11 +955,13 @@ perl-digest-md5
 perl-encode
 perl-io-tty
 perl-mime-base64
+perl-module-build
 perl-pathtools
 perl-scalar-list-utils
 perl-storable
 perl-unicode-linebreak
 perl-version
+perl-xml-parser
 perspective
 pestpp
 petsc
