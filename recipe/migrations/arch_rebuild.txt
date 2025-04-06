@@ -1080,6 +1080,7 @@ sdf
 sdl
 sdl_image
 sdsl-lite
+seqan-library
 shap
 shellcheck
 singularity
