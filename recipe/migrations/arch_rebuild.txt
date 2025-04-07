@@ -868,6 +868,7 @@ r-marginaleffects
 r-mass
 r-mclust
 r-mcmcprecision
+r-metaskat
 r-mgcv
 r-mhsmm
 r-microbenchmark
