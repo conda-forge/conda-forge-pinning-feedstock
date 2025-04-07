@@ -1083,6 +1083,7 @@ sdl_image
 sdsl-lite
 shap
 shellcheck
+shrinkwrap
 singularity
 sirius-ms
 sixs
