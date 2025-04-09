@@ -611,6 +611,7 @@ kdepy
 kepderiv
 keras
 keras-preprocessing
+khiops-binaries
 kim-api
 kimpy
 kliff
