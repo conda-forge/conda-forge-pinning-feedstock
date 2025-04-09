@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for eclib 20250122
+  kind: version
+  migration_number: 1
+eclib:
+- '20250122'
+migrator_ts: 1744219512.490492
