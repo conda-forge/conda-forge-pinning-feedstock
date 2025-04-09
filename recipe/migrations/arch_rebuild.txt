@@ -1154,6 +1154,7 @@ tornado
 tqdm
 traits
 treelite
+trexio
 tskit
 tsl_robin_map
 tsv-utils
