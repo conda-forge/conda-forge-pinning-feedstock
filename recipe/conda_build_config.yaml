@@ -588,6 +588,10 @@ libiio:
   - 0
 libldl:
   - '3'
+libmagma:
+  - '2.8'
+libmagma_sparse:
+  - '2.8'
 libmed:
   - '4.1'
 libmatio:
@@ -702,6 +706,8 @@ lz4_c:
   - '1.10'
 lzo:
   - 2
+magma:
+  - '2.8'
 metis:
   - 5.1.0
 mimalloc:
