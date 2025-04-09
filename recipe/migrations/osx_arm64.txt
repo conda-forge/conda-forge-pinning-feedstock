@@ -611,6 +611,7 @@ kdepy
 kepderiv
 keras
 keras-preprocessing
+khiops-binaries
 kim-api
 kimpy
 kliff
@@ -1280,6 +1281,7 @@ r-changepoints
 r-checkmate
 r-cmdstanr
 r-coda
+r-collapse
 r-cubature
 r-cvxr
 r-dbarts
