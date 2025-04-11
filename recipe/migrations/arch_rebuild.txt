@@ -354,6 +354,7 @@ lazydocker
 lbaplocal
 lbdevtools
 lbenv
+lbzip2
 lcov
 ldas-tools-al-swig
 ldas-tools-diskcacheapi-swig
@@ -914,6 +915,7 @@ r-praznik
 r-precrec
 r-princurve
 r-profvis
+r-propr
 r-proxy
 r-ps
 r-pscl
@@ -934,6 +936,7 @@ r-rcppml
 r-rcppnumerical
 r-rcppplanc
 r-rcpproll
+r-rcppsimdjson
 r-rcppspdlog
 r-rcurl
 r-rdpack
