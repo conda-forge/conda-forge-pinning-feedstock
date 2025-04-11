@@ -408,8 +408,11 @@ googleapis_cpp:
   - '0.10'
 graphviz:
   - '12'
+# Harfbuzz guarantees total ABI compatibiblity
+# The first version to have this new ABI pin is 11.0.1
+# https://github.com/conda-forge/harfbuzz-feedstock/pull/125
 harfbuzz:
-  - '11'
+  - '11.0.1'
 hdf4:
   - 4.2.15
 hdf5:
