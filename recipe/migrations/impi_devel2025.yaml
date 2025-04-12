@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for impi_devel 2025
+  kind: version
+  migration_number: 1
+impi_devel:
+- '2025'
+migrator_ts: 1744448741.3540072
