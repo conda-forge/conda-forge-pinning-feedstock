@@ -571,6 +571,7 @@ perl-dist-checkconflicts
 perl-encode
 perl-extutils-constant
 perl-extutils-makemaker
+perl-io-gzip
 perl-io-socket-ssl
 perl-io-tty
 perl-lwp-simple
