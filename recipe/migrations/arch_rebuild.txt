@@ -398,8 +398,10 @@ libmongocxx
 libnpp
 libnsl
 libnvfatbin
+libnvimgcodec
 libnvjitlink
 libnvjpeg
+libnvjpeg2k-split
 libnvshmem
 libopus
 libpnetcdf
