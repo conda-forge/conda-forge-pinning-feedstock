@@ -734,6 +734,7 @@ quippy
 qutip
 r-acepack
 r-ade4
+r-adegenet
 r-agricolae
 r-akima
 r-amap
