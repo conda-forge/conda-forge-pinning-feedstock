@@ -474,6 +474,7 @@ mysql-connector-cpp
 mysql-connector-odbc
 n2p2
 nano
+nanoarrow
 nasm
 natcap.invest
 nb_conda_kernels
