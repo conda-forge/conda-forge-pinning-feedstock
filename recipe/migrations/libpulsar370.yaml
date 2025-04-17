@@ -1,0 +1,7 @@
+migrator_ts: 1744917032
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+libpulsar:
+  - '3.7.0'
