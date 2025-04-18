@@ -476,11 +476,11 @@ libblitz:
 libblst:
   - '0.3'
 libboost_devel:
-  - '1.84'
+  - '1.86'
 libboost_headers:
-  - '1.84'
+  - '1.86'
 libboost_python_devel:
-  - '1.84'
+  - '1.86'
 libbtf:
   - '2'
 libcamd:
