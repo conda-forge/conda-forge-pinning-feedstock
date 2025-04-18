@@ -1257,3 +1257,5 @@ zip
 zipfile-deflate64
 zopfli
 zstd
+integratorxx
+openorbitaloptimizer
