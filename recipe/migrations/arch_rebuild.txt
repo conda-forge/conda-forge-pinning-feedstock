@@ -313,6 +313,7 @@ iminuit
 implicit
 indicators
 inetutils
+integratorxx
 ipopt
 ipykernel
 ipython
@@ -533,6 +534,7 @@ openmeeg
 openmm
 openmotif
 openmpi
+openorbitaloptimizer
 openscenegraph
 openslide
 openslide-python
@@ -1257,5 +1259,3 @@ zip
 zipfile-deflate64
 zopfli
 zstd
-integratorxx
-openorbitaloptimizer
