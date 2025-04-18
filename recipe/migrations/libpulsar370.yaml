@@ -1,7 +1,8 @@
-migrator_ts: 1744917032
 __migrator:
+  build_number: 1
+  commit_message: Rebuild for libpulsar 3.7.0
   kind: version
   migration_number: 1
-  bump_number: 1
 libpulsar:
-  - '3.7.0'
+- 3.7.0
+migrator_ts: 1744939272.0754454
