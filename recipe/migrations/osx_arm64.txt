@@ -580,6 +580,7 @@ inetutils
 infrared
 inja
 inspiral-range
+integratorxx
 ipopt
 ipython
 isce3
@@ -895,6 +896,7 @@ openmc
 openmm
 openmpi
 openneuro-py
+openorbitaloptimizer
 openpmd-api
 openpnm
 openscenegraph
