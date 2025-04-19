@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for rdma_core 56
+  kind: version
+  migration_number: 1
+migrator_ts: 1738850147.5509946
+rdma_core:
+- '56'
