@@ -18,10 +18,8 @@ m2w64_c_stdlib:                # [win]
   - m2w64-sysroot              # [win]
 m2w64_c_stdlib_version:        # [win]
   - 12                         # [win]
-c_stdlib_version:              # [unix]
-  - 2.17                       # [linux]
-  - 10.13                      # [osx and x86_64]
-  - 11.0                       # [osx and arm64]
+c_stdlib_version:   # [osx and x86_64]
+  - 10.14           # [osx and x86_64]
 cxx_compiler:
   - gxx                        # [linux]
   - clangxx                    # [osx]
@@ -452,7 +450,7 @@ krb5:
 ldas_tools_framecpp:
   - '2.9'
 libabseil:
-  - '20240722'
+  - 20250127
 libaec:
   - '1'
 libamd:
@@ -562,7 +560,7 @@ libgoogle_cloud_speech_devel:
 libgoogle_cloud_storage_devel:
   - '2.36'
 libgrpc:
-  - "1.67"
+  - "1.71"
 libgsasl:
   - '2'
 libheif:
@@ -626,7 +624,8 @@ libpcap:
 libpng:
   - 1.6
 libprotobuf:
-  - 5.28.3
+  - 5.29.3
+# see https://github.com/grpc/grpc/commit/14ac94d923b80650e0df55bed17be5efa0e4becd
 libpq:
   - '17'
 libpulsar:
