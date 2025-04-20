@@ -966,7 +966,7 @@ tensorflow:
 thrift_cpp:
   - 0.21.0
 tinyxml2:
-  - '10.0'
+  - '11.0'
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
