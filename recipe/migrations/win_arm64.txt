@@ -1,4 +1,12 @@
 conda
 mamba
 conda-build
+conda-deny
+conda-mirror
 conda-forge-ci-setup
+pixi
+pixi-diff
+pixi-inject
+pixi-pack
+rattler-build
+rattler-index
