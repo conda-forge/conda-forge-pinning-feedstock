@@ -962,9 +962,14 @@ perl-encode
 perl-io-tty
 perl-mime-base64
 perl-module-build
+perl-moose
+perl-net-ssleay
+perl-package-stash
+perl-params-util
 perl-pathtools
 perl-scalar-list-utils
 perl-storable
+perl-sub-uplevel
 perl-unicode-linebreak
 perl-unix-processors
 perl-version
