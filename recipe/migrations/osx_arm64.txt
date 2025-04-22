@@ -683,6 +683,7 @@ libqglviewer
 libqrencode
 librdkafka
 libsass
+libsbml
 libsecp256k1
 libsigcpp
 libsoup
