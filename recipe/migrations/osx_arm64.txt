@@ -967,6 +967,7 @@ perl-scalar-list-utils
 perl-storable
 perl-unicode-linebreak
 perl-unix-processors
+perl-uri
 perl-version
 perl-xml-parser
 perspective
