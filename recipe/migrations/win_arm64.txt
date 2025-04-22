@@ -1,9 +1,9 @@
 conda
-mamba
 conda-build
 conda-deny
-conda-mirror
 conda-forge-ci-setup
+conda-mirror
+mamba
 pixi
 pixi-diff
 pixi-inject
