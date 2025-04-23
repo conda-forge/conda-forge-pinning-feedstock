@@ -945,6 +945,8 @@ sox:
   - 14.4.2
 spdlog:
   - '1.13'
+spirv_tools:
+  - 2024
 sqlite:
   - 3
 srm_ifce:
