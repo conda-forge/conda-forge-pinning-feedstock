@@ -3,6 +3,7 @@ conda-build
 conda-deny
 conda-forge-ci-setup
 conda-mirror
+ipython
 mamba
 pixi
 pixi-diff
@@ -10,4 +11,3 @@ pixi-inject
 pixi-pack
 rattler-build
 rattler-index
-ipython
