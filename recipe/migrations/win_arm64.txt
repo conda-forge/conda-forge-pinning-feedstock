@@ -3,7 +3,6 @@ conda-build
 conda-deny
 conda-forge-ci-setup
 conda-mirror
-ipython
 mamba
 pixi
 pixi-diff
