@@ -952,6 +952,7 @@ pennylane-lightning-kokkos
 pentapy
 perl
 perl-app-cpanminus
+perl-clone
 perl-compress-raw-bzip
 perl-compress-raw-bzip2
 perl-compress-raw-zlib
