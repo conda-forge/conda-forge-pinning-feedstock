@@ -724,6 +724,7 @@ lsst-documenteer
 lsst-sphgeom
 luajit
 luarocks
+lua-language-server
 lue
 luigi
 lz4

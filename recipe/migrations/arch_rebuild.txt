@@ -435,6 +435,7 @@ lp_solve
 lsdeluxe
 lttng-ust
 lua
+lua-language-server
 lzop
 mafft
 mahotas
