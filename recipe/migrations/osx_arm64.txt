@@ -722,9 +722,9 @@ lru-dict
 lsdeluxe
 lsst-documenteer
 lsst-sphgeom
+lua-language-server
 luajit
 luarocks
-lua-language-server
 lue
 luigi
 lz4
