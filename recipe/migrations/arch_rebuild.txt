@@ -97,6 +97,7 @@ conda-pypi
 conda-smithy
 conda-suggest-conda-forge
 configurable-http-proxy
+connectorx
 console_bridge
 constructor
 coreforecast
