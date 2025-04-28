@@ -920,6 +920,7 @@ r-plsgenomics
 r-plsvarsel
 r-pmcmrplus
 r-poissonbinomial
+r-poppr
 r-praznik
 r-precrec
 r-princurve
