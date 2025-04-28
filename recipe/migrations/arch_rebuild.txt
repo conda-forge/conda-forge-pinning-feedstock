@@ -880,6 +880,7 @@ r-marginaleffects
 r-mass
 r-mclust
 r-mcmcprecision
+r-memuse
 r-metaskat
 r-mgcv
 r-mhsmm
