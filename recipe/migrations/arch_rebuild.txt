@@ -56,6 +56,7 @@ bliss
 boost
 boost-cpp
 boost-histogram
+brian2
 bsddb3
 buildah
 buildbot
