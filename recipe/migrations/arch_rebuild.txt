@@ -800,6 +800,7 @@ r-ddalpha
 r-ddrtree
 r-delaporte
 r-depmixs4
+r-desctools
 r-dicedesign
 r-dimred
 r-dixontest
