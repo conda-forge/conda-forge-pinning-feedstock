@@ -675,6 +675,7 @@ libnsl
 libobjcryst
 libopus
 libpcm
+libplanc
 libpnetcdf
 libpostal
 libpsl
