@@ -709,6 +709,7 @@ ligo-segments
 ligo.skymap
 limesuite
 line_profiler
+livox-sdk2
 llama-cpp-python
 llama.cpp
 llist

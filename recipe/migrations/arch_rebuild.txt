@@ -428,6 +428,7 @@ lime
 limesuite
 line_profiler
 linux-perf
+livox-sdk2
 lld
 llist
 log4cxx
