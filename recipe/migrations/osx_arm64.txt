@@ -1487,6 +1487,7 @@ rsync
 rtree
 ruamel.yaml
 rubin-sim
+rustac
 ruff
 ruptura
 ruptures
