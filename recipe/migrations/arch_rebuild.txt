@@ -1085,8 +1085,8 @@ root_pandas
 rosdep
 rosdistro
 rrdtool
-rustac
 ruff
+rustac
 s5cmd
 sage
 sasktran2

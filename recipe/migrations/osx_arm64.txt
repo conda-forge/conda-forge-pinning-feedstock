@@ -1487,8 +1487,8 @@ rsync
 rtree
 ruamel.yaml
 rubin-sim
-rustac
 ruff
+rustac
 ruptura
 ruptures
 rust-script
