@@ -1,0 +1,11 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_s3 0.7.16/aws_c_io 0.19.0
+  kind: version
+  migration_number: 1
+  exclude_pinned_pkgs: false
+aws_c_s3:
+- 0.7.16
+aws_c_http:
+- 0.10.0
+migrator_ts: 1745976366.9949985
