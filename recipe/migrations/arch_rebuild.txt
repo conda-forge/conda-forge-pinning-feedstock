@@ -1137,6 +1137,7 @@ sqlglotrs
 sqsgenerator
 squashfuse
 srm
+stardist
 starship
 statsforecast
 statsmodels
