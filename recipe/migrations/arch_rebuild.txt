@@ -171,6 +171,7 @@ dataclasses
 datafusion
 datamash
 dataprep
+datavzrd
 dav1d
 dcmtk
 deltalake
@@ -981,6 +982,7 @@ r-rlang
 r-rmariadb
 r-rmixmod
 r-rms
+r-rmsnumpress
 r-rmysql
 r-robust
 r-robustbase
@@ -1136,6 +1138,7 @@ sqlglotrs
 sqsgenerator
 squashfuse
 srm
+stardist
 starship
 statsforecast
 statsmodels
