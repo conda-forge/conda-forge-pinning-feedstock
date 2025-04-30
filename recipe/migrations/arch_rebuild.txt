@@ -982,6 +982,7 @@ r-rlang
 r-rmariadb
 r-rmixmod
 r-rms
+r-rmsnumpress
 r-rmysql
 r-robust
 r-robustbase
