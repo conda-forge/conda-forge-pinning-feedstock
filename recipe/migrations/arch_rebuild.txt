@@ -171,6 +171,7 @@ dataclasses
 datafusion
 datamash
 dataprep
+datavzrd
 dav1d
 dcmtk
 deltalake
