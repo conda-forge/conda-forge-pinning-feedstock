@@ -1,0 +1,21 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libarrow 20.0
+  kind: version
+  migration_number: 1
+  exclude:
+    - pyarrow
+    - r-arrow
+    - arrow-c-glib
+
+libarrow:
+- '20.0'
+- '19.0'
+- '18.1'
+- '17.0'
+libarrow_all:
+- '20.0'
+- '19.0'
+- '18.1'
+- '17.0'
+migrator_ts: 1745976396.5972402
