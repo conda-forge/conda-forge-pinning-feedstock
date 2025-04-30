@@ -809,6 +809,7 @@ msitools
 msvc-headers-libs
 mujoco
 multicore-tsne
+multinest
 multiprocess
 mumps
 muspinsim
