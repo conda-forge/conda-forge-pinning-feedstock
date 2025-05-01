@@ -1086,6 +1086,7 @@ rosdep
 rosdistro
 rrdtool
 ruff
+rustac
 s5cmd
 sage
 sasktran2
