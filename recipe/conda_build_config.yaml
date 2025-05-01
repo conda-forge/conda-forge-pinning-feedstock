@@ -257,13 +257,13 @@ aws_c_compression:
 aws_c_event_stream:
   - 0.5.4
 aws_c_http:
-  - 0.9.7
+  - 0.10.0
 aws_c_io:
   - 0.18.1
 aws_c_mqtt:
   - 0.12.3
 aws_c_s3:
-  - 0.7.15
+  - 0.7.16
 aws_c_sdkutils:
   - 0.2.3
 aws_checksums:
