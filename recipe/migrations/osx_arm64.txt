@@ -1488,10 +1488,10 @@ rtree
 ruamel.yaml
 rubin-sim
 ruff
-rustac
 ruptura
 ruptures
 rust-script
+rustac
 rustpython
 rvlib
 s2geometry
