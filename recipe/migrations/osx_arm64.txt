@@ -341,6 +341,7 @@ euphonic
 eups
 exoplanet
 exoplanet-core
+expat
 exprtk
 extinction
 eza
@@ -579,6 +580,7 @@ inetutils
 infrared
 inja
 inspiral-range
+integratorxx
 ipopt
 ipython
 isce3
@@ -611,6 +613,7 @@ kdepy
 kepderiv
 keras
 keras-preprocessing
+khiops-binaries
 kim-api
 kimpy
 kliff
@@ -672,6 +675,7 @@ libnsl
 libobjcryst
 libopus
 libpcm
+libplanc
 libpnetcdf
 libpostal
 libpsl
@@ -680,6 +684,7 @@ libqglviewer
 libqrencode
 librdkafka
 libsass
+libsbml
 libsecp256k1
 libsigcpp
 libsoup
@@ -705,6 +710,7 @@ ligo-segments
 ligo.skymap
 limesuite
 line_profiler
+livox-sdk2
 llama-cpp-python
 llama.cpp
 llist
@@ -718,6 +724,7 @@ lru-dict
 lsdeluxe
 lsst-documenteer
 lsst-sphgeom
+lua-language-server
 luajit
 luarocks
 lue
@@ -802,6 +809,7 @@ msitools
 msvc-headers-libs
 mujoco
 multicore-tsne
+multinest
 multiprocess
 mumps
 muspinsim
@@ -893,6 +901,7 @@ openmc
 openmm
 openmpi
 openneuro-py
+openorbitaloptimizer
 openpmd-api
 openpnm
 openscenegraph
@@ -943,25 +952,41 @@ peewee
 pelicanplatform
 pennylane
 pennylane-lightning-kokkos
+pentapy
 perl
 perl-app-cpanminus
+perl-clone
 perl-compress-raw-bzip
 perl-compress-raw-bzip2
 perl-compress-raw-zlib
 perl-data-dumper
-perl-decode
+perl-db_file
+perl-dbi
+perl-digest-md5
 perl-encode
+perl-io-tty
+perl-mime-base64
+perl-module-build
+perl-moose
+perl-net-ssleay
+perl-package-stash
+perl-params-util
 perl-pathtools
 perl-scalar-list-utils
 perl-storable
+perl-sub-uplevel
 perl-unicode-linebreak
+perl-unix-processors
+perl-uri
 perl-version
+perl-xml-parser
 perspective
 pestpp
 petsc
 petsc4py
 pexpect
 pexsi
+pgure-svt
 phantomjs
 phono3py
 phonopy
@@ -1064,6 +1089,7 @@ pyferret
 pyfesom2
 pyfftw
 pyfim
+pyflann
 pyfmi
 pyfmmlib
 pyg4ometry
@@ -1272,6 +1298,7 @@ r-changepoints
 r-checkmate
 r-cmdstanr
 r-coda
+r-collapse
 r-cubature
 r-cvxr
 r-dbarts
@@ -1350,6 +1377,7 @@ r-phangorn
 r-picante
 r-pingr
 r-png
+r-poolfstat
 r-qgam
 r-quadprog
 r-quantreg
@@ -1386,6 +1414,7 @@ r-rstatix
 r-rsvg
 r-s2
 r-satellite
+r-scrypt
 r-seurat
 r-sf
 r-showtext
@@ -1463,6 +1492,7 @@ ruff
 ruptura
 ruptures
 rust-script
+rustac
 rustpython
 rvlib
 s2geometry

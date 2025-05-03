@@ -247,29 +247,29 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - 0.8.6
+  - 0.9.0
 aws_c_cal:
-  - 0.8.7
+  - 0.9.0
 aws_c_common:
-  - 0.12.0
+  - 0.12.2
 aws_c_compression:
   - 0.3.1
 aws_c_event_stream:
   - 0.5.4
 aws_c_http:
-  - 0.9.4
+  - 0.10.0
 aws_c_io:
-  - 0.17.0
+  - 0.18.1
 aws_c_mqtt:
-  - 0.12.2
+  - 0.12.3
 aws_c_s3:
-  - 0.7.13
+  - 0.7.16
 aws_c_sdkutils:
   - 0.2.3
 aws_checksums:
-  - 0.2.3
+  - 0.2.7
 aws_crt_cpp:
-  - 0.31.0
+  - 0.32.4
 aws_sdk_cpp:
   - 1.11.510
 azure_core_cpp:
@@ -301,7 +301,7 @@ capnproto:
 ccr:
   - 1.3
 cfitsio:
-  - 4.3.1
+  - 4.6.2
 coin_or_cbc:
   - 2.10
 coincbc:
@@ -333,7 +333,7 @@ dbus:
 dcap:
   - 2.47
 eclib:
-  - '20231212'
+  - '20250122'
 elfutils:
   - '0.192'
 exiv2:
@@ -388,6 +388,8 @@ gflags:
   - 2.2
 giflib:
   - 5.2
+givaro:
+  - 4.2.0
 glew:
   - 2.1
 glib:
@@ -406,8 +408,11 @@ googleapis_cpp:
   - '0.10'
 graphviz:
   - '12'
+# Harfbuzz guarantees total ABI compatibiblity
+# The first version to have this new ABI pin is 11.0.1
+# https://github.com/conda-forge/harfbuzz-feedstock/pull/125
 harfbuzz:
-  - '10'
+  - '11.0.1'
 hdf4:
   - 4.2.15
 hdf5:
@@ -418,6 +423,8 @@ idyntree:
   - '13'
 imath:
   - 3.1.12
+impi_devel:
+  - "2021.14"
 ipopt:
   - 3.14.17
 isl:
@@ -445,7 +452,7 @@ krb5:
 ldas_tools_framecpp:
   - '2.9'
 libabseil:
-  - '20240722'
+  - 20250127
 libaec:
   - '1'
 libamd:
@@ -453,15 +460,15 @@ libamd:
 libarchive:
   - '3.7'
 libarrow:
+  - '20.0'
   - '19.0'
   - '18.1'
   - '17.0'
-  - '16.1'
 libarrow_all:
+  - '20.0'
   - '19.0'
-  - '18.0'
+  - '18.1'
   - '17.0'
-  - '16.1'
 libavif:
   - 1
 libblitz:
@@ -469,11 +476,11 @@ libblitz:
 libblst:
   - '0.3'
 libboost_devel:
-  - '1.84'
+  - '1.86'
 libboost_headers:
-  - '1.84'
+  - '1.86'
 libboost_python_devel:
-  - '1.84'
+  - '1.86'
 libbtf:
   - '2'
 libcamd:
@@ -511,7 +518,7 @@ libffi:
 libflatsurf:
   - 3
 libflint:
-  - '3.0'
+  - '3.2'
 libframel:
   - '8.41'
 libgit2:
@@ -555,7 +562,7 @@ libgoogle_cloud_speech_devel:
 libgoogle_cloud_storage_devel:
   - '2.36'
 libgrpc:
-  - "1.67"
+  - "1.71"
 libgsasl:
   - '2'
 libheif:
@@ -565,7 +572,7 @@ libhugetlbfs:
 libhwloc:
   - 2.11.2
 libhwy:
-  - '1.1'
+  - '1.2'
 libiconv:
   - 1
 libidn2:
@@ -586,6 +593,10 @@ libiio:
   - 0
 libldl:
   - '3'
+libmagma:
+  - '2.9'
+libmagma_sparse:
+  - '2.9'
 libmed:
   - '4.1'
 libmatio:
@@ -603,7 +614,7 @@ libode:
 libopencv:
   - 4.11.0
 libopentelemetry_cpp:
-  - '1.19'
+  - '1.20'
 libosqp:
   - 0.6.3
 libopenvino_dev:
@@ -612,12 +623,16 @@ libparu:
   - '1'
 libpcap:
   - '1.10'
+libpnetcdf:
+  - 1.14.0
 libpng:
   - 1.6
 libprotobuf:
-  - 5.28.3
+  - 5.29.3
 libpq:
   - '17'
+libpulsar:
+  - '3.7.0'
 libraw:
   - '0.21'
 librbio:
@@ -661,7 +676,7 @@ libthrift:
 libtiff:
   - '4.7'
 libtorch:
-  - '2.5'
+  - '2.6'
 libumfpack:
   - '6'
 libunwind:
@@ -683,7 +698,7 @@ libx86emu:
 libxcb:
   - '1'
 libxml2:
-  - 2
+  - 2.13
 libxsmm:
   - 1
 libuuid:
@@ -700,6 +715,8 @@ lz4_c:
   - '1.10'
 lzo:
   - 2
+magma:
+  - '2.9'
 metis:
   - 5.1.0
 mimalloc:
@@ -744,7 +761,7 @@ nss:
 nspr:
   - 4
 nlopt:
-  - '2.9'
+  - '2.10'
 ntl:
   - '11.4.3'
 # we build for the oldest version possible of numpy for forward compatibility
@@ -780,15 +797,15 @@ orc:
 pango:
   - '1'
 pari:
-  - 2.15.* *_pthread
+  - 2.17.* *_pthread
 pcl:
   - 1.15.0
 perl:
   - 5.32.1
 petsc:
-  - '3.22'
+  - '3.23'
 petsc4py:
-  - '3.22'
+  - '3.23'
 plutovg:
   - 1.0.0
 plutosvg:
@@ -796,13 +813,13 @@ plutosvg:
 pugixml:
   - '1.15'
 slepc:
-  - '3.22'
+  - '3.23'
 slepc4py:
-  - '3.22'
+  - '3.23'
 spirv_tools:
   - '2024'
 svt_av1:
-  - 3.0.1
+  - 3.0.2
 p11_kit:
   - '0.24'
 pcre:
@@ -818,7 +835,7 @@ libpdal_core:
 pixman:
   - 0
 poco:
-  - 1.14.0
+  - 1.14.1
 poppler:
   - '24.12'
 portaudio:
@@ -863,7 +880,7 @@ is_python_min:
 is_abi3:
   - true
 pytorch:
-  - '2.5'
+  - '2.6'
 pyqt:
   - 5.15
 pyqtwebengine:
@@ -873,13 +890,13 @@ pyqtchart:
 qhull:
   - 2020.2
 qpdf:
-  - 11
+  - '12'
 qt:
   - 5.15
 qt_main:
   - 5.15
 qt6_main:
-  - '6.8'
+  - 6.9
 qtkeychain:
   - '0.15'
 rdma_core:
@@ -911,7 +928,7 @@ s2geography:
 s2geometry:
   - 0.11.1
 s2n:
-  - 1.5.15
+  - 1.5.17
 sdl2:
   - '2'
 sdl2_image:
@@ -923,7 +940,7 @@ sdl2_net:
 sdl2_ttf:
   - '2'
 singular:
-  - 4.4.0
+  - 4.4.1
 snappy:
   - 1.2
 soapysdr:
@@ -932,6 +949,8 @@ sox:
   - 14.4.2
 spdlog:
   - '1.13'
+spirv_tools:
+  - 2024
 sqlite:
   - 3
 srm_ifce:
@@ -953,7 +972,7 @@ tensorflow:
 thrift_cpp:
   - 0.21.0
 tinyxml2:
-  - '10.0'
+  - '11.0'
 tk:
   - 8.6                # [not ppc64le]
 tiledb:
@@ -981,7 +1000,7 @@ vtk_base:
 wcslib:
   - '8'
 wxwidgets:
-  - 3.2.6
+  - 3.2.7
 x264:
   - '1!164.*'
 x265:

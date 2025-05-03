@@ -56,6 +56,7 @@ bliss
 boost
 boost-cpp
 boost-histogram
+brian2
 bsddb3
 buildah
 buildbot
@@ -97,6 +98,7 @@ conda-pypi
 conda-smithy
 conda-suggest-conda-forge
 configurable-http-proxy
+connectorx
 console_bridge
 constructor
 coreforecast
@@ -149,6 +151,7 @@ cupy
 cuquantum
 cuquantum-python
 cusparselt
+cutde
 cutensor
 cutlass
 cvxpy
@@ -168,6 +171,7 @@ dataclasses
 datafusion
 datamash
 dataprep
+datavzrd
 dav1d
 dcmtk
 deltalake
@@ -312,6 +316,7 @@ iminuit
 implicit
 indicators
 inetutils
+integratorxx
 ipopt
 ipykernel
 ipython
@@ -353,6 +358,7 @@ lazydocker
 lbaplocal
 lbdevtools
 lbenv
+lbzip2
 lcov
 ldas-tools-al-swig
 ldas-tools-diskcacheapi-swig
@@ -396,8 +402,10 @@ libmongocxx
 libnpp
 libnsl
 libnvfatbin
+libnvimgcodec
 libnvjitlink
 libnvjpeg
+libnvjpeg2k-split
 libnvshmem
 libopus
 libpnetcdf
@@ -421,6 +429,7 @@ lime
 limesuite
 line_profiler
 linux-perf
+livox-sdk2
 lld
 llist
 log4cxx
@@ -430,6 +439,7 @@ lp_solve
 lsdeluxe
 lttng-ust
 lua
+lua-language-server
 lzop
 mafft
 mahotas
@@ -470,6 +480,7 @@ mysql-connector-cpp
 mysql-connector-odbc
 n2p2
 nano
+nanoarrow
 nasm
 natcap.invest
 nb_conda_kernels
@@ -502,6 +513,7 @@ nvcc
 nvcomp
 nvidia-apex
 nvidia-gds
+nvimgcodec
 nvtx
 nvtx-c
 ocaml
@@ -527,6 +539,7 @@ openmeeg
 openmm
 openmotif
 openmpi
+openorbitaloptimizer
 openscenegraph
 openslide
 openslide-python
@@ -555,12 +568,14 @@ pelicanplatform
 pennylane
 pennylane-lightning-gpu
 pennylane-lightning-kokkos
+pentapy
 perl-b-hooks-endofscope
 perl-bio-samtools
 perl-class-methodmaker
 perl-clone
 perl-compress-raw-zlib
 perl-data-dumper
+perl-data-dumper-concise
 perl-db_file
 perl-dbi
 perl-digest-md5
@@ -568,23 +583,31 @@ perl-dist-checkconflicts
 perl-encode
 perl-extutils-constant
 perl-extutils-makemaker
+perl-file-remove
+perl-io-gzip
 perl-io-socket-ssl
+perl-io-stringy
 perl-io-tty
 perl-lwp-simple
 perl-mime-base64
 perl-module-implementation
+perl-mojolicious
 perl-moose
 perl-net-ssleay
 perl-pathtools
 perl-scalar-list-utils
 perl-socket
+perl-sort-key
 perl-storbale
 perl-sub-uplevel
+perl-termreadkey
 perl-unix-processors
 perl-version
+perl-yaml-libyaml
 perspective
 pestpp
 pexsi
+pgure-svt
 phantomjs
 phonopy
 photutils
@@ -665,6 +688,7 @@ pyomo
 pyopencl
 pyorc
 pypdf
+pyprind
 pypy2.7
 pypy3.6
 pyrage
@@ -725,6 +749,7 @@ quippy
 qutip
 r-acepack
 r-ade4
+r-adegenet
 r-agricolae
 r-akima
 r-amap
@@ -777,6 +802,7 @@ r-ddalpha
 r-ddrtree
 r-delaporte
 r-depmixs4
+r-desctools
 r-dicedesign
 r-dimred
 r-dixontest
@@ -864,6 +890,8 @@ r-marginaleffects
 r-mass
 r-mclust
 r-mcmcprecision
+r-memuse
+r-metaskat
 r-mgcv
 r-mhsmm
 r-microbenchmark
@@ -905,10 +933,12 @@ r-plsgenomics
 r-plsvarsel
 r-pmcmrplus
 r-poissonbinomial
+r-poppr
 r-praznik
 r-precrec
 r-princurve
 r-profvis
+r-propr
 r-proxy
 r-ps
 r-pscl
@@ -929,6 +959,7 @@ r-rcppml
 r-rcppnumerical
 r-rcppplanc
 r-rcpproll
+r-rcppsimdjson
 r-rcppspdlog
 r-rcurl
 r-rdpack
@@ -951,6 +982,7 @@ r-rlang
 r-rmariadb
 r-rmixmod
 r-rms
+r-rmsnumpress
 r-rmysql
 r-robust
 r-robustbase
@@ -1045,6 +1077,7 @@ resvg
 rhumba
 rich
 rise
+rivet
 rmm
 rocm-smi
 root
@@ -1053,6 +1086,8 @@ rosdep
 rosdistro
 rrdtool
 ruff
+rustac
+rvlib
 s5cmd
 sage
 sasktran2
@@ -1075,8 +1110,10 @@ sdf
 sdl
 sdl_image
 sdsl-lite
+seqan-library
 shap
 shellcheck
+shrinkwrap
 singularity
 sirius-ms
 sixs
@@ -1104,6 +1141,7 @@ sqlglotrs
 sqsgenerator
 squashfuse
 srm
+stardist
 starship
 statsforecast
 statsmodels
@@ -1147,6 +1185,7 @@ tornado
 tqdm
 traits
 treelite
+trexio
 tskit
 tsl_robin_map
 tsv-utils

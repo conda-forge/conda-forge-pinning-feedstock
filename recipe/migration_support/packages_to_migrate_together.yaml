@@ -73,6 +73,11 @@ libwebp:
   - libwebp
   - libwebp_base
 
+magma:
+  - libmagma
+  - libmagma_sparse
+  - magma
+
 mkl:
   - mkl
   - mkl_devel
