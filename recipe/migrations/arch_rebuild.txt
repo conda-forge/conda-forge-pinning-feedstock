@@ -1079,6 +1079,7 @@ rhumba
 rich
 rise
 rivet
+rjieba
 rmm
 rocm-smi
 root
