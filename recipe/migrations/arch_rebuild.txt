@@ -724,6 +724,7 @@ python-language-server
 python-libdiscid
 python-lzo
 python-orocos-kdl
+python-rocksdb
 python-snappy
 python-suitesparse-graphblas
 python-symengine
