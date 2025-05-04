@@ -1,6 +1,6 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for s2n 1.5.18
+  commit_message: Rebuild for aws-c (start of May '25)
   kind: version
   migration_number: 1
   automerge: true
