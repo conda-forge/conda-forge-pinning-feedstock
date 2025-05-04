@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws-c (start of May '25)
+  kind: version
+  migration_number: 1
+  automerge: true
+  exclude_pinned_pkgs: false
+migrator_ts: 1746171690.4886498
+s2n:
+- 1.5.18
+aws_c_mqtt:
+- 0.13.0
+aws_c_io:
+- 0.19.0
