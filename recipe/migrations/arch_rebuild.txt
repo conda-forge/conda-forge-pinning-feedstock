@@ -198,6 +198,7 @@ dwave-samplers
 dyff
 easyocr
 eccodes
+edlib
 elsi
 ensmallen
 enum34
@@ -670,6 +671,7 @@ pygplates
 pygraphviz
 pygrib
 pyhdf
+pyjnius
 pykdtree
 pykep
 pykrige
@@ -699,6 +701,7 @@ pyringgw
 pyrosm
 pyscal
 pyscf
+pyscss
 pyshtools
 pyspf
 pyspnego
@@ -802,6 +805,7 @@ r-dbscan
 r-ddalpha
 r-ddrtree
 r-delaporte
+r-deoptim
 r-depmixs4
 r-desctools
 r-dicedesign
@@ -835,6 +839,7 @@ r-gamlss
 r-gap
 r-gbm
 r-gdtools
+r-geiger
 r-geometry
 r-gert
 r-ggforce
@@ -1269,6 +1274,7 @@ xtensor-fftw
 xtensor-io
 xwebrtc
 yambo
+yappi
 yarp
 yoda
 yt
