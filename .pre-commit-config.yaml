@@ -7,7 +7,7 @@ repos:
     - id: check-toml
       files: recipe\/.*\.toml
 - repo: https://github.com/adrienverge/yamllint.git
-  rev: v1.37.0
+  rev: v1.37.1
   hooks:
     - id: yamllint
       files: recipe\/migrations\/.*\.yaml
