@@ -743,6 +743,8 @@ mumps_mpi:
   - 5.7.3
 mumps_seq:
   - 5.7.3
+mysql_devel:
+  - 9.0
 nccl:
   - 2
 ncurses:
