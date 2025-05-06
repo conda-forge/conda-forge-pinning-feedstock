@@ -970,6 +970,7 @@ r-rcppsimdjson
 r-rcppspdlog
 r-rcurl
 r-rdpack
+r-readods
 r-readr
 r-recommended
 r-remacor
