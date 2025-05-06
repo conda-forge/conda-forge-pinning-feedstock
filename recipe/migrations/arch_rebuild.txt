@@ -274,6 +274,7 @@ gqrx
 graph-tool
 graphblas
 graphicsmagick
+graspologic
 groff
 gromacs
 grpcio
