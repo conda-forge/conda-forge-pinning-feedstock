@@ -795,7 +795,7 @@ openslide:
 openssl:
   - '3'
 orc:
-  - 2.1.1
+  - 2.1.2
 pango:
   - '1'
 pari:
