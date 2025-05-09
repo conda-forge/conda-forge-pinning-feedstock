@@ -185,6 +185,7 @@ colima
 color-operations
 colorama
 colorlog
+commitizen
 compas
 compas_cgal
 compas_fab

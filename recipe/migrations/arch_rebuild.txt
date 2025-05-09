@@ -91,6 +91,7 @@ cms-combine
 coinmp
 colima
 color-operations
+commitizen
 conda-build
 conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
