@@ -354,6 +354,7 @@ ksops
 labelimg
 lalapps
 lammps
+lap
 lapack
 lasagne
 laspy
