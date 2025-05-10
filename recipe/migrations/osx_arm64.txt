@@ -631,8 +631,8 @@ kwn-deform
 labelimg
 lalapps
 lammps
-lap
 landlab
+lap
 lapack
 laspy
 lazrs-python
