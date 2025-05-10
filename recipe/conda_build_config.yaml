@@ -257,7 +257,7 @@ aws_c_compression:
 aws_c_event_stream:
   - 0.5.4
 aws_c_http:
-  - 0.10.0
+  - 0.10.1
 aws_c_io:
   - 0.19.0
 aws_c_mqtt:
