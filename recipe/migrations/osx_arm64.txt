@@ -632,6 +632,7 @@ labelimg
 lalapps
 lammps
 landlab
+lap
 lapack
 laspy
 lazrs-python
