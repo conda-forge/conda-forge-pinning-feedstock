@@ -629,6 +629,7 @@ kustomize
 kwant
 kwn-deform
 labelimg
+lap
 lalapps
 lammps
 landlab
