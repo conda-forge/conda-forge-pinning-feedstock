@@ -910,6 +910,7 @@ openscenegraph
 openslide
 opentofu
 openturns
+openusd
 optional-lite
 opty
 optype

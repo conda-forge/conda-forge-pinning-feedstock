@@ -549,6 +549,7 @@ openscenegraph
 openslide
 openslide-python
 openssh
+openusd
 optuna
 or-tools
 orange3
