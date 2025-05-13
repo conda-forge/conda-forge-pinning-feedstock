@@ -517,6 +517,7 @@ gymnasium
 gz-launch
 gzip
 h3-py
+h3ronpy
 h5py
 halotools
 harlequin
