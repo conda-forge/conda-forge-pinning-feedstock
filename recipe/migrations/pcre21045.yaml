@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for pcre2 10.45
-  kind: version
-  migration_number: 1
-migrator_ts: 1745959584.4232697
-pcre2:
-- '10.45'
