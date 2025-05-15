@@ -1625,6 +1625,7 @@ supervisor
 swig
 swiglpk
 swmm-toolkit
+symbolic
 symjit
 systemc
 ta-lib
