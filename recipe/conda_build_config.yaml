@@ -809,7 +809,7 @@ petsc:
 petsc4py:
   - '3.23'
 plutovg:
-  - 1.0.0
+  - 1.1.0
 plutosvg:
   - 0.0.7
 pugixml:
