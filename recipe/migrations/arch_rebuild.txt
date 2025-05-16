@@ -175,6 +175,7 @@ datamash
 dataprep
 datavzrd
 dav1d
+dbus
 dcmtk
 deltalake
 deno
