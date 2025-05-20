@@ -507,6 +507,7 @@ noise
 nordugrid-arc
 notebook
 nox
+nputop
 nsight-compute
 nsync
 numba
