@@ -329,6 +329,7 @@ ipython
 islpy
 jaeger
 jags
+jama
 jaxlib
 jaydebeapi
 jbig
@@ -503,6 +504,7 @@ newrelic
 nghttp2
 nim
 nitime
+nn
 noise
 nordugrid-arc
 notebook
@@ -1194,6 +1196,7 @@ timezonefinder
 tini
 tinyxml
 tinyxml2
+tnt
 tmux
 tokyocabinet
 tomopy
