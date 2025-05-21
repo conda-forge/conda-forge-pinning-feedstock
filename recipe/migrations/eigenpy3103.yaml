@@ -5,6 +5,5 @@ __migrator:
   bump_number: 1
   commit_message: Rebuild for eigenpy 3.10.3
 
-# TODO: add to global pinning one compete
 eigenpy:
   - 3.10.3
