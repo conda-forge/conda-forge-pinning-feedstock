@@ -641,6 +641,7 @@ lazy-object-proxy
 lazydocker
 ldc
 lenstool
+less
 levenshtein
 lfortran
 lftp
