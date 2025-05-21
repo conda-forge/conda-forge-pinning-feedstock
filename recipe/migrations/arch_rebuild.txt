@@ -1196,8 +1196,8 @@ timezonefinder
 tini
 tinyxml
 tinyxml2
-tnt
 tmux
+tnt
 tokyocabinet
 tomopy
 tornado
