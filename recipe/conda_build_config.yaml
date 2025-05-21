@@ -334,6 +334,8 @@ dcap:
   - 2.47
 eclib:
   - '20231212'
+eigenpy:
+  - 3.10.3
 elfutils:
   - '0.192'
 exiv2:
