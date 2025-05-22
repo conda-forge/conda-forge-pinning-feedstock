@@ -360,6 +360,7 @@ fastavro
 fastcache
 fastcluster
 fastdtw
+fastjet-cxx
 fastnumbers
 fastparquet
 fastpath

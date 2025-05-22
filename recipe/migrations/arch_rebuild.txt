@@ -216,6 +216,7 @@ faiss-split
 fancycompleter
 fast-histogram
 fast_float
+fastjet-cxx
 fastparquet
 fastpath
 fcl
