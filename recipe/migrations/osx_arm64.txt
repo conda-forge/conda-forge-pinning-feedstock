@@ -10,6 +10,7 @@ aesara
 affogato
 agate
 age
+aicspylibczi
 aio-pika
 aiodns
 aioeasywebdav
