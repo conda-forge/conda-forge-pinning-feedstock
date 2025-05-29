@@ -329,6 +329,7 @@ eelbrain
 einsums
 elixir
 emacs
+emperor
 emsdk
 enchant
 endf-parserpy
@@ -1294,6 +1295,7 @@ r-aptreeshape
 r-arrow
 r-bart
 r-base
+r-bayesm
 r-beeswarm
 r-bigrquery
 r-bipartite
@@ -1306,6 +1308,7 @@ r-checkmate
 r-cmdstanr
 r-coda
 r-collapse
+r-compositions
 r-cubature
 r-cvxr
 r-dbarts
@@ -1317,6 +1320,7 @@ r-diptest
 r-distributionutils
 r-duckdb
 r-ecp
+r-energy
 r-essentials
 r-exactextractr
 r-fastmatch
@@ -1609,6 +1613,7 @@ squashfs-tools
 srm
 sshpass
 ssm-simulators
+sortmerna
 stack
 stacrs
 stardist
