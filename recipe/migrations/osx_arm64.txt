@@ -1596,6 +1596,7 @@ soapysdr-module-rtlsdr
 soapysdr-module-uhd
 socat
 somoclu
+sortmerna
 sourmash-minimal
 sox
 soxr-python
@@ -1613,7 +1614,6 @@ squashfs-tools
 srm
 sshpass
 ssm-simulators
-sortmerna
 stack
 stacrs
 stardist
