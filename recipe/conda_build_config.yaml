@@ -57,9 +57,7 @@ m2w64_fortran_compiler_version:   # [win]
   - 13                            # [win]
 
 cuda_compiler:
-  - None
-  - nvcc                       # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - cuda-nvcc                  # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - cuda-nvcc
 cuda_compiler_version:
   - None
   - 12.4                       # [linux and ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
@@ -157,11 +155,7 @@ zip_keys:
     - c_compiler_version        # [unix]
     - cxx_compiler_version      # [unix]
     - fortran_compiler_version  # [unix]
-    - cuda_compiler             # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  -                             # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cuda_compiler             # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cuda_compiler_version     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   -
     - python
     - numpy
