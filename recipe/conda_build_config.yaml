@@ -66,7 +66,8 @@ cuda_compiler_version:
   - 12.6                       # [((linux and not ppc64le) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version_min:
   - None                       # [osx]
-  - 12.4                       # [linux or win64]
+  - 12.4                       # [linux and ppc64le]
+  - 12.6                       # [(linux and not ppc64le) or win64]
 
 arm_variant_type:              # [aarch64]
   - sbsa                       # [aarch64]
