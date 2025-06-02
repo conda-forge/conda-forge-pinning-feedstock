@@ -288,6 +288,7 @@ diffmah
 diffstar
 digital_rf
 dionysus
+dioptas
 direnv
 disperse
 divemesh
