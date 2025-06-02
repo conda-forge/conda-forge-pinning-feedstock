@@ -1811,6 +1811,7 @@ xsv
 xtb
 xtensor-io
 xtensor-python
+xypattern
 yaehmop
 yaml
 yaml-cpp
