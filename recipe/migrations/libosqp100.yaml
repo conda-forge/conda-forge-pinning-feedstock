@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libosqp 1.0.0
-  kind: version
-  migration_number: 1
-libosqp:
-- 1.0.0
-migrator_ts: 1743838406.6389353

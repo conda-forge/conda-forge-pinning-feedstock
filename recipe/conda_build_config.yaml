@@ -616,7 +616,7 @@ libopencv:
 libopentelemetry_cpp:
   - '1.21'
 libosqp:
-  - 0.6.3
+  - 1.0.0
 libopenvino_dev:
   - 2025.0.0
 libparu:
