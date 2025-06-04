@@ -1146,6 +1146,7 @@ soapysdr-module-remote
 soapysdr-module-rtlsdr
 soapysdr-module-uhd
 socat
+sortmerna
 soxr-python
 spacy
 sparsehash
