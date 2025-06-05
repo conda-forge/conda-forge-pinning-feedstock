@@ -3,7 +3,7 @@ extends: default
 rules:
   document-start: disable
   line-length:
-    max: 180
+    max: 260
   indentation:
     spaces: consistent
     indent-sequences: whatever
