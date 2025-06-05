@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for wxwidgets 3.2.8
-  kind: version
-  migration_number: 1
-migrator_ts: 1749116675.100728
-wxwidgets:
-- 3.2.8
