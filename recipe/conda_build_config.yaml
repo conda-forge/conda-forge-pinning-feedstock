@@ -769,7 +769,7 @@ ntl:
 # even so, and this is reflected through the run-exports of the package; see also
 # https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/4816
 numpy:
-  - 2.*
+  - 2
 obake_devel:
   - '0.9'
 occt:
