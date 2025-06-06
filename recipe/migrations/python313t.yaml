@@ -43,8 +43,6 @@ __migrator:
 python:
 - 3.13.* *_cp313t
 # additional entries to add for zip_keys
-numpy:
-- 2
 python_impl:
 - cpython
 is_freethreading:
