@@ -193,7 +193,6 @@ zip_keys:
     - cuda_compiler_version     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   -
     - python
-    - numpy
     - python_impl
     - is_python_min
   -
@@ -766,14 +765,11 @@ nlopt:
   - '2.10'
 ntl:
   - '11.4.3'
-# we build for the oldest version possible of numpy for forward compatibility
-# we roughly follow NEP29 in choosing the oldest version
+# we build using the latest minor version; numpy has generous backwards compatibility
+# even so, and this is reflected through the run-exports of the package; see also
+# https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/4816
 numpy:
-  # part of a zip_keys: python, python_impl, numpy
-  - 1.22
-  - 1.22
-  - 1.23
-  - 1.26
+  - 2
 obake_devel:
   - '0.9'
 occt:
@@ -855,13 +851,13 @@ pulseaudio_daemon:
 pybind11_abi:
   - 4
 python:
-  # part of a zip_keys: python, python_impl, numpy, is_python_min
+  # part of a zip_keys: python, python_impl, is_python_min
   - 3.9.* *_cpython
   - 3.10.* *_cpython
   - 3.11.* *_cpython
   - 3.12.* *_cpython
 python_impl:
-  # part of a zip_keys: python, python_impl, numpy, is_python_min
+  # part of a zip_keys: python, python_impl, is_python_min
   - cpython
   - cpython
   - cpython
@@ -873,6 +869,7 @@ python_min:
 is_freethreading:
   - false
 is_python_min:
+  # part of a zip_keys: python, python_impl, is_python_min
   - true
   - false
   - false
