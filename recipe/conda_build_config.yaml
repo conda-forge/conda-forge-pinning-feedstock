@@ -703,7 +703,7 @@ libxsmm:
 libuuid:
   - 2
 libyarp:
-  - 3.11.2
+  - 3.12.0
 libzip:
   - 1
 lmdb:
