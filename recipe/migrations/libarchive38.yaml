@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libarchive 3.8
+  kind: version
+  migration_number: 1
+libarchive:
+- '3.8'
+migrator_ts: 1749389304.432734
