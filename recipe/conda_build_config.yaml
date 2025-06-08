@@ -730,6 +730,8 @@ mpg123:
   - '1.32'
 mpich:
   - 4
+mvapich:
+  - 3
 mpfr:
   - 4
 mppp:
