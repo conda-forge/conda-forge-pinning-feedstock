@@ -27,23 +27,23 @@ __migrator:
       - 12.9
       - 11.8
 
-cuda_compiler:              # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - nvcc                    # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cuda_compiler:              # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - nvcc                    # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
-cuda_compiler_version:      # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11.8                    # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cuda_compiler_version:      # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11.8                    # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cuda_compiler_version_min:  # [linux or win64]
   - 11.8                    # [linux or win64]
 
-c_compiler_version:         # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11                      # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+c_compiler_version:         # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11                      # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
-cxx_compiler_version:       # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11                      # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+cxx_compiler_version:       # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11                      # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
-fortran_compiler_version:   # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 11                      # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+fortran_compiler_version:   # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11                      # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 docker_image:                                             # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-") and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   ### Docker images with CUDA 11.8 support
