@@ -2,7 +2,7 @@ migrator_ts: 1748496951
 __migrator:
   kind:
     version
-  # Use migrator to readd CUDA 11.
+  # Use migrator to readd CUDA 11.8
   use_local: true
   migration_number:
     1
@@ -14,6 +14,9 @@ __migrator:
   operation: key_add
   check_solvable: false
   primary_key: cuda_compiler_version
+  additional_zip_keys:
+    - cuda_compiler
+    - docker_image         # [linux]
   ordering:
     cuda_compiler:
       - None
