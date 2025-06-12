@@ -9,7 +9,6 @@ __migrator:
   paused: false
   override_cbc_keys:
     - cuda_compiler_stub
-  operation: key_add
   check_solvable: false
   primary_key: cuda_compiler_version
   ordering:
