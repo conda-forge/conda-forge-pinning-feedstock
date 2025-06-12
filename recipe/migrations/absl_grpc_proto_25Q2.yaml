@@ -1,0 +1,42 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libabseil 20250512, libgrpc 1.73 & libprotobuf 6.31.1
+  kind: version
+  migration_number: 1
+  paused: true
+  exclude:
+    - abseil-cpp
+    - grpc-cpp
+    - libprotobuf
+    - protobuf
+    - re2
+  ordering:
+    # see below
+    c_compiler:
+    - vs2019
+    - vs
+    cxx_compiler:
+    - vs2019
+    - vs
+libabseil:
+- 20250512
+libgrpc:
+- "1.73"
+libprotobuf:
+- 6.31.1
+# we need to leave this migration open until we're ready to move the global baseline, see
+# https://github.com/conda-forge/conda-forge.github.io/issues/2467; grpc 1.72 requires 11.0,
+# see https://github.com/grpc/grpc/commit/f122d248443c81592e748da1adb240cbf0a0231c
+c_stdlib_version:   # [osx]
+  - 11.0            # [osx]
+# newest abseil runs into an ICE on vs2019, so we need a newer toolchain; this is a temporary
+# work-around, pending https://github.com/conda-forge/conda-forge.github.io/issues/2138
+c_compiler:             # [win]
+  - vs                  # [win]
+cxx_compiler:           # [win]
+  - vs                  # [win]
+c_compiler_version:     # [win]
+  - 2022                # [win]
+cxx_compiler_version:   # [win]
+  - 2022                # [win]
+migrator_ts: 1748506837.6039238

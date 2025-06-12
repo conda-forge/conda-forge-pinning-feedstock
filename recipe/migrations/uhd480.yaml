@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for uhd 4.8.0
-  kind: version
-  migration_number: 1
-migrator_ts: 1738276652.0314388
-uhd:
-- 4.8.0

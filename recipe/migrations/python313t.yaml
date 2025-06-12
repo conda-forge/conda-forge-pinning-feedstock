@@ -32,19 +32,17 @@ __migrator:
         - python_abi
     exclude_pinned_pkgs: false
     additional_zip_keys:
-        - channel_sources
         - is_freethreading
         - is_abi3
     wait_for_migrators:
         - python313
+    ignored_deps_per_node:
+        matplotlib:
+            - pyqt
 
 python:
 - 3.13.* *_cp313t
-channel_sources:
-- conda-forge/label/cython_dev,conda-forge
 # additional entries to add for zip_keys
-numpy:
-- 2
 python_impl:
 - cpython
 is_freethreading:

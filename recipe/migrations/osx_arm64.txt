@@ -10,6 +10,7 @@ aesara
 affogato
 agate
 age
+aicspylibczi
 aio-pika
 aiodns
 aioeasywebdav
@@ -73,6 +74,7 @@ backports.zoneinfo
 backward-cpp
 bandit
 basemap
+bashlex
 batchcrop
 batman-package
 batoid
@@ -95,6 +97,7 @@ biome
 biosphere
 biotite
 bipedal-locomotion-framework
+bitshuffle
 black
 blis
 blosc
@@ -175,6 +178,7 @@ cmake
 cmarkgfm
 cmdstan
 cminpack
+cms-combine
 coin-or-cbc
 coinbonmin
 coincbc
@@ -182,6 +186,7 @@ colima
 color-operations
 colorama
 colorlog
+commitizen
 compas
 compas_cgal
 compas_fab
@@ -192,6 +197,7 @@ conda-bash-completion
 conda-build
 conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
+conda-managed-env
 conda-pypi
 conda-smithy
 configspace
@@ -282,6 +288,7 @@ diffmah
 diffstar
 digital_rf
 dionysus
+dioptas
 direnv
 disperse
 divemesh
@@ -322,9 +329,12 @@ ecflow
 edt
 eelbrain
 einsums
+elixir
 emacs
+emperor
 emsdk
 enchant
+endf-parserpy
 ensmallen
 esbuild
 esi-core
@@ -335,6 +345,7 @@ euphonic
 eups
 exoplanet
 exoplanet-core
+expat
 exprtk
 extinction
 eza
@@ -352,6 +363,7 @@ fastavro
 fastcache
 fastcluster
 fastdtw
+fastjet-cxx
 fastnumbers
 fastparquet
 fastpath
@@ -404,6 +416,7 @@ galsim
 gau2grid
 gawk
 gdal
+gdb
 gdma
 gds-root-extensions
 gdspy
@@ -461,6 +474,7 @@ go-ghq
 go-licenses
 go-shfmt
 go-yq
+gofit
 google-cloud-cpp
 google-cloud-sdk
 google-pasta
@@ -507,6 +521,7 @@ gymnasium
 gz-launch
 gzip
 h3-py
+h3ronpy
 h5py
 halotools
 harlequin
@@ -571,6 +586,7 @@ inetutils
 infrared
 inja
 inspiral-range
+integratorxx
 ipopt
 ipython
 isce3
@@ -603,6 +619,7 @@ kdepy
 kepderiv
 keras
 keras-preprocessing
+khiops-binaries
 kim-api
 kimpy
 kliff
@@ -620,6 +637,7 @@ labelimg
 lalapps
 lammps
 landlab
+lap
 lapack
 laspy
 lazrs-python
@@ -627,6 +645,7 @@ lazy-object-proxy
 lazydocker
 ldc
 lenstool
+less
 levenshtein
 lfortran
 lftp
@@ -635,6 +654,7 @@ lib3mf
 libavif
 libblitz
 libboost-mpi
+libcap
 libcint
 libcomcat
 libconeangle
@@ -664,6 +684,7 @@ libnsl
 libobjcryst
 libopus
 libpcm
+libplanc
 libpnetcdf
 libpostal
 libpsl
@@ -672,11 +693,13 @@ libqglviewer
 libqrencode
 librdkafka
 libsass
+libsbml
 libsecp256k1
 libsigcpp
 libsoup
 libspatialindex
 libstempo
+libtins
 libtlsh
 libtool
 libtvm
@@ -696,6 +719,7 @@ ligo-segments
 ligo.skymap
 limesuite
 line_profiler
+livox-sdk2
 llama-cpp-python
 llama.cpp
 llist
@@ -709,6 +733,7 @@ lru-dict
 lsdeluxe
 lsst-documenteer
 lsst-sphgeom
+lua-language-server
 luajit
 luarocks
 lue
@@ -755,6 +780,7 @@ meshpy
 metadetect
 metaio
 metaphone
+metplus
 metview
 metview-batch
 mgrs
@@ -793,6 +819,7 @@ msitools
 msvc-headers-libs
 mujoco
 multicore-tsne
+multinest
 multiprocess
 mumps
 muspinsim
@@ -884,13 +911,16 @@ openmc
 openmm
 openmpi
 openneuro-py
+openorbitaloptimizer
 openpmd-api
 openpnm
 openscenegraph
 openslide
 opentofu
 openturns
+openusd
 optional-lite
+opty
 optype
 orange3
 oras
@@ -933,23 +963,41 @@ peewee
 pelicanplatform
 pennylane
 pennylane-lightning-kokkos
+pentapy
 perl
 perl-app-cpanminus
+perl-clone
 perl-compress-raw-bzip
 perl-compress-raw-bzip2
 perl-compress-raw-zlib
 perl-data-dumper
+perl-db_file
+perl-dbi
+perl-digest-md5
+perl-encode
+perl-io-tty
+perl-mime-base64
+perl-module-build
+perl-moose
+perl-net-ssleay
+perl-package-stash
+perl-params-util
 perl-pathtools
 perl-scalar-list-utils
 perl-storable
+perl-sub-uplevel
 perl-unicode-linebreak
+perl-unix-processors
+perl-uri
 perl-version
+perl-xml-parser
 perspective
 pestpp
 petsc
 petsc4py
 pexpect
 pexsi
+pgure-svt
 phantomjs
 phono3py
 phonopy
@@ -1029,12 +1077,14 @@ pycbc
 pycbf
 pycifrw
 pyclipper
+pyclustering
 pycocotools
 pycontrails
 pycparser
 pycrdt
 pycurl
 pyddx
+pydeb
 pydelatin
 pydpc
 pyduktape2
@@ -1049,6 +1099,8 @@ pyfai
 pyferret
 pyfesom2
 pyfftw
+pyfim
+pyflann
 pyfmi
 pyfmmlib
 pyg4ometry
@@ -1068,6 +1120,7 @@ pygrib
 pygsti
 pyhdf
 pyhull
+pyiceberg
 pyicu
 pyimagej
 pykakasi
@@ -1125,6 +1178,8 @@ pyrfr
 pyright
 pyringgw
 pyrosm
+pyrte_rrtmgp
+pyrtools
 pyscal
 pyscal3
 pyscf
@@ -1172,6 +1227,7 @@ python-gmatnonlinearelastic
 python-gooseeye
 python-graphblas
 python-graphviz
+python-hyperscan
 python-infomap
 python-isal
 python-levenshtein
@@ -1206,6 +1262,7 @@ pyvips
 pyvkfft
 pyweed
 pyworld
+pyxattr
 pyyaml
 pyzstd
 qe
@@ -1241,6 +1298,7 @@ r-aptreeshape
 r-arrow
 r-bart
 r-base
+r-bayesm
 r-beeswarm
 r-bigrquery
 r-bipartite
@@ -1252,6 +1310,8 @@ r-changepoints
 r-checkmate
 r-cmdstanr
 r-coda
+r-collapse
+r-compositions
 r-cubature
 r-cvxr
 r-dbarts
@@ -1263,6 +1323,7 @@ r-diptest
 r-distributionutils
 r-duckdb
 r-ecp
+r-energy
 r-essentials
 r-exactextractr
 r-fastmatch
@@ -1278,6 +1339,7 @@ r-ggpubr
 r-glassofast
 r-gmm
 r-gmp
+r-gsl
 r-gsw
 r-gtools
 r-gunifrac
@@ -1307,6 +1369,7 @@ r-magick
 r-mapdata
 r-mapdeck
 r-marginaleffects
+r-mboost
 r-mclust
 r-mice
 r-microbenchmark
@@ -1330,6 +1393,7 @@ r-phangorn
 r-picante
 r-pingr
 r-png
+r-poolfstat
 r-qgam
 r-quadprog
 r-quantreg
@@ -1366,6 +1430,7 @@ r-rstatix
 r-rsvg
 r-s2
 r-satellite
+r-scrypt
 r-seurat
 r-sf
 r-showtext
@@ -1443,6 +1508,7 @@ ruff
 ruptura
 ruptures
 rust-script
+rustac
 rustpython
 rvlib
 s2geometry
@@ -1533,6 +1599,7 @@ soapysdr-module-rtlsdr
 soapysdr-module-uhd
 socat
 somoclu
+sortmerna
 sourmash-minimal
 sox
 soxr-python
@@ -1551,6 +1618,7 @@ srm
 sshpass
 ssm-simulators
 stack
+stacrs
 stardist
 starlink-ast
 starship
@@ -1570,6 +1638,8 @@ supervisor
 swig
 swiglpk
 swmm-toolkit
+symbolic
+symjit
 systemc
 ta-lib
 tabula-py
@@ -1616,6 +1686,7 @@ tokenizers
 tokyocabinet
 tomlplusplus
 tomopy
+torch-scatter
 torchmd-net
 torchsde
 torchsparse
@@ -1712,6 +1783,7 @@ xeus-robot
 xeus-sql
 xeus-sqlite
 xgboost
+xgrammar
 xlwings
 xmlsec
 xmlstarlet
@@ -1741,6 +1813,7 @@ xsv
 xtb
 xtensor-io
 xtensor-python
+xypattern
 yaehmop
 yaml
 yaml-cpp

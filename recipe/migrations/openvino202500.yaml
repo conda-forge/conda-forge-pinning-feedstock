@@ -1,7 +1,0 @@
-migrator_ts: 1738926452
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-libopenvino_dev:
-  - 2025.0.0
