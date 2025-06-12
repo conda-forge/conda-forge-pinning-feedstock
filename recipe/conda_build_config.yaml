@@ -193,7 +193,6 @@ zip_keys:
     - cuda_compiler_version     # [win64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   -
     - python
-    - python_impl
     - is_python_min
   -
     - libarrow
@@ -851,16 +850,12 @@ pulseaudio_daemon:
 pybind11_abi:
   - 4
 python:
-  # part of a zip_keys: python, python_impl, is_python_min
+  # part of a zip_keys: python, is_python_min
   - 3.9.* *_cpython
   - 3.10.* *_cpython
   - 3.11.* *_cpython
   - 3.12.* *_cpython
 python_impl:
-  # part of a zip_keys: python, python_impl, is_python_min
-  - cpython
-  - cpython
-  - cpython
   - cpython
 python_min:
   # minimum supported python version per CFEP-25
