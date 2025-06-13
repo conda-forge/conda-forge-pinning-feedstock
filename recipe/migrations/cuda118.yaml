@@ -2,12 +2,12 @@ migrator_ts: 1748496951
 __migrator:
   kind:
     version
-  # Use migrator to readd CUDA 11.8
-  use_local: true
   migration_number:
     1
   build_number:
     1
+  # This is intended as a _manual_ migrator to readd CUDA 11.8, after we
+  # dropped it as version that's built by default; DO NOT unpause
   paused: true
   override_cbc_keys:
     - cuda_compiler_stub
