@@ -12,15 +12,11 @@ __migrator:
   check_solvable: false
   primary_key: cuda_compiler_version
   ordering:
-    cuda_compiler:
-      - None
-      - nvcc
-      - cuda-nvcc
     cuda_compiler_version:
-      - None
       - 11.8
       - 12.4
       - 12.6
+      - None
       - 12.9
   commit_message: |
     Upgrade to CUDA 12.9
