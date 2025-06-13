@@ -23,10 +23,10 @@ __migrator:
       - cuda-nvcc
       - nvcc
     cuda_compiler_version:
-      - None
       - 12.4
       - 12.6
       - 12.8
+      - None
       - 12.9
       - 11.8
 
