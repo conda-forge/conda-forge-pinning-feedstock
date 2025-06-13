@@ -6,7 +6,7 @@ __migrator:
     1
   build_number:
     1
-  # This is intended as a _manual_ migrator to readd CUDA 11.8, after we
+  # This is intended as a _manual_ migrator to re-add CUDA 11.8, after we
   # dropped it as version that's built by default; DO NOT unpause
   paused: true
   override_cbc_keys:
