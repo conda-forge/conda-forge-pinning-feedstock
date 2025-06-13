@@ -13,11 +13,15 @@ __migrator:
   primary_key: cuda_compiler_version
   ordering:
     cuda_compiler_version:
-      - 11.8
       - 12.4
       - 12.6
+      - 12.8
       - None
       - 12.9
+      # to allow manual opt-in for CUDA 11.8, see
+      # https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/7472
+      # must be last due to how cuda_compiler ordering in that migrator works
+      - 11.8
   commit_message: |
     Upgrade to CUDA 12.9
     
