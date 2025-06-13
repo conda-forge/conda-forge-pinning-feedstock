@@ -29,6 +29,12 @@ __migrator:
       - None
       - 12.9
       - 11.8
+    cuda_compiler_version_min:
+      - 12.4
+      - 12.6
+      - 12.8
+      - 12.9
+      - 11.8
 
 cuda_compiler:              # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - nvcc                    # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
