@@ -371,7 +371,7 @@ google_cloud_cpp_common:
 googleapis_cpp:
   - '0.10'
 graphviz:
-  - '12'
+  - '13'
 # Harfbuzz guarantees total ABI compatibiblity
 # The first version to have this new ABI pin is 11.0.1
 # https://github.com/conda-forge/harfbuzz-feedstock/pull/125
