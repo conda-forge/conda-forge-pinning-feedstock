@@ -1140,6 +1140,7 @@ pymc3
 pymde
 pymdi
 pymediainfo
+pymeep
 pymeos-cffi
 pymol-open-source
 pymssql
