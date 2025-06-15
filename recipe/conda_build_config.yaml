@@ -864,7 +864,7 @@ python_min:
 is_freethreading:
   - false
 is_python_min:
-  # part of a zip_keys: python, python_impl, is_python_min
+  # part of a zip_keys: python, is_python_min
   - true
   - false
   - false
