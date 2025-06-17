@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for capnproto 1.2.0
+  kind: version
+  migration_number: 1
+capnproto:
+- 1.2.0
+migrator_ts: 1750175736.9904456
