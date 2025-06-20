@@ -1013,6 +1013,7 @@ pixi-inject
 pixi-pack
 pixmappy
 pixy
+pixell
 pkg-config
 plantuml
 plum-dispatch
