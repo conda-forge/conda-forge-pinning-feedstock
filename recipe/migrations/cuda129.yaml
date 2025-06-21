@@ -1,0 +1,44 @@
+migrator_ts: 1738229377
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+  paused: false
+  override_cbc_keys:
+    - cuda_compiler_stub
+  check_solvable: false
+  primary_key: cuda_compiler_version
+  ordering:
+    cuda_compiler_version:
+      - 12.4
+      - 12.6
+      - 12.8
+      - None
+      - 12.9
+      # to allow manual opt-in for CUDA 11.8, see
+      # https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/7472
+      # must be last due to how cuda_compiler ordering in that migrator works
+      - 11.8
+  commit_message: |
+    Upgrade to CUDA 12.9
+    
+    With CUDA 12.9, the following new architectures are added `sm_100`, `sm_101` and `sm_120`.
+    To build for these architectures, maintainers will need to add these to list of architectures
+    that their package builds for.
+    
+    ref: https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#new-features
+
+cuda_compiler_version:         # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 12.9                       # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+c_compiler_version:            # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 13                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+cxx_compiler_version:          # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 13                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+fortran_compiler_version:      # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 13                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
