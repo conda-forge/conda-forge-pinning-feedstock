@@ -87,6 +87,7 @@ bc
 bcolz
 bedtools
 benchmark
+bermuda
 bfg
 bilby.cython
 billiard
