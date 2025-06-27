@@ -1832,6 +1832,7 @@ zaber-motion
 zarr
 zbar
 zchunk
+zen-engine
 zenoh-cpp
 zenoh-plugin-webserver
 zeopp-lsmo
