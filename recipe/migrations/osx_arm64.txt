@@ -1368,6 +1368,7 @@ r-liblinear
 r-lightgbm
 r-lme4
 r-lpsolve
+r-matchit
 r-magick
 r-mapdata
 r-mapdeck
