@@ -1368,11 +1368,11 @@ r-liblinear
 r-lightgbm
 r-lme4
 r-lpsolve
-r-matchit
 r-magick
 r-mapdata
 r-mapdeck
 r-marginaleffects
+r-matchit
 r-mboost
 r-mclust
 r-mice
