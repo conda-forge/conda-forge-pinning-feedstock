@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for ace 8.0.4
+  kind: version
+  migration_number: 1
+ace:
+- 8.0.4
+migrator_ts: 1751301663.7301545
