@@ -192,7 +192,7 @@ blas_impl:
   - blis         # [x86 or x86_64]
 
 ace:
-  - 8.0.2
+  - 8.0.4
 alsa_lib:
   - '1.2'
 antic:
