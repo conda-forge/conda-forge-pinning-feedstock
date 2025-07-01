@@ -1072,6 +1072,7 @@ pyarrow
 pyasn1
 pyaudi
 pybamm
+pybase64
 pybuilder
 pycalphad
 pycares
