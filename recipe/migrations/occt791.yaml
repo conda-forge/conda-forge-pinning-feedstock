@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for occt 791
+  kind: version
+  migration_number: 1
+migrator_ts: 1751477447.5161984
+occt:
+- '791'
