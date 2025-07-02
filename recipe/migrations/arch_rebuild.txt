@@ -298,6 +298,7 @@ h3ronpy
 harlequin
 harp
 hdbscan
+hdf5-external-filter-plugins
 healpix_cxx
 heaptrack
 heffte
