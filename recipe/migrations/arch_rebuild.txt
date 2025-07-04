@@ -431,6 +431,7 @@ libudev
 libvpx
 libxcrypt
 libxkbfile
+libxmlpp
 libxnvme
 libzopfli
 light-curve-python
