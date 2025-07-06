@@ -4,11 +4,17 @@ __migrator:
   kind: version
   migration_number: 1
   exclude:
+    # core deps
     - abseil-cpp
     - grpc-cpp
     - libprotobuf
+    # required for building/testing
     - protobuf
     - re2
+    # bazel stack
+    - bazel
+    - grpc_java_plugin
+    - singlejar
 libabseil:
 - 20250512
 libgrpc:
