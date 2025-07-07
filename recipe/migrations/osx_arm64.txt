@@ -1568,6 +1568,7 @@ sdl2_net
 sdl2_ttf
 sdsl-lite
 seabreeze
+sealsmodel
 sedflux
 selenium-manager
 sensormapgeo
