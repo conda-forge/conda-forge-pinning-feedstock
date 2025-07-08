@@ -29,8 +29,8 @@ astra-toolbox
 astropy
 asyncpg
 attr
-autorift
 austin
+autorift
 awkward1
 awscli2
 awscrt
