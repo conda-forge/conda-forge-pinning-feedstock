@@ -886,7 +886,7 @@ s2geography:
 s2geometry:
   - 0.11.1
 s2n:
-  - 1.5.21
+  - 1.5.22
 sdl2:
   - '2'
 sdl2_image:
