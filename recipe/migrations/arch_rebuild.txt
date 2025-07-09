@@ -30,6 +30,7 @@ astropy
 asyncpg
 attr
 austin
+autorift
 awkward1
 awscli2
 awscrt
