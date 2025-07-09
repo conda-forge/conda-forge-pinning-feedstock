@@ -432,6 +432,7 @@ geocat-comp
 geocat-f2py
 geohexviz
 geometry-central
+geotesscpp
 geotiff
 geowombat
 gepetto-viewer-corba
