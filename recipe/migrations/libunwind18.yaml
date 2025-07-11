@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libunwind 1.8
+  kind: version
+  migration_number: 1
+libunwind:
+- '1.8'
+migrator_ts: 1752262797.2910159
