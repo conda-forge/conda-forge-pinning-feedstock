@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libthrift 0.22.0
+  kind: version
+  migration_number: 1
+libthrift:
+- 0.22.0
+migrator_ts: 1752260967.5811167
+thrift_cpp:
+- 0.22.0
