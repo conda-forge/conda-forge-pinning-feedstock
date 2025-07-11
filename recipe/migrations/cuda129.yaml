@@ -27,10 +27,17 @@ __migrator:
     
     CUDA 12.8 added support for architectures `sm_100`, `sm_101` and `sm_120`,
     while CUDA 12.9 further added `sm_103` and `sm_121`. To build for these,
-    maintainers will need to modify the list of specified architectures
+    maintainers will need to modify their existing list of specified architectures
     (e.g. `CMAKE_CUDA_ARCHITECTURES`, `TORCH_CUDA_ARCH_LIST`, etc.)
     for their package. A good balance between broad support and storage
     footprint (resp. compilation time) is to add `sm_100` and `sm_120`.
+    
+    Since CUDA 12.8, the conda-forge nvcc package now sets `CUDAARCHS` and
+    `TORCH_CUDA_ARCH_LIST` in its activation script to a string containing all
+    of the supported real architectures plus the virtual architecture of the
+    latest. Recipes for packages who use these variables to control their build
+    but do not want to build for all supported architectures will need to override
+    these variables in their build script.
     
     ref: https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#new-features
 
