@@ -642,7 +642,7 @@ libtorch:
 libumfpack:
   - '6'
 libunwind:
-  - '1.6'
+  - '1.8'
 libutf8proc:
   - '2.10'
 libv8:
