@@ -298,6 +298,7 @@ h3-py
 h3ronpy
 harlequin
 harp
+hats
 hdbscan
 hdf5-external-filter-plugins
 healpix_cxx
@@ -448,6 +449,7 @@ log4cxx
 logzero
 louvain
 lp_solve
+lsdb
 lsdeluxe
 lttng-ust
 lua
@@ -475,6 +477,7 @@ micromamba
 minijinja
 mlip
 mne-lsl
+mocpy
 mongoengine
 moonrepo-moon
 mosh
