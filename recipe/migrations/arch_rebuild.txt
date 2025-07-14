@@ -1252,6 +1252,7 @@ web3
 wgrib2
 wordcloud
 wurlitzer
+wxpython
 x265
 xcape
 xcb-util
