@@ -728,6 +728,7 @@ llist
 lndoctor
 log4cxx
 loky
+loro
 louvain
 lp_solve
 lpsolve55
