@@ -244,6 +244,7 @@ cyclus
 cyipopt
 cymetric
 cython-fortran-file
+cythonbiogeme
 cytoplay
 cytosim
 dagster
