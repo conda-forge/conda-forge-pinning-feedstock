@@ -243,6 +243,7 @@ cycamore
 cyclus
 cyipopt
 cymetric
+cythonbiogeme
 cython-fortran-file
 cytoplay
 cytosim
