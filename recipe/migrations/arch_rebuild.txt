@@ -534,6 +534,7 @@ nvimgcodec
 nvtx
 nvtx-c
 ocaml
+ocaml-findlib
 occt
 oclgrind
 octave
