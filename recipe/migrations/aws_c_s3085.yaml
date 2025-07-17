@@ -11,4 +11,6 @@ aws_c_io:
 - 0.21.1
 aws_c_mqtt:
 - 0.13.3
+aws_c_http:
+- 0.10.3
 migrator_ts: 1752757154.0937972
