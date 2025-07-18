@@ -682,7 +682,7 @@ magma:
 metis:
   - 5.1.0
 mimalloc:
-  - 3.0.1
+  - 3.1.5
 mkl:
   - '2024'  # [not osx]
   - '2023'  # [osx]
