@@ -622,7 +622,7 @@ libspqr:
 libsuitesparseconfig:
   - '7'
 libssh:
-  - 0.10
+  - '0.11'
 libssh2:
   - 1
 libsvm:
