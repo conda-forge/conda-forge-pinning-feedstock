@@ -6,18 +6,11 @@ __migrator:
     primary_key: python
     ordering:
         python:
-            - 3.6.* *_cpython
-            - 3.7.* *_cpython
-            - 3.8.* *_cpython
             - 3.9.* *_cpython
             - 3.10.* *_cpython
             - 3.11.* *_cpython
             - 3.12.* *_cpython
             - 3.13.* *_cp313  # new entry
-            - 3.6.* *_73_pypy
-            - 3.7.* *_73_pypy
-            - 3.8.* *_73_pypy
-            - 3.9.* *_73_pypy
     paused: false
     longterm: true
     pr_limit: 20
@@ -39,9 +32,5 @@ __migrator:
 python:
 - 3.13.* *_cp313
 # additional entries to add for zip_keys
-numpy:
-- 2
-python_impl:
-- cpython
 is_python_min:
 - false

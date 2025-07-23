@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for fmt 11.2
+  kind: version
+  migration_number: 1
+fmt:
+- '11.2'
+migrator_ts: 1751282367.8165693

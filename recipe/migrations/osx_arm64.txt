@@ -10,6 +10,7 @@ aesara
 affogato
 agate
 age
+aicspylibczi
 aio-pika
 aiodns
 aioeasywebdav
@@ -86,6 +87,7 @@ bc
 bcolz
 bedtools
 benchmark
+bermuda
 bfg
 bilby.cython
 billiard
@@ -185,6 +187,7 @@ colima
 color-operations
 colorama
 colorlog
+commitizen
 compas
 compas_cgal
 compas_fab
@@ -241,6 +244,7 @@ cyclus
 cyipopt
 cymetric
 cython-fortran-file
+cythonbiogeme
 cytoplay
 cytosim
 dagster
@@ -286,6 +290,7 @@ diffmah
 diffstar
 digital_rf
 dionysus
+dioptas
 direnv
 disperse
 divemesh
@@ -328,6 +333,7 @@ eelbrain
 einsums
 elixir
 emacs
+emperor
 emsdk
 enchant
 endf-parserpy
@@ -359,6 +365,7 @@ fastavro
 fastcache
 fastcluster
 fastdtw
+fastjet-cxx
 fastnumbers
 fastparquet
 fastpath
@@ -426,6 +433,7 @@ geocat-comp
 geocat-f2py
 geohexviz
 geometry-central
+geotesscpp
 geotiff
 geowombat
 gepetto-viewer-corba
@@ -516,6 +524,7 @@ gymnasium
 gz-launch
 gzip
 h3-py
+h3ronpy
 h5py
 halotools
 harlequin
@@ -580,6 +589,7 @@ inetutils
 infrared
 inja
 inspiral-range
+integratorxx
 ipopt
 ipython
 isce3
@@ -630,6 +640,7 @@ labelimg
 lalapps
 lammps
 landlab
+lap
 lapack
 laspy
 lazrs-python
@@ -637,6 +648,7 @@ lazy-object-proxy
 lazydocker
 ldc
 lenstool
+less
 levenshtein
 lfortran
 lftp
@@ -645,6 +657,7 @@ lib3mf
 libavif
 libblitz
 libboost-mpi
+libcap
 libcint
 libcomcat
 libconeangle
@@ -674,6 +687,7 @@ libnsl
 libobjcryst
 libopus
 libpcm
+libplanc
 libpnetcdf
 libpostal
 libpsl
@@ -682,6 +696,7 @@ libqglviewer
 libqrencode
 librdkafka
 libsass
+libsbml
 libsecp256k1
 libsigcpp
 libsoup
@@ -707,12 +722,14 @@ ligo-segments
 ligo.skymap
 limesuite
 line_profiler
+livox-sdk2
 llama-cpp-python
 llama.cpp
 llist
 lndoctor
 log4cxx
 loky
+loro
 louvain
 lp_solve
 lpsolve55
@@ -720,6 +737,7 @@ lru-dict
 lsdeluxe
 lsst-documenteer
 lsst-sphgeom
+lua-language-server
 luajit
 luarocks
 lue
@@ -766,6 +784,7 @@ meshpy
 metadetect
 metaio
 metaphone
+metplus
 metview
 metview-batch
 mgrs
@@ -804,6 +823,7 @@ msitools
 msvc-headers-libs
 mujoco
 multicore-tsne
+multinest
 multiprocess
 mumps
 muspinsim
@@ -895,12 +915,14 @@ openmc
 openmm
 openmpi
 openneuro-py
+openorbitaloptimizer
 openpmd-api
 openpnm
 openscenegraph
 openslide
 opentofu
 openturns
+openusd
 optional-lite
 opty
 optype
@@ -948,6 +970,7 @@ pennylane-lightning-kokkos
 pentapy
 perl
 perl-app-cpanminus
+perl-clone
 perl-compress-raw-bzip
 perl-compress-raw-bzip2
 perl-compress-raw-zlib
@@ -959,11 +982,17 @@ perl-encode
 perl-io-tty
 perl-mime-base64
 perl-module-build
+perl-moose
+perl-net-ssleay
+perl-package-stash
+perl-params-util
 perl-pathtools
 perl-scalar-list-utils
 perl-storable
+perl-sub-uplevel
 perl-unicode-linebreak
 perl-unix-processors
+perl-uri
 perl-version
 perl-xml-parser
 perspective
@@ -984,6 +1013,7 @@ physics-tenpy
 piff
 pigz
 pikepdf
+pixell
 pixi-inject
 pixi-pack
 pixmappy
@@ -1045,6 +1075,7 @@ pyarrow
 pyasn1
 pyaudi
 pybamm
+pybase64
 pybuilder
 pycalphad
 pycares
@@ -1115,6 +1146,7 @@ pymc3
 pymde
 pymdi
 pymediainfo
+pymeep
 pymeos-cffi
 pymol-open-source
 pymssql
@@ -1273,6 +1305,7 @@ r-aptreeshape
 r-arrow
 r-bart
 r-base
+r-bayesm
 r-beeswarm
 r-bigrquery
 r-bipartite
@@ -1285,6 +1318,7 @@ r-checkmate
 r-cmdstanr
 r-coda
 r-collapse
+r-compositions
 r-cubature
 r-cvxr
 r-dbarts
@@ -1296,6 +1330,7 @@ r-diptest
 r-distributionutils
 r-duckdb
 r-ecp
+r-energy
 r-essentials
 r-exactextractr
 r-fastmatch
@@ -1311,6 +1346,7 @@ r-ggpubr
 r-glassofast
 r-gmm
 r-gmp
+r-gsl
 r-gsw
 r-gtools
 r-gunifrac
@@ -1340,6 +1376,8 @@ r-magick
 r-mapdata
 r-mapdeck
 r-marginaleffects
+r-matchit
+r-mboost
 r-mclust
 r-mice
 r-microbenchmark
@@ -1400,6 +1438,7 @@ r-rstatix
 r-rsvg
 r-s2
 r-satellite
+r-scrypt
 r-seurat
 r-sf
 r-showtext
@@ -1477,6 +1516,7 @@ ruff
 ruptura
 ruptures
 rust-script
+rustac
 rustpython
 rvlib
 s2geometry
@@ -1531,6 +1571,7 @@ sdl2_net
 sdl2_ttf
 sdsl-lite
 seabreeze
+sealsmodel
 sedflux
 selenium-manager
 sensormapgeo
@@ -1567,6 +1608,7 @@ soapysdr-module-rtlsdr
 soapysdr-module-uhd
 socat
 somoclu
+sortmerna
 sourmash-minimal
 sox
 soxr-python
@@ -1605,6 +1647,7 @@ supervisor
 swig
 swiglpk
 swmm-toolkit
+symbolic
 symjit
 systemc
 ta-lib
@@ -1779,6 +1822,7 @@ xsv
 xtb
 xtensor-io
 xtensor-python
+xypattern
 yaehmop
 yaml
 yaml-cpp
@@ -1794,6 +1838,7 @@ zaber-motion
 zarr
 zbar
 zchunk
+zen-engine
 zenoh-cpp
 zenoh-plugin-webserver
 zeopp-lsmo

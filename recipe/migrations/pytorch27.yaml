@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for pytorch 2.7
+  kind: version
+  migration_number: 1
+libtorch:
+- '2.7'
+pytorch:
+- '2.7'
+migrator_ts: 1746308782.6617868

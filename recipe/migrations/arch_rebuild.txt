@@ -30,6 +30,7 @@ astropy
 asyncpg
 attr
 austin
+autorift
 awkward1
 awscli2
 awscrt
@@ -51,11 +52,13 @@ biom-format
 bipedal-locomotion-framework
 bitshuffle
 black
+bleak
 blis
 bliss
 boost
 boost-cpp
 boost-histogram
+brian2
 bsddb3
 buildah
 buildbot
@@ -89,6 +92,7 @@ cms-combine
 coinmp
 colima
 color-operations
+commitizen
 conda-build
 conda-ecosystem-user-package-isolation
 conda-forge-ci-setup
@@ -97,6 +101,7 @@ conda-pypi
 conda-smithy
 conda-suggest-conda-forge
 configurable-http-proxy
+connectorx
 console_bridge
 constructor
 coreforecast
@@ -169,7 +174,9 @@ dataclasses
 datafusion
 datamash
 dataprep
+datavzrd
 dav1d
+dbus
 dcmtk
 deltalake
 deno
@@ -195,6 +202,7 @@ dwave-samplers
 dyff
 easyocr
 eccodes
+edlib
 elsi
 ensmallen
 enum34
@@ -209,6 +217,7 @@ faiss-split
 fancycompleter
 fast-histogram
 fast_float
+fastjet-cxx
 fastparquet
 fastpath
 fcl
@@ -270,6 +279,7 @@ gqrx
 graph-tool
 graphblas
 graphicsmagick
+graspologic
 groff
 gromacs
 grpcio
@@ -285,9 +295,12 @@ gymnasium
 gz-launch
 gzip
 h3-py
+h3ronpy
 harlequin
 harp
+hats
 hdbscan
+hdf5-external-filter-plugins
 healpix_cxx
 heaptrack
 heffte
@@ -313,12 +326,14 @@ iminuit
 implicit
 indicators
 inetutils
+integratorxx
 ipopt
 ipykernel
 ipython
 islpy
 jaeger
 jags
+jama
 jaxlib
 jaydebeapi
 jbig
@@ -346,6 +361,7 @@ ksops
 labelimg
 lalapps
 lammps
+lap
 lapack
 lasagne
 laspy
@@ -398,8 +414,10 @@ libmongocxx
 libnpp
 libnsl
 libnvfatbin
+libnvimgcodec
 libnvjitlink
 libnvjpeg
+libnvjpeg2k-split
 libnvshmem
 libopus
 libpnetcdf
@@ -415,6 +433,7 @@ libudev
 libvpx
 libxcrypt
 libxkbfile
+libxmlpp
 libxnvme
 libzopfli
 light-curve-python
@@ -423,15 +442,18 @@ lime
 limesuite
 line_profiler
 linux-perf
+livox-sdk2
 lld
 llist
 log4cxx
 logzero
 louvain
 lp_solve
+lsdb
 lsdeluxe
 lttng-ust
 lua
+lua-language-server
 lzop
 mafft
 mahotas
@@ -455,6 +477,7 @@ micromamba
 minijinja
 mlip
 mne-lsl
+mocpy
 mongoengine
 moonrepo-moon
 mosh
@@ -472,6 +495,7 @@ mysql-connector-cpp
 mysql-connector-odbc
 n2p2
 nano
+nanoarrow
 nasm
 natcap.invest
 nb_conda_kernels
@@ -487,10 +511,12 @@ newrelic
 nghttp2
 nim
 nitime
+nn
 noise
 nordugrid-arc
 notebook
 nox
+nputop
 nsight-compute
 nsync
 numba
@@ -504,9 +530,11 @@ nvcc
 nvcomp
 nvidia-apex
 nvidia-gds
+nvimgcodec
 nvtx
 nvtx-c
 ocaml
+ocaml-findlib
 occt
 oclgrind
 octave
@@ -529,10 +557,12 @@ openmeeg
 openmm
 openmotif
 openmpi
+openorbitaloptimizer
 openscenegraph
 openslide
 openslide-python
 openssh
+openusd
 optuna
 or-tools
 orange3
@@ -564,6 +594,7 @@ perl-class-methodmaker
 perl-clone
 perl-compress-raw-zlib
 perl-data-dumper
+perl-data-dumper-concise
 perl-db_file
 perl-dbi
 perl-digest-md5
@@ -571,20 +602,27 @@ perl-dist-checkconflicts
 perl-encode
 perl-extutils-constant
 perl-extutils-makemaker
+perl-file-remove
+perl-io-gzip
 perl-io-socket-ssl
+perl-io-stringy
 perl-io-tty
 perl-lwp-simple
 perl-mime-base64
 perl-module-implementation
+perl-mojolicious
 perl-moose
 perl-net-ssleay
 perl-pathtools
 perl-scalar-list-utils
 perl-socket
+perl-sort-key
 perl-storbale
 perl-sub-uplevel
+perl-termreadkey
 perl-unix-processors
 perl-version
+perl-yaml-libyaml
 perspective
 pestpp
 pexsi
@@ -624,6 +662,7 @@ py2bit
 py_rattler
 pyarrow
 pybamm
+pybase64
 pybcj
 pycbc
 pycifrw
@@ -651,6 +690,7 @@ pygplates
 pygraphviz
 pygrib
 pyhdf
+pyjnius
 pykdtree
 pykep
 pykrige
@@ -680,6 +720,7 @@ pyringgw
 pyrosm
 pyscal
 pyscf
+pyscss
 pyshtools
 pyspf
 pyspnego
@@ -705,6 +746,7 @@ python-language-server
 python-libdiscid
 python-lzo
 python-orocos-kdl
+python-rocksdb
 python-snappy
 python-suitesparse-graphblas
 python-symengine
@@ -730,6 +772,7 @@ quippy
 qutip
 r-acepack
 r-ade4
+r-adegenet
 r-agricolae
 r-akima
 r-amap
@@ -781,7 +824,9 @@ r-dbscan
 r-ddalpha
 r-ddrtree
 r-delaporte
+r-deoptim
 r-depmixs4
+r-desctools
 r-dicedesign
 r-dimred
 r-dixontest
@@ -813,6 +858,7 @@ r-gamlss
 r-gap
 r-gbm
 r-gdtools
+r-geiger
 r-geometry
 r-gert
 r-ggforce
@@ -869,6 +915,7 @@ r-marginaleffects
 r-mass
 r-mclust
 r-mcmcprecision
+r-memuse
 r-metaskat
 r-mgcv
 r-mhsmm
@@ -911,6 +958,7 @@ r-plsgenomics
 r-plsvarsel
 r-pmcmrplus
 r-poissonbinomial
+r-poppr
 r-praznik
 r-precrec
 r-princurve
@@ -940,6 +988,7 @@ r-rcppsimdjson
 r-rcppspdlog
 r-rcurl
 r-rdpack
+r-readods
 r-readr
 r-recommended
 r-remacor
@@ -959,6 +1008,7 @@ r-rlang
 r-rmariadb
 r-rmixmod
 r-rms
+r-rmsnumpress
 r-rmysql
 r-robust
 r-robustbase
@@ -1054,6 +1104,7 @@ rhumba
 rich
 rise
 rivet
+rjieba
 rmm
 rocm-smi
 root
@@ -1062,6 +1113,8 @@ rosdep
 rosdistro
 rrdtool
 ruff
+rustac
+rvlib
 s5cmd
 sage
 sasktran2
@@ -1084,6 +1137,7 @@ sdf
 sdl
 sdl_image
 sdsl-lite
+seqan-library
 shap
 shellcheck
 shrinkwrap
@@ -1100,6 +1154,7 @@ soapysdr-module-remote
 soapysdr-module-rtlsdr
 soapysdr-module-uhd
 socat
+sortmerna
 soxr-python
 spacy
 sparsehash
@@ -1114,6 +1169,7 @@ sqlglotrs
 sqsgenerator
 squashfuse
 srm
+stardist
 starship
 statsforecast
 statsmodels
@@ -1151,6 +1207,7 @@ tini
 tinyxml
 tinyxml2
 tmux
+tnt
 tokyocabinet
 tomopy
 tornado
@@ -1199,6 +1256,7 @@ web3
 wgrib2
 wordcloud
 wurlitzer
+wxpython
 x265
 xcape
 xcb-util
@@ -1239,6 +1297,7 @@ xtensor-fftw
 xtensor-io
 xwebrtc
 yambo
+yappi
 yarp
 yoda
 yt
