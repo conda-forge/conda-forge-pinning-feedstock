@@ -221,11 +221,11 @@ aws_c_event_stream:
 aws_c_http:
   - 0.10.3
 aws_c_io:
-  - 0.21.1
+  - 0.21.2
 aws_c_mqtt:
   - 0.13.3
 aws_c_s3:
-  - 0.8.5
+  - 0.8.6
 aws_c_sdkutils:
   - 0.2.4
 aws_checksums:
