@@ -1,8 +1,0 @@
-migrator_ts: 1753244944
-__migrator:
-  kind: version
-  commit_message: Rebuild for libopenvino 2025.2.0
-  migration_number: 1
-  bump_number: 1
-libopenvino_dev:
-  - 2025.2.0
