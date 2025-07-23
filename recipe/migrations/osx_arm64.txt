@@ -842,6 +842,7 @@ natcap.invest
 nb_conda
 nb_conda_kernels
 ncbi-datasets-cli
+nccmp
 ncdu
 nco
 ncrystal
