@@ -4,4 +4,4 @@ __migrator:
   migration_number: 1
   bump_number: 1
 libopenvino_dev:
-  - 2025.1.0
+  - 2025.2.0
