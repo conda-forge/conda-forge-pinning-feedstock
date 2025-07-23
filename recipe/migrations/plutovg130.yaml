@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for plutovg 1.3.0
+  kind: version
+  migration_number: 1
+migrator_ts: 1753226620.1270192
+plutovg:
+- 1.3.0
