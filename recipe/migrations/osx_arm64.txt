@@ -232,6 +232,7 @@ cryptopp
 csp
 cspice
 css-html-js-minify
+ct3
 cunit
 cvxopt
 cvxpy
