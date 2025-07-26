@@ -681,6 +681,7 @@ liblsl
 libm2k
 libmamba
 libmediainfo
+libmemcached
 libmo_unpack
 libmongocxx
 libnetcdf
