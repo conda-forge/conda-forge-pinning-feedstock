@@ -1,3 +1,4 @@
+libmemcached
 abinit
 ablog
 accelerator-toolbox
