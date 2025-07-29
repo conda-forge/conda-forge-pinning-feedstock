@@ -593,6 +593,7 @@ inspiral-range
 integratorxx
 ipopt
 ipython
+isce2
 isce3
 isl
 islpy
