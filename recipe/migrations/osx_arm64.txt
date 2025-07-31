@@ -864,6 +864,7 @@ neuron
 newrelic
 nexus
 ngmix
+ngspice
 nifty
 niftyreg
 nim
