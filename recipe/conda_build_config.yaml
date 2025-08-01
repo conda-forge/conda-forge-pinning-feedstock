@@ -586,7 +586,7 @@ libparu:
 libpcap:
   - '1.10'
 libpnetcdf:
-  - 1.14.0
+  - 1.14.1
 libpng:
   - 1.6
 libprotobuf:
