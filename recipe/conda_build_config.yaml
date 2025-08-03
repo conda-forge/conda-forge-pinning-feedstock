@@ -625,7 +625,7 @@ libssh:
 libssh2:
   - 1
 libsvm:
-  - '335'
+  - '336'
 libsqlite:
   - 3
 libtensorflow:
