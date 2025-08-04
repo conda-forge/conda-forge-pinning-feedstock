@@ -291,6 +291,7 @@ gstlal-calibration
 gstlal-inspiral
 gstools
 gunicorn
+guppy3
 gymnasium
 gz-launch
 gzip
