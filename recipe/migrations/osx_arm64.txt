@@ -1314,6 +1314,7 @@ r-bayesm
 r-beeswarm
 r-bigrquery
 r-bipartite
+r-bootstrap
 r-cairo
 r-catboost
 r-changeforest
@@ -1455,6 +1456,7 @@ r-spelling
 r-splines2
 r-statnet.common
 r-suppdists
+r-survivalroc
 r-svglite
 r-terra
 r-testthat

@@ -800,6 +800,7 @@ r-bigrquery
 r-bindrcpp
 r-bitops
 r-blockmodeling
+r-bootstrap
 r-brglm
 r-brms
 r-bwstest
@@ -1053,6 +1054,7 @@ r-statnet.common
 r-strawr
 r-suppdists
 r-survival
+r-survivalroc
 r-survminer
 r-svd
 r-tfmpvalue
