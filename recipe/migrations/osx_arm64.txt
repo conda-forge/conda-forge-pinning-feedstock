@@ -521,6 +521,7 @@ gtk4
 gtkmm
 guardian
 gunicorn
+guppy3
 gwsurrogate
 gym
 gymnasium
