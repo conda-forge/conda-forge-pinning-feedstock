@@ -299,6 +299,8 @@ djvulibre
 dkh
 dlib-cpp
 dm-tree
+dmri-amico
+dmri-dicelib
 docker-buildx
 docker-cli
 docker-compose
