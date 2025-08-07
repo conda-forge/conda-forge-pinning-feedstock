@@ -298,6 +298,8 @@ divemesh
 djvulibre
 dkh
 dlib-cpp
+dmri-amico
+dmri-dicelib
 dm-tree
 docker-buildx
 docker-cli
