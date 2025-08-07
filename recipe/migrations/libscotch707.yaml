@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libscotch 7.0.7
+  kind: version
+  migration_number: 1
+libptscotch:
+- 7.0.7
+libscotch:
+- 7.0.7
+migrator_ts: 1754607527.3348927
+ptscotch:
+- 7.0.7
+scotch:
+- 7.0.7
