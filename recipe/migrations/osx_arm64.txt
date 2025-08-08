@@ -299,6 +299,8 @@ djvulibre
 dkh
 dlib-cpp
 dm-tree
+dmri-amico
+dmri-dicelib
 docker-buildx
 docker-cli
 docker-compose
@@ -1314,6 +1316,7 @@ r-bayesm
 r-beeswarm
 r-bigrquery
 r-bipartite
+r-bootstrap
 r-cairo
 r-catboost
 r-changeforest
@@ -1451,10 +1454,12 @@ r-slider
 r-sn
 r-sodium
 r-sourcetools
+r-sparsesvd
 r-spelling
 r-splines2
 r-statnet.common
 r-suppdists
+r-survivalroc
 r-svglite
 r-terra
 r-testthat
@@ -1589,6 +1594,7 @@ shapely
 shapelysmooth
 shellcheck
 shredx
+shrinkwrap
 siesta
 simple-build-system
 simpleeval
@@ -1689,6 +1695,7 @@ time-machine
 timezonefinder
 tinyxml
 tinyxml2
+tio
 tippecanoe
 titiler-core
 tl2cgen

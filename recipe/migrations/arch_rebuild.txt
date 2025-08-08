@@ -122,7 +122,9 @@ cuda-cccl-impl
 cuda-command-line-tools
 cuda-compat
 cuda-compiler
+cuda-ctadvisor
 cuda-cudart
+cuda-culibos
 cuda-cuobjdump
 cuda-cupti
 cuda-cuxxfilt
@@ -799,6 +801,7 @@ r-bigrquery
 r-bindrcpp
 r-bitops
 r-blockmodeling
+r-bootstrap
 r-brglm
 r-brms
 r-bwstest
@@ -1052,6 +1055,7 @@ r-statnet.common
 r-strawr
 r-suppdists
 r-survival
+r-survivalroc
 r-survminer
 r-svd
 r-tfmpvalue
