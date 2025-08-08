@@ -1454,6 +1454,7 @@ r-slider
 r-sn
 r-sodium
 r-sourcetools
+r-sparsesvd
 r-spelling
 r-splines2
 r-statnet.common
@@ -1593,6 +1594,7 @@ shapely
 shapelysmooth
 shellcheck
 shredx
+shrinkwrap
 siesta
 simple-build-system
 simpleeval
