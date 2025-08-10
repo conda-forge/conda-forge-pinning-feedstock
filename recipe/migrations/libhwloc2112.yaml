@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libhwloc 2.11.2
-  kind: version
-  migration_number: 1
-libhwloc:
-- 2.11.2
-migrator_ts: 1727390615.47357
