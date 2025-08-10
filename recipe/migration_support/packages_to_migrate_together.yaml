@@ -83,9 +83,9 @@ mkl:
   - mkl
   - mkl_devel
 
-mumps-mpi:
-  - mumps-mpi
-  - mumps-seq
+mumps_mpi:
+  - mumps_mpi
+  - mumps_seq
 
 petsc:
   - petsc
