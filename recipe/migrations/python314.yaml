@@ -33,7 +33,7 @@ __migrator:
             - pyqt
     additional_zip_keys:
         - channel_sources
-    wait_for_migrators
+    wait_for_migrators:
         - python313
 
 python:
