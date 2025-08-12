@@ -28,6 +28,7 @@ __migrator:
       - 12.8
       - None
       - 12.9
+      - 13.0
       - 11.8
     cuda_compiler_version_min:
       - 12.4
