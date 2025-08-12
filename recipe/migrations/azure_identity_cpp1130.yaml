@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for azure_identity_cpp 1.13.0
+  kind: version
+  migration_number: 1
+azure_identity_cpp:
+- 1.13.0
+migrator_ts: 1755027682.4097502
