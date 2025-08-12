@@ -1,5 +1,6 @@
 migrator_ts: 1755016036
 __migrator:
+  use_local: true
   kind:
     version
   migration_number:
@@ -23,6 +24,8 @@ __migrator:
       # https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/7472
       # must be last due to how cuda_compiler ordering in that migrator works
       - 11.8
+  wait_for_migrators:
+    - cuda129
   commit_message: |
     Upgrade to CUDA 13.0
 
@@ -41,16 +44,21 @@ __migrator:
     ref: https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#new-features
 
 cuda_compiler_version:         # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - None                       # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 12.9                       # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 13.0                       # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cuda_compiler_version_min:     # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 12.9                       # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 c_compiler_version:            # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 14                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 15                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cxx_compiler_version:          # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 14                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 15                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 fortran_compiler_version:      # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 14                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 15                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
