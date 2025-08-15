@@ -301,6 +301,7 @@ dlib-cpp
 dm-tree
 dmri-amico
 dmri-dicelib
+doas_cl
 docker-buildx
 docker-cli
 docker-compose
@@ -1280,6 +1281,7 @@ pyworld
 pyxattr
 pyyaml
 pyzstd
+qdoas
 qe
 qgis
 qgrid

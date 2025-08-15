@@ -258,7 +258,7 @@ bzip2:
 c_ares:
   - 1
 c_blosc2:
-  - '2.19'
+  - '2.20'
 cairo:
   - 1
 capnproto:
@@ -314,7 +314,7 @@ flann:
 flatbuffers:
   - 24.12.23
 fmt:
-  - '10'
+  - '11.2'
 fontconfig:
   - 2
 freetype:
@@ -395,7 +395,7 @@ imath:
 impi_devel:
   - "2021.14"
 ipopt:
-  - 3.14.17
+  - 3.14.19
 isl:
   - '0.26'
 jasper:
@@ -871,7 +871,7 @@ re2:
 readline:
   - "8"
 rocksdb:
-  - '10.4'
+  - '10.5'
 root_base:
   - 6.32.10
   - 6.34.4
@@ -911,7 +911,7 @@ soapysdr:
 sox:
   - 14.4.2
 spdlog:
-  - '1.13'
+  - '1.15'
 spirv_tools:
   - 2024
 sqlite:
@@ -943,7 +943,7 @@ tiledb:
 ucc:
   - 1
 ucx:
-  - '1.18'
+  - '1.19'
 uhd:
   - 4.8.0
 urdfdom:
