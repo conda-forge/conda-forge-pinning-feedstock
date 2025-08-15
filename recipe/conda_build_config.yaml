@@ -5,8 +5,6 @@ c_compiler:
 c_compiler_version:            # [unix]
   - 14                         # [linux]
   - 19                         # [osx]
-  # CUDA 12.4 on PPC does not support GCC 13
-  - 12                         # [linux and ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   # CUDA 12.6 doesn't support GCC 14
   - 13                         # [linux and not ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 c_stdlib:
@@ -28,7 +26,6 @@ cxx_compiler:
 cxx_compiler_version:          # [unix]
   - 14                         # [linux]
   - 19                         # [osx]
-  - 12                         # [linux and ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 13                         # [linux and not ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 llvm_openmp:                   # [osx]
   - 19                         # [osx]
@@ -40,7 +37,6 @@ fortran_compiler_version:      # [unix or win64]
   - 14                         # [linux]
   - 14                         # [osx]
   - 5                          # [win64]
-  - 12                         # [linux and ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 13                         # [linux and not ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 m2w64_c_compiler:                 # [win]
   - gcc                           # [win]
@@ -59,11 +55,9 @@ cuda_compiler:
   - cuda-nvcc
 cuda_compiler_version:
   - None
-  - 12.4                       # [linux and ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 12.6                       # [((linux and not ppc64le) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version_min:
   - None                       # [osx]
-  - 12.4                       # [linux and ppc64le]
   - 12.6                       # [(linux and not ppc64le) or win64]
 
 arm_variant_type:              # [aarch64]
