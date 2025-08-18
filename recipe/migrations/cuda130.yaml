@@ -41,7 +41,7 @@ __migrator:
 
     ref: https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#new-features
 
-    > [!IMPORTANT]
+    > [[!IMPORTANT]]
     > Remember to update any CUDA 11/12 specific selector syntax in the recipe to include
     > CUDA 13. For example `# [(cuda_compiler_version or "None").startswith("12")]`
     > might be replaced with `# [cuda_compiler_version != "None"]`.
