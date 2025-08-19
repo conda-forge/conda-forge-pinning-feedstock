@@ -1,4 +1,5 @@
-migrator_ts: 1755549433
+# In order to work, this timestamp needs to be newer than all other CUDA migrators
+migrator_ts: 2145938400  # 2038-01-01
 __migrator:
   kind:
     version
