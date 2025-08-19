@@ -624,6 +624,7 @@ perl-storbale
 perl-sub-uplevel
 perl-termreadkey
 perl-unix-processors
+perl-uri
 perl-version
 perl-yaml-libyaml
 perspective

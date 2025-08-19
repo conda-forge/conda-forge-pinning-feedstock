@@ -989,6 +989,7 @@ perl-dbi
 perl-digest-md5
 perl-encode
 perl-io-tty
+perl-lwp-simple
 perl-mime-base64
 perl-module-build
 perl-moose
@@ -997,6 +998,7 @@ perl-package-stash
 perl-params-util
 perl-pathtools
 perl-scalar-list-utils
+perl-socket
 perl-storable
 perl-sub-uplevel
 perl-unicode-linebreak
@@ -1004,6 +1006,7 @@ perl-unix-processors
 perl-uri
 perl-version
 perl-xml-parser
+perl-yaml-libyaml
 perspective
 pestpp
 petsc
