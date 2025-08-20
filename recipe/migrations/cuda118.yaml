@@ -1,4 +1,5 @@
-migrator_ts: 1748496951
+# In order to work, this timestamp needs to be newer than all other CUDA migrators
+migrator_ts: 2145938400  # 2038-01-01
 __migrator:
   kind:
     version
@@ -28,6 +29,7 @@ __migrator:
       - 12.8
       - None
       - 12.9
+      - 13.0
       - 11.8
     cuda_compiler_version_min:
       - 12.4
@@ -44,6 +46,9 @@ cuda_compiler_version:      # [(linux or win64) and os.environ.get("CF_CUDA_ENAB
 
 cuda_compiler_version_min:  # [linux or win64]
   - 11.8                    # [linux or win64]
+
+c_stdlib_version:           # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 2.17                    # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 c_compiler_version:         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 11                      # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
