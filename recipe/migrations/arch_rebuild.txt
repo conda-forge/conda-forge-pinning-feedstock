@@ -1004,6 +1004,7 @@ r-restfulr
 r-reticulate
 r-rfast
 r-rgl
+r-rgtk2
 r-riags
 r-rjags
 r-rjava
