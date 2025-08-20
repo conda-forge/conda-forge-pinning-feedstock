@@ -1436,6 +1436,7 @@ r-reprex
 r-reshape
 r-reticulate
 r-rfast
+r-rgtk2
 r-rhpcblasctl
 r-rhub
 r-rjags
