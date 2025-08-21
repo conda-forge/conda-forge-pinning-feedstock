@@ -40,4 +40,4 @@ python:
 is_python_min:
 - false
 channel_sources:
-- conda-forge/label/python_rc,conda-forge
+- conda-forge,conda-forge/label/python_rc
