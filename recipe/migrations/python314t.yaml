@@ -46,4 +46,4 @@ is_python_min:
 is_abi3:
 - false
 channel_sources:
-- conda-forge/label/python_rc,conda-forge
+- conda-forge,conda-forge/label/python_rc
