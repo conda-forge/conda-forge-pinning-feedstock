@@ -1,3 +1,6 @@
+# this is intentionally sorted before the 3.13t migrator, because that determines
+# the order of application of the migrators; otherwise we'd have to add values for
+# is_freethreading and is_abi3 keys here, since that migration extends the zip
 migrator_ts: 1724712607
 __migrator:
     commit_message: Rebuild for python 3.14

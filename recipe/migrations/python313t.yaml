@@ -12,6 +12,7 @@ __migrator:
             - 3.12.* *_cpython
             - 3.13.* *_cp313  # new entry
             - 3.13.* *_cp313t  # new entry
+            - 3.14.* *_cp314
     paused: true
     longterm: true
     pr_limit: 20
