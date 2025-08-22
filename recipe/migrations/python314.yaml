@@ -6,7 +6,7 @@
 migrator_ts: 1724800000
 __migrator:
     commit_message: Rebuild for python 3.14
-    migration_number: 1
+    migration_number: 2
     operation: key_add
     primary_key: python
     ordering:
