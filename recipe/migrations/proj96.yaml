@@ -3,6 +3,7 @@ __migrator:
   commit_message: Rebuild for proj 9.6
   kind: version
   migration_number: 1
+  uuid: dbdd6e73-f84d-4e7e-a8d0-4e5aa1eeceb7
 migrator_ts: 1742231246.28522
 proj:
 - '9.6'

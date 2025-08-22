@@ -3,6 +3,7 @@ __migrator:
   commit_message: Rebuild for libhwloc 2.12.1
   kind: version
   migration_number: 1
+  uuid: 0b04c9ca-e9a6-497f-8594-bb88be151566
 libhwloc:
 - 2.12.1
 migrator_ts: 1752767871.1594095

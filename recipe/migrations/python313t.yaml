@@ -4,6 +4,7 @@ migrator_ts: 1724712608
 __migrator:
     commit_message: Rebuild for python 3.13 freethreading
     migration_number: 1
+    uuid: a321ab34-3661-4533-bfbc-46a8147b79aa
     operation: key_add
     primary_key: python
     ordering:

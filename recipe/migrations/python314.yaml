@@ -7,6 +7,7 @@ migrator_ts: 1724712514
 __migrator:
     commit_message: Rebuild for python 3.14
     migration_number: 1
+    uuid: 35921f54-12cd-4315-a4f2-7dcdb9249fc1
     operation: key_add
     primary_key: python
     ordering:

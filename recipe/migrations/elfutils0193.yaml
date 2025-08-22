@@ -3,6 +3,7 @@ __migrator:
   commit_message: Rebuild for elfutils 0.193
   kind: version
   migration_number: 1
+  uuid: 6c5c6e34-012e-424d-b207-bcc3fb334139
 elfutils:
 - '0.193'
 migrator_ts: 1752930797.9896646

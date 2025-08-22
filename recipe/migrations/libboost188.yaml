@@ -3,6 +3,7 @@ __migrator:
   kind: version
   commit_message: "Rebuild for libboost 1.88"
   migration_number: 1
+  uuid: c5326743-fe79-4454-a5c8-422a911f18c1
 libboost_devel:
 - "1.88"
 libboost_headers:

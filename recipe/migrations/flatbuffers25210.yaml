@@ -3,6 +3,7 @@ __migrator:
   commit_message: Rebuild for flatbuffers 25.2.10
   kind: version
   migration_number: 1
+  uuid: 5e7641bb-e5ed-43b3-9eb9-a300a81407ff
 flatbuffers:
 - 25.2.10
 migrator_ts: 1747133790.3211389

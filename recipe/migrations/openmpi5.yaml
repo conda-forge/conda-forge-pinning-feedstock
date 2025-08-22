@@ -3,6 +3,7 @@ __migrator:
   commit_message: Rebuild for openmpi 5
   kind: version
   migration_number: 1
+  uuid: e644c11f-0420-46ad-b721-510a0783f236
 migrator_ts: 1703196161.1453235
 openmpi:
 - '5'

@@ -3,6 +3,7 @@ __migrator:
   commit_message: Rebuild for poppler 25.07
   kind: version
   migration_number: 1
+  uuid: ca792b5f-9005-4132-9f7a-72c20b891fc3
 migrator_ts: 1753309279.7241495
 poppler:
 - '25.07'

@@ -7,6 +7,7 @@ __migrator:
     1
   build_number:
     1
+  uuid: 3a87cd1a-147c-4ec3-8846-16a52ab109c4
   # This is intended as a _manual_ migrator to re-add CUDA 11.8, after we
   # dropped it as version that's built by default; DO NOT unpause
   paused: true
