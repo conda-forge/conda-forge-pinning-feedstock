@@ -14,11 +14,17 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # fetch full history so we can diff properly
 
-      - name: Find new migration files
+      - name: Fetch base branch
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+
+      - name: Find newly added migration files
         id: find_files
         run: |
-          # Compare PR branch against base, only include added files
+          # Diff only added files between base branch and PR HEAD
           files=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }}...HEAD | grep '^recipe/migrations/' || true)
 
           echo "new_migrators=$new_migrators" >> $GITHUB_OUTPUT
