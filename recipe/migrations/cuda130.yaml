@@ -26,7 +26,7 @@ __migrator:
     - cuda129
   commit_message: |
     Upgrade to CUDA 13.0
-
+    
     CUDA 13.0 requires architecture `sm_75` or higher, and renamed `sm_101` to
     `sm_110`. To build for these, maintainers will need to modify their existing list of
     specified architectures (e.g. `CMAKE_CUDA_ARCHITECTURES`, `TORCH_CUDA_ARCH_LIST`, etc.)

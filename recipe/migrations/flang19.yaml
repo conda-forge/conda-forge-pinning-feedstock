@@ -4,27 +4,27 @@ __migrator:
   build_number: 1
   commit_message: |
     Rebuild for flang 19
-
+    
     TL;DR: We are trying to switch our Fortran compilers on windows to flang.
     This is not 100% guaranteed to work, but should be fine in the majority of cases.
-
+    
     The new LLVM-based flang has become mature enough that it should be possible to
     broadly switch over our Fortran compilers on windows to it (until now we only had
     an ancient pre-LLVM flang 5, or alternatively the GCC-based `m2w64_fortran`).
-
+    
     As such, this PR attempts to homogenize any use of `m2w64_fortran` and other `m2w64_*`
     compilers to our default stack (which would then be MSVC + flang on windows), with
     the exception of feedstocks for R-packages, which stay on the `m2w64_` compilers.
-
+    
     Recipes that have hard-coded expectations about the name of the fortran compiler
     will need to adjust to use `%FC%` or `flang-new` for the compiler name. Similarly,
     you may need to change the linker to `%LD%` or use `lld-link`.
-
+    
     It is also possible that you run into compilation errors due to differences in
     compiler behaviour, bugs or as-yet unimplemented features. In case of compilation
     errors due to stricter default language standards, you should be able to fix things
     by passing `-std=legacy` to `FFLAGS`.
-
+    
     If you have problems with this PR, feel free to ping the @c-f/flang-activation team.
     In case you have convinced yourself that flang really is not ready yet to be used to
     compile a given feedstock, you may also close this migrator PR.
