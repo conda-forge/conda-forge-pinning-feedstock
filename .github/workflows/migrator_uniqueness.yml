@@ -5,11 +5,13 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  migration-check:
+  migrator-name-uniqueness-check:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pull-requests: read
+    env:
+      GH_TOKEN: ${{ github.token }}
 
     steps:
       - name: Checkout code
