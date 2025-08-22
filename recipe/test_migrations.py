@@ -127,7 +127,7 @@ def test_timestamps_unique_in_pr():
                 f"Migrator {os.path.basename(filename)} does not have a unique timestamp!"
             )
             timestamps.add(data["migrator_ts"])
-            print("  - %r"  % data["migrator_ts"], flush=True)
+            print("  - %r" % data["migrator_ts"], flush=True)
 
 
 @pytest.mark.parametrize("filename", all_migrations, ids=all_migration_ids)
