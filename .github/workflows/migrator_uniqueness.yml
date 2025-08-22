@@ -25,7 +25,7 @@ jobs:
         id: find_files
         run: |
           # Diff only added files between base branch and PR HEAD
-          files=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }}...HEAD | grep '^recipe/migrations/' || true)
+          new_migrators=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }}...HEAD | grep '^recipe/migrations/' || true)
 
           echo "new_migrators=$new_migrators" >> $GITHUB_OUTPUT
 
