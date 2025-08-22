@@ -28,6 +28,7 @@ test:
     - python >=3.8
     - pyyaml
     - pytest
+    - git
   commands:
     - test -f $PREFIX/conda_build_config.yaml                       # [unix]
     - test -f $PREFIX/share/conda-forge/migrations/example.exyaml   # [unix]
