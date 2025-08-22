@@ -43,13 +43,24 @@ jobs:
             echo "Checking for existing uses of migrator $migrator in conda-forge..."
 
             # Search in GH-org with exact path where migrators end up
-            query=$(printf "org:conda-forge path:.ci_support/migrations/$migrator" | jq -sRr @uri)
-            response=$(curl -s -H "Accept: application/vnd.github+json" \
-                             -H "Authorization: token $GH_TOKEN" \
-                             "https://api.github.com/search/code?q=$query")
-            echo "Sent $query"
-            echo "Got $response"
-            num_hits=$(echo "$response" | jq '[.items[] | select(.repository.archived == false)] | length')
+            query="org:conda-forge path:.ci_support/migrations/$migrator"
+
+            # https://api.github.com/search/code?q=... uses the heavily under-powered
+            # legacy search API; we need the newer API (same as searching in web UI)
+            # that's only available through graphql apparently
+            num_hits=$(gh api graphql -f query='
+              query($queryString: String!) {
+                search(query: $queryString, type: CODE, first: 10) {
+                  nodes {
+                    ... on Code {
+                      repository { nameWithOwner isArchived }
+                      path
+                    }
+                  }
+                  codeCount
+                }
+              }' -f queryString="$queryString" \
+              --jq '.data.search.nodes | map(select(.repository.isArchived == false)) | length')
 
             if [ "$num_hits" -gt 0 ]; then
               echo "Found $num_hits existing occurrences of migrator $migrator in conda-forge"
