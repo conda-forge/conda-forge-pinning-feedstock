@@ -44,7 +44,7 @@ def test_uuids_unique_and_recorded():
     for filename in all_migrations:
         with open(filename, "r", encoding="utf-8") as f:
             data = yaml.load(f, Loader=yaml.SafeLoader)
-            assert data["__migrator"].get("uuid", None) is not None, (
+            assert data["__migrator"].get("uuid", None) not in [None, "None", "none"], (
                 f"Migrator {os.path.basename(filename)} does not have a non-None UUID!"
             )
             assert data["__migrator"]["uuid"] not in uuids, (
