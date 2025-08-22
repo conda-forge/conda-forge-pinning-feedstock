@@ -48,7 +48,7 @@ jobs:
             # that's only available through graphql apparently
             query='
             query {
-              search(query:"org:conda-forge path:.ci_support/migrations/python314t.yaml", type: CODE, first: 10) {
+              search(query:"org:conda-forge path:.ci_support/migrations/$migrator", type: CODE, first: 10) {
                 codeCount
                 nodes {
                   ... on Code {
@@ -58,10 +58,10 @@ jobs:
                 }
               }
             }'
-            response=$(curl -s -H "Authorization: bearer $GH_TOKEN" \
-                             -H "Content-Type: application/json" \
-                             -d "{\"query\": \"$query\"}" \
-                             https://api.github.com/graphql)
+            response=$(jq -n --arg q "$query" '{query: $q}' | \
+                       curl -s -H "Authorization: bearer $GH_TOKEN" \
+                            -H "Content-Type: application/json" \
+                            -d @- https://api.github.com/graphql)
 
             echo "Sent $query"
             echo "Got $response"
