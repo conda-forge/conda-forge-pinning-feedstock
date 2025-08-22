@@ -3,7 +3,7 @@
 # is_freethreading and is_abi3 keys here, since that migration extends the zip;
 # at the same time, we cannot reuse the timestamp of the former 3.13 migration, see
 # https://github.com/conda-forge/conda-smithy/issues/2367
-migrator_ts: 1724800000
+migrator_ts: 1724712514
 __migrator:
     commit_message: Rebuild for python 3.14
     migration_number: 1
