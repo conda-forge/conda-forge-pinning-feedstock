@@ -8,35 +8,12 @@ import pytest
 import yaml
 
 PREFIX = os.environ.get("PREFIX", os.environ.get("CONDA_PREFIX"))
-migrations_path = Path(PREFIX) / "share" / "conda-forge" / "migrations"
+# migrations_path = Path(PREFIX) / "share" / "conda-forge" / "migrations"
+migrations_path = Path(os.getcwd()) / "migrations"
 all_migrations = list(migrations_path.glob("*.yaml"))
 all_migration_ids = [os.path.basename(pth) for pth in all_migrations]
 
 print(f"Checking migrations in {migrations_path}", flush=True)
-
-
-@pytest.fixture(scope="session")
-def current_migrations():
-    with tempfile.TemporaryDirectory() as tmpdir:
-        subprocess.run(
-            [
-                "git",
-                "clone",
-                "--depth=1",
-                "https://github.com/conda-forge/conda-forge-pinning-feedstock.git",
-                os.path.join(tmpdir, "cfp"),
-            ],
-            check=True,
-            capture_output=True,
-        )
-        return frozenset(
-            [
-                os.path.basename(pth)
-                for pth in glob.glob(
-                    os.path.join(tmpdir, "cfp", "recipe", "migrations", "*.yaml")
-                )
-            ]
-        )
 
 
 def test_all_extensions_are_yaml():
@@ -86,7 +63,6 @@ def test_timestamps_against_main():
             [
                 "git",
                 "clone",
-                "--depth=1",
                 "https://github.com/conda-forge/conda-forge-pinning-feedstock.git",
                 os.path.join(tmpdir, "cfp"),
             ],
@@ -101,23 +77,27 @@ def test_timestamps_against_main():
                 )
             ]
         )
-
         for filename in all_migrations:
             with open(filename, "r", encoding="utf-8") as f:
                 data = yaml.load(f, Loader=yaml.SafeLoader)
                 if os.path.basename(filename) not in current_migrations:
+                    print(
+                        f"testing new migration {os.path.basename(filename)}",
+                        flush=True,
+                    )
                     ret = subprocess.run(
                         [
                             "git",
                             "log",
                             "-G",
-                            rf"^migrator_ts: +{data['migrator_ts']!r}\s*$",
+                            f"^migrator_ts:[[:space:]]+{data['migrator_ts']!r}",
                         ],
                         check=True,
                         stdout=subprocess.PIPE,
                         stderr=subprocess.STDOUT,
+                        cwd=os.path.join(tmpdir, "cfp"),
                     )
                     assert ret.stdout == b"", (
                         f"Migration {os.path.basename(filename)} doesn't have a unique timestamp! "
-                        f"It's timestamp matches commit:\n{ret.stdout.decode('utf-8')}"
+                        f"It's timestamp matches commit:\n\n{ret.stdout.decode('utf-8')}"
                     )
