@@ -30,7 +30,7 @@ def test_timestamps_numeric(filename):
         )
 
 
-def test_uuids_unique_and_recorded(filename):
+def test_uuids_unique_and_recorded():
     with open(
         migrations_path / ".." / "migration_support" / "uuids.yaml",
         "r",
