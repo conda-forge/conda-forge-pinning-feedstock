@@ -43,7 +43,9 @@ jobs:
             echo "Checking for existing uses of migrator $migrator in conda-forge..."
 
             # Search in GH-org with exact path where migrators end up
-            num_hits=$(gh search code "org:conda-forge path:.ci_support/migrations/$migrator" --json repository --jq 'map(select(.repository.isArchived == false)) | length')
+            num_hits=$(gh search code "org:conda-forge path:.ci_support/migrations/ filename:$filename" \
+              --json repository \
+              --jq 'map(select(.repository.isArchived == false)) | length')
 
             if [ "$num_hits" -gt 0 ]; then
               echo "Found $num_hits existing occurrences of migrator $migrator in conda-forge"
