@@ -1364,6 +1364,7 @@ r-gsl
 r-gsw
 r-gtools
 r-gunifrac
+r-harmony
 r-hexbin
 r-hmisc
 r-hunspell

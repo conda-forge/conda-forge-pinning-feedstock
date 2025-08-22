@@ -879,6 +879,7 @@ r-gstat
 r-gsw
 r-gtools
 r-gwasexacthw
+r-harmony
 r-haven
 r-hh
 r-hiddenmarkov
