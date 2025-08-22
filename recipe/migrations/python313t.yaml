@@ -1,6 +1,6 @@
-# needs to be both after the timestamps of the (now-deleted) 3.13 migrator,
-# as well as after the one for 3.14 (due to how additional_zip_keys get applied)
-migrator_ts: 1724900000
+# needs to be after the timestamp of the one for 3.14 (due to how additional_zip_keys get applied)
+# do *NOT* change this value
+migrator_ts: 1724712608
 __migrator:
     commit_message: Rebuild for python 3.13 freethreading
     migration_number: 1
