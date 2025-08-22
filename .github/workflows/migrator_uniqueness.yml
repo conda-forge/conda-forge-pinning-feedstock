@@ -45,7 +45,7 @@ jobs:
             # Search in GH-org with exact path where migrators end up
             # https://stackoverflow.com/a/46317804
             query=$(printf "org:conda-forge path:.ci_support/migrations/$migrator" | jq -sRr @uri)
-            response=$(curl -s -H "Accept: application/vnd.github.v3.raw+json" \
+            response=$(curl -s -H "Accept: application/vnd.github.v3.raw" \
                              -H "Authorization: token $GH_TOKEN" \
                              "https://api.github.com/search/code?q=$query")
             echo "Sent $query"
