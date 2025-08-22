@@ -50,7 +50,7 @@ jobs:
             # that's only available through graphql apparently
             num_hits=$(gh api graphql -f query='
               query($queryString: String!) {
-                search(query: $queryString, type: CODE, first: 10) {
+                search(query: $queryString) {
                   nodes {
                     ... on Code {
                       repository { nameWithOwner isArchived }
