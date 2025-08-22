@@ -79,6 +79,8 @@ def test_timestamps_unique_in_pr():
 
 
 def test_timestamps_against_main():
+    # we clone here since the main branch on the PR may not be up to date
+    # and the tests are run outside of the repo in many cases
     with tempfile.TemporaryDirectory() as tmpdir:
         subprocess.run(
             [
