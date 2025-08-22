@@ -22,7 +22,7 @@ jobs:
           git fetch origin ${{ github.base_ref }} --depth=1
 
       - name: Find newly added migration files
-        id: find_files
+        id: find_migrators
         run: |
           # Diff only added files between base branch and PR HEAD
           new_migrators=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }}...HEAD | grep '^recipe/migrations/' || true)
@@ -33,10 +33,10 @@ jobs:
           echo "new_migrators=$new_migrators" >> $GITHUB_OUTPUT
 
       - name: Search for existing uses of that migrator in conda-forge
-        if: steps.find_files.outputs.new_migrators != ''
+        if: steps.find_migrators.outputs.new_migrators != ''
         run: |
           failed=0
-          for m in ${new_migrators}; do
+          for m in ${{ steps.find_migrators.outputs.new_migrators }}; do
             migrator=$(basename "$m")
             echo "Checking for existing uses of migrator $migrator in conda-forge..."
 
