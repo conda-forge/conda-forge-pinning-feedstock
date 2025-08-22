@@ -18,8 +18,8 @@ jobs:
       - name: Find new migration files
         id: find_files
         run: |
-          # Get only added files under recipe/migrations/
-          new_migrators=$(gh pr diff "$pr_number" --name-only --diff-filter=A | grep '^recipe/migrations/' || true)
+          # Compare PR branch against base, only include added files
+          files=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }}...HEAD | grep '^recipe/migrations/' || true)
 
           echo "new_migrators=$new_migrators" >> $GITHUB_OUTPUT
 
