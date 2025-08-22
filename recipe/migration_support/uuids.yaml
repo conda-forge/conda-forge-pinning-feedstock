@@ -1,0 +1,5 @@
+# this file has a list of all uuids ever used for a migration
+# and is used to check for errors when new migrations are added or
+# existing migrations are edited
+uuids: []
+

@@ -22,13 +22,17 @@ build:
     - exit 1                                                          # [win]
 
 test:
+  files:
+    - test_migrations.py
   requires:
     - python >=3.8
     - pyyaml
+    - pytest
   commands:
     - test -f $PREFIX/conda_build_config.yaml                       # [unix]
     - test -f $PREFIX/share/conda-forge/migrations/example.exyaml   # [unix]
     - test -d $PREFIX/share/conda-forge/migration_support           # [unix]
+    - pytest -vvs test_migrations.py                                # [unix]
     - >-                                                                         # [unix]
       if [[ $(ls -1 $PREFIX/share/conda-forge/migrations/*.yml) != "" ]]; then   # [unix]
       echo "All migration files must end in .yaml" && exit 1;                    # [unix]
