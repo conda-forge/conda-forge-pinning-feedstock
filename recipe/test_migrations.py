@@ -101,5 +101,5 @@ def test_timestamps_against_main():
                     )
                     assert ret.stdout == b"", (
                         f"Migration {os.path.basename(filename)} doesn't have a unique timestamp! "
-                        f"It's timestamp matches commit:\n\n{ret.stdout.decode('utf-8')}"
+                        f"Its timestamp matches commit:\n\n{ret.stdout.decode('utf-8')}"
                     )
