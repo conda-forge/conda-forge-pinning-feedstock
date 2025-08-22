@@ -76,7 +76,6 @@ def test_timestamps_unique_in_pr():
                 f"Migrator {os.path.basename(filename)} does not have a unique timestamp!"
             )
             timestamps.add(data["migrator_ts"])
-            print("  - %r" % data["migrator_ts"], flush=True)
 
 
 def test_timestamps_against_main():
