@@ -16,18 +16,18 @@ print(f"Checking migrations in {migrations_path}", flush=True)
 
 
 @pytest.fixture(scope="session")
-def pr_all_uuids():
+def pr_all_timestamps():
     with open(
-        migrations_path / ".." / "migration_support" / "uuids.yaml",
+        migrations_path / ".." / "migration_support" / "timestamps.yaml",
         "r",
         encoding="utf-8",
     ) as f:
-        all_uuids = frozenset(yaml.load(f, Loader=yaml.SafeLoader)["uuids"])
-    return all_uuids
+        all_timestamps = frozenset(yaml.load(f, Loader=yaml.SafeLoader)["timestamps"])
+    return all_timestamps
 
 
 @pytest.fixture(scope="session")
-def main_all_uuids():
+def main_all_timestamps():
     with tempfile.TemporaryDirectory() as tmpdir:
         subprocess.run(
             [
@@ -41,15 +41,17 @@ def main_all_uuids():
             capture_output=True,
         )
         with open(
-            os.path.join(tmpdir, "cfp", "recipe", "migration_support", "uuids.yaml"),
+            os.path.join(
+                tmpdir, "cfp", "recipe", "migration_support", "timestamps.yaml"
+            ),
             "r",
             encoding="utf-8",
         ) as f:
-            all_uuids = yaml.load(f, Loader=yaml.SafeLoader)["uuids"]
-            assert len(set(all_uuids)) == len(all_uuids), (
-                "UUIDs in `recipe/migration_support/uuids.yaml` on main are not unique!"
+            all_timestamps = yaml.load(f, Loader=yaml.SafeLoader)["timestamps"]
+            assert len(set(all_timestamps)) == len(all_timestamps), (
+                "timestamps in `recipe/migration_support/timestamps.yaml` on main are not unique!"
             )
-        return frozenset(all_uuids)
+        return frozenset(all_timestamps)
 
 
 @pytest.fixture(scope="session")
@@ -76,15 +78,15 @@ def current_migrations():
         )
 
 
-def test_pr_all_uuids_unique():
+def test_pr_all_timestamps_unique():
     with open(
-        migrations_path / ".." / "migration_support" / "uuids.yaml",
+        migrations_path / ".." / "migration_support" / "timestamps.yaml",
         "r",
         encoding="utf-8",
     ) as f:
-        all_uuids = yaml.load(f, Loader=yaml.SafeLoader)["uuids"]
-        assert len(set(all_uuids)) == len(all_uuids), (
-            "UUIDs in `recipe/migration_support/uuids.yaml` in pr are not unique!"
+        all_timestamps = yaml.load(f, Loader=yaml.SafeLoader)["timestamps"]
+        assert len(set(all_timestamps)) == len(all_timestamps), (
+            "timestamps in `recipe/migration_support/timestamps.yaml` in pr are not unique!"
         )
 
 
@@ -108,58 +110,61 @@ def test_timestamps_numeric(filename):
 
 
 @pytest.mark.parametrize("filename", all_migrations, ids=all_migration_ids)
-def test_uuids_non_none(filename):
+def test_timestamps_non_none(filename):
     with open(filename, "r", encoding="utf-8") as f:
         data = yaml.load(f, Loader=yaml.SafeLoader)
-        assert data["__migrator"].get("uuid", None) not in [None, "None", "none"], (
-            f"Migrator {os.path.basename(filename)} does not have a non-None UUID!"
+        assert data["migrator_ts"] not in [None, "None", "none"], (
+            f"Migrator {os.path.basename(filename)} does not have a non-None timestamp!"
         )
 
 
-def test_uuids_unique_in_pr():
-    uuids = set()
+def test_timestamps_unique_in_pr():
+    timestamps = set()
     for filename in all_migrations:
         with open(filename, "r", encoding="utf-8") as f:
             data = yaml.load(f, Loader=yaml.SafeLoader)
-            assert data["__migrator"]["uuid"] not in uuids, (
-                f"Migrator {os.path.basename(filename)} does not have a unique UUID!"
+            assert data["migrator_ts"] not in timestamps, (
+                f"Migrator {os.path.basename(filename)} does not have a unique timestamp!"
             )
-            uuids.add(data["__migrator"]["uuid"])
+            timestamps.add(data["migrator_ts"])
+            print("  - " + data["migrator_ts"], flush=True)
 
 
 @pytest.mark.parametrize("filename", all_migrations, ids=all_migration_ids)
-def test_uuids_recorded_in_pr(filename, pr_all_uuids):
+def test_timestamps_recorded_in_pr(filename, pr_all_timestamps):
     with open(filename, "r", encoding="utf-8") as f:
         data = yaml.load(f, Loader=yaml.SafeLoader)
-        assert data["__migrator"]["uuid"] in pr_all_uuids, (
+        assert data["migrator_ts"] in pr_all_timestamps, (
             f"Migrator {os.path.basename(filename)} does not have its "
-            "UUID recorded in `recipe/migration_support/uuids.yaml`!"
+            "timestamp recorded in `recipe/migration_support/timestamps.yaml`!"
         )
 
 
-def test_uuids_against_main(pr_all_uuids, main_all_uuids, current_migrations):
-    assert len(pr_all_uuids) >= len(main_all_uuids), (
-        "Some UUIDs were removed from `migration_support/uuids.yaml` in the PR. Do not do that!"
+def test_timestamps_against_main(
+    pr_all_timestamps, main_all_timestamps, current_migrations
+):
+    assert len(pr_all_timestamps) >= len(main_all_timestamps), (
+        "Some timestamps were removed from `migration_support/timestamps.yaml` in the PR. Do not do that!"
     )
-    assert main_all_uuids <= pr_all_uuids, (
-        "Some UUIDs were removed from `migration_support/uuids.yaml` in the PR. Do not do that!"
+    assert main_all_timestamps <= pr_all_timestamps, (
+        "Some timestamps were removed from `migration_support/timestamps.yaml` in the PR. Do not do that!"
     )
 
-    new_uuids = set()
-    old_uuids = set()
+    new_timestamps = set()
+    old_timestamps = set()
     for filename in all_migrations:
         with open(filename, "r", encoding="utf-8") as f:
             data = yaml.load(f, Loader=yaml.SafeLoader)
             if os.path.basename(filename) not in current_migrations:
-                new_uuids.add(data["__migrator"]["uuid"])
+                new_timestamps.add(data["migrator_ts"])
             else:
-                old_uuids.add(data["__migrator"]["uuid"])
+                old_timestamps.add(data["migrator_ts"])
 
-    assert old_uuids <= main_all_uuids, (
-        "Some current migrator UUIDs are not recorded in the list of all "
-        "UUIDs in `recipe/migration_support/uuids.yaml` on main!"
+    assert old_timestamps <= main_all_timestamps, (
+        "Some current migrator timestamps are not recorded in the list of all "
+        "timestamps in `recipe/migration_support/timestamps.yaml` on main!"
     )
-    assert new_uuids.isdisjoint(main_all_uuids), (
-        "Some new migrator UUIDs are already recorded in the list of all "
-        "UUIDs in `recipe/migration_support/uuids.yaml` on main indicating a UUID collision!"
+    assert new_timestamps.isdisjoint(main_all_timestamps), (
+        "Some new migrator timestamps are already recorded in the list of all "
+        "timestamps in `recipe/migration_support/timestamps.yaml` on main indicating a timestamp collision!"
     )

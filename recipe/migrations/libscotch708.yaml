@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for libscotch 7.0.8
   kind: version
   migration_number: 1
-  uuid: 023c2a81-a22e-4dc7-bee3-fb5a6e00ab0b
 libptscotch:
 - 7.0.8
 libscotch:

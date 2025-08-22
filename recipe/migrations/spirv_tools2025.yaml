@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for spirv_tools 2025
   kind: version
   migration_number: 1
-  uuid: 2f2aa9cc-5998-4a10-b023-89389758186f
 migrator_ts: 1745415037.733261
 spirv_tools:
 - '2025'

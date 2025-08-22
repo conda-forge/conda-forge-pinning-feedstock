@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for geos 3.14.0
   kind: version
   migration_number: 1
-  uuid: 6dfac9bd-34c2-458a-8552-bbb1f99820d4
 geos:
 - 3.14.0
 migrator_ts: 1755854476.6168127

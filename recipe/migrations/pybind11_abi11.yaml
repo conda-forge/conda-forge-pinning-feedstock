@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for pybind11 3 and pybind11_abi 11
   kind: version
   migration_number: 1
-  uuid: c562ee23-4df5-4042-b8d0-6b5dc1e149e3
 migrator_ts: 1752454025.946169
 pybind11_abi:
 - '11'

@@ -2,7 +2,6 @@ __migrator:
   kind: version
   migration_number: 2
   build_number: 1
-  uuid: 223d6715-e892-4864-9556-7eaf1cb53681
   commit_message: |
     Rebuild for flang 19
 

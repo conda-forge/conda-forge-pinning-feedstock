@@ -3,7 +3,6 @@ __migrator:
   kind: version
   migration_number: 1
   bump_number: 1
-  uuid: a8bec819-4d1a-4c38-99e5-570db3e86784
 
 # This migration should also rename xz in host to liblzma-devel
 liblzma_devel:

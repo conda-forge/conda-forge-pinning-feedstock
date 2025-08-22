@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for pytorch 2.7
   kind: version
   migration_number: 1
-  uuid: e6254187-5263-4a8c-9864-ca53c307a629
 libtorch:
 - '2.7'
 pytorch:

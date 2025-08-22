@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for occt 7.9.0
   kind: version
   migration_number: 1
-  uuid: ea1329f1-5d67-4e0f-918f-1c06d74bccda
 migrator_ts: 1741529007.273448
 occt:
 - 7.9.0

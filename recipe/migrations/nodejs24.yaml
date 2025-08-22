@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for nodejs 24
   kind: version
   migration_number: 1
-  uuid: 122e2c22-962a-474a-b999-a43215f6c8cd
 migrator_ts: 1752132927.4207344
 nodejs:
 - '24'

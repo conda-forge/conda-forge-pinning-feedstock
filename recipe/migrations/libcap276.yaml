@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for libcap 2.76
   kind: version
   migration_number: 1
-  uuid: 16654da9-1dc0-41f0-870c-72eef51e99ff
 libcap:
 - '2.76'
 migrator_ts: 1744581108.5314796

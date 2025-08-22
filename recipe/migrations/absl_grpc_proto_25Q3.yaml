@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for libabseil 20250814, libgrpc 1.74 & libprotobuf 6.32.0
   kind: version
   migration_number: 1
-  uuid: 465ce628-5ec5-4dcc-b1b8-f8321c733d3b
   paused: true
   exclude:
     # core deps

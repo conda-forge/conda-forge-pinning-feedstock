@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for hdf5 1.14.6
   kind: version
   migration_number: 1
-  uuid: d21b3ea3-8abe-4cc3-ad93-98813a7f0a81
 hdf5:
 - 1.14.6
 migrator_ts: 1745181464.7240238

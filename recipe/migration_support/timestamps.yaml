@@ -1,0 +1,4 @@
+# this file has a list of all timestamps ever used for a migration
+# and is used to check for errors when new migrations are added or
+# existing migrations are edited
+timestamps: []

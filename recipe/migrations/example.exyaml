@@ -13,9 +13,6 @@ __migrator:
   # migration runs.
   # Change this to zero if the new pin increases the number of builds
   bump_number: 1
-  # generate a uuid via 
-  # python -c "import uuid; print(uuid.uuid4())"
-  uuid: null
 
 # The name of the feedstock you wish to migrate with dashes replaced by
 # underscores

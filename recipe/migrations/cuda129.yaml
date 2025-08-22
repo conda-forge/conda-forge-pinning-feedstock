@@ -6,7 +6,6 @@ __migrator:
     1
   build_number:
     1
-  uuid: d8939b89-d6e1-4484-8eae-962fcd0b7010
   paused: false
   override_cbc_keys:
     - cuda_compiler_stub

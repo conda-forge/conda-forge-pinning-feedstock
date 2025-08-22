@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for givaro 4.2.1
   kind: version
   migration_number: 1
-  uuid: 194947ab-a853-4534-8e77-8fce6b091f63
 givaro:
 - '4.2.1'
 migrator_ts: 1743092847
