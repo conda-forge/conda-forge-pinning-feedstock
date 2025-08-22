@@ -90,7 +90,7 @@ def test_timestamps_against_main():
                             "git",
                             "log",
                             "-G",
-                            f"^migrator_ts:[[:space:]]+{data['migrator_ts']!r}",
+                            f"^migrator_ts:[[:space:]]+{data['migrator_ts']!r}([[:space:]]+#|[[:space:]]*$)",
                         ],
                         check=True,
                         stdout=subprocess.PIPE,
