@@ -10,6 +10,7 @@ import yaml
 PREFIX = os.environ.get("PREFIX", os.environ.get("CONDA_PREFIX"))
 migrations_path = Path(PREFIX) / "share" / "conda-forge" / "migrations"
 all_migrations = list(migrations_path.glob("*.yaml"))
+all_migration_ids = [os.path.basename(pth) for pth in all_migrations]
 
 print(f"Checking migrations in {migrations_path}", flush=True)
 
@@ -18,13 +19,13 @@ def test_all_extensions_are_yaml():
     assert set(migrations_path.glob("*.yml")) == set()
 
 
-@pytest.mark.parametrize("filename", all_migrations)
+@pytest.mark.parametrize("filename", all_migrations, ids=all_migration_ids)
 def test_readable(filename):
     with open(filename, "r", encoding="utf-8") as f:
         yaml.load(f, Loader=yaml.SafeLoader)
 
 
-@pytest.mark.parametrize("filename", all_migrations)
+@pytest.mark.parametrize("filename", all_migrations, ids=all_migration_ids)
 def test_timestamps_numeric(filename):
     with open(filename, "r", encoding="utf-8") as f:
         data = yaml.load(f, Loader=yaml.SafeLoader)
@@ -33,7 +34,7 @@ def test_timestamps_numeric(filename):
         )
 
 
-@pytest.mark.parametrize("filename", all_migrations)
+@pytest.mark.parametrize("filename", all_migrations, ids=all_migration_ids)
 def test_uuids_non_none(filename):
     with open(filename, "r", encoding="utf-8") as f:
         data = yaml.load(f, Loader=yaml.SafeLoader)
