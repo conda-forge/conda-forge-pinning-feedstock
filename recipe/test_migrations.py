@@ -54,26 +54,25 @@ def test_uuids_unique_in_pr():
             uuids.add(data["__migrator"]["uuid"])
 
 
-def test_uuids_recorded_in_pr():
+@pytest.mark.parametrize("filename", all_migrations, ids=all_migration_ids)
+def test_uuids_recorded_in_pr(filename):
     with open(
         migrations_path / ".." / "migration_support" / "uuids.yaml",
         "r",
         encoding="utf-8",
     ) as f:
         all_uuids = yaml.load(f, Loader=yaml.SafeLoader)["uuids"]
-        assert len(set(all_uuids)) == len(all_uuids)
+        assert len(set(all_uuids)) == len(all_uuids), (
+            "UUIDs in `recipe/migration_support/uuids.yaml` in pr are not unique!"
+        )
     all_uuids = frozenset(all_uuids)
 
-    uuids = set()
-    for filename in all_migrations:
-        with open(filename, "r", encoding="utf-8") as f:
-            data = yaml.load(f, Loader=yaml.SafeLoader)
-            uuids.add(data["__migrator"]["uuid"])
-
-    assert uuids <= all_uuids, (
-        "Some migrator UUIDs are not recorded in the list of all "
-        "UUIDs in `recipe/migration_support/uuids.yaml`"
-    )
+    with open(filename, "r", encoding="utf-8") as f:
+        data = yaml.load(f, Loader=yaml.SafeLoader)
+        assert data["__migrator"]["uuid"] in all_uuids, (
+            f"Migrator {os.path.basename(filename)} does not have its "
+            "UUID recorded in `recipe/migration_support/uuids.yaml`!"
+        )
 
 
 def test_uuids_against_main():
@@ -83,7 +82,9 @@ def test_uuids_against_main():
         encoding="utf-8",
     ) as f:
         pr_all_uuids = yaml.load(f, Loader=yaml.SafeLoader)["uuids"]
-        assert len(set(pr_all_uuids)) == len(pr_all_uuids)
+        assert len(set(pr_all_uuids)) == len(pr_all_uuids), (
+            "UUIDs in `recipe/migration_support/uuids.yaml` in pr are not unique!"
+        )
     pr_all_uuids = frozenset(pr_all_uuids)
 
     with tempfile.TemporaryDirectory() as tmpdir:
@@ -104,7 +105,9 @@ def test_uuids_against_main():
             encoding="utf-8",
         ) as f:
             all_uuids = yaml.load(f, Loader=yaml.SafeLoader)["uuids"]
-            assert len(set(all_uuids)) == len(all_uuids)
+            assert len(set(all_uuids)) == len(all_uuids), (
+                "UUIDs in `recipe/migration_support/uuids.yaml` on main are not unique!"
+            )
         all_uuids = frozenset(all_uuids)
 
         curr_migrations = set(
