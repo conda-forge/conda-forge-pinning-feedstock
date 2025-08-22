@@ -18,7 +18,7 @@ __migrator:
             - 3.13.* *_cp313
             - 3.13.* *_cp313t
             - 3.14.* *_cp314  # new entry
-    paused: true
+    paused: false
     longterm: true
     pr_limit: 5
     max_solver_attempts: 3  # this will make the bot retry "not solvable" stuff 12 times
