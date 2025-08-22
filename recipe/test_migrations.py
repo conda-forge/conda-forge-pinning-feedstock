@@ -8,8 +8,10 @@ import pytest
 import yaml
 
 PREFIX = os.environ.get("PREFIX", os.environ.get("CONDA_PREFIX"))
-# migrations_path = Path(PREFIX) / "share" / "conda-forge" / "migrations"
-migrations_path = Path(os.getcwd()) / "migrations"
+if "CONDA_BUILD" in os.environ:
+    migrations_path = Path(PREFIX) / "share" / "conda-forge" / "migrations"
+else:
+    migrations_path = Path(os.path.dirname(__file__)) / "migrations"
 all_migrations = list(migrations_path.glob("*.yaml"))
 all_migration_ids = [os.path.basename(pth) for pth in all_migrations]
 
