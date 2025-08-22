@@ -111,7 +111,7 @@ def test_timestamps_against_main():
                             "git",
                             "log",
                             "-G",
-                            rf"^migrator_ts: +{data['migration_ts']:r}\s*$",
+                            rf"^migrator_ts: +{data['migrator_ts']:r}\s*$",
                         ],
                         check=True,
                         stdout=subprocess.PIPE,
