@@ -90,6 +90,7 @@ def test_timestamps_against_main():
                     ret = subprocess.run(
                         [
                             "git",
+                            "--no-pager",
                             "log",
                             "-G",
                             f"^migrator_ts:[[:space:]]+{data['migrator_ts']!r}([[:space:]]+#|[[:space:]]*$)",
