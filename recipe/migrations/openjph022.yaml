@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for openjph 0.22
+  kind: version
+  migration_number: 1
+migrator_ts: 1756039625.620044
+openjph:
+- '0.22'
