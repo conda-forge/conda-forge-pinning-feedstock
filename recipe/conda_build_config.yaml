@@ -873,13 +873,13 @@ r_base:
   - 4.3
   - 4.4
 libscotch:
-  - 7.0.6
+  - 7.0.8
 libptscotch:
-  - 7.0.6
+  - 7.0.8
 scotch:
-  - 7.0.6
+  - 7.0.8
 ptscotch:
-  - 7.0.6
+  - 7.0.8
 s2geography:
   - 0.1.2
 s2geometry:
