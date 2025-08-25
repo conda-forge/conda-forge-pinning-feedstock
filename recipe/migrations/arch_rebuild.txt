@@ -296,6 +296,7 @@ harlequin
 harp
 hdbscan
 healpix_cxx
+healpix-geo
 heaptrack
 heffte
 hepmc3
