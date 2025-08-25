@@ -30,6 +30,7 @@ astropy
 asyncpg
 attr
 austin
+autorift
 awkward1
 awscli2
 awscrt
@@ -121,7 +122,9 @@ cuda-cccl-impl
 cuda-command-line-tools
 cuda-compat
 cuda-compiler
+cuda-ctadvisor
 cuda-cudart
+cuda-culibos
 cuda-cuobjdump
 cuda-cupti
 cuda-cuxxfilt
@@ -175,6 +178,7 @@ datamash
 dataprep
 datavzrd
 dav1d
+dbus
 dcmtk
 deltalake
 deno
@@ -215,6 +219,7 @@ faiss-split
 fancycompleter
 fast-histogram
 fast_float
+fastjet-cxx
 fastparquet
 fastpath
 fcl
@@ -288,13 +293,17 @@ gstlal-calibration
 gstlal-inspiral
 gstools
 gunicorn
+guppy3
 gymnasium
 gz-launch
 gzip
 h3-py
+h3ronpy
 harlequin
 harp
+hats
 hdbscan
+hdf5-external-filter-plugins
 healpix-geo
 healpix_cxx
 heaptrack
@@ -328,6 +337,7 @@ ipython
 islpy
 jaeger
 jags
+jama
 jaxlib
 jaydebeapi
 jbig
@@ -427,6 +437,7 @@ libudev
 libvpx
 libxcrypt
 libxkbfile
+libxmlpp
 libxnvme
 libzopfli
 light-curve-python
@@ -442,6 +453,7 @@ log4cxx
 logzero
 louvain
 lp_solve
+lsdb
 lsdeluxe
 lttng-ust
 lua
@@ -469,6 +481,7 @@ micromamba
 minijinja
 mlip
 mne-lsl
+mocpy
 mongoengine
 moonrepo-moon
 mosh
@@ -502,10 +515,12 @@ newrelic
 nghttp2
 nim
 nitime
+nn
 noise
 nordugrid-arc
 notebook
 nox
+nputop
 nsight-compute
 nsync
 numba
@@ -523,6 +538,7 @@ nvimgcodec
 nvtx
 nvtx-c
 ocaml
+ocaml-findlib
 occt
 oclgrind
 octave
@@ -609,6 +625,7 @@ perl-storbale
 perl-sub-uplevel
 perl-termreadkey
 perl-unix-processors
+perl-uri
 perl-version
 perl-yaml-libyaml
 perspective
@@ -650,6 +667,7 @@ py2bit
 py_rattler
 pyarrow
 pybamm
+pybase64
 pybcj
 pycbc
 pycifrw
@@ -785,6 +803,7 @@ r-bigrquery
 r-bindrcpp
 r-bitops
 r-blockmodeling
+r-bootstrap
 r-brglm
 r-brms
 r-bwstest
@@ -861,6 +880,7 @@ r-gstat
 r-gsw
 r-gtools
 r-gwasexacthw
+r-harmony
 r-haven
 r-hh
 r-hiddenmarkov
@@ -986,6 +1006,7 @@ r-restfulr
 r-reticulate
 r-rfast
 r-rgl
+r-rgtk2
 r-riags
 r-rjags
 r-rjava
@@ -1038,6 +1059,7 @@ r-statnet.common
 r-strawr
 r-suppdists
 r-survival
+r-survivalroc
 r-survminer
 r-svd
 r-tfmpvalue
@@ -1141,6 +1163,7 @@ soapysdr-module-remote
 soapysdr-module-rtlsdr
 soapysdr-module-uhd
 socat
+sortmerna
 soxr-python
 spacy
 sparsehash
@@ -1193,6 +1216,7 @@ tini
 tinyxml
 tinyxml2
 tmux
+tnt
 tokyocabinet
 tomopy
 tornado
@@ -1241,6 +1265,7 @@ web3
 wgrib2
 wordcloud
 wurlitzer
+wxpython
 x265
 xcape
 xcb-util
