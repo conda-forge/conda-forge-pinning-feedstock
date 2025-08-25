@@ -805,7 +805,7 @@ postgresql:
 postgresql_plpython:
   - '17'
 proj:
-  - '9.5'
+  - '9.6'
 pulseaudio:
   - '17.0'
 pulseaudio_client:
