@@ -531,6 +531,7 @@ hdf5plugin
 hdmedians
 healpix
 healpix_cxx
+healpix-geo
 healpy
 heat
 heffte
