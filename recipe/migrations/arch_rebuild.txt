@@ -295,8 +295,8 @@ h3-py
 harlequin
 harp
 hdbscan
-healpix_cxx
 healpix-geo
+healpix_cxx
 heaptrack
 heffte
 hepmc3
