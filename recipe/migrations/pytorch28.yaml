@@ -1,0 +1,12 @@
+migrator_ts: 1756232081
+__migrator:
+  commit_message: Rebuild for pytorch 2.8
+  kind: version
+  migration_number: 1
+  bump_number: 1
+  wait_for_migrators:
+    - pytorch27
+libtorch:
+- '2.8'
+pytorch:
+- '2.8'
