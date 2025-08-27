@@ -1291,6 +1291,7 @@ xonsh
 xopen
 xorg-damageproto
 xorg-glproto
+xorg-libxaw3d
 xorg-libxcomposite
 xorg-libxdamage
 xorg-libxinerama
