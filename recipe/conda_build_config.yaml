@@ -190,7 +190,7 @@ blas_impl:
   - blis         # [x86 or x86_64]
 
 ace:
-  - 8.0.4
+  - 8.0.5
 alsa_lib:
   - '1.2'
 antic:
@@ -747,7 +747,7 @@ openh264:
 openjpeg:
   - '2'
 openjph:
-  - '0.21'
+  - '0.22'
 openmpi:
   - 4
 openslide:
@@ -779,7 +779,7 @@ slepc:
 slepc4py:
   - '3.23'
 svt_av1:
-  - 3.0.2
+  - 3.1.2
 p11_kit:
   - '0.24'
 pcre:
@@ -805,7 +805,7 @@ postgresql:
 postgresql_plpython:
   - '17'
 proj:
-  - '9.5'
+  - '9.6'
 pulseaudio:
   - '17.0'
 pulseaudio_client:
@@ -873,13 +873,13 @@ r_base:
   - 4.3
   - 4.4
 libscotch:
-  - 7.0.6
+  - 7.0.8
 libptscotch:
-  - 7.0.6
+  - 7.0.8
 scotch:
-  - 7.0.6
+  - 7.0.8
 ptscotch:
-  - 7.0.6
+  - 7.0.8
 s2geography:
   - 0.1.2
 s2geometry:
@@ -951,9 +951,9 @@ vlfeat:
 volk:
   - '3.2'
 vtk:
-  - 9.3.1
+  - 9.4.2
 vtk_base:
-  - 9.3.1
+  - 9.4.2
 wcslib:
   - '8'
 wxwidgets:
