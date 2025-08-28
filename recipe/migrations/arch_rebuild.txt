@@ -560,6 +560,7 @@ openfst
 openmeeg
 openmm
 openmotif
+openmp
 openmpi
 openorbitaloptimizer
 openscenegraph
