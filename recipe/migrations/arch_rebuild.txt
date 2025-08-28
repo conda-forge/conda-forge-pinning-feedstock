@@ -236,6 +236,7 @@ flash-attn-fused-dense
 flash-attn-layer-norm
 flask
 flit
+flock
 fonttools
 forestci
 fortls
@@ -861,6 +862,7 @@ r-forecast
 r-fpc
 r-fracdiff
 r-futile.logger
+r-gam
 r-gamlss
 r-gap
 r-gbm
@@ -880,6 +882,7 @@ r-grf
 r-gstat
 r-gsw
 r-gtools
+r-guilds
 r-gwasexacthw
 r-harmony
 r-haven
@@ -1035,6 +1038,7 @@ r-rsvg
 r-rtsne
 r-ruv
 r-s2
+r-sad
 r-scales
 r-seqinr
 r-seurat
