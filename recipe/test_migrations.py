@@ -90,6 +90,12 @@ def test_timestamps_against_main():
             # so diff of files is accurate even if upstream main is not
             # up to date
             print("Getting new migrations from HEAD repo...", flush=True)
+            subprocess.run(
+                ["git", "fetch", "origin", "main"],
+                cwd=os.environ["GIT_REPO_LOC"],
+                check=True,
+                capture_output=True,
+            )
             ret = subprocess.run(
                 [
                     "git",
