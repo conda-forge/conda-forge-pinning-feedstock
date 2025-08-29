@@ -91,6 +91,12 @@ def test_timestamps_against_main():
             # up to date
             print("Getting new migrations from HEAD repo...", flush=True)
             subprocess.run(
+                ["git", "fetch", "--unshallow"],
+                cwd=os.environ["GIT_REPO_LOC"],
+                check=True,
+                capture_output=True,
+            )
+            subprocess.run(
                 ["git", "fetch", "origin", "main"],
                 cwd=os.environ["GIT_REPO_LOC"],
                 check=True,
