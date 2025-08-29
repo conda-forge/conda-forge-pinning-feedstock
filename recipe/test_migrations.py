@@ -118,11 +118,12 @@ def test_timestamps_against_main():
             )
             new_files = set()
             for line in ret.stdout.splitlines():
-                if os.path.basename(line.strip()):
+                line = line.decode("utf-8").strip()
+                if os.path.basename(line):
                     new_files.add(
                         os.path.join(
                             migrations_path,
-                            os.path.basename(line.strip()),
+                            os.path.basename(line),
                         )
                     )
 
