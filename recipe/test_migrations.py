@@ -81,56 +81,60 @@ def test_timestamps_against_main():
                     )
                 ]
             )
+            new_files = set()
+            for filename in all_migrations:
+                if os.path.basename(filename) not in current_migrations:
+                    new_files.aadd(filename)
         else:
             # use main from feedstock checkout in the build
             # so diff of files is accurate even if upstream main is not
             # up to date
             print("Getting new migrations from HEAD repo...", flush=True)
-            subprocess.run(
-                ["git", "pull", "main"],
-                cwd=os.environ["GIT_REPO_LOC"],
-                check=True,
-                capture_output=True,
-            )
-            subprocess.run(
-                ["git", "checkout", "main"],
-                cwd=os.environ["GIT_REPO_LOC"],
-                check=True,
-                capture_output=True,
-            )
-            current_migrations = frozenset(
+            ret = subprocess.run(
                 [
-                    os.path.basename(pth)
-                    for pth in glob.glob(
+                    "git",
+                    "--no-pager",
+                    "diff",
+                    "--name-only",
+                    "--diff-filter=A",
+                    "origin/main...HEAD",
+                ],
+                cwd=os.environ["GIT_REPO_LOC"],
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+            )
+            new_files = set()
+            for line in ret.stdout.splitlines():
+                if os.path.basename(line.strip()):
+                    new_files.add(
                         os.path.join(
-                            os.environ["GIT_REPO_LOC"], "recipe", "migrations", "*.yaml"
+                            migrations_path,
+                            os.path.basename(line.strip()),
                         )
                     )
-                ]
-            )
 
-        for filename in all_migrations:
+        for filename in new_files:
             with open(filename, "r", encoding="utf-8") as f:
                 data = yaml.load(f, Loader=yaml.SafeLoader)
-                if os.path.basename(filename) not in current_migrations:
-                    print(
-                        f"testing new migration {os.path.basename(filename)}",
-                        flush=True,
-                    )
-                    ret = subprocess.run(
-                        [
-                            "git",
-                            "--no-pager",
-                            "log",
-                            "-G",
-                            f"^migrator_ts:[[:space:]]+{data['migrator_ts']!r}([[:space:]]+#|[[:space:]]*$)",
-                        ],
-                        check=True,
-                        stdout=subprocess.PIPE,
-                        stderr=subprocess.STDOUT,
-                        cwd=os.path.join(tmpdir, "cfp"),
-                    )
-                    assert ret.stdout == b"", (
-                        f"Migration {os.path.basename(filename)} doesn't have a unique timestamp! "
-                        f"Its timestamp matches commit:\n\n{ret.stdout.decode('utf-8')}"
-                    )
+                print(
+                    f"testing new migration {os.path.basename(filename)}",
+                    flush=True,
+                )
+                ret = subprocess.run(
+                    [
+                        "git",
+                        "--no-pager",
+                        "log",
+                        "-G",
+                        f"^migrator_ts:[[:space:]]+{data['migrator_ts']!r}([[:space:]]+#|[[:space:]]*$)",
+                    ],
+                    check=True,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.STDOUT,
+                    cwd=os.path.join(tmpdir, "cfp"),
+                )
+                assert ret.stdout == b"", (
+                    f"Migration {os.path.basename(filename)} doesn't have a unique timestamp! "
+                    f"Its timestamp matches commit:\n\n{ret.stdout.decode('utf-8')}"
+                )
