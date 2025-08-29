@@ -71,14 +71,36 @@ def test_timestamps_against_main():
             check=True,
             capture_output=True,
         )
-        current_migrations = frozenset(
-            [
-                os.path.basename(pth)
-                for pth in glob.glob(
-                    os.path.join(tmpdir, "cfp", "recipe", "migrations", "*.yaml")
-                )
-            ]
-        )
+        if "GIT_REPO_LOC" not in os.environ or not os.environ["GIT_REPO_LOC"]:
+            print("Getting new migrations from BASE repo...", flush=True)
+            current_migrations = frozenset(
+                [
+                    os.path.basename(pth)
+                    for pth in glob.glob(
+                        os.path.join(tmpdir, "cfp", "recipe", "migrations", "*.yaml")
+                    )
+                ]
+            )
+        else:
+            # use main from feedstock checkout in the build
+            # so diff of files is accurate even if upstream main is not
+            # up to date
+            print("Getting new migrations from HEAD repo...", flush=True)
+            subprocess.run(
+                ["git", "checkout", "main"],
+                cwd=os.environ["GIT_REPO_LOC"],
+                check=True,
+                capture_output=True,
+            )
+            current_migrations = frozenset(
+                [
+                    os.path.basename(pth)
+                    for pth in glob.glob(
+                        os.path.join(os.environ["GIT_REPO_LOC"], "recipe", "migrations", "*.yaml")
+                    )
+                ]
+            )
+
         for filename in all_migrations:
             with open(filename, "r", encoding="utf-8") as f:
                 data = yaml.load(f, Loader=yaml.SafeLoader)
