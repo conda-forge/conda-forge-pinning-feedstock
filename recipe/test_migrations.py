@@ -102,7 +102,9 @@ def test_timestamps_against_main():
                 [
                     os.path.basename(pth)
                     for pth in glob.glob(
-                        os.path.join(os.environ["GIT_REPO_LOC"], "recipe", "migrations", "*.yaml")
+                        os.path.join(
+                            os.environ["GIT_REPO_LOC"], "recipe", "migrations", "*.yaml"
+                        )
                     )
                 ]
             )
