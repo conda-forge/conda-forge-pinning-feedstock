@@ -484,6 +484,14 @@ libflint:
   - '3.2'
 libframel:
   - '8.41'
+# hmaarrfk - Aug 30, 2025
+# https://github.com/conda-forge/libfuse-feedstock/pull/29
+# Although some libfuse packages exist with version 3, we decided
+# to pin libfuse to 2 to allow co-installation between libfuse (version 2) and libfuse3
+libfuse:
+  - '2'
+libfuse3:
+  - '3'
 libgit2:
   - '1.9'
 libgoogle_cloud:
