@@ -903,6 +903,8 @@ r-kableextra
 r-kernlab
 r-kknn
 r-kohonen
+r-kriging
+r-ks
 r-ksamples
 r-lazyeval
 r-lhs
@@ -919,8 +921,6 @@ r-logr
 r-lokern
 r-lpsolve
 r-lpsolveapi
-r-kriging
-r-ks
 r-magick
 r-maldiquant
 r-mapdata
