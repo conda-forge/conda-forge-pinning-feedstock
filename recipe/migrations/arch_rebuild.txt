@@ -903,6 +903,8 @@ r-kableextra
 r-kernlab
 r-kknn
 r-kohonen
+r-kriging
+r-ks
 r-ksamples
 r-lazyeval
 r-lhs
@@ -936,7 +938,7 @@ r-microbenchmark
 r-minpack.lm
 r-minqa
 r-mitools
-r-mixormics
+r-mixomics
 r-mixtools
 r-mnormt
 r-multicool
