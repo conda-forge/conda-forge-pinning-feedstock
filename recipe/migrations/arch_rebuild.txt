@@ -876,6 +876,7 @@ r-ggrepel
 r-gifski
 r-git2r
 r-glmmtmb
+r-gmd
 r-gnm
 r-grbase
 r-grf
@@ -884,6 +885,7 @@ r-gsw
 r-gtools
 r-guilds
 r-gwasexacthw
+r-haplo.stats
 r-harmony
 r-haven
 r-hh
@@ -934,6 +936,7 @@ r-microbenchmark
 r-minpack.lm
 r-minqa
 r-mitools
+r-mixormics
 r-mixtools
 r-mnormt
 r-multicool
@@ -1038,7 +1041,7 @@ r-rsvg
 r-rtsne
 r-ruv
 r-s2
-r-sad
+r-sads
 r-scales
 r-seqinr
 r-seurat
