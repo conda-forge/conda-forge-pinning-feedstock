@@ -919,6 +919,8 @@ r-logr
 r-lokern
 r-lpsolve
 r-lpsolveapi
+r-kriging
+r-ks
 r-magick
 r-maldiquant
 r-mapdata
@@ -936,7 +938,7 @@ r-microbenchmark
 r-minpack.lm
 r-minqa
 r-mitools
-r-mixormics
+r-mixomics
 r-mixtools
 r-mnormt
 r-multicool
