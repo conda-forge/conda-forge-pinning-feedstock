@@ -876,8 +876,8 @@ r-ggrepel
 r-gifski
 r-git2r
 r-glmmtmb
-r-gnm
 r-gmd
+r-gnm
 r-grbase
 r-grf
 r-gstat
