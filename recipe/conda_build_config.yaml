@@ -795,11 +795,11 @@ pcre:
 pcre2:
   - '10.45'
 pdal:
-  - 2.9.1
+  - 2.9.2
 libpdal:
-  - 2.9.1
+  - 2.9.2
 libpdal_core:
-  - 2.9.1
+  - 2.9.2
 pixman:
   - 0
 poco:
