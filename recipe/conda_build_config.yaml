@@ -769,7 +769,7 @@ pango:
 pari:
   - 2.17.* *_pthread
 pcl:
-  - 1.15.0
+  - 1.15.1
 perl:
   - 5.32.1
 petsc:
