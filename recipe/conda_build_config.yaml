@@ -869,7 +869,7 @@ rav1e:
 rdma_core:
   - '59'
 re2:
-  - 2024.07.02
+  - 2025.08.12
 readline:
   - "8"
 rocksdb:
