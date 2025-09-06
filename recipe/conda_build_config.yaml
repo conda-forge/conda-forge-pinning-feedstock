@@ -921,7 +921,7 @@ sqlite:
 srm_ifce:
   - 1.24.6
 starlink_ast:
-  - 9.2.13
+  - 9.2.14
 suitesparse:
   - '7'
 suitesparse_mongoose:
