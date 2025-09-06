@@ -1145,6 +1145,7 @@ pyimagej
 pykakasi
 pykdtree
 pykep
+pylabdd
 pylance
 pylibtiff
 pylint
