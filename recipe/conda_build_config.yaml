@@ -660,6 +660,8 @@ libvigra:
   - '1.12'
 libvips:
   - 8
+libvpl:
+  - '2.13'
 libwebp:
   - 1
 libwebp_base:
