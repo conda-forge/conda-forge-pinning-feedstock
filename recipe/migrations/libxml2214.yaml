@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libxml2 2.14
+  kind: version
+  migration_number: 1
+libxml2:
+- '2.14'
+libxml2_devel:
+- '2.14'
+migrator_ts: 1743812129.3751788

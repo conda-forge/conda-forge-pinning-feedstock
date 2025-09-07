@@ -70,6 +70,10 @@ libvigra:
   - libvigra
   - vigra
 
+libxml2:
+  - libxml2
+  - libxml2_devel
+
 libwebp:
   - libwebp
   - libwebp_base

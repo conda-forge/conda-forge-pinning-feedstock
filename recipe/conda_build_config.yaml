@@ -672,6 +672,8 @@ libxcb:
   - '1'
 libxml2:
   - 2.13
+libxml2_devel:
+  - 2.13
 libxsmm:
   - 1
 libuuid:
