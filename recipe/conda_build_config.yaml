@@ -661,7 +661,7 @@ libvigra:
 libvips:
   - 8
 libvpl:
-  - '2.13'
+  - 2.15
 libwebp:
   - 1
 libwebp_base:
