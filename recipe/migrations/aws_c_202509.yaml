@@ -4,6 +4,7 @@ __migrator:
   migration_number: 1
   bump_number: 1
   exclude_pinned_pkgs: false
+  automerge: true
   commit_message: Rebuild for aws-c* (Sep '25)
 aws_c_auth:
   - 0.9.1
