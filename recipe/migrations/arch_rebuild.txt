@@ -1157,6 +1157,7 @@ sdl
 sdl_image
 sdsl-lite
 seqan-library
+sfml
 shap
 shellcheck
 shrinkwrap
