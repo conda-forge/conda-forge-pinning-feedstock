@@ -2,6 +2,12 @@
 # Currently they need to have the same version
 # Also the run_exports need to be on main package
 
+brotli:
+  - brotli
+  - libbrotlicommon
+  - libbrotlidec
+  - libbrotlienc
+
 coin_or_cbc:
   - coin_or_cbc
   - coincbc
