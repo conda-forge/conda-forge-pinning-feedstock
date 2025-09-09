@@ -9,6 +9,8 @@ __migrator:
     - clangdev
     - compiler-rt
     - lld
+    # same for libgsf and msitools
+    - libgsf
 libxml2:
 - '2.14'
 libxml2_devel:
