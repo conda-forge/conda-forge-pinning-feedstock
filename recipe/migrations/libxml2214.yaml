@@ -3,6 +3,12 @@ __migrator:
   commit_message: Rebuild for libxml2 2.14
   kind: version
   migration_number: 1
+  exclude:
+    # break circularity with compiler stack
+    - llvmdev
+    - clangdev
+    - compiler-rt
+    - lld
 libxml2:
 - '2.14'
 libxml2_devel:
