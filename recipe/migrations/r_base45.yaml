@@ -4,6 +4,10 @@ __migrator:
   kind: version
   migration_number: 1
   pr_limit: 5
+  primary_key: r_base
+  automerge: True
+  longterm: True
+  include_noarch: True
 migrator_ts: 1750421535.8834505
 r_base:
 - '4.5'
