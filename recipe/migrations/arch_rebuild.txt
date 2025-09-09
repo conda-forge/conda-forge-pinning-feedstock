@@ -556,6 +556,7 @@ opam
 opcua
 open62541
 openai
+openal-soft
 openblas
 opencv
 openfst
