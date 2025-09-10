@@ -464,6 +464,7 @@ lzop
 mafft
 mahotas
 mamba
+mamba-ssm
 mandrake
 manif
 manim
