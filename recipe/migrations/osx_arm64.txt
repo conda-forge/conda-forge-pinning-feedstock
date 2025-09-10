@@ -1854,6 +1854,7 @@ yarn
 yarp
 yoda
 youtube-dl
+yt_astro_analysis
 yte
 ytop
 z5py
