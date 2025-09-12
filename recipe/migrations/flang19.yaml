@@ -2,6 +2,7 @@ __migrator:
   kind: version
   migration_number: 2
   build_number: 1
+  paused: true
   commit_message: |
     Rebuild for flang 19
     
@@ -60,6 +61,7 @@ __migrator:
     - r-cluster
     - r-clustercrit
     - r-cmprsk
+    - r-conquer
     - r-copula
     - r-coxboost
     - r-coxphf
@@ -172,6 +174,7 @@ __migrator:
     - r-rstpm2
     - r-rxode
     - r-rxode2
+    - r-sctransform
     - r-seriation
     - r-sgeostat
     - r-signal
