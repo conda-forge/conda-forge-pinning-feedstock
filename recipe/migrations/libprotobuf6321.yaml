@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libprotobuf 6.32.1
+  kind: version
+  migration_number: 1
+libprotobuf:
+- 6.32.1
+migrator_ts: 1757672741.5484061
