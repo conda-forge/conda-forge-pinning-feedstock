@@ -86,6 +86,7 @@ libgfortran-ng = """\
       ignore_run_exports_from:
         - {{ compiler("fortran") }}
     ```"""
+magma = "The `magma` output has been superseded by `libmagma-devel`."
 openmp = "The `openmp` output has been superseded by `llvm-openmp`."
 astropy = """\
     Recipes should usually depend on `astropy-base` as opposed to \
