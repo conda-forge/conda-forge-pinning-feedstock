@@ -86,6 +86,7 @@ libwebp:
 
 magma:
   - libmagma
+  - libmagma_devel
   - libmagma_sparse
   - magma
 

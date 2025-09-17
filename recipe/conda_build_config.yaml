@@ -574,6 +574,8 @@ libldl:
   - '3'
 libmagma:
   - '2.9'
+libmagma_devel:
+  - '2.9'
 libmagma_sparse:
   - '2.9'
 libmed:
