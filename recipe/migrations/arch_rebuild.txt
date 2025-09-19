@@ -843,6 +843,7 @@ r-dixontest
 r-dplr
 r-dqrng
 r-drc
+r-ebimetagenomics
 r-ecp
 r-essentials
 r-extrafont
