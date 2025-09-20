@@ -621,7 +621,7 @@ librbio:
 librdkafka:
   - '2.6'
 librealsense:
-  - '2.55'
+  - '2.56'
 librsvg:
   - 2
 libsecret:
