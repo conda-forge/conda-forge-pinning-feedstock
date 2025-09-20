@@ -5,6 +5,7 @@ __migrator:
   migration_number: 1
   pr_limit: 3
   primary_key: r_base
+  max_solver_attempts: 5
   automerge: true
   longterm: true
   include_noarch: true
