@@ -706,6 +706,7 @@ librdkafka
 libsass
 libsbml
 libsecp256k1
+libsemigroups_pybind11
 libsigcpp
 libsoup
 libspatialindex
