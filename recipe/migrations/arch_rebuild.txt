@@ -433,6 +433,7 @@ librdkafka
 librerun-sdk
 librmm
 libsass
+libsemigroups_pybind11
 libsolv
 libtins
 libudev
