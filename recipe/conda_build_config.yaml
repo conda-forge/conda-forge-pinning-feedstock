@@ -627,7 +627,7 @@ librsvg:
 libsecret:
   - '0.21'
 libsentencepiece:
-  - 0.2.0
+  - 0.2.1
 libsndfile:
   - '1.2'
 libsoup:
