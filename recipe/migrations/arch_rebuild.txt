@@ -76,6 +76,7 @@ cascade
 catch2
 cbonsai
 cccl
+cccl-python
 ccdproc
 cctbx-base
 cctools
