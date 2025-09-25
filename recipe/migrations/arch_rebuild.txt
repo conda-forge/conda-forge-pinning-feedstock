@@ -1208,6 +1208,7 @@ tango-database
 tango-starter
 tango-test
 taplo
+tclap
 tectonic
 teensy_loader_cli
 tensorflow
