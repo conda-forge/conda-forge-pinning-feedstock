@@ -114,6 +114,7 @@ brian2
 brotlipy
 bsddb3
 bt
+btrees
 buildbot
 bytewax
 cached_interpolate
