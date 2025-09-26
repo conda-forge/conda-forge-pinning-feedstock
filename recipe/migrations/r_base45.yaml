@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for r_base 4.5
+  kind: version
+  migration_number: 1
+  pr_limit: 20
+  primary_key: r_base
+  max_solver_attempts: 5
+  automerge: true
+  longterm: true
+  include_noarch: true
+migrator_ts: 1750421535.8834505
+r_base:
+- '4.5'

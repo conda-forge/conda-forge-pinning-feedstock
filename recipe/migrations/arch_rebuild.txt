@@ -76,6 +76,7 @@ cascade
 catch2
 cbonsai
 cccl
+cccl-python
 ccdproc
 cctbx-base
 cctools
@@ -433,6 +434,7 @@ librdkafka
 librerun-sdk
 librmm
 libsass
+libsemigroups_pybind11
 libsolv
 libtins
 libudev
@@ -464,6 +466,7 @@ lzop
 mafft
 mahotas
 mamba
+mamba-ssm
 mandrake
 manif
 manim
@@ -556,6 +559,7 @@ opam
 opcua
 open62541
 openai
+openal-soft
 openblas
 opencv
 openfst
@@ -1158,6 +1162,7 @@ sdl
 sdl_image
 sdsl-lite
 seqan-library
+sfml
 shap
 shellcheck
 shrinkwrap

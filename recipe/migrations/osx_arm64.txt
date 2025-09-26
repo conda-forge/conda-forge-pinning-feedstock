@@ -114,6 +114,7 @@ brian2
 brotlipy
 bsddb3
 bt
+btrees
 buildbot
 bytewax
 cached_interpolate
@@ -706,6 +707,7 @@ librdkafka
 libsass
 libsbml
 libsecp256k1
+libsemigroups_pybind11
 libsigcpp
 libsoup
 libspatialindex
@@ -1145,6 +1147,7 @@ pyimagej
 pykakasi
 pykdtree
 pykep
+pylabdd
 pylance
 pylibtiff
 pylint
@@ -1595,6 +1598,7 @@ sedflux
 selenium-manager
 sensormapgeo
 sentencepiece
+seqan-library
 sfepy
 sfml
 sgp4
@@ -1853,6 +1857,7 @@ yarn
 yarp
 yoda
 youtube-dl
+yt_astro_analysis
 yte
 ytop
 z5py
@@ -1866,5 +1871,6 @@ zenoh-plugin-webserver
 zeopp-lsmo
 zeroc-ice
 zip
+zodbpickle
 zopfli
 zoxide
