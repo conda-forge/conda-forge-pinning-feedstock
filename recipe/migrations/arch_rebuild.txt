@@ -845,6 +845,7 @@ r-dixontest
 r-dplr
 r-dqrng
 r-drc
+r-ebimetagenomics
 r-ecp
 r-essentials
 r-extrafont
@@ -1212,6 +1213,7 @@ tango-database
 tango-starter
 tango-test
 taplo
+tclap
 tectonic
 teensy_loader_cli
 tensorflow
@@ -1262,6 +1264,7 @@ uuid-utils
 uv
 uvicorn
 uvloop
+validictory
 vampyr
 veloxchem
 vhs
