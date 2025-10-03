@@ -2,7 +2,7 @@ migrator_ts: 1755016036
 __migrator:
   operation: key_add
   migration_number:
-    1
+    2
   build_number:
     1
   paused: false
