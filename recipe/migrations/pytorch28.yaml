@@ -2,6 +2,7 @@ migrator_ts: 1759338402
 __migrator:
   commit_message: Rebuild for pytorch 2.8
   kind: version
+  paused: true  # Awaiting cudnn fix: https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/7713#issuecomment-3360991749
   migration_number: 1
   bump_number: 1
 libtorch:
