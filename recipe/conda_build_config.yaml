@@ -549,7 +549,7 @@ libheif:
 libhugetlbfs:
   - 2
 libhwloc:
-  - 2.11.2
+  - 2.12.1
 libhwy:
   - '1.2'
 libiconv:
