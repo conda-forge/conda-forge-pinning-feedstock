@@ -3,7 +3,7 @@ __migrator:
   kind:
     version
   migration_number:
-    1
+    2
   build_number:
     1
   paused: false
@@ -33,8 +33,8 @@ __migrator:
     for their package. A good balance between broad support and storage
     footprint (resp. compilation time) is to add `sm_100` and `sm_120`.
     
-    Since CUDA 12.8, the conda-forge nvcc package now sets `CUDAARCHS` and
-    `TORCH_CUDA_ARCH_LIST` in its activation script to a string containing all
+    Since CUDA 12.8, the conda-forge nvcc package now sets `CUDAARCHS`
+    in its activation script to a string containing all
     of the supported real architectures plus the virtual architecture of the
     latest. Recipes for packages who use these variables to control their build
     but do not want to build for all supported architectures will need to override
