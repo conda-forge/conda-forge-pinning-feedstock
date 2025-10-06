@@ -27,6 +27,8 @@ __migrator:
         - pypy-meta
         - cross-python
         - python_abi
+        # Manually migrated (e.g. were blocked on missing dev dependencies)
+        - pyarrow
     exclude_pinned_pkgs: false
     ignored_deps_per_node:
         matplotlib:
