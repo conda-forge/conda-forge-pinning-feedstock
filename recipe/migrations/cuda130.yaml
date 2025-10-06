@@ -33,7 +33,7 @@ __migrator:
     for their package.
 
     Since CUDA 12.8, the conda-forge nvcc package now sets `CUDAARCHS` and
-    `TORCH_CUDA_ARCH_LIST` in its activation script to a string containing all
+    in its activation script to a string containing all
     of the supported real architectures plus the virtual architecture of the
     latest. Recipes for packages who use these variables to control their build
     but do not want to build for all supported architectures will need to override
