@@ -632,6 +632,7 @@ kepderiv
 keras
 keras-preprocessing
 khiops-binaries
+khiops-driver-gcs
 kim-api
 kimpy
 kliff
