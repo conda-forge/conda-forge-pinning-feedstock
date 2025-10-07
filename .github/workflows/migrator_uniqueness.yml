@@ -1,0 +1,66 @@
+name: Check Migration Filename Uniqueness
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  migrator-name-uniqueness-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # fetch full history so we can diff properly
+
+      - name: Fetch base branch
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+
+      - name: Find newly added migration files
+        id: find_migrators
+        run: |
+          # Diff only added files between base branch and PR HEAD
+          new_migrators=$(git diff --name-only --diff-filter=A origin/${{ github.base_ref }}...HEAD | grep '^recipe/migrations/' || true)
+
+          echo "Found new migrators:"
+          echo "$new_migrators"
+
+          echo "new_migrators=$new_migrators" >> $GITHUB_OUTPUT
+
+      - name: Search for existing uses of that migrator in conda-forge
+        if: steps.find_migrators.outputs.new_migrators != ''
+        run: |
+          failed=0
+          for m in ${{ steps.find_migrators.outputs.new_migrators }}; do
+            migrator=$(basename "$m")
+            echo "Checking for existing uses of migrator $migrator in conda-forge..."
+
+            # Search in GH-org with exact path where migrators end up
+            # https://stackoverflow.com/a/46317804
+            query=$(printf "org:conda-forge path:.ci_support/migrations/$migrator" | jq -sRr @uri)
+            response=$(curl -s -H "Accept: application/vnd.github.v3.raw" \
+                             -H "Authorization: token $GH_TOKEN" \
+                             "https://api.github.com/search/code?q=$query")
+            echo "Sent $query"
+            echo "Got $response"
+            num_hits=$(echo "$response" | jq '[.items[] | select(.repository.archived == false)] | length')
+
+            if [ "$num_hits" -gt 0 ]; then
+              echo "Found $num_hits existing occurrences of migrator $migrator in conda-forge"
+              failed=1
+            else
+              echo "No existing occurrences of $migrator found"
+            fi
+          done
+
+          if [ "$failed" -eq 1 ]; then
+            echo "Pre-existing uses of migration filename(s) found in conda-forge."
+            exit 1
+          fi
