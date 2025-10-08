@@ -33,13 +33,9 @@ __migrator:
     ignored_deps_per_node:
         matplotlib:
             - pyqt
-    additional_zip_keys:
-        - channel_sources
 
 python:
 - 3.14.* *_cp314
 # additional entries to add for zip_keys
 is_python_min:
 - false
-channel_sources:
-- conda-forge,conda-forge/label/python_rc
