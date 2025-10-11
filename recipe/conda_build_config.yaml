@@ -387,7 +387,7 @@ icu:
 idyntree:
   - '13'
 imath:
-  - 3.2.1
+  - 3.2.2
 impi_devel:
   - "2021.14"
 ipopt:
