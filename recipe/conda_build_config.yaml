@@ -57,8 +57,6 @@ gcc_compiler:
   - gxx
 gcc_compiler_version:
   - 14
-  # CUDA 12.6 doesn't support GCC 14
-  - 13                         # [not ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 clang_compiler:
   - clangxx   # [unix]
   # stay compatible with MSVC
