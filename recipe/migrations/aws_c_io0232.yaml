@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_io 0.23.2
+  kind: version
+  migration_number: 1
+aws_c_io:
+- 0.23.2
+migrator_ts: 1760583780.645573
