@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for azure_storage_queues_cpp 12.5.0
+  kind: version
+  migration_number: 1
+azure_storage_queues_cpp:
+- 12.5.0
+migrator_ts: 1760931699.594883
