@@ -774,8 +774,10 @@ openmpi:
   - 4
 openslide:
   - 4
+# although openssl follows SemVer for ABI/API stability, we stay on
+# LTS version at build time to avoid forcing newer version at runtime
 openssl:
-  - '3'
+  - '3.5'
 orc:
   - 2.2.1
 pango:
