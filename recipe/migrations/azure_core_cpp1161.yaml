@@ -1,0 +1,21 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for azure_core_cpp 1.16.1 and latest storage packages
+  kind: version
+  migration_number: 1
+  exclude_pinned_pkgs: false
+azure_core_cpp:
+- 1.16.1
+azure_storage_common_cpp:
+- 12.11.0
+azure_storage_blobs_cpp:
+- 12.15.0
+azure_storage_files_datalake_cpp:
+- 12.13.0
+azure_storage_files_shares_cpp:
+- 12.15.0
+azure_storage_queues_cpp:
+- 12.5.0
+azure_identity_cpp:
+- 1.13.2
+migrator_ts: 1760927975
