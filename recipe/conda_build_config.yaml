@@ -591,7 +591,7 @@ libnetcdf:
 libntlm:
   - 1
 libode:
-  - 0.16.5
+  - 0.16.6
 libopencv:
   - 4.12.0
 libopentelemetry_cpp:
