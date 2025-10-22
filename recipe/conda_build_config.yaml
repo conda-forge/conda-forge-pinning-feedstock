@@ -52,16 +52,26 @@ m2w64_fortran_compiler:           # [win]
 m2w64_fortran_compiler_version:   # [win]
   - 14                            # [win]
 
-# enable `{{ compiler("gcc") }}` / `{{ compiler("clang") }}`; make them C++-capable by default
+# enable `{{ compiler("gcc") }}`, `{{ compiler("clang") }}` & co.
 gcc_compiler:
-  - gxx
+  - gcc
 gcc_compiler_version:
   - 14
+gxx_compiler:
+  - gxx
+gxx_compiler_version:
+  - 14
 clang_compiler:
-  - clangxx   # [unix]
+  - clang     # [unix]
   # stay compatible with MSVC
   - clang-cl  # [win]
 clang_compiler_version:
+  - 19
+clangxx_compiler:
+  - clangxx   # [unix]
+  # stay compatible with MSVC
+  - clang-cl  # [win]
+clangxx_compiler_version:
   - 19
 
 cuda_compiler:
