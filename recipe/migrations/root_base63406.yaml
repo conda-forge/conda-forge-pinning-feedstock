@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for root_base 6.34.10 and 6.36.04
+  kind: version
+  migration_number: 1
+migrator_ts: 1753378571.7182064
+root_base:
+- 6.34.10
+- 6.36.04

@@ -12,13 +12,19 @@ source .scripts/logging_utils.sh
 set -xeo pipefail
 
 THISDIR="$( cd "$( dirname "$0" )" >/dev/null && pwd )"
-PROVIDER_DIR="$(basename $THISDIR)"
+PROVIDER_DIR="$(basename "$THISDIR")"
 
-FEEDSTOCK_ROOT=$(cd "$(dirname "$0")/.."; pwd;)
+FEEDSTOCK_ROOT="$( cd "$( dirname "$0" )/.." >/dev/null && pwd )"
 RECIPE_ROOT="${FEEDSTOCK_ROOT}/recipe"
 
 if [ -z ${FEEDSTOCK_NAME} ]; then
     export FEEDSTOCK_NAME=$(basename ${FEEDSTOCK_ROOT})
+fi
+
+if [[ "${sha:-}" == "" ]]; then
+  pushd "${FEEDSTOCK_ROOT}"
+  sha=$(git rev-parse HEAD)
+  popd
 fi
 
 docker info
@@ -91,6 +97,9 @@ docker run ${DOCKER_RUN_ARGS} \
            -e CPU_COUNT \
            -e BUILD_WITH_CONDA_DEBUG \
            -e BUILD_OUTPUT_ID \
+           -e flow_run_id \
+           -e remote_url \
+           -e sha \
            -e BINSTAR_TOKEN \
            -e FEEDSTOCK_TOKEN \
            -e STAGING_BINSTAR_TOKEN \

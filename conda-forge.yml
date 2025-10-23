@@ -1,1 +1,9 @@
 conda_forge_output_validation: true
+github:
+  branch_name: main
+  tooling_branch_name: main
+conda_build:
+  pkg_format: '2'
+upload_on_branch: main
+provider:
+  linux_64: github_actions

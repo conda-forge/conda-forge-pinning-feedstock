@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for openexr 3.4
+  kind: version
+  migration_number: 1
+migrator_ts: 1757390530.4195547
+openexr:
+- '3.4'

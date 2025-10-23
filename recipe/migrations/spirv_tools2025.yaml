@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for spirv_tools 2025
+  kind: version
+  migration_number: 1
+migrator_ts: 1745415037.733261
+spirv_tools:
+- '2025'

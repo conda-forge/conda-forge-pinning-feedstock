@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  kind: version
-  migration_number: 1
-migrator_ts: 1642615295
-mkl:
-- 2022
-mkl_devel:
-- 2022

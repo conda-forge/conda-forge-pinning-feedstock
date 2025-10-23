@@ -1,0 +1,9 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for nodejs 24
+  kind: version
+  migration_number: 1
+migrator_ts: 1752132927.4207344
+nodejs:
+- '24'
+- '22'
