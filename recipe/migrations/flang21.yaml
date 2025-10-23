@@ -18,7 +18,7 @@ __migrator:
     
     Recipes that have hard-coded expectations about the name of the fortran compiler
     will need to adjust to use `%FC%` or `flang` for the compiler name. Similarly,
-    you may need to change the linker to `%LD%` or use `lld-link`.
+    you may need to change the linker to `%FC_LD%` or use `lld-link`.
     
     It is also possible that you run into compilation errors due to differences in
     compiler behaviour, bugs or as-yet unimplemented features. In case of compilation
