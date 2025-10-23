@@ -701,6 +701,7 @@ pygplates
 pygraphviz
 pygrib
 pyhdf
+pyinterp
 pyjnius
 pykdtree
 pykep
