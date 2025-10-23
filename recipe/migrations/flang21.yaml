@@ -41,18 +41,22 @@ __migrator:
     # exclude r-packages, which generally use m2w64-stack consistently
     - r-base
     - r-acepack
+    - r-ade4
     - r-adespatial
     - r-admm
     - r-akima
     - r-amap
+    - r-ape
     - r-ash
     - r-aws
     - r-bain
     - r-bas
+    - r-bayesm
     - r-bigalgebra
     - r-biglasso
     - r-biglm
     - r-bigsnpr
+    - r-bigstatsr
     - r-blockmodeling
     - r-bma
     - r-bootstrap
@@ -90,12 +94,15 @@ __migrator:
     - r-expm
     - r-fastica
     - r-fastmatrix
+    - r-fbasics
     - r-fd
     - r-fgarch
     - r-fields
     - r-flashclust
     - r-float
     - r-fme
+    - r-forecast
+    - r-fracdiff
     - r-gam
     - r-gap
     - r-gee
@@ -109,6 +116,7 @@ __migrator:
     - r-gmcm
     - r-gmm
     - r-gss
+    - r-harmony
     - r-hdrcde
     - r-hdtweedie
     - r-hexbin
@@ -118,8 +126,11 @@ __migrator:
     - r-hmisc
     - r-igraph
     - r-interp
+    - r-ipred
+    - r-irlba
     - r-iso
     - r-kendall
+    - r-kernlab
     - r-kernsmooth
     - r-kfas
     - r-l1pack
@@ -127,6 +138,9 @@ __migrator:
     - r-lars
     - r-lbfgsb3c
     - r-leaps
+    - r-leidenalg
+    - r-leidenbase
+    - r-libcoin
     - r-limsolve
     - r-lmom
     - r-lmtest
@@ -137,6 +151,8 @@ __migrator:
     - r-lsei
     - r-maotai
     - r-mashr
+    - r-matchit
+    - r-matrix
     - r-mboost
     - r-mclust
     - r-mclustcomp
@@ -144,6 +160,7 @@ __migrator:
     - r-mda
     - r-mendelianrandomization
     - r-mets
+    - r-mgcv
     - r-minpack.lm
     - r-minqa
     - r-mirt
@@ -174,25 +191,31 @@ __migrator:
     - r-openmx
     - r-pamr
     - r-pan
+    - r-party
     - r-pbivnorm
     - r-pcadapt
+    - r-pcapp
     - r-pcit
     - r-phangorn
     - r-pmcmrplus
     - r-polspline
     - r-pqlseq
+    - r-projpred
     - r-pspline
     - r-qap
+    - r-qgg
     - r-qtlrel
     - r-quadprog
     - r-quantreg
     - r-randomfieldsutils
     - r-randomforest
     - r-randtoolbox
+    - r-rcpparmadillo
     - r-rcppclock
     - r-rcppde
     - r-rcppdist
     - r-rcppdpr
+    - r-rcppeigen
     - r-rcppml
     - r-rcsdp
     - r-rdimtools
@@ -203,6 +226,7 @@ __migrator:
     - r-rmutil
     - r-rmvp
     - r-rnomni
+    - r-robstattm
     - r-robust
     - r-robustbase
     - r-rootsolve
@@ -211,14 +235,19 @@ __migrator:
     - r-rrcov
     - r-rrf
     - r-rsolnp
+    - r-rspectra
     - r-rstpm2
+    - r-rtsne
     - r-rxode
     - r-rxode2
+    - r-sccore
     - r-scs
     - r-sctransform
     - r-seriation
     - r-sgeostat
     - r-signal
+    - r-sitmo
+    - r-slam
     - r-sm
     - r-softimpute
     - r-spam
@@ -226,9 +255,12 @@ __migrator:
     - r-sparsem
     - r-spatialpack
     - r-splancs
+    - r-splines2
     - r-splus2r
     - r-stanheaders
     - r-statmod
+    - r-stochvol
+    - r-strucchange
     - r-subplex
     - r-subselect
     - r-survc1
