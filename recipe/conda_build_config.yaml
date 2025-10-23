@@ -575,7 +575,7 @@ libhugetlbfs:
 libhwloc:
   - 2.12.1
 libhwy:
-  - '1.2'
+  - '1.3'
 libiconv:
   - 1
 libidn2:
