@@ -540,6 +540,7 @@ nvcomp
 nvidia-apex
 nvidia-gds
 nvimgcodec
+nvmolkit
 nvtx
 nvtx-c
 ocaml
