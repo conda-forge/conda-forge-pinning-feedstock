@@ -3,7 +3,7 @@ __migrator:
   commit_message: Rebuild for aws-c-* (oct'25)
   kind: version
   migration_number: 1
-  excluded_pinned_pkgs: false
+  exclude_pinned_pkgs: false
   automerge: true
 migrator_ts: 1760952113
 aws_crt_cpp:
