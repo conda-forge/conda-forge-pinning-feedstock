@@ -509,7 +509,7 @@ libevent:
 libexactreal:
   - '4'
 libffi:
-  - '3.4'
+  - '3.5'
 libflatsurf:
   - 3
 libflint:
