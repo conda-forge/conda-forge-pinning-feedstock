@@ -897,6 +897,7 @@ r-haven
 r-hh
 r-hiddenmarkov
 r-hmisc
+r-huge
 r-idpmisc
 r-igraph
 r-infotheo
