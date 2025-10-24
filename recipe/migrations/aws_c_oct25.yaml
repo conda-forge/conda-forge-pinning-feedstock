@@ -11,7 +11,7 @@ aws_crt_cpp:
 aws_c_http:
   - '0.10.5'
 aws_c_io:
-  - '0.23.0'
+  - '0.23.2'
 aws_c_cal:
   - '0.9.4'
 aws_c_common:
