@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for brotli 1.2
+  kind: version
+  migration_number: 1
+brotli:
+- '1.2'
+libbrotlicommon:
+- '1.2'
+libbrotlidec:
+- '1.2'
+libbrotlienc:
+- '1.2'
+migrator_ts: 1761598392.2337856
