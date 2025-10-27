@@ -1060,6 +1060,7 @@ r-shinywidgets
 r-showtext
 r-slam
 r-slider
+r-sna
 r-sm
 r-sodium
 r-softimpute
