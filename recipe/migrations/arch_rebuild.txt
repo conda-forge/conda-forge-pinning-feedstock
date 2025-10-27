@@ -1061,6 +1061,7 @@ r-showtext
 r-slam
 r-slider
 r-sm
+r-sna
 r-sodium
 r-softimpute
 r-som
