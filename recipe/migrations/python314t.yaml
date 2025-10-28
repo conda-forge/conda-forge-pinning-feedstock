@@ -34,6 +34,7 @@ __migrator:
     ignored_deps_per_node:
         matplotlib:
             - pyqt
+    allowlist_file: free-threaded-314.txt
 
 python:
 - 3.14.* *_cp314t
