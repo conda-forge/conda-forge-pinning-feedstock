@@ -768,6 +768,7 @@ pythonocc-core
 pythran
 pytinyrenderer
 pytorch-cpu
+pytorch_scatter
 pytsql
 pyvcf
 pyvips
