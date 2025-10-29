@@ -374,7 +374,7 @@ gflags:
 giflib:
   - 5.2
 givaro:
-  - 4.2.0
+  - '4.2.1'
 glew:
   - '2.2'
 glib:
