@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for s2n 1.6.0
+  kind: version
+  migration_number: 1
+migrator_ts: 1761864166.7658393
+s2n:
+- 1.6.0
