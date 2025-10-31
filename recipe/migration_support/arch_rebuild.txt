@@ -1095,6 +1095,7 @@ r-tmap
 r-tmvtnorm
 r-tokenizers
 r-transformr
+r-traminer
 r-truncdist
 r-tseries
 r-tsp
