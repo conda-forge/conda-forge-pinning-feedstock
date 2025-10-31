@@ -978,6 +978,8 @@ suitesparse_mongoose:
   - '3'
 superlu_dist:
   - '9'
+swig_abi:
+  - '5'
 tbb:
   - '2021'
 tbb_devel:
