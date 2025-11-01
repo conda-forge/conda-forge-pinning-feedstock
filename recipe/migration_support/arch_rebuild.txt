@@ -899,6 +899,7 @@ r-haven
 r-hh
 r-hiddenmarkov
 r-hmisc
+r-huge
 r-idpmisc
 r-igraph
 r-infotheo
@@ -1081,6 +1082,7 @@ r-survival
 r-survivalroc
 r-survminer
 r-svd
+r-taxonomizr
 r-tfmpvalue
 r-this.path
 r-tibble
@@ -1092,6 +1094,7 @@ r-tm
 r-tmap
 r-tmvtnorm
 r-tokenizers
+r-traminer
 r-transformr
 r-truncdist
 r-tseries
