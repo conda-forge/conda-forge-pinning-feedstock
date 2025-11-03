@@ -310,7 +310,7 @@ console_bridge:
 # temporarily zipped with cuda_compiler_version
 cudnn:
   - None
-  - '9'     # [((linux and not ppc64le) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 9.10                       # [((linux and not ppc64le) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cutensor:
   - 2
 curl:
