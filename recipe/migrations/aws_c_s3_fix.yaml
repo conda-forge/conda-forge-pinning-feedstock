@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws-c-* (s3 fix)
+  kind: version
+  migration_number: 1
+  exclude_pinned_pkgs: false
+  automerge: true
+migrator_ts: 1762269236
+aws_c_cal:
+  - '0.9.9'
+aws_c_io:
+  - '0.23.3'
+aws_c_s3:
+  - '0.9.3'
