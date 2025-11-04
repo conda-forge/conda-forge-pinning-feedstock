@@ -238,7 +238,7 @@ attr:
 aws_c_auth:
   - 0.9.1
 aws_c_cal:
-  - '0.9.5'
+  - '0.9.8'
 aws_c_common:
   - '0.12.5'
 aws_c_compression:
@@ -246,7 +246,7 @@ aws_c_compression:
 aws_c_event_stream:
   - 0.5.6
 aws_c_http:
-  - '0.10.6'
+  - '0.10.7'
 aws_c_io:
   - '0.23.2'
 aws_c_mqtt:
@@ -943,7 +943,7 @@ s2geography:
 s2geometry:
   - 0.11.1
 s2n:
-  - '1.5.27'
+  - '1.6.0'
 sdl2:
   - '2'
 sdl2_image:
