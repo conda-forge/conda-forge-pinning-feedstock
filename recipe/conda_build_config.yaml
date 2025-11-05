@@ -507,7 +507,7 @@ libcxsparse:
 libdap4:
   - 3.20.6
 libdeflate:
-  - '1.24'
+  - '1.25'
 libduckdb_devel:
   - '1'
 libeantic:
