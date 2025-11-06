@@ -1319,6 +1319,7 @@ xopen
 xorg-damageproto
 xorg-glproto
 xorg-libxaw3d
+xorg-libxcb
 xorg-libxcomposite
 xorg-libxdamage
 xorg-libxinerama
