@@ -680,6 +680,8 @@ libsvm:
   - '335'
 libsqlite:
   - 3
+libsystemd:
+  - '257'
 libtensorflow:
   - "2.16"
 libtensorflow_cc:
@@ -690,6 +692,8 @@ libtiff:
   - '4.7'
 libtorch:
   - '2.7'
+libudev:
+  - '257'
 libumfpack:
   - '6'
 libunwind:
