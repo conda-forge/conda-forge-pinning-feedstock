@@ -56,7 +56,6 @@ black
 bleak
 blis
 bliss
-blist
 boost
 boost-cpp
 boost-histogram
