@@ -1,3 +1,5 @@
+# only add packages to this list that have 314t wheels on PyPI
+# this list was generated with workflows as in https://github.com/zklaus/simple-index-db/issues/9
 adbc-driver-manager
 aiocsv
 aiohttp
