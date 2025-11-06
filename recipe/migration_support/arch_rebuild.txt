@@ -870,6 +870,7 @@ r-flock
 r-forecast
 r-fpc
 r-fracdiff
+r-fst
 r-futile.logger
 r-gam
 r-gamlss
