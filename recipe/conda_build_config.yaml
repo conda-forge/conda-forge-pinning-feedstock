@@ -238,7 +238,7 @@ attr:
 aws_c_auth:
   - 0.9.1
 aws_c_cal:
-  - '0.9.5'
+  - '0.9.9'
 aws_c_common:
   - '0.12.5'
 aws_c_compression:
@@ -246,13 +246,13 @@ aws_c_compression:
 aws_c_event_stream:
   - 0.5.6
 aws_c_http:
-  - '0.10.6'
+  - '0.10.7'
 aws_c_io:
-  - '0.23.2'
+  - '0.23.3'
 aws_c_mqtt:
   - 0.13.3
 aws_c_s3:
-  - 0.8.6
+  - '0.9.3'
 aws_c_sdkutils:
   - 0.2.4
 aws_checksums:
@@ -417,7 +417,7 @@ hdf5:
 icu:
   - '75'
 idyntree:
-  - '13'
+  - '14'
 imath:
   - 3.2.2
 impi_devel:
@@ -507,7 +507,7 @@ libcxsparse:
 libdap4:
   - 3.20.6
 libdeflate:
-  - '1.24'
+  - '1.25'
 libduckdb_devel:
   - '1'
 libeantic:
@@ -943,7 +943,7 @@ s2geography:
 s2geometry:
   - 0.11.1
 s2n:
-  - '1.5.27'
+  - '1.6.0'
 sdl2:
   - '2'
 sdl2_image:
@@ -999,7 +999,7 @@ ucc:
 ucx:
   - '1.19'
 uhd:
-  - 4.8.0
+  - 4.9.0
 urdfdom:
   - '4.0'
 vc:                    # [win]
