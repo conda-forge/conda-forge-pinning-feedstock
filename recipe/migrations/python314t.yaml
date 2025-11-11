@@ -1,8 +1,6 @@
-# needs to be after the timestamp of the one for 3.14 (due to how additional_zip_keys get applied)
-# do *NOT* change this value
-migrator_ts: 1724712608
+migrator_ts: 1755739493
 __migrator:
-    commit_message: Rebuild for python 3.13 freethreading
+    commit_message: Rebuild for python 3.14 freethreading
     migration_number: 1
     operation: key_add
     primary_key: python
@@ -12,10 +10,10 @@ __migrator:
             - 3.10.* *_cpython
             - 3.11.* *_cpython
             - 3.12.* *_cpython
-            - 3.13.* *_cp313  # new entry
-            - 3.13.* *_cp313t  # new entry
-            - 3.14.* *_cp314
-    paused: true
+            - 3.13.* *_cp313
+            - 3.13.* *_cp313t
+            - 3.14.* *_cp314    # new entry
+            - 3.14.* *_cp314t   # new entry
     longterm: true
     pr_limit: 20
     max_solver_attempts: 3  # this will make the bot retry "not solvable" stuff 12 times
@@ -27,15 +25,19 @@ __migrator:
         - cross-python
         - python_abi
     exclude_pinned_pkgs: false
+    # if feedstock already has 3.13t migrator this is redundant, but harmless
     additional_zip_keys:
         - is_freethreading
         - is_abi3
+    wait_for_migrators:
+        - python314
     ignored_deps_per_node:
         matplotlib:
             - pyqt
+    allowlist_file: free-threaded-314.txt
 
 python:
-- 3.13.* *_cp313t
+- 3.14.* *_cp314t
 # additional entries to add for zip_keys
 is_freethreading:
 - true
@@ -43,7 +45,5 @@ is_python_min:
 - false
 is_abi3:
 - false
-# need to add channel_sources because this migrator is ordered after the 3.14 migrator (if present), and the
-# latter currently (until 3.14 GA) extends the zip with that extra key that we therefore need to provide here
 # channel_sources:
 # - conda-forge

@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for hdf5 1.14.4
-  kind: version
-  migration_number: 1
-hdf5:
-- 1.14.4
-migrator_ts: 1727986901.81392

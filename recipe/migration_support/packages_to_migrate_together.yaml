@@ -1,11 +1,18 @@
 # These packages need to be migrated together.
 # Currently they need to have the same version
+# Also the run_exports need to be on main package
+
+brotli:
+  - brotli
+  - libbrotlicommon
+  - libbrotlidec
+  - libbrotlienc
 
 coin_or_cbc:
   - coin_or_cbc
   - coincbc
 
-gdal:
+libgdal_core:
   - gdal
   - libgdal
   - libgdal_core
@@ -45,7 +52,7 @@ libgoogle_cloud:
   - libgoogle_cloud_speech_devel
   - libgoogle_cloud_storage_devel
 
-libpdal:
+libpdal_core:
   - pdal
   - libpdal
   - libpdal_core
@@ -69,13 +76,29 @@ libvigra:
   - libvigra
   - vigra
 
+libxml2:
+  - libxml2
+  - libxml2_devel
+
 libwebp:
   - libwebp
   - libwebp_base
 
+magma:
+  - libmagma
+  - libmagma_devel
+  - libmagma_sparse
+  - magma
+
 mkl:
   - mkl
   - mkl_devel
+
+petsc:
+  - petsc
+  - petsc4py
+  - slepc
+  - slepc4py
 
 pytorch:
   - libtorch
