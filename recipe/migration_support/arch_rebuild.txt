@@ -64,6 +64,7 @@ bsddb3
 buildah
 buildbot
 bullet
+bullet-python
 cached_interpolate
 cairomm
 calceph
