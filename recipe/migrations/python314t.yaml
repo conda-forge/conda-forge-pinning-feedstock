@@ -14,7 +14,6 @@ __migrator:
             - 3.13.* *_cp313t
             - 3.14.* *_cp314    # new entry
             - 3.14.* *_cp314t   # new entry
-    paused: true
     longterm: true
     pr_limit: 20
     max_solver_attempts: 3  # this will make the bot retry "not solvable" stuff 12 times
@@ -35,6 +34,7 @@ __migrator:
     ignored_deps_per_node:
         matplotlib:
             - pyqt
+    allowlist_file: free-threaded-314.txt
 
 python:
 - 3.14.* *_cp314t

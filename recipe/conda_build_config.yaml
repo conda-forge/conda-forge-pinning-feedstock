@@ -176,12 +176,6 @@ zip_keys:
     # CUDA 13.x requires newer glibc than our current baseline
     - c_stdlib_version          # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    # temporarily due to https://github.com/conda-forge/cudnn-feedstock/issues/124
-    - cudnn                     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  -                             # [win and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    # temporarily due to https://github.com/conda-forge/cudnn-feedstock/issues/124
-    - cuda_compiler_version     # [win and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-    - cudnn                     # [win and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   -
     - python
     - is_python_min
@@ -252,7 +246,7 @@ aws_c_io:
 aws_c_mqtt:
   - 0.13.3
 aws_c_s3:
-  - '0.9.3'
+  - 0.10.1
 aws_c_sdkutils:
   - 0.2.4
 aws_checksums:
@@ -307,10 +301,8 @@ coin_or_utils:
   - 2.11
 console_bridge:
   - 1.0
-# temporarily zipped with cuda_compiler_version
 cudnn:
-  - None
-  - '9'     # [((linux and not ppc64le) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - '9'
 cutensor:
   - 2
 curl:
@@ -680,6 +672,8 @@ libsvm:
   - '335'
 libsqlite:
   - 3
+libsystemd:
+  - '257'
 libtensorflow:
   - "2.16"
 libtensorflow_cc:
@@ -690,6 +684,8 @@ libtiff:
   - '4.7'
 libtorch:
   - '2.7'
+libudev:
+  - '257'
 libumfpack:
   - '6'
 libunwind:
@@ -971,7 +967,7 @@ sqlite:
 srm_ifce:
   - 1.24.6
 starlink_ast:
-  - 9.3.0
+  - 9.3.1
 suitesparse:
   - '7'
 suitesparse_mongoose:
