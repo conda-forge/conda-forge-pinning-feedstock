@@ -605,7 +605,7 @@ libmagma_sparse:
 libmed:
   - '4.1'
 libmatio:
-  - 1.5.28
+  - 1.5.29
 libmatio_cpp:
   - 0.3.0
 libmicrohttpd:
