@@ -59,3 +59,6 @@ cxx_compiler_version:          # [(linux and (x86_64 or aarch64)) and os.environ
 
 fortran_compiler_version:      # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 14                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+arm_variant_type:              # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - sbsa                       # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
