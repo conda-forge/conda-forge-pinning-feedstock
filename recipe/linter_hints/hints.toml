@@ -228,3 +228,8 @@ xorg_xproto = """\
     The use of `xorg-xproto` is deprecated. \
     Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
     packages and bundles them all together."""
+mesa_libgl_devel_cdt_stub = """\
+    Use of `cdt(mesa-libgl-devel)` is deprecated. \
+    Use one or more of `libgl-devel`, `libegl-devel`, `libgles-devel`, `libglx-devel`, and \
+    `libopengl-devel`. See https://conda-forge.org/docs/maintainer/knowledge_base/#libgl
+"""
