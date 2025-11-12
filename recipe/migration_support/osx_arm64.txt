@@ -1322,6 +1322,7 @@ r
 r-amap
 r-anytime
 r-ape
+r-aphid
 r-aptreeshape
 r-arrow
 r-bart
@@ -1378,6 +1379,7 @@ r-hmisc
 r-hunspell
 r-idpmisc
 r-infotheo
+r-insect
 r-irkernel
 r-jpeg
 r-jqr
