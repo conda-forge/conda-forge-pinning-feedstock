@@ -8,6 +8,8 @@ __migrator:
   exclude:
     # already on 2022; bot gets hung up on phantom parent
     - intel-compiler-repack
+    # same for intel_repack; arrived with MKL 2025, hence the wait_for_migrators
+    - intel_repack
 migrator_ts: 1730487206.6584296
 tbb:
 - '2022'
