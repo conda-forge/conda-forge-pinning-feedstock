@@ -362,6 +362,7 @@ fairseq
 faiss-cpu
 faiss-split
 falcon
+fastcdc
 fast-histogram
 fast-query-parsers
 fast_hdbscan
