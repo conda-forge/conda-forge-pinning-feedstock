@@ -1,24 +1,24 @@
 migrator_ts: 1762977869
 __migrator:
 
-  commit_message: |4
+  commit_message: |
     Build for NVIDIA Tegra devices and CUDA 12.9
-
+    
     This migration adds `arm_variant_type=tegra` to the build matrix to support NVIDIA Tegra
     devices compatible with CUDA 12.9. Tegra devices compatible with CUDA 13.0 are SBSA
     compliant, and do not need a separate build. Only Orin (sm_87) and later devices are
     supported because earlier devices are not supported by CUDA 12.9.
-
+    
     The `arm-variant` package must also be added to the build requirements of the recipe in
     order to constrain the CUDA compiler to the correct variant.
-
+    
     ```yaml
     requirements:
       build:
         - {{ compiler('cuda') }}
         - arm-variant * {{ arm_variant_type }}  # [linux and aarch64]
     ```
-
+    
     Please read the conda-forge CUDA recipe guide for more information:
     https://github.com/conda-forge/cuda-feedstock/blob/main/recipe/doc/recipe_guide.md#building-for-arm-tegra-devices
 
