@@ -2,7 +2,6 @@ __migrator:
   kind: version
   migration_number: 1
   build_number: 1
-  paused: true
   commit_message: |
     Rebuild for flang 21
     
