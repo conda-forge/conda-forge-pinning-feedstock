@@ -232,7 +232,7 @@ attr:
 aws_c_auth:
   - 0.9.1
 aws_c_cal:
-  - '0.9.9'
+  - '0.9.10'
 aws_c_common:
   - '0.12.5'
 aws_c_compression:
@@ -252,7 +252,7 @@ aws_c_sdkutils:
 aws_checksums:
   - 0.2.7
 aws_crt_cpp:
-  - '0.35.0'
+  - '0.35.2'
 aws_sdk_cpp:
   - 1.11.606
 azure_core_cpp:
