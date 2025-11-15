@@ -1530,6 +1530,7 @@ ripgrep
 ripser
 rise
 riskfolio-lib
+rlic
 root
 rosdep
 rosdistro
