@@ -86,7 +86,7 @@ cuda_compiler_version_min:
   - 12.6                       # [(linux and not ppc64le) or win64]
 
 arm_variant_type:              # [aarch64]
-  - sbsa                       # [aarch64]
+  - None                       # [aarch64]
   - sbsa                       # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 _libgcc_mutex:
