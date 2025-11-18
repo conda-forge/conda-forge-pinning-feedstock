@@ -1852,6 +1852,7 @@ xorg-xineramaproto
 xorjson
 xpa
 xraylib
+xrayutilities
 xsimd
 xsv
 xtb
