@@ -791,7 +791,7 @@ occt:
 openblas:
   - 0.3.*
 openexr:
-  - '3.3'
+  - '3.4'
 openh264:
   - 2.6.0
 openjpeg:
