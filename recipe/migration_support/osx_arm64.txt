@@ -350,6 +350,7 @@ esptool
 esutil
 euphonic
 eups
+ewah-bool-utils
 exoplanet
 exoplanet-core
 expat
@@ -1867,6 +1868,7 @@ yarn
 yarp
 yoda
 youtube-dl
+yt
 yt_astro_analysis
 yte
 ytop
