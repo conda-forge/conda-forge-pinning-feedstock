@@ -50,6 +50,7 @@ ast-grep
 astra-toolbox
 astroid
 astromatic-source-extractor
+astropy
 astropy-healpix
 astroscrappy
 asv
