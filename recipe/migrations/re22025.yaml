@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for re2 2025
+  kind: version
+  migration_number: 1
+migrator_ts: 1751057746.8894725
+re2:
+- '2025'
