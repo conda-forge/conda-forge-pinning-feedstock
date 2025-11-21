@@ -10,6 +10,7 @@ aesara
 affogato
 agate
 age
+aicspylibczi
 aio-pika
 aiodns
 aioeasywebdav
@@ -86,6 +87,7 @@ bc
 bcolz
 bedtools
 benchmark
+bermuda
 bfg
 bilby.cython
 billiard
@@ -112,6 +114,7 @@ brian2
 brotlipy
 bsddb3
 bt
+btrees
 buildbot
 bytewax
 cached_interpolate
@@ -230,6 +233,7 @@ cryptopp
 csp
 cspice
 css-html-js-minify
+ct3
 cunit
 cvxopt
 cvxpy
@@ -242,6 +246,7 @@ cyclus
 cyipopt
 cymetric
 cython-fortran-file
+cythonbiogeme
 cytoplay
 cytosim
 dagster
@@ -287,6 +292,7 @@ diffmah
 diffstar
 digital_rf
 dionysus
+dioptas
 direnv
 disperse
 divemesh
@@ -294,6 +300,9 @@ djvulibre
 dkh
 dlib-cpp
 dm-tree
+dmri-amico
+dmri-dicelib
+doas_cl
 docker-buildx
 docker-cli
 docker-compose
@@ -329,6 +338,7 @@ eelbrain
 einsums
 elixir
 emacs
+emperor
 emsdk
 enchant
 endf-parserpy
@@ -352,6 +362,7 @@ fairseq
 faiss-cpu
 faiss-split
 falcon
+fastcdc
 fast-histogram
 fast-query-parsers
 fast_hdbscan
@@ -360,6 +371,7 @@ fastavro
 fastcache
 fastcluster
 fastdtw
+fastjet-cxx
 fastnumbers
 fastparquet
 fastpath
@@ -427,6 +439,7 @@ geocat-comp
 geocat-f2py
 geohexviz
 geometry-central
+geotesscpp
 geotiff
 geowombat
 gepetto-viewer-corba
@@ -494,6 +507,7 @@ great-expectations
 grimp
 groff
 gromacs
+grouper
 grpc_java_plugin
 grpcio
 grpcio-tools
@@ -511,6 +525,7 @@ gtk4
 gtkmm
 guardian
 gunicorn
+guppy3
 gwsurrogate
 gym
 gymnasium
@@ -531,6 +546,7 @@ hdf5-external-filter-plugins
 hdf5plugin
 hdmedians
 healpix
+healpix-geo
 healpix_cxx
 healpy
 heat
@@ -585,6 +601,7 @@ inspiral-range
 integratorxx
 ipopt
 ipython
+isce2
 isce3
 isl
 islpy
@@ -616,6 +633,7 @@ kepderiv
 keras
 keras-preprocessing
 khiops-binaries
+khiops-driver-gcs
 kim-api
 kimpy
 kliff
@@ -641,6 +659,7 @@ lazy-object-proxy
 lazydocker
 ldc
 lenstool
+less
 levenshtein
 lfortran
 lftp
@@ -649,6 +668,7 @@ lib3mf
 libavif
 libblitz
 libboost-mpi
+libcap
 libcint
 libcomcat
 libconeangle
@@ -671,6 +691,7 @@ liblsl
 libm2k
 libmamba
 libmediainfo
+libmemcached
 libmo_unpack
 libmongocxx
 libnetcdf
@@ -689,6 +710,7 @@ librdkafka
 libsass
 libsbml
 libsecp256k1
+libsemigroups_pybind11
 libsigcpp
 libsoup
 libspatialindex
@@ -720,6 +742,7 @@ llist
 lndoctor
 log4cxx
 loky
+loro
 louvain
 lp_solve
 lpsolve55
@@ -832,6 +855,7 @@ natcap.invest
 nb_conda
 nb_conda_kernels
 ncbi-datasets-cli
+nccmp
 ncdu
 nco
 ncrystal
@@ -850,6 +874,7 @@ neuron
 newrelic
 nexus
 ngmix
+ngspice
 nifty
 niftyreg
 nim
@@ -970,6 +995,7 @@ perl-dbi
 perl-digest-md5
 perl-encode
 perl-io-tty
+perl-lwp-simple
 perl-mime-base64
 perl-module-build
 perl-moose
@@ -978,6 +1004,7 @@ perl-package-stash
 perl-params-util
 perl-pathtools
 perl-scalar-list-utils
+perl-socket
 perl-storable
 perl-sub-uplevel
 perl-unicode-linebreak
@@ -985,6 +1012,7 @@ perl-unix-processors
 perl-uri
 perl-version
 perl-xml-parser
+perl-yaml-libyaml
 perspective
 pestpp
 petsc
@@ -1003,6 +1031,7 @@ physics-tenpy
 piff
 pigz
 pikepdf
+pixell
 pixi-inject
 pixi-pack
 pixmappy
@@ -1057,6 +1086,7 @@ py-triangle
 py2bit
 py_gd
 py_rattler
+pyabel
 pyacvd
 pyagrum
 pyahocorasick
@@ -1064,6 +1094,7 @@ pyarrow
 pyasn1
 pyaudi
 pybamm
+pybase64
 pybuilder
 pycalphad
 pycares
@@ -1120,6 +1151,7 @@ pyimagej
 pykakasi
 pykdtree
 pykep
+pylabdd
 pylance
 pylibtiff
 pylint
@@ -1134,6 +1166,7 @@ pymc3
 pymde
 pymdi
 pymediainfo
+pymeep
 pymeos-cffi
 pymol-open-source
 pymssql
@@ -1259,6 +1292,7 @@ pyworld
 pyxattr
 pyyaml
 pyzstd
+qdoas
 qe
 qgis
 qgrid
@@ -1286,15 +1320,19 @@ quaternion
 quspin
 qutip
 r
+r-amap
 r-anytime
 r-ape
+r-aphid
 r-aptreeshape
 r-arrow
 r-bart
 r-base
+r-bayesm
 r-beeswarm
 r-bigrquery
 r-bipartite
+r-bootstrap
 r-cairo
 r-catboost
 r-changeforest
@@ -1304,6 +1342,7 @@ r-checkmate
 r-cmdstanr
 r-coda
 r-collapse
+r-compositions
 r-cubature
 r-cvxr
 r-dbarts
@@ -1315,6 +1354,7 @@ r-diptest
 r-distributionutils
 r-duckdb
 r-ecp
+r-energy
 r-essentials
 r-exactextractr
 r-fastmatch
@@ -1330,14 +1370,17 @@ r-ggpubr
 r-glassofast
 r-gmm
 r-gmp
+r-gsl
 r-gsw
 r-gtools
 r-gunifrac
+r-harmony
 r-hexbin
 r-hmisc
 r-hunspell
 r-idpmisc
 r-infotheo
+r-insect
 r-irkernel
 r-jpeg
 r-jqr
@@ -1359,6 +1402,8 @@ r-magick
 r-mapdata
 r-mapdeck
 r-marginaleffects
+r-matchit
+r-mboost
 r-mclust
 r-mice
 r-microbenchmark
@@ -1403,11 +1448,13 @@ r-reprex
 r-reshape
 r-reticulate
 r-rfast
+r-rgtk2
 r-rhpcblasctl
 r-rhub
 r-rjags
 r-rmpfr
 r-rngwell
+r-rnifti
 r-robustbase
 r-robustgasp
 r-rocit
@@ -1427,10 +1474,12 @@ r-slider
 r-sn
 r-sodium
 r-sourcetools
+r-sparsesvd
 r-spelling
 r-splines2
 r-statnet.common
 r-suppdists
+r-survivalroc
 r-svglite
 r-terra
 r-testthat
@@ -1481,6 +1530,7 @@ ripgrep
 ripser
 rise
 riskfolio-lib
+rlic
 root
 rosdep
 rosdistro
@@ -1552,10 +1602,12 @@ sdl2_net
 sdl2_ttf
 sdsl-lite
 seabreeze
+sealsmodel
 sedflux
 selenium-manager
 sensormapgeo
 sentencepiece
+seqan-library
 sfepy
 sfml
 sgp4
@@ -1564,6 +1616,7 @@ shapely
 shapelysmooth
 shellcheck
 shredx
+shrinkwrap
 siesta
 simple-build-system
 simpleeval
@@ -1588,6 +1641,7 @@ soapysdr-module-rtlsdr
 soapysdr-module-uhd
 socat
 somoclu
+sortmerna
 sourmash-minimal
 sox
 soxr-python
@@ -1642,6 +1696,7 @@ tbb
 tblite-python
 tcplotter
 teensy_loader_cli
+temporalio
 tensorboard
 tensorflow-estimator
 termcolor-cpp
@@ -1663,6 +1718,7 @@ time-machine
 timezonefinder
 tinyxml
 tinyxml2
+tio
 tippecanoe
 titiler-core
 tl2cgen
@@ -1796,11 +1852,13 @@ xorg-xineramaproto
 xorjson
 xpa
 xraylib
+xrayutilities
 xsimd
 xsv
 xtb
 xtensor-io
 xtensor-python
+xypattern
 yaehmop
 yaml
 yaml-cpp
@@ -1809,6 +1867,7 @@ yarn
 yarp
 yoda
 youtube-dl
+yt_astro_analysis
 yte
 ytop
 z5py
@@ -1816,10 +1875,12 @@ zaber-motion
 zarr
 zbar
 zchunk
+zen-engine
 zenoh-cpp
 zenoh-plugin-webserver
 zeopp-lsmo
 zeroc-ice
 zip
+zodbpickle
 zopfli
 zoxide

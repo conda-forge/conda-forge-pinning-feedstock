@@ -1,0 +1,15 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for tbb 2022
+  kind: version
+  migration_number: 1
+  exclude:
+    # already on 2022; bot gets hung up on phantom parent
+    - intel-compiler-repack
+    # same for intel_repack; arrived with MKL 2025
+    - intel_repack
+migrator_ts: 1730487206.6584296
+tbb:
+- '2022'
+tbb_devel:
+- '2022'

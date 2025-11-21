@@ -86,6 +86,8 @@ libgfortran-ng = """\
       ignore_run_exports_from:
         - {{ compiler("fortran") }}
     ```"""
+posix = "Use of `posix` package on windows is deprecated. Use `m2-base`."
+magma = "The `magma` output has been superseded by `libmagma-devel`."
 openmp = "The `openmp` output has been superseded by `llvm-openmp`."
 astropy = """\
     Recipes should usually depend on `astropy-base` as opposed to \
@@ -226,3 +228,8 @@ xorg_xproto = """\
     The use of `xorg-xproto` is deprecated. \
     Please use `xorg-xorgproto` instead. It contains the latest versions of all the proto \
     packages and bundles them all together."""
+mesa_libgl_devel_cdt_stub = """\
+    Use of `cdt(mesa-libgl-devel)` is deprecated. \
+    Use one or more of `libgl-devel`, `libegl-devel`, `libgles-devel`, `libglx-devel`, and \
+    `libopengl-devel`. See https://conda-forge.org/docs/maintainer/knowledge_base/#libgl
+"""

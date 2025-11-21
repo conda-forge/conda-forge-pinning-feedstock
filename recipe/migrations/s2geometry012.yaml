@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for s2geometry 0.12
+  kind: version
+  migration_number: 1
+migrator_ts: 1743013386.058922
+s2geometry:
+- '0.12'

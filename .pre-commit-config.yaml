@@ -1,9 +1,9 @@
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v5.0.0
+  rev: v6.0.0
   hooks:
     - id: file-contents-sorter
-      files: recipe/migrations/arch_rebuild.txt|recipe/migrations/osx_arm64.txt|recipe/migrations/win_arm64.txt
+      files: recipe/migration_support/*.txt
     - id: check-toml
       files: recipe\/.*\.toml
 - repo: https://github.com/adrienverge/yamllint.git
@@ -11,6 +11,14 @@ repos:
   hooks:
     - id: yamllint
       files: recipe\/migrations\/.*\.yaml
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.14.3
+  hooks:
+    - id: ruff-check
+      args: [ --fix ]
+      files: recipe/test_migrations.py
+    - id: ruff-format
+      files: recipe/test_migrations.py
 
 ci:
     autofix_commit_msg: |

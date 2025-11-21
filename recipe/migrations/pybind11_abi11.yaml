@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for pybind11 3 and pybind11_abi 11
+  kind: version
+  migration_number: 1
+migrator_ts: 1752454025.946169
+pybind11_abi:
+- '11'

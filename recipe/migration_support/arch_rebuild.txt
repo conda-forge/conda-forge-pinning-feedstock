@@ -30,6 +30,7 @@ astropy
 asyncpg
 attr
 austin
+autorift
 awkward1
 awscli2
 awscrt
@@ -43,6 +44,7 @@ bayes-filters-lib
 bayeswave
 bazel
 bcrypt
+bgenix
 bilby.cython
 binaryen
 bindensity
@@ -62,6 +64,7 @@ bsddb3
 buildah
 buildbot
 bullet
+bullet-python
 cached_interpolate
 cairomm
 calceph
@@ -74,6 +77,7 @@ cascade
 catch2
 cbonsai
 cccl
+cccl-python
 ccdproc
 cctbx-base
 cctools
@@ -121,7 +125,9 @@ cuda-cccl-impl
 cuda-command-line-tools
 cuda-compat
 cuda-compiler
+cuda-ctadvisor
 cuda-cudart
+cuda-culibos
 cuda-cuobjdump
 cuda-cupti
 cuda-cuxxfilt
@@ -216,8 +222,10 @@ faiss-split
 fancycompleter
 fast-histogram
 fast_float
+fastjet-cxx
 fastparquet
 fastpath
+fasttext
 fcl
 fenics-dolfinx
 fermipy
@@ -232,6 +240,7 @@ flash-attn-fused-dense
 flash-attn-layer-norm
 flask
 flit
+flock
 fonttools
 forestci
 fortls
@@ -289,6 +298,7 @@ gstlal-calibration
 gstlal-inspiral
 gstools
 gunicorn
+guppy3
 gymnasium
 gz-launch
 gzip
@@ -296,7 +306,10 @@ h3-py
 h3ronpy
 harlequin
 harp
+hats
 hdbscan
+hdf5-external-filter-plugins
+healpix-geo
 healpix_cxx
 heaptrack
 heffte
@@ -329,6 +342,7 @@ ipython
 islpy
 jaeger
 jags
+jama
 jaxlib
 jaydebeapi
 jbig
@@ -422,12 +436,14 @@ librdkafka
 librerun-sdk
 librmm
 libsass
+libsemigroups_pybind11
 libsolv
 libtins
 libudev
 libvpx
 libxcrypt
 libxkbfile
+libxmlpp
 libxnvme
 libzopfli
 light-curve-python
@@ -443,6 +459,7 @@ log4cxx
 logzero
 louvain
 lp_solve
+lsdb
 lsdeluxe
 lttng-ust
 lua
@@ -451,6 +468,7 @@ lzop
 mafft
 mahotas
 mamba
+mamba-ssm
 mandrake
 manif
 manim
@@ -471,6 +489,7 @@ micromamba
 minijinja
 mlip
 mne-lsl
+mocpy
 mongoengine
 moonrepo-moon
 mosh
@@ -504,10 +523,12 @@ newrelic
 nghttp2
 nim
 nitime
+nn
 noise
 nordugrid-arc
 notebook
 nox
+nputop
 nsight-compute
 nsync
 numba
@@ -522,9 +543,11 @@ nvcomp
 nvidia-apex
 nvidia-gds
 nvimgcodec
+nvmolkit
 nvtx
 nvtx-c
 ocaml
+ocaml-findlib
 occt
 oclgrind
 octave
@@ -540,6 +563,7 @@ opam
 opcua
 open62541
 openai
+openal-soft
 openblas
 opencv
 openfst
@@ -611,6 +635,7 @@ perl-storbale
 perl-sub-uplevel
 perl-termreadkey
 perl-unix-processors
+perl-uri
 perl-version
 perl-yaml-libyaml
 perspective
@@ -652,6 +677,7 @@ py2bit
 py_rattler
 pyarrow
 pybamm
+pybase64
 pybcj
 pycbc
 pycifrw
@@ -679,6 +705,7 @@ pygplates
 pygraphviz
 pygrib
 pyhdf
+pyinterp
 pyjnius
 pykdtree
 pykep
@@ -744,6 +771,7 @@ pythonocc-core
 pythran
 pytinyrenderer
 pytorch-cpu
+pytorch_scatter
 pytsql
 pyvcf
 pyvips
@@ -787,6 +815,7 @@ r-bigrquery
 r-bindrcpp
 r-bitops
 r-blockmodeling
+r-bootstrap
 r-brglm
 r-brms
 r-bwstest
@@ -822,6 +851,7 @@ r-dixontest
 r-dplr
 r-dqrng
 r-drc
+r-ebimetagenomics
 r-ecp
 r-essentials
 r-extrafont
@@ -842,7 +872,9 @@ r-flock
 r-forecast
 r-fpc
 r-fracdiff
+r-fst
 r-futile.logger
+r-gam
 r-gamlss
 r-gap
 r-gbm
@@ -856,17 +888,22 @@ r-ggrepel
 r-gifski
 r-git2r
 r-glmmtmb
+r-gmd
 r-gnm
 r-grbase
 r-grf
 r-gstat
 r-gsw
 r-gtools
+r-guilds
 r-gwasexacthw
+r-haplo.stats
+r-harmony
 r-haven
 r-hh
 r-hiddenmarkov
 r-hmisc
+r-huge
 r-idpmisc
 r-igraph
 r-infotheo
@@ -879,6 +916,8 @@ r-kableextra
 r-kernlab
 r-kknn
 r-kohonen
+r-kriging
+r-ks
 r-ksamples
 r-lazyeval
 r-lhs
@@ -912,6 +951,7 @@ r-microbenchmark
 r-minpack.lm
 r-minqa
 r-mitools
+r-mixomics
 r-mixtools
 r-mnormt
 r-multicool
@@ -988,6 +1028,7 @@ r-restfulr
 r-reticulate
 r-rfast
 r-rgl
+r-rgtk2
 r-riags
 r-rjags
 r-rjava
@@ -1015,6 +1056,7 @@ r-rsvg
 r-rtsne
 r-ruv
 r-s2
+r-sads
 r-scales
 r-seqinr
 r-seurat
@@ -1025,6 +1067,7 @@ r-showtext
 r-slam
 r-slider
 r-sm
+r-sna
 r-sodium
 r-softimpute
 r-som
@@ -1040,8 +1083,10 @@ r-statnet.common
 r-strawr
 r-suppdists
 r-survival
+r-survivalroc
 r-survminer
 r-svd
+r-taxonomizr
 r-tfmpvalue
 r-this.path
 r-tibble
@@ -1053,6 +1098,7 @@ r-tm
 r-tmap
 r-tmvtnorm
 r-tokenizers
+r-traminer
 r-transformr
 r-truncdist
 r-tseries
@@ -1127,6 +1173,7 @@ sdl
 sdl_image
 sdsl-lite
 seqan-library
+sfml
 shap
 shellcheck
 shrinkwrap
@@ -1143,6 +1190,7 @@ soapysdr-module-remote
 soapysdr-module-rtlsdr
 soapysdr-module-uhd
 socat
+sortmerna
 soxr-python
 spacy
 sparsehash
@@ -1176,6 +1224,7 @@ tango-database
 tango-starter
 tango-test
 taplo
+tclap
 tectonic
 teensy_loader_cli
 tensorflow
@@ -1195,6 +1244,7 @@ tini
 tinyxml
 tinyxml2
 tmux
+tnt
 tokyocabinet
 tomopy
 tornado
@@ -1225,6 +1275,7 @@ uuid-utils
 uv
 uvicorn
 uvloop
+validictory
 vampyr
 veloxchem
 vhs
@@ -1243,6 +1294,7 @@ web3
 wgrib2
 wordcloud
 wurlitzer
+wxpython
 x265
 xcape
 xcb-util
@@ -1268,6 +1320,7 @@ xonsh
 xopen
 xorg-damageproto
 xorg-glproto
+xorg-libxaw3d
 xorg-libxcomposite
 xorg-libxdamage
 xorg-libxinerama

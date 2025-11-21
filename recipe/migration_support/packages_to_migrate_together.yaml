@@ -2,6 +2,12 @@
 # Currently they need to have the same version
 # Also the run_exports need to be on main package
 
+brotli:
+  - brotli
+  - libbrotlicommon
+  - libbrotlidec
+  - libbrotlienc
+
 coin_or_cbc:
   - coin_or_cbc
   - coincbc
@@ -70,12 +76,17 @@ libvigra:
   - libvigra
   - vigra
 
+libxml2:
+  - libxml2
+  - libxml2_devel
+
 libwebp:
   - libwebp
   - libwebp_base
 
 magma:
   - libmagma
+  - libmagma_devel
   - libmagma_sparse
   - magma
 
