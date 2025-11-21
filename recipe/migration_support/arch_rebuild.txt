@@ -484,6 +484,7 @@ meilisearch
 memray
 menuinst
 metaphone
+metplus
 micromamba
 minijinja
 mlip
