@@ -116,6 +116,7 @@ bsddb3
 bt
 btrees
 buildbot
+bxdecay0
 bytewax
 cached_interpolate
 cadet
