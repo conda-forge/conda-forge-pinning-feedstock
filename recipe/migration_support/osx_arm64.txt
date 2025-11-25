@@ -5,6 +5,7 @@ act
 adaptive
 adaptive-scheduler
 adcc
+adjfind
 adrt
 aesara
 affogato
