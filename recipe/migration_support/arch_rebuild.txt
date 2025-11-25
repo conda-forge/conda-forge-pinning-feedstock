@@ -487,6 +487,7 @@ metaphone
 metplus
 micromamba
 minijinja
+mini-racer
 mlip
 mne-lsl
 mocpy
