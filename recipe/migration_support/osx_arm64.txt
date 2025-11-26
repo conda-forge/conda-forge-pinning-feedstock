@@ -810,6 +810,7 @@ mim-solvers
 minijinja
 minuit2
 mitmproxy
+mitmproxy-rs
 mlflow
 mlir
 mmh3
