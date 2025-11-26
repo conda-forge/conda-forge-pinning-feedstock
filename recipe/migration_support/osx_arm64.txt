@@ -808,6 +808,7 @@ micromamba
 midiutil
 mim-solvers
 minijinja
+mini-racer
 minuit2
 mitmproxy
 mitmproxy-rs
