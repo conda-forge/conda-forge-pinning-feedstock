@@ -488,6 +488,7 @@ metplus
 micromamba
 minijinja
 mini-racer
+mitmproxy-rs
 mlip
 mne-lsl
 mocpy
