@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for zlib_ng 2.3
+  kind: version
+  migration_number: 1
+migrator_ts: 1764274571.7225306
+zlib_ng:
+- '2.3'
