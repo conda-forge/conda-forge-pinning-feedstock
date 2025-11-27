@@ -301,6 +301,7 @@ coin_or_utils:
   - 2.11
 console_bridge:
   - 1.0
+# match with libcudnn-dev
 cudnn:
   - '9'
 cutensor:
@@ -492,6 +493,9 @@ libcolamd:
   - '3'
 libcurl:
   - 8
+# match with cudnn
+libcudnn_dev:
+  - '9'
 libcrc32c:
   - 1.1
 libcxsparse:
