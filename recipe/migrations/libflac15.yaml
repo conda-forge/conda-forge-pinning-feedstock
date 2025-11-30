@@ -1,8 +1,8 @@
 migrator_ts: 1764526148
 __migrator:
-  build_number: 1
   commit_message: Rebuild for libflac 1.5
   kind: version
   migration_number: 1
+  build_number: 1
 libflac:
-- '1.5'
+  - '1.5'
