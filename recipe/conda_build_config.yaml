@@ -620,6 +620,8 @@ libntlm:
   - 1
 libode:
   - 0.16.6
+libogg:
+  - 1.3
 libopencv:
   - 4.12.0
 libopentelemetry_cpp:
