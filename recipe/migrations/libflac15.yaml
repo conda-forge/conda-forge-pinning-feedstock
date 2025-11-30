@@ -1,0 +1,8 @@
+migrator_ts: 1764526148
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+libflac:
+  - '1.5'
