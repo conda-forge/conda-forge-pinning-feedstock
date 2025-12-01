@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  kind: version
+  commit_message: "Rebuild for vtk 9.5.2"
+  migration_number: 1
+migrator_ts: 1764622028.4736397
+vtk_base:
+- 9.5.2
+vtk:
+- 9.5.2
