@@ -651,7 +651,7 @@ libraw:
 librbio:
   - '4'
 librdkafka:
-  - '2.11'
+  - '2.12'
 librealsense:
   - '2.56'
 librsvg:
