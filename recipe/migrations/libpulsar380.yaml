@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libpulsar 3.8.0
-  kind: version
-  migration_number: 1
-libpulsar:
-- 3.8.0
-migrator_ts: 1763102079.6329243
