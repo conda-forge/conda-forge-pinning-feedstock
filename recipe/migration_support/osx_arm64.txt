@@ -1057,6 +1057,7 @@ polycap
 polyscope
 pomegranate
 porespy
+posix_ipc
 postal
 pot
 potpourri3d
