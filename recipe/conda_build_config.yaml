@@ -58,11 +58,13 @@ m2w64_fortran_compiler_version:   # [win]
 gcc_compiler:
   - gcc
 gcc_compiler_version:
-  - 14
+  - 14  # [not osx]
+  - 15  # [osx]
 gxx_compiler:
   - gxx
 gxx_compiler_version:
-  - 14
+  - 14  # [not osx]
+  - 15  # [osx]
 clang_compiler:
   - clang     # [unix]
   # stay compatible with MSVC
