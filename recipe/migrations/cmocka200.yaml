@@ -1,0 +1,8 @@
+migrator_ts: 1764853710
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+cmocka:
+  - 2.0.0

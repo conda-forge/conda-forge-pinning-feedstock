@@ -183,6 +183,7 @@ cmake
 cmarkgfm
 cmdstan
 cminpack
+cmocka
 cms-combine
 coin-or-cbc
 coinbonmin
