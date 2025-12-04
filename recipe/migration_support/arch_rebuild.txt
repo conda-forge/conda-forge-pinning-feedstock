@@ -1228,6 +1228,7 @@ tango-test
 taplo
 tardigrade_error_tools
 tardigrade_vector_tools
+tardigrade_abaqus_tools
 tclap
 tectonic
 teensy_loader_cli
