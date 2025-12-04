@@ -45,5 +45,3 @@ is_python_min:
 - false
 is_abi3:
 - false
-# channel_sources:
-# - conda-forge

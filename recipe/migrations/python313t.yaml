@@ -43,7 +43,3 @@ is_python_min:
 - false
 is_abi3:
 - false
-# need to add channel_sources because this migrator is ordered after the 3.14 migrator (if present), and the
-# latter currently (until 3.14 GA) extends the zip with that extra key that we therefore need to provide here
-# channel_sources:
-# - conda-forge
