@@ -91,6 +91,7 @@ clhep
 clingo
 clpeak
 cmarkgfm
+cmocka
 cms-combine
 coinmp
 colima
