@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libsystemd 258
+  kind: version
+  migration_number: 1
+libsystemd:
+- '258'
+migrator_ts: 1762542805.4561744
