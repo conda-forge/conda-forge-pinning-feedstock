@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for cmocka 2.0.0
-  kind: version
-  migration_number: 1
-cmocka:
-- 2.0.0
-migrator_ts: 1765158608.1636384
