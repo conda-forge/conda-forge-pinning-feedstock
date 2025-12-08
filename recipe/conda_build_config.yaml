@@ -290,7 +290,7 @@ ccr:
 cfitsio:
   - 4.6.3
 cmocka:
-  - 1.1.8
+  - 2.0.0
 coin_or_cbc:
   - 2.10
 coincbc:
