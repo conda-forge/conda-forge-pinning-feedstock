@@ -1091,6 +1091,7 @@ py-plumed
 py-spy
 py-triangle
 py2bit
+py3c
 py_gd
 py_rattler
 pyabel
