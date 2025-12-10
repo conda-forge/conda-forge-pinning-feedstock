@@ -1896,3 +1896,4 @@ zip
 zodbpickle
 zopfli
 zoxide
+easychem
