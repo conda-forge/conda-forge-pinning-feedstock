@@ -1038,6 +1038,7 @@ piff
 pigz
 pikepdf
 pixell
+pixi-assistant
 pixi-inject
 pixi-pack
 pixmappy
