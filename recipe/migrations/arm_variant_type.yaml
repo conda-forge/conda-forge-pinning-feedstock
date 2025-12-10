@@ -1,0 +1,68 @@
+migrator_ts: 1738229387
+__migrator:
+  use_local: true
+  operation: key_add
+  migration_number:
+    1
+  build_number:
+    1
+  paused: true
+  override_cbc_keys:
+    - cuda_compiler_stub
+  check_solvable: false
+  primary_key: arm_variant_type
+  ordering:
+    arm_variant_type:
+      - None
+      - sbsa
+      - tegra
+  wait_for_migrators:
+    - cuda129
+    - aarch64 and ppc64le addition
+  commit_message: |2
+    Build for NVIDIA Tegra devices and CUDA 12.9
+
+    This migration adds `arm_variant_type=tegra` to the build matrix to support NVIDIA Tegra
+    devices compatible with CUDA 12.9. Tegra devices compatible with CUDA 13.0 are SBSA
+    compliant, and do not need a separate build. Only Orin (sm_87) and later devices are
+    supported because earlier devices are not supported by CUDA 12.9.
+
+    The `arm-variant` package must also be added to the build requirements of the recipe in
+    order to constrain the CUDA compiler to the correct variant, and the non CUDA 12.9 tegra
+    variants must be skipped.
+
+    ```yaml
+    build:
+      skip: true  # [(arm_variant_type == "tegra") and not (cuda_compiler_version or "").startswith("12")]
+
+    requirements:
+      build:
+        - {{ compiler('cuda') }}
+        - arm-variant * {{ arm_variant_type }}  # [linux and aarch64 and cuda_compiler_version != "None"]
+    ```
+
+    This migrator is not compatible with feedstocks still targeting CUDA 11.
+
+    conda-smithy will create build variants for CUDA 13 and non-CUDA tegra, but these will
+    be skipped at runtime with the skip statement above.
+
+    Please read the conda-forge CUDA recipe guide for more information:
+    https://github.com/conda-forge/cuda-feedstock/blob/main/recipe/doc/recipe_guide.md#building-for-arm-tegra-devices
+
+c_compiler_version:            # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 14                         # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+cxx_compiler_version:          # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 14                         # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+fortran_compiler_version:      # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 14                         # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+cuda_compiler_version:         # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 12.9                       # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+c_stdlib_version:              # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 2.34                       # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+arm_variant_type:              # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - tegra                      # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
