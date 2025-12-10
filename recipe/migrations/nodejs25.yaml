@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for nodejs 25
+  kind: version
+  migration_number: 1
+migrator_ts: 1765362804.3218246
+nodejs:
+- '25'
