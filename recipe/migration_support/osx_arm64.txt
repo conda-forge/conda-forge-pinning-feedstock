@@ -66,6 +66,7 @@ autode
 autodiff
 automake
 av
+avrocpp
 awex
 awkward
 aws-session-manager-plugin
