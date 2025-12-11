@@ -863,7 +863,7 @@ pixman:
 poco:
   - 1.14.2
 poppler:
-  - '25.07'
+  - '25.11'
 portaudio:
   - '19.7'
 postgresql:
