@@ -439,6 +439,7 @@ librmm
 libsass
 libsemigroups_pybind11
 libsolv
+libtdlpack
 libtins
 libudev
 libvpx

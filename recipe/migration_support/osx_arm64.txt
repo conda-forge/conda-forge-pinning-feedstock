@@ -720,6 +720,7 @@ libsigcpp
 libsoup
 libspatialindex
 libstempo
+libtdlpack
 libtins
 libtlsh
 libtool
