@@ -1123,6 +1123,7 @@ pyddx
 pydeb
 pydelatin
 pydpc
+pydocket
 pyduktape2
 pyebsdindex
 pyeda
