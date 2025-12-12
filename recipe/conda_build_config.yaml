@@ -989,9 +989,9 @@ superlu_dist:
 swig_abi:
   - '5'
 tbb:
-  - '2021'
+  - '2022'
 tbb_devel:
-  - '2021'
+  - '2022'
 tensorflow:
   - "2.16"
 thrift_cpp:
