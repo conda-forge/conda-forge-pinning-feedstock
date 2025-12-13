@@ -642,6 +642,7 @@ khiops-driver-gcs
 kim-api
 kimpy
 kliff
+kmeans1d
 kokkos
 kokkos-kernels
 kombu
