@@ -74,3 +74,6 @@ docker_image:                                             # [os.environ.get("BUI
   # CUDA 11.8 arch: cross-compilation (build != target)
   - quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8   # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
   - quay.io/condaforge/linux-anvil-x86_64-cuda11.8:ubi8   # [ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True" and os.environ.get("BUILD_PLATFORM") == "linux-64"]
+
+arm_variant_type:              # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - sbsa                       # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
