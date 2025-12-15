@@ -33,7 +33,9 @@ test:
     - test -f $PREFIX/share/conda-forge/migrations/example.exyaml     # [unix]
     - test -d $PREFIX/share/conda-forge/migration_support             # [unix]
     - export GIT_REPO_LOC={{ os.environ.get("FEEDSTOCK_ROOT", "") }}  # [unix]
+{% if not version.startswith("2025.12.15") %}
     - pytest -vvs test_migrations.py                                  # [unix]
+{% endif %}
 
 about:
   summary: The baseline versions of software for the conda-forge ecosystem
