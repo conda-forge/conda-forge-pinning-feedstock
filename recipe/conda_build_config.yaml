@@ -339,7 +339,7 @@ flann:
 flatbuffers:
   - 25.2.10
 fmt:
-  - '11.2'
+  - '12.0'
 fontconfig:
   - 2
 freetype:
@@ -971,7 +971,7 @@ soapysdr:
 sox:
   - 14.4.2
 spdlog:
-  - '1.15'
+  - '1.16'
 spirv_tools:
   - '2025'
 sqlite:
