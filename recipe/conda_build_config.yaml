@@ -327,7 +327,7 @@ dcap:
 eclib:
   - '20250627'
 elfutils:
-  - '0.193'
+  - '0.194'
 exiv2:
   - '0.28'
 expat:
@@ -341,7 +341,7 @@ flann:
 flatbuffers:
   - 25.2.10
 fmt:
-  - '11.2'
+  - '12.0'
 fontconfig:
   - 2
 freetype:
@@ -448,7 +448,7 @@ krb5:
 ldas_tools_framecpp:
   - '2.9'
 libabseil:
-  - 20250127
+  - 20250512
 libaec:
   - '1'
 libamd:
@@ -577,7 +577,7 @@ libgoogle_cloud_speech_devel:
 libgoogle_cloud_storage_devel:
   - '2.39'
 libgrpc:
-  - "1.71"
+  - "1.73"
 libgsasl:
   - '2'
 libheif:
@@ -637,7 +637,7 @@ libopentelemetry_cpp:
 libosqp:
   - 1.0.0
 libopenvino_dev:
-  - 2025.2.0
+  - 2025.3.0
 libparu:
   - '1'
 libpcap:
@@ -647,7 +647,7 @@ libpnetcdf:
 libpng:
   - 1.6
 libprotobuf:
-  - 5.29.3
+  - 6.31.1
 libpq:
   - '17'
 libpulsar:
@@ -731,7 +731,7 @@ libxsmm:
 libuuid:
   - 2
 libyarp:
-  - 3.12.1
+  - 3.12.2
 libzip:
   - 1
 lmdb:
@@ -783,8 +783,8 @@ netcdf_fortran:
 nettle:
   - '3.10'
 nodejs:
+  - '24'
   - '22'
-  - '20'
 nss:
   - 3
 nspr:
@@ -849,7 +849,7 @@ slepc4py:
 svt_av1:
   - 3.1.2
 p11_kit:
-  - '0.24'
+  - '0.25'
 pcre:
   - '8'
 pcre2:
@@ -865,7 +865,7 @@ pixman:
 poco:
   - 1.14.2
 poppler:
-  - '25.07'
+  - '25.11'
 portaudio:
   - '19.7'
 postgresql:
@@ -935,8 +935,8 @@ readline:
 rocksdb:
   - '10.7'
 root_base:
-  - 6.32.10
-  - 6.34.4
+  - 6.34.10
+  - 6.36.04
 r_base:
   - 4.3
   - 4.4
@@ -973,7 +973,7 @@ soapysdr:
 sox:
   - 14.4.2
 spdlog:
-  - '1.15'
+  - '1.16'
 spirv_tools:
   - '2025'
 sqlite:
@@ -991,9 +991,9 @@ superlu_dist:
 swig_abi:
   - '5'
 tbb:
-  - '2021'
+  - '2022'
 tbb_devel:
-  - '2021'
+  - '2022'
 tensorflow:
   - "2.16"
 thrift_cpp:
