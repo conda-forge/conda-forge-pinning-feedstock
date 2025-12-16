@@ -446,7 +446,7 @@ krb5:
 ldas_tools_framecpp:
   - '2.9'
 libabseil:
-  - 20250127
+  - 20250512
 libaec:
   - '1'
 libamd:
@@ -575,7 +575,7 @@ libgoogle_cloud_speech_devel:
 libgoogle_cloud_storage_devel:
   - '2.39'
 libgrpc:
-  - "1.71"
+  - "1.73"
 libgsasl:
   - '2'
 libheif:
@@ -645,7 +645,7 @@ libpnetcdf:
 libpng:
   - 1.6
 libprotobuf:
-  - 5.29.3
+  - 6.31.1
 libpq:
   - '17'
 libpulsar:
