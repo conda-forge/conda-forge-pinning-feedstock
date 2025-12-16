@@ -1,4 +1,4 @@
-migrator_ts: 1738229387
+migrator_ts: 9738229387
 __migrator:
   use_local: true
   operation: key_add
@@ -10,12 +10,14 @@ __migrator:
   override_cbc_keys:
     - cuda_compiler_stub
   check_solvable: false
-  primary_key: arm_variant_type
+  primary_key: cuda_compiler_version
   ordering:
     arm_variant_type:
       - None
       - sbsa
       - tegra
+  additional_zip_keys:
+    - arm_variant_type  # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   wait_for_migrators:
     - cuda129
     - aarch64 and ppc64le addition
