@@ -16,7 +16,7 @@ __migrator:
       - None
       - sbsa
       - tegra
-  additional_zip_keys:
+  additional_zip_keys:  # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - arm_variant_type  # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   wait_for_migrators:
     - cuda129
