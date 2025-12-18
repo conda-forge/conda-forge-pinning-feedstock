@@ -375,6 +375,7 @@ lap
 lapack
 lasagne
 laspy
+laura
 lazrs-python
 lazydocker
 lbaplocal
