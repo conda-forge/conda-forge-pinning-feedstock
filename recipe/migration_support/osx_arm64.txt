@@ -660,6 +660,7 @@ landlab
 lap
 lapack
 laspy
+laura
 lazrs-python
 lazy-object-proxy
 lazydocker
