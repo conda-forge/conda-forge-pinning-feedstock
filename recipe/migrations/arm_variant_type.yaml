@@ -1,6 +1,5 @@
 migrator_ts: 9738229387
 __migrator:
-  use_local: true
   operation: key_add
   migration_number:
     1
