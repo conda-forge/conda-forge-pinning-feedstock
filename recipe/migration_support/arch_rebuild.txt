@@ -244,6 +244,7 @@ flit
 flock
 fonttools
 forestci
+forte2
 fortls
 freecad
 frozenlist
