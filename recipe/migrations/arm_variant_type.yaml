@@ -1,12 +1,14 @@
 # time stamped to be the day before the CUDA 11.8 migrator
 migrator_ts: 2145852000  # 2037-12-31
 __migrator:
+  # this migration should not be unpaused!
+  # It's intended to be copied on an as-needed basis to feedstocks that want to support tegra
+  paused: true
   operation: key_add
   migration_number:
     1
   build_number:
     1
-  paused: true
   override_cbc_keys:
     - cuda_compiler_stub
   check_solvable: false
