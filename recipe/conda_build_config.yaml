@@ -272,7 +272,7 @@ azure_storage_files_shares_cpp:
 azure_storage_queues_cpp:
   - 12.5.0
 brotli:
-  - '1.1'
+  - '1.2'
 bullet_cpp:
   - 3.25
 bzip2:
@@ -476,11 +476,11 @@ libboost_headers:
 libboost_python_devel:
   - '1.86'
 libbrotlicommon:
-  - '1.1'
+  - '1.2'
 libbrotlidec:
-  - '1.1'
+  - '1.2'
 libbrotlienc:
-  - '1.1'
+  - '1.2'
 libbtf:
   - '2'
 libcamd:
