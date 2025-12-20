@@ -1,4 +1,5 @@
-migrator_ts: 9738229387
+# time stamped to be the day before the CUDA 11.8 migrator
+migrator_ts: 2145852000  # 2037-12-31
 __migrator:
   operation: key_add
   migration_number:
