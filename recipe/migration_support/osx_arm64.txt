@@ -1691,6 +1691,7 @@ suitesparse
 sunode
 sunpy
 supervisor
+surfa
 swig
 swiglpk
 swmm-toolkit
