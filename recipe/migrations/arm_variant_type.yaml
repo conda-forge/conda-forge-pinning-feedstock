@@ -32,14 +32,10 @@ __migrator:
     build. Only Orin (sm_87) and later devices are supported because earlier Tegra devices are
     not supported by CUDA 12.9.
 
-    The `arm-variant` package must also be added to the build requirements of the recipe in
-    order to constrain the CUDA compiler to the correct variant, and the non CUDA 12.9 tegra
-    variants must be skipped.
+    In addition to this migrator, the `arm-variant` package must be added to the build
+    requirements of the recipe in order to constrain the CUDA compiler to the correct variant.
 
     ```yaml
-    build:
-      skip: true  # [(arm_variant_type == "tegra") and not (cuda_compiler_version or "").startswith("12")]
-
     requirements:
       build:
         - {{ compiler('cuda') }}
