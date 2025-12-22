@@ -39,6 +39,10 @@ __migrator:
     requirements of the recipe in order to constrain the CUDA compiler to the correct variant.
 
     ```yaml
+
+    # A fake selector may be needed for conda-build to pick up arm_variant_type as a variant
+    # [arm_variant_type]
+
     requirements:
       build:
         - {{ compiler('cuda') }}
