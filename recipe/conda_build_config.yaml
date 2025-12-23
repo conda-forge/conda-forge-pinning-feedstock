@@ -936,8 +936,8 @@ root_base:
   - 6.34.10
   - 6.36.04
 r_base:
-  - 4.3
   - 4.4
+  - 4.5
 libscotch:
   - 7.0.10
 libptscotch:
