@@ -381,7 +381,7 @@ giflib:
 givaro:
   - '4.2.1'
 glew:
-  - '2.2'
+  - '2.3'
 glib:
   - '2'
 glog:
