@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for openjph 0.26
-  kind: version
-  migration_number: 1
-migrator_ts: 1766584875.8048975
-openjph:
-- '0.26'
