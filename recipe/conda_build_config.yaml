@@ -519,7 +519,7 @@ libexactreal:
 libffi:
   - '3.5'
 libflac:
-  - '1.4'
+  - '1.5'
 libflatsurf:
   - 3
 libflint:
