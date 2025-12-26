@@ -170,6 +170,11 @@ docker_image:                                       # [os.environ.get("BUILD_PLA
   - quay.io/condaforge/linux-anvil-aarch64:alma9    # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma9"]
   - quay.io/condaforge/linux-anvil-ppc64le:alma9    # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma9"]
 
+  # builds on AlmaLinux 10
+  - quay.io/condaforge/linux-anvil-x86_64:alma10    # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma10"]
+  - quay.io/condaforge/linux-anvil-aarch64:alma10   # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma10"]
+  - quay.io/condaforge/linux-anvil-ppc64le:alma10   # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma10"]
+
 zip_keys:
   -                             # [unix]
     - c_compiler_version        # [unix]
