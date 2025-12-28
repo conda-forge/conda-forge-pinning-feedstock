@@ -28,7 +28,7 @@ __migrator:
 
     This migration adds `arm_variant_type=tegra` to the build matrix to support NVIDIA Tegra
     devices compatible with CUDA 12.9. This migrator is only applicable to the `linux-aarch4`
-    platform because there are no Tegra devices running Windows or macOS. Non-Tegra ARM
+    platform because Tegra is specific to that architecture. Non-Tegra ARM
     devices are assumed to be SBSA-compliant (Server Base System Architecture). The
     default value of `arm_variant_type` is `sbsa` or it is undefined for non-ARM platforms.
     Tegra devices compatible with CUDA 13.0 are SBSA-compliant, and do not need a separate
