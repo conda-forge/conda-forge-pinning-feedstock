@@ -1,0 +1,77 @@
+# time stamped to be the day before the CUDA 11.8 migrator
+migrator_ts: 2145852000  # 2037-12-31
+__migrator:
+  # this migration should not be unpaused!
+  # It's intended to be copied on an as-needed basis to feedstocks that want to support tegra
+  paused: true
+  operation: key_add
+  migration_number:
+    1
+  build_number:
+    1
+  override_cbc_keys:
+    - cuda_compiler_stub
+  check_solvable: false
+  primary_key: cuda_compiler_version
+  ordering:
+    arm_variant_type:
+      - None
+      - sbsa
+      - tegra
+  additional_zip_keys:  # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+    - arm_variant_type  # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  wait_for_migrators:
+    - cuda129
+    - aarch64 and ppc64le addition
+  commit_message: |2
+    Build for NVIDIA Tegra devices and CUDA 12.9
+
+    This migration adds `arm_variant_type=tegra` to the build matrix to support NVIDIA Tegra
+    devices compatible with CUDA 12.9. This migrator is only applicable to the `linux-aarch4`
+    platform because Tegra is specific to that architecture. Non-Tegra ARM
+    devices are assumed to be SBSA-compliant (Server Base System Architecture). The
+    default value of `arm_variant_type` is `sbsa` or it is undefined for non-ARM platforms.
+    Tegra devices compatible with CUDA 13.0 are SBSA-compliant, and do not need a separate
+    build. Only Orin (sm_87) and later devices are supported because earlier Tegra devices are
+    not supported by CUDA 12.9.
+
+    In addition to this migrator, the `arm-variant` package must be added to the build
+    requirements of the recipe in order to constrain the CUDA compiler to the correct variant.
+
+    ```yaml
+    # A fake selector may be needed for conda-build to pick up arm_variant_type as a variant
+    # [arm_variant_type]
+
+    requirements:
+      build:
+        - {{ compiler('cuda') }}
+        - arm-variant * {{ arm_variant_type }}  # [linux and aarch64 and cuda_compiler_version != "None"]
+    ```
+
+    For v1 recipes, the work-around looks as follows:
+    ```yaml
+    context:
+      # ensure arm_variant_type gets detected as a used variable
+      touch_arm_variant_type: ${{ arm_variant_type }}
+    ```
+
+    Please read the conda-forge CUDA recipe guide for more information:
+    https://github.com/conda-forge/cuda-feedstock/blob/main/recipe/doc/recipe_guide.md#building-for-arm-tegra-devices
+
+c_compiler_version:            # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 14                         # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+cxx_compiler_version:          # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 14                         # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+fortran_compiler_version:      # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 14                         # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+cuda_compiler_version:         # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 12.9                       # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+c_stdlib_version:              # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 2.34                       # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+arm_variant_type:              # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - tegra                      # [linux and aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]

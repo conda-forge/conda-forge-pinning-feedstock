@@ -87,8 +87,8 @@ cuda_compiler_version_min:
   - None                       # [osx or ppc64le]
   - 12.6                       # [(linux and not ppc64le) or win64]
 
-arm_variant_type:              # [aarch64]
-  - sbsa                       # [aarch64]
+arm_variant_type:              # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - sbsa                       # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 _libgcc_mutex:
   - 0.1 conda_forge
