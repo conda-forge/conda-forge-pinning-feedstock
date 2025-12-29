@@ -39,7 +39,6 @@ __migrator:
     requirements of the recipe in order to constrain the CUDA compiler to the correct variant.
 
     ```yaml
-
     # A fake selector may be needed for conda-build to pick up arm_variant_type as a variant
     # [arm_variant_type]
 
@@ -47,6 +46,13 @@ __migrator:
       build:
         - {{ compiler('cuda') }}
         - arm-variant * {{ arm_variant_type }}  # [linux and aarch64 and cuda_compiler_version != "None"]
+    ```
+
+    For v1 recipes, the work-around looks as follows:
+    ```yaml
+    context:
+      # ensure arm_variant_type gets detected as a used variable
+      touch_arm_variant_type: ${{ arm_variant_type }}
     ```
 
     Please read the conda-forge CUDA recipe guide for more information:
