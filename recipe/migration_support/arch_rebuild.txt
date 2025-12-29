@@ -1304,6 +1304,7 @@ watchfiles
 web3
 wgrib2
 wordcloud
+wrf-python
 wurlitzer
 wxpython
 x265
