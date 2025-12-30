@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for mysql_devel 9.5
-  kind: version
-  migration_number: 1
-
-mysql_devel:
-- '9.5'
-migrator_ts: 1767031156.000000
