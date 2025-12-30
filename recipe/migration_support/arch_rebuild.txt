@@ -521,6 +521,7 @@ nbgrader
 ncbi-datasets-cli
 nccl
 ncdu
+ncl
 ncrystal
 ncurses
 nds2-client-swig
