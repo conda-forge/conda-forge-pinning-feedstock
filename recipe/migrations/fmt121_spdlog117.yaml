@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for fmt 12.1 and spdlog 1.17
+  kind: version
+  migration_number: 1
+migrator_ts: 1767674179.1402016
+fmt:
+- '12.1'
+spdlog:
+- '1.17'
