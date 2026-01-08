@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for rocksdb 10.9
-  kind: version
-  migration_number: 1
-migrator_ts: 1767693989.5885448
-rocksdb:
-- '10.9'
