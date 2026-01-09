@@ -316,6 +316,7 @@ healpix_cxx
 heaptrack
 heffte
 hepmc3
+heppdt
 heyoka
 heyoka.py
 hmmlearn
