@@ -1203,6 +1203,7 @@ socat
 sortmerna
 soxr-python
 spacy
+spade
 sparsehash
 spdlog
 spglib
