@@ -588,7 +588,7 @@ libheif:
 libhugetlbfs:
   - 2
 libhwloc:
-  - 2.12.1
+  - 2.12.2
 libhwy:
   - '1.3'
 libiconv:
