@@ -824,7 +824,7 @@ openslide:
 openssl:
   - '3.5'
 orc:
-  - 2.2.1
+  - 2.2.2
 osqp_eigen:
   - '0.11'
 pango:
