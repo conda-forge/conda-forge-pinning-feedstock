@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for azure_storage_blobs_cpp 12.16.0
+  kind: version
+  migration_number: 1
+azure_storage_blobs_cpp:
+- 12.16.0
+migrator_ts: 1768496002.6822693
