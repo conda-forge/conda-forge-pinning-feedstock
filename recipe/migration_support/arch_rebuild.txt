@@ -588,6 +588,7 @@ openusd
 optuna
 or-tools
 orange3
+orange3-network
 oras
 orc
 orekit
