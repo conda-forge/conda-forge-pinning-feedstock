@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for p11_kit 0.26
-  kind: version
-  migration_number: 1
-migrator_ts: 1768590906.59342
-p11_kit:
-- '0.26'
