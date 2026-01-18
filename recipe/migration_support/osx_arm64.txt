@@ -953,6 +953,7 @@ optional-lite
 opty
 optype
 orange3
+orange3-network
 oras
 orc
 orderedset
