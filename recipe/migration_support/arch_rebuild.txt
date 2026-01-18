@@ -1240,6 +1240,10 @@ taplo
 tardigrade_error_tools
 tardigrade_vector_tools
 tardigrade_abaqus_tools
+tardigrade_constitutive_tools
+tardigrade_solver_tools
+tardigrade_stress_tools
+tardigrade_micromorphic_tools
 tclap
 tectonic
 teensy_loader_cli
