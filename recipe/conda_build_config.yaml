@@ -423,7 +423,7 @@ idyntree:
 imath:
   - 3.2.2
 impi_devel:
-  - "2021.14"
+  - "2021.16.0"
 ipopt:
   - 3.14.19
 isl:
