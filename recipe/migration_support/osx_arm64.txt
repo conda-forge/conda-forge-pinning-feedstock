@@ -221,6 +221,7 @@ cosmosis
 cosmosis-build-standard-library
 cpnest
 cpp-terminal
+cppad-mixed
 cppcheck
 cppcolormap
 cppe
