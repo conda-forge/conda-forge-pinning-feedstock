@@ -300,6 +300,7 @@ digital_rf
 dionysus
 dioptas
 direnv
+dismod-at
 disperse
 divemesh
 djvulibre
