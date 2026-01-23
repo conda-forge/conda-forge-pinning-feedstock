@@ -1043,6 +1043,7 @@ physics-tenpy
 piff
 pigz
 pikepdf
+pinact
 pixell
 pixi-assistant
 pixi-inject
