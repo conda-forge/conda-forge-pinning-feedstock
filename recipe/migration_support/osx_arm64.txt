@@ -36,6 +36,7 @@ ansible
 antlr
 apache-ant
 apache-beam
+apache-tvm-ffi
 apr
 apscheduler
 apsw

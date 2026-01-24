@@ -12,6 +12,7 @@ alsa-plugins
 ambertools
 anyio
 anyjson
+apache-tvm-ffi
 apptainer
 apr
 argon2_cffi
