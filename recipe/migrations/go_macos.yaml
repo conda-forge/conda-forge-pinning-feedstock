@@ -1,0 +1,23 @@
+__migrator:
+  build_number: 1
+  commit_message: |
+    Rebuild go packages for higher deployment target macOS
+    
+    With the release of go 1.26, the the last version to support older macOS
+    deployment targets (1.24) stops receiving security updates, see
+    https://go.dev/doc/devel.
+    
+    go 1.25 and newer requires at least macOS 12.0 (Monterey), see
+    https://go.dev/doc/go1.25.
+    
+    Since conda-forge increases its baseline macOS deployment target more
+    slowly, we provide this migrator that can be applied at will to go
+    feedstocks, in order to raise the target for go-packages specifically.
+  kind: version
+  migration_number: 1
+  override_cbc_keys:
+    - go_compiler_stub
+    - cgo_compiler_stub
+c_stdlib_version:   # [osx]
+  - 12.0            # [osx]
+migrator_ts: 1769234026.6043553
