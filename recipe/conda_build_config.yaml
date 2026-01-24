@@ -932,7 +932,7 @@ qtkeychain:
 rav1e:
   - '0.7'
 rdma_core:
-  - '60'
+  - '61'
 re2:
   - 2025.08.12
 readline:
