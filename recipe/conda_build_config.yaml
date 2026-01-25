@@ -702,7 +702,7 @@ libthrift:
 libtiff:
   - '4.7'
 libtorch:
-  - '2.7'
+  - '2.9'
 libudev:
   - '257'
 libumfpack:
@@ -910,7 +910,7 @@ is_python_min:
 is_abi3:
   - true
 pytorch:
-  - '2.7'
+  - '2.9'
 pyqt:
   - 5.15
 pyqtwebengine:
