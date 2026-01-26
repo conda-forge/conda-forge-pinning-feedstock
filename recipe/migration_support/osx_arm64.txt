@@ -532,6 +532,7 @@ gtest
 gtk3
 gtk4
 gtkmm
+gtksourceview
 guardian
 gunicorn
 guppy3
