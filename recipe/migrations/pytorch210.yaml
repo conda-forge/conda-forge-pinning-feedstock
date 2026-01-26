@@ -1,0 +1,10 @@
+migrator_ts: 1769381650.2171543
+__migrator:
+  commit_message: Rebuild for pytorch 2.10
+  kind: version
+  migration_number: 1
+  bump_number: 1
+libtorch:
+- '2.10'
+pytorch:
+- '2.10'
