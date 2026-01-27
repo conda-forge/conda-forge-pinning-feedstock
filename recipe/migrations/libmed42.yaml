@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libmed 4.2
-  kind: version
-  migration_number: 1
-libmed:
-- '4.2'
-migrator_ts: 1769461717.8599546

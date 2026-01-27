@@ -618,7 +618,7 @@ libmagma_devel:
 libmagma_sparse:
   - '2.9'
 libmed:
-  - '4.1'
+  - '4.2'
 libmatio:
   - 1.5.30
 libmatio_cpp:
