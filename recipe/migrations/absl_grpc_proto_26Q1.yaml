@@ -1,6 +1,6 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for libabseil 20260107, libgrpc 1.78 & libprotobuf 6.33.4
+  commit_message: Rebuild for libabseil 20260107, libgrpc 1.78 & libprotobuf 6.33.5
   kind: version
   migration_number: 1
   paused: true
@@ -21,7 +21,7 @@ libabseil:
 libgrpc:
 - "1.78"
 libprotobuf:
-- 6.33.4
+- 6.33.5
 # we need to leave this migration open until we're ready to move the global baseline, see
 # https://github.com/conda-forge/conda-forge.github.io/issues/2467; grpc 1.72 requires 11.0,
 # see https://github.com/grpc/grpc/commit/f122d248443c81592e748da1adb240cbf0a0231c
