@@ -151,6 +151,7 @@ celery
 cell_tree2d
 cellfinder-core
 ceres-solver
+cern-sso-cli
 certifi
 cexprtk
 cf-units
