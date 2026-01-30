@@ -84,6 +84,7 @@ cctbx-base
 cctools
 cds-crtools
 celery
+cern-sso-cli
 charls
 chrpath
 ciso
