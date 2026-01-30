@@ -22,6 +22,10 @@ libgrpc:
 - "1.78"
 libprotobuf:
 - 6.33.5
+# we add re2 because even though its ABI didn't change,
+# we need a version that's been rebuilt for matching abseil
+re2:
+- 2025.11.05
 # we need to leave this migration open until we're ready to move the global baseline, see
 # https://github.com/conda-forge/conda-forge.github.io/issues/2467; grpc 1.72 requires 11.0,
 # see https://github.com/grpc/grpc/commit/f122d248443c81592e748da1adb240cbf0a0231c
