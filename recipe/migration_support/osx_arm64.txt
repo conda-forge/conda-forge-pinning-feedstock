@@ -1253,6 +1253,7 @@ pytensor
 pytensor-base
 pytest
 pytest-asyncio
+pytest-codspeed
 pytest-cov
 python
 python-annoy
