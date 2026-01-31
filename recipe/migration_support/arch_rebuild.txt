@@ -759,6 +759,7 @@ pytables
 pytensor
 pytensor-base
 pytensor-suite
+pytest-codspeed
 pytest-benchmark
 pythia8
 python-annoy
