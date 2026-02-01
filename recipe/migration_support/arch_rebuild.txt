@@ -45,6 +45,7 @@ bayes-filters-lib
 bayeswave
 bazel
 bcrypt
+beets
 bgenix
 bilby.cython
 binaryen
