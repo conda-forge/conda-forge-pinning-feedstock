@@ -7,12 +7,12 @@ repos:
     - id: check-toml
       files: recipe\/.*\.toml
 - repo: https://github.com/adrienverge/yamllint.git
-  rev: v1.37.1
+  rev: v1.38.0
   hooks:
     - id: yamllint
       files: recipe\/migrations\/.*\.yaml
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.14.10
+  rev: v0.14.14
   hooks:
     - id: ruff-check
       args: [ --fix ]
