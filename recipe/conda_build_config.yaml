@@ -663,7 +663,7 @@ librdkafka:
 librealsense:
   - '2.56'
 librerun_sdk:
-  - '0.28.2'
+  - 0.29.0
 librsvg:
   - 2
 libsecret:
