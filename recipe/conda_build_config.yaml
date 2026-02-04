@@ -981,7 +981,7 @@ sox:
 spdlog:
   - '1.16'
 spirv_tools:
-  - '2025'
+  - '2026'
 sqlite:
   - 3
 srm_ifce:
