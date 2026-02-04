@@ -1,0 +1,11 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for Azure Core 1.16.3 and Identity 1.13.3
+  kind: version
+  migration_number: 1
+  exclude_pinned_pkgs: false
+azure_core_cpp:
+- 1.16.2
+azure_identity_cpp:
+- 1.13.3
+migrator_ts: 1770216065
