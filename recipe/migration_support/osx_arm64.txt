@@ -646,6 +646,7 @@ kepderiv
 keras
 keras-preprocessing
 khiops-binaries
+khiops-driver-azure
 khiops-driver-gcs
 kim-api
 kimpy
