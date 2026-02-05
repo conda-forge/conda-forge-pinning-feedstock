@@ -409,6 +409,7 @@ libcublasmp
 libcufft
 libcufile
 libcugraph
+libcuobjclient
 libcurand
 libcusolver
 libcusparse
