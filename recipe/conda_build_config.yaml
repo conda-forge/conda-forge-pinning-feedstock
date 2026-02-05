@@ -367,11 +367,11 @@ gstreamer:
 gst_plugins_base:
   - '1.26'
 gdal:
-  - '3.11'
+  - '3.12'
 libgdal:
-  - '3.11'
+  - '3.12'
 libgdal_core:
-  - '3.11'
+  - '3.12'
 geos:
   - 3.14.1
 geotiff:
