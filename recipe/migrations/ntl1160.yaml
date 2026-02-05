@@ -1,0 +1,8 @@
+migrator_ts: 1770292796
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+
+ntl:
+  - 11.6.0
