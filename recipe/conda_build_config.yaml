@@ -366,11 +366,11 @@ gstreamer:
 gst_plugins_base:
   - '1.26'
 gdal:
-  - '3.11'
+  - '3.12'
 libgdal:
-  - '3.11'
+  - '3.12'
 libgdal_core:
-  - '3.11'
+  - '3.12'
 geos:
   - 3.14.1
 geotiff:
@@ -888,17 +888,20 @@ pulseaudio_daemon:
 pybind11_abi:
   - 4
 python:
+  # win-arm64 on conda-forge supports only 3.14+
   # part of a zip_keys: python, is_python_min
-  - 3.10.* *_cpython
-  - 3.11.* *_cpython
-  - 3.12.* *_cpython
-  - 3.13.* *_cp313
+  - 3.10.* *_cpython   # [not (win and arm64)]
+  - 3.11.* *_cpython   # [not (win and arm64)]
+  - 3.12.* *_cpython   # [not (win and arm64)]
+  - 3.13.* *_cp313     # [not (win and arm64)]
+  - 3.14.* *_cp314     # [win and arm64]
 python_impl:
   - cpython
 python_min:
   # minimum supported python version per CFEP-25
   # bump to next minor version when we drop python versions
-  - '3.10'
+  - '3.10'             # [not (win and arm64)]
+  - '3.14'             # [win and arm64]
 is_freethreading:
   - false
 is_python_min:
