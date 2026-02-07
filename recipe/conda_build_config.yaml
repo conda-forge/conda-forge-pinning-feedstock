@@ -908,9 +908,9 @@ is_freethreading:
 is_python_min:
   # part of a zip_keys: python, is_python_min
   - true
-  - false
-  - false
-  - false
+  - false              # [not (win and arm64)]
+  - false              # [not (win and arm64)]
+  - false              # [not (win and arm64)]
 is_abi3:
   - true
 pytorch:
