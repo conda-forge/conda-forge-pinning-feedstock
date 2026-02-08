@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for librerun_sdk 0.29.1
+  kind: version
+  migration_number: 1
+librerun_sdk:
+- 0.29.1
+migrator_ts: 1770562884.0916276
