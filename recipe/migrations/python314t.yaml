@@ -34,6 +34,10 @@ __migrator:
     ignored_deps_per_node:
         matplotlib:
             - pyqt
+        pyarrow:
+            # optional test dependencies
+            - numba
+            - sparse
     allowlist_file: free-threaded-314.txt
 
 python:
