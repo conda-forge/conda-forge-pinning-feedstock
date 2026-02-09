@@ -1695,6 +1695,7 @@ stardist
 starlink-ast
 starship
 statsmodels
+stim-split
 stockwell
 stow
 streamtracer
