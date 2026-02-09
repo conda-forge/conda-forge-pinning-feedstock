@@ -31,6 +31,12 @@ __migrator:
         - pyarrow
     exclude_pinned_pkgs: false
     ignored_deps_per_node:
+        igwn-segments:
+            # optional test dependency
+            - lal
+        lal:
+            # optional test dependency
+            - igwn-ligolw
         matplotlib:
             - pyqt
 
