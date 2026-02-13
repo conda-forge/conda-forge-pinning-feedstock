@@ -371,6 +371,7 @@ kdepy
 kepderiv
 keyring
 kim-api
+klfitter
 krb5
 ksops
 labelimg
