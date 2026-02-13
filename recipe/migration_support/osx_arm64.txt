@@ -810,6 +810,7 @@ meilisearch
 menuinst
 meos
 mercurial
+mergechannels
 mesas
 meshpy
 metadetect

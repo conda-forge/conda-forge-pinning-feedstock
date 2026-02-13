@@ -157,6 +157,7 @@ maxminddb
 mecab-python3
 memory-allocator
 memray
+mergechannels
 mgrs
 minorminer
 ml_dtypes
