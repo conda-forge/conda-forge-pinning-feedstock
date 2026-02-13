@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for idyntree 15
+  kind: version
+  migration_number: 1
+idyntree:
+- '15'
+migrator_ts: 1770964470.423137
