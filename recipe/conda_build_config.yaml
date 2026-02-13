@@ -526,7 +526,7 @@ libflac:
 libflatsurf:
   - 3
 libflint:
-  - '3.2'
+  - '3.3'
 libframel:
   - '8.41'
 # hmaarrfk - Aug 30, 2025
