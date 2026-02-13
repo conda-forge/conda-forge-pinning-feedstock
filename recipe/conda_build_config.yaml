@@ -417,7 +417,7 @@ hdf5:
 icu:
   - '75'
 idyntree:
-  - '14'
+  - '15'
 imath:
   - 3.2.2
 impi_devel:
