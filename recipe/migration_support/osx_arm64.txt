@@ -650,6 +650,7 @@ khiops-driver-azure
 khiops-driver-gcs
 kim-api
 kimpy
+klfitter
 kliff
 kmeans1d
 kokkos
