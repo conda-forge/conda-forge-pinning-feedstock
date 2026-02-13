@@ -1373,6 +1373,7 @@ r-compositions
 r-cubature
 r-cvxr
 r-dbarts
+r-deoptim
 r-desctools
 r-desolve
 r-devtools
