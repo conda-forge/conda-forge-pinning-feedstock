@@ -1,0 +1,12 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libpdal_core 2.10
+  kind: version
+  migration_number: 1
+libpdal:
+- '2.10'
+libpdal_core:
+- '2.10'
+migrator_ts: 1771016513.5479445
+pdal:
+- '2.10'
