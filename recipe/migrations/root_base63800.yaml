@@ -1,0 +1,13 @@
+__migrator:
+  build_number: 1
+  kind: version
+  migration_number: 1
+migrator_ts: 1771132506.3049338
+root_base:
+  - 6.36.8
+  - 6.38.0
+  - 6.38.0
+root_cxx_std:
+  - 20
+  - 20
+  - 23
