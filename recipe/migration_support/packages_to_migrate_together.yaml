@@ -98,6 +98,10 @@ mkl:
   - mkl
   - mkl_devel
 
+mumps_mpi:
+  - mumps_mpi
+  - mumps_seq
+
 petsc:
   - petsc
   - petsc4py
