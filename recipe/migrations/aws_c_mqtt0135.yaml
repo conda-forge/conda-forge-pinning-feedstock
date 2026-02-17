@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_mqtt 0.13.5
+  kind: version
+  migration_number: 1
+aws_c_mqtt:
+- 0.13.5
+migrator_ts: 1771314902.9848862
