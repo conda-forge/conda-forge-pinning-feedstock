@@ -797,7 +797,7 @@ nspr:
 nlopt:
   - '2.10'
 ntl:
-  - '11.4.3'
+  - 11.6.0
 # we build using the latest minor version; numpy has generous backwards compatibility
 # even so, and this is reflected through the run-exports of the package; see also
 # https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/4816
