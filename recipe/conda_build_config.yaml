@@ -772,9 +772,9 @@ msgpack_c:
 msgpack_cxx:
   - '7'
 mumps_mpi:
-  - 5.8.1
+  - 5.8.2
 mumps_seq:
-  - 5.8.1
+  - 5.8.2
 mysql_devel:
   - '9.5'
 nccl:
