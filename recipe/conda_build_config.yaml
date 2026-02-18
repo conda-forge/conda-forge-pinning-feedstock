@@ -734,6 +734,8 @@ libxml2_devel:
   - 2.13
 libxsmm:
   - 1
+liburing:
+  - 2.14
 libuuid:
   - 2
 libyarp:
