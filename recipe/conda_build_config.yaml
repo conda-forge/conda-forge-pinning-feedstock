@@ -189,7 +189,7 @@ zip_keys:
     - libarrow_all
   -
     - root_base
-    - root_cxx_std
+    - root_cxx_standard
 
 # armv7l specifics because conda-build sets many things to centos 6
 # this can probably be removed when conda-build gets updated defaults
@@ -948,7 +948,7 @@ rocksdb:
 root_base:
   - 6.34.10
   - 6.36.04
-root_cxx_std:
+root_cxx_standard:
   - 20
   - 20
 r_base:
