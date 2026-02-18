@@ -7,7 +7,7 @@ root_base:
   - 6.36.8
   - 6.38.0
   - 6.38.0
-root_cxx_std:
+root_cxx_standard:
   - 20
   - 20
   - 23
