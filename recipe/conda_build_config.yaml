@@ -413,6 +413,10 @@ graphviz:
 # a harfbuzz global pin, as it is not needed.
 # harfbuzz:
 # - '11'
+hepmc2:
+  - '2.06'
+hepmc3:
+  - '3.3'
 hdf4:
   - 4.2.15
 hdf5:
