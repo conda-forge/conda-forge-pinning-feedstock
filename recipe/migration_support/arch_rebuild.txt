@@ -253,6 +253,7 @@ fortls
 freecad
 frozenlist
 functools32
+fvdb-core
 gau2grid
 gdb
 gds-swig
