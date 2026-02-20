@@ -238,7 +238,7 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - '0.9.4'
+  - '0.9.6'
 aws_c_cal:
   - '0.9.13'
 aws_c_common:
@@ -260,7 +260,7 @@ aws_c_sdkutils:
 aws_checksums:
   - '0.2.10'
 aws_crt_cpp:
-  - '0.36.0'
+  - '0.37.2'
 aws_sdk_cpp:
   - 1.11.606
 azure_core_cpp:
