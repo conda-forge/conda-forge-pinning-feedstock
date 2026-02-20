@@ -217,6 +217,7 @@ connexion
 console_bridge
 constructor
 coolprop
+copybara
 coremltools
 coreutils
 correctionlib
