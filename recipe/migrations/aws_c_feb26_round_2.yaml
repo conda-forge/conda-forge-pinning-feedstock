@@ -1,0 +1,12 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws-c-* (feb'26 (round 2))
+  kind: version
+  migration_number: 1
+  exclude_pinned_pkgs: false
+  automerge: true
+migrator_ts: 1771576833
+aws_c_auth:
+  - '0.9.6'
+aws_crt_cpp:
+  - '0.37.2'
