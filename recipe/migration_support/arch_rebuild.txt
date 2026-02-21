@@ -1327,6 +1327,7 @@ wrf-python
 wurlitzer
 wxpython
 x265
+xapian-core
 xcape
 xcb-util
 xcb-util-cursor
