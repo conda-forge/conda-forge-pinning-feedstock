@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for assimp 6.0.4
+  kind: version
+  migration_number: 1
+assimp:
+- 6.0.4
+migrator_ts: 1769415177.2824316
