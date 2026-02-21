@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for s2geography 0.2
+  kind: version
+  migration_number: 1
+migrator_ts: 1732800552.1833339
+s2geography:
+- '0.2'
