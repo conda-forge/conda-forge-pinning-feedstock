@@ -1856,6 +1856,7 @@ wrf-python
 wxpython
 x265
 xalan-c
+xapian-core
 xattr
 xcfun
 xdmfwrite_highfive
