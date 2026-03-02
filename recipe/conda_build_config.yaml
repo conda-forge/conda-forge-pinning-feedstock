@@ -641,7 +641,7 @@ libode:
 libogg:
   - 1.3
 libopencv:
-  - 4.12.0
+  - 4.13.0
 libopentelemetry_cpp:
   - '1.21'
 libosqp:
