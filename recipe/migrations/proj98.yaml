@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for proj 9.8
+  kind: version
+  migration_number: 1
+migrator_ts: 1772450367.8448427
+proj:
+- '9.8'
