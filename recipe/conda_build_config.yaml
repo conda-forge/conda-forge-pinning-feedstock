@@ -423,6 +423,8 @@ hdf4:
   - 4.2.15
 hdf5:
   - 1.14.6
+hdrhistogram_c:
+  - 0.11.9
 icu:
   - '75'
 idyntree:
@@ -756,6 +758,8 @@ log4cxx:
   - 1.2.0
 lol_html:
   - 2.7.2
+ls_hpack:
+  - 2.3.4
 lz4_c:
   - '1.10'
 lzo:
