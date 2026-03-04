@@ -683,7 +683,7 @@ libsentencepiece:
 libsndfile:
   - '1.2'
 libsodium:
-  - 1.0.21
+  - '1.0.21'
 libsoup:
   - 3
 libspatialindex:
