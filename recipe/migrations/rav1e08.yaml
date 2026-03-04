@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for rav1e 0.8
-  kind: version
-  migration_number: 1
-migrator_ts: 1772591069.0183606
-rav1e:
-- '0.8'
