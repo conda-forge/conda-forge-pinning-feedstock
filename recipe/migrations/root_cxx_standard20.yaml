@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for root_cxx_standard 20
+  kind: version
+  migration_number: 1
+migrator_ts: 1772794619.2520423
+root_cxx_standard:
+- '20'
