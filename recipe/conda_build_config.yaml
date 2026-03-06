@@ -960,11 +960,13 @@ readline:
 rocksdb:
   - '10.9'
 root_base:
-  - 6.34.10
-  - 6.36.04
+  - 6.36.8
+  - 6.38.0
+  - 6.38.0
 root_cxx_standard:
   - 20
   - 20
+  - 23
 r_base:
   - 4.4
   - 4.5
