@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libopenvino 2026.0.0
+  kind: version
+  migration_number: 1
+libopenvino_dev:
+- 2026.0.0
+migrator_ts: 1772642006.6558359
