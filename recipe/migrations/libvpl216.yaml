@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libvpl 2.16
-  kind: version
-  migration_number: 1
-libvpl:
-- '2.16'
-migrator_ts: 1772984904.6798036
