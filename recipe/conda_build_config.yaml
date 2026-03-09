@@ -1049,7 +1049,7 @@ vigra:
 vlfeat:
   - 0.9.21
 volk:
-  - '3.2'
+  - '3.3'
 vtk:
   - 9.5.2
 vtk_base:
