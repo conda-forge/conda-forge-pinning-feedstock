@@ -135,9 +135,7 @@ rust_compiler:
 macos_machine:                 # [osx]
   - x86_64-apple-darwin13.4.0  # [osx and x86_64]
   - arm64-apple-darwin20.0.0   # [osx and arm64]
-MACOSX_DEPLOYMENT_TARGET:      # [osx]
-  - 11.0                       # [osx and arm64]
-  - 10.13                      # [osx and x86_64]
+
 VERBOSE_AT:
   - V=1
 VERBOSE_CM:
