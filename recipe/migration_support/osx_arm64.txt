@@ -384,6 +384,7 @@ fastavro
 fastcache
 fastcluster
 fastdtw
+fastframes
 fastjet-cxx
 fastnumbers
 fastparquet
