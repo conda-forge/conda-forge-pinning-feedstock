@@ -21,6 +21,7 @@ jobs:
     timeout-minutes: 360
     strategy:
       fail-fast: false
+      max-parallel: 50
       matrix:
         include:
           - CONFIG: linux_64_
