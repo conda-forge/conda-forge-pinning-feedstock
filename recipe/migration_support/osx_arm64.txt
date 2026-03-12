@@ -1920,6 +1920,7 @@ yte
 ytop
 z5py
 zaber-motion
+zarf
 zarr
 zbar
 zchunk
