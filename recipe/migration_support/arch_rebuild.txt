@@ -694,6 +694,7 @@ py-spy
 py2bit
 py3c
 py_rattler
+pyafv
 pyarrow
 pybamm
 pybase64

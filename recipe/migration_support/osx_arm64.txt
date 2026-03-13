@@ -1121,6 +1121,7 @@ py_gd
 py_rattler
 pyabel
 pyacvd
+pyafv
 pyagrum
 pyahocorasick
 pyarrow
