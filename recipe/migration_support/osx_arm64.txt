@@ -273,6 +273,7 @@ datalad
 dataprep
 datavzrd
 datrie
+datui
 dav1d
 dbgpy
 dcm2niix
