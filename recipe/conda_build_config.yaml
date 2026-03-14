@@ -821,7 +821,7 @@ numpy:
 obake_devel:
   - '0.9'
 occt:
-  - 7.9.1
+  - 7.9.3
 openblas:
   - 0.3.*
 openexr:
