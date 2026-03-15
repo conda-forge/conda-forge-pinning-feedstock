@@ -412,6 +412,7 @@ fluidfft
 fluidfft-fftw
 fluidimage
 fluidsim
+flux
 fonttools
 forcebalance
 forestci

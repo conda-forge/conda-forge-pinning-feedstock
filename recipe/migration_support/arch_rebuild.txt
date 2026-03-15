@@ -246,6 +246,7 @@ flash-attn-layer-norm
 flask
 flit
 flock
+flux
 fonttools
 forestci
 forte2
