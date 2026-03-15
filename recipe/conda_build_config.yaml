@@ -737,9 +737,9 @@ libx86emu:
 libxcb:
   - '1'
 libxml2:
-  - 2.13
+  - '2.14'
 libxml2_devel:
-  - 2.13
+  - '2.14'
 libxsmm:
   - 1
 liburing:
@@ -885,7 +885,7 @@ pixman:
 poco:
   - 1.15.0
 poppler:
-  - '25.12'
+  - '26.02'
 portaudio:
   - '19.7'
 postgresql:
