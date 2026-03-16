@@ -244,7 +244,7 @@ aws_c_common:
 aws_c_compression:
   - '0.3.2'
 aws_c_event_stream:
-  - '0.5.9'
+  - 0.6.0
 aws_c_http:
   - '0.10.11'
 aws_c_io:
