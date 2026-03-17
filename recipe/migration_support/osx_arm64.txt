@@ -362,6 +362,7 @@ esi-core
 esmpy
 esptool
 esutil
+ete4
 euphonic
 eups
 exoplanet
