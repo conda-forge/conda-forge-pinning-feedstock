@@ -307,6 +307,7 @@ gstlal-inspiral
 gstools
 gunicorn
 guppy3
+gwframe
 gymnasium
 gz-launch
 gzip
