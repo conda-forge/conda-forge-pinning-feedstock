@@ -544,6 +544,7 @@ gtksourceview
 guardian
 gunicorn
 guppy3
+gwframe
 gwsurrogate
 gym
 gymnasium
