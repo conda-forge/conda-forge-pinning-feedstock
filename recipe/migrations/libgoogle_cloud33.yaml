@@ -1,0 +1,46 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libgoogle_cloud 3.3
+  kind: version
+  migration_number: 1
+google_cloud_cpp:
+- '3.3'
+libgoogle_cloud:
+- '3.3'
+libgoogle_cloud_aiplatform_devel:
+- '3.3'
+libgoogle_cloud_all_devel:
+- '3.3'
+libgoogle_cloud_automl_devel:
+- '3.3'
+libgoogle_cloud_bigquery_devel:
+- '3.3'
+libgoogle_cloud_bigtable_devel:
+- '3.3'
+libgoogle_cloud_compute_devel:
+- '3.3'
+libgoogle_cloud_devel:
+- '3.3'
+libgoogle_cloud_dialogflow_cx_devel:
+- '3.3'
+libgoogle_cloud_dialogflow_es_devel:
+- '3.3'
+libgoogle_cloud_discoveryengine_devel:
+- '3.3'
+libgoogle_cloud_dlp_devel:
+- '3.3'
+libgoogle_cloud_iam_devel:
+- '3.3'
+libgoogle_cloud_oauth2_devel:
+- '3.3'
+libgoogle_cloud_policytroubleshooter_devel:
+- '3.3'
+libgoogle_cloud_pubsub_devel:
+- '3.3'
+libgoogle_cloud_spanner_devel:
+- '3.3'
+libgoogle_cloud_speech_devel:
+- '3.3'
+libgoogle_cloud_storage_devel:
+- '3.3'
+migrator_ts: 1773814029.0596728
