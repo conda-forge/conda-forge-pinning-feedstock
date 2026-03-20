@@ -89,6 +89,7 @@ bats-core
 bayes-filters-lib
 bayeswave
 bazel
+bblean
 bc
 bcolz
 bedtools
