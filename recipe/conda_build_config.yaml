@@ -246,11 +246,11 @@ aws_c_compression:
 aws_c_event_stream:
   - 0.6.0
 aws_c_http:
-  - '0.10.11'
+  - '0.10.12'
 aws_c_io:
-  - '0.26.1'
+  - '0.26.3'
 aws_c_mqtt:
-  - '0.15.0'
+  - '0.15.2'
 aws_c_s3:
   - '0.11.5'
 aws_c_sdkutils:
