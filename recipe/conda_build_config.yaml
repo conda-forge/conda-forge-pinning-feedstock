@@ -475,6 +475,8 @@ libarrow_all:
   - '22.0'
   - '21.0'
   - '20.0'
+libattr:
+  - 2.5
 libavif:
   - 1
 libblitz:
