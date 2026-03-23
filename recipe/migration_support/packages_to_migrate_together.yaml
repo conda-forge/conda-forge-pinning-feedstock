@@ -119,3 +119,7 @@ sqlite:
 vtk:
   - vtk_base
   - vtk
+
+attr:
+  - attr
+  - libattr
