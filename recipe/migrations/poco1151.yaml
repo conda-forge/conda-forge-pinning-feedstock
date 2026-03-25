@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for poco 1.15.1
-  kind: version
-  migration_number: 1
-migrator_ts: 1774363695.0098658
-poco:
-- 1.15.1
