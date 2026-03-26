@@ -1201,6 +1201,7 @@ sfml
 shap
 shellcheck
 shrinkwrap
+silicon
 singularity
 sirius-ms
 sixs
