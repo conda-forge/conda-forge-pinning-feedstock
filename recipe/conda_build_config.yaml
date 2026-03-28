@@ -484,11 +484,11 @@ libblitz:
 libblst:
   - '0.3'
 libboost_devel:
-  - '1.86'
+  - "1.88"
 libboost_headers:
-  - '1.86'
+  - "1.88"
 libboost_python_devel:
-  - '1.86'
+  - "1.88"
 libbrotlicommon:
   - '1.2'
 libbrotlidec:
