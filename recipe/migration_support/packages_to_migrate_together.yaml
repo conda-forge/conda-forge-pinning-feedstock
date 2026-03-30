@@ -30,6 +30,10 @@ libboost_devel:
   - libboost_headers
   - libboost_python_devel
 
+libcudnn_dev:
+  - libcudnn_dev
+  - cudnn
+
 libgoogle_cloud:
   - google_cloud_cpp
   - libgoogle_cloud
@@ -94,6 +98,10 @@ mkl:
   - mkl
   - mkl_devel
 
+mumps_mpi:
+  - mumps_mpi
+  - mumps_seq
+
 petsc:
   - petsc
   - petsc4py
@@ -111,3 +119,7 @@ sqlite:
 vtk:
   - vtk_base
   - vtk
+
+attr:
+  - attr
+  - libattr

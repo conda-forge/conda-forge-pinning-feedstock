@@ -34,6 +34,13 @@ __migrator:
     ignored_deps_per_node:
         matplotlib:
             - pyqt
+        pyarrow:
+            # optional test dependencies
+            - numba
+            - sparse
+        pyzmq:
+            # test dependency not used with free-threaded
+            - auditwheel
     allowlist_file: free-threaded-314.txt
 
 python:
@@ -45,5 +52,3 @@ is_python_min:
 - false
 is_abi3:
 - false
-# channel_sources:
-# - conda-forge

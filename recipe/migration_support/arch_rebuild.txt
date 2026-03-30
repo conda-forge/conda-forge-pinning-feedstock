@@ -12,6 +12,7 @@ alsa-plugins
 ambertools
 anyio
 anyjson
+apache-tvm-ffi
 apptainer
 apr
 argon2_cffi
@@ -44,6 +45,7 @@ bayes-filters-lib
 bayeswave
 bazel
 bcrypt
+beets
 bgenix
 bilby.cython
 binaryen
@@ -83,6 +85,7 @@ cctbx-base
 cctools
 cds-crtools
 celery
+cern-sso-cli
 charls
 chrpath
 ciso
@@ -91,6 +94,7 @@ clhep
 clingo
 clpeak
 cmarkgfm
+cmocka
 cms-combine
 coinmp
 colima
@@ -107,6 +111,7 @@ configurable-http-proxy
 connectorx
 console_bridge
 constructor
+copybara
 coreforecast
 cpp-filesystem
 cppad
@@ -241,12 +246,15 @@ flash-attn-layer-norm
 flask
 flit
 flock
+flux
 fonttools
 forestci
+forte2
 fortls
 freecad
 frozenlist
 functools32
+fvdb-core
 gau2grid
 gdb
 gds-swig
@@ -299,6 +307,7 @@ gstlal-inspiral
 gstools
 gunicorn
 guppy3
+gwframe
 gymnasium
 gz-launch
 gzip
@@ -314,6 +323,7 @@ healpix_cxx
 heaptrack
 heffte
 hepmc3
+heppdt
 heyoka
 heyoka.py
 hmmlearn
@@ -365,6 +375,7 @@ kdepy
 kepderiv
 keyring
 kim-api
+klfitter
 krb5
 ksops
 labelimg
@@ -374,6 +385,7 @@ lap
 lapack
 lasagne
 laspy
+laura
 lazrs-python
 lazydocker
 lbaplocal
@@ -402,6 +414,7 @@ libcublasmp
 libcufft
 libcufile
 libcugraph
+libcuobjclient
 libcurand
 libcusolver
 libcusparse
@@ -438,6 +451,7 @@ librmm
 libsass
 libsemigroups_pybind11
 libsolv
+libtdlpack
 libtins
 libudev
 libvpx
@@ -484,8 +498,11 @@ meilisearch
 memray
 menuinst
 metaphone
+metplus
 micromamba
 minijinja
+mini-racer
+mitmproxy-rs
 mlip
 mne-lsl
 mocpy
@@ -551,6 +568,7 @@ ocaml-findlib
 occt
 oclgrind
 octave
+odrpack
 ogre
 oidc-agent
 omegaconf
@@ -580,6 +598,7 @@ openusd
 optuna
 or-tools
 orange3
+orange3-network
 oras
 orc
 orekit
@@ -648,6 +667,7 @@ photutils
 php
 pickle5
 pikepdf
+pinact
 pinocchio
 pivy
 pixi-inject
@@ -674,7 +694,9 @@ pv
 py-plumed
 py-spy
 py2bit
+py3c
 py_rattler
+pyafv
 pyarrow
 pybamm
 pybase64
@@ -746,6 +768,7 @@ pytables
 pytensor
 pytensor-base
 pytensor-suite
+pytest-codspeed
 pytest-benchmark
 pythia8
 python-annoy
@@ -944,6 +967,7 @@ r-mass
 r-mclust
 r-mcmcprecision
 r-memuse
+r-mess
 r-metaskat
 r-mgcv
 r-mhsmm
@@ -1177,6 +1201,7 @@ sfml
 shap
 shellcheck
 shrinkwrap
+silicon
 singularity
 sirius-ms
 sixs
@@ -1193,6 +1218,7 @@ socat
 sortmerna
 soxr-python
 spacy
+spade
 sparsehash
 spdlog
 spglib
@@ -1216,6 +1242,7 @@ sundials
 sunode
 sunpy
 supervisor
+surfa
 sympy
 systemd
 tango-access-control
@@ -1224,6 +1251,13 @@ tango-database
 tango-starter
 tango-test
 taplo
+tardigrade_error_tools
+tardigrade_vector_tools
+tardigrade_abaqus_tools
+tardigrade_constitutive_tools
+tardigrade_solver_tools
+tardigrade_stress_tools
+tardigrade_micromorphic_tools
 tclap
 tectonic
 teensy_loader_cli
@@ -1293,9 +1327,11 @@ watchfiles
 web3
 wgrib2
 wordcloud
+wrf-python
 wurlitzer
 wxpython
 x265
+xapian-core
 xcape
 xcb-util
 xcb-util-cursor

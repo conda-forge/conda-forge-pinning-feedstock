@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libnetcdf 4.10.0
+  kind: version
+  migration_number: 1
+libnetcdf:
+- 4.10.0
+migrator_ts: 1772279153.4660091

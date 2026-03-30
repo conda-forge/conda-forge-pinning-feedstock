@@ -1,0 +1,12 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for hdf5 2
+  kind: version
+  migration_number: 1
+# HDF5 likely changed alot of its API
+# During the initial phase of the migration lets build for both
+# HDF5 2 and the latest version of HDF5
+hdf5:
+- '2'
+- '1.14.6'
+migrator_ts: 1774274234.55363

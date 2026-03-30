@@ -5,6 +5,7 @@ act
 adaptive
 adaptive-scheduler
 adcc
+adjfind
 adrt
 aesara
 affogato
@@ -12,6 +13,7 @@ agate
 age
 aicspylibczi
 aio-pika
+aiocsv
 aiodns
 aioeasywebdav
 aiosignal
@@ -34,6 +36,7 @@ ansible
 antlr
 apache-ant
 apache-beam
+apache-tvm-ffi
 apr
 apscheduler
 apsw
@@ -47,6 +50,7 @@ arro3-core
 arrow-odbc
 asio
 ast-grep
+ast-grep-py
 astra-toolbox
 astroid
 astromatic-source-extractor
@@ -54,6 +58,7 @@ astropy-healpix
 astroscrappy
 asv
 asyncpg
+at-cascade
 atheris
 atkmm
 atom
@@ -64,6 +69,7 @@ autode
 autodiff
 automake
 av
+avrocpp
 awex
 awkward
 aws-session-manager-plugin
@@ -83,11 +89,13 @@ bats-core
 bayes-filters-lib
 bayeswave
 bazel
+bblean
 bc
 bcolz
 bedtools
 benchmark
 bermuda
+beets
 bfg
 bilby.cython
 billiard
@@ -116,6 +124,7 @@ bsddb3
 bt
 btrees
 buildbot
+bxdecay0
 bytewax
 cached_interpolate
 cadet
@@ -145,6 +154,7 @@ celery
 cell_tree2d
 cellfinder-core
 ceres-solver
+cern-sso-cli
 certifi
 cexprtk
 cf-units
@@ -180,6 +190,7 @@ cmake
 cmarkgfm
 cmdstan
 cminpack
+cmocka
 cms-combine
 coin-or-cbc
 coinbonmin
@@ -208,6 +219,7 @@ connexion
 console_bridge
 constructor
 coolprop
+copybara
 coremltools
 coreutils
 correctionlib
@@ -216,12 +228,14 @@ cosmosis
 cosmosis-build-standard-library
 cpnest
 cpp-terminal
+cppad-mixed
 cppcheck
 cppcolormap
 cppe
 cpppath
 cpptango
 cppunit
+cql2
 cram
 crc32c
 crest
@@ -261,6 +275,7 @@ datalad
 dataprep
 datavzrd
 datrie
+datui
 dav1d
 dbgpy
 dcm2niix
@@ -294,6 +309,7 @@ digital_rf
 dionysus
 dioptas
 direnv
+dismod-at
 disperse
 divemesh
 djvulibre
@@ -348,6 +364,7 @@ esi-core
 esmpy
 esptool
 esutil
+ete4
 euphonic
 eups
 exoplanet
@@ -362,6 +379,7 @@ fairseq
 faiss-cpu
 faiss-split
 falcon
+fastcdc
 fast-histogram
 fast-query-parsers
 fast_hdbscan
@@ -370,6 +388,7 @@ fastavro
 fastcache
 fastcluster
 fastdtw
+fastframes
 fastjet-cxx
 fastnumbers
 fastparquet
@@ -396,6 +415,7 @@ fluidfft
 fluidfft-fftw
 fluidimage
 fluidsim
+flux
 fonttools
 forcebalance
 forestci
@@ -522,9 +542,11 @@ gtest
 gtk3
 gtk4
 gtkmm
+gtksourceview
 guardian
 gunicorn
 guppy3
+gwframe
 gwsurrogate
 gym
 gymnasium
@@ -553,6 +575,7 @@ heffte
 helios
 helix
 help2man
+heppdt
 heyoka
 heyoka.py
 hf-transfer
@@ -632,10 +655,13 @@ kepderiv
 keras
 keras-preprocessing
 khiops-binaries
+khiops-driver-azure
 khiops-driver-gcs
 kim-api
 kimpy
+klfitter
 kliff
+kmeans1d
 kokkos
 kokkos-kernels
 kombu
@@ -653,6 +679,7 @@ landlab
 lap
 lapack
 laspy
+laura
 lazrs-python
 lazy-object-proxy
 lazydocker
@@ -714,6 +741,7 @@ libsigcpp
 libsoup
 libspatialindex
 libstempo
+libtdlpack
 libtins
 libtlsh
 libtool
@@ -791,6 +819,7 @@ meilisearch
 menuinst
 meos
 mercurial
+mergechannels
 mesas
 meshpy
 metadetect
@@ -804,8 +833,10 @@ micromamba
 midiutil
 mim-solvers
 minijinja
+mini-racer
 minuit2
 mitmproxy
+mitmproxy-rs
 mlflow
 mlir
 mmh3
@@ -886,6 +917,7 @@ nn
 nnvm
 nodejs
 noise
+nono
 norse
 notebook
 nrel-pysam
@@ -907,6 +939,7 @@ obstore
 ocaml
 ocaml-num
 octave
+odrpack
 ogre
 oidc-agent
 ollama
@@ -941,6 +974,7 @@ optional-lite
 opty
 optype
 orange3
+orange3-network
 oras
 orc
 orderedset
@@ -1030,7 +1064,9 @@ physics-tenpy
 piff
 pigz
 pikepdf
+pinact
 pixell
+pixi-assistant
 pixi-inject
 pixi-pack
 pixmappy
@@ -1048,9 +1084,11 @@ poetry
 polars
 polyagamma
 polycap
+polymer
 polyscope
 pomegranate
 porespy
+posix_ipc
 postal
 pot
 potpourri3d
@@ -1083,10 +1121,12 @@ py-plumed
 py-spy
 py-triangle
 py2bit
+py3c
 py_gd
 py_rattler
 pyabel
 pyacvd
+pyafv
 pyagrum
 pyahocorasick
 pyarrow
@@ -1111,6 +1151,7 @@ pyddx
 pydeb
 pydelatin
 pydpc
+pydocket
 pyduktape2
 pyebsdindex
 pyeda
@@ -1229,6 +1270,7 @@ pytensor
 pytensor-base
 pytest
 pytest-asyncio
+pytest-codspeed
 pytest-cov
 python
 python-annoy
@@ -1322,6 +1364,7 @@ r
 r-amap
 r-anytime
 r-ape
+r-aphid
 r-aptreeshape
 r-arrow
 r-bart
@@ -1344,6 +1387,7 @@ r-compositions
 r-cubature
 r-cvxr
 r-dbarts
+r-deoptim
 r-desctools
 r-desolve
 r-devtools
@@ -1378,6 +1422,7 @@ r-hmisc
 r-hunspell
 r-idpmisc
 r-infotheo
+r-insect
 r-irkernel
 r-jpeg
 r-jqr
@@ -1402,6 +1447,7 @@ r-marginaleffects
 r-matchit
 r-mboost
 r-mclust
+r-mess
 r-mice
 r-microbenchmark
 r-minpack.lm
@@ -1512,6 +1558,7 @@ redlionfish
 reef3d
 regions
 rejected
+remage
 reproc
 reproject
 requests-gssapi
@@ -1527,6 +1574,7 @@ ripgrep
 ripser
 rise
 riskfolio-lib
+rlic
 root
 rosdep
 rosdistro
@@ -1614,6 +1662,7 @@ shellcheck
 shredx
 shrinkwrap
 siesta
+silicon
 simple-build-system
 simpleeval
 simpleitk
@@ -1642,6 +1691,7 @@ sourmash-minimal
 sox
 soxr-python
 spacy
+spade
 spam
 spectrum
 spglib
@@ -1661,6 +1711,7 @@ stardist
 starlink-ast
 starship
 statsmodels
+stim-split
 stockwell
 stow
 streamtracer
@@ -1673,6 +1724,7 @@ suitesparse
 sunode
 sunpy
 supervisor
+surfa
 swig
 swiglpk
 swmm-toolkit
@@ -1688,6 +1740,13 @@ tango-idl
 tango-test
 taplo
 tar
+tardigrade_error_tools
+tardigrade_vector_tools
+tardigrade_abaqus_tools
+tardigrade_constitutive_tools
+tardigrade_solver_tools
+tardigrade_stress_tools
+tardigrade_micromorphic_tools
 tbb
 tblite-python
 tcplotter
@@ -1809,6 +1868,7 @@ wrf-python
 wxpython
 x265
 xalan-c
+xapian-core
 xattr
 xcfun
 xdmfwrite_highfive
@@ -1848,6 +1908,7 @@ xorg-xineramaproto
 xorjson
 xpa
 xraylib
+xrayutilities
 xsimd
 xsv
 xtb
@@ -1867,6 +1928,7 @@ yte
 ytop
 z5py
 zaber-motion
+zarf
 zarr
 zbar
 zchunk
@@ -1879,3 +1941,4 @@ zip
 zodbpickle
 zopfli
 zoxide
+easychem
