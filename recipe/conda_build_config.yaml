@@ -287,6 +287,8 @@ c_blosc2:
   - '2.23'
 cairo:
   - 1
+casadi:
+  - 3.6
 capnproto:
   - 1.4.0
 ccr:
