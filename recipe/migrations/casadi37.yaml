@@ -1,4 +1,5 @@
 __migrator:
+  commit_message: Rebuild for casadi 3.7
   kind: version
   migration_number: 1
   bump_number: 1
