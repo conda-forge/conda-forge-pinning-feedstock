@@ -1017,7 +1017,7 @@ suitesparse:
 suitesparse_mongoose:
   - '3'
 sundials:
-  - '6'
+  - '7.5'
 superlu_dist:
   - '9'
 swig_abi:
