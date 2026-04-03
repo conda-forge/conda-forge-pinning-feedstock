@@ -178,6 +178,7 @@ nmslib
 numexpr
 numpy
 numpy_quaddtype
+nvcomp
 nvidia-dali-python
 nvtx
 openslide-python
