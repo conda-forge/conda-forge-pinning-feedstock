@@ -166,6 +166,7 @@ cheetah3
 chemfiles-python
 chemicalite
 cherrypy
+chrony
 cif2hkl
 cis
 ciso
