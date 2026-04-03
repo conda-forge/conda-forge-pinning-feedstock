@@ -87,6 +87,7 @@ cds-crtools
 celery
 cern-sso-cli
 charls
+chrony
 chrpath
 ciso
 clangdev
