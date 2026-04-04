@@ -1051,9 +1051,9 @@ vlfeat:
 volk:
   - '3.3'
 vtk:
-  - 9.6.0
+  - 9.6.1
 vtk_base:
-  - 9.6.0
+  - 9.6.1
 wcslib:
   - '8'
 wxwidgets:
