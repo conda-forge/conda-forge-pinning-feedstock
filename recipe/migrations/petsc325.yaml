@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for petsc 3.25
+  kind: version
+  migration_number: 1
+migrator_ts: 1775118033.6345015
+petsc:
+- '3.25'
+petsc4py:
+- '3.25'
+slepc:
+- '3.25'
+slepc4py:
+- '3.25'
