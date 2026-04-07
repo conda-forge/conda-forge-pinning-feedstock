@@ -1,0 +1,27 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libabseil 20260107, libgrpc 1.80 & libprotobuf 6.34.1
+  kind: version
+  migration_number: 1
+  paused: true
+  exclude:
+    # core deps
+    - abseil-cpp
+    - grpc-cpp
+    - libprotobuf
+    # required for building/testing
+    - protobuf
+    - re2
+    # bazel stack
+    - bazel
+    - grpc_java_plugin
+    - singlejar
+    # built manually beforehand due to enormous build time
+    - pytorch-cpu
+libabseil:
+- 20260107
+libgrpc:
+- "1.80"
+libprotobuf:
+- 6.34.1
+migrator_ts: 1775539322.336586
