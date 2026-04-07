@@ -857,9 +857,9 @@ pcl:
 perl:
   - 5.32.1
 petsc:
-  - '3.24'
+  - '3.25'
 petsc4py:
-  - '3.24'
+  - '3.25'
 plutovg:
   - 1.3.2
 plutosvg:
@@ -867,9 +867,9 @@ plutosvg:
 pugixml:
   - '1.15'
 slepc:
-  - '3.24'
+  - '3.25'
 slepc4py:
-  - '3.24'
+  - '3.25'
 svt_av1:
   - 4.0.1
 p11_kit:
