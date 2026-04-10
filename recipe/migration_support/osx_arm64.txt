@@ -833,6 +833,7 @@ mgrs
 micromamba
 midiutil
 mim-solvers
+minify-html
 minijinja
 mini-racer
 minuit2
