@@ -1824,6 +1824,7 @@ unicorn
 universal-ctags
 universal_pathlib
 uproc
+upterm
 upv
 uritools
 urllib3
