@@ -751,6 +751,7 @@ pypdf
 pyprind
 pypy2.7
 pypy3.6
+pyqt6
 pyrage
 pyrepl
 pyrfr
