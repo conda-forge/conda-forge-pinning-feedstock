@@ -1,0 +1,8 @@
+__migrator:
+  commit_message: Rebuild for sundials 7.7
+  kind: version
+  migration_number: 1
+  bump_number: 1
+sundials:
+  - '7.7'
+migrator_ts: 1776191624
