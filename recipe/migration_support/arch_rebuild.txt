@@ -1325,6 +1325,7 @@ vowpalwabbit
 vtk
 vulkan-loader
 wabt
+wasmtime-py
 watchfiles
 web3
 wgrib2
