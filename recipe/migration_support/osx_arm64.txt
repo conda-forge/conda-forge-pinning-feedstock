@@ -313,6 +313,7 @@ dioptas
 direnv
 dismod-at
 disperse
+distopia
 divemesh
 djvulibre
 dkh
