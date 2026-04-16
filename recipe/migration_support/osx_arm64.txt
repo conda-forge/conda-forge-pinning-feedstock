@@ -53,6 +53,7 @@ ast-grep
 ast-grep-py
 astra-toolbox
 astroid
+astromatic-scamp
 astromatic-source-extractor
 astropy-healpix
 astroscrappy
