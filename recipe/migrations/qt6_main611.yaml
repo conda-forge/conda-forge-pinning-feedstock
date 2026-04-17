@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for qt6_main 6.11
+  kind: version
+  migration_number: 1
+migrator_ts: 1774298951.6675055
+qt6_main:
+- '6.11'
