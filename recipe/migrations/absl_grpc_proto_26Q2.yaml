@@ -23,5 +23,5 @@ libabseil:
 libgrpc:
 - "1.80"
 libprotobuf:
-- 6.34.1
+- 7.34.1
 migrator_ts: 1775539322.336586
