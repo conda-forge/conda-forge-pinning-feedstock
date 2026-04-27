@@ -1347,6 +1347,7 @@ qiskit-terra
 qpdf
 qpoases
 qpot
+qpoint
 qscintilla2
 qsimcirq
 qt
