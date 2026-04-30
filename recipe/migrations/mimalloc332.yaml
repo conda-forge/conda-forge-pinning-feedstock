@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for mimalloc 3.3.2
+  kind: version
+  migration_number: 1
+migrator_ts: 1777539523.6681223
+mimalloc:
+- 3.3.2
