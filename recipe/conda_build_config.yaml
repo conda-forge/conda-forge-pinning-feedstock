@@ -960,7 +960,7 @@ re2:
 readline:
   - "8"
 rocksdb:
-  - '10.9'
+  - '11.1'
 root_base:
   - 6.36.8
   - 6.38.0
