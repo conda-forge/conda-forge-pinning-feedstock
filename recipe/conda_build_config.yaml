@@ -656,6 +656,8 @@ libparu:
   - '1'
 libpcap:
   - '1.10'
+libplacebo:
+  - '7.351'
 libpnetcdf:
   - 1.14.1
 libpng:
@@ -996,6 +998,8 @@ sdl2_net:
   - '2'
 sdl2_ttf:
   - '2'
+shaderc:
+  - '2026.2'
 singular:
   - 4.4.1
 snappy:
