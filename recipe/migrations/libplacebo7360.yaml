@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libplacebo 7.360
+  kind: version
+  migration_number: 1
+libplacebo:
+- '7.360'
+migrator_ts: 1777872725.888232
