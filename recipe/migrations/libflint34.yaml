@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libflint 3.4
+  kind: version
+  migration_number: 1
+libflint:
+- '3.4'
+migrator_ts: 1771004334.1530457
