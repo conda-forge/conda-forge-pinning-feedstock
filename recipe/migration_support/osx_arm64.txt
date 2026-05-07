@@ -332,6 +332,7 @@ docutils
 doit
 dos2unix
 doxygen
+dpct-meta
 dscribe
 dsps
 dssp
