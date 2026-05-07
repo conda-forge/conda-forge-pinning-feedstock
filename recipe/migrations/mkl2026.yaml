@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for mkl 2026
+  kind: version
+  migration_number: 1
+migrator_ts: 1778116656.760406
+mkl:
+- '2026'
+mkl_devel:
+- '2026'
