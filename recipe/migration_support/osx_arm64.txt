@@ -1808,8 +1808,11 @@ triqs
 triqs_cthyb
 triqs_dft_tools
 triqs_tprf
+trzsz
 tsl_robin_map
 tslearn
+tssh
+tsshd
 tsv-utils
 turodbc
 twine
