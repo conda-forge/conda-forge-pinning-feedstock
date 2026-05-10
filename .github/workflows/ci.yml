@@ -1,0 +1,11 @@
+name: build_and_test
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: exit 0
