@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_http 0.10.15
+  kind: version
+  migration_number: 1
+aws_c_http:
+- 0.10.15
+migrator_ts: 1778540344.8664458
