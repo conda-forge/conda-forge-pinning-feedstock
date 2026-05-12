@@ -11,3 +11,6 @@ pixi-inject
 pixi-pack
 rattler-build
 rattler-index
+trzsz
+tssh
+tsshd

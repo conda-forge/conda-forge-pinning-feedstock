@@ -1,0 +1,12 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libgdal_core 3.13
+  kind: version
+  migration_number: 1
+gdal:
+- '3.13'
+libgdal:
+- '3.13'
+libgdal_core:
+- '3.13'
+migrator_ts: 1778307238.8233724

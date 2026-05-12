@@ -332,6 +332,7 @@ docutils
 doit
 dos2unix
 doxygen
+dpct-meta
 dscribe
 dsps
 dssp
@@ -476,6 +477,7 @@ git
 git-cliff
 git-crypt
 git-lfs
+giza
 glab
 glib
 glib-networking
@@ -1807,8 +1809,11 @@ triqs
 triqs_cthyb
 triqs_dft_tools
 triqs_tprf
+trzsz
 tsl_robin_map
 tslearn
+tssh
+tsshd
 tsv-utils
 turodbc
 twine
