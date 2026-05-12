@@ -675,7 +675,7 @@ librbio:
 librdkafka:
   - '2.12'
 librealsense:
-  - '2.56'
+  - '2.57'
 librerun_sdk:
   - 0.31.2
 librsvg:

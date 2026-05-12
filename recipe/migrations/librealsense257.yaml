@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for librealsense 2.57
-  kind: version
-  migration_number: 1
-librealsense:
-- '2.57'
-migrator_ts: 1778506854.8562768
