@@ -205,6 +205,7 @@ djvulibre
 dm-tree
 docker-buildx
 docker-cli
+dpct-meta
 dtc
 dukpy
 dust
