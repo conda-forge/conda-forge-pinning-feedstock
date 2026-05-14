@@ -665,6 +665,7 @@ pexsi
 pgure-svt
 phantomjs
 phonopy
+phonors
 photutils
 php
 pickle5

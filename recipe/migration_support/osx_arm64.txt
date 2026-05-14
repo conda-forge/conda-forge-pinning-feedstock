@@ -1062,6 +1062,7 @@ pgure-svt
 phantomjs
 phono3py
 phonopy
+phonors
 photochem
 photospline
 photutils
