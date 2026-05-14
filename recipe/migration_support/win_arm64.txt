@@ -5,7 +5,6 @@ conda-forge-ci-setup
 conda-mirror
 gh
 mamba
-phonors
 pixi
 pixi-diff
 pixi-inject
