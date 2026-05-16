@@ -131,6 +131,7 @@ btrees
 buildbot
 bxdecay0
 bytewax
+cachebox
 cached_interpolate
 cadet
 caiman
