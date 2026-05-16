@@ -53,8 +53,12 @@ ast-grep
 ast-grep-py
 astra-toolbox
 astroid
+astromatic-psfex
 astromatic-scamp
+astromatic-skymaker
 astromatic-source-extractor
+astromatic-stiff
+astromatic-swarp
 astropy-healpix
 astroscrappy
 asv
@@ -1062,6 +1066,7 @@ pgure-svt
 phantomjs
 phono3py
 phonopy
+phonors
 photochem
 photospline
 photutils

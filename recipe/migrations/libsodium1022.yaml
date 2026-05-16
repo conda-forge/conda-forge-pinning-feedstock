@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libsodium 1.0.22
+  kind: version
+  migration_number: 1
+libsodium:
+- 1.0.22
+migrator_ts: 1775802587.414891
