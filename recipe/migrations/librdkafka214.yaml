@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for librdkafka 2.14
+  kind: version
+  migration_number: 1
+librdkafka:
+- '2.14'
+migrator_ts: 1775062227.8798335
