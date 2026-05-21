@@ -674,6 +674,8 @@ librbio:
   - '4'
 librdkafka:
   - '2.12'
+librdkit:
+  - 2026.03.2
 librealsense:
   - '2.57'
 librerun_sdk:
