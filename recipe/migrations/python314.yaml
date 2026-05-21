@@ -29,6 +29,7 @@ __migrator:
         - python_abi
         # Manually migrated (e.g. were blocked on missing dev dependencies)
         - pyarrow
+        - gz-transport-python
     exclude_pinned_pkgs: false
     ignored_deps_per_node:
         matplotlib:
