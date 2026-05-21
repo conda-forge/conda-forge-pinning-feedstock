@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libcap 2.78
+  kind: version
+  migration_number: 1
+libcap:
+- '2.78'
+migrator_ts: 1775493550.110385
