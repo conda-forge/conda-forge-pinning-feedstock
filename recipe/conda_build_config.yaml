@@ -331,7 +331,7 @@ dcap:
 eclib:
   - '20250627'
 eigen_abi_devel:
-  - '3.4.0'
+  - '5.0.1'
 elfutils:
   - '0.194'
 exiv2:
