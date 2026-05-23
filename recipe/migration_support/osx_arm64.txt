@@ -1473,6 +1473,7 @@ r-ncdf4
 r-obistools
 r-oce
 r-padr
+r-pander
 r-parallelDist
 r-parsedate
 r-pbapply
