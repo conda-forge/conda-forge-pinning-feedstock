@@ -763,7 +763,7 @@ log4cxx:
 lol_html:
   - 2.7.2
 ls_hpack:
-  - 2.3.4
+  - 2.3.5
 lz4_c:
   - '1.10'
 lzo:

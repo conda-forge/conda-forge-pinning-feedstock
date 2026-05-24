@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for ls_hpack 2.3.5
-  kind: version
-  migration_number: 1
-ls_hpack:
-- 2.3.5
-migrator_ts: 1779606673.906885
