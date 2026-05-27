@@ -1,9 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for nodejs 26
-  kind: version
-  migration_number: 1
-migrator_ts: 1779377983.449291
-nodejs:
-- '26'
-- '24'
