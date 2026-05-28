@@ -705,7 +705,7 @@ libssh:
 libssh2:
   - 1
 libsvm:
-  - '335'
+  - '337'
 libsqlite:
   - 3
 libsystemd:
