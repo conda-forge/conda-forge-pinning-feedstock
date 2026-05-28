@@ -236,23 +236,23 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - '0.10.1'
+  - '0.10.3'
 aws_c_cal:
-  - '0.9.13'
+  - '0.9.14'
 aws_c_common:
-  - '0.12.6'
+  - '0.13.1'
 aws_c_compression:
   - '0.3.2'
 aws_c_event_stream:
-  - '0.7.0'
+  - '0.7.1'
 aws_c_http:
-  - '0.10.13'
+  - '0.11.0'
 aws_c_io:
   - '0.26.3'
 aws_c_mqtt:
   - '0.15.2'
 aws_c_s3:
-  - '0.12.2'
+  - '0.12.3'
 aws_c_sdkutils:
   - 0.2.4
 aws_checksums:
@@ -331,7 +331,7 @@ dcap:
 eclib:
   - '20250627'
 eigen_abi_devel:
-  - '3.4.0'
+  - '5.0.1'
 elfutils:
   - '0.194'
 exiv2:
@@ -399,7 +399,7 @@ glpk:
 gmp:
   - 6
 google_cloud_cpp:
-  - '3.3'
+  - '3.5'
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
@@ -553,43 +553,43 @@ libfuse3:
 libgit2:
   - '1.9'
 libgoogle_cloud:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_all_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_aiplatform_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_automl_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_bigquery_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_bigtable_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_compute_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_dialogflow_cx_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_dialogflow_es_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_discoveryengine_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_dlp_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_iam_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_oauth2_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_policytroubleshooter_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_pubsub_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_spanner_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_speech_devel:
-  - '3.3'
+  - '3.5'
 libgoogle_cloud_storage_devel:
-  - '3.3'
+  - '3.5'
 libgrpc:
   - "1.73"
 libgsasl:
@@ -667,13 +667,13 @@ libprotobuf:
 libpq:
   - '18'
 libpulsar:
-  - 4.0.1
+  - 4.1.0
 libraw:
   - '0.21'
 librbio:
   - '4'
 librdkafka:
-  - '2.12'
+  - '2.13'
 librdkit:
   - 2026.03.2
 librealsense:
@@ -689,7 +689,7 @@ libsentencepiece:
 libsndfile:
   - '1.2'
 libsodium:
-  - '1.0.21'
+  - 1.0.22
 libsoup:
   - 3
 libspatialindex:
@@ -765,7 +765,7 @@ log4cxx:
 lol_html:
   - 2.7.2
 ls_hpack:
-  - 2.3.4
+  - 2.3.5
 lz4_c:
   - '1.10'
 lzo:
@@ -777,10 +777,10 @@ metis:
 mimalloc:
   - 3.3.2
 mkl:
-  - '2025'  # [not osx]
+  - '2026'  # [not osx]
   - '2023'  # [osx]
 mkl_devel:
-  - '2025'  # [not osx]
+  - '2026'  # [not osx]
   - '2023'  # [osx]
 mpg123:
   - '1.32'
@@ -811,8 +811,8 @@ netcdf_fortran:
 nettle:
   - '3.10'
 nodejs:
+  - '26'
   - '24'
-  - '22'
 nss:
   - 3
 nspr:
@@ -865,9 +865,9 @@ petsc:
 petsc4py:
   - '3.25'
 plutovg:
-  - 1.3.2
+  - 1.3.3
 plutosvg:
-  - 0.0.7
+  - 0.0.8
 pugixml:
   - '1.15'
 slepc:
@@ -891,7 +891,7 @@ libpdal_core:
 pixman:
   - 0
 poco:
-  - 1.15.2
+  - 1.15.3
 poppler:
   - '26.05'
 portaudio:
@@ -958,7 +958,7 @@ qtkeychain:
 rav1e:
   - '0.8'
 rdma_core:
-  - '61'
+  - '63'
 re2:
   - 2025.11.05
 readline:
@@ -989,7 +989,7 @@ s2geography:
 s2geometry:
   - 0.11.1
 s2n:
-  - '1.7.2'
+  - 1.7.3
 sdl2:
   - '2'
 sdl2_image:

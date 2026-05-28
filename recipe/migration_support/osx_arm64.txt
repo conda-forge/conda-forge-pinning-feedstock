@@ -131,6 +131,7 @@ btrees
 buildbot
 bxdecay0
 bytewax
+cachebox
 cached_interpolate
 cadet
 caiman
@@ -424,6 +425,7 @@ fluidfft-fftw
 fluidimage
 fluidsim
 flux
+flux-mirror
 fonttools
 forcebalance
 forestci
@@ -1472,6 +1474,7 @@ r-ncdf4
 r-obistools
 r-oce
 r-padr
+r-pander
 r-parallelDist
 r-parsedate
 r-pbapply

@@ -249,6 +249,7 @@ flask
 flit
 flock
 flux
+flux-mirror
 fonttools
 forestci
 forte2
@@ -1159,6 +1160,7 @@ ray-packages
 rclone
 rdma-core
 rectangle-packer
+remage
 reproc
 rerun-sdk
 resdk
