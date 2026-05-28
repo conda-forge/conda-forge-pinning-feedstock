@@ -673,7 +673,7 @@ libraw:
 librbio:
   - '4'
 librdkafka:
-  - '2.12'
+  - '2.13'
 librealsense:
   - '2.57'
 librerun_sdk:
