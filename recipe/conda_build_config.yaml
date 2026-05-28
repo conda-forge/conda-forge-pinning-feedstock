@@ -669,7 +669,7 @@ libpq:
 libpulsar:
   - 4.1.0
 libraw:
-  - '0.21'
+  - '0.22'
 librbio:
   - '4'
 librdkafka:
