@@ -5,8 +5,8 @@ __migrator:
   kind: version
   migration_number: 1
 libmagma:
-- '2.10'
+- '2.10.0'
 libmagma_devel:
-- '2.10'
+- '2.10.0'
 libmagma_sparse:
-- '2.10'
+- '2.10.0'
