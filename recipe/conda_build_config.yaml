@@ -266,15 +266,15 @@ azure_core_cpp:
 azure_identity_cpp:
   - 1.13.3
 azure_storage_blobs_cpp:
-  - 12.16.0
+  - 12.17.0
 azure_storage_common_cpp:
   - 12.13.0
 azure_storage_files_datalake_cpp:
-  - 12.14.0
+  - 12.15.0
 azure_storage_files_shares_cpp:
-  - 12.16.0
+  - 12.17.0
 azure_storage_queues_cpp:
-  - 12.6.0
+  - 12.7.0
 brotli:
   - '1.2'
 bullet_cpp:
