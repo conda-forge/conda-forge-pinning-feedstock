@@ -1,0 +1,12 @@
+migrator_ts: 1780079144
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libmagma 2.10
+  kind: version
+  migration_number: 1
+libmagma:
+- '2.10'
+libmagma_devel:
+- '2.10'
+libmagma_sparse:
+- '2.10'
