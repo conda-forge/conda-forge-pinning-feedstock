@@ -647,7 +647,7 @@ libogg:
 libopencv:
   - 4.13.0
 libopentelemetry_cpp:
-  - '1.26'
+  - '1.27'
 libosqp:
   - 1.0.0
 libopenvino_dev:
