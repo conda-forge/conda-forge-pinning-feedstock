@@ -502,7 +502,7 @@ libbtf:
 libcamd:
   - '3'
 libcap:
-  - '2.77'
+  - '2.78'
 libcint:
   - '6.1'
 libccolamd:
