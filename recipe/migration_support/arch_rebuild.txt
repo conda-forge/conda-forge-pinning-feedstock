@@ -225,6 +225,7 @@ esmpy
 eza
 f2c
 fa2
+fairlogger
 faiss-split
 fancycompleter
 fast-histogram
