@@ -384,6 +384,7 @@ extinction
 eza
 f2c
 fabmos
+fairlogger
 fairseq
 faiss-cpu
 faiss-split
