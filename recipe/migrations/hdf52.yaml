@@ -4,9 +4,10 @@ __migrator:
   kind: version
   migration_number: 1
 # HDF5 likely changed alot of its API
-# During the initial phase of the migration lets build for both
-# HDF5 2 and the latest version of HDF5
+# The initial transition phase built for both HDF5 2 and 1.14.6.
+# We now only migrate remaining feedstocks to HDF5 2.
+# Packages already built for HDF5 2 are unaffected (no build_number /
+# migration_number bump), so dropping 1.14.6 does not trigger rebuilds.
 hdf5:
 - '2'
-- '1.14.6'
 migrator_ts: 1774274234.55363
