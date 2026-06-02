@@ -651,7 +651,7 @@ libopentelemetry_cpp:
 libosqp:
   - 1.0.0
 libopenvino_dev:
-  - 2026.0.0
+  - 2026.1.0
 libparu:
   - '1'
 libpcap:
