@@ -381,6 +381,7 @@ keyring
 khiops-binaries
 kim-api
 klfitter
+kornia-rs
 krb5
 ksops
 labelimg
