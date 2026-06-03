@@ -378,6 +378,7 @@ kartothek
 kdepy
 kepderiv
 keyring
+khiops-binaries
 kim-api
 klfitter
 krb5
