@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws-c-* (begin-of-june'26)
+  kind: version
+  migration_number: 1
+  exclude_pinned_pkgs: false
+  automerge: true
+migrator_ts: 1780494400
+aws_c_common:
+  - '0.14.0'
+aws_c_s3:
+  - '0.12.4'
+aws_crt_cpp:
+  - '0.39.1'
