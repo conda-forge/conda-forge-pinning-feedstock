@@ -1,11 +1,11 @@
-# This file was created with simple-index-db 0.2.0.
 # It is based on data from PyPI's simple index as follows:
-# ts: 1768132619
-# date: 2026-01-11 11:56:59
 # Last serial of package listing: 33483889
 # Last serial of received package data: 33484143
-# Total number of projects on PyPI: 723385
 # Number of selected conda-forge packages: 362
+# This file was created with simple-index-db 0.2.0.
+# Total number of projects on PyPI: 723385
+# date: 2026-01-11 11:56:59
+# ts: 1768132619
 adbc-driver-manager
 aggdraw
 aiocsv
