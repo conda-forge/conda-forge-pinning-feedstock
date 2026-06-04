@@ -763,7 +763,7 @@ lmdb:
 log4cxx:
   - 1.2.0
 lol_html:
-  - 2.9.0
+  - 3.0.0
 ls_hpack:
   - 2.3.5
 lz4_c:
