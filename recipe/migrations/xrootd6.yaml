@@ -1,0 +1,16 @@
+migrator_ts: 1780658331
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+  # PRs are issued manually so the xrootd -> libxrootd-devel rename and any
+  # python-xrootd / xrootd-cli additions can be handled per feedstock
+  paused: true
+  commit_message: "Rebuild for xrootd 6 (xrootd -> libxrootd-devel)"
+# Old pin key: lists current xrootd dependents on the status page and rebuilds
+# any straggler against v6 even before the rename.
+xrootd:
+  - "6"
+# New pin key picked up once recipes are renamed to libxrootd-devel.
+libxrootd_devel:
+  - "6"
