@@ -818,7 +818,7 @@ nss:
 nspr:
   - 4
 nlopt:
-  - '2.10'
+  - '2.11'
 ntl:
   - 11.6.0
 # we build using the latest minor version; numpy has generous backwards compatibility
