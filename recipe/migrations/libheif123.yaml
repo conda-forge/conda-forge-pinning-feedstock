@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libheif 1.23
-  kind: version
-  migration_number: 1
-libheif:
-- '1.23'
-migrator_ts: 1780773229.1024594
