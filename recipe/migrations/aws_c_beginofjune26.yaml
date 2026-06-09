@@ -11,4 +11,4 @@ aws_c_common:
 aws_c_s3:
   - '0.12.5'
 aws_crt_cpp:
-  - '0.39.1'
+  - '0.40.0'
