@@ -1,6 +1,7 @@
 abacus
 abinit
 abseil-cpp
+adjfind
 adrt
 age
 aioeasywebdav
