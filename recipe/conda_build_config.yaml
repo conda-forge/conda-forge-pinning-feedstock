@@ -279,6 +279,8 @@ brotli:
   - '1.2'
 bullet_cpp:
   - 3.25
+bxdecay0:
+  - '1.2.0'
 bzip2:
   - 1
 c_ares:
@@ -309,6 +311,8 @@ coin_or_osi:
   - 0.108
 coin_or_utils:
   - 2.11
+collier:
+  - '1.2'
 console_bridge:
   - 1.0
 # match with libcudnn-dev
@@ -328,16 +332,28 @@ dbus:
   - 1
 dcap:
   - 2.47
+delphes:
+  - '3.5.1'
 eclib:
   - '20250627'
 eigen_abi_devel:
   - '5.0.1'
 elfutils:
   - '0.194'
+emela:
+  - '1.0'
 exiv2:
   - '0.28'
 expat:
   - 2
+fastbdt:
+  - '5.6'
+fastjet_contrib:
+  - '1.102'
+fastjet_cxx:
+  - '3.5'
+feynhiggs:
+  - '2.19'
 ffmpeg:
   - '8'
 fftw:
@@ -352,6 +368,8 @@ fontconfig:
   - 2
 freetype:
   - 2
+gaudi:
+  - '40.4'
 gct:
   - 6.2.1705709074
 gf2x:
@@ -376,6 +394,8 @@ libgdal:
   - '3.12'
 libgdal_core:
   - '3.12'
+geant4:
+  - '11.4.1'
 geos:
   - 3.14.1
 geotiff:
@@ -445,6 +465,8 @@ lcms2:
   - 2
 lerc:
   - '4'
+lhapdf:
+  - '6.5'
 libjpeg_turbo:
   - '3'
 libev:
@@ -766,6 +788,8 @@ lol_html:
   - 3.0.0
 ls_hpack:
   - 2.3.5
+lwtnn:
+  - '2.14'
 lz4_c:
   - '1.10'
 lzo:
@@ -788,6 +812,8 @@ mpich:
   - 4
 mpfr:
   - 4
+mpfun90:
+  - '2026'
 mppp:
   - '2.0'
 msgpack_c:
@@ -810,6 +836,8 @@ netcdf_fortran:
   - '4.6'
 nettle:
   - '3.10'
+ninja_hep_ph:
+  - '1.2'
 nodejs:
   - '26'
   - '24'
@@ -830,6 +858,8 @@ obake_devel:
   - '0.9'
 occt:
   - 7.9.3
+oneloop:
+  - '3.7'
 openblas:
   - 0.3.*
 openexr:
@@ -910,6 +940,8 @@ pulseaudio_daemon:
   - '17.0'
 pybind11_abi:
   - 4
+pythia8:
+  - '8.312'
 python:
   # win-arm64 on conda-forge supports only 3.14+
   # part of a zip_keys: python, is_python_min
@@ -943,6 +975,8 @@ pyqtwebengine:
   - 5.15
 pyqtchart:
   - 5.15
+qcdloop:
+  - '2.1'
 qhull:
   - 2020.2
 qpdf:
@@ -1004,10 +1038,14 @@ shaderc:
   - '2026.2'
 singular:
   - 4.4.1
+siscone:
+  - '3.1'
 snappy:
   - 1.2
 soapysdr:
   - '0.8'
+softsusy:
+  - '4.1'
 sox:
   - 14.4.2
 spdlog:
@@ -1054,10 +1092,14 @@ urdfdom:
   - '5.1'
 vc:                    # [win]
   - 14                 # [win]
+vgm:
+  - '5.4'
 vigra:
   - '1.12'
 vlfeat:
   - 0.9.21
+vmc:
+  - '2.2'
 volk:
   - '3.3'
 vtk:
@@ -1080,6 +1122,8 @@ xxhash:
   - 0.8.3
 xz:
   - 5
+yoda:
+  - '2.1'
 zeromq:
   - '4.3.5'
 zfp:
