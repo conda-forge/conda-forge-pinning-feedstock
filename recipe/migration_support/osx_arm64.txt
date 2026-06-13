@@ -194,6 +194,7 @@ clingo-dl
 cloudpathlib
 clpeak
 cmake
+cmark-gfm
 cmarkgfm
 cmdstan
 cminpack
