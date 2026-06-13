@@ -19,9 +19,9 @@ __migrator:
     # built manually beforehand due to enormous build time
     - pytorch-cpu
 libabseil:
-- 20260107
+- 20260526
 libgrpc:
-- "1.80"
+- "1.82"
 libprotobuf:
-- 7.34.1
+- 7.35.1
 migrator_ts: 1775539322.336586
