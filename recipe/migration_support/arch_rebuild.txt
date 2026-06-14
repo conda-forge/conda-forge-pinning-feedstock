@@ -1,6 +1,7 @@
 abacus
 abinit
 abseil-cpp
+adjfind
 adrt
 age
 aioeasywebdav
@@ -225,6 +226,7 @@ esmpy
 eza
 f2c
 fa2
+fairlogger
 faiss-split
 fancycompleter
 fast-histogram
@@ -249,6 +251,7 @@ flask
 flit
 flock
 flux
+flux-mirror
 flux-schema
 fonttools
 forestci
@@ -377,8 +380,10 @@ kartothek
 kdepy
 kepderiv
 keyring
+khiops-binaries
 kim-api
 klfitter
+kornia-rs
 krb5
 ksops
 labelimg
@@ -503,8 +508,8 @@ menuinst
 metaphone
 metplus
 micromamba
-minijinja
 mini-racer
+minijinja
 mitmproxy-rs
 mlip
 mne-lsl
@@ -597,6 +602,7 @@ openscenegraph
 openslide
 openslide-python
 openssh
+opentrustregion
 openusd
 optuna
 or-tools
@@ -773,8 +779,8 @@ pytables
 pytensor
 pytensor-base
 pytensor-suite
-pytest-codspeed
 pytest-benchmark
+pytest-codspeed
 pythia8
 python-annoy
 python-blosc
@@ -1257,13 +1263,13 @@ tango-database
 tango-starter
 tango-test
 taplo
-tardigrade_error_tools
-tardigrade_vector_tools
 tardigrade_abaqus_tools
 tardigrade_constitutive_tools
+tardigrade_error_tools
+tardigrade_micromorphic_tools
 tardigrade_solver_tools
 tardigrade_stress_tools
-tardigrade_micromorphic_tools
+tardigrade_vector_tools
 tclap
 tectonic
 teensy_loader_cli

@@ -98,9 +98,9 @@ bblean
 bc
 bcolz
 bedtools
+beets
 benchmark
 bermuda
-beets
 bfg
 bilby.cython
 billiard
@@ -194,6 +194,7 @@ clingo-dl
 cloudpathlib
 clpeak
 cmake
+cmark-gfm
 cmarkgfm
 cmdstan
 cminpack
@@ -355,6 +356,7 @@ dxtbx
 dyff
 dynaphopy
 e1
+easychem
 easyocr
 eatpy
 ecflow
@@ -384,17 +386,18 @@ extinction
 eza
 f2c
 fabmos
+fairlogger
 fairseq
 faiss-cpu
 faiss-split
 falcon
-fastcdc
 fast-histogram
 fast-query-parsers
 fast_hdbscan
 fastapi
 fastavro
 fastcache
+fastcdc
 fastcluster
 fastdtw
 fastframes
@@ -425,6 +428,7 @@ fluidfft-fftw
 fluidimage
 fluidsim
 flux
+flux-mirror
 flux-schema
 fonttools
 forcebalance
@@ -843,9 +847,9 @@ mgrs
 micromamba
 midiutil
 mim-solvers
+mini-racer
 minify-html
 minijinja
-mini-racer
 minuit2
 mitmproxy
 mitmproxy-rs
@@ -980,6 +984,7 @@ openpnm
 openscenegraph
 openslide
 opentofu
+opentrustregion
 openturns
 openusd
 optional-lite
@@ -1163,8 +1168,8 @@ pycurl
 pyddx
 pydeb
 pydelatin
-pydpc
 pydocket
+pydpc
 pyduktape2
 pyebsdindex
 pyeda
@@ -1183,6 +1188,7 @@ pyfmi
 pyfmmlib
 pyg4ometry
 pygal
+pygamma_n
 pygcgopt
 pygeoda
 pygeos
@@ -1355,8 +1361,8 @@ qiskit-aer
 qiskit-terra
 qpdf
 qpoases
-qpot
 qpoint
+qpot
 qscintilla2
 qsimcirq
 qt
@@ -1755,13 +1761,13 @@ tango-idl
 tango-test
 taplo
 tar
-tardigrade_error_tools
-tardigrade_vector_tools
 tardigrade_abaqus_tools
 tardigrade_constitutive_tools
+tardigrade_error_tools
+tardigrade_micromorphic_tools
 tardigrade_solver_tools
 tardigrade_stress_tools
-tardigrade_micromorphic_tools
+tardigrade_vector_tools
 tbb
 tblite-python
 tcplotter
@@ -1961,4 +1967,3 @@ zip
 zodbpickle
 zopfli
 zoxide
-easychem

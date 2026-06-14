@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for urdfdom 6
+  kind: version
+  migration_number: 1
+migrator_ts: 1780591404.6186585
+urdfdom:
+- '6'

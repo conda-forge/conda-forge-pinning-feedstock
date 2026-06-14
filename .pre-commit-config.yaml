@@ -3,7 +3,7 @@ repos:
   rev: v6.0.0
   hooks:
     - id: file-contents-sorter
-      files: recipe/migration_support/*.txt
+      files: recipe/migration_support/.*\.txt
     - id: check-toml
       files: recipe\/.*\.toml
 - repo: https://github.com/adrienverge/yamllint.git
@@ -12,7 +12,7 @@ repos:
     - id: yamllint
       files: recipe\/migrations\/.*\.yaml
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.15.12
+  rev: v0.15.15
   hooks:
     - id: ruff-check
       args: [ --fix ]

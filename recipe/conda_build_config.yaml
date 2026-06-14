@@ -226,7 +226,7 @@ alsa_lib:
 antic:
   - 0.2
 aom:
-  - '3.9'
+  - '3.14'
 arb:
   - '2.23'
 arpack:
@@ -236,29 +236,29 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - '0.10.1'
+  - '0.10.3'
 aws_c_cal:
-  - '0.9.13'
+  - '0.9.14'
 aws_c_common:
-  - '0.12.6'
+  - '0.14.0'
 aws_c_compression:
   - '0.3.2'
 aws_c_event_stream:
-  - '0.7.0'
+  - '0.7.1'
 aws_c_http:
-  - '0.10.13'
+  - '0.11.0'
 aws_c_io:
   - '0.26.3'
 aws_c_mqtt:
   - '0.15.2'
 aws_c_s3:
-  - '0.12.2'
+  - '0.12.5'
 aws_c_sdkutils:
   - 0.2.4
 aws_checksums:
   - '0.2.10'
 aws_crt_cpp:
-  - '0.38.3'
+  - '0.40.0'
 aws_sdk_cpp:
   - 1.11.747
 azure_core_cpp:
@@ -266,25 +266,27 @@ azure_core_cpp:
 azure_identity_cpp:
   - 1.13.3
 azure_storage_blobs_cpp:
-  - 12.16.0
+  - 12.17.0
 azure_storage_common_cpp:
   - 12.13.0
 azure_storage_files_datalake_cpp:
-  - 12.14.0
+  - 12.15.0
 azure_storage_files_shares_cpp:
-  - 12.16.0
+  - 12.17.0
 azure_storage_queues_cpp:
-  - 12.6.0
+  - 12.7.0
 brotli:
   - '1.2'
 bullet_cpp:
   - 3.25
+bxdecay0:
+  - '1.2.0'
 bzip2:
   - 1
 c_ares:
   - 1
 c_blosc2:
-  - '3.0'
+  - '3.1'
 cairo:
   - 1
 capnproto:
@@ -309,6 +311,8 @@ coin_or_osi:
   - 0.108
 coin_or_utils:
   - 2.11
+collier:
+  - '1.2'
 console_bridge:
   - 1.0
 # match with libcudnn-dev
@@ -319,7 +323,7 @@ cutensor:
 curl:
   - 8
 dartsim_cpp:
-  - '6.16'
+  - '6.18'
 dav1d:
   - 1.2.1
 davix:
@@ -328,16 +332,28 @@ dbus:
   - 1
 dcap:
   - 2.47
+delphes:
+  - '3.5.1'
 eclib:
   - '20250627'
 eigen_abi_devel:
   - '5.0.1'
 elfutils:
   - '0.194'
+emela:
+  - '1.0'
 exiv2:
   - '0.28'
 expat:
   - 2
+fastbdt:
+  - '5.6'
+fastjet_contrib:
+  - '1.102'
+fastjet_cxx:
+  - '3.5'
+feynhiggs:
+  - '2.19'
 ffmpeg:
   - '8'
 fftw:
@@ -352,6 +368,8 @@ fontconfig:
   - 2
 freetype:
   - 2
+gaudi:
+  - '40.4'
 gct:
   - 6.2.1705709074
 gf2x:
@@ -376,6 +394,8 @@ libgdal:
   - '3.12'
 libgdal_core:
   - '3.12'
+geant4:
+  - '11.4.1'
 geos:
   - 3.14.1
 geotiff:
@@ -445,6 +465,8 @@ lcms2:
   - 2
 lerc:
   - '4'
+lhapdf:
+  - '6.5'
 libjpeg_turbo:
   - '3'
 libev:
@@ -460,7 +482,7 @@ krb5:
 ldas_tools_framecpp:
   - '2.9'
 libabseil:
-  - 20250512
+  - 20260107
 libaec:
   - '1'
 libamd:
@@ -502,7 +524,7 @@ libbtf:
 libcamd:
   - '3'
 libcap:
-  - '2.77'
+  - '2.78'
 libcint:
   - '6.1'
 libccolamd:
@@ -591,11 +613,11 @@ libgoogle_cloud_speech_devel:
 libgoogle_cloud_storage_devel:
   - '3.5'
 libgrpc:
-  - "1.73"
+  - "1.78"
 libgsasl:
   - '2'
 libheif:
-  - 1.19
+  - '1.23'
 libhugetlbfs:
   - 2
 libhwloc:
@@ -623,11 +645,11 @@ libiio:
 libldl:
   - '3'
 libmagma:
-  - '2.9'
+  - '2.10.0'
 libmagma_devel:
-  - '2.9'
+  - '2.10.0'
 libmagma_sparse:
-  - '2.9'
+  - '2.10.0'
 libmed:
   - '4.2'
 libmatio:
@@ -647,11 +669,11 @@ libogg:
 libopencv:
   - 4.13.0
 libopentelemetry_cpp:
-  - '1.26'
+  - '1.27'
 libosqp:
   - 1.0.0
 libopenvino_dev:
-  - 2026.0.0
+  - 2026.2.0
 libparu:
   - '1'
 libpcap:
@@ -663,21 +685,23 @@ libpnetcdf:
 libpng:
   - 1.6
 libprotobuf:
-  - 6.31.1
+  - 6.33.5
 libpq:
   - '18'
 libpulsar:
   - 4.1.0
 libraw:
-  - '0.21'
+  - '0.22'
 librbio:
   - '4'
 librdkafka:
-  - '2.12'
+  - '2.14'
+librdkit:
+  - 2026.03.2
 librealsense:
   - '2.57'
 librerun_sdk:
-  - 0.31.2
+  - 0.32.2
 librsvg:
   - 2
 libsecret:
@@ -703,7 +727,7 @@ libssh:
 libssh2:
   - 1
 libsvm:
-  - '335'
+  - '337'
 libsqlite:
   - 3
 libsystemd:
@@ -717,7 +741,7 @@ libthrift:
 libtiff:
   - '4.7'
 libtorch:
-  - '2.9'
+  - '2.10'
 libudev:
   - '257'
 libumfpack:
@@ -761,9 +785,11 @@ lmdb:
 log4cxx:
   - 1.2.0
 lol_html:
-  - 2.7.2
+  - 3.0.0
 ls_hpack:
   - 2.3.5
+lwtnn:
+  - '2.14'
 lz4_c:
   - '1.10'
 lzo:
@@ -775,10 +801,10 @@ metis:
 mimalloc:
   - 3.3.2
 mkl:
-  - '2025'  # [not osx]
+  - '2026'  # [not osx]
   - '2023'  # [osx]
 mkl_devel:
-  - '2025'  # [not osx]
+  - '2026'  # [not osx]
   - '2023'  # [osx]
 mpg123:
   - '1.32'
@@ -786,6 +812,8 @@ mpich:
   - 4
 mpfr:
   - 4
+mpfun90:
+  - '2026'
 mppp:
   - '2.0'
 msgpack_c:
@@ -808,15 +836,17 @@ netcdf_fortran:
   - '4.6'
 nettle:
   - '3.10'
+ninja_hep_ph:
+  - '1.2'
 nodejs:
+  - '26'
   - '24'
-  - '22'
 nss:
   - 3
 nspr:
   - 4
 nlopt:
-  - '2.10'
+  - '2.11'
 ntl:
   - 11.6.0
 # we build using the latest minor version; numpy has generous backwards compatibility
@@ -828,6 +858,8 @@ obake_devel:
   - '0.9'
 occt:
   - 7.9.3
+oneloop:
+  - '3.7'
 openblas:
   - 0.3.*
 openexr:
@@ -837,7 +869,7 @@ openh264:
 openjpeg:
   - '2'
 openjph:
-  - '0.27'
+  - '0.28'
 openmpi:
   - 4
 openslide:
@@ -908,6 +940,8 @@ pulseaudio_daemon:
   - '17.0'
 pybind11_abi:
   - 4
+pythia8:
+  - '8.312'
 python:
   # win-arm64 on conda-forge supports only 3.14+
   # part of a zip_keys: python, is_python_min
@@ -934,13 +968,15 @@ is_python_min:
 is_abi3:
   - true
 pytorch:
-  - '2.9'
+  - '2.10'
 pyqt:
   - 5.15
 pyqtwebengine:
   - 5.15
 pyqtchart:
   - 5.15
+qcdloop:
+  - '2.1'
 qhull:
   - 2020.2
 qpdf:
@@ -952,17 +988,17 @@ qt_main:
 qt6_main:
   - '6.10'
 qtkeychain:
-  - '0.15'
+  - '0.16'
 rav1e:
   - '0.8'
 rdma_core:
-  - '61'
+  - '63'
 re2:
   - 2025.11.05
 readline:
   - "8"
 rocksdb:
-  - '11.1'
+  - '11.0'
 root_base:
   - 6.36.8
   - 6.38.0
@@ -1002,10 +1038,14 @@ shaderc:
   - '2026.2'
 singular:
   - 4.4.1
+siscone:
+  - '3.1'
 snappy:
   - 1.2
 soapysdr:
   - '0.8'
+softsusy:
+  - '4.1'
 sox:
   - 14.4.2
 spdlog:
@@ -1047,15 +1087,19 @@ ucc:
 ucx:
   - '1.20'
 uhd:
-  - 4.9.0
+  - 4.10.0
 urdfdom:
   - '5.1'
 vc:                    # [win]
   - 14                 # [win]
+vgm:
+  - '5.4'
 vigra:
   - '1.12'
 vlfeat:
   - 0.9.21
+vmc:
+  - '2.2'
 volk:
   - '3.3'
 vtk:
@@ -1078,6 +1122,8 @@ xxhash:
   - 0.8.3
 xz:
   - 5
+yoda:
+  - '2.1'
 zeromq:
   - '4.3.5'
 zfp:
