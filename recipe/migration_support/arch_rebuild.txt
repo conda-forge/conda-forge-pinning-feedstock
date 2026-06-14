@@ -249,6 +249,7 @@ flask
 flit
 flock
 flux
+flux-schema
 fonttools
 forestci
 forte2
