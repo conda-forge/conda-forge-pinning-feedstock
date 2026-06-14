@@ -252,6 +252,7 @@ flit
 flock
 flux
 flux-mirror
+flux-schema
 fonttools
 forestci
 forte2

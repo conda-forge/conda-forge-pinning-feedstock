@@ -429,6 +429,7 @@ fluidimage
 fluidsim
 flux
 flux-mirror
+flux-schema
 fonttools
 forcebalance
 forestci
