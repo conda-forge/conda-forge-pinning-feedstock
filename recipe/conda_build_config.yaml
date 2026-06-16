@@ -689,7 +689,7 @@ libprotobuf:
 libpq:
   - '18'
 libpulsar:
-  - 4.1.0
+  - 4.2.0
 libraw:
   - '0.22'
 librbio:
