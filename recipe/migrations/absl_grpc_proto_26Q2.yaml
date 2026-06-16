@@ -1,9 +1,13 @@
 __migrator:
   build_number: 1
-  commit_message: Rebuild for libabseil 20260526, libgrpc 1.82 & libprotobuf 7.35.1
+  commit_message: |
+    Rebuild for libabseil 20260526, libgrpc 1.82 & libprotobuf 7.35.1
+    
+    grpc v1.82 is currently in pre-release and thus not published yet.
+    Therefore, it is expected that feedstocks depending on libgrpc will
+    see resolver errors for now.
   kind: version
   migration_number: 1
-  paused: true
   exclude:
     # core deps
     - abseil-cpp
