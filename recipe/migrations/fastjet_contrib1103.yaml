@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for fastjet_contrib 1.103
-  kind: version
-  migration_number: 1
-fastjet_contrib:
-- '1.103'
-migrator_ts: 1781513792.210523
