@@ -69,6 +69,7 @@ atkmm
 atom
 audioread
 austin
+autobahn
 autoconf
 autode
 autodiff
