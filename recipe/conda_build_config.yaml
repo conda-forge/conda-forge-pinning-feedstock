@@ -997,6 +997,8 @@ re2:
   - 2025.11.05
 readline:
   - "8"
+rivet:
+  - '4.1'
 rocksdb:
   - '11.0'
 root_base:
@@ -1036,6 +1038,8 @@ sdl2_ttf:
   - '2'
 shaderc:
   - '2026.2'
+sherpa:
+  - '3.0'
 singular:
   - 4.4.1
 siscone:
