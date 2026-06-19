@@ -52,6 +52,7 @@ bilby.cython
 binaryen
 bindensity
 binsider
+bioimage-cpp
 biom-format
 bipedal-locomotion-framework
 bitshuffle
@@ -1392,6 +1393,7 @@ yappi
 yarp
 yoda
 yt
+z5py
 zaber-motion
 zchunk
 zenoh-cpp
