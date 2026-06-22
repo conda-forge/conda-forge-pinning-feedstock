@@ -871,7 +871,7 @@ openh264:
 openjpeg:
   - '2'
 openjph:
-  - '0.28'
+  - '0.29'
 openmpi:
   - 4
 openslide:
