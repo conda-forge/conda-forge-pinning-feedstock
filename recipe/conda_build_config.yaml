@@ -416,6 +416,8 @@ glog:
   - '0.7'
 glpk:
   - '5.0'
+gm2calc:
+  - '2.3'
 gmp:
   - 6
 google_cloud_cpp:
