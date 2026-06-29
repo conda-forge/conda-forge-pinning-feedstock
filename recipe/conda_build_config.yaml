@@ -1031,7 +1031,7 @@ ptscotch:
 s2geography:
   - 0.1.2
 s2geometry:
-  - '0.12'
+  - '0.14'
 s2n:
   - '1.7.4'
 sdl2:
