@@ -728,6 +728,8 @@ libspqr:
   - '4'
 libsuitesparseconfig:
   - '7'
+libsuperiso:
+  - '5.0'
 libssh:
   - '0.12'
 libssh2:
