@@ -694,6 +694,8 @@ libprotobuf:
   - 6.33.5
 libpq:
   - '18'
+libpsl:
+  - '0.22'
 libpulsar:
   - 4.2.0
 libraw:
