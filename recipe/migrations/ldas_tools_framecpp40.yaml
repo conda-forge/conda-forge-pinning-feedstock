@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for ldas_tools_framecpp 4.0
+  kind: version
+  migration_number: 1
+ldas_tools_framecpp:
+- '4.0'
+migrator_ts: 1780764131.143475
