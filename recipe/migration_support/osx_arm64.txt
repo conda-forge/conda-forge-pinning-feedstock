@@ -501,6 +501,7 @@ gmatelastoplastic
 gmatelastoplasticfinitestrainsimo
 gmatnonlinearelastic
 gmattensor
+gmime
 gmp
 gmsh
 gmso
@@ -881,6 +882,7 @@ msgpack-cxx
 msgspec
 msitools
 msvc-headers-libs
+mu
 mujoco
 multicore-tsne
 multimark
