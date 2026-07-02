@@ -280,6 +280,7 @@ git-cliff
 glimpse
 glm
 glum
+gmime
 gmsh
 gmt
 gnss-sdr
@@ -525,6 +526,7 @@ mrchem
 mrcpp
 msgspec
 msprime
+mu
 mujoco
 muspinsim
 myproxy
