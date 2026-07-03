@@ -473,6 +473,8 @@ lhapdf:
   - '6.5'
 libjpeg_turbo:
   - '3'
+libjxl:
+  - '0.11'
 libev:
   - 4.33
 json_c:
