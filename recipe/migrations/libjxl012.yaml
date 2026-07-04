@@ -1,8 +1,8 @@
-migrator_ts: 1783088333
 __migrator:
+  build_number: 1
+  commit_message: Rebuild for libjxl 0.12
   kind: version
   migration_number: 1
-  bump_number: 1
-
 libjxl:
-  - '0.12'
+- '0.12'
+migrator_ts: 1783163493.342996
