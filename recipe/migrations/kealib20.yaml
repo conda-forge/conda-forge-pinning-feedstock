@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for kealib 2.0
-  kind: version
-  migration_number: 1
-kealib:
-- '2.0'
-migrator_ts: 1782311039.8423998
