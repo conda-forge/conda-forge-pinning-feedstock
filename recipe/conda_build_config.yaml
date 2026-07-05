@@ -689,7 +689,7 @@ libpcap:
 libplacebo:
   - '7.360'
 libpnetcdf:
-  - 1.14.1
+  - 1.15.0
 libpng:
   - 1.6
 libprotobuf:
