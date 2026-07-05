@@ -1123,9 +1123,9 @@ vmc:
 volk:
   - '3.3'
 vtk:
-  - 9.6.1
+  - 9.6.2
 vtk_base:
-  - 9.6.1
+  - 9.6.2
 wcslib:
   - '8'
 wxwidgets:
