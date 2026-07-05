@@ -1,8 +1,0 @@
-migrator_ts: 1783088333
-__migrator:
-  kind: version
-  migration_number: 1
-  bump_number: 1
-
-libjxl:
-  - '0.12'
