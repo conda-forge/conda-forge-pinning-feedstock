@@ -351,7 +351,7 @@ expat:
 fastbdt:
   - '5.6'
 fastjet_contrib:
-  - '1.103'
+  - '1'
 fastjet_cxx:
   - '3.5'
 feynhiggs:
