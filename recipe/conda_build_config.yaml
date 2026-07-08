@@ -240,7 +240,7 @@ aws_c_auth:
 aws_c_cal:
   - '0.9.14'
 aws_c_common:
-  - '0.14.0'
+  - '0.14.1'
 aws_c_compression:
   - '0.3.2'
 aws_c_event_stream:
@@ -254,7 +254,7 @@ aws_c_mqtt:
 aws_c_s3:
   - '0.12.6'
 aws_c_sdkutils:
-  - '0.2.5'
+  - '0.2.7'
 aws_checksums:
   - '0.2.10'
 aws_crt_cpp:
@@ -1041,7 +1041,7 @@ s2geography:
 s2geometry:
   - '0.14'
 s2n:
-  - '1.7.4'
+  - '1.7.5'
 sdl2:
   - '2'
 sdl2_image:
