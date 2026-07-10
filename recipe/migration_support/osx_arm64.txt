@@ -1412,6 +1412,7 @@ r-compositions
 r-cubature
 r-cvxr
 r-dbarts
+r-dcifer
 r-deoptim
 r-desctools
 r-desolve
