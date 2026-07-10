@@ -451,6 +451,7 @@ libnvjitlink
 libnvjpeg
 libnvjpeg2k-split
 libnvshmem
+libobjcryst
 libopus
 libpnetcdf
 libqdldl
