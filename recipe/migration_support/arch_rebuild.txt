@@ -756,6 +756,7 @@ pymol-open-source
 pymupdf
 pynacl
 pynisher
+pyobjcryst
 pyogrio
 pyomo
 pyopencl
