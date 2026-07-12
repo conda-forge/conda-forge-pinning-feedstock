@@ -782,6 +782,8 @@ libxml2:
   - '2.14'
 libxml2_devel:
   - '2.14'
+libxrootd_devel:
+  - '6'
 libxsmm:
   - 1
 liburing:
@@ -1137,7 +1139,7 @@ x265:
 xerces_c:
   - '3.3'
 xrootd:
-  - '5'
+  - '6'
 xxhash:
   - 0.8.3
 xz:
