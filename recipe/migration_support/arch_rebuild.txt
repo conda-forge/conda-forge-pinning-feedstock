@@ -1325,6 +1325,7 @@ vulkan-loader
 wabt
 watchfiles
 web3
+wgrib
 wgrib2
 wordcloud
 wrf-python
