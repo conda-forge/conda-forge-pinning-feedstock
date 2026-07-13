@@ -5,6 +5,12 @@ __migrator:
   migration_number: 1
 libarrow:
 - '25.0'
+- '24.0'
+- '23.0'
+- '22.0'
 libarrow_all:
 - '25.0'
+- '24.0'
+- '23.0'
+- '22.0'
 migrator_ts: 1783742805.6021297
