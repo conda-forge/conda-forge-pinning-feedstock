@@ -562,6 +562,8 @@ nputop
 nsight-compute
 nsync
 numba
+numba-cuda
+numba-cuda-mlir
 numcodecs
 numexpr
 numpy
