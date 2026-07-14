@@ -421,6 +421,7 @@ libcap
 libcint
 libcublas
 libcublasmp
+libcuest
 libcufft
 libcufile
 libcugraph
