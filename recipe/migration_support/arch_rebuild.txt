@@ -1346,6 +1346,7 @@ wabt
 wasmtime-py
 watchfiles
 web3
+wgrib
 wgrib2
 wordcloud
 wrf-python
