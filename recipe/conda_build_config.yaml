@@ -239,11 +239,11 @@ assimp:
 attr:
   - 2.5
 aws_c_auth:
-  - '0.10.3'
+  - '0.10.4'
 aws_c_cal:
   - '0.9.14'
 aws_c_common:
-  - '0.14.1'
+  - '0.14.2'
 aws_c_compression:
   - '0.3.2'
 aws_c_event_stream:
@@ -251,11 +251,11 @@ aws_c_event_stream:
 aws_c_http:
   - '0.11.0'
 aws_c_io:
-  - '0.26.3'
+  - '0.27.3'
 aws_c_mqtt:
   - '0.16.0'
 aws_c_s3:
-  - '0.12.6'
+  - '0.12.8'
 aws_c_sdkutils:
   - '0.2.7'
 aws_checksums:
