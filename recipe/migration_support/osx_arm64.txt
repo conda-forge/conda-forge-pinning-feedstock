@@ -409,6 +409,7 @@ fastpath
 fastremap
 fasttext
 faunus
+fbdfile
 fenics-dolfinx
 fiatlux
 file
@@ -1075,6 +1076,7 @@ pexpect
 pexsi
 pgure-svt
 phantomjs
+phasorpy
 phono3py
 phonopy
 phonors
@@ -1135,6 +1137,7 @@ psychopy
 psycopg2
 psygnal
 ptpython
+ptufile
 pulp
 puma
 py-cpuinfo
