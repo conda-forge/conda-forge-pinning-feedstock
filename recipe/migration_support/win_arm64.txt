@@ -35,7 +35,7 @@ rattler-index
 s3-proxy
 saml-auth-proxy
 sbb-tui
-seaweedgs
+seaweedfs
 shoutrrr
 smokeping_prober
 sqlite-scanner
