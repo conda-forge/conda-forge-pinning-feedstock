@@ -499,15 +499,15 @@ libamd:
 libarchive:
   - '3.8'
 libarrow:
+  - '25.0'
   - '24.0'
   - '23.0'
   - '22.0'
-  - '21.0'
 libarrow_all:
+  - '25.0'
   - '24.0'
   - '23.0'
   - '22.0'
-  - '21.0'
 libattr:
   - 2.5
 libavif:
