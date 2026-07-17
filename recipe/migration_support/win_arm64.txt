@@ -1,6 +1,7 @@
 addlicense
 age
 aws-vault
+beads
 caddy
 conda
 conda-build
@@ -8,14 +9,19 @@ conda-deny
 conda-forge-ci-setup
 conda-mirror
 crush
+dasel
 diffnav
 doggo
+flyctl
+gastown
 gh
 gh-dash
 gh-enhance
 granted
 hclfmt
+ini-file
 k9s
+kitops
 ksops
 lefthook
 mamba
