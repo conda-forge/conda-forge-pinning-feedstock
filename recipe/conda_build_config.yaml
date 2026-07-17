@@ -1064,7 +1064,7 @@ sdl2_net:
 sdl2_ttf:
   - '2'
 shaderc:
-  - '2026.2'
+  - '2026.3'
 sherpa:
   - '3.0'
 singular:
