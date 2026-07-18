@@ -186,6 +186,7 @@ openstep-plist
 optree
 orange3-associate
 ormsgpack
+osqp
 p4p
 panda3d
 pandas
@@ -290,6 +291,7 @@ pywavelets
 pywinpty
 pyyaml
 pyzmq
+qdldl-python
 qh3
 quaternion
 randomgen
