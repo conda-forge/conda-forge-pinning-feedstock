@@ -295,7 +295,7 @@ cairo:
 calchep:
   - '3.8'
 capnproto:
-  - 1.4.0
+  - 1.5.0
 casadi:
   - 3.7
 ccr:
