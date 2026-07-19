@@ -757,6 +757,8 @@ libtensorflow:
   - "2.16"
 libtensorflow_cc:
   - "2.16"
+libtheora:
+  - "1.1"
 libthrift:
   - 0.22.0
 libtiff:
