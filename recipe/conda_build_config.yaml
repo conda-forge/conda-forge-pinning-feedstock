@@ -670,7 +670,7 @@ libmatio_cpp:
 libmicrohttpd:
   - '1.0'
 libnetcdf:
-  - 4.10.1
+  - 4.10.0
 libntlm:
   - 1
 libode:
