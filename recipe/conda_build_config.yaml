@@ -956,7 +956,7 @@ postgresql:
 postgresql_plpython:
   - '18'
 proj:
-  - '9.7'
+  - '9.8'
 pulseaudio:
   - '17.0'
 pulseaudio_client:
