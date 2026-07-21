@@ -1282,6 +1282,7 @@ pysdl2
 pyshtools
 pyside2
 pysjef
+pyslang
 pysocks
 pysolid
 pyspf
@@ -1702,6 +1703,7 @@ simplification
 six
 sixs_json
 skopeo
+slang-verilog
 sleef
 sleepecg
 slepc
