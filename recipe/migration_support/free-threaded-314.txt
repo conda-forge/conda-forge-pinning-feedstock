@@ -205,6 +205,7 @@ propcache
 psf
 psutil
 ptufile
+py-rattler
 py-sr25519-bindings
 pyarrow
 pyarrow-core
@@ -350,6 +351,7 @@ transformations
 triton
 trollimage
 trustregion
+typst-py
 tzfpy
 uarray
 ufal.udpipe
