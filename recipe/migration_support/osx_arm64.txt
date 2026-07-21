@@ -946,6 +946,7 @@ nsync
 nuflux
 nuitka
 numba
+numba-cfunc-compiler
 numbalsoda
 numcosmo
 numexpr
