@@ -25,6 +25,7 @@ kitops
 ksops
 lefthook
 mamba
+micromamba
 minio-client
 minio-server
 mkcert
