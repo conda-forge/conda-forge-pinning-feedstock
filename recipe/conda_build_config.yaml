@@ -709,6 +709,8 @@ libpsl:
   - '0.22'
 libpulsar:
   - 4.2.0
+libraqm:
+  - '0.10'
 libraw:
   - '0.22'
 librbio:
