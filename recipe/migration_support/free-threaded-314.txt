@@ -1,7 +1,7 @@
 # It is based on data from PyPI's simple index as follows:
 # Last serial of package listing: 39304776
 # Last serial of received package data: 39305440
-# Number of selected conda-forge packages: 564
+# Number of selected conda-forge packages: 571
 # This file was created with simple-index-db 0.2.0.
 # Total number of projects on PyPI: 856119
 # date: 2026-07-23 18:17:46
@@ -116,6 +116,7 @@ dscribe
 dtaidistance
 dtw-python
 ducc0
+duckdb
 dukpy
 dulwich
 dwave-preprocessing
@@ -251,6 +252,7 @@ moka-py
 mpi4py
 mqtt5
 ms_entropy
+msgpack-python
 msgspec
 mt2
 multidict
@@ -271,6 +273,8 @@ numexpr
 numkong
 numpy
 numpy_quaddtype
+nvcomp
+nvidia-dali-python
 nvmath-python
 nvmath-python-core
 nvtx
@@ -324,6 +328,7 @@ psutil
 ptufile
 pulp
 py-lief
+py-rattler
 py-sr25519-bindings
 pyafv
 pyarrow
@@ -412,6 +417,7 @@ python-calamine
 python-confluent-kafka
 python-crfsuite
 python-cudnn-frontend
+python-duckdb
 python-flint
 python-geotiepoints
 python-gssapi
@@ -437,6 +443,7 @@ pytorch-cpu
 pytorchrl
 pyuda
 pywavelets
+pywinpty
 pyyaml
 pyzmq
 qdldl-python
