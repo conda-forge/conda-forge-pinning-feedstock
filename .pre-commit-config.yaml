@@ -2,7 +2,10 @@ repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v6.0.0
   hooks:
-    - id: file-contents-sorter
+    # we use this instead of file-content-sorter, because it will correctly
+    # ignore metadata comments like we have in free-threaded-314.txt; see
+    # https://github.com/pre-commit/pre-commit-hooks/issues/1266
+    - id: requirements-txt-fixer
       files: recipe/migration_support/.*\.txt
     - id: check-toml
       files: recipe\/.*\.toml
