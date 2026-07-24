@@ -52,7 +52,7 @@ __migrator:
     ```yaml
     context:
       # ensure arm_variant_type gets detected as a used variable
-      touch_arm_variant_type: ${{ arm_variant_type }}
+      touch_arm_variant_type: ${{ arm_variant_type if (linux and aarch64 and cuda_compiler_version != "None") else "None" }}
     ```
 
     Please read the conda-forge CUDA recipe guide for more information:
