@@ -1,11 +1,11 @@
-# This file was created with simple-index-db 0.2.0.
 # It is based on data from PyPI's simple index as follows:
-# ts: 1784830666
-# date: 2026-07-23 18:17:46
 # Last serial of package listing: 39304776
 # Last serial of received package data: 39305440
-# Total number of projects on PyPI: 856119
 # Number of selected conda-forge packages: 571
+# This file was created with simple-index-db 0.2.0.
+# Total number of projects on PyPI: 856119
+# date: 2026-07-23 18:17:46
+# ts: 1784830666
 abess
 adani
 adbc-driver-manager
