@@ -408,7 +408,7 @@ geotiff:
 gfal2:
   - '2.23'
 gflags:
-  - 2.2
+  - '2.3'
 giflib:
   - 5.2
 givaro:
