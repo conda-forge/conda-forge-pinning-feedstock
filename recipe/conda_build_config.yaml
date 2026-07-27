@@ -712,9 +712,9 @@ libpsl:
 libpulsar:
   - 4.2.0
 libraqm:
-  - '0.10'
+  - '0.11'
 libraqm_devel:
-  - '0.10'
+  - '0.11'
 libraw:
   - '0.22'
 librbio:
