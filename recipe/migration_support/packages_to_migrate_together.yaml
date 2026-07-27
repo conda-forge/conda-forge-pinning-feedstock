@@ -70,6 +70,10 @@ libpq:
   - postgresql
   - postgresql_plpython
 
+libraqm:
+  - libraqm
+  - libraqm_devel
+
 libscotch:
   - libscotch
   - libptscotch

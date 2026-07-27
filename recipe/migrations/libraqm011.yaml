@@ -1,0 +1,10 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libraqm 0.11
+  kind: version
+  migration_number: 2
+libraqm:
+- '0.11'
+libraqm_devel:
+- '0.11'
+migrator_ts: 1785112427.238149
