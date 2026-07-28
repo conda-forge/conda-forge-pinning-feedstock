@@ -1438,6 +1438,7 @@ r-fst
 r-gap
 r-gensa
 r-getpass
+r-ggdist
 r-ggforce
 r-ggpubr
 r-glassofast
