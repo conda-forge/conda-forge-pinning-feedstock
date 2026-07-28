@@ -1,6 +1,7 @@
 anaconda-client
 conda
 conda-build
+conda-forge-ci-setup
 conda-libmamba-solver
 git
 mamba
@@ -9,5 +10,6 @@ patch
 pip
 pixi
 python
+rattler-build
 su-exec
 tini
