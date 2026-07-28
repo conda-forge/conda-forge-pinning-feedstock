@@ -1,0 +1,13 @@
+anaconda-client
+conda
+conda-build
+conda-libmamba-solver
+git
+mamba
+micromamba
+patch
+pip
+pixi
+python
+su-exec
+tini
