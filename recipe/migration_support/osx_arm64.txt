@@ -1561,6 +1561,7 @@ r-tzdb
 r-udunits2
 r-umap
 r-v8
+r-validate
 r-vcd
 r-vroom
 r-yardstick
