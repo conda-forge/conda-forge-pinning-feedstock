@@ -900,7 +900,7 @@ openh264:
 openjpeg:
   - '2'
 openjph:
-  - '0.30'
+  - '0.31'
 openmpi:
   - 4
 openslide:
