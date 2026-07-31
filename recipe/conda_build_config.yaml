@@ -708,7 +708,7 @@ libprotobuf:
 libpq:
   - '18'
 libpsl:
-  - '0.22'
+  - '0.23'
 libpulsar:
   - 4.2.0
 libraqm:
