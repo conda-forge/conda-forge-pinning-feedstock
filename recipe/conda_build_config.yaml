@@ -802,7 +802,7 @@ libxml2_devel:
 libxrootd_devel:
   - '6'
 libxsmm:
-  - 1
+  - '2'
 liburing:
   - 2.14
 libuuid:

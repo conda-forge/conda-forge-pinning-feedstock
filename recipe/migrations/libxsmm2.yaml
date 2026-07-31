@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libxsmm 2
-  kind: version
-  migration_number: 1
-libxsmm:
-- '2'
-migrator_ts: 1785471978.0831683
