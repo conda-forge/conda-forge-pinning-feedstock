@@ -35,6 +35,7 @@ __migrator:
         matplotlib:
             - pyqt
             - pyside6
+            - pyside2
         pyarrow:
             # optional test dependencies
             - numba
