@@ -724,7 +724,7 @@ librdkafka:
 librdkit:
   - 2026.03.2
 librealsense:
-  - '2.57'
+  - '2.58'
 librerun_sdk:
   - 0.32.2
 librsvg:
