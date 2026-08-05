@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for s2n 1.7.7
+  kind: version
+  migration_number: 1
+migrator_ts: 1785907162.5717149
+s2n:
+- 1.7.7
