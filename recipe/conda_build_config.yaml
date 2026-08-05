@@ -1124,7 +1124,7 @@ tiledb:
 ucc:
   - 1
 ucx:
-  - '1.21'
+  - '1.22'
 uhd:
   - 4.10.0
 urdfdom:
