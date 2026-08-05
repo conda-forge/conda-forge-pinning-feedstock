@@ -24,6 +24,7 @@ __migrator:
         - pypy-meta
         - cross-python
         - python_abi
+        - matplotlib
     exclude_pinned_pkgs: false
     # if feedstock already has 3.13t migrator this is redundant, but harmless
     additional_zip_keys:
