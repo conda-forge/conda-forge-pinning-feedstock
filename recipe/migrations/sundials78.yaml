@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for sundials 7.8
+  kind: version
+  migration_number: 1
+migrator_ts: 1782490352.6377645
+sundials:
+- '7.8'
