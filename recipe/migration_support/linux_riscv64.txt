@@ -1,4 +1,6 @@
 anaconda-client
+clang
+clangxx
 conda
 conda-build
 conda-forge-ci-setup
