@@ -128,9 +128,6 @@ def test_timestamps_against_main():
                     )
 
         for filename in new_files:
-            if filename.endswith(".txt"):
-                # skip filter lists for special migrations
-                continue
             with open(filename, "r", encoding="utf-8") as f:
                 data = yaml.load(f, Loader=yaml.SafeLoader)
                 print(

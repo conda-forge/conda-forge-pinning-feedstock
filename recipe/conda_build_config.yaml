@@ -511,7 +511,7 @@ libarrow_all:
   - '23.0'
   - '22.0'
 libattr:
-  - 2.5
+  - 2.6
 libavif:
   - 1
 libblitz:
@@ -724,7 +724,7 @@ librdkafka:
 librdkit:
   - 2026.03.2
 librealsense:
-  - '2.57'
+  - '2.58'
 librerun_sdk:
   - 0.32.2
 librsvg:
@@ -1124,7 +1124,7 @@ tiledb:
 ucc:
   - 1
 ucx:
-  - '1.21'
+  - '1.22'
 uhd:
   - 4.10.0
 urdfdom:
