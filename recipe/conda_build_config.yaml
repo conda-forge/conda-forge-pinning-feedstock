@@ -511,7 +511,7 @@ libarrow_all:
   - '23.0'
   - '22.0'
 libattr:
-  - 2.5
+  - 2.6
 libavif:
   - 1
 libblitz:
