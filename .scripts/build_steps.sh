@@ -64,7 +64,7 @@ if [[ "${BUILD_WITH_CONDA_DEBUG:-0}" == 1 ]]; then
     #   - --output-id vs. --output-name
     #   - --clobber-file vs. none
     #   - none vs. --target-platform
-    conda debug \
+    CONDA_SUBDIR="${BUILD_PLATFORM}" conda debug \
         "${RECIPE_ROOT}" \
         -m "${CI_SUPPORT}/${CONFIG}.yaml" \
         ${EXTRA_CB_OPTIONS:-} \
@@ -80,7 +80,7 @@ else
     #   - --clobber-file vs. none
     #   - none vs. --target-platform
     #   - --extra-meta a=b c=d vs. --extra-meta a=b --extra-meta c=d
-    conda-build \
+    CONDA_SUBDIR="${BUILD_PLATFORM}" conda-build \
         "${RECIPE_ROOT}" \
         -m "${CI_SUPPORT}/${CONFIG}.yaml" \
         ${EXTRA_CB_OPTIONS:-} \
