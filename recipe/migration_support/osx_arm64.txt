@@ -701,6 +701,7 @@ laura
 lazrs-python
 lazy-object-proxy
 lazydocker
+lbzip2
 ldc
 lenstool
 less
