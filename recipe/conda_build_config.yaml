@@ -814,7 +814,7 @@ libzip:
 lmdb:
   - "0.9"
 log4cxx:
-  - 1.2.0
+  - 1.8.0
 lol_html:
   - 3.0.1
 ls_hpack:
