@@ -1,8 +1,10 @@
+7zip
 addlicense
 age
 aws-vault
 beads
 caddy
+cmake
 conda
 conda-build
 conda-deny
