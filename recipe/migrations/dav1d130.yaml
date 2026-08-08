@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for dav1d 1.3.0 and rename dav1d to dav1d-dev
+  kind: version
+  migration_number: 1
+dav1d:
+- '1.3.0'
+migrator_ts: 1784845364
