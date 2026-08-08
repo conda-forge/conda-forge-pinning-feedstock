@@ -8,8 +8,14 @@ conda-build
 conda-forge-ci-setup
 conda-libmamba-solver
 git
+llama-cpp-python
+llama.cpp
 mamba
 micromamba
+onednn
+onnx
+onnxruntime
+opencv
 patch
 pip
 pixi
@@ -17,3 +23,4 @@ python
 rattler-build
 su-exec
 tini
+vllm
