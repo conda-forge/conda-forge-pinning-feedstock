@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for ffmpeg 9
+  kind: version
+  migration_number: 1
+ffmpeg:
+- '9'
+migrator_ts: 1786327004.7804887
