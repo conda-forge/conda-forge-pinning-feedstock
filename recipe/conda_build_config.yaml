@@ -360,7 +360,7 @@ fastjet_cxx:
 feynhiggs:
   - '2.19'
 ffmpeg:
-  - '8'
+  - '9'
 fftw:
   - 3
 flann:
