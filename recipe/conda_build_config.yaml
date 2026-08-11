@@ -455,7 +455,7 @@ hdf5:
 hdrhistogram_c:
   - 0.11.9
 icu:
-  - '75'
+  - '78'
 idyntree:
   - '15'
 imath:
