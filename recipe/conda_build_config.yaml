@@ -888,7 +888,7 @@ numpy:
 obake_devel:
   - '0.9'
 occt:
-  - 7.9.3
+  - 8.0.0
 oneloop:
   - '3.7'
 openblas:
