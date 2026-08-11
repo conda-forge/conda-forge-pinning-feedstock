@@ -485,7 +485,7 @@ libev:
 json_c:
   - '0.18'
 jsoncpp:
-  - 1.9.7
+  - 1.9.8
 kealib:
   - '2.0'
 krb5:
