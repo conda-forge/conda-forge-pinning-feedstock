@@ -391,11 +391,11 @@ gstreamer:
 gst_plugins_base:
   - '1.26'
 gdal:
-  - '3.12'
+  - '3.13'
 libgdal:
-  - '3.12'
+  - '3.13'
 libgdal_core:
-  - '3.12'
+  - '3.13'
 geant4:
   - 11.4.2
 geos:
