@@ -681,7 +681,7 @@ libopencolorio:
 libopenimageio:
   - '3.1'
 libopencv:
-  - 4.13.0
+  - 5.0.0
 libopentelemetry_cpp:
   - '1.27'
 libosqp:
