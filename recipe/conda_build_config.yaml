@@ -412,7 +412,7 @@ gflags:
 giflib:
   - 5.2
 givaro:
-  - '4.2.1'
+  - 4.2.2
 glew:
   - '2.3'
 glib:
