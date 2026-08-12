@@ -902,7 +902,7 @@ openjpeg:
 openjph:
   - '0.31'
 openmpi:
-  - 4
+  - '5'
 openslide:
   - 4
 # although openssl follows SemVer for ABI/API stability, we stay on
