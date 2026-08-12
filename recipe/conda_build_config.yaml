@@ -241,9 +241,9 @@ attr:
 aws_c_auth:
   - '0.10.4'
 aws_c_cal:
-  - '0.9.14'
+  - '0.9.15'
 aws_c_common:
-  - '0.14.2'
+  - '0.14.3'
 aws_c_compression:
   - '0.3.2'
 aws_c_event_stream:
@@ -251,17 +251,17 @@ aws_c_event_stream:
 aws_c_http:
   - '0.11.0'
 aws_c_io:
-  - '0.27.3'
+  - '0.27.5'
 aws_c_mqtt:
   - '0.16.0'
 aws_c_s3:
-  - '0.12.8'
+  - '0.13.1'
 aws_c_sdkutils:
   - '0.2.7'
 aws_checksums:
   - '0.2.10'
 aws_crt_cpp:
-  - '0.40.1'
+  - '0.42.3'
 aws_sdk_cpp:
   - 1.11.833
 azure_core_cpp:
