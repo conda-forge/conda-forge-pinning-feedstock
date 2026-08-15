@@ -77,10 +77,10 @@ cuda_compiler:
   - cuda-nvcc
 cuda_compiler_version:
   - None
-  - 12.9                       # [((linux and not ppc64le) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 12.9                       # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version_min:
-  - None                       # [osx or ppc64le]
-  - 12.9                       # [(linux and not ppc64le) or win64]
+  - None                       # [not ((linux and (x86_64 or aarch64)) or win64)]
+  - 12.9                       # [((linux and (x86_64 or aarch64)) or win64)]
 
 arm_variant_type:              # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - sbsa                       # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
