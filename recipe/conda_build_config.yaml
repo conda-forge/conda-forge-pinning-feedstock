@@ -314,6 +314,8 @@ collier:
   - '1.2'
 console_bridge:
   - 1.0
+cran_mirror:
+  - 'https://cloud.r-project.org'
 # match with libcudnn-dev
 cudnn:
   - '9'
