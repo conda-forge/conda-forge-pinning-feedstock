@@ -794,9 +794,9 @@ libx86emu:
 libxcb:
   - '1'
 libxml2:
-  - '2.14'
+  - '2.15'
 libxml2_devel:
-  - '2.14'
+  - '2.15'
 libxrootd_devel:
   - '6'
 libxsmm:
