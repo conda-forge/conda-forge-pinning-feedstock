@@ -10,6 +10,9 @@ conda-libmamba-solver
 constructor
 git
 jinja2
+libjpeg-turbo
+libpng
+libwebp
 mamba
 micromamba
 patch
