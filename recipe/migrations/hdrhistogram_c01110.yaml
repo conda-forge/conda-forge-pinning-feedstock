@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for hdrhistogram_c 0.11.10
+  kind: version
+  migration_number: 1
+hdrhistogram_c:
+- 0.11.10
+migrator_ts: 1782727155.7437067
