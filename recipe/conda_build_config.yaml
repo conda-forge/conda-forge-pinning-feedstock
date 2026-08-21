@@ -968,7 +968,7 @@ pulseaudio_client:
 pulseaudio_daemon:
   - '17.0'
 pybind11_abi:
-  - 4
+  - 11
 pythia8:
   - '8.312'
 python:
