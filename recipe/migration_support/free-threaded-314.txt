@@ -400,6 +400,7 @@ pyoxigraph
 pyppmd
 pyproj
 pyproject-fmt
+pyrage
 pyresample
 pyroaring
 pyromark
