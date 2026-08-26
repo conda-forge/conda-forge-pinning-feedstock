@@ -1,4 +1,6 @@
 anaconda-client
+cargo-auditable
+cargo-bundle-licenses
 clang
 clangxx
 cmake
