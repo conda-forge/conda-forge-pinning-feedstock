@@ -8,7 +8,6 @@ conda-build
 conda-forge-ci-setup
 conda-libmamba-solver
 constructor
-ffmpeg
 git
 jinja2
 libjpeg-turbo
