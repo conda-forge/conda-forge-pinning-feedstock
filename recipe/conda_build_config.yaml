@@ -187,6 +187,9 @@ zip_keys:
   -
     - root_base
     - root_cxx_standard
+  -
+    - clhep
+    - geant4
 
 # armv7l specifics because conda-build sets many things to centos 6
 # this can probably be removed when conda-build gets updated defaults
@@ -404,6 +407,8 @@ libgdal:
 libgdal_core:
   - '3.13'
 geant4:
+  - 10.7.4
+  - 11.3.2
   - 11.4.2
 geos:
   - 3.14.1
