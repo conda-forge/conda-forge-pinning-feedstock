@@ -1,9 +1,9 @@
-# this is intentionally sorted before the 3.13t migrator, because that determines
+# this is intentionally sorted before the 3.14t migrator, because that determines
 # the order of application of the migrators; otherwise we'd have to add values for
 # is_freethreading and is_abi3 keys here, since that migration extends the zip;
-migrator_ts: 1724712607
+migrator_ts: 1755739490
 __migrator:
-    commit_message: Rebuild for python 3.14
+    commit_message: Rebuild for python 3.15
     migration_number: 1
     operation: key_add
     primary_key: python
@@ -15,7 +15,9 @@ __migrator:
             - 3.12.* *_cpython
             - 3.13.* *_cp313
             - 3.13.* *_cp313t
-            - 3.14.* *_cp314  # new entry
+            - 3.14.* *_cp314
+            - 3.14.* *_cp314t
+            - 3.15.* *_cp315  # new entry
     paused: false
     longterm: true
     pr_limit: 5
@@ -27,15 +29,17 @@ __migrator:
         - pypy-meta
         - cross-python
         - python_abi
-        # Manually migrated (e.g. were blocked on missing dev dependencies)
-        - pyarrow
     exclude_pinned_pkgs: false
     ignored_deps_per_node:
         matplotlib:
             - pyqt
+    additional_zip_keys:
+        - channel_sources
 
 python:
-- 3.14.* *_cp314
+- 3.15.* *_cp315
 # additional entries to add for zip_keys
 is_python_min:
 - false
+channel_sources:
+- conda-forge/label/python_rc,conda-forge
