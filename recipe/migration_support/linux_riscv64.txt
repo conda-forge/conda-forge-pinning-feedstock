@@ -17,6 +17,7 @@ libjpeg-turbo
 libpng
 libwebp
 mamba
+maturin
 micromamba
 patch
 pip
