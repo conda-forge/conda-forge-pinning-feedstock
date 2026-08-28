@@ -1,4 +1,5 @@
 anaconda-client
+brotli-python
 cargo-auditable
 cargo-bundle-licenses
 clang
