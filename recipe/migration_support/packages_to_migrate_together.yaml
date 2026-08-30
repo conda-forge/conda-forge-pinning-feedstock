@@ -12,6 +12,10 @@ coin_or_cbc:
   - coin_or_cbc
   - coincbc
 
+dav1d:
+  - dav1d
+  - dav1d_devel
+
 libgdal_core:
   - gdal
   - libgdal

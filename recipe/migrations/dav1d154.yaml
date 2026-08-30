@@ -5,4 +5,6 @@ __migrator:
   migration_number: 1
 dav1d:
 - '1.5.4'
+dav1d_devel:
+- '1.5.4'
 migrator_ts: 1784845364
