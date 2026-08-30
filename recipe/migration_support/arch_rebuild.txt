@@ -756,6 +756,7 @@ pyload-ng
 pymatgen
 pymca
 pymol-open-source
+pymseed
 pymupdf
 pynacl
 pynisher
