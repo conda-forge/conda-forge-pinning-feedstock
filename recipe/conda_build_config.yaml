@@ -1131,6 +1131,10 @@ ucx:
   - '1.22'
 uhd:
   - 4.10.0
+unibilium:
+  # unibilium 2.1.4 corrects the malformed shared-library SONAME.
+  # https://github.com/neovim/unibilium/commit/e2a20519ae247f58cbf2ab763bb8f59ef2d6b2b9
+  - 2.1.4
 urdfdom:
   - '5.1'
 vc:                    # [win]
