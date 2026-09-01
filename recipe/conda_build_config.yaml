@@ -978,7 +978,7 @@ pybind11_abi:
 pythia8:
   - '8.312'
 python:
-  # win-arm64 on conda-forge supports only 3.14+
+  # conda-forge supports only 3.14+ for win-arm64 and linux-riscv64
   # part of a zip_keys: python, is_python_min
   - 3.11.* *_cpython   # [not ((win and arm64) or riscv64)]
   - 3.12.* *_cpython   # [not ((win and arm64) or riscv64)]
