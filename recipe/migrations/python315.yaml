@@ -18,8 +18,7 @@ __migrator:
             - 3.14.* *_cp314
             - 3.14.* *_cp314t
             - 3.15.* *_cp315  # new entry
-    # until https://github.com/conda-forge/conda-forge.github.io/pull/2925 at least
-    paused: true
+    paused: false
     longterm: true
     pr_limit: 5
     max_solver_attempts: 3  # this will make the bot retry "not solvable" stuff 12 times
