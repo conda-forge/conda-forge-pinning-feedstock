@@ -605,6 +605,7 @@ openmm
 openmotif
 openmpi
 openorbitaloptimizer
+opensees
 openscenegraph
 openslide
 openslide-python
