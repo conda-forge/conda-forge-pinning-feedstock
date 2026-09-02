@@ -606,6 +606,7 @@ openmotif
 openmpi
 openorbitaloptimizer
 openscenegraph
+opensees
 openslide
 openslide-python
 openssh
