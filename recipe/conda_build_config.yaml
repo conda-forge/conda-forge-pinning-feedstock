@@ -523,11 +523,11 @@ libblitz:
 libblst:
   - '0.3'
 libboost_devel:
-  - "1.88"
+  - "1.90"
 libboost_headers:
-  - "1.88"
+  - "1.90"
 libboost_python_devel:
-  - "1.88"
+  - "1.90"
 libbrotlicommon:
   - '1.2'
 libbrotlidec:
