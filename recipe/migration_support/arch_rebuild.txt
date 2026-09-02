@@ -1223,6 +1223,7 @@ shap
 shellcheck
 shrinkwrap
 silicon
+simsimd
 singularity
 sirius-ms
 sixs
@@ -1256,6 +1257,7 @@ stardist
 starship
 statsforecast
 statsmodels
+stringzilla
 su-exec
 subfinder
 suitesparse
