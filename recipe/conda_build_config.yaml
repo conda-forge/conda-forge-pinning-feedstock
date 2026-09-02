@@ -978,19 +978,18 @@ pybind11_abi:
 pythia8:
   - '8.312'
 python:
-  # win-arm64 on conda-forge supports only 3.14+
+  # conda-forge supports only 3.14+ for win-arm64 and linux-riscv64
   # part of a zip_keys: python, is_python_min
-  - 3.10.* *_cpython   # [not ((win and arm64) or riscv64)]
   - 3.11.* *_cpython   # [not ((win and arm64) or riscv64)]
   - 3.12.* *_cpython   # [not ((win and arm64) or riscv64)]
   - 3.13.* *_cp313     # [not ((win and arm64) or riscv64)]
-  - 3.14.* *_cp314     # [(win and arm64) or riscv64]
+  - 3.14.* *_cp314
 python_impl:
   - cpython
 python_min:
   # minimum supported python version per CFEP-25
   # bump to next minor version when we drop python versions
-  - '3.10'             # [not ((win and arm64) or riscv64)]
+  - '3.11'             # [not ((win and arm64) or riscv64)]
   - '3.14'             # [(win and arm64) or riscv64]
 is_freethreading:
   - false
