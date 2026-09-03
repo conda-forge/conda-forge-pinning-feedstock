@@ -38,6 +38,7 @@ __migrator:
     In addition to this migrator, the `arm-variant` package must be added to the build
     requirements of the recipe in order to constrain the CUDA compiler to the correct variant.
 
+    v0 recipes
     ```yaml
     # A fake selector may be needed for conda-build to pick up arm_variant_type as a variant
     # [arm_variant_type]
@@ -48,7 +49,7 @@ __migrator:
         - arm-variant * {{ arm_variant_type }}  # [linux and aarch64 and cuda_compiler_version != "None"]
     ```
 
-    For v1 recipes, recipes look as follows:
+    v1 recipes
     ```yaml
     build:
       variant:
