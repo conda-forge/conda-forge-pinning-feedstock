@@ -1,12 +1,12 @@
 __migrator:
   build_number: 1
   kind: version
-  commit_message: "Rebuild for libboost 1.88"
+  commit_message: "Rebuild for libboost 1.90"
   migration_number: 1
 libboost_devel:
-- "1.88"
+- "1.90"
 libboost_headers:
-- "1.88"
+- "1.90"
 libboost_python_devel:
-- "1.88"
-migrator_ts: 1753251695.3315456
+- "1.90"
+migrator_ts: 1776998221.848913

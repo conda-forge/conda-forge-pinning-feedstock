@@ -28,13 +28,6 @@ def setup_environment(ns):
             os.path.dirname(__file__), "miniforge3"
         )
 
-    # The default cache location might not be writable using docker on macOS.
-    if ns.config.startswith("linux") and platform.system() == "Darwin":
-        os.environ["CONDA_FORGE_DOCKER_RUN_ARGS"] = (
-            os.environ.get("CONDA_FORGE_DOCKER_RUN_ARGS", "")
-            + " -e RATTLER_CACHE_DIR=/tmp/rattler_cache"
-        )
-
 
 def run_docker_build(ns):
     script = ".scripts/run_docker_build.sh"
@@ -105,7 +98,10 @@ def main(args=None):
     p.add_argument(
         "--debug",
         action="store_true",
-        help="Setup debug environment using `conda debug`",
+        help=(
+            "Setup debug environment using `conda debug` "
+            "(or `rattler-build debug` for rattler-build recipes)"
+        ),
     )
     p.add_argument("--output-id", help="If running debug, specify the output to setup.")
 

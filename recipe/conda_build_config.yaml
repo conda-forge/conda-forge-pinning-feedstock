@@ -4,9 +4,9 @@ c_compiler:
   - vs2022                     # [win]
 # Please remember to update gcc_compiler_version & clang_compiler_version too.
 c_compiler_version:            # [unix]
-  - 14                         # [linux]
-  - 19                         # [osx]
-  - 14                         # [linux and not ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 15                         # [linux]
+  - 21                         # [osx]
+  - 14                         # [linux and (x86_64 or aarch64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 c_stdlib:
   - sysroot                    # [linux]
   - macosx_deployment_target   # [osx]
@@ -16,8 +16,9 @@ m2w64_c_stdlib:                # [win]
 m2w64_c_stdlib_version:        # [win]
   - 12                         # [win]
 c_stdlib_version:              # [unix]
-  - 2.17                       # [linux]
-  - 2.17                       # [linux and not ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 2.17                       # [linux and not riscv64]
+  - 2.39                       # [linux and riscv64]
+  - 2.17                       # [linux and (x86_64 or aarch64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 11.0                       # [osx]
 cxx_compiler:
   - gxx                        # [linux]
@@ -25,65 +26,62 @@ cxx_compiler:
   - vs2022                     # [win]
 # Please remember to update gxx_compiler_version & clangxx_compiler_version too.
 cxx_compiler_version:          # [unix]
-  - 14                         # [linux]
-  - 19                         # [osx]
-  - 14                         # [linux and not ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 15                         # [linux]
+  - 21                         # [osx]
+  - 14                         # [linux and (x86_64 or aarch64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 llvm_openmp:                   # [osx]
-  - 19                         # [osx]
-fortran_compiler:              # [unix or win64]
-  - gfortran                   # [linux64 or (osx and x86_64)]
-  - gfortran                   # [aarch64 or ppc64le or armv7l or s390x]
-  - flang                      # [win64]
-fortran_compiler_version:      # [unix or win64]
-  - 14                         # [linux]
-  - 14                         # [osx]
+  - 21                         # [osx]
+fortran_compiler:              # [unix or win]
+  - gfortran                   # [unix]
+  - flang                      # [win]
+fortran_compiler_version:      # [unix or win]
+  - 15                         # [unix]
   - 5                          # [win64]
-  - 14                         # [linux and not ppc64le and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 22                         # [win and arm64]
+  - 14                         # [linux and (x86_64 or aarch64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 m2w64_c_compiler:                 # [win]
   - gcc                           # [win]
 m2w64_c_compiler_version:         # [win]
-  - 14                            # [win]
+  - 15                            # [win]
 m2w64_cxx_compiler:               # [win]
   - gxx                           # [win]
 m2w64_cxx_compiler_version:       # [win]
-  - 14                            # [win]
+  - 15                            # [win]
 m2w64_fortran_compiler:           # [win]
   - gfortran                      # [win]
 m2w64_fortran_compiler_version:   # [win]
-  - 14                            # [win]
+  - 15                            # [win]
 
 # enable `{{ compiler("gcc") }}`, `{{ compiler("clang") }}` & co.
 gcc_compiler:
   - gcc
 gcc_compiler_version:
-  - 14  # [not osx]
-  - 15  # [osx]
+  - 15
 gxx_compiler:
   - gxx
 gxx_compiler_version:
-  - 14  # [not osx]
-  - 15  # [osx]
+  - 15
 clang_compiler:
   - clang     # [unix]
   # stay compatible with MSVC
   - clang-cl  # [win]
 clang_compiler_version:
-  - 19
+  - 21
 clangxx_compiler:
   - clangxx   # [unix]
   # stay compatible with MSVC
   - clang-cl  # [win]
 clangxx_compiler_version:
-  - 19
+  - 21
 
 cuda_compiler:
   - cuda-nvcc
 cuda_compiler_version:
   - None
-  - 12.9                       # [((linux and not ppc64le) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 12.9                       # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 cuda_compiler_version_min:
-  - None                       # [osx or ppc64le]
-  - 12.9                       # [(linux and not ppc64le) or win64]
+  - None                       # [not ((linux and (x86_64 or aarch64)) or win64)]
+  - 12.9                       # [((linux and (x86_64 or aarch64)) or win64)]
 
 arm_variant_type:              # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - sbsa                       # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
@@ -132,12 +130,11 @@ rust_compiler:
 # this is used to form our target triple on osx, and nothing else. After
 # we bumped the minimum macOS version to 10.13, this was left unchanged,
 # since it is not essential, and long-term we'd like to remove the version.
+# see https://github.com/conda-forge/conda-forge.github.io/issues/2695
 macos_machine:                 # [osx]
   - x86_64-apple-darwin13.4.0  # [osx and x86_64]
   - arm64-apple-darwin20.0.0   # [osx and arm64]
-MACOSX_DEPLOYMENT_TARGET:      # [osx]
-  - 11.0                       # [osx and arm64]
-  - 10.13                      # [osx and x86_64]
+
 VERBOSE_AT:
   - V=1
 VERBOSE_CM:
@@ -154,24 +151,24 @@ cdt_name:  # [linux]
 
 docker_image:                                       # [os.environ.get("BUILD_PLATFORM", "").startswith("linux-")]
   # builds on CentOS 7
-  - quay.io/condaforge/linux-anvil-x86_64:cos7      # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "cos7"]
-  - quay.io/condaforge/linux-anvil-aarch64:cos7     # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "cos7"]
-  - quay.io/condaforge/linux-anvil-ppc64le:cos7     # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "cos7"]
+  - quay.io/condaforge/linux-anvil-x86_64:cos7      # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "cos7"]
+  - quay.io/condaforge/linux-anvil-aarch64:cos7     # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "cos7"]
+  - quay.io/condaforge/linux-anvil-ppc64le:cos7     # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "cos7"]
 
   # builds on AlmaLinux 8
-  - quay.io/condaforge/linux-anvil-x86_64:alma8     # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") in ("alma8", "ubi8")]
-  - quay.io/condaforge/linux-anvil-aarch64:alma8    # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") in ("alma8", "ubi8")]
-  - quay.io/condaforge/linux-anvil-ppc64le:alma8    # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") in ("alma8", "ubi8")]
+  - quay.io/condaforge/linux-anvil-x86_64:alma8     # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") in ("alma8", "ubi8")]
+  - quay.io/condaforge/linux-anvil-aarch64:alma8    # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") in ("alma8", "ubi8")]
+  - quay.io/condaforge/linux-anvil-ppc64le:alma8    # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") in ("alma8", "ubi8")]
 
   # builds on AlmaLinux 9
-  - quay.io/condaforge/linux-anvil-x86_64:alma9     # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma9"]
-  - quay.io/condaforge/linux-anvil-aarch64:alma9    # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma9"]
-  - quay.io/condaforge/linux-anvil-ppc64le:alma9    # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma9"]
+  - quay.io/condaforge/linux-anvil-x86_64:alma9     # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "alma9"]
+  - quay.io/condaforge/linux-anvil-aarch64:alma9    # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "alma9"]
+  - quay.io/condaforge/linux-anvil-ppc64le:alma9    # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "alma9"]
 
   # builds on AlmaLinux 10
-  - quay.io/condaforge/linux-anvil-x86_64:alma10    # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma10"]
-  - quay.io/condaforge/linux-anvil-aarch64:alma10   # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma10"]
-  - quay.io/condaforge/linux-anvil-ppc64le:alma10   # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma9") == "alma10"]
+  - quay.io/condaforge/linux-anvil-x86_64:alma10    # [os.environ.get("BUILD_PLATFORM") == "linux-64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "alma10"]
+  - quay.io/condaforge/linux-anvil-aarch64:alma10   # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "alma10"]
+  - quay.io/condaforge/linux-anvil-ppc64le:alma10   # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "alma10"]
 
 zip_keys:
   -                             # [unix]
@@ -222,79 +219,89 @@ blas_impl:
   - blis         # [x86 or x86_64]
 
 ace:
-  - 8.0.5
+  - 8.0.6
 alsa_lib:
   - '1.2'
 antic:
   - 0.2
 aom:
-  - '3.9'
+  - '3.14'
 arb:
   - '2.23'
 arpack:
   - '3.9'
 assimp:
-  - 6.0.3
+  - 6
 attr:
   - 2.5
 aws_c_auth:
-  - '0.9.6'
+  - '0.10.4'
 aws_c_cal:
-  - '0.9.13'
+  - '0.9.15'
 aws_c_common:
-  - '0.12.6'
+  - '0.14.3'
 aws_c_compression:
   - '0.3.2'
 aws_c_event_stream:
-  - '0.5.9'
+  - '0.7.1'
 aws_c_http:
-  - '0.10.10'
+  - '0.11.0'
 aws_c_io:
-  - '0.26.1'
+  - '0.27.5'
 aws_c_mqtt:
-  - '0.14.0'
+  - '0.16.0'
 aws_c_s3:
-  - '0.11.5'
+  - '0.13.1'
 aws_c_sdkutils:
-  - 0.2.4
+  - '0.2.7'
 aws_checksums:
   - '0.2.10'
 aws_crt_cpp:
-  - 0.37.3
+  - '0.42.3'
 aws_sdk_cpp:
-  - 1.11.747
+  - 1.11.833
 azure_core_cpp:
-  - 1.16.2
+  - 1.16.3
 azure_identity_cpp:
   - 1.13.3
 azure_storage_blobs_cpp:
-  - 12.16.0
+  - 12.18.0
 azure_storage_common_cpp:
-  - 12.12.0
-azure_storage_files_datalake_cpp:
   - 12.14.0
-azure_storage_files_shares_cpp:
+azure_storage_files_datalake_cpp:
   - 12.16.0
+azure_storage_files_shares_cpp:
+  - 12.18.0
 azure_storage_queues_cpp:
-  - 12.6.0
+  - 12.7.0
 brotli:
   - '1.2'
 bullet_cpp:
   - 3.25
+bxdecay0:
+  - '1.2.0'
 bzip2:
   - 1
 c_ares:
   - 1
 c_blosc2:
-  - '2.23'
+  - '3.3'
 cairo:
   - 1
+calchep:
+  - '3.8'
 capnproto:
-  - 1.3.0
+  - 1.5.0
+casadi:
+  - 3.7
 ccr:
   - 1.3
 cfitsio:
-  - 4.6.3
+  - 4.6.4
+clhep:
+  - 2.4.4.0
+  - 2.4.7.1
+  - 2.4.7.2
 cmocka:
   - 2.0.1
 coin_or_cbc:
@@ -309,8 +316,12 @@ coin_or_osi:
   - 0.108
 coin_or_utils:
   - 2.11
+collier:
+  - '1.2'
 console_bridge:
   - 1.0
+cran_mirror:
+  - 'https://cloud.r-project.org'
 # match with libcudnn-dev
 cudnn:
   - '9'
@@ -319,8 +330,10 @@ cutensor:
 curl:
   - 8
 dartsim_cpp:
-  - '6.16'
+  - '6.19'
 dav1d:
+  - 1.2.1
+dav1d_devel:
   - 1.2.1
 davix:
   - '0.8'
@@ -328,18 +341,30 @@ dbus:
   - 1
 dcap:
   - 2.47
+delphes:
+  - '3.5.1'
 eclib:
   - '20250627'
 eigen_abi_devel:
-  - '3.4.0'
+  - '5.0.1'
 elfutils:
   - '0.194'
+emela:
+  - '1.0'
 exiv2:
   - '0.28'
 expat:
   - 2
+fastbdt:
+  - '5.6'
+fastjet_contrib:
+  - '1'
+fastjet_cxx:
+  - '3.5'
+feynhiggs:
+  - '2.19'
 ffmpeg:
-  - '8'
+  - '9'
 fftw:
   - 3
 flann:
@@ -347,11 +372,13 @@ flann:
 flatbuffers:
   - 25.9.23
 fmt:
-  - '12.0'
+  - '12.1'
 fontconfig:
   - 2
 freetype:
   - 2
+gaudi:
+  - '40.4'
 gct:
   - 6.2.1705709074
 gf2x:
@@ -371,11 +398,13 @@ gstreamer:
 gst_plugins_base:
   - '1.26'
 gdal:
-  - '3.12'
+  - '3.13'
 libgdal:
-  - '3.12'
+  - '3.13'
 libgdal_core:
-  - '3.12'
+  - '3.13'
+geant4:
+  - 11.4.2
 geos:
   - 3.14.1
 geotiff:
@@ -383,11 +412,11 @@ geotiff:
 gfal2:
   - '2.23'
 gflags:
-  - 2.2
+  - '2.3'
 giflib:
   - 5.2
 givaro:
-  - '4.2.1'
+  - 4.2.2
 glew:
   - '2.3'
 glib:
@@ -396,14 +425,18 @@ glog:
   - '0.7'
 glpk:
   - '5.0'
+gm2calc:
+  - '2.3'
 gmp:
   - 6
 google_cloud_cpp:
-  - '2.39'
+  - '3.8'
 google_cloud_cpp_common:
   - 0.25.0
 googleapis_cpp:
   - '0.10'
+gpgme:
+  - '1.24'
 graphviz:
   - '14'
 # Harfbuzz guarantees total ABI compatibiblity
@@ -423,8 +456,10 @@ hdf4:
   - 4.2.15
 hdf5:
   - 1.14.6
+hdrhistogram_c:
+  - 0.11.9
 icu:
-  - '75'
+  - '78'
 idyntree:
   - '15'
 imath:
@@ -443,22 +478,26 @@ lcms2:
   - 2
 lerc:
   - '4'
+lhapdf:
+  - '6.5'
 libjpeg_turbo:
   - '3'
+libjxl:
+  - '0.12'
 libev:
   - 4.33
 json_c:
   - '0.18'
 jsoncpp:
-  - 1.9.6
+  - 1.9.8
 kealib:
-  - '1.6'
+  - '2.0'
 krb5:
   - '1.22'
 ldas_tools_framecpp:
   - '2.9'
 libabseil:
-  - 20250512
+  - 20260526
 libaec:
   - '1'
 libamd:
@@ -466,15 +505,17 @@ libamd:
 libarchive:
   - '3.8'
 libarrow:
+  - '25.0'
+  - '24.0'
   - '23.0'
   - '22.0'
-  - '21.0'
-  - '20.0'
 libarrow_all:
+  - '25.0'
+  - '24.0'
   - '23.0'
   - '22.0'
-  - '21.0'
-  - '20.0'
+libattr:
+  - 2.6
 libavif:
   - 1
 libblitz:
@@ -482,11 +523,11 @@ libblitz:
 libblst:
   - '0.3'
 libboost_devel:
-  - '1.86'
+  - "1.88"
 libboost_headers:
-  - '1.86'
+  - "1.88"
 libboost_python_devel:
-  - '1.86'
+  - "1.88"
 libbrotlicommon:
   - '1.2'
 libbrotlidec:
@@ -498,7 +539,7 @@ libbtf:
 libcamd:
   - '3'
 libcap:
-  - '2.77'
+  - '2.78'
 libcint:
   - '6.1'
 libccolamd:
@@ -520,6 +561,8 @@ libdap4:
   - 3.20.6
 libdeflate:
   - '1.25'
+libdovi:
+  - '3'
 libduckdb_devel:
   - '1'
 libeantic:
@@ -535,7 +578,7 @@ libflac:
 libflatsurf:
   - 3
 libflint:
-  - '3.3'
+  - '3.5'
 libframel:
   - '8.41'
 # hmaarrfk - Aug 30, 2025
@@ -549,55 +592,55 @@ libfuse3:
 libgit2:
   - '1.9'
 libgoogle_cloud:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_all_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_aiplatform_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_automl_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_bigquery_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_bigtable_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_compute_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_dialogflow_cx_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_dialogflow_es_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_discoveryengine_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_dlp_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_iam_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_oauth2_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_policytroubleshooter_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_pubsub_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_spanner_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_speech_devel:
-  - '2.39'
+  - '3.8'
 libgoogle_cloud_storage_devel:
-  - '2.39'
+  - '3.8'
 libgrpc:
-  - "1.73"
+  - "1.82"
 libgsasl:
   - '2'
 libheif:
-  - 1.19
+  - '1.23'
 libhugetlbfs:
   - 2
 libhwloc:
-  - 2.12.2
+  - 2.13.0
 libhwy:
-  - '1.3'
+  - '1.4'
 libiconv:
   - 1
 libidn2:
@@ -619,11 +662,11 @@ libiio:
 libldl:
   - '3'
 libmagma:
-  - '2.9'
+  - '2.10.0'
 libmagma_devel:
-  - '2.9'
+  - '2.10.0'
 libmagma_sparse:
-  - '2.9'
+  - '2.10.0'
 libmed:
   - '4.2'
 libmatio:
@@ -633,45 +676,61 @@ libmatio_cpp:
 libmicrohttpd:
   - '1.0'
 libnetcdf:
-  - 4.9.3
+  - 4.10.1
 libntlm:
   - 1
 libode:
   - 0.16.6
 libogg:
   - 1.3
+libopencolorio:
+  - '2.5'
+libopenimageio:
+  - '3.1'
 libopencv:
-  - 4.12.0
+  - 5.0.0
 libopentelemetry_cpp:
-  - '1.21'
+  - '1.27'
 libosqp:
   - 1.0.0
+libopenvino:
+  - 2026.3.1
 libopenvino_dev:
-  - 2025.4.1
+  - 2026.3.1
 libparu:
   - '1'
 libpcap:
   - '1.10'
+libplacebo:
+  - '7.360'
 libpnetcdf:
-  - 1.14.1
+  - 1.15.0
 libpng:
   - 1.6
 libprotobuf:
-  - 6.31.1
+  - 7.35.1
 libpq:
   - '18'
+libpsl:
+  - '0.23'
 libpulsar:
-  - 4.0.1
+  - 4.2.0
+libraqm:
+  - '0.11'
+libraqm_devel:
+  - '0.11'
 libraw:
-  - '0.21'
+  - '0.22'
 librbio:
   - '4'
 librdkafka:
-  - '2.12'
+  - '2.15'
+librdkit:
+  - 2026.03.2
 librealsense:
-  - '2.56'
+  - '2.58'
 librerun_sdk:
-  - 0.29.0
+  - 0.35.0
 librsvg:
   - 2
 libsecret:
@@ -681,7 +740,7 @@ libsentencepiece:
 libsndfile:
   - '1.2'
 libsodium:
-  - 1.0.21
+  - 1.0.22
 libsoup:
   - 3
 libspatialindex:
@@ -692,12 +751,14 @@ libspqr:
   - '4'
 libsuitesparseconfig:
   - '7'
+libsuperiso:
+  - '5.0'
 libssh:
   - '0.12'
 libssh2:
   - 1
 libsvm:
-  - '335'
+  - '337'
 libsqlite:
   - 3
 libsystemd:
@@ -706,12 +767,14 @@ libtensorflow:
   - "2.16"
 libtensorflow_cc:
   - "2.16"
+libtheora:
+  - '1.2'
 libthrift:
   - 0.22.0
 libtiff:
   - '4.7'
 libtorch:
-  - '2.9'
+  - '2.12'
 libudev:
   - '257'
 libumfpack:
@@ -727,7 +790,7 @@ libvigra:
 libvips:
   - 8
 libvpl:
-  - '2.15'
+  - '2.16'
 libwebp:
   - 1
 libwebp_base:
@@ -737,11 +800,13 @@ libx86emu:
 libxcb:
   - '1'
 libxml2:
-  - 2.13
+  - '2.15'
 libxml2_devel:
-  - 2.13
+  - '2.15'
+libxrootd_devel:
+  - '6'
 libxsmm:
-  - 1
+  - '2'
 liburing:
   - 2.14
 libuuid:
@@ -751,11 +816,15 @@ libyarp:
 libzip:
   - 1
 lmdb:
-  - 0.9.29
+  - "0.9"
 log4cxx:
-  - 1.2.0
+  - 1.8.0
 lol_html:
-  - 2.7.2
+  - 3.0.1
+ls_hpack:
+  - 2.3.5
+lwtnn:
+  - '2.14'
 lz4_c:
   - '1.10'
 lzo:
@@ -765,19 +834,21 @@ magma:
 metis:
   - 5.1.0
 mimalloc:
-  - 3.2.8
+  - 3.4.1
 mkl:
-  - '2025'  # [not osx]
+  - '2026'  # [not osx]
   - '2023'  # [osx]
 mkl_devel:
-  - '2025'  # [not osx]
+  - '2026'  # [not osx]
   - '2023'  # [osx]
 mpg123:
-  - '1.32'
+  - '1.33'
 mpich:
   - 4
 mpfr:
   - 4
+mpfun90:
+  - '2026'
 mppp:
   - '2.0'
 msgpack_c:
@@ -789,7 +860,7 @@ mumps_mpi:
 mumps_seq:
   - 5.8.2
 mysql_devel:
-  - '9.6'
+  - '9.7'
 nccl:
   - 2
 ncurses:
@@ -800,15 +871,17 @@ netcdf_fortran:
   - '4.6'
 nettle:
   - '3.10'
+ninja_hep_ph:
+  - '1.2'
 nodejs:
+  - '26'
   - '24'
-  - '22'
 nss:
   - 3
 nspr:
   - 4
 nlopt:
-  - '2.10'
+  - '2.11'
 ntl:
   - 11.6.0
 # we build using the latest minor version; numpy has generous backwards compatibility
@@ -819,7 +892,9 @@ numpy:
 obake_devel:
   - '0.9'
 occt:
-  - 7.9.1
+  - 8.0.0
+oneloop:
+  - '3.7'
 openblas:
   - 0.3.*
 openexr:
@@ -829,9 +904,9 @@ openh264:
 openjpeg:
   - '2'
 openjph:
-  - '0.26'
+  - '0.31'
 openmpi:
-  - 4
+  - '5'
 openslide:
   - 4
 # although openssl follows SemVer for ABI/API stability, we stay on
@@ -839,7 +914,7 @@ openslide:
 openssl:
   - '3.5'
 orc:
-  - 2.2.2
+  - 2.3.1
 osqp_eigen:
   - '0.11'
 pango:
@@ -851,21 +926,21 @@ pcl:
 perl:
   - 5.32.1
 petsc:
-  - '3.24'
+  - '3.25'
 petsc4py:
-  - '3.24'
+  - '3.25'
 plutovg:
-  - 1.3.2
+  - 1.3.3
 plutosvg:
-  - 0.0.7
+  - 0.0.8
 pugixml:
   - '1.15'
 slepc:
-  - '3.24'
+  - '3.25'
 slepc4py:
-  - '3.24'
+  - '3.25'
 svt_av1:
-  - 4.0.1
+  - 4.2.0
 p11_kit:
   - '0.26'
 pcre:
@@ -881,9 +956,9 @@ libpdal_core:
 pixman:
   - 0
 poco:
-  - 1.15.0
+  - 1.15.3
 poppler:
-  - '25.11'
+  - '26.07'
 portaudio:
   - '19.7'
 postgresql:
@@ -891,7 +966,7 @@ postgresql:
 postgresql_plpython:
   - '18'
 proj:
-  - '9.7'
+  - '9.8'
 pulseaudio:
   - '17.0'
 pulseaudio_client:
@@ -900,39 +975,42 @@ pulseaudio_daemon:
   - '17.0'
 pybind11_abi:
   - 4
+pythia8:
+  - '8.312'
 python:
-  # win-arm64 on conda-forge supports only 3.14+
+  # conda-forge supports only 3.14+ for win-arm64 and linux-riscv64
   # part of a zip_keys: python, is_python_min
-  - 3.10.* *_cpython   # [not (win and arm64)]
-  - 3.11.* *_cpython   # [not (win and arm64)]
-  - 3.12.* *_cpython   # [not (win and arm64)]
-  - 3.13.* *_cp313     # [not (win and arm64)]
-  - 3.14.* *_cp314     # [win and arm64]
+  - 3.11.* *_cpython   # [not ((win and arm64) or riscv64)]
+  - 3.12.* *_cpython   # [not ((win and arm64) or riscv64)]
+  - 3.13.* *_cp313     # [not ((win and arm64) or riscv64)]
+  - 3.14.* *_cp314
 python_impl:
   - cpython
 python_min:
   # minimum supported python version per CFEP-25
   # bump to next minor version when we drop python versions
-  - '3.10'             # [not (win and arm64)]
-  - '3.14'             # [win and arm64]
+  - '3.11'             # [not ((win and arm64) or riscv64)]
+  - '3.14'             # [(win and arm64) or riscv64]
 is_freethreading:
   - false
 is_python_min:
   # part of a zip_keys: python, is_python_min
   - true
-  - false              # [not (win and arm64)]
-  - false              # [not (win and arm64)]
-  - false              # [not (win and arm64)]
+  - false              # [not ((win and arm64) or riscv64)]
+  - false              # [not ((win and arm64) or riscv64)]
+  - false              # [not ((win and arm64) or riscv64)]
 is_abi3:
   - true
 pytorch:
-  - '2.9'
+  - '2.12'
 pyqt:
   - 5.15
 pyqtwebengine:
   - 5.15
 pyqtchart:
   - 5.15
+qcdloop:
+  - '2.1'
 qhull:
   - 2020.2
 qpdf:
@@ -942,25 +1020,33 @@ qt:
 qt_main:
   - 5.15
 qt6_main:
-  - 6.9
+  - '6'
 qtkeychain:
-  - '0.15'
+  - '0.17'
 rav1e:
-  - '0.7'
+  - '0.8'
 rdma_core:
-  - '61'
+  - '63'
 re2:
-  - 2025.08.12
+  - 2025.11.05
 readline:
   - "8"
+rivet:
+  - '4.1'
 rocksdb:
-  - '10.9'
+  - '11.0'
 root_base:
-  - 6.34.10
-  - 6.36.04
+  - 6.36.10
+  - 6.38.4
+  - 6.38.4
+  - 6.40.2
+  - 6.40.2
 root_cxx_standard:
   - 20
   - 20
+  - 23
+  - 20
+  - 23
 r_base:
   - 4.4
   - 4.5
@@ -975,9 +1061,9 @@ ptscotch:
 s2geography:
   - 0.1.2
 s2geometry:
-  - 0.11.1
+  - '0.14'
 s2n:
-  - '1.7.0'
+  - 1.7.6
 sdl2:
   - '2'
 sdl2_image:
@@ -988,16 +1074,24 @@ sdl2_net:
   - '2'
 sdl2_ttf:
   - '2'
+shaderc:
+  - '2026.3'
+sherpa:
+  - '3.0'
 singular:
   - 4.4.1
+siscone:
+  - '3.1'
 snappy:
   - 1.2
 soapysdr:
   - '0.8'
+softsusy:
+  - '4.1'
 sox:
   - 14.4.2
 spdlog:
-  - '1.16'
+  - '1.17'
 spirv_tools:
   - '2026'
 sqlite:
@@ -1010,14 +1104,16 @@ suitesparse:
   - '7'
 suitesparse_mongoose:
   - '3'
+sundials:
+  - '7.8'
 superlu_dist:
   - '9'
 swig_abi:
   - '5'
 tbb:
-  - '2022'
+  - '2023'
 tbb_devel:
-  - '2022'
+  - '2023'
 tensorflow:
   - "2.16"
 thrift_cpp:
@@ -1031,27 +1127,31 @@ tiledb:
 ucc:
   - 1
 ucx:
-  - '1.20'
+  - '1.22'
 uhd:
-  - 4.9.0
+  - 4.10.0
 urdfdom:
-  - '4.0'
+  - '5.1'
 vc:                    # [win]
   - 14                 # [win]
+vgm:
+  - '5.4'
 vigra:
   - '1.12'
 vlfeat:
   - 0.9.21
+vmc:
+  - '2.2'
 volk:
-  - '3.2'
+  - '3.3'
 vtk:
-  - 9.5.1
+  - 9.6.2
 vtk_base:
-  - 9.5.1
+  - 9.6.2
 wcslib:
   - '8'
 wxwidgets:
-  - 3.3.1
+  - 3.3.3
 x264:
   - '1!164.*'
 x265:
@@ -1059,11 +1159,13 @@ x265:
 xerces_c:
   - '3.3'
 xrootd:
-  - '5'
+  - '6'
 xxhash:
   - 0.8.3
 xz:
   - 5
+yoda:
+  - '2.1'
 zeromq:
   - '4.3.5'
 zfp:

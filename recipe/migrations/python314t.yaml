@@ -24,6 +24,8 @@ __migrator:
         - pypy-meta
         - cross-python
         - python_abi
+        - matplotlib
+        - pyside2
     exclude_pinned_pkgs: false
     # if feedstock already has 3.13t migrator this is redundant, but harmless
     additional_zip_keys:
@@ -34,6 +36,8 @@ __migrator:
     ignored_deps_per_node:
         matplotlib:
             - pyqt
+            - pyside6
+            - pyside2
         pyarrow:
             # optional test dependencies
             - numba
@@ -52,3 +56,7 @@ is_python_min:
 - false
 is_abi3:
 - false
+# due to the order of migrations and their additional_zip_keys,
+# we need this here as long as 3.15 is not yet GA
+channel_sources:
+- conda-forge

@@ -1,8 +1,8 @@
 import glob
 import os
-from pathlib import Path
 import subprocess
 import tempfile
+from pathlib import Path
 
 import pytest
 import yaml
@@ -84,7 +84,7 @@ def test_timestamps_against_main():
             new_files = set()
             for filename in all_migrations:
                 if os.path.basename(filename) not in current_migrations:
-                    new_files.aadd(filename)
+                    new_files.add(filename)
         else:
             # use main from feedstock checkout in the build
             # so diff of files is accurate even if upstream main is not
@@ -128,9 +128,6 @@ def test_timestamps_against_main():
                     )
 
         for filename in new_files:
-            if filename.endswith(".txt"):
-                # skip filter lists for special migrations
-                continue
             with open(filename, "r", encoding="utf-8") as f:
                 data = yaml.load(f, Loader=yaml.SafeLoader)
                 print(

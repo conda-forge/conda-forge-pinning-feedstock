@@ -1,6 +1,7 @@
 abacus
 abinit
 abseil-cpp
+adjfind
 adrt
 age
 aioeasywebdav
@@ -51,6 +52,7 @@ bilby.cython
 binaryen
 bindensity
 binsider
+bioimage-cpp
 biom-format
 bipedal-locomotion-framework
 bitshuffle
@@ -87,6 +89,7 @@ cds-crtools
 celery
 cern-sso-cli
 charls
+chrony
 chrpath
 ciso
 clangdev
@@ -204,6 +207,7 @@ djvulibre
 dm-tree
 docker-buildx
 docker-cli
+dpct-meta
 dtc
 dukpy
 dust
@@ -223,6 +227,7 @@ esmpy
 eza
 f2c
 fa2
+fairlogger
 faiss-split
 fancycompleter
 fast-histogram
@@ -246,6 +251,9 @@ flash-attn-layer-norm
 flask
 flit
 flock
+flux
+flux-mirror
+flux-schema
 fonttools
 forestci
 forte2
@@ -272,6 +280,7 @@ git-cliff
 glimpse
 glm
 glum
+gmime
 gmsh
 gmt
 gnss-sdr
@@ -306,6 +315,7 @@ gstlal-inspiral
 gstools
 gunicorn
 guppy3
+gwframe
 gymnasium
 gz-launch
 gzip
@@ -372,8 +382,10 @@ kartothek
 kdepy
 kepderiv
 keyring
+khiops-binaries
 kim-api
 klfitter
+kornia-rs
 krb5
 ksops
 labelimg
@@ -409,6 +421,7 @@ libcap
 libcint
 libcublas
 libcublasmp
+libcuest
 libcufft
 libcufile
 libcugraph
@@ -439,6 +452,7 @@ libnvjitlink
 libnvjpeg
 libnvjpeg2k-split
 libnvshmem
+libobjcryst
 libopus
 libpnetcdf
 libqdldl
@@ -498,8 +512,8 @@ menuinst
 metaphone
 metplus
 micromamba
-minijinja
 mini-racer
+minijinja
 mitmproxy-rs
 mlip
 mne-lsl
@@ -514,6 +528,7 @@ mrchem
 mrcpp
 msgspec
 msprime
+mu
 mujoco
 muspinsim
 myproxy
@@ -547,6 +562,8 @@ nputop
 nsight-compute
 nsync
 numba
+numba-cuda
+numba-cuda-mlir
 numcodecs
 numexpr
 numpy
@@ -589,9 +606,11 @@ openmotif
 openmpi
 openorbitaloptimizer
 openscenegraph
+opensees
 openslide
 openslide-python
 openssh
+opentrustregion
 openusd
 optuna
 or-tools
@@ -661,6 +680,7 @@ pexsi
 pgure-svt
 phantomjs
 phonopy
+phonors
 photutils
 php
 pickle5
@@ -694,6 +714,7 @@ py-spy
 py2bit
 py3c
 py_rattler
+pyafv
 pyarrow
 pybamm
 pybase64
@@ -739,6 +760,7 @@ pymol-open-source
 pymupdf
 pynacl
 pynisher
+pyobjcryst
 pyogrio
 pyomo
 pyopencl
@@ -747,6 +769,7 @@ pypdf
 pyprind
 pypy2.7
 pypy3.6
+pyqt6
 pyrage
 pyrepl
 pyrfr
@@ -765,8 +788,8 @@ pytables
 pytensor
 pytensor-base
 pytensor-suite
-pytest-codspeed
 pytest-benchmark
+pytest-codspeed
 pythia8
 python-annoy
 python-blosc
@@ -1152,6 +1175,7 @@ ray-packages
 rclone
 rdma-core
 rectangle-packer
+remage
 reproc
 rerun-sdk
 resdk
@@ -1198,6 +1222,8 @@ sfml
 shap
 shellcheck
 shrinkwrap
+silicon
+simsimd
 singularity
 sirius-ms
 sixs
@@ -1231,6 +1257,7 @@ stardist
 starship
 statsforecast
 statsmodels
+stringzilla
 su-exec
 subfinder
 suitesparse
@@ -1247,13 +1274,13 @@ tango-database
 tango-starter
 tango-test
 taplo
-tardigrade_error_tools
-tardigrade_vector_tools
 tardigrade_abaqus_tools
 tardigrade_constitutive_tools
+tardigrade_error_tools
+tardigrade_micromorphic_tools
 tardigrade_solver_tools
 tardigrade_stress_tools
-tardigrade_micromorphic_tools
+tardigrade_vector_tools
 tclap
 tectonic
 teensy_loader_cli
@@ -1282,8 +1309,11 @@ tqdm
 traits
 treelite
 trexio
+trzsz
 tskit
 tsl_robin_map
+tssh
+tsshd
 tsv-utils
 turbodbc
 typing
@@ -1319,8 +1349,10 @@ vowpalwabbit
 vtk
 vulkan-loader
 wabt
+wasmtime-py
 watchfiles
 web3
+wgrib
 wgrib2
 wordcloud
 wrf-python
@@ -1372,6 +1404,7 @@ yappi
 yarp
 yoda
 yt
+z5py
 zaber-motion
 zchunk
 zenoh-cpp

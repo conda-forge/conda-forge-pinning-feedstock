@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libsodium 1.0.21
-  kind: version
-  migration_number: 1
-migrator_ts: 1772115589.3913555
-libsodium:
-- '1.0.21'

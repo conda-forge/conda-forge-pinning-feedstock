@@ -12,6 +12,10 @@ coin_or_cbc:
   - coin_or_cbc
   - coincbc
 
+dav1d:
+  - dav1d
+  - dav1d_devel
+
 libgdal_core:
   - gdal
   - libgdal
@@ -56,6 +60,10 @@ libgoogle_cloud:
   - libgoogle_cloud_speech_devel
   - libgoogle_cloud_storage_devel
 
+libopenvino:
+  - libopenvino
+  - libopenvino_dev
+
 libpdal_core:
   - pdal
   - libpdal
@@ -65,6 +73,10 @@ libpq:
   - libpq
   - postgresql
   - postgresql_plpython
+
+libraqm:
+  - libraqm
+  - libraqm_devel
 
 libscotch:
   - libscotch
@@ -119,3 +131,7 @@ sqlite:
 vtk:
   - vtk_base
   - vtk
+
+attr:
+  - attr
+  - libattr

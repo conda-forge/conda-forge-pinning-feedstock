@@ -22,8 +22,6 @@ __migrator:
       # https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/7472
       # must be last due to how cuda_compiler ordering in that migrator works
       - 11.8
-  wait_for_migrators:
-    - cuda129
   commit_message: |
     Upgrade to CUDA 13.0
     
@@ -53,10 +51,10 @@ c_stdlib_version:              # [(linux and (x86_64 or aarch64)) and os.environ
   - 2.28                       # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 c_compiler_version:            # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 14                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 15                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cxx_compiler_version:          # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 14                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 15                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 fortran_compiler_version:      # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 14                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 15                         # [(linux and (x86_64 or aarch64)) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]

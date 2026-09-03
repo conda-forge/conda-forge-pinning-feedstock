@@ -53,7 +53,12 @@ ast-grep
 ast-grep-py
 astra-toolbox
 astroid
+astromatic-psfex
+astromatic-scamp
+astromatic-skymaker
 astromatic-source-extractor
+astromatic-stiff
+astromatic-swarp
 astropy-healpix
 astroscrappy
 asv
@@ -64,6 +69,7 @@ atkmm
 atom
 audioread
 austin
+autobahn
 autoconf
 autode
 autodiff
@@ -89,12 +95,13 @@ bats-core
 bayes-filters-lib
 bayeswave
 bazel
+bblean
 bc
 bcolz
 bedtools
+beets
 benchmark
 bermuda
-beets
 bfg
 bilby.cython
 billiard
@@ -125,6 +132,7 @@ btrees
 buildbot
 bxdecay0
 bytewax
+cachebox
 cached_interpolate
 cadet
 caiman
@@ -165,6 +173,7 @@ cheetah3
 chemfiles-python
 chemicalite
 cherrypy
+chrony
 cif2hkl
 cis
 ciso
@@ -186,6 +195,7 @@ clingo-dl
 cloudpathlib
 clpeak
 cmake
+cmark-gfm
 cmarkgfm
 cmdstan
 cminpack
@@ -234,6 +244,7 @@ cppe
 cpppath
 cpptango
 cppunit
+cql2
 cram
 crc32c
 crest
@@ -273,6 +284,7 @@ datalad
 dataprep
 datavzrd
 datrie
+datui
 dav1d
 dbgpy
 dcm2niix
@@ -308,6 +320,7 @@ dioptas
 direnv
 dismod-at
 disperse
+distopia
 divemesh
 djvulibre
 dkh
@@ -326,6 +339,7 @@ docutils
 doit
 dos2unix
 doxygen
+dpct-meta
 dscribe
 dsps
 dssp
@@ -343,6 +357,7 @@ dxtbx
 dyff
 dynaphopy
 e1
+easychem
 easyocr
 eatpy
 ecflow
@@ -361,6 +376,7 @@ esi-core
 esmpy
 esptool
 esutil
+ete4
 euphonic
 eups
 exoplanet
@@ -371,19 +387,21 @@ extinction
 eza
 f2c
 fabmos
+fairlogger
 fairseq
 faiss-cpu
 faiss-split
 falcon
-fastcdc
 fast-histogram
 fast-query-parsers
 fast_hdbscan
 fastapi
 fastavro
 fastcache
+fastcdc
 fastcluster
 fastdtw
+fastframes
 fastjet-cxx
 fastnumbers
 fastparquet
@@ -391,6 +409,7 @@ fastpath
 fastremap
 fasttext
 faunus
+fbdfile
 fenics-dolfinx
 fiatlux
 file
@@ -410,6 +429,9 @@ fluidfft
 fluidfft-fftw
 fluidimage
 fluidsim
+flux
+flux-mirror
+flux-schema
 fonttools
 forcebalance
 forestci
@@ -467,6 +489,7 @@ git
 git-cliff
 git-crypt
 git-lfs
+giza
 glab
 glib
 glib-networking
@@ -479,6 +502,7 @@ gmatelastoplastic
 gmatelastoplasticfinitestrainsimo
 gmatnonlinearelastic
 gmattensor
+gmime
 gmp
 gmsh
 gmso
@@ -540,6 +564,7 @@ gtksourceview
 guardian
 gunicorn
 guppy3
+gwframe
 gwsurrogate
 gym
 gymnasium
@@ -676,6 +701,7 @@ laura
 lazrs-python
 lazy-object-proxy
 lazydocker
+lbzip2
 ldc
 lenstool
 less
@@ -825,8 +851,9 @@ mgrs
 micromamba
 midiutil
 mim-solvers
-minijinja
 mini-racer
+minify-html
+minijinja
 minuit2
 mitmproxy
 mitmproxy-rs
@@ -857,8 +884,10 @@ msgpack-cxx
 msgspec
 msitools
 msvc-headers-libs
+mu
 mujoco
 multicore-tsne
+multimark
 multinest
 multiprocess
 mumps
@@ -910,6 +939,7 @@ nn
 nnvm
 nodejs
 noise
+nono
 norse
 notebook
 nrel-pysam
@@ -917,6 +947,7 @@ nsync
 nuflux
 nuitka
 numba
+numba-cfunc-compiler
 numbalsoda
 numcosmo
 numexpr
@@ -960,6 +991,7 @@ openpnm
 openscenegraph
 openslide
 opentofu
+opentrustregion
 openturns
 openusd
 optional-lite
@@ -1046,8 +1078,10 @@ pexpect
 pexsi
 pgure-svt
 phantomjs
+phasorpy
 phono3py
 phonopy
+phonors
 photochem
 photospline
 photutils
@@ -1094,6 +1128,7 @@ prophet
 propka
 protobuf
 protozfits
+proxytunnel
 prrng
 psfex
 psi4
@@ -1104,6 +1139,7 @@ psychopy
 psycopg2
 psygnal
 ptpython
+ptufile
 pulp
 puma
 py-cpuinfo
@@ -1118,6 +1154,7 @@ py_gd
 py_rattler
 pyabel
 pyacvd
+pyafv
 pyagrum
 pyahocorasick
 pyarrow
@@ -1141,8 +1178,8 @@ pycurl
 pyddx
 pydeb
 pydelatin
-pydpc
 pydocket
+pydpc
 pyduktape2
 pyebsdindex
 pyeda
@@ -1161,6 +1198,7 @@ pyfmi
 pyfmmlib
 pyg4ometry
 pygal
+pygamma_n
 pygcgopt
 pygeoda
 pygeos
@@ -1245,6 +1283,7 @@ pysdl2
 pyshtools
 pyside2
 pysjef
+pyslang
 pysocks
 pysolid
 pyspf
@@ -1333,6 +1372,7 @@ qiskit-aer
 qiskit-terra
 qpdf
 qpoases
+qpoint
 qpot
 qscintilla2
 qsimcirq
@@ -1378,6 +1418,7 @@ r-compositions
 r-cubature
 r-cvxr
 r-dbarts
+r-dcifer
 r-deoptim
 r-desctools
 r-desolve
@@ -1398,6 +1439,7 @@ r-fst
 r-gap
 r-gensa
 r-getpass
+r-ggdist
 r-ggforce
 r-ggpubr
 r-glassofast
@@ -1451,6 +1493,7 @@ r-ncdf4
 r-obistools
 r-oce
 r-padr
+r-pander
 r-parallelDist
 r-parsedate
 r-pbapply
@@ -1526,6 +1569,7 @@ r-tzdb
 r-udunits2
 r-umap
 r-v8
+r-validate
 r-vcd
 r-vroom
 r-yardstick
@@ -1592,6 +1636,7 @@ safeint
 sage
 sagemaker-python-sdk
 samtools
+sans-topaz
 sasktran2
 sasview
 satgen
@@ -1653,6 +1698,7 @@ shellcheck
 shredx
 shrinkwrap
 siesta
+silicon
 simple-build-system
 simpleeval
 simpleitk
@@ -1661,6 +1707,7 @@ simplification
 six
 sixs_json
 skopeo
+slang-verilog
 sleef
 sleepecg
 slepc
@@ -1730,13 +1777,13 @@ tango-idl
 tango-test
 taplo
 tar
-tardigrade_error_tools
-tardigrade_vector_tools
 tardigrade_abaqus_tools
 tardigrade_constitutive_tools
+tardigrade_error_tools
+tardigrade_micromorphic_tools
 tardigrade_solver_tools
 tardigrade_stress_tools
-tardigrade_micromorphic_tools
+tardigrade_vector_tools
 tbb
 tblite-python
 tcplotter
@@ -1792,8 +1839,11 @@ triqs
 triqs_cthyb
 triqs_dft_tools
 triqs_tprf
+trzsz
 tsl_robin_map
 tslearn
+tssh
+tsshd
 tsv-utils
 turodbc
 twine
@@ -1812,6 +1862,7 @@ unicorn
 universal-ctags
 universal_pathlib
 uproc
+upterm
 upv
 uritools
 urllib3
@@ -1845,6 +1896,7 @@ vowpalwabbit
 vpython
 vulkan-loader
 wabt
+wasmtime-py
 watchfiles
 wcslib
 web3
@@ -1918,6 +1970,7 @@ yte
 ytop
 z5py
 zaber-motion
+zarf
 zarr
 zbar
 zchunk
@@ -1930,4 +1983,3 @@ zip
 zodbpickle
 zopfli
 zoxide
-easychem
