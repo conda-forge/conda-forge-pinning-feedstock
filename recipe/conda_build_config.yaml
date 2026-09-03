@@ -332,9 +332,9 @@ curl:
 dartsim_cpp:
   - '6.19'
 dav1d:
-  - 1.2.1
+  - '1.5.4'
 dav1d_devel:
-  - 1.2.1
+  - '1.5.4'
 davix:
   - '0.8'
 dbus:
