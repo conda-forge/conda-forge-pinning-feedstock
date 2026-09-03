@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for openssl 4
+  kind: version
+  migration_number: 1
+migrator_ts: 1781075708.7406845
+openssl:
+- '4'
