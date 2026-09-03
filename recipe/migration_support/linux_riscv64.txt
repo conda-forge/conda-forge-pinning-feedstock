@@ -16,6 +16,7 @@ jinja2
 libjpeg-turbo
 libpng
 libwebp
+lxml
 mamba
 maturin
 micromamba
