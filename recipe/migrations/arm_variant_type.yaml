@@ -48,11 +48,19 @@ __migrator:
         - arm-variant * {{ arm_variant_type }}  # [linux and aarch64 and cuda_compiler_version != "None"]
     ```
 
-    For v1 recipes, the work-around looks as follows:
+    For v1 recipes, recipes look as follows:
     ```yaml
-    context:
-      # ensure arm_variant_type gets detected as a used variable
-      touch_arm_variant_type: ${{ arm_variant_type if (linux and aarch64 and cuda_compiler_version != "None") else "None" }}
+    build:
+      variant:
+      # May be needed to ensure arm_variant_type gets detected as a used variable
+      use_keys:
+        - arm_variant_type
+
+    requirements:
+       build:
+         - ${{ compiler('cuda') }}
+         - if: linux and aarch64 and cuda_compiler_version != "None"
+           then: arm-variant * ${{ arm_variant_type }}
     ```
 
     Please read the conda-forge CUDA recipe guide for more information:
