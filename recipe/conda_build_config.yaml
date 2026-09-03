@@ -331,10 +331,10 @@ curl:
   - 8
 dartsim_cpp:
   - '6.19'
-dav1d:
-  - '1.5.4'
-dav1d_devel:
-  - '1.5.4'
+# Since v1.3.0, the dav1d feedstock has used a sonamed runtime library package to prevent
+# ABI breaks while allowing packags built against multiple versions of dav1d to co-exist.
+# dav1d:
+#   - '1.5.4'
 davix:
   - '0.8'
 dbus:
