@@ -187,6 +187,9 @@ zip_keys:
   -
     - root_base
     - root_cxx_standard
+  -
+    - clhep
+    - geant4
 
 # armv7l specifics because conda-build sets many things to centos 6
 # this can probably be removed when conda-build gets updated defaults
@@ -331,10 +334,10 @@ curl:
   - 8
 dartsim_cpp:
   - '6.19'
-dav1d:
-  - 1.2.1
-dav1d_devel:
-  - 1.2.1
+# Since v1.3.0, the dav1d feedstock has used a sonamed runtime library package to prevent
+# ABI breaks while allowing packags built against multiple versions of dav1d to co-exist.
+# dav1d:
+#   - '1.5.4'
 davix:
   - '0.8'
 dbus:
@@ -404,6 +407,8 @@ libgdal:
 libgdal_core:
   - '3.13'
 geant4:
+  - 10.7.4
+  - 11.3.2
   - 11.4.2
 geos:
   - 3.14.1
