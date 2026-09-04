@@ -1217,6 +1217,7 @@ sdf
 sdl
 sdl_image
 sdsl-lite
+selenium-manager
 seqan-library
 sfml
 shap
