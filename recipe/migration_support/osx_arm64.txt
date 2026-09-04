@@ -1544,6 +1544,7 @@ r-rsvg
 r-s2
 r-satellite
 r-scrypt
+r-secretbase
 r-seurat
 r-sf
 r-showtext
