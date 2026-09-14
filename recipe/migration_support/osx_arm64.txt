@@ -1554,6 +1554,7 @@ r-secretbase
 r-seurat
 r-sf
 r-showtext
+r-skpr
 r-slider
 r-sn
 r-sodium
