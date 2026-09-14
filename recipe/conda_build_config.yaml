@@ -175,6 +175,9 @@ docker_image:                                       # [os.environ.get("BUILD_PLA
   - quay.io/condaforge/linux-anvil-aarch64:alma10   # [os.environ.get("BUILD_PLATFORM") == "linux-aarch64" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "alma10"]
   - quay.io/condaforge/linux-anvil-ppc64le:alma10   # [os.environ.get("BUILD_PLATFORM") == "linux-ppc64le" and os.environ.get("DEFAULT_LINUX_VERSION", "alma10") == "alma10"]
 
+  # builds on RockyLinux 10
+  - quay.io/condaforge/linux-anvil-riscv64:rocky10   # [os.environ.get("BUILD_PLATFORM") == "linux-riscv64" and os.environ.get("DEFAULT_LINUX_VERSION", "rocky10") == "rocky10"]
+
 zip_keys:
   -                             # [unix]
     - c_compiler_version        # [unix]
