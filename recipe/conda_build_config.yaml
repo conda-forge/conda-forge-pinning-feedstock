@@ -1136,6 +1136,8 @@ ucx:
   - '1.22'
 uhd:
   - 4.10.0
+unibilium:
+  - 2.1.4
 urdfdom:
   - '5.1'
 vc:                    # [win]
