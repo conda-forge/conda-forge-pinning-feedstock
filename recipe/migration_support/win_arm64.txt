@@ -7,6 +7,8 @@ beads
 brotli
 brotlipy
 caddy
+certifi
+charset-normalizer
 cmake
 conda
 conda-build
@@ -25,6 +27,10 @@ gh-enhance
 git
 granted
 hclfmt
+hpack
+hyperframe
+h2
+idna
 ini-file
 k9s
 kitops
@@ -39,11 +45,15 @@ msgvault
 nomad
 ntfy
 octo-sts
+packaging
 pixi
 pixi-diff
 pixi-inject
 pixi-pack
+platformdirs
+pooch
 py-rattler
+pysocks
 rattler-build
 rattler-index
 s3-proxy
@@ -60,6 +70,8 @@ tflint
 trzsz
 tssh
 tsshd
+urllib3
 vhs
+win_inet_pton
 wishlist
 witr
