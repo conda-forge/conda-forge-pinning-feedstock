@@ -349,6 +349,7 @@ hurl
 hyperspy
 ibm_db
 idyntree
+ilastik-carving-tools
 imagecodecs
 iminuit
 implicit

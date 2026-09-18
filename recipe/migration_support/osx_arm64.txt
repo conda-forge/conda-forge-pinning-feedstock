@@ -629,6 +629,7 @@ idyntree
 igl
 igwn-cmake
 ijar
+ilastik-carving-tools
 imagecodecs-lite
 imagemagick
 img2pdf
