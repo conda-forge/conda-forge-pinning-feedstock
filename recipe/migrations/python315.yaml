@@ -31,6 +31,13 @@ __migrator:
         - python_abi
         # part of a cycle with pandas; converted to abi3 in the meantime
         - hypothesis
+        # converted to abi3 in the meantime
+        - pynacl
+        # was abi3 prior to to this migration
+        - nh3
+        - minijinja
+        # has always been abi3
+        - ast-serialize
     exclude_pinned_pkgs: false
     ignored_deps_per_node:
         matplotlib:
