@@ -29,3 +29,4 @@ rsync
 sed
 su-exec
 tini
+vhs
