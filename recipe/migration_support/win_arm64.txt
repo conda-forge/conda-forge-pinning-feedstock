@@ -26,6 +26,7 @@ gh
 gh-dash
 gh-enhance
 git
+gmpy2
 granted
 hclfmt
 importlib-metadata
@@ -36,6 +37,7 @@ ksops
 lefthook
 make
 mamba
+matplotlib
 micromamba
 minio-client
 minio-server
@@ -48,7 +50,6 @@ pixi
 pixi-diff
 pixi-inject
 pixi-pack
-pooch
 py-rattler
 rattler-build
 rattler-index
