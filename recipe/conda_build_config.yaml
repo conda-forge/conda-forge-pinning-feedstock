@@ -691,7 +691,7 @@ libode:
 libogg:
   - 1.3
 libonnx:
-  - 1.22.0
+  - 1.23.0
 libopencolorio:
   - '2.5'
 libopenimageio:
