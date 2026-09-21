@@ -34,6 +34,7 @@ __migrator:
         # converted to abi3 in the meantime
         - pynacl
         # was abi3 prior to to this migration
+        - nh3
         - minijinja
         # has always been abi3
         - ast-serialize
