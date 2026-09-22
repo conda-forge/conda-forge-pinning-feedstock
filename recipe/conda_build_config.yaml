@@ -576,6 +576,8 @@ libduckdb_devel:
   - '1'
 libeantic:
   - '2'
+libedit:
+  - '3.1'
 libevent:
   - 2.1.12
 libexactreal:
