@@ -352,6 +352,8 @@ eclib:
   - '20250627'
 eigen_abi_devel:
   - '5.0.1'
+editline:
+  - '1'
 elfutils:
   - '0.194'
 emela:
