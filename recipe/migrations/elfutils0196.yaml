@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for elfutils 0.196
+  kind: version
+  migration_number: 1
+elfutils:
+- '0.196'
+migrator_ts: 1788069228.021132

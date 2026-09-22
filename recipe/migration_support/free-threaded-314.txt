@@ -466,6 +466,7 @@ refnx
 regex
 regress
 reprozip
+resvg-py
 rignore
 ripser
 rjieba
