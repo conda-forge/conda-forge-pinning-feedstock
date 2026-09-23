@@ -1,0 +1,24 @@
+migrator_ts: 1790140405
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+  paused: true
+  longterm: true
+  override_cbc_keys:
+    - cuda_compiler_stub
+  operation: key_add
+  check_solvable: false
+  primary_key: cuda_compiler_version
+  wait_for_migrators:
+    - supportwindowsarm64platform
+  exclude_pinned_pkgs: false
+  commit_message: "Rebuild for CUDA on Windows on ARM"
+
+cuda_compiler:                 # [win and arm64]
+  - cuda-nvcc                  # [win and arm64]
+cuda_compiler_version:         # [win and arm64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 13.0                       # [win and arm64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
