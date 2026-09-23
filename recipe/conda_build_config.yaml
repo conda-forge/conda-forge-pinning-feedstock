@@ -905,7 +905,7 @@ numpy:
 obake_devel:
   - '0.9'
 occt:
-  - 8.0.0
+  - 8.0.1
 oneloop:
   - '3.7'
 openblas:
