@@ -1,3 +1,6 @@
+# Migrator for CUDA on Windows on ARM
+# Tracking Issue: https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/8944
+# Related PR: https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/8935
 migrator_ts: 1790140405
 __migrator:
   kind:
@@ -6,6 +9,8 @@ __migrator:
     1
   build_number:
     1
+  # Paused initially to test with candidate feedstocks (libmagma, cuda-python)
+  # See https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/8944
   paused: true
   longterm: true
   override_cbc_keys:
@@ -16,7 +21,7 @@ __migrator:
   wait_for_migrators:
     - supportwindowsarm64platform
   exclude_pinned_pkgs: false
-  commit_message: "Rebuild for CUDA on Windows on ARM"
+  commit_message: "Rebuild for CUDA on Windows on ARM (#8944)"
 
 cuda_compiler:                 # [win and arm64]
   - cuda-nvcc                  # [win and arm64]
