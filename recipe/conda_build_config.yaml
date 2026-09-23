@@ -353,7 +353,7 @@ eclib:
 eigen_abi_devel:
   - '5.0.1'
 editline:
-  - '1'
+  - '2'
 elfutils:
   - '0.194'
 emela:
