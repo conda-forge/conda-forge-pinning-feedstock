@@ -35,23 +35,23 @@ def test_c_stdlib_version_pinnings():
     )
     # linux default
     assert any(re.search(r"2\.17\s+#\s*\[linux and not riscv64\]", x) for x in lines), (
-        "Missing baseline pinning: 2.17 # [linux and not riscv64]"
+        "Could not find expected glibc pin: 2.17 # [linux and not riscv64]"
     )
     # linux-riscv64 started off with glibc 2.39
     assert any(re.search(r"2\.39\s+#\s*\[linux and riscv64\]", x) for x in lines), (
-        "Missing baseline pinning: 2.39 # [linux and riscv64]"
+        "Could not find expected glibc pin: 2.39 # [linux and riscv64]"
     )
     # linux & CUDA 12.9
     assert any(re.search(r"2\.17\s+#\s*\[linux.*CF_CUDA_ENABLED", x) for x in lines), (
-        "Missing baseline pinning: 2.17 # [linux ... CF_CUDA_ENABLED]"
+        "Could not find expected glibc pin for CUDA 12.x builds: 2.17"
     )
     # linux & CUDA 13.x
     assert any(re.search(r"2\.28\s+#\s*\[linux.*CF_CUDA_ENABLED", x) for x in lines), (
-        "Missing baseline pinning: 2.28 # [linux ... CF_CUDA_ENABLED]"
+        "Could not find expected glibc pin for CUDA 13.x builds: 2.28"
     )
     # osx
     assert any(re.search(r"11\.0\s+#\s*\[osx\]", x) for x in lines), (
-        "Missing baseline pinning: 11.0 # [osx]"
+        "Could not find expected macosx_deployment_target pin: 11.0 # [osx]"
     )
 
 
