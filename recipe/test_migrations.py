@@ -119,7 +119,11 @@ def test_timestamps_against_main():
             new_files = set()
             for line in ret.stdout.splitlines():
                 line = line.decode("utf-8").strip()
-                if os.path.basename(line):
+                if (
+                    line.startswith("recipe/migrations/")
+                    and line.endswith(".yaml")
+                    and os.path.basename(line)
+                ):
                     new_files.add(
                         os.path.join(
                             migrations_path,
