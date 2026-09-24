@@ -766,6 +766,8 @@ libsuitesparseconfig:
   - '7'
 libsuperiso:
   - '5.0'
+libsrtp2:
+  - 2.8.1
 libssh:
   - '0.12'
 libssh2:
