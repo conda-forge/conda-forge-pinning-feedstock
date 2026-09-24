@@ -83,11 +83,13 @@ def check_stdlib_pinnings(content: str):
             # 1. Linux baseline 2.17
             has_linux_217 = False
             for entry in entries:
-                if re.search(r"-\s*['\"]?2\.17['\"]?", entry) and "linux" in entry:
-                    # Ensure it is not restricted only to CUDA enabled
-                    if "CF_CUDA_ENABLED" not in entry:
-                        has_linux_217 = True
-                        break
+                if (
+                    re.search(r"-\s*['\"]?2\.17['\"]?", entry)
+                    and "linux" in entry
+                    and "CF_CUDA_ENABLED" not in entry
+                ):
+                    has_linux_217 = True
+                    break
             if not has_linux_217:
                 errors.append(
                     "c_stdlib_version is missing general baseline '2.17' for linux (e.g. '- 2.17  # [linux and not riscv64]')."
