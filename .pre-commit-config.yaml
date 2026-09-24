@@ -19,9 +19,17 @@ repos:
   hooks:
     - id: ruff-check
       args: [ --fix ]
-      files: recipe/test_migrations.py
+      files: recipe/test_.*\.py
     - id: ruff-format
-      files: recipe/test_migrations.py
+      files: recipe/test_.*\.py
+- repo: local
+  hooks:
+    - id: check-stdlib-pinnings
+      name: check stdlib baseline pinnings
+      entry: python recipe/test_stdlib_pinnings.py
+      language: python
+      files: ^recipe/conda_build_config\.yaml$
+      pass_filenames: false
 
 ci:
     autofix_commit_msg: |
