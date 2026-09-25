@@ -1,6 +1,7 @@
 7zip
 addlicense
 age
+awscli
 aws-vault
 backports.zstd
 beads
