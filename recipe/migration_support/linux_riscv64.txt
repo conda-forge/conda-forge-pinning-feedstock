@@ -12,6 +12,7 @@ conda-forge-ci-setup
 conda-libmamba-solver
 constructor
 coreutils
+ffmpeg
 git
 jinja2
 libjpeg-turbo
