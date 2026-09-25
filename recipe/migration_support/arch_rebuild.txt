@@ -1156,6 +1156,7 @@ r-tzdb
 r-ucminf
 r-urca
 r-uwot
+r-validate
 r-vegan
 r-vgam
 r-vroom
