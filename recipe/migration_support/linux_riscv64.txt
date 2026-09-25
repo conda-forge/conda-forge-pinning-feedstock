@@ -1,4 +1,5 @@
 anaconda-client
+awscli
 brotli-python
 cargo-auditable
 cargo-bundle-licenses
