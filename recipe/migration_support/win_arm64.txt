@@ -17,6 +17,7 @@ conda-deny
 conda-forge-ci-setup
 conda-mirror
 crush
+cuda
 dasel
 diffnav
 doggo
