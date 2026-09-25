@@ -16,6 +16,7 @@ conda-build
 conda-deny
 conda-forge-ci-setup
 conda-mirror
+conda-standalone
 crush
 dasel
 diffnav
@@ -52,6 +53,7 @@ pixi-diff
 pixi-inject
 pixi-pack
 py-rattler
+pyinstaller
 rattler-build
 rattler-index
 s3-proxy
