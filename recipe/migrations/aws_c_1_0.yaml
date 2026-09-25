@@ -1,0 +1,30 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for aws-c-* 1.0
+  kind: version
+  migration_number: 1
+  exclude_pinned_pkgs: false
+  automerge: true
+migrator_ts: 1790324704
+aws_c_auth:
+  - '1.0'
+aws_c_cal:
+  - '1.0'
+aws_c_common:
+  - '1.0'
+aws_c_compression:
+  - '1.0'
+aws_c_event_stream:
+  - '1.0'
+aws_c_http:
+  - '1.0'
+aws_c_io:
+  - '1.0'
+aws_c_mqtt:
+  - '1.0'
+aws_c_s3:
+  - '1.0'
+aws_c_sdkutils:
+  - '1.0'
+aws_checksums:
+  - '1.0'
