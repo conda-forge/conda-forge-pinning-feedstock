@@ -856,6 +856,8 @@ mkl:
 mkl_devel:
   - '2026'  # [not osx]
   - '2023'  # [osx]
+moab:
+  - '5.6'
 mpg123:
   - '1.33'
 mpich:
