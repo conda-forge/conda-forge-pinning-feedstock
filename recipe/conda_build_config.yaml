@@ -348,6 +348,8 @@ dcap:
   - 2.47
 delphes:
   - '3.5.1'
+double_down:
+  - '1.1'
 eclib:
   - '20250627'
 eigen_abi_devel:
