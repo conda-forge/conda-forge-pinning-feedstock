@@ -1135,6 +1135,8 @@ tbb_devel:
   - '2023'
 tensorflow:
   - "2.16"
+thepeg:
+  - '2.2'
 thrift_cpp:
   - 0.22.0
 tinyxml2:
