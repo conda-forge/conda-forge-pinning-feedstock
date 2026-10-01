@@ -348,10 +348,14 @@ dcap:
   - 2.47
 delphes:
   - '3.5.1'
+double_down:
+  - '1.1'
 eclib:
   - '20250627'
 eigen_abi_devel:
   - '5.0.1'
+editline:
+  - '2'
 elfutils:
   - '0.194'
 emela:
@@ -574,6 +578,8 @@ libduckdb_devel:
   - '1'
 libeantic:
   - '2'
+libedit:
+  - '3.1'
 libevent:
   - 2.1.12
 libexactreal:
@@ -703,9 +709,9 @@ libopentelemetry_cpp:
 libosqp:
   - 1.0.0
 libopenvino:
-  - 2026.3.1
+  - 2026.4.0
 libopenvino_dev:
-  - 2026.3.1
+  - 2026.4.0
 libparu:
   - '1'
 libpcap:
@@ -762,6 +768,8 @@ libsuitesparseconfig:
   - '7'
 libsuperiso:
   - '5.0'
+libsrtp2:
+  - 2.8.1
 libssh:
   - '0.12'
 libssh2:
@@ -850,6 +858,8 @@ mkl:
 mkl_devel:
   - '2026'  # [not osx]
   - '2023'  # [osx]
+moab:
+  - '5.6'
 mpg123:
   - '1.33'
 mpich:
@@ -901,7 +911,7 @@ numpy:
 obake_devel:
   - '0.9'
 occt:
-  - 8.0.0
+  - 8.0.1
 oneloop:
   - '3.7'
 openblas:
@@ -1125,6 +1135,8 @@ tbb_devel:
   - '2023'
 tensorflow:
   - "2.16"
+thepeg:
+  - '2.2'
 thrift_cpp:
   - 0.22.0
 tinyxml2:
@@ -1138,7 +1150,7 @@ ucc:
 ucx:
   - '1.22'
 uhd:
-  - 4.10.0
+  - 4.11.0
 unibilium:
   - 2.1.4
 urdfdom:
@@ -1156,9 +1168,9 @@ vmc:
 volk:
   - '3.3'
 vtk:
-  - 9.6.2
+  - 9.7.0
 vtk_base:
-  - 9.6.2
+  - 9.7.0
 wcslib:
   - '8'
 wxwidgets:
