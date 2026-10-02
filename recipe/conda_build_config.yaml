@@ -808,6 +808,8 @@ libvips:
   - 8
 libvpl:
   - '2.16'
+libvpx:
+  - '1.15'
 libwebp:
   - 1
 libwebp_base:
