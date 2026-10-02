@@ -2,6 +2,7 @@
 addlicense
 age
 aws-vault
+awscli
 backports.zstd
 beads
 brotli
