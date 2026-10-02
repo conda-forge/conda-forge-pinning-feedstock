@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libopenimageio 3.2
-  kind: version
-  migration_number: 1
-libopenimageio:
-- '3.2'
-migrator_ts: 1790965403.318934
