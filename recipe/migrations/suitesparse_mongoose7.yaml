@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for suitesparse_mongoose 7
+  kind: version
+  migration_number: 1
+migrator_ts: 1786751631.1174595
+suitesparse_mongoose:
+- '7'
