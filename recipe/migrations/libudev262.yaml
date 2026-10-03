@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libudev 262
+  kind: version
+  migration_number: 1
+libudev:
+- '262'
+migrator_ts: 1790241691.3891833
