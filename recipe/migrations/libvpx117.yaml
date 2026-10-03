@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libvpx 1.17
-  kind: version
-  migration_number: 1
-libvpx:
-- '1.17'
-migrator_ts: 1790964502.42145
