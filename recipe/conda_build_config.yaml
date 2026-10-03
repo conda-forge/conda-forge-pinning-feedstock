@@ -474,7 +474,7 @@ icu:
 idyntree:
   - '15'
 imath:
-  - 3.2.2
+  - 3.2.3
 impi_devel:
   - "2021.16.0"
 ipopt:
