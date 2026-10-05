@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libonnx 1.23.1
+  kind: version
+  migration_number: 1
+libonnx:
+- 1.23.1
+migrator_ts: 1791159917.3133929
