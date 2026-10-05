@@ -1,3 +1,4 @@
+import datetime
 import glob
 import os
 import subprocess
@@ -18,6 +19,17 @@ all_migration_ids = [os.path.basename(pth) for pth in all_migrations]
 print(f"Checking migrations in {migrations_path}", flush=True)
 
 
+def _migrator_ts_to_epoch(ts):
+    """Return a ``migrator_ts`` as seconds since the Unix epoch.
+
+    A ``migrator_ts`` written as an RFC 3339 date and time is loaded from YAML
+    as a datetime, one written as seconds since the epoch as a number.
+    """
+    if isinstance(ts, datetime.datetime):
+        return ts.timestamp()
+    return ts
+
+
 def test_all_extensions_are_yaml():
     assert set(migrations_path.glob("*.yml")) == set()
 
@@ -28,13 +40,25 @@ def test_readable(filename):
         yaml.load(f, Loader=yaml.SafeLoader)
 
 
-@pytest.mark.parametrize("filename", all_migrations, ids=all_migration_ids)
-def test_timestamps_numeric(filename):
+@pytest.mark.parametrize(
+    "filename",
+    all_migrations + [migrations_path / "example.exyaml"],
+    ids=all_migration_ids + ["example.exyaml"],
+)
+def test_timestamps_numeric_or_rfc3339(filename):
     with open(filename, "r", encoding="utf-8") as f:
         data = yaml.load(f, Loader=yaml.SafeLoader)
-        assert isinstance(data["migrator_ts"], (int, float)), (
-            "Migrator timestamp is not a float or int!"
-        )
+        ts = data["migrator_ts"]
+        if isinstance(ts, datetime.datetime):
+            # would otherwise be read in the local timezone of whoever rerenders
+            assert ts.tzinfo is not None, (
+                "Migrator timestamp does not include a UTC offset!"
+            )
+        else:
+            assert isinstance(ts, (int, float)), (
+                "Migrator timestamp is not a float, an int or an unquoted "
+                "RFC 3339 date and time!"
+            )
 
 
 @pytest.mark.parametrize("filename", all_migrations, ids=all_migration_ids)
@@ -51,10 +75,11 @@ def test_timestamps_unique_in_pr():
     for filename in all_migrations:
         with open(filename, "r", encoding="utf-8") as f:
             data = yaml.load(f, Loader=yaml.SafeLoader)
-            assert data["migrator_ts"] not in timestamps, (
+            ts = _migrator_ts_to_epoch(data["migrator_ts"])
+            assert ts not in timestamps, (
                 f"Migrator {os.path.basename(filename)} does not have a unique timestamp!"
             )
-            timestamps.add(data["migrator_ts"])
+            timestamps.add(ts)
 
 
 def test_timestamps_against_main():
@@ -138,13 +163,17 @@ def test_timestamps_against_main():
                     f"testing new migration {os.path.basename(filename)}",
                     flush=True,
                 )
+                ts = data["migrator_ts"]
+                if isinstance(ts, datetime.datetime):
+                    # as written in the file, up to the seconds
+                    ts = ts.strftime("%Y-%m-%dT%H:%M:%S")
                 ret = subprocess.run(
                     [
                         "git",
                         "--no-pager",
                         "log",
-                        "-G",
-                        f"^migrator_ts:[[:space:]]+{data['migrator_ts']!r}([[:space:]]+#|[[:space:]]*$)",
+                        "-S",
+                        f"migrator_ts: {ts}",
                     ],
                     check=True,
                     stdout=subprocess.PIPE,
