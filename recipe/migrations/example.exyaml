@@ -2,8 +2,10 @@
 # https://github.com/conda-forge/cfep/blob/main/cfep-09.md
 # The timestamp of when the migration was made
 # Can be obtained by copying the output of
-# python -c "import time; print(f'{time.time():.0f}')"
-migrator_ts: 0
+# date -Iseconds
+# which is your local time followed by its offset from UTC.
+# Seconds since the Unix epoch are accepted too.
+migrator_ts: 2026-10-01T09:30:00-04:00
 __migrator:
   kind: version
   # Only change the migration_number if the bot messes up,
