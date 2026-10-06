@@ -415,7 +415,7 @@ libgdal_core:
 geant4:
   - 10.7.4
   - 11.3.2
-  - 11.4.2
+  - 11.4.3
 geos:
   - 3.14.1
 geotiff:
@@ -697,7 +697,7 @@ libode:
 libogg:
   - 1.3
 libonnx:
-  - 1.23.1
+  - 1.23.2
 libopencolorio:
   - '2.5'
 libopenimageio:
@@ -822,6 +822,10 @@ libxml2:
   - '2.15'
 libxml2_devel:
   - '2.15'
+libxmlpp_4_0:
+  - '4.0'
+libxmlpp_5_0:
+  - '5.4'
 libxrootd_devel:
   - '6'
 libxsmm:
