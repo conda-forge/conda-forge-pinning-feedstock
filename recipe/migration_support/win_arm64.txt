@@ -21,6 +21,7 @@ crush
 dasel
 diffnav
 doggo
+ffmpeg
 flyctl
 gastown
 gh
