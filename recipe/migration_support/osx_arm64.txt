@@ -642,6 +642,7 @@ indicators
 inetutils
 infrared
 inja
+ink-md
 inspiral-range
 integratorxx
 ipopt
