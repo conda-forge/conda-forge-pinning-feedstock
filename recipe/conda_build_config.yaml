@@ -822,6 +822,10 @@ libxml2:
   - '2.15'
 libxml2_devel:
   - '2.15'
+libxmlpp_4_0:
+  - '4.0'
+libxmlpp_5_0:
+  - '5.4'
 libxrootd_devel:
   - '6'
 libxsmm:
