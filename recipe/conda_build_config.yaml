@@ -415,7 +415,7 @@ libgdal_core:
 geant4:
   - 10.7.4
   - 11.3.2
-  - 11.4.2
+  - 11.4.3
 geos:
   - 3.14.1
 geotiff:
