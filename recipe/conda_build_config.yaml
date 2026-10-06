@@ -822,8 +822,20 @@ libxml2:
   - '2.15'
 libxml2_devel:
   - '2.15'
+# The libxmlpp-4.0 and libxmlpp-5.0 package names contain a '.', so each needs
+# two spellings of its key that must be kept in sync:
+# * 'libxmlpp_X.0' for conda-build (v0 recipes), which only maps '-' to '_'
+# * libxmlpp_X_0 for rattler-build (v1 recipes), which also maps '.' to '_'
+#   and reports the used variant under that name, which is what conda-smithy
+#   then looks up in the pinning when rerendering.
+# The libxmlpp_X_0 keys can be removed once conda-smithy matches the key
+# reported by rattler-build to the 'libxmlpp_X.0' spelling.
+'libxmlpp_4.0':
+  - '4.0'
 libxmlpp_4_0:
   - '4.0'
+'libxmlpp_5.0':
+  - '5.4'
 libxmlpp_5_0:
   - '5.4'
 libxrootd_devel:
