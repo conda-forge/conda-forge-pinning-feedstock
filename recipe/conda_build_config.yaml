@@ -794,6 +794,8 @@ libtorch:
   - '2.12'
 libudev:
   - '257'
+libultrahdr:
+  - '2.0.2'
 libumfpack:
   - '6'
 libunwind:
