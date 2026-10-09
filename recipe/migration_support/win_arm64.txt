@@ -18,6 +18,7 @@ conda-forge-ci-setup
 conda-mirror
 conda-standalone
 crush
+cuda
 dasel
 diffnav
 doggo
