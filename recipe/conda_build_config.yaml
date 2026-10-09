@@ -334,6 +334,8 @@ cutensor:
   - 2
 curl:
   - 8
+dagmc:
+  - '3.2'
 dartsim_cpp:
   - '6.19'
 # Since v1.3.0, the dav1d feedstock has used a sonamed runtime library package to prevent
