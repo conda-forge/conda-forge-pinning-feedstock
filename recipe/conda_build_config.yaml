@@ -91,6 +91,20 @@ cuda_compiler_version_min:
 arm_variant_type:              # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - sbsa                       # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
+# HIP (ROCm) compiler. The `hip-rocm-clang_linux-64` package is provided by
+# hip-feedstock. Like CUDA, the non-None entry is only activated for recipes that
+# use `compiler('hip')`, via CF_HIP_ENABLED set by conda-smithy. `rocm_version`
+# is zipped with the compiler version and gives recipes the ROCm release to pin
+# `rocm-core` against.
+hip_compiler:
+  - hip-rocm-clang
+hip_compiler_version:
+  - None
+  - 7.2                        # [linux and x86_64 and os.environ.get("CF_HIP_ENABLED", "False") == "True"]
+rocm_version:
+  - None
+  - 7.2                        # [linux and x86_64 and os.environ.get("CF_HIP_ENABLED", "False") == "True"]
+
 _libgcc_mutex:
   - 0.1 conda_forge
 #
@@ -186,6 +200,9 @@ zip_keys:
     # CUDA 13.x requires newer glibc than our current baseline
     - c_stdlib_version          # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  -
+    - hip_compiler_version
+    - rocm_version
   -
     - python
     - is_python_min
