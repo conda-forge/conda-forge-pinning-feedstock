@@ -245,6 +245,7 @@ memray
 mergechannels
 mgrs
 minorminer
+mkl-service
 ml_dtypes
 mmh3
 mne-lsl
