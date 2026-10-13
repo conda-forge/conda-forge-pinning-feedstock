@@ -794,6 +794,8 @@ libtiff:
   - '4.7'
 libtorch:
   - '2.12'
+libtrintrin:
+  - '0.3'
 libudev:
   - '257'
 libultrahdr:
