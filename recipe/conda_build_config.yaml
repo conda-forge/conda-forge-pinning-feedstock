@@ -131,6 +131,18 @@ target_gobin:
 rust_compiler:
   - rust
 
+# OCaml Compiler Options
+ocaml_compiler:
+  - ocaml
+ocaml_compiler_version:
+  - 5.4.0
+
+# Zig Compiler Options
+zig_compiler:
+  - zig
+zig_compiler_version:
+  - 0.17.0
+
 # the numbers here are the Darwin Kernel version for macOS 10.9 & 11.0;
 # this is used to form our target triple on osx, and nothing else. After
 # we bumped the minimum macOS version to 10.13, this was left unchanged,
