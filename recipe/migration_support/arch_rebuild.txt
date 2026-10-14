@@ -1001,6 +1001,7 @@ r-mitools
 r-mixomics
 r-mixtools
 r-mnormt
+r-moire
 r-multicool
 r-mvnfast
 r-mvoutlier
