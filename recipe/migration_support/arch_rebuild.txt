@@ -1317,6 +1317,7 @@ traits
 treelite
 trexio
 trzsz
+tsdownsample
 tskit
 tsl_robin_map
 tssh
