@@ -1,0 +1,13 @@
+# qt6-webengine has not had a 6.12 release yet; it is now versioned
+# separately after its Chromium base (6.140), see
+# https://github.com/conda-forge/qt-webengine-feedstock/pull/103
+# Build against qt6-main 6.11 so packages stay co-installable with
+# qt6-webengine 6.11.
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for qt6_main 6.11
+  kind: version
+  migration_number: 1
+migrator_ts: 1792032617.6850755
+qt6_main:
+- '6.11'
