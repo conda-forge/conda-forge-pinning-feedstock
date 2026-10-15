@@ -71,12 +71,14 @@ clang_compiler:
   - clang-cl  # [win]
 clang_compiler_version:
   - 21
+  - 22                         # [linux and x86_64 and os.environ.get("CF_HIP_ENABLED", "False") == "True"]
 clangxx_compiler:
   - clangxx   # [unix]
   # stay compatible with MSVC
   - clang-cl  # [win]
 clangxx_compiler_version:
   - 21
+  - 22                         # [linux and x86_64 and os.environ.get("CF_HIP_ENABLED", "False") == "True"]
 
 cuda_compiler:
   - cuda-nvcc
@@ -90,6 +92,12 @@ cuda_compiler_version_min:
 
 arm_variant_type:              # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - sbsa                       # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+
+hip_compiler:
+  - hip-rocm-clang
+hip_compiler_version:
+  - None
+  - 7.2                        # [linux and x86_64 and os.environ.get("CF_HIP_ENABLED", "False") == "True"]
 
 _libgcc_mutex:
   - 0.1 conda_forge
@@ -198,6 +206,10 @@ zip_keys:
     # CUDA 13.x requires newer glibc than our current baseline
     - c_stdlib_version          # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
     - cuda_compiler_version     # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  -                             # [linux and x86_64 and os.environ.get("CF_HIP_ENABLED", "False") == "True"]
+    - hip_compiler_version      # [linux and x86_64 and os.environ.get("CF_HIP_ENABLED", "False") == "True"]
+    - clang_compiler_version    # [linux and x86_64 and os.environ.get("CF_HIP_ENABLED", "False") == "True"]
+    - clangxx_compiler_version  # [linux and x86_64 and os.environ.get("CF_HIP_ENABLED", "False") == "True"]
   -
     - python
     - is_python_min
