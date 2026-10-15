@@ -1494,6 +1494,7 @@ r-microbenchmark
 r-minpack.lm
 r-mirt
 r-mlr
+r-moire
 r-msm
 r-mvmorph
 r-mvnfast
