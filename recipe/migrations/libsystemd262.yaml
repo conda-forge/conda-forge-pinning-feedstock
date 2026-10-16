@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libsystemd 262
+  kind: version
+  migration_number: 1
+libsystemd:
+- '262'
+migrator_ts: 1790241460.5810747
