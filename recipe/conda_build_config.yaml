@@ -1065,7 +1065,7 @@ qt:
 qt_main:
   - 5.15
 qt6_main:
-  - '6'
+  - '6.11'
 qtkeychain:
   - '0.17'
 rav1e:
