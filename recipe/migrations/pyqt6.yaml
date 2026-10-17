@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for pyqt 6
+  kind: version
+  migration_number: 1
+migrator_ts: 1772101316.4535446
+pyqt:
+- '6'
