@@ -74,6 +74,7 @@ tomli
 trzsz
 tssh
 tsshd
+twine
 vhs
 wishlist
 witr
