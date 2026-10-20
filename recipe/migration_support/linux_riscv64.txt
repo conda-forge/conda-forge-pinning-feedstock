@@ -31,4 +31,5 @@ rsync
 sed
 su-exec
 tini
+twine
 vhs
