@@ -21,7 +21,9 @@ conda-standalone
 crush
 cuda
 cuda-python
+cudnn
 cupy
+cutlass
 dasel
 diffnav
 doggo
@@ -41,6 +43,7 @@ k9s
 kitops
 ksops
 lefthook
+llama.cpp
 make
 mamba
 matplotlib
@@ -73,6 +76,7 @@ spin
 sqlite-scanner
 subfinder
 tea
+tensorrt-tools
 termdbms
 tflint
 tomli
