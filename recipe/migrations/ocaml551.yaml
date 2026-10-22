@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for ocaml 5.5.1
+  kind: version
+  migration_number: 1
+ocaml_compiler_version:
+- 5.5.1
+migrator_ts: 1792684800.0
