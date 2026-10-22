@@ -29,6 +29,7 @@ pixi
 python
 rattler-build
 rsync
+sdl
 sed
 su-exec
 tini
