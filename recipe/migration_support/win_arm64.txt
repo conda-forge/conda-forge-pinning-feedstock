@@ -20,6 +20,7 @@ conda-mirror
 conda-standalone
 crush
 cuda
+cupy
 dasel
 diffnav
 doggo
@@ -50,6 +51,7 @@ msgvault
 nomad
 nsis
 ntfy
+nvmath-python
 octo-sts
 pixi
 pixi-diff
@@ -57,6 +59,7 @@ pixi-inject
 pixi-pack
 py-rattler
 pyinstaller
+pytorch
 rattler-build
 rattler-index
 s3-proxy
