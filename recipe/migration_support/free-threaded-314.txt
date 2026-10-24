@@ -246,6 +246,9 @@ mergechannels
 mgrs
 minorminer
 mkl-service
+mkl_fft
+mkl_random
+mkl_umath
 ml_dtypes
 mmh3
 mne-lsl
