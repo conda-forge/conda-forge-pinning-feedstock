@@ -1,6 +1,7 @@
 __migrator:
   build_number: 1
   commit_message: Rebuild for ocaml 5.5.1
+  include_build: true
   kind: version
   migration_number: 2
   override_cbc_keys:
