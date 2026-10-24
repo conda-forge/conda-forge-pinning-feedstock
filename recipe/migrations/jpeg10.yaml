@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for jpeg 10
+  kind: version
+  migration_number: 1
+jpeg:
+- '10'
+migrator_ts: 1769389218.7821732
