@@ -1,0 +1,8 @@
+migrator_ts: 2026-10-25T07:35:05+01:00
+__migrator:
+  commit_message: "Rebuild for aws-sdk-cpp 1.11.905"
+  kind: version
+  migration_number: 1
+  bump_number: 1
+aws_sdk_cpp:
+  - 1.11.905
