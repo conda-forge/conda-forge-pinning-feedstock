@@ -1,0 +1,7 @@
+migrator_ts: 2026-10-26T16:56:35+01:00
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+aws_c_io:
+  - 1.1
