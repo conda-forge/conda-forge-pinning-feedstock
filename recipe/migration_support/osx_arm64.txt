@@ -1319,7 +1319,7 @@ python-casacore
 python-cdo
 python-cityhash
 python-confluent-kafka
-python-constraint
+python-constraint2
 python-cppcolormap
 python-crfsuite
 python-dateutil
