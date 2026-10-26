@@ -112,6 +112,7 @@ discretize
 djc-core
 djlint
 dm-tree
+dpctl
 dscribe
 dtaidistance
 dtw-python
