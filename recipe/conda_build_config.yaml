@@ -1013,7 +1013,7 @@ postgresql:
 postgresql_plpython:
   - '18'
 proj:
-  - '9.8'
+  - '9.9'
 pulseaudio:
   - '17.0'
 pulseaudio_client:
