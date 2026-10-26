@@ -1319,6 +1319,7 @@ python-casacore
 python-cdo
 python-cityhash
 python-confluent-kafka
+python-constraint
 python-cppcolormap
 python-crfsuite
 python-dateutil
