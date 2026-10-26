@@ -23,12 +23,15 @@ lxml
 mamba
 maturin
 micromamba
+mold
 patch
 pip
 pixi
 python
 rattler-build
+roboplan
 rsync
+sccache
 sdl
 sed
 su-exec
