@@ -3,6 +3,11 @@ __migrator:
   commit_message: Rebuild for libarrow 26.0
   kind: version
   migration_number: 1
+  exclude:
+    - pyarrow
+    - r-arrow
+    - arrow-c-glib
+
 libarrow:
 - '26.0'
 - '25.0'
