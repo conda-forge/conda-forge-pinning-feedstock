@@ -30,6 +30,7 @@ doggo
 ffmpeg
 flyctl
 gastown
+gdal
 gh
 gh-dash
 gh-enhance
@@ -43,6 +44,7 @@ k9s
 kitops
 ksops
 lefthook
+libpdal
 llama.cpp
 make
 mamba
