@@ -1037,6 +1037,7 @@ parcels
 parmetis
 patch
 pathos
+pcodec
 pcraster
 pcst-fast
 pdf2svg
