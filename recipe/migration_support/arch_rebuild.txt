@@ -635,6 +635,7 @@ pandoc
 parallel
 parcels
 pathos
+pcodec
 pelicanplatform
 pennylane
 pennylane-lightning-gpu
