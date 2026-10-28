@@ -302,6 +302,7 @@ panda3d
 pandas
 partsegcore-compiled-backend
 patiencediff
+pcodec
 peprs
 perfmetrics
 phasorpy
