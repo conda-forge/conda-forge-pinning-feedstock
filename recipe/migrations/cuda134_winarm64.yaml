@@ -1,0 +1,27 @@
+# Piggyback migrator for CUDA on Windows on ARM
+# Tracking Issue: https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/8944
+# Prior draft: https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/8964
+migrator_ts: 2026-10-29T12:11:38-05:00
+__migrator:
+  kind:
+    version
+  migration_number:
+    1
+  build_number:
+    1
+  paused: true
+  longterm: true
+  override_cbc_keys:
+    - cuda_compiler_stub
+  operation: key_add
+  check_solvable: false
+  primary_key: cuda_compiler_version
+  wait_for_migrators:
+    - support windows arm64 platform
+  exclude_pinned_pkgs: false
+  commit_message: "Rebuild for CUDA 13.4 on Windows on ARM"
+
+cuda_compiler:                 # [win and arm64]
+  - cuda-nvcc                  # [win and arm64]
+cuda_compiler_version:         # [win and arm64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 13.4                       # [win and arm64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
