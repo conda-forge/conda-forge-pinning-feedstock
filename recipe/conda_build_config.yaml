@@ -346,6 +346,8 @@ cutensor:
   - 2
 curl:
   - 8
+cyclus:
+  - '1.6'
 dagmc:
   - '3.2'
 dartsim_cpp:
