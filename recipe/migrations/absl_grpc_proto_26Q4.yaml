@@ -3,7 +3,6 @@ __migrator:
   commit_message: Rebuild for libabseil 20260817 & libgrpc 1.85
   kind: version
   migration_number: 1
-  paused: true
   exclude:
     # core deps
     - abseil-cpp
