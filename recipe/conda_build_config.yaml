@@ -532,15 +532,15 @@ libamd:
 libarchive:
   - '3.8'
 libarrow:
+  - '26.0'
   - '25.0'
   - '24.0'
   - '23.0'
-  - '22.0'
 libarrow_all:
+  - '26.0'
   - '25.0'
   - '24.0'
   - '23.0'
-  - '22.0'
 libattr:
   - 2.6
 libavif:
