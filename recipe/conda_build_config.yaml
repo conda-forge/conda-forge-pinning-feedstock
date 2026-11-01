@@ -805,7 +805,7 @@ libtensorflow_cc:
 libtheora:
   - '1.2'
 libthrift:
-  - 0.22.0
+  - 0.25.0
 libtiff:
   - '4.7'
 libtorch:
@@ -1172,7 +1172,7 @@ tensorflow:
 thepeg:
   - '2.2'
 thrift_cpp:
-  - 0.22.0
+  - 0.25.0
 tinyxml2:
   - '11.0'
 tk:
