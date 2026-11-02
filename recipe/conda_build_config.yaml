@@ -857,7 +857,7 @@ liburing:
 libuuid:
   - 2
 libyarp:
-  - 3.12.2
+  - 3.12.3
 libzip:
   - 1
 lmdb:
