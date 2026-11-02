@@ -135,7 +135,7 @@ rust_compiler:
 ocaml_compiler:
   - ocaml
 ocaml_compiler_version:
-  - 5.4.0
+  - 5.5.1
 
 # Zig Compiler Options
 zig_compiler:
