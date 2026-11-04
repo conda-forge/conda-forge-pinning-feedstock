@@ -89,6 +89,7 @@ libgfortran-ng = """\
 posix = "Use of `posix` package on windows is deprecated. Use `m2-base`."
 magma = "The `magma` output has been superseded by `libmagma-devel`."
 openmp = "The `openmp` output has been superseded by `llvm-openmp`."
+pkg-config = """The use of `pkg-config` is deprecated. Please use `pkgconf` instead."""
 astropy = """\
     Recipes should usually depend on `astropy-base` as opposed to \
     `astropy`. `astropy-base` only has the required dependencies whereas \
