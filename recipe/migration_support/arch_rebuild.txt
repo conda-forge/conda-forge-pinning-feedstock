@@ -1303,6 +1303,7 @@ tiara
 tidy-html5
 tiktoken
 tiledb-py
+tilelang
 time
 timezonefinder
 tini
