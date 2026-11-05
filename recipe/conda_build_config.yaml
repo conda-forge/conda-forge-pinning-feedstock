@@ -278,19 +278,19 @@ aws_crt_cpp:
 aws_sdk_cpp:
   - 1.11.905
 azure_core_cpp:
-  - 1.16.3
+  - 1.16.4
 azure_identity_cpp:
   - 1.13.3
 azure_storage_blobs_cpp:
-  - 12.18.0
+  - 12.19.0
 azure_storage_common_cpp:
-  - 12.14.0
+  - 12.15.0
 azure_storage_files_datalake_cpp:
-  - 12.16.0
+  - 12.17.0
 azure_storage_files_shares_cpp:
-  - 12.18.0
+  - 12.19.0
 azure_storage_queues_cpp:
-  - 12.7.0
+  - 12.8.0
 brotli:
   - '1.2'
 bullet_cpp:
