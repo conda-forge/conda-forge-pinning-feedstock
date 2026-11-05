@@ -91,6 +91,12 @@ cuda_compiler_version_min:
 arm_variant_type:              # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - sbsa                       # [aarch64 and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
+hip_compiler:
+  - hip-rocm-clang
+hip_compiler_version:
+  - None
+  - 7.2
+
 _libgcc_mutex:
   - 0.1 conda_forge
 #
