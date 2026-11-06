@@ -1,7 +1,8 @@
-migrator_ts: 2026-10-26T16:56:35+01:00
 __migrator:
+  build_number: 1
+  commit_message: Rebuild for aws_c_io 1.1
   kind: version
   migration_number: 1
-  bump_number: 1
 aws_c_io:
-  - 1.1
+- '1.1'
+migrator_ts: 1794008238.9145792
