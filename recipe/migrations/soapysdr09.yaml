@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for soapysdr 0.9
+  kind: version
+  migration_number: 1
+migrator_ts: 1794007250.81988
+soapysdr:
+- '0.9'
