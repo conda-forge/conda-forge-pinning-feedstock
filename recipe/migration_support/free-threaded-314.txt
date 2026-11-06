@@ -224,6 +224,7 @@ lfdfiles
 libcst
 libopenvino-python
 libvalkey-py
+light-curve-python
 livekit-blingfire
 llguidance
 llvmlite
