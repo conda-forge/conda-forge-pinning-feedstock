@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for lol_html 3.0.3
+  kind: version
+  migration_number: 1
+lol_html:
+- 3.0.3
+migrator_ts: 1794008834.4965339
