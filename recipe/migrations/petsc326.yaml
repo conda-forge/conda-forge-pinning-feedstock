@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for petsc 3.26
+  kind: version
+  migration_number: 1
+migrator_ts: 1794007433.0304112
+petsc:
+- '3.26'
+petsc4py:
+- '3.26'
+slepc:
+- '3.26'
+slepc4py:
+- '3.26'
