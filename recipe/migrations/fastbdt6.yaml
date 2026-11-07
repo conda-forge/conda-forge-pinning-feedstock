@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for fastbdt 6
+  kind: version
+  migration_number: 1
+fastbdt:
+- '6'
+migrator_ts: 1788530610.4593422
