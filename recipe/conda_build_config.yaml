@@ -359,7 +359,7 @@ dartsim_cpp:
 davix:
   - '0.8'
 dawn:
-  - '20261030'
+  - '20261105'
 dbus:
   - 1
 dcap:
