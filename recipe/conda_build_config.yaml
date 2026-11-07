@@ -735,7 +735,7 @@ libparu:
 libpcap:
   - '1.10'
 libplacebo:
-  - '7.360'
+  - '7.387'
 libpnetcdf:
   - 1.15.0
 libpng:
