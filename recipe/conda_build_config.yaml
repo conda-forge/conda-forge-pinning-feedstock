@@ -1108,7 +1108,7 @@ scotch:
 ptscotch:
   - 7.0.11
 s2geography:
-  - 0.1.2
+  - '0.4'
 s2geometry:
   - '0.14'
 s2n:
