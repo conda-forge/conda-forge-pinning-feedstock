@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for openh264 2.7.0
-  kind: version
-  migration_number: 1
-migrator_ts: 1794008413.3830822
-openh264:
-- 2.7.0
