@@ -763,7 +763,7 @@ librdkit:
 librealsense:
   - '2.58'
 librerun_sdk:
-  - 0.35.0
+  - 0.42.0
 librsvg:
   - 2
 libsecret:
