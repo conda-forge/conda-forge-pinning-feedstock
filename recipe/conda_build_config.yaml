@@ -570,7 +570,7 @@ libcamd:
 libcap:
   - '2.78'
 libcint:
-  - '6.1'
+  - '6.2'
 libccolamd:
   - '3'
 libcholmod:

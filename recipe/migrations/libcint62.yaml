@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libcint 6.2
-  kind: version
-  migration_number: 1
-libcint:
-- '6.2'
-migrator_ts: 1794008651.2877514
