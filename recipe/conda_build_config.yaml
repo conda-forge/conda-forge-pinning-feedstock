@@ -668,6 +668,8 @@ libgsasl:
   - '2'
 libheif:
   - '1.23'
+libhiggstools:
+  - '1.3'
 libhiredis:
   - '1.3'
 libhugetlbfs:
