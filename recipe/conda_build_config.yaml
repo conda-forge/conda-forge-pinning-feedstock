@@ -821,7 +821,7 @@ libumfpack:
 libunwind:
   - '1.8'
 libutf8proc:
-  - '2.11'
+  - '2.12'
 libv8:
   - 8.9.83
 libvigra:
