@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for dawn 20261103
+  kind: version
+  migration_number: 1
+dawn:
+- '20261103'
+migrator_ts: 1793811050.2278173
