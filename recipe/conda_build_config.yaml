@@ -944,6 +944,8 @@ occt:
   - 8.0.1
 oneloop:
   - '3.7'
+onnxruntime_cpp:
+  - 1.31.1
 openblas:
   - 0.3.*
 openexr:
