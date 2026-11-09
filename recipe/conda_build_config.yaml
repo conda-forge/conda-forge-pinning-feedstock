@@ -855,7 +855,7 @@ libxrootd_devel:
 libxsmm:
   - '2'
 liburing:
-  - 2.14
+  - '2.15'
 libuuid:
   - 2
 libyarp:
