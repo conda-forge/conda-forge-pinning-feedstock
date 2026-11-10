@@ -1196,7 +1196,7 @@ urdfdom:
 vc:                    # [win]
   - 14                 # [win]
 vgm:
-  - '5.4'
+  - '5.5'
 vigra:
   - '1.12'
 vlfeat:
