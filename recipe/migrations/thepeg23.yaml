@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for thepeg 2.3
+  kind: version
+  migration_number: 1
+migrator_ts: 1794007552.7251022
+thepeg:
+- '2.3'
