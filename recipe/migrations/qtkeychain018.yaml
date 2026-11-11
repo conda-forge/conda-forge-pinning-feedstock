@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for qtkeychain 0.18
-  kind: version
-  migration_number: 1
-migrator_ts: 1794375668.7595797
-qtkeychain:
-- '0.18'
