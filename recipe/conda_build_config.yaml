@@ -492,7 +492,7 @@ hdf4:
 hdf5:
   - 1.14.6
 hdrhistogram_c:
-  - 0.11.10
+  - 0.12.1
 icu:
   - '78'
 idyntree:
