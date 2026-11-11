@@ -375,7 +375,7 @@ delphes:
 double_down:
   - '1.1'
 eclib:
-  - '20250627'
+  - '20261021'
 eigen_abi_devel:
   - '5.0.1'
 editline:
