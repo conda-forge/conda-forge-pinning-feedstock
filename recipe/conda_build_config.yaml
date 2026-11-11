@@ -1015,7 +1015,7 @@ libpdal_core:
 pixman:
   - 0
 poco:
-  - 1.15.3
+  - 1.15.4
 poppler:
   - '26.07'
 portaudio:
