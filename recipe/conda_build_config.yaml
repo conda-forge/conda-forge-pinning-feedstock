@@ -389,7 +389,7 @@ exiv2:
 expat:
   - 2
 fastbdt:
-  - '5.6'
+  - '6.0'
 fastjet_contrib:
   - '1'
 fastjet_cxx:
