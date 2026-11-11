@@ -1081,7 +1081,7 @@ qt_main:
 qt6_main:
   - '6.11'
 qtkeychain:
-  - '0.17'
+  - '0.18'
 rav1e:
   - '0.8'
 rdma_core:
