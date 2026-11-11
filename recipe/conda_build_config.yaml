@@ -1180,7 +1180,7 @@ tbb_devel:
 tensorflow:
   - "2.16"
 thepeg:
-  - '2.2'
+  - '2.3'
 thrift_cpp:
   - 0.25.0
 tinyxml2:
