@@ -1093,7 +1093,7 @@ readline:
 rivet:
   - '4.1'
 rocksdb:
-  - '11.0'
+  - '11.13'
 root_base:
   - 6.36.10
   - 6.38.4
