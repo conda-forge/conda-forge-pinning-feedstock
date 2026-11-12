@@ -1,0 +1,14 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for netcdf-cxx4 4.3.2
+  kind: version
+  migration_number: 1
+migrator_ts: 1794490747.3171296
+netcdf_cxx4:
+- 4.3.2
+# netcdf-cxx4 4.3.2 changed its soname (libnetcdf-cxx4.so.1 -> .so.3), so
+# patch releases are not ABI compatible.  Pin x.x.x rather than x.x.  See
+# https://github.com/conda-forge/netcdf-cxx4-feedstock/issues/73
+pin_run_as_build:
+  netcdf-cxx4:
+    max_pin: x.x.x
