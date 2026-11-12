@@ -522,7 +522,7 @@ libjxl:
 libev:
   - 4.33
 json_c:
-  - '0.18'
+  - '0.19'
 jsoncpp:
   - 1.9.8
 kealib:
