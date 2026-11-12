@@ -502,7 +502,7 @@ imath:
 impi_devel:
   - "2021.16.0"
 ipopt:
-  - 3.14.19
+  - 3.14.20
 isl:
   - '0.26'
 jasper:
