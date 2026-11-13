@@ -15,6 +15,7 @@ constructor
 coreutils
 ffmpeg
 git
+graphviz
 jinja2
 libjpeg-turbo
 libpng
