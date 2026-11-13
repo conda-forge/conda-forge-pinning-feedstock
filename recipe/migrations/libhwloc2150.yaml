@@ -2,7 +2,7 @@ __migrator:
   build_number: 1
   commit_message: Rebuild for libhwloc 2.15.0
   kind: version
-  migration_number: 1
+  migration_number: 2
 libhwloc:
 - 2.15.0
 migrator_ts: 1794007402.0872786
