@@ -5,7 +5,7 @@ c_compiler:
 # Please remember to update gcc_compiler_version & clang_compiler_version too.
 c_compiler_version:            # [unix]
   - 15                         # [linux]
-  - 21                         # [osx]
+  - 22                         # [osx]
   - 14                         # [linux and (x86_64 or aarch64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 15                         # [linux and (x86_64 or aarch64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 c_stdlib:
@@ -29,11 +29,11 @@ cxx_compiler:
 # Please remember to update gxx_compiler_version & clangxx_compiler_version too.
 cxx_compiler_version:          # [unix]
   - 15                         # [linux]
-  - 21                         # [osx]
+  - 22                         # [osx]
   - 14                         # [linux and (x86_64 or aarch64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 15                         # [linux and (x86_64 or aarch64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 llvm_openmp:                   # [osx]
-  - 21                         # [osx]
+  - 22                         # [osx]
 fortran_compiler:              # [unix or win]
   - gfortran                   # [unix]
   - flang                      # [win]
@@ -70,13 +70,13 @@ clang_compiler:
   # stay compatible with MSVC
   - clang-cl  # [win]
 clang_compiler_version:
-  - 21
+  - 22
 clangxx_compiler:
   - clangxx   # [unix]
   # stay compatible with MSVC
   - clang-cl  # [win]
 clangxx_compiler_version:
-  - 21
+  - 22
 
 cuda_compiler:
   - cuda-nvcc
