@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for impi_devel 2021.19.0
+  kind: version
+  migration_number: 1
+migrator_ts: 1794602324
+impi_devel:
+- "2021.19.0"
