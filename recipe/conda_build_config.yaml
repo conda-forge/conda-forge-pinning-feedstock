@@ -218,11 +218,7 @@ zip_keys:
     - geant4
 
 pin_run_as_build:
-  libblst:
-    max_pin: x.x
   netcdf-cxx4:
-    max_pin: x.x
-  vlfeat:
     max_pin: x.x.x
 
 # Pinning packages
@@ -923,7 +919,10 @@ nccl:
 ncurses:
   - 6
 netcdf_cxx4:
-  - 4.3
+  - 4.3.2
+# netcdf-cxx4 4.3.2 changed its soname (libnetcdf-cxx4.so.1 -> .so.3), so
+# patch releases are not ABI compatible.  Pin x.x.x rather than x.x.  See
+# https://github.com/conda-forge/netcdf-cxx4-feedstock/issues/73
 netcdf_fortran:
   - '4.6'
 nettle:
