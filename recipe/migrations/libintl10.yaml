@@ -1,0 +1,12 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libintl 1.0
+  kind: version
+  migration_number: 1
+gettext:
+- '1'  # [not win]
+libintl:
+- '1'  # [not win]
+libintl_devel:
+- '1'  # [not win]
+migrator_ts: 1794642944.3773298
