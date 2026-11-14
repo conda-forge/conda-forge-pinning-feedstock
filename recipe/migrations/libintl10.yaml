@@ -4,9 +4,12 @@ __migrator:
   kind: version
   migration_number: 1
 gettext:
-- '1'  # [not win]
+- '1'       # [unix]
+- '0.22'    # [win]
 libintl:
-- '1'  # [not win]
+- '1'       # [unix]
+- '0.22'    # [win]
 libintl_devel:
-- '1'  # [not win]
+- '1'       # [unix]
+- '0.22'    # [win]
 migrator_ts: 1794642944.3773298
