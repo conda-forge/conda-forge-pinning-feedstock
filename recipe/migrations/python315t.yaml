@@ -1,0 +1,47 @@
+migrator_ts: 1755739500
+__migrator:
+    commit_message: Rebuild for python 3.15 freethreading
+    migration_number: 1
+    operation: key_add
+    primary_key: python
+    ordering:
+        python:
+            - 3.9.* *_cpython
+            - 3.10.* *_cpython
+            - 3.11.* *_cpython
+            - 3.12.* *_cpython
+            - 3.13.* *_cp313
+            - 3.13.* *_cp313t
+            - 3.14.* *_cp314
+            - 3.14.* *_cp314t
+            - 3.15.* *_cp315
+            - 3.15.* *_cp315t   # new entry
+    longterm: true
+    pr_limit: 20
+    max_solver_attempts: 3  # this will make the bot retry "not solvable" stuff 12 times
+    exclude:
+        # this shouldn't attempt to modify the python feedstocks
+        - python
+        - pypy3.6
+        - pypy-meta
+        - cross-python
+        - python_abi
+    exclude_pinned_pkgs: false
+    # if feedstock already has 3.14t migrator this is redundant, but harmless
+    additional_zip_keys:
+        - is_freethreading
+        - is_abi3
+    wait_for_migrators:
+        - python315
+    # intentionally using the same set of packages as 3.14t, at least to start
+    allowlist_file: free-threaded-314.txt
+
+python:
+- 3.15.* *_cp315t
+# additional entries to add for zip_keys
+is_freethreading:
+- true
+is_python_min:
+- false
+is_abi3:
+- false
