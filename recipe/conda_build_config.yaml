@@ -440,6 +440,9 @@ geos:
   - 3.14.1
 geotiff:
   - '1.7'
+gettext:
+  - '0.25'  # [unix]
+  - '0.22'  # [win]
 gfal2:
   - '2.23'
 gflags:
@@ -682,6 +685,12 @@ libidn2:
   - 2
 libintervalxt:
   - 3
+libintl:
+  - '0.25'  # [unix]
+  - '0.22'  # [win]
+libintl_devel:
+  - '0.25'  # [unix]
+  - '0.22'  # [win]
 libitk_devel:
   - 5.4
 libklu:
