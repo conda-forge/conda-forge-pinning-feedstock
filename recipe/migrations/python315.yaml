@@ -18,6 +18,7 @@ __migrator:
             - 3.14.* *_cp314
             - 3.14.* *_cp314t
             - 3.15.* *_cp315  # new entry
+            - 3.15.* *_cp315t
     paused: false
     longterm: true
     pr_limit: 5
