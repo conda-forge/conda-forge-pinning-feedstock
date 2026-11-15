@@ -1,0 +1,11 @@
+migrator_ts: 2026-11-15T06:48:55+01:00
+__migrator:
+  kind: version
+  migration_number: 1
+  bump_number: 1
+  commit_message: Update aws-* (November'26)
+  automerge: true
+aws_c_http:
+  - "1.2"
+aws_checksums:
+  - 1.0.1
