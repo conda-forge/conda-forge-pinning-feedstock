@@ -11,3 +11,7 @@ aws_c_s3:
   - "1.5"
 aws_checksums:
   - 1.0.1
+aws_crt_cpp:
+  - 0.43.9
+s2n:
+  - 1.7.14
