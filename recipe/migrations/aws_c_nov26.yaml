@@ -7,5 +7,7 @@ __migrator:
   automerge: true
 aws_c_http:
   - "1.2"
+aws_c_s3:
+  - "1.5"
 aws_checksums:
   - 1.0.1
