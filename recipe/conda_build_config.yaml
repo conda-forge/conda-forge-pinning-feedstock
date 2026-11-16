@@ -28,7 +28,7 @@ cxx_compiler:
   - clangxx                    # [osx]
   - vs                         # [win]
 # Please remember to update gxx_compiler_version & clangxx_compiler_version too.
-cxx_compiler_version:          # [unix]
+cxx_compiler_version:
   - 15                         # [linux]
   - 21                         # [osx]
   - 2022                       # [win]
