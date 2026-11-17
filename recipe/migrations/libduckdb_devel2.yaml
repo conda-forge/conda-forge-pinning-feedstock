@@ -5,4 +5,6 @@ __migrator:
   migration_number: 1
 libduckdb_devel:
 - '2'
+libduckdb:
+- '2'
 migrator_ts: 1792633313.9305315
