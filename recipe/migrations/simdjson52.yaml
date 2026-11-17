@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for simdjson 5.2
-  kind: version
-  migration_number: 1
-migrator_ts: 1794726585.1924353
-simdjson:
-- '5.2'
