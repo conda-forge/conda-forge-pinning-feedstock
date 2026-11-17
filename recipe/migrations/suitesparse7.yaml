@@ -3,6 +3,8 @@ __migrator:
   commit_message: Rebuild for suitesparse 7
   kind: version
   migration_number: 1
+libamd:
+- '7'
 libbtf:
 - '7'
 libcamd:
