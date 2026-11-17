@@ -348,6 +348,8 @@ cutensor:
   - 2
 curl:
   - 8
+cycamore:
+  - '1.6'
 cyclus:
   - '1.6'
 dagmc:
