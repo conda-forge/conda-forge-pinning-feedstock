@@ -20,11 +20,17 @@ jinja2
 libjpeg-turbo
 libpng
 libwebp
+llama-cpp-python
+llama.cpp
 lxml
 mamba
 maturin
 micromamba
 mold
+onednn
+onnx
+onnxruntime
+opencv
 patch
 pip
 pixi
@@ -39,3 +45,4 @@ su-exec
 tini
 twine
 vhs
+vllm
