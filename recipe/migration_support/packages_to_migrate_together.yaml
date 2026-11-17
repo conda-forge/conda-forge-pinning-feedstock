@@ -12,6 +12,10 @@ coin_or_cbc:
   - coin_or_cbc
   - coincbc
 
+dav1d:
+  - dav1d
+  - dav1d_devel
+
 libgdal_core:
   - gdal
   - libgdal
@@ -33,6 +37,10 @@ libboost_devel:
 libcudnn_dev:
   - libcudnn_dev
   - cudnn
+
+libduckdb_devel:
+  - libduckdb_devel
+  - libduckdb
 
 libgoogle_cloud:
   - google_cloud_cpp

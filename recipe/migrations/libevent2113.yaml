@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libevent 2.1.13
+  kind: version
+  migration_number: 1
+libevent:
+- 2.1.13
+migrator_ts: 1794008355.9242003

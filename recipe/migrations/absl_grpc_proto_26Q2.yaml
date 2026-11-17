@@ -3,6 +3,7 @@ __migrator:
   commit_message: Rebuild for libabseil 20260526, libgrpc 1.82 & libprotobuf 7.35.1
   kind: version
   migration_number: 1
+  paused: true
   exclude:
     # core deps
     - abseil-cpp
@@ -17,12 +18,6 @@ __migrator:
     - singlejar
     # built manually beforehand due to enormous build time
     - pytorch-cpu
-libabseil:
-- 20260526
-libgrpc:
-- "1.82"
-libprotobuf:
-- 7.35.1
 # https://github.com/protocolbuffers/protobuf/commit/66a9ea7540ad7d3d0822ace6fc8d9ba6cd088c4d
 c_stdlib_version:   # [osx]
   - 12.0            # [osx]

@@ -40,6 +40,7 @@ apache-tvm-ffi
 apr
 apscheduler
 apsw
+arborx
 arcjetcv
 aria-tools
 arm_pyart
@@ -450,6 +451,9 @@ frictionqpotspringblock
 frozenlist
 fs-s3fs
 fsleyes
+fsspec-data
+fsspec-db
+fsspec-rs
 funcparserlib
 functorch
 fzf
@@ -626,6 +630,7 @@ idyntree
 igl
 igwn-cmake
 ijar
+ilastik-carving-tools
 imagecodecs-lite
 imagemagick
 img2pdf
@@ -701,6 +706,7 @@ laura
 lazrs-python
 lazy-object-proxy
 lazydocker
+lbzip2
 ldc
 lenstool
 less
@@ -916,6 +922,7 @@ nd2
 ndarray
 nds2-client-swig
 neovim
+nepenthe
 nest-simulator
 netcdf-cxx4
 netcdf4
@@ -1001,6 +1008,7 @@ orange3-network
 oras
 orc
 orderedset
+organizeit2
 orocos-kdl
 ortools-python
 osdf-client
@@ -1029,6 +1037,7 @@ parcels
 parmetis
 patch
 pathos
+pcodec
 pcraster
 pcst-fast
 pdf2svg
@@ -1104,9 +1113,9 @@ pmdarima
 pmw
 pocl
 poco
-podman
 poetry
 polars
+polars-io-tools
 polyagamma
 polycap
 polymer
@@ -1237,6 +1246,7 @@ pymediainfo
 pymeep
 pymeos-cffi
 pymol-open-source
+pymseed
 pymssql
 pymt
 pymupdf
@@ -1310,6 +1320,7 @@ python-casacore
 python-cdo
 python-cityhash
 python-confluent-kafka
+python-constraint2
 python-cppcolormap
 python-crfsuite
 python-dateutil
@@ -1485,6 +1496,7 @@ r-microbenchmark
 r-minpack.lm
 r-mirt
 r-mlr
+r-moire
 r-msm
 r-mvmorph
 r-mvnfast
@@ -1543,9 +1555,11 @@ r-rsvg
 r-s2
 r-satellite
 r-scrypt
+r-secretbase
 r-seurat
 r-sf
 r-showtext
+r-skpr
 r-slider
 r-sn
 r-sodium
@@ -1590,6 +1604,7 @@ re2c
 rectangle-packer
 redlionfish
 reef3d
+reflink
 regions
 rejected
 remage
@@ -1635,6 +1650,7 @@ safeint
 sage
 sagemaker-python-sdk
 samtools
+sans-topaz
 sasktran2
 sasview
 satgen
@@ -1726,6 +1742,7 @@ sourmash-minimal
 sox
 soxr-python
 spacy
+spaday
 spade
 spam
 spectrum
@@ -1828,6 +1845,7 @@ torchtext
 torchvision
 tracktable
 traits
+transports
 treecorr
 treelite
 trexio
@@ -1894,6 +1912,7 @@ vowpalwabbit
 vpython
 vulkan-loader
 wabt
+wasm-bindgen-cli
 wasmtime-py
 watchfiles
 wcslib

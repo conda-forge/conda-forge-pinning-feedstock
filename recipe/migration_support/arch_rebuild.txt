@@ -187,6 +187,7 @@ dataclasses
 datafusion
 datamash
 dataprep
+datatable
 datavzrd
 dav1d
 dbus
@@ -348,6 +349,7 @@ hurl
 hyperspy
 ibm_db
 idyntree
+ilastik-carving-tools
 imagecodecs
 iminuit
 implicit
@@ -606,6 +608,7 @@ openmotif
 openmpi
 openorbitaloptimizer
 openscenegraph
+opensees
 openslide
 openslide-python
 openssh
@@ -632,6 +635,7 @@ pandoc
 parallel
 parcels
 pathos
+pcodec
 pelicanplatform
 pennylane
 pennylane-lightning-gpu
@@ -756,6 +760,7 @@ pyload-ng
 pymatgen
 pymca
 pymol-open-source
+pymseed
 pymupdf
 pynacl
 pynisher
@@ -997,6 +1002,7 @@ r-mitools
 r-mixomics
 r-mixtools
 r-mnormt
+r-moire
 r-multicool
 r-mvnfast
 r-mvoutlier
@@ -1152,6 +1158,7 @@ r-tzdb
 r-ucminf
 r-urca
 r-uwot
+r-validate
 r-vegan
 r-vgam
 r-vroom
@@ -1174,6 +1181,7 @@ ray-packages
 rclone
 rdma-core
 rectangle-packer
+reflink
 remage
 reproc
 rerun-sdk
@@ -1216,12 +1224,14 @@ sdf
 sdl
 sdl_image
 sdsl-lite
+selenium-manager
 seqan-library
 sfml
 shap
 shellcheck
 shrinkwrap
 silicon
+simsimd
 singularity
 sirius-ms
 sixs
@@ -1255,6 +1265,7 @@ stardist
 starship
 statsforecast
 statsmodels
+stringzilla
 su-exec
 subfinder
 suitesparse
@@ -1292,6 +1303,7 @@ tiara
 tidy-html5
 tiktoken
 tiledb-py
+tilelang
 time
 timezonefinder
 tini
@@ -1307,6 +1319,7 @@ traits
 treelite
 trexio
 trzsz
+tsdownsample
 tskit
 tsl_robin_map
 tssh

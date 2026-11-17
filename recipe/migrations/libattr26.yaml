@@ -1,8 +1,0 @@
-__migrator:
-  build_number: 1
-  commit_message: Rebuild for libattr 2.6
-  kind: version
-  migration_number: 1
-libattr:
-- 2.6
-migrator_ts: 1785998598

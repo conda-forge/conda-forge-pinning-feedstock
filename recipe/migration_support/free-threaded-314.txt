@@ -112,6 +112,8 @@ discretize
 djc-core
 djlint
 dm-tree
+dpctl
+dpnp
 dscribe
 dtaidistance
 dtw-python
@@ -223,6 +225,7 @@ lfdfiles
 libcst
 libopenvino-python
 libvalkey-py
+light-curve-python
 livekit-blingfire
 llguidance
 llvmlite
@@ -245,6 +248,10 @@ memray
 mergechannels
 mgrs
 minorminer
+mkl-service
+mkl_fft
+mkl_random
+mkl_umath
 ml_dtypes
 mmh3
 mne-lsl
@@ -297,6 +304,7 @@ panda3d
 pandas
 partsegcore-compiled-backend
 patiencediff
+pcodec
 peprs
 perfmetrics
 phasorpy
@@ -400,6 +408,7 @@ pyoxigraph
 pyppmd
 pyproj
 pyproject-fmt
+pyrage
 pyresample
 pyroaring
 pyromark
@@ -465,6 +474,7 @@ refnx
 regex
 regress
 reprozip
+resvg-py
 rignore
 ripser
 rjieba

@@ -15,13 +15,13 @@ repos:
     - id: yamllint
       files: recipe\/migrations\/.*\.yaml
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.16.1
+  rev: v0.17.3
   hooks:
     - id: ruff-check
       args: [ --fix ]
-      files: recipe/test_migrations.py
+      files: recipe/test_.*\.py
     - id: ruff-format
-      files: recipe/test_migrations.py
+      files: recipe/test_.*\.py
 
 ci:
     autofix_commit_msg: |

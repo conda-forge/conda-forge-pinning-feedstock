@@ -12,8 +12,10 @@ __migrator:
             - 3.12.* *_cpython
             - 3.13.* *_cp313
             - 3.13.* *_cp313t
-            - 3.14.* *_cp314    # new entry
+            - 3.14.* *_cp314
             - 3.14.* *_cp314t   # new entry
+            - 3.15.* *_cp315
+            - 3.15.* *_cp315t
     longterm: true
     pr_limit: 20
     max_solver_attempts: 3  # this will make the bot retry "not solvable" stuff 12 times
@@ -25,6 +27,7 @@ __migrator:
         - cross-python
         - python_abi
         - matplotlib
+        - pyside2
     exclude_pinned_pkgs: false
     # if feedstock already has 3.13t migrator this is redundant, but harmless
     additional_zip_keys:
