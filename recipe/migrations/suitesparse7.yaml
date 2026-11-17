@@ -1,0 +1,18 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for suitesparse 7
+  kind: version
+  migration_number: 1
+libbtf:
+- '7'
+libcamd:
+- '7'
+libccolamd:
+- '7'
+libcholmod:
+- '7'
+libcolamd:
+- '7'
+suitesparse_mongoose:
+- '7'
+migrator_ts: 1794893263.341256
