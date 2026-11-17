@@ -600,7 +600,7 @@ libdeflate:
 libdovi:
   - '3'
 libduckdb_devel:
-  - '1'
+  - '2'
 libeantic:
   - '2'
 libedit:
