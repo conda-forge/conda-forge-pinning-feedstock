@@ -298,7 +298,7 @@ brotli:
 bullet_cpp:
   - 3.25
 bxdecay0:
-  - '1.2.0'
+  - 1.2.1
 bzip2:
   - 1
 c_ares:
