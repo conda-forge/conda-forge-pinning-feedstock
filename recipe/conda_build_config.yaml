@@ -533,7 +533,7 @@ kealib:
 krb5:
   - '1.22'
 ldas_tools_framecpp:
-  - '2.9'
+  - '4.1'
 libabseil:
   - 20260526
 libaec:
