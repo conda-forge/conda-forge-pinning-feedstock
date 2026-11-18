@@ -774,7 +774,7 @@ libraw:
 librbio:
   - '4'
 librdkafka:
-  - '2.15'
+  - '2.16'
 librdkit:
   - 2026.03.2
 librealsense:
