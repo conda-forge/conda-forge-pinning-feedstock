@@ -4,17 +4,19 @@ __migrator:
   kind: version
   migration_number: 1
 libamd:
-- '7'
+- '3'
 libbtf:
-- '7'
+- '2'
 libcamd:
-- '7'
+- '3'
 libccolamd:
-- '7'
+- '3'
 libcholmod:
-- '7'
+- '5'
 libcolamd:
+- '3'
+suitesparse:
 - '7'
 suitesparse_mongoose:
-- '7'
+- '3'
 migrator_ts: 1794893263.341256
