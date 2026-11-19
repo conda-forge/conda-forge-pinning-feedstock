@@ -734,7 +734,7 @@ libogg:
 libonnx:
   - 1.23.2
 libopencolorio:
-  - '2.5'
+  - '2.6'
 libopenimageio:
   - '3.2'
 libopencv:
