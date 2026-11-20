@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for gpgme 2.3
+  kind: version
+  migration_number: 1
+gpgme:
+- '2.3'
+migrator_ts: 1795198577.9719408
