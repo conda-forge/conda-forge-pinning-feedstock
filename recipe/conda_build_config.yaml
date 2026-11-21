@@ -474,7 +474,7 @@ google_cloud_cpp_common:
 googleapis_cpp:
   - '0.10'
 gpgme:
-  - '2.2'
+  - '2.3'
 graphviz:
   - '14'
 # Harfbuzz guarantees total ABI compatibiblity
