@@ -751,6 +751,8 @@ libparu:
   - '1'
 libpcap:
   - '1.10'
+libpinocchio:
+  - '4.1.0'
 libplacebo:
   - '7.387'
 libpnetcdf:
@@ -825,6 +827,8 @@ libthrift:
   - 0.25.0
 libtiff:
   - '4.7'
+libtoppra:
+  - '0.6.11'
 libtorch:
   - '2.14'
 libtrintrin:
@@ -927,6 +931,8 @@ mumps_seq:
   - 5.8.2
 mysql_devel:
   - '9.7'
+nanoflann:
+  - '2.0.2'
 nccl:
   - 2
 ncurses:
@@ -1038,6 +1044,8 @@ postgresql_plpython:
   - '18'
 proj:
   - '9.9'
+proxsuite:
+  - '0.8.3'
 pulseaudio:
   - '17.0'
 pulseaudio_client:
