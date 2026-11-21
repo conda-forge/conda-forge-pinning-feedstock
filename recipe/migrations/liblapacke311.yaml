@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for liblapacke 3.11
+  kind: version
+  migration_number: 1
+liblapacke:
+- '3.11'
+migrator_ts: 1786749113.8744771
