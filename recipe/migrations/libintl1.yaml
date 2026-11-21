@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libintl 1
+  kind: version
+  migration_number: 1
+libintl:
+- '1'
+migrator_ts: 1794928437.7236376
