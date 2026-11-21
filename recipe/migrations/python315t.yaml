@@ -28,6 +28,8 @@ __migrator:
         - python_abi
         # abi3 build that can already be installed with 3.15t
         - maturin
+        # https://github.com/conda-forge/conda-forge-bot/issues/7237
+        - brotli
     exclude_pinned_pkgs: false
     # if feedstock already has 3.14t migrator this is redundant, but harmless
     additional_zip_keys:
