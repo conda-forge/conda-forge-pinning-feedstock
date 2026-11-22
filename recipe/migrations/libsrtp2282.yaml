@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libsrtp2 2.8.2
+  kind: version
+  migration_number: 1
+libsrtp2:
+- 2.8.2
+migrator_ts: 1795382350.6997578
