@@ -968,6 +968,8 @@ obake_devel:
   - '0.9'
 occt:
   - 8.0.1
+octomap:
+  - '1.10'
 oneloop:
   - '3.7'
 onnxruntime_cpp:
