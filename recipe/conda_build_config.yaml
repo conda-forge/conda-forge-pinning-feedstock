@@ -1160,7 +1160,7 @@ shaderc:
 sherpa:
   - '3.0'
 simdjson:
-  - '5.2'
+  - '5.3'
 singular:
   - 4.4.1
 siscone:
