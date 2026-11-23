@@ -13,6 +13,7 @@ conda-forge-ci-setup
 conda-libmamba-solver
 constructor
 coreutils
+datasets
 ffmpeg
 git
 graphviz
