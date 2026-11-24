@@ -12,3 +12,9 @@ __migrator:
 migrator_ts: 1786742543.632387
 tk:
 - '9'
+libtk-devel:
+- '9'
+libtcl-devel:
+- '9'
+tcl:
+- '9'
