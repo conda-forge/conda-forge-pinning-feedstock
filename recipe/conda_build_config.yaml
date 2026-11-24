@@ -1237,6 +1237,8 @@ vtk:
   - 9.7.0
 vtk_base:
   - 9.7.0
+vulkanscenegraph:
+  - 1.1.16
 wcslib:
   - '8'
 wxwidgets:
