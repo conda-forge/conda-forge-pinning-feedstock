@@ -14,5 +14,7 @@ aws_checksums:
   - 1.0.1
 aws_crt_cpp:
   - 0.43.9
+aws_sdk_cpp:
+  - 1.11.931
 s2n:
   - 1.7.14
