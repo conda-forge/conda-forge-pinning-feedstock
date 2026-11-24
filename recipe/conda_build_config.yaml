@@ -967,7 +967,7 @@ numpy:
 obake_devel:
   - '0.9'
 occt:
-  - 8.0.1
+  - 8.0.2
 octomap:
   - '1.10'
 oneloop:
