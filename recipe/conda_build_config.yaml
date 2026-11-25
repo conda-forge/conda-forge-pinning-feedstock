@@ -999,7 +999,7 @@ osqp_eigen:
 pango:
   - '1'
 pari:
-  - 2.17.* *_pthread
+  - '2.19'
 pcl:
   - 1.15.1
 perl:
