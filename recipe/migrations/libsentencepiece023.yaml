@@ -1,0 +1,8 @@
+__migrator:
+  build_number: 1
+  commit_message: Rebuild for libsentencepiece 0.2.3
+  kind: version
+  migration_number: 1
+libsentencepiece:
+- 0.2.3
+migrator_ts: 1795601703.9854226
