@@ -266,21 +266,21 @@ aws_c_compression:
 aws_c_event_stream:
   - '1.0'
 aws_c_http:
-  - '1.0'
+  - "1.2"
 aws_c_io:
   - 1.1
 aws_c_mqtt:
   - '1.0'
 aws_c_s3:
-  - '1.1'
+  - "1.5"
 aws_c_sdkutils:
   - '1.0'
 aws_checksums:
-  - '1.0'
+  - 1.0.1
 aws_crt_cpp:
-  - '0.43.8'
+  - 0.43.9
 aws_sdk_cpp:
-  - 1.11.905
+  - 1.11.931
 azure_core_cpp:
   - 1.16.4
 azure_identity_cpp:
@@ -1144,7 +1144,7 @@ s2geography:
 s2geometry:
   - '0.14'
 s2n:
-  - 1.7.13
+  - 1.7.14
 sdl2:
   - '2'
 sdl2_image:
