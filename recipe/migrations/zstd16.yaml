@@ -3,6 +3,12 @@ __migrator:
   commit_message: Rebuild for zstd 1.6
   kind: version
   migration_number: 1
+  exclude:
+    # bot misdetects a cycle
+    - binutils  # build-only dep for python
+    - cmake
+    - curl
+    - llvmdev
 migrator_ts: 1795498666.105089
 zstd:
 - '1.6'
