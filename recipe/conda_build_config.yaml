@@ -306,7 +306,7 @@ bzip2:
 c_ares:
   - 1
 c_blosc2:
-  - '3.8'
+  - '3.9'
 cairo:
   - 1
 calchep:
