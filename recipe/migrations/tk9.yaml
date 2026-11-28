@@ -1,0 +1,20 @@
+__migrator:
+  build_number: 1
+  commit_message: |
+    Rebuild for tk 9
+
+    Hint: if your package links against tk (C/C++ libraries/headers),
+    please use `libtk-devel` in host requirements instead of `tk`.
+    The `tk` package now only contains the `wish` executable; the shared
+    library and runtime scripts are in `libtk` (e.g. tkinter only needs `libtk`).
+  kind: version
+  migration_number: 1
+migrator_ts: 1786742543.632387
+tk:
+- '9'
+libtk-devel:
+- '9'
+libtcl-devel:
+- '9'
+tcl:
+- '9'
